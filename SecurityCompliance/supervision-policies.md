@@ -25,43 +25,83 @@ Supervision policies in Office 365 allow you to capture employee communications 
 
 Supervision policies can assist your organization in several areas:
 
-- **Regulatory compliance:** most organizations have to comply with some type of regulatory compliance standards as part of their normal operating procedures. These regulations often require organizations to implement some type of supervisory or oversight process for messaging that is appropriate for their industry. Supervision policies can help your organization meet these requirements by providing a process to both monitor and report on corporate communications.
-- **Risk management:** organizations are responsible to all communications distrubuted throughout their infrastructure and corporate network systems. Using supervision policies to help identify and manage potential legal exposure and risk can help minimize risks before they can damage corporate operations.
-- **Corporate policies:** employees must comply with acceptable use, ethical standards, and other corporate policies in all their business-related communications. Supervision policies can detect policy violations and help you take corrective actions to help mitigate these types of incidents.
+- **Regulatory compliance**
 
-# Supervision policies
+    Most organizations have to comply with some type of regulatory compliance standards as part of their normal operating procedures. These regulations often require organizations to implement some type of supervisory or oversight process for messaging that is appropriate for their industry. Supervision policies can help your organization meet these requirements by providing a process to both monitor and report on corporate communications.
+
+- **Risk management**
+
+    Organizations are responsible to all communications distributed throughout their infrastructure and corporate network systems. Using supervision policies to help identify and manage potential legal exposure and risk can help minimize risks before they can damage corporate operations.
+
+- **Corporate policies:**
+
+    Employees must comply with acceptable use, ethical standards, and other corporate policies in all their business-related communications. Supervision policies can detect policy violations and help you take corrective actions to help mitigate these types of incidents.
+
+# Feature components
 
 ## Supervision policy
 
 You'll create supervision policies in the Security &amp; Compliance Center. These policies define which communications are subject to review in your organization, define custon conditions that the communications must meet, and specifies who should perform reviews. Users included in the Supervisory Review role group can set up policies and anyone who has this role assigned can access the Supervision page under Data Governance in the Office 365 Security & Compliance Center.
 
-## Supervised users and supervised groups
+## Supervised users
 
-Before you start using supervision, you'll need to determine who will have their communications reviewed. All users monitored by supervision policies must have either an Office 365 Enterprise E3 license with the Advanced Compliance add-on or be included in an Office 365 Enterprise E5 subscription. If you don't have an existing Enterprise E5 plan and want to try supervision, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279).
+Before you start using supervision, you'll need to determine who will have their communications reviewed. In the policy, you'll use user email addresses to identify individuals or groups of people to supervise.
 
-## Reviewers and review groups
+All users monitored by supervision policies must have either an Office 365 Enterprise E3 license with the Advanced Compliance add-on or be included in an Office 365 Enterprise E5 subscription. If you don't have an existing Enterprise E5 plan and want to try supervision, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279).
+
+## Reviewers
+When you create a supervision policy, you'll also determine who will perform the reviews of the messages of the supervised users. In the policy, you'll use user email addresses to identify individuals or groups of people to review supervised communications.
+
+## Supervised user and reviewer groups
+
+To simplify your setup, create groups for people who will have their communication reviewed and groups for people who will review those communications. If you're using groups, you might need several—for example, if you want to monitor communications between two distinct groups of people, or if you want to specify a group that isn't going to be supervised. See [Example distribution groups](supervision-policies.md#GroupExample) for details about how this works.
+
+To supervise communications between or within groups in your organization, set up distribution groups in the Exchange admin center (go to **recipients** \> **groups**). For more information about setting up distribution groups, see [Manage distribution groups](http://go.microsoft.com/fwlink/?LinkId=613635)
+  
+> [!NOTE]
+> You can also use dynamic distribution groups or security groups for supervision if you prefer. To help you decide if these better fit your organization needs, see [Manage mail-enabled security groups](http://go.microsoft.com/fwlink/?LinkId=627033), and [Manage dynamic distribution groups](http://go.microsoft.com/fwlink/?LinkId=627058).
+
+### Example distribution groups
+<a name="GroupExample"> </a>
+
+This example includes a distribution group that has been set up for a financial organization called Contoso Financial International.
+  
+In Contoso Financial International, a sampling of communications between brokers in the United States must be supervised. However, compliance officers within that group do not require supervision. For this example, we can create the following groups:
+  
+|**Set up this distribution group**|**Group address (alias)**|**Description**|
+|:-----|:-----|:-----|
+|All US brokers | US_Brokers@Contoso.com | This group includes email addresses for all US-based brokers who work for Contoso. |
+| All US compliance officers | US_Compliance@Contoso.com  | This group includes email addresses for all US-based compliance officers who work for Contoso. Because this group is a subset of all US-based brokers, you can use this alias to exempt compliance officers from a supervision policy. |
 
 ## Supported communication types
 
+With supervision policies, you can choose to monitor messages in one or more of the following communication platforms:
+
+- **Exchange email:** Mailboxes that are hosted on Exchange Online as part of your Office 365 subscription are all eligible for message supervision.
+- **Teams Channels:** Chat communications in both public and private Microsoft Teams channels can be supervised.
+- **Third-party sources:** You can supervise communications from third-party sources (like from Facebook or DropBox) if you've imported this data into Office 365 mailboxes in your organization. [Learn how to import 3rd-party data into Office 365](https://docs.microsoft.com/office365/securitycompliance/archiving-third-party-data).
 
 ## Policy settings
 
 ### Direction
-- **Inbound** - Choose **Inbound** to review communications that are sent **to** the people you chose to supervise **from** people not included in the policy.
-- **Outbound** - Choose **Outbound** if you want to review communications that are sent **from** the people you chose to supervise ** to ** people not included in the policy.
-- **Internal** - Choose **Internal** to review communications sent **between** the people you identified in the policy.
+
+Communication direction settings in a policy can be chosen individually or together:
+
+- **Inbound** - You can choose **Inbound** to review communications that are sent **to** the people you chose to supervise **from** people not included in the policy.
+- **Outbound** - You can choose **Outbound** if you want to review communications that are sent **from** the people you chose to supervise **to** people not included in the policy.
+- **Internal** - You can choose **Internal** to review communications sent **between** the people you identified in the policy.
 
 ### Conditional settings
 
-The conditions you choose will apply to communications from both email and 3rd-party sources in your organization (like from Facebook or DropBox). For details about importing 3rd-party communications into your Office 365 organization, see [Archiving third-party data in Office 365](https://technet.microsoft.com/EN-US/library/mt621583.aspx).
-  
+The conditions you choose for the policy will apply to communications from both email and 3rd-party sources in your organization (like from Facebook or DropBox).
+
 The following table explains more about each condition.
   
 |**Condition**|**How to use this condition**|
 |:-----|:-----|
-|Message is received from any of these domains  <br><br> Message is not received from any of these domains | need description |
-|Message is sent to any of these domains  <br><br> Message is not sent to  any of these domains | need description |
-|Message is classified with any of these labels  <br><br> Message is not classified with any of these labels | need description |
+|Message is received from any of these domains  <br><br> Message is not received from any of these domains | To apply the policy when certain domains are included or excluded in a received message, enter each domain and separate multiple domains with a comma. Each domain you enter will be applied separately (only one of these domains must apply for the policy to apply to the message). |
+|Message is sent to any of these domains  <br><br> Message is not sent to  any of these domains | To apply the policy when certain domains are included or excluded in a sent message, enter each domain and separate multiple domains with a comma. Each domain you enter will be applied separately (only one of these domains must apply for the policy to apply to the message). |
+|Message is classified with any of these labels  <br><br> Message is not classified with any of these labels | To apply the policy when certain retention labels are included or excluded in a message. Retention labels must be configured separately and configured labels can be chosen as part of this condition. Each label you choose will be applied separately (only one of these labels must apply for the policy to apply to the message). For more information about configuring retention labels, see [Overview of retention labels](https://docs.microsoft.com/office365/securitycompliance/labels).|
 |Message contains any of these words  <br><br> Message contains none of these words | To apply the policy when certain words or phrases are included or excluded in a message, enter each word or phrase on a separate line. Each line of words you enter will be applied separately (only one of these lines must apply for the policy to apply to the message). For more information about entering words or phrases, see the next section [Matching words and phrases to emails or attachments](configure-supervision-policies.md#Matchwords).|
 |Attachment contains any of these words  <br><br> Attachment contains none of these words | To apply the policy when certain words or phrases are included or excluded in a message attachment (such as a Word document), enter each word or phrase on a separate line. Each line of words you enter will be applied separately (only one line must apply for the policy to apply to the attachment). For more information about entering words or phrases, see the next section [Matching words and phrases to emails or attachments](configure-supervision-policies.md#Matchwords).|
 |Attachment is any of these file types  <br><br> Attachment is none of these file types | To supervise communications that include or exclude specific types of attachments, enter the file extensions (such as .exe or .pdf). If you want to include or exclude multiple file extensions, enter these on separate lines. Only one attachment extension needs to match for the policy to apply.|
@@ -90,8 +130,6 @@ You can specify a percentage of all the communications governed by a supervision
 
 ### Exclusions
 
-### Retention labels
-
 ### Sensitive information types
 
 - Default types: Financial, Medical and health, Privacy, Custom
@@ -99,9 +137,39 @@ You can specify a percentage of all the communications governed by a supervision
 
 ### Custom keyword dictionaries
 
-# Monitoring
+# Monitoring & reporting
 
-## Dashboard management in Office 365
+Monitoring the results of your supervision policies and applying a resolution tag is easy and convenient. You can quickly see the status of reviewed items, the users and groups under supervision, and the users and groups designated as reviewers.
+
+## Supervision policy dashboard
+
+The easiest way to manage supervision policy results and to resolve outstanding items is to use the supervision policy dashboard. This dashboard allows reviewers to quickly see the items that need to be reviewed, as well as the results of previously reviewed and resolved items for each supervision policy. You can access the supervision policy dashboard in the Office 365 Security & Compliance Center  at **Data governance** > **Supervision** > *Your Custom Policy* > **Open**.
+
+### Dashboard Home
+
+The dashboard **Home** page has several sections to help you quickly take action on your supervision policies. Here you can:
+
+- Quickly review the pending and resolved highlights for the week
+- See a list of the supervised users and supervised groups for the selected policy
+- See a list of the reviewers and review teams for the selected policy
+- See which communication platforms have content under supervision for the policy.
+
+### Supervise page
+
+The **Supervise** page is where reviewers can take action and resolve items identified by the selected policy. Here you can:
+
+- Filter by pending, compliant, non-compliant, and questionable items
+- Tag a single item as compliant, non-compliant, or questionable. You can also record a comment with the item to help clarify the tagging action taken.
+- Bulk tag multiple items as compliant, non-compliant, or questionable. You can also record a comment with multiple items to help clarify the tagging action taken.
+- View the history of the tagging for a single item, including who resolved the item, the date and time of the action, the resolution tag, and any included comments.
+- Reclassify previously reviewed items as compliant, non-compliant, or questionable. You can also record a comment with single or multiple items to help clarify the reclassification action taken.
+
+### Resolved Items page
+
+The **Resolved Items** page is where reviewers can view all previously resolved items for the selected policy. Here you can:
+
+- Quickly view and sort the subject, sender, and date of resolved items.
+- View the classification and comment history of any selected item
 
 ## Message review & tagging
 
