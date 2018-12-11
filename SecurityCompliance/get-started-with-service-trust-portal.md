@@ -3,7 +3,7 @@ title: "Get started with the Microsoft Service Trust Portal"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 6/26/2018
+ms.date: 
 ms.audience: Admin
 ms.topic: overview
 ms.service: o365-administration
@@ -109,6 +109,10 @@ This site provides information about the capabilities in Microsoft services that
   
  - **Office 365 Security and Compliance Center** offers comprehensive resources for learning about security and compliance in Office 365, including documentation, articles, and recommended best practices. 
   
+### My Library
+
+
+
 ### Admin
 
 Administrative functions that are only available to the tenant administrator account, and will only be visible when you are signed in as a global administrator.
