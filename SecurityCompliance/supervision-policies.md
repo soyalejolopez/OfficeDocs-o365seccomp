@@ -45,11 +45,12 @@ You'll create supervision policies in the Security &amp; Compliance Center. Thes
 
 ## Supervised users
 
-Before you start using supervision, you'll need to determine who will have their communications reviewed. In the policy, you'll use user email addresses to identify individuals or groups of people to supervise.
+Before you start using supervision, you'll need to determine who will have their communications reviewed. In the policy, you'll use user email addresses to identify individuals or groups of people to supervise. You also have the ability to exclude specific users or groups from supervision that are included within a supervised group or a list of groups.
 
 All users monitored by supervision policies must have either an Office 365 Enterprise E3 license with the Advanced Compliance add-on or be included in an Office 365 Enterprise E5 subscription. If you don't have an existing Enterprise E5 plan and want to try supervision, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279).
 
 ## Reviewers
+
 When you create a supervision policy, you'll also determine who will perform the reviews of the messages of the supervised users. In the policy, you'll use user email addresses to identify individuals or groups of people to review supervised communications.
 
 ## Supervised user and reviewer groups
@@ -119,23 +120,28 @@ Each line of words you enter will be applied separately (only one line must appl
 If you enter multiple conditions, Office 365 uses all the conditions together to determine when to apply the policy to communication items. When you set up multiple conditions, they must all be met for the policy to apply, unless you enter an exception. For example, let's say you need to create a policy that should apply if a message contains the word "trade", and is larger than 2MB. However, if the message also contains the words "Approved by Contoso financial", the policy should not apply. Thus, in this case, the three conditions would be as follows:
   
 - **Message contains any of these words**, with the keywords "trade"
-    
+
 - **Message size is larger than**, with the value 2 MB
-    
+
 - **Message contains none of these words**, with the keywords "Approved by Contoso financial team".
 
 ### Review percentage
 
 You can specify a percentage of all the communications governed by a supervision policy if you want to reduce the amount of content to review. We'll randomly select that amount of content from the total percentage that matched the conditions you chose. If you want reviewers to review all items,you can enter **100%** in a supervision policy.
 
-### Exclusions
-
 ### Sensitive information types
 
-- Default types: Financial, Medical and health, Privacy, Custom
-- Options for regions
+You have the option of including sensitive information types as part of your supervision policy. Sensitive information types are either pre-defined or custom data types that can help identify and protect credit card numbers, bank account numbers, passport numbers, and more. As a part of Office 365 [data loss prevention (DLP)](data-loss-prevention-policies.md), the sensitive information configuration can leverage patterns, character proximity, confidence levels, and even custom data types to help identify and flag content that may be sensitive. The default sensitive information type are:
+
+- Financial
+- Medical and health
+- Privacy
+
+To learn more about sensitive information details and the patterns included in the default types, see [What sensitive information types look for](what-the-sensitive-information-types-look-for.md).
 
 ### Custom keyword dictionaries
+
+Custom keyword dictionaries can provide simple management of keywords specific to your organization or industry and can support up to 100,000 terms per dictionary. If needed, you can apply multiple custom keyword dictionaries to a single policy, or have a single keyword dictionary per policy. These dictionaries can be sourced from a file (such as a .csv or .txt list), or from a list you can enter directly in a PowerShell cmdlet.
 
 # Monitoring & reporting
 
@@ -143,7 +149,7 @@ Monitoring the results of your supervision policies and applying a resolution ta
 
 ## Supervision policy dashboard
 
-The easiest way to manage supervision policy results and to resolve outstanding items is to use the supervision policy dashboard. This dashboard allows reviewers to quickly see the items that need to be reviewed, as well as the results of previously reviewed and resolved items for each supervision policy. You can access the supervision policy dashboard in the Office 365 Security & Compliance Center  at **Data governance** > **Supervision** > *Your Custom Policy* > **Open**.
+The easiest way to manage supervision policy results and to resolve outstanding items is to use the supervision policy dashboard. This dashboard allows reviewers to quickly see the items that need to be reviewed, take action on an item, and review the results of previously reviewed and resolved items for each supervision policy. You can access the supervision policy dashboard in the Office 365 Security & Compliance Center  at **Data governance** > **Supervision** > *Your Custom Policy* > **Open**.
 
 ### Dashboard Home
 
@@ -171,51 +177,54 @@ The **Resolved Items** page is where reviewers can view all previously resolved 
 - Quickly view and sort the subject, sender, and date of resolved items.
 - View the classification and comment history of any selected item
 
-## Message review & tagging
+## Other ways to review items
 
-## Filtering & exporting
+If reviewers would prefer not to use the supervision dashboard in Office 365, they also have other options to review and manage items collected by supervision policies:
 
-## Other ways to review messages
+- Outlook Web Access
+- Outlook client
 
 # Reporting
-Supervision policies define which communications in your organization need review for compliance, and who will perform those reviews. Use the supervision reports to see the review activity at the policy and reviewer level. For each policy, you can also view live statistics on the current state of review activity. [Learn more about supervision policies](configure-supervision-policies.md).
 
-You can use the supervision reports to:
+Use the supervision reports to see the review activity at the policy and reviewer level. For each policy, you can also view live statistics on the current state of review activity. You can use the supervision reports to:
   
 - Verify that your policies are working as you intended.
-- Find out how many emails are being identified for review.
-- Find out how many emails aren't compliant and which ones are passing review. This information can help you decide whether to fine-tune your policies or change the number of reviewers.
+- Find out how many communications are being identified for review.
+- Find out how many communications aren't compliant and which ones are passing review. This information can help you decide whether to fine-tune your policies or change the number of reviewers.
 
 ## View the Supervision report
 
-1. Sign into the [Security &amp; Compliance Center](https://protection.office.com/) using the credentials for an admin account in your Office 365 organization that has permissions to view supervision reports.
-2. Go to **Reports** \> **Dashboard**. You'll see a reporting widget for supervision and other reports you have access to.
-3. Click the **Supervision** widget to open the detailed report page.
+1. Sign into the [Security & Compliance Center](https://protection.office.com/) using the credentials for an admin account in your Office 365 organization that has permissions to view supervision reports.
+2. Go to either **Reports** \> **Dashboard** or **Data governance** \> **Supervision**. You'll see a supervision reporting widget with a summary of current supervision policy activity.
+3. Select the **Supervision** widget to open the detailed report page.
 
 > [!NOTE]
 > If you aren't able to access the **Reports** page, check that you're a member of the Supervisory Review role group, as described in [Make supervision available in your organization](configure-supervision-policies.md#SRavailable). Being included in this role group lets you create and manage supervision polices and run the report.
   
 ## How to use the report
 
-When a supervision policy identifies an email for review, the email is delivered to the reviewer's Supervision folder in Outlook and Outlook web app. This report lists each policy's name and the number of communications at each stage in the review process.
+When a supervision policy identifies a communication message for review, the email is delivered to the reviewer's Supervision folder in Outlook and Outlook web app. This report lists each policy's name and the number of communications at each stage in the review process.
   
 Use the report to:
   
 - View data for all or specific policies.
 - View data grouped by tag type (such as Compliant, Questionable, etc.), reviewer, or message type.
-- Export data to a CSV file.
-- Filter data based on review activity date, tag type, reviewer, message type.
-    
+- Export data to a CSV file based on activity date, policy, and by reviewer activity.
+- Filter data based on activity date, tag type, reviewer, and message type.
+
 Here's a breakdown of the values you might see in the **Tag type** column.
   
 |**Tag type**|**What it means**|
 |:-----|:-----|
-|Not Reviewed | The number of emails that have not been reviewed yet. These emails are awaiting review in the reviewer's supervision folder in Outlook.|
-|Compliant | The number of emails reviewed and marked as compliant. No further action is needed. |
-|Questionable | The number of emails reviewed and marked questionable. This acts as a flag; other reviewers can help check whether an email needs investigation for compliance. |
-|Non-Compliant (Active) | The number of non-compliant emails that reviewers are currently investigating. |
-|Non-Compliant (Resolved) | The number of non-compliant emails that reviewers investigated and resolved. |
-   
+| Not Reviewed | The number of emails that have not been reviewed yet. These emails are awaiting review in the reviewer's supervision folder in Outlook.|
+| Compliant | The number of emails reviewed and marked as compliant. No further action is needed. |
+| Questionable | The number of emails reviewed and marked questionable. This acts as a flag; other reviewers can help check whether an email needs investigation for compliance. |
+| Non-Compliant (Active) | The number of non-compliant emails that reviewers are currently investigating. |
+| Non-Compliant (Resolved) | The number of non-compliant emails that reviewers investigated and resolved. |
+| Hit Policy | need detail |
+| In Purview | need detail |
+| Resolved | need detail |
+
 ## More details
 
 - Supervision policies must first be provisioned before they will appear in this report.
