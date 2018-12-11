@@ -23,7 +23,7 @@ Supervision policies in Office 365 allow you to capture employee communications 
 
 # Scenarios for supervision policies
 
-Supervision policies can assist your organization in several areas:
+Supervision policies can assist monitoring communications in your organization in several areas:
 
 - **Regulatory compliance**
 
@@ -41,13 +41,14 @@ Supervision policies can assist your organization in several areas:
 
 ## Supervision policy
 
-You'll create supervision policies in the Security &amp; Compliance Center. These policies define which communications are subject to review in your organization, define custon conditions that the communications must meet, and specifies who should perform reviews. Users included in the Supervisory Review role group can set up policies and anyone who has this role assigned can access the Supervision page under Data Governance in the Office 365 Security & Compliance Center.
+You'll create supervision policies in the Security & Compliance Center. These policies define which communications are subject to review in your organization, define custon conditions that the communications must meet, and specifies who should perform reviews. Users included in the Supervisory Review role group can set up policies and anyone who has this role assigned can access the Supervision page under Data Governance in the Office 365 Security & Compliance Center.
 
 ## Supervised users
 
 Before you start using supervision, you'll need to determine who will have their communications reviewed. In the policy, you'll use user email addresses to identify individuals or groups of people to supervise. You also have the ability to exclude specific users or groups from supervision that are included within a supervised group or a list of groups.
 
-All users monitored by supervision policies must have either an Office 365 Enterprise E3 license with the Advanced Compliance add-on or be included in an Office 365 Enterprise E5 subscription. If you don't have an existing Enterprise E5 plan and want to try supervision, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279).
+> [!IMPORTANT]
+> All users monitored by supervision policies must have either an Office 365 Enterprise E3 license with the Advanced Compliance add-on or be included in an Office 365 Enterprise E5 subscription. If you don't have an existing Enterprise E5 plan and want to try supervision, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279).
 
 ## Reviewers
 
@@ -79,7 +80,7 @@ In Contoso Financial International, a sampling of communications between brokers
 With supervision policies, you can choose to monitor messages in one or more of the following communication platforms:
 
 - **Exchange email:** Mailboxes that are hosted on Exchange Online as part of your Office 365 subscription are all eligible for message supervision.
-- **Teams Channels:** Chat communications in both public and private Microsoft Teams channels can be supervised.
+- **Teams Channels:** Chat communications in both public and private Microsoft Teams channels and individual chats can be supervised.
 - **Third-party sources:** You can supervise communications from third-party sources (like from Facebook or DropBox) if you've imported this data into Office 365 mailboxes in your organization. [Learn how to import 3rd-party data into Office 365](https://docs.microsoft.com/office365/securitycompliance/archiving-third-party-data).
 
 ## Policy settings
@@ -179,10 +180,29 @@ The **Resolved Items** page is where reviewers can view all previously resolved 
 
 ## Other ways to review items
 
-If reviewers would prefer not to use the supervision dashboard in Office 365, they also have other options to review and manage items collected by supervision policies:
+If reviewers would prefer not to use the supervision dashboard in Office 365, they also have other options to review and manage items collected by supervision policies.
 
-- Outlook Web Access
-- Outlook client
+### Outlook Web App
+
+Users designated as reviewers in a supervision policy can use Outlook Web App (OWA) to review and resolved supervision items. The Supervision add-in is installed automatically in OWA for all reviewers you specified in the policy. No extra configuration is needed by your organization for supervision policy shared folders to be available for configured reviewers.
+
+Using OWA, reviewers can:
+
+- View filtered items by compliant, non-compliant, questionable, and resolved status
+- Tag a single item as compliant, non-compliant, questionable, or resolved. You can also record a comment with the item to help clarify the tagging action taken.
+- View the history of the tagging for a single item, including who resolved the item, the date and time of the action, the resolution tag, and any included comments.
+- Reclassify previously reviewed items as compliant, non-compliant, or questionable. You can also record a comment with single items to help clarify the reclassification action taken.
+
+### Outlook client
+
+To review communications identified by a supervision policy, reviewers can also use the Supervision add-in for Outlook. However, reviewers must run through some steps to install it in the desktop version of Outlook. For detailed guidance about installing the Supervision add-in for Outlook, see [Need Link]().
+
+Using Outlook, reviewers can:
+
+- View filtered items by compliant, non-compliant, questionable, and resolved status
+- Tag a single item as compliant, non-compliant, questionable, or resolved. You can also record a comment with the item to help clarify the tagging action taken.
+- View the history of the tagging for a single item, including who resolved the item, the date and time of the action, the resolution tag, and any included comments.
+- Reclassify previously reviewed items as compliant, non-compliant, or questionable. You can also record a comment with single items to help clarify the reclassification action taken.
 
 # Reporting
 
@@ -230,3 +250,7 @@ Here's a breakdown of the values you might see in the **Tag type** column.
 - Supervision policies must first be provisioned before they will appear in this report.
 - If policies are deleted, historical data is still shown. However, they're indicated as a "Non-existent policy", and the **Export** function isn't available.
 - If the report doesn't show any data by default, it might be because the current date range doesn't have any data to show. In these cases, use the **Filters** control to change the date range.
+
+# Ready to get started with supervision policies?
+
+To start configuring supervision policies for your organization, see [topic]().
