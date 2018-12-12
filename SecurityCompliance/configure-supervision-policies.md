@@ -39,13 +39,15 @@ Follow these steps to set up and use supervision in your Office 365 organization
     
     You'll create supervision policies in the Security & Compliance Center. These policies define which communications are subject to review in your organization, and specifies who should perform reviews. Communications include email and Microsoft Teams communications, as well as 3rd-party platform communications (such as Facebook, Twitter, etc.)
     
-- **Step 5 - (Optional)** [Test your new supervision policy]()
+- **Step 5 - (Optional)** [Test your new supervision policy](configure-supervision-policies.md#TestPolicy)
+
+    Testing your supervision policy to make sure it is functioning as desired is an important part of ensuring that your compliance strategy is meeting your standards.
 
 - **Step 6 - (Optional)** [Set up Outlook add-in for reviewers who do not want to use Office 365 supervision dashboard or OWA to review supervised communications](configure-supervision-policies.md#UseOutlook)
     
-    The Supervision add-in gives reviewers access to the supervision functionality right within Outlook web app so they can assess and categorize each item. Support for the desktop version of Outlook is coming soon.
+    The Supervision add-in for Outlook gives reviewers access to the supervision functionality right within the Outlook client so they can assess and categorize each item.
     
-## Step 1 - Set up groups for Supervision
+## Step 1 - Set up groups for Supervision (Optional)
 <a name="exampledist"> </a>
 
  When you create a supervision policy, you'll determine who will have their communications reviewed and who will perform those reviews. In the policy, you'll use email addresses to identify individuals or groups of people. To simplify your setup, create groups for people who will have their communication reviewed and groups for people who will review those communications. If you're using groups, you might need several—for example, if you want to monitor communications between two distinct groups of people, or if you want to specify a group that isn't going to be supervised. See [Example distribution groups](configure-supervision-policies.md#GroupExample) for details about how this works.
@@ -67,7 +69,7 @@ In Contoso Financial International, a sampling of communications between brokers
 |All US brokers | US_Brokers@Contoso.com | This group includes email addresses for all US-based brokers who work for Contoso. |
 | All US compliance officers | US_Compliance@Contoso.com  | This group includes email addresses for all US-based compliance officers who work for Contoso. Because this group is a subset of all US-based brokers, you can use this alias to exempt compliance officers from a supervision policy. |
   
-## Step 2 - Make supervision available in your organization
+## Step 2 - Make supervision available in your organization (Required)
 <a name="MakeAvailable"> </a>
 
 To make **Supervision** available as a menu option in the Security & Compliance Center, you must be assigned the Supervisory Review Administrator role.
@@ -96,13 +98,20 @@ To do this, you can either add yourself as a member of the Supervisory Review ro
     
 For more information about role groups and permissions, see [Permissions in the Office 365 Security &amp; Compliance Center](permissions-in-the-security-and-compliance-center.md).
   
-## Step 3 - Create custom sensitive information types or custom keyword dictionaries
+## Step 3 - Create custom sensitive information types or custom keyword dictionaries (Optional)
 <a name="sensitiveinfo"> </a>
 
 In order to pick from existing custom sensitive information types or custom keyword dictionaries in the supervision policy wizard, you first need to create these items if needed.
 
 ### Create custom sensitive information types
 
+1. Create a new sensitive information type in the Office 365 Security & Compliance Center. Navigate to **Classifications** \> **Sensitive info types** and follow the steps in the **New sensitive info type wizard**. Here you will:
+
+    - Define a name and description for the sensitive info type
+    - Define the proximity, confidence level, and primary pattern elements
+    - Review your selections and create the sensitive info type
+
+    For more detailed information, see [Create a custom sensitive information type](create-a-custom-sensitive-information-type.md).
 
 ### Create custom keyword dictionary
 
@@ -121,12 +130,12 @@ In order to pick from existing custom sensitive information types or custom keyw
 3. Create a new sensitive information type in the Office 365 Security & Compliance Center. Navigate to **Classifications** \> **Sensitive info types** and follow the steps in the **New sensitive info type wizard**. Here you will:
 
     - Define a name and description for the sensitive info type
-    - Add your custom dictionary as a requirement for matching
+    - Add your custom dictionary as a requirement for the matching element
     - Review your selections and create the sensitive info type
 
     For more detailed information, see [Create a custom sensitive information type](create-a-custom-sensitive-information-type.md).
 
-## Step 4 - Set up a supervision policy
+## Step 4 - Set up a supervision policy (Required)
 <a name="setupsuper"> </a>
   
 1. Sign into [https://protection.office.com](https://protection.office.com) using credentials for an admin account in your Office 365 organization.
@@ -143,7 +152,8 @@ In order to pick from existing custom sensitive information types or custom keyw
     - Choose the reviewers for the policy.
     - Review you policy selections and create the policy.
 
-## Step 5 - Test your supervision policy
+## Step 5 - Test your supervision policy (Optional)
+<a name="TestPolicy"> </a>
 
 After you create a supervision policy, it's a good idea to test to make sure that the conditions you defined are being properly enforced by the policy. Follow the steps below to test your supervision policy:
 
@@ -151,10 +161,10 @@ After you create a supervision policy, it's a good idea to test to make sure tha
 2. Send an email or Microsoft Teams chat that meets the criteria you've defined in the supervision policy. This can be a keyword, attachment size, domain, etc.
 3. Log into your Office 365 tenant as a reviewer designated in the supervision policy. Navigate to **Data governance** > **Supervision** > *Your Custom Policy* > **Open** to view the report for the policy.
 
-## Step 6 - Set up Outlook add-in for reviewers who do not want to use Office 365 supervision dashboard or OWA to review supervised communications
+## Step 6 - Set up Outlook add-in for reviewers (Optional)
 <a name="UseOutlook"> </a>
 
-Reviewers that do want to use the Supervision dashboard in Office 365 or Outlook web app to review communications must install the Supervision add-in for their Outlook client.
+Reviewers that want to use Outlook instead of using the Supervision dashboard in Office 365 or Outlook web app to review communications must install the Supervision add-in for their Outlook client.
 
 ### Step 1: Copy the address for the supervision mailbox
 
