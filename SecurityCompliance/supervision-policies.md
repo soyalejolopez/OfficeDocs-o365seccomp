@@ -63,7 +63,7 @@ To simplify your setup, create groups for people who will have their communicati
 With supervision policies, you can choose to monitor messages in one or more of the following communication platforms:
 
 - **Exchange email:** Mailboxes that are hosted on Exchange Online as part of your Office 365 subscription are all eligible for message supervision.
-- **Teams Channels:** Chat communications in both public and private Microsoft Teams channels and individual chats can be supervised.
+- **Microsoft Teams:** Chat communications in both public and private Microsoft Teams channels and individual chats can be supervised.
 - **Third-party sources:** You can supervise communications from third-party sources (like from Facebook or DropBox) if you've imported this data into Office 365 mailboxes in your organization. [Learn how to import 3rd-party data into Office 365](https://docs.microsoft.com/office365/securitycompliance/archiving-third-party-data).
 
 ## Policy settings
@@ -219,14 +219,14 @@ Here's a breakdown of the values you might see in the **Tag type** column.
   
 |**Tag type**|**What it means**|
 |:-----|:-----|
-| Not Reviewed | The number of emails that have not been reviewed yet. These emails are awaiting review in the reviewer's supervision folder in Outlook.|
-| Compliant | The number of emails reviewed and marked as compliant. No further action is needed. |
-| Questionable | The number of emails reviewed and marked questionable. This acts as a flag; other reviewers can help check whether an email needs investigation for compliance. |
+| Not Reviewed | The number of emails that have not been reviewed yet. These emails are awaiting review in the Office 365 supervision dashboard or in the reviewer's supervision folder in Outlook/Outlook Web App.|
+| Compliant | The number of emails reviewed and marked as compliant. These messages still need to be resolved. |
+| Questionable | The number of emails reviewed and marked questionable. This acts as a flag; other reviewers can help check whether an email needs investigation for compliance. These messages still need to be resolved. |
 | Non-Compliant (Active) | The number of non-compliant emails that reviewers are currently investigating. |
 | Non-Compliant (Resolved) | The number of non-compliant emails that reviewers investigated and resolved. |
-| Hit Policy | need detail |
-| In Purview | need detail |
-| Resolved | need detail |
+| Hit Policy | The total number (daily) of messages from Exchange, Teams, and third-party data sources that matched one or more conditions defined in a supervision policy |
+| In Purview | The total number (daily) of messages from Exchange, Teams, and third-party data sources scanned by a supervision policy |
+| Resolved | The total number of messages from Exchange, Teams, and third-party data sources that have been classified as **Resolved**|
 
 ## More details
 
