@@ -56,24 +56,7 @@ When you create a supervision policy, you'll also determine who will perform the
 
 ## Supervised user and reviewer groups
 
-To simplify your setup, create groups for people who will have their communication reviewed and groups for people who will review those communications. If you're using groups, you might need several—for example, if you want to monitor communications between two distinct groups of people, or if you want to specify a group that isn't going to be supervised. See [Example distribution groups](supervision-policies.md#GroupExample) for details about how this works.
-
-To supervise communications between or within groups in your organization, set up distribution groups in the Exchange admin center (go to **recipients** \> **groups**). For more information about setting up distribution groups, see [Manage distribution groups](http://go.microsoft.com/fwlink/?LinkId=613635)
-  
-> [!NOTE]
-> You can also use dynamic distribution groups or security groups for supervision if you prefer. To help you decide if these better fit your organization needs, see [Manage mail-enabled security groups](http://go.microsoft.com/fwlink/?LinkId=627033), and [Manage dynamic distribution groups](http://go.microsoft.com/fwlink/?LinkId=627058).
-
-### Example distribution groups
-<a name="GroupExample"> </a>
-
-This example includes a distribution group that has been set up for a financial organization called Contoso Financial International.
-  
-In Contoso Financial International, a sampling of communications between brokers in the United States must be supervised. However, compliance officers within that group do not require supervision. For this example, we can create the following groups:
-  
-|**Set up this distribution group**|**Group address (alias)**|**Description**|
-|:-----|:-----|:-----|
-|All US brokers | US_Brokers@Contoso.com | This group includes email addresses for all US-based brokers who work for Contoso. |
-| All US compliance officers | US_Compliance@Contoso.com  | This group includes email addresses for all US-based compliance officers who work for Contoso. Because this group is a subset of all US-based brokers, you can use this alias to exempt compliance officers from a supervision policy. |
+To simplify your setup, create groups for people who will have their communication reviewed and groups for people who will review those communications. If you're using groups, you might need several. For example, if you want to monitor communications between two distinct groups of people, or if you want to specify a group that isn't going to be supervised.
 
 ## Supported communication types
 
@@ -87,7 +70,7 @@ With supervision policies, you can choose to monitor messages in one or more of 
 
 ### Direction
 
-Communication direction settings in a policy can be chosen individually or together:
+By default, the **Direction is** condition is displayed and can't be removed. Communication direction settings in a policy can be chosen individually or together:
 
 - **Inbound** - You can choose **Inbound** to review communications that are sent **to** the people you chose to supervise **from** people not included in the policy.
 - **Outbound** - You can choose **Outbound** if you want to review communications that are sent **from** the people you chose to supervise **to** people not included in the policy.
@@ -150,7 +133,7 @@ Monitoring the results of your supervision policies and applying a resolution ta
 
 ## Supervision policy dashboard
 
-The easiest way to manage supervision policy results and to resolve outstanding items is to use the supervision policy dashboard. This dashboard allows reviewers to quickly see the items that need to be reviewed, take action on an item, and review the results of previously reviewed and resolved items for each supervision policy. You can access the supervision policy dashboard in the Office 365 Security & Compliance Center  at **Data governance** > **Supervision** > *Your Custom Policy* > **Open**.
+The easiest way to manage supervision policy results and to resolve outstanding items is to use the supervision policy dashboard. This dashboard allows reviewers to quickly see the items that need to be reviewed, take action on an item, and review the results of previously reviewed and resolved items for each supervision policy. You can access the supervision policy dashboard in the Office 365 Security & Compliance Center at **Data governance** > **Supervision** > *Your Custom Policy* > **Open**.
 
 ### Dashboard Home
 
@@ -251,6 +234,6 @@ Here's a breakdown of the values you might see in the **Tag type** column.
 - If policies are deleted, historical data is still shown. However, they're indicated as a "Non-existent policy", and the **Export** function isn't available.
 - If the report doesn't show any data by default, it might be because the current date range doesn't have any data to show. In these cases, use the **Filters** control to change the date range.
 
-# Ready to get started with supervision policies?
+# Ready to get started?
 
-To start configuring supervision policies for your organization, see [topic]().
+To start configuring supervision policies for your organization, see [Configure supervision policies](configure-supervision-policies.md).
