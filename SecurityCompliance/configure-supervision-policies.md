@@ -47,8 +47,8 @@ Follow these steps to set up and use supervision in your Office 365 organization
     
     The Supervision add-in for Outlook gives reviewers access to the supervision functionality right within the Outlook client so they can assess and categorize each item.
     
-## Step 1 - Set up groups for Supervision (Optional)
 <a name="exampledist"> </a>
+## Step 1 - Set up groups for Supervision (Optional)
 
  When you create a supervision policy, you'll determine who will have their communications reviewed and who will perform those reviews. In the policy, you'll use email addresses to identify individuals or groups of people. To simplify your setup, create groups for people who will have their communication reviewed and groups for people who will review those communications. If you're using groups, you might need several—for example, if you want to monitor communications between two distinct groups of people, or if you want to specify a group that isn't going to be supervised. See [Example distribution groups](configure-supervision-policies.md#GroupExample) for details about how this works.
   
