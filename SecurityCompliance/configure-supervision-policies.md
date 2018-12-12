@@ -44,10 +44,6 @@ Follow these steps to set up and use supervision in your Office 365 organization
 - **Step 6 - (Optional)** [Set up Outlook add-in for reviewers who do not want to use Office 365 supervision dashboard or OWA to review supervised communications](configure-supervision-policies.md#UseOutlook)
     
     The Supervision add-in gives reviewers access to the supervision functionality right within Outlook web app so they can assess and categorize each item. Support for the desktop version of Outlook is coming soon.
-
-- **Run the supervision report**
-    
-    Use the supervision reports to see the review activity at the policy and reviewer level. For each policy, you can also view live statistics on the current state of review activity. For details, see [Supervision reports](supervision-reports.md).
     
 ## Step 1 - Set up groups for Supervision
 <a name="exampledist"> </a>
