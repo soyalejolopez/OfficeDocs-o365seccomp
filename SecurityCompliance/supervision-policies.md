@@ -33,7 +33,7 @@ Supervision policies can assist monitoring communications in your organization i
 
     Organizations are responsible to all communications distributed throughout their infrastructure and corporate network systems. Using supervision policies to help identify and manage potential legal exposure and risk can help minimize risks before they can damage corporate operations.
 
-- **Corporate policies:**
+- **Corporate policies**
 
     Employees must comply with acceptable use, ethical standards, and other corporate policies in all their business-related communications. Supervision policies can detect policy violations and help you take corrective actions to help mitigate these types of incidents.
 
@@ -109,10 +109,6 @@ If you enter multiple conditions, Office 365 uses all the conditions together to
 
 - **Message contains none of these words**, with the keywords "Approved by Contoso financial team".
 
-#### Review percentage
-
-You can specify a percentage of all the communications governed by a supervision policy if you want to reduce the amount of content to review. We'll randomly select that amount of content from the total percentage that matched the conditions you chose. If you want reviewers to review all items,you can enter **100%** in a supervision policy.
-
 #### Sensitive information types
 
 You have the option of including sensitive information types as part of your supervision policy. Sensitive information types are either pre-defined or custom data types that can help identify and protect credit card numbers, bank account numbers, passport numbers, and more. As a part of Office 365 [data loss prevention (DLP)](data-loss-prevention-policies.md), the sensitive information configuration can leverage patterns, character proximity, confidence levels, and even custom data types to help identify and flag content that may be sensitive. The default sensitive information type are:
@@ -120,12 +116,17 @@ You have the option of including sensitive information types as part of your sup
 - Financial
 - Medical and health
 - Privacy
+- Custom information type
 
 To learn more about sensitive information details and the patterns included in the default types, see [What sensitive information types look for](what-the-sensitive-information-types-look-for.md).
 
 #### Custom keyword dictionaries
 
 Custom keyword dictionaries can provide simple management of keywords specific to your organization or industry and can support up to 100,000 terms per dictionary. If needed, you can apply multiple custom keyword dictionaries to a single policy, or have a single keyword dictionary per policy. These dictionaries can be sourced from a file (such as a .csv or .txt list), or from a list you can enter directly in a PowerShell cmdlet.
+
+#### Review percentage
+
+You can specify a percentage of all the communications governed by a supervision policy if you want to reduce the amount of content to review. We'll randomly select that amount of content from the total percentage that matched the conditions you chose. If you want reviewers to review all items,you can enter **100%** in a supervision policy.
 
 ## Monitoring & reporting
 
@@ -178,7 +179,7 @@ Using OWA, reviewers can:
 
 #### Outlook client
 
-To review communications identified by a supervision policy, reviewers can also use the Supervision add-in for Outlook. However, reviewers must run through some steps to install it in the desktop version of Outlook. For detailed guidance about installing the Supervision add-in for Outlook, see [Need Link]().
+To review communications identified by a supervision policy, reviewers can also use the Supervision add-in for Outlook. However, reviewers must run through some steps to install it in the desktop version of Outlook. For detailed guidance about installing the Supervision add-in for Outlook, see [Configure supervision policies](configure-supervision-policies.md).
 
 Using Outlook, reviewers can:
 
@@ -227,6 +228,10 @@ Here's a breakdown of the values you might see in the **Tag type** column.
 | Hit Policy | The total number (daily) of messages from Exchange, Teams, and third-party data sources that matched one or more conditions defined in a supervision policy |
 | In Purview | The total number (daily) of messages from Exchange, Teams, and third-party data sources scanned by a supervision policy |
 | Resolved | The total number of messages from Exchange, Teams, and third-party data sources that have been classified as **Resolved**|
+
+### Audit activities
+
+In some instances, you'll need to provide information on supervision policies to regulatory or compliance auditors. This may be a summary of all supervisory activities associated with a defined policy or anytime a supervision policy was changed or updated. In addition to information provided in the supervision reports, you can also use the [Get-SupervisoryReviewActivity](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/get-supervisoryreviewactivity?view=exchange-ps) PowerShell cmdlet to return a complete detailed listing of all supervision policy activities.
 
 ### More details
 
