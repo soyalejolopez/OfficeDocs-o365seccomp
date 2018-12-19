@@ -209,7 +209,7 @@ However, note that the following limits exist for a retention policy that includ
   
 - Such a retention policy can contain no more than 1,000 mailboxes and 100 sites.
     
-- A tenant can contain no more than 1,000 such retention policies.
+- A tenant can contain no more than 10,000 retention policies.
     
 Although these limits exist, understand that you can get over these limits by applying either an org-wide policy or a policy that applies to entire locations.
   
