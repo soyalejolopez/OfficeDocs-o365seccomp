@@ -91,13 +91,13 @@ The first step is to prepare the search results for exporting. When you prepare 
     > [!NOTE]
     > If the results for a search are older than 7 days, you are prompted to update the search results. If this happens, cancel the export, click **Update search results** in the details pane for the selected search, and then start the export again after the results are updated. 
   
-6. On the **Export the search results** page, under **Include these items from the search**, choose one of the following options:
+6. On the **Export the search results** page, under **Output options**, choose one of the following options:
     
-    - Export only indexed items
+    - All items, excluding ones that have unrecognized format, are encrypted, or weren't indexed for other reasons
     
-    - Export indexed and partially indexed items
+    - All items, including ones that have unrecognized format, are encrypted, or weren't indexed for other reasons
     
-    - Export only partially indexed items
+    - Only items that have an unrecognized format, are encrypted, or weren't indexed for other reasons
     
     See the [More information](#more-information) section for a description about how partially indexed items are exported. For more information about partially indexed items, see [Partially indexed items in Content Search](partially-indexed-items-in-content-search.md).
     
