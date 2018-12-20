@@ -20,6 +20,10 @@ description: "Set up a supervisory review policies to capture employee communica
 # Configure supervision policies for your organization
 
 Use supervision policies to capture employee communications for examination by internal or external reviewers. For more information about how supervision policies can help you monitor communications in your organization, see [Supervision policies in Office 365](supervision-policies.md).
+
+> [!NOTE]
+> Users monitored by supervision policies must have either an Office 365 Enterprise E3 license with the Advanced Compliance add-on or be included in an Office 365 Enterprise E5 subscription.
+If you don't have an existing Enterprise E5 plan and want to try supervision, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279).
   
 Follow these steps to set up and use supervision in your Office 365 organization:
   
@@ -31,7 +35,7 @@ Follow these steps to set up and use supervision in your Office 365 organization
 
     Add yourself to the Supervisory Review role group so you can set up policies. Anyone who has this role assigned can access the **Supervision** page under **Data Governance** in the Security & Compliance Center.
 
-- **Step 3 (optional)** - [Configure custom sensitive information types or custom keyword dictionaries](configure-supervision-policies.md#sensitiveinfo)
+- **Step 3 (optional)** - [Configure custom sensitive information types or custom keyword dictionaries/lexicons](configure-supervision-policies.md#sensitiveinfo)
 
     If you need to use a custom sensitive info type or a custom keyword dictionary for your supervision policy, you'll need to create it before starting the supervision wizard.
 
@@ -117,9 +121,9 @@ In order to pick from existing custom sensitive information types or custom keyw
 
     For more detailed information, see [Create a custom sensitive information type](create-a-custom-sensitive-information-type.md).
 
-### Create custom keyword dictionary
+### Create custom keyword dictionary/lexicon
 
-1. Using a text editor (like Notepad), create a new file that includes the keyword terms you'd like to monitor in a supervision policy. Make sure each term is on a separate line and save the file in any of the Unicode formats.
+1. Using a text editor (like Notepad), create a new file that includes the keyword terms you'd like to monitor in a supervision policy. Make sure each term is on a separate line and save the file in any of the **Unicode** formats.
 2. Import the keyword file into your Office 365 tenant using PowerShell. To connect to Office 365 with PowerShell, see [Connect to Office 365 Security & Compliance Center PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).
 
     After you've connected to Office 365 with PowerShell, run the following commands to import your keyword dictionary:
@@ -161,7 +165,7 @@ In order to pick from existing custom sensitive information types or custom keyw
 
 ## Step 5 - Test your supervision policy (optional)
 
-After you create a supervision policy, it's a good idea to test to make sure that the conditions you defined are being properly enforced by the policy. Follow the steps below to test your supervision policy:
+After you create a supervision policy, it's a good idea to test to make sure that the conditions you defined are being properly enforced by the policy. You may also want to [test your data loss prevention (DLP) policies](create-test-tune-dlp-policy.md) if your supervision policies include sensitive information types. Follow the steps below to test your supervision policy:
 
 1. Open an email client or Microsoft Teams logged in as a supervised user defined in the policy you want to test.
 2. Send an email or Microsoft Teams chat that meets the criteria you've defined in the supervision policy. This can be a keyword, attachment size, domain, etc.

@@ -27,7 +27,7 @@ Supervision policies can assist monitoring communications in your organization i
 
 - **Regulatory compliance**
 
-    Most organizations have to comply with some type of regulatory compliance standards as part of their normal operating procedures. These regulations often require organizations to implement some type of supervisory or oversight process for messaging that is appropriate for their industry. Supervision policies can help your organization meet these requirements by providing a process to both monitor and report on corporate communications.
+    Most organizations have to comply with some type of regulatory compliance standards as part of their normal operating procedures. These regulations often require organizations to implement some type of supervisory or oversight process for messaging that is appropriate for their industry. The Financial Industry Regulatory Authority (FINRA) Rule 3110 is a good example of a requirement for organizations to have supervisory procedures in place to monitor the activities of its employees and the types of businesses in which it engages. Supervision policies can help your organization meet these requirements by providing a process to both monitor and report on corporate communications.
 
 - **Risk management**
 
@@ -54,7 +54,7 @@ Before you start using supervision, you'll need to determine who will have their
 
 When you create a supervision policy, you'll also determine who will perform the reviews of the messages of the supervised users. In the policy, you'll use user email addresses to identify individuals or groups of people to review supervised communications.
 
-### Supervised user and reviewer groups
+### Groups for supervised users and reviewers
 
 To simplify your setup, create groups for people who will have their communication reviewed and groups for people who will review those communications. If you're using groups, you might need several. For example, if you want to monitor communications between two distinct groups of people, or if you want to specify a group that isn't going to be supervised.
 
@@ -62,8 +62,8 @@ To simplify your setup, create groups for people who will have their communicati
 
 With supervision policies, you can choose to monitor messages in one or more of the following communication platforms:
 
-- **Exchange email:** Mailboxes that are hosted on Exchange Online as part of your Office 365 subscription are all eligible for message supervision.
-- **Microsoft Teams:** Chat communications in both public and private Microsoft Teams channels and individual chats can be supervised.
+- **Exchange email:** Mailboxes that are hosted on Exchange Online as part of your Office 365 subscription are all eligible for message supervision. Emails matching supervision policy conditions are instantly available for monitoring and in supervision reports.
+- **Microsoft Teams:** Chat communications in both public and private Microsoft Teams channels and individual chats can be supervised. Teams chats matching supervision policy conditions are processed twice every 24 hours and then are available for monitoring and in supervision reports.
 - **Third-party sources:** You can supervise communications from third-party sources (like from Facebook or DropBox) if you've imported this data into Office 365 mailboxes in your organization. [Learn how to import 3rd-party data into Office 365](https://docs.microsoft.com/office365/securitycompliance/archiving-third-party-data).
 
 ### Policy settings
@@ -75,6 +75,21 @@ By default, the **Direction is** condition is displayed and can't be removed. Co
 - **Inbound** - You can choose **Inbound** to review communications that are sent **to** the people you chose to supervise **from** people not included in the policy.
 - **Outbound** - You can choose **Outbound** if you want to review communications that are sent **from** the people you chose to supervise **to** people not included in the policy.
 - **Internal** - You can choose **Internal** to review communications sent **between** the people you identified in the policy.
+
+#### Sensitive information types
+
+You have the option of including sensitive information types as part of your supervision policy. Sensitive information types are either pre-defined or custom data types that can help identify and protect credit card numbers, bank account numbers, passport numbers, and more. As a part of Office 365 [data loss prevention (DLP)](data-loss-prevention-policies.md), the sensitive information configuration can leverage patterns, character proximity, confidence levels, and even custom data types to help identify and flag content that may be sensitive. The default sensitive information type are:
+
+- Financial
+- Medical and health
+- Privacy
+- Custom information type
+
+To learn more about sensitive information details and the patterns included in the default types, see [What sensitive information types look for](what-the-sensitive-information-types-look-for.md).
+
+#### Custom keyword dictionaries
+
+Custom keyword dictionaries (or lexicons) can provide simple management of keywords specific to your organization or industry and can support up to 100,000 terms per dictionary. If needed, you can apply multiple custom keyword dictionaries to a single policy, or have a single keyword dictionary per policy. These dictionaries can be sourced from a file (such as a .csv or .txt list), or from a list you can [enter directly in a PowerShell cmdlet](create-a-keyword-dictionary.md).
 
 #### Conditional settings
 
@@ -108,21 +123,6 @@ If you enter multiple conditions, Office 365 uses all the conditions together to
 - **Message size is larger than**, with the value 2 MB
 
 - **Message contains none of these words**, with the keywords "Approved by Contoso financial team".
-
-#### Sensitive information types
-
-You have the option of including sensitive information types as part of your supervision policy. Sensitive information types are either pre-defined or custom data types that can help identify and protect credit card numbers, bank account numbers, passport numbers, and more. As a part of Office 365 [data loss prevention (DLP)](data-loss-prevention-policies.md), the sensitive information configuration can leverage patterns, character proximity, confidence levels, and even custom data types to help identify and flag content that may be sensitive. The default sensitive information type are:
-
-- Financial
-- Medical and health
-- Privacy
-- Custom information type
-
-To learn more about sensitive information details and the patterns included in the default types, see [What sensitive information types look for](what-the-sensitive-information-types-look-for.md).
-
-#### Custom keyword dictionaries
-
-Custom keyword dictionaries can provide simple management of keywords specific to your organization or industry and can support up to 100,000 terms per dictionary. If needed, you can apply multiple custom keyword dictionaries to a single policy, or have a single keyword dictionary per policy. These dictionaries can be sourced from a file (such as a .csv or .txt list), or from a list you can enter directly in a PowerShell cmdlet.
 
 #### Review percentage
 
@@ -177,9 +177,9 @@ Using OWA, reviewers can:
 - View the history of the tagging for a single item, including who resolved the item, the date and time of the action, the resolution tag, and any included comments.
 - Reclassify previously reviewed items as compliant, non-compliant, or questionable. You can also record a comment with single items to help clarify the reclassification action taken.
 
-#### Outlook client
+#### Microsoft Outlook
 
-To review communications identified by a supervision policy, reviewers can also use the Supervision add-in for Outlook. However, reviewers must run through some steps to install it in the desktop version of Outlook. For detailed guidance about installing the Supervision add-in for Outlook, see [Configure supervision policies](configure-supervision-policies.md).
+To review communications identified by a supervision policy, reviewers can also use the Supervision add-in for Microsoft Outlook. However, reviewers must run through some steps to install it in the desktop version of Outlook. For detailed guidance about installing the Supervision add-in for Outlook, see [Configure supervision policies](configure-supervision-policies.md).
 
 Using Outlook, reviewers can:
 
@@ -229,15 +229,14 @@ Here's a breakdown of the values you might see in the **Tag type** column.
 | In Purview | The total number (daily) of messages from Exchange, Teams, and third-party data sources scanned by a supervision policy |
 | Resolved | The total number of messages from Exchange, Teams, and third-party data sources that have been classified as **Resolved**|
 
+> [!NOTE]
+> Supervision policies must first be provisioned before they will appear in this report. Additionally, if policies are deleted, historical data is still shown. However, they're indicated as a "Non-existent policy" and the **Export** function isn't available.
+
 ### Audit activities
 
-In some instances, you'll need to provide information on supervision policies to regulatory or compliance auditors. This may be a summary of all supervisory activities associated with a defined policy or anytime a supervision policy was changed or updated. In addition to information provided in the supervision reports, you can also use the [Get-SupervisoryReviewActivity](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/get-supervisoryreviewactivity?view=exchange-ps) PowerShell cmdlet to return a complete detailed listing of all supervision policy activities.
+In some instances, you'll need to provide information to regulatory or compliance auditors to prove supervision of employee activities and communications. This may be a summary of all supervisory activities associated with a defined policy or anytime a supervision policy was changed or updated. Supervision policies have built-in audit trails for complete readiness for internal or external audits. Proof of supervisory procedures can be demonstrated with a detailed audit history of every action monitored by your supervision policies.
 
-### More details
-
-- Supervision policies must first be provisioned before they will appear in this report.
-- If policies are deleted, historical data is still shown. However, they're indicated as a "Non-existent policy", and the **Export** function isn't available.
-- If the report doesn't show any data by default, it might be because the current date range doesn't have any data to show. In these cases, use the **Filters** control to change the date range.
+In addition to information provided in the supervision reports, you can also use the [Get-SupervisoryReviewActivity](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/get-supervisoryreviewactivity?view=exchange-ps) PowerShell cmdlet to return a complete detailed listing of all supervision policy activities.
 
 ## Ready to get started?
 
