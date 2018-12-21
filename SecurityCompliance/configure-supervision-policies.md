@@ -168,7 +168,7 @@ In order to pick from existing custom sensitive information types or custom keyw
 After you create a supervision policy, it's a good idea to test to make sure that the conditions you defined are being properly enforced by the policy. You may also want to [test your data loss prevention (DLP) policies](create-test-tune-dlp-policy.md) if your supervision policies include sensitive information types. Follow the steps below to test your supervision policy:
 
 1. Open an email client or Microsoft Teams logged in as a supervised user defined in the policy you want to test.
-2. Send an email or Microsoft Teams chat that meets the criteria you've defined in the supervision policy. This can be a keyword, attachment size, domain, etc.
+2. Send an email or Microsoft Teams chat that meets the criteria you've defined in the supervision policy. This can be a keyword, attachment size, domain, etc. Make sure you determine if your configured conditional settings in the policy is too restrictive or too lenient.
 3. Log into your Office 365 tenant as a reviewer designated in the supervision policy. Navigate to **Data governance** > **Supervision** > *Your Custom Policy* > **Open** to view the report for the policy.
 
 <a name="UseOutlook"> </a>

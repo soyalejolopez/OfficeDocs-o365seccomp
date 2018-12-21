@@ -21,6 +21,8 @@ description: "Understanding supervision policies in Office 365"
 
 Supervision policies in Office 365 allow you to capture employee communications for examination by designated reviewers. You can define specific policies that capture internal and external email or 3rd-party communications in your organization, and then have reviewers classify the messages to make sure they are compliant with your organization's message standards. These policies can also help you overcome many modern compliance challenges, including monitoring increasing types of communication channels, increasing volume of message data, and regulatory enforcement & the risk of fines.
 
+In some organizations, there may be a separation of duties between IT support and the compliance management group. Office 365 supports the separation between configuring the tenant with supervision policy support features and the configuration of policies and taking action on captured communication. For example, the IT group for an organization may be responsible for setting up role permissions and groups to support supervision policies that are configured and managed by the organization's compliance team.
+
 ## Scenarios for supervision policies
 
 Supervision policies can assist monitoring communications in your organization in several areas:
@@ -62,7 +64,12 @@ To simplify your setup, create groups for people who will have their communicati
 
 With supervision policies, you can choose to monitor messages in one or more of the following communication platforms:
 
-- **Exchange email:** Mailboxes that are hosted on Exchange Online as part of your Office 365 subscription are all eligible for message supervision. Emails matching supervision policy conditions are instantly available for monitoring and in supervision reports.
+- **Exchange email:** Mailboxes that are hosted on Exchange Online as part of your Office 365 subscription are all eligible for message supervision. Emails and attachments matching supervision policy conditions are instantly available for monitoring and in supervision reports. Supported attachment types are:
+
+    - Microsoft Word (.docx)
+    - Microsoft Excel (.xlsx)
+    - Microsoft PowerPoint (.pptx)
+
 - **Microsoft Teams:** Chat communications in both public and private Microsoft Teams channels and individual chats can be supervised. Teams chats matching supervision policy conditions are processed twice every 24 hours and then are available for monitoring and in supervision reports.
 - **Third-party sources:** You can supervise communications from third-party sources (like from Facebook or DropBox) if you've imported this data into Office 365 mailboxes in your organization. [Learn how to import 3rd-party data into Office 365](https://docs.microsoft.com/office365/securitycompliance/archiving-third-party-data).
 
