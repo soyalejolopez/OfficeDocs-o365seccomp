@@ -186,7 +186,6 @@
 ## [Set up compliance boundaries for eDiscovery investigations in Office 365](set-up-compliance-boundaries.md)
 ## [eDiscovery solution series - Data spillage scenario - Search and purge](data-spillage-scenariosearch-and-purge.md)
 ## [Prepare search results for Advanced eDiscovery](prepare-search-results-for-advanced-ediscovery.md)
-## [Assign eDiscovery permissions to OneDrive for Business sites](assign-permissions-to-onedrive-for-business-sites.md)
 ## [Use a script to add users to a hold in an eDiscovery case](use-a-script-to-add-users-to-a-hold-in-ediscovery.md)
 ## [Create a report on holds in eDiscovery cases](create-a-report-on-holds-in-ediscovery-cases.md)
 ## Manage holds
