@@ -29,6 +29,4 @@ When you delete a site collection, you're also deleting the hierarchy of sites i
 
 If you accidentally delete a site collection, it can be restored by a global or SharePoint admin using the SharePoint admin center. 
 
-Microsoft performs backups every 12 hours and retains them for 14 days. If you aren't able to restore a site or site collection, Microsoft Support can help restore it from this backup. Note that we can restore only site collections and subsites from these backups, not files, lists, or libraries. 
-
 Hard deletion occurs when a user purges deleted items from the site collection Recycle Bin, when the retention and backup periods expire, or when an administrator permanently deletes a site collection using the [Remove-SPODeletedSite cmdlet](/powershell/module/sharepoint-online/Remove-SPODeletedSite?view=sharepoint-ps). When a user hard deletes (permanently deletes, or purges) content from SharePoint Online, all encryption keys for the deleted chunks are also deleted. The blocks on the disks that previously stored the deleted chunks are marked as unused and available for re-use.
