@@ -102,7 +102,7 @@ description: "See what's new in Office 365 Cloud App Security"
   
 **Following [Microsoft Cloud App Security release 128](https://docs.microsoft.com/cloud-app-security/release-notes#cloud-app-security-release-128)**: 
   
-- **OAuth apps across multiple apps** For OAuth apps, you can now ban or approve multiple apps in a single action. For example, you can review all the apps that have been granted permission by users in your organization, select all the apps you want to ban, and then click ban apps to revoke all consent granted and will no longer allow users to grant permission to those apps. 
+- **OAuth apps across multiple apps** For OAuth apps, you can now ban or approve multiple apps in a single action. For example, you can review all the apps that have been granted permission by users in your organization, select all the apps you want to ban, and then click ban apps to revoke all consent granted and will no longer allow users to grant permission to those apps. To learn more, see [Manage OAuth apps using Office 365 Cloud App Security](manage-app-permissions-in-ocas.md). 
     
 - **New suggested query: GDPR-ready cloud apps** There is a new suggested query to enable you to identify discovered apps that are GDPR ready. As you probably already know, GDPR has recently became a top priority for security admins. This query helps you easily identify apps that are GDPR ready, and mitigate threat by assessing the risk of the apps that aren't. To use the new query, in the **Cloud Discovery** dashboard, on the **Discovered apps** tab, choose **QUERIES** > **GDPR-ready cloud apps**.<br/>![GDPR-ready cloud apps query](media/OCAS-FindGDPRQueries.png)<br/>
     
