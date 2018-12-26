@@ -3,7 +3,7 @@ title: "Manage OAuth apps using Office 365 Cloud App Security"
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 12/03/2018
+ms.date: 12/26/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-administration
