@@ -12,8 +12,7 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: fd6be6d3-2e8d-449d-9851-03ab7546e6aa
-description: "Read the recommendations for setting up Relevance training in Office 365 Advanced eDiscovery to score files by their relevance and generate analytical results. 
-"
+description: "Read the recommendations for setting up Relevance training in Office 365 Advanced eDiscovery to score files by their relevance and generate analytical results."
 ---
 
 # Manage Relevance setup in Office 365 Advanced eDiscovery
