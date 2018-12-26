@@ -23,7 +23,7 @@ description: "OAuth apps in Office 365 Cloud App Security help you manage the ap
    
 People love apps and they download them often, especially apps that people think will save time by making it easier to get at their work or school information. However, some apps could potentially be a security risk to your organization, depending on what information they access and how they handle that information. With [Office 365 Cloud App Security](office-365-cas-overview.md), if you are a global or security administrator, you can manage OAuth apps for your organization. You can see the apps people are using with Office 365 data, what permissions those apps have, and more. 
   
-This article describes where to go to manage OAuth apps, how to approve or ban an app, and how to create an app query.
+This article describes where to go to manage OAuth apps, how to approve, ban, or report an app, and how to create an app query.
   
 ## How to find the Manage OAuth apps page
 
