@@ -93,7 +93,7 @@ We recommend using the Advanced view, which looks like this:
 
 ![Advanced view](media/OCAS-OAuthAppsAdvQueryView.png)
 
-In the app query bar, if you see **Advanced**, click (or tap) it to go to the Advanced view. 
+In the app query bar, if you see **Advanced**, you're using the Basic view. Click (or tap) **Advanced** to go to the Advanced view. 
 
 ![Basic view](media/OCAS-OAuthAppsBasicQueryView.png)
     
