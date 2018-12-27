@@ -49,7 +49,7 @@ Your web traffic logs should include the following attributes:
 
 ### Additional requirements
 
-In addition to inculding the attributes listed earlier in this article, your web traffic logs should meet the following requirements:
+In addition to including the attributes listed earlier in this article, your web traffic logs should meet the following requirements:
 
 - The data source for the log files must be supported.
 - The format the log files use must match the standard format. When the file is uploaded, app discovery will verify this.
