@@ -126,7 +126,7 @@
 ### [Keep your Office 365 users safe with Office 365 Threat Intelligence](keep-users-safe-with-office-365-ti.md)
 ### [Threat Trackers - New and Noteworthy](threat-trackers.md)
 ### [Use Explorer in the Security & Compliance Center](use-explorer-in-security-and-compliance.md)
-## [Overview of Office 365 Cloud App Security](office-365-cas-overview.md)
+## [Office 365 Cloud App Security](office-365-cas-overview.md)
 ### [What's new in Office 365 Cloud App Security](new-in-office-365-cas.md)
 #### [Updates during 2017](new-in-office-365-cas-2017.md)
 ### [Get ready for Office 365 Cloud App Security](get-ready-for-office-365-cas.md)
