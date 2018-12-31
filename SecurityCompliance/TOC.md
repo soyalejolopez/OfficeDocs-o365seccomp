@@ -92,7 +92,7 @@
 ### [Email encryption in Office 365](email-encryption.md)
 ### [Office 365 Message Encryption (OME)](ome.md)
 #### [Set up new Office 365 Message Encryption capabilities](set-up-new-message-encryption-capabilities.md)
-#### [Define mail flow rules to encrypt email messages in Office 365](https://docs.microsoft.com/en-us/office365/securitycompliance/define-mail-flow-rules-to-encrypt-mail.md)
+#### [Define mail flow rules to encrypt email messages in Office 365](define-mail-flow-rules-to-encrypt-email.md)
 #### [Manage Office 365 Message Encryption](manage-office-365-message-encryption.md)
 #### [Office 365 Message Encryption FAQ](ome-faq.md)
 #### [Revoke email encrypted by Office 365 Message Encryption](revoke-ome-encrypted-mail.md)
