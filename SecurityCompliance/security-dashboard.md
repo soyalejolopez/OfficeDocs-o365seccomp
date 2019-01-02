@@ -3,7 +3,7 @@ title: "Security dashboard overview"
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 11/27/2018
+ms.date: 01/02/2019
 ms.audience: ITPro
 ms.topic: overview
 ms.service: o365-administration
@@ -15,9 +15,11 @@ ms.assetid: fe0b9b8f-faa9-44ff-8095-4d1b2f507b74
 description: "Use the new Security Dashboard to review Office 365 Threat Protection Status, and view and act on security alerts."
 ---
 
-# Security dashboard overview
+# Security Dashboard
 
-The [Security &amp; Compliance Center](go-to-the-securitycompliance-center.md) enables your organization to manage data protection and compliance. Beginning in March 2018, the Security &amp; Compliance Center features a new Security Dashboard you can use to review your Threat Protection Status, and view and act on security alerts. 
+## Overview
+
+The [Security &amp; Compliance Center](go-to-the-securitycompliance-center.md) enables your organization to manage data protection and compliance. Assuming you have the necessary permissions, the Security Dashboard enables you to review your Threat Protection Status, as well as view and act on security alerts. 
   
 Watch the video to get an overview, and then read this article to learn more.
   
