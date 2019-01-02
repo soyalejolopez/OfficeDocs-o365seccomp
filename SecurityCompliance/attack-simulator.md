@@ -3,7 +3,7 @@ title: "Attack Simulator in Office 365"
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 11/09/2018
+ms.date: 01/02/2019
 ms.audience: ITPro
 ms.topic: overview
 ms.service: o365-administration
@@ -44,7 +44,7 @@ Make sure that you and your organization meet the following requirements for Att
     
 - You are an Office 365 global administrator
     
-- Your organization is using [Multi-factor authentication for Office 365 users](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication&view=o365-worldwide)
+- Your organization is using [Multi-factor authentication for Office 365 users](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication?view=o365-worldwide)
  
 - Your organization has [Office 365 Threat Intelligence](office-365-ti.md), with Attack Simulator visible in the Security &amp; Compliance Center (go to **Threat management** \> **Attack simulator**)<br/>![Threat management - Attack Simulator](media/ThreatMgmt-AttackSimulator.png)
 
@@ -59,7 +59,7 @@ This attack focuses on letting you manipulate who the message appears to have or
 
 ![Compose Email Body](media/9bd65af4-1f9d-45c1-8c06-796d7ccfd425.jpg)
   
-You can craft the rich HTML editor directly in the **Email body** field itself or work with HTML source. There are two important fields for inclusion in the HTML: 
+You can craft the rich HTML editor directly in the **Email body** field itself or work with HTML source.
   
 1. In the [Security &amp; Compliance Center](https://security.microsoft.com), choose **Threat management** \> **Attack simulator**.
     
@@ -113,7 +113,7 @@ A brute-force password attack against an organization is typically used after a 
     
 3. Specify the target recipient. A targeted recipient must have an Exchange Online Mailbox in order for the attack to be successful.
     
-4. Specify a set of passwords to use for the attack. You can use a text (.txt) file for your list of passwords. The text file cannot exceed 10 MB in file size. Use one password per line, and make sure to include a hard return after the last password in your list.
+4. Specify a set of passwords to use for the attack. To do this, you can use a text (.txt) file for your list of passwords. The text file cannot exceed 10 MB in file size. Use one password per line, and make sure to include a hard return after the last password in your list.
     
 5. Choose **Finish** to launch the attack. 
     
