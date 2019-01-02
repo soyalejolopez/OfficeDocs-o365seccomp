@@ -14,7 +14,7 @@ search.appverid:
 - MET150
 ms.assetid: 
 
-description: ""
+description: "This topic describes the new version of eDiscovery in Office 365."
 ---
 
 # Overview of eDiscovery 2.0 in Office 365  
