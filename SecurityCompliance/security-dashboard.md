@@ -27,6 +27,8 @@ Watch the video to get an overview, and then read this article to learn more.
   
 Depending on what your organization's Office 365 subscription includes, the Security Dashboard includes the following sections:
   
+- [Threat Management Summary](#threat-management-summary)
+
 - [Threat Protection Status](#threat-protection-status)
     
 - [Insights](#insights)
@@ -40,6 +42,12 @@ To view the Security Dashboard, in the [Office 365 Security &amp; Compliance Cen
 > [!NOTE]
 > You must be an Office 365 global administrator, a security administrator, or a security reader to view the Security Dashboard. See [Permissions in the Office 365 Security &amp; Compliance Center](permissions-in-the-security-and-compliance-center.md). 
   
+## Threat Management Summary
+
+The Threat Management Summary widget tells you at a glance how your organization was protected from threats over the past seven (7) days.
+
+
+
 ## Threat Protection Status
 
 In the upper left corner of the Security Dashboard is a Threat Protection Status widget that shows threat protection effectiveness. This widget tells you at a glance how many threats were blocked by [Office 365 Exchange Online Protection](anti-spam-protection.md) and [Office 365 Advanced Threat Protection](office-365-atp.md) (if configured) over the last seven days. This widget also shows the number of email messages detected as misclassified and reported by using the [Use the Report Message add-in](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2). Review your anti-spam, anti-malware, and anti-phishing policies to improve your configuration.
