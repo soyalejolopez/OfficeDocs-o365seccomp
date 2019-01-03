@@ -197,8 +197,8 @@ Here's more information about exporting search results.
   - You can have a maximum of 10 exports running at the same time within your organization.
     
   - A single user can run a maximum of three exports at the same time.
-    
-  - Exporting Content Search reports doesn't count against any of the export limits. 
+
+  > [!NOTE]> Exporting only the reports from a Content Search also counts against the number of exports running at the same time and the number of exports that a single user can run.
     
 - As previously stated, search results from mailboxes and sites are uploaded to the Azure storage location (as described in [Step 1: Prepare search results for export](#step-1-prepare-search-results-for-export)) at a maximum rate of 2 GB per hour.
     
