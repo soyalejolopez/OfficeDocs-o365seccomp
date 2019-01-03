@@ -3,7 +3,7 @@ title: "Security dashboard overview"
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 01/02/2019
+ms.date: 01/04/2019
 ms.audience: ITPro
 ms.topic: overview
 ms.service: o365-administration
