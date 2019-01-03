@@ -48,7 +48,7 @@ The Threat Management Summary widget tells you at a glance how your organization
 
 ![Security Dashboard - Threat Management Summary widget](media/SecDash-ThreatMgmtSummary.png)
 
-The information you'll see in the Threat Management Summary depends on what you subscription includes. For example, the following table describes what information is included for Office 365 Enterprise E3 and Office 365 Enterprise E5.
+The information you'll see in the Threat Management Summary depends on what you subscription includes. The following table describes what information is included for Office 365 Enterprise E3 and Office 365 Enterprise E5.
 
 
 |Office 365 Enterprise E3  |Office 365 Enterprise E5  |
