@@ -31,31 +31,9 @@ The new Microsoft 365 Security home page includes a dashboard you can use to mon
 
 When you use the Security Center for the first time, you'll see information across the top of the screen to help you get started. And you'll see how to navigate easily to the security features you're interested in exploring.
 
-### Microsoft 365 Secure Score
-
-Microsoft Secure Score, which builds on [Office 365 Secure Score](office-365-secure-score.md), 
-
-### Device threat reports
-
-### Identity threat reports
-
-### Cloud App Security reports
-
 ## Compliance Center
 
-### Compliance Center home page and dashboard
-
-### Sensitivity and Retention labels
-
-### Compliance Manager
-
-### Data loss prevention report
-
-### Cloud App Security reports
-
-### Microsoft 365 Alerts
-
-### Microsoft 365 Compliance policies
+![Microsoft 365 Compliance Center](media/m365-compliance-center.png)
 
 ## Permissions needed to access the new Security Center and the new Compliance Center
 
