@@ -214,7 +214,7 @@
 ### [Add data to a working set](compliance20/add-data-to-working-set.md)
 ## [Managing working sets](compliance20/managing-working-sets.md)
 ### [Manage load sets](compliance20/manage-load-sets.md)
-### [Load non-Office 365 data into a working set](lcompliance20/oad-non-office365-data.md)
+### [Load non-Office 365 data into a working set](compliance20/load-non-office365-data.md)
 ## [Reviewing data in a working set](compliance20/reviewing-data-in-working-set.md)
 ### [Working set search](compliance20/working-set-search.md)
 ### [Tagging documents in a working set](compliance20/tagging-documents.md)
