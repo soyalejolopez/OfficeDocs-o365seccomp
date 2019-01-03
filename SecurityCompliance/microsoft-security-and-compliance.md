@@ -15,7 +15,7 @@ description: "Get ready for the all-new Microsoft 365 Security Center and Compli
 
 ## Get ready for the all-new Microsoft 365 Security Center and Compliance Center
 
-As we're adding features to Security & Compliance capabilities for your organization, we are pleased to announce the all-new Microsoft 365 Security Center and Microsoft 365 Compliance Center. Reaad this article to get an overview of what's changing and when, and what to expect in the new Security Center and Compliance Center.
+As we're adding features to Security & Compliance capabilities for your organization, we are pleased to announce the all-new Microsoft 365 Security Center and Microsoft 365 Compliance Center. The new platform is rolling out, beginning in early February 2019 and through March 2019. Read this article to get an overview of what's changing and when, and what to expect in the new Security Center and Compliance Center.
 
 ## Security Center
 
