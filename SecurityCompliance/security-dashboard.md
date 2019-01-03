@@ -46,6 +46,14 @@ To view the Security Dashboard, in the [Office 365 Security &amp; Compliance Cen
 
 The Threat Management Summary widget tells you at a glance how your organization was protected from threats over the past seven (7) days.
 
+![Security Dashboard - Threat Management Summary widget](media/SecDash-ThreatMgmtSummary.png)
+
+The information you'll see in the Threat Management Summary depends on what you subscription includes. For example, the following table describes what information is included for Office 365 Enterprise E3 and Office 365 Enterprise E5.
+
+
+|Office 365 Enterprise E3  |Office 365 Enterprise E5  |
+|---------|---------|
+|Malware messages blocked<br/>Phishing messages blocked<br>Messages reported by users<br><br><br><br> |Malware messages blocked<br>Phishing messages blocked<br>Messages reported by users<br>Zero-day malware blocked<br>Advanced phishing messages detected<br>Malicious URLs blocked |
 
 
 ## Threat Protection Status
