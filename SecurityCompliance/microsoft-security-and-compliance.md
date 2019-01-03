@@ -71,16 +71,18 @@ The following table summarizes who can access various portals across Azure, Offi
 
 |Portal  |Global<br/>Administrator  |Security <br/>Administrator  |Compliance<br/>Administrator  |
 |---------|---------|---------|---------|
-|Row1     |         |         |         |
-|Row2     |         |         |         |
-|Row3     |         |         |         |
-|Row4     |         |         |         |
-|Row5     |         |         |         |
-|Row6     |         |         |         |
-|Row7     |         |         |         |
-|Row8     |         |         |         |
-|Row9     |         |         |         |
-|Row10     |         |         |         |
-|Row11     |         |         |         |
-|Row12     |         |         |         |
-|Row13     |         |         |         |
+|Office 365 Security & Compliance Center |Yes |Yes  |Yes |
+|Security Center     |Yes  | Yes  | No        |
+|Compliance Center     | Yes | No | Yes |
+|Azure Information Protection     |Yes |Yes |No |
+|Azure Security Center     |Yes |Yes |No |
+|Azure ATP     |Yes |Yes |No |
+|Windows Defender ATP / EDR     |Yes |Yes |No |
+|Identity Protection     |Yes |Yes |No |
+|Privileged Identity Management     |Yes |Yes |No |
+|Intune     |Yes |Yes |Yes |
+|Cloud App Security     |Yes |Yes |Yes |
+|Secure Score     |Yes |Yes |No |
+|Exchange     |Yes |Yes |Yes |
+|Compliance Manager     |Yes | No |Yes  |
+
