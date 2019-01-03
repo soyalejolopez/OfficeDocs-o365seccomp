@@ -19,7 +19,7 @@ As we're adding features to Security & Compliance capabilities for your organiza
 
 ## Security Center
 
-Your new Microsoft 365 Security home page includes a dashboard to help you monitor and manage security across your identities, data, devices, apps, and infrastructure. It also gives you easy access to your all-new Microsoft 365 Secure Score, device threat reports, identity threat reports, and Cloud App Security reports. 
+Your new Microsoft 365 Security Center includes a dashboard to help you monitor and manage security across your identities, data, devices, apps, and infrastructure. You will also have easy access to your all-new Microsoft 365 Secure Score, device threat reports, identity threat reports, and Cloud App Security reports. 
 
 ![New Microsoft 365 Security Center](media/m365-security-center.png)
 
@@ -32,6 +32,8 @@ When you use the Security Center for the first time, you'll see information acro
 
 
 ## Compliance Center
+
+Your new Compliance Center includes 
 
 ![Microsoft 365 Compliance Center](media/m365-compliance-center.png)
 
