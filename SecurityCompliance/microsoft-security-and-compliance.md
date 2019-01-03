@@ -19,7 +19,7 @@ As we're adding features to Security & Compliance capabilities for your organiza
 
 ## Security Center
 
-The new Security Center includes a Security Center home page and dashboard, Microsoft 365 Secure Score, device threat reports, identity threat reports, and easy access to Cloud App Security reports. The following sections provide an overview of these new and improved security features.
+The new Security Center includes a dashboard and easy access to Microsoft 365 Secure Score, device threat reports, identity threat reports, and easy access to Cloud App Security reports. The following sections provide an overview of these new and improved security features.
 
 ### Security Center home page and dashboard
 
