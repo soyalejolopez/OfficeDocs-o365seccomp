@@ -19,17 +19,17 @@ As we're adding features to Security & Compliance capabilities for your organiza
 
 ## Security Center
 
-The new Security Center includes a dashboard and easy access to Microsoft 365 Secure Score, device threat reports, identity threat reports, and easy access to Cloud App Security reports. The following sections provide an overview of these new and improved security features.
-
-To view the new Security Center, go to [https://security.microsoft.com](https://security.microsoft.com) and sign in. You must be assigned a valid Azure Active Directory role in order to access the Security Center.
-
-### Security Center home page and dashboard
+Your new Microsoft 365 Security home page includes a dashboard to help you monitor and manage security across your identities, data, devices, apps, and infrastructure. It also gives you easy access to your all-new Microsoft 365 Secure Score. 
 
 ![New Microsoft 365 Security Center](media/m365-security-center.png)
 
-The new Microsoft 365 Security home page includes a dashboard you can use to monitor and manage security across your Microsoft identities, data, devices, aapps, and infrastructure. This dashboard gives you a global view of how Microsoft is helping to prevent cloud security incidents and detect your security needs.
+When you use the Security Center for the first time, you'll see information across the top of the screen to help you get started. And you'll see how to navigate easily to the security features you're most interested in exploring.
 
-When you use the Security Center for the first time, you'll see information across the top of the screen to help you get started. And you'll see how to navigate easily to the security features you're interested in exploring.
+To view the new Security Center, go to [https://security.microsoft.com](https://security.microsoft.com) and sign in. (When the new Security Center is rolled out, your previous URL of [https://protection.office.com](https://protection.office.com) will redirect automatically.) 
+
+> [!NOTE]
+> You must be assigned a valid Azure Active Directory role in order to access the Security Center. To learn more, see [Permissions needed to access the new Security Center and the new Compliance Center](#permissions-needed-to-access-the-new-security-center-and-the-new-compliance-center) (in this article).
+
 
 ## Compliance Center
 
