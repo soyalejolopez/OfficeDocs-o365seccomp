@@ -1,5 +1,5 @@
 ---
-title: "Collecting data for a case"
+title: "Collecting data for a case in eDiscovery 2.0"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -17,4 +17,4 @@ ms.assetid:
 description: ""
 ---
 
-# Collecting data for a case
+# Collecting data for a case in eDiscovery 2.0
