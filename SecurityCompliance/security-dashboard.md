@@ -50,7 +50,7 @@ The information you'll see in the Threat Management Summary depends on what you 
 
 The Threat Protection Status widget shows threat protection effectiveness with a trending and detailed view of phish and malware. 
 
-![Threat protection widgets across the top of the Security Dashboard](media/tpswidget.png)
+![Threat protection status widget](media/tpswidget.png)
 
 The details depend on whether your Office 365 subscription includes [Exchange Online Protection](eop/exchange-online-protection-eop.md) with or without [Office 365 Advanced Threat Protection](office-365-atp.md).
 
@@ -60,7 +60,22 @@ The details depend on whether your Office 365 subscription includes [Exchange On
 
 
 ## Global Weekly Threat Detections
-  
+ 
+The Global Weekly Threat Detections widget shows how many threats were detected in email messages over the past seven (7) days.
+
+![Global Weekly Threat Detections widget](media/globalweeklythreatdetections.png)
+
+The metrics are determined as described in the following table:
+
+|Metric  |How it's calculated  |
+|---------|---------|
+|Messages scanned |Number of email messages scanned multiplied by the number of recipients |
+|Threats stopped  |Number of email messages identified as containing malware multiplied by the number of recipients |
+|Blocked by [ATP](office-365-atp.md) |Number of email messages blocked by ATP multiplied by the number of recipients |
+|Removed after delivery |Number of messages removed by [zero-hour auto purge](zero-hour-auto-purge.md) multiplied by the number of recipients |
+
+
+ 
 ## Insights
 
 Insights not only surface key issues you should review, they also include recommendations and actions to consider. For example, you might see that phishing email messages are being delivered because some users have disabled their junk mail options. To learn more about how insights work, see [Reports and insights in the Office 365 Security &amp; Compliance Center](reports-and-insights-in-security-and-compliance.md).
