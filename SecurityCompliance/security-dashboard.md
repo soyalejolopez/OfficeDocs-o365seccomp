@@ -102,7 +102,7 @@ If your organization has [Office 365 Threat Intelligence](office-365-ti.md), you
 
 Near the bottom of the Security Dashboard is a **Trends** section, which summarizes email flow trends for your organization. Reports provide information about email categorized as spam, malware, phishing attempts, and good email. Click a tile to view more detailed information in the report. 
   
-![The Trends section summarizes email flow trends for the organization](media/edec55c0-59f4-4510-ae91-4a50b7b3cd93.png)
+![The Trends section summarizes email flow trends for the organization](media/trends.png)
   
 And, if your organization's Office 365 subscription includes [Office 365 Threat Intelligence](office-365-ti.md), you will also have a **Recent threat management alerts** report in this section that enables your security team to view and take action on high-priority security alerts. 
   
