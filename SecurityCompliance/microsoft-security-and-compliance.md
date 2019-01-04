@@ -26,7 +26,7 @@ To view the new security center, go to [https://security.microsoft.com](https://
 When you use the Microsoft 365 security center for the first time, you'll see information across the top of the screen to help you get started. And you'll see how to navigate easily to the security features you're most interested in exploring.
 
 > [!NOTE]
-> You must be assigned a valid Azure Active Directory role in order to access the security center. To learn more, see the [permissions needed](#permissions-needed-to-access-the-new-security-center-and-the-new-compliance-center) section (in this article).
+> You must be assigned a valid Azure Active Directory role in order to access the security center. To learn more, see the [Permissions needed](#permissions-needed) section (in this article).
 
 ## Compliance center
 
