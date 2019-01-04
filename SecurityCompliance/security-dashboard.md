@@ -48,7 +48,13 @@ The information you'll see in the Threat Management Summary depends on what you 
 
 ## Threat Protection Status
 
-In the upper left corner of the Security Dashboard is a Threat Protection Status widget that shows threat protection effectiveness. This widget tells you at a glance how many threats were blocked by [Office 365 Exchange Online Protection](anti-spam-protection.md) and [Office 365 Advanced Threat Protection](office-365-atp.md) (if configured) over the last seven days. This widget also shows the number of email messages detected as misclassified and reported by using the [Use the Report Message add-in](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2). Review your anti-spam, anti-malware, and anti-phishing policies to improve your configuration.
+The Threat Protection Status widget shows threat protection effectiveness with a trending and detailed view of phish and malware. The details depend on whether your Office 365 subscription includes [Exchange Online Protection](eop/exchange-online-protection-eop.md) with or without [Office 365 Advanced Threat Protection](office-365-atp.md).
+
+- If your subscription includes Office 365 Advanced Threat Protection, you'll see details about malicious content and malicious email detected and blocked, as well as an aggregated count of unique email messages with malicious content blocked by the anti-malware engine, zero-hour auto purge, and ATP features (including Safe Links, Safe Attachments, and anti-phishing capabilities). To learn more, see [Threat Protection Status report (ATP)](view-reports-for-atp.md#threat-protection-status-report).
+
+- If your subscription includes Exchange Online Protection but not Office 365 Advanced Threat Protection, you'll see details about malicious email that was detected and blocked by Exchange Online Protection, as well as email identified as malware or a phishing attempt. To learn more, see [Threat Protection Status report (EOP)](view-email-security-reports.md#threat-protection-status-report-new).
+
+
   
 ![Threat protection widgets across the top of the Security Dashboard](media/5c7c644e-6b01-4bf8-b991-f6ba0fdc5717.png)
   
