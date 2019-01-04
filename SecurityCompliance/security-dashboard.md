@@ -83,13 +83,17 @@ Malware widgets show details about malware trends and malware family types over 
  
 ## Insights
 
-Insights not only surface key issues you should review, they also include recommendations and actions to consider. For example, you might see that phishing email messages are being delivered because some users have disabled their junk mail options. To learn more about how insights work, see [Reports and insights in the Office 365 Security &amp; Compliance Center](reports-and-insights-in-security-and-compliance.md).
+Insights not only surface key issues you should review, they also include recommendations and actions to consider. 
+
+![Smart insights](media/smartinsights.png)
+
+For example, you might see that phishing email messages are being delivered because some users have disabled their junk mail options. To learn more about how insights work, see [Reports and insights in the Office 365 Security &amp; Compliance Center](reports-and-insights-in-security-and-compliance.md).
   
 ## Threat intelligence
 
 If your organization has [Office 365 Threat Intelligence](office-365-ti.md), your Security Dashboard has a **Threat Intelligence** section that includes advanced tools. Your organization's security team can use the information in this section to understand emerging campaigns, investigate threats and manage incidents. 
   
-![Threat intelligence helps you understand attacks targeted at your organization](media/6ce67cf2-3bbb-4008-9c55-1b4c7af0471f.png)
+![Threat intelligence helps you understand attacks targeted at your organization](media/threatintelwidget.png)
   
 > [!TIP]
 > Office 365 Threat Intelligence is included with Office 365 Enterprise E5; however, if your organization is using another Office 365 Enterprise subscription, Office 365 Threat Intelligence can be purchased as an add-on. For more information, see [Office 365 Threat Intelligence](office-365-ti.md). 
