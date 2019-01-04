@@ -25,18 +25,8 @@ Watch the video to get an overview, and then read this article to learn more.
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/3540b1f8-62d2-47fa-a07d-d7ad76f55b0f?autoplay=false]
   
-Depending on what your organization's Office 365 subscription includes, the Security Dashboard includes the following sections:
+Depending on what your organization's Office 365 subscription includes, the Security Dashboard includes several widgets, such as Threat Management Summary, Threat Protection Status, Global Weekly Threat Detections, Malware, and more, as described in the following sections.
   
-- [Threat Management Summary](#threat-management-summary)
-
-- [Threat Protection Status](#threat-protection-status)
-    
-- [Insights](#insights)
-    
-- [Threat intelligence](#threat-intelligence)
-    
-- [Trends](#trends)
-    
 To view the Security Dashboard, in the [Office 365 Security &amp; Compliance Center](go-to-the-securitycompliance-center.md), go to **Threat management** \> **Dashboard**.
   
 > [!NOTE]
