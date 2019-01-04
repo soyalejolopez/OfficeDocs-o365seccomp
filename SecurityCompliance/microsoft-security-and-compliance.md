@@ -30,7 +30,7 @@ When you use the Microsoft 365 security center for the first time, you'll see in
 
 ## Compliance center
 
-Your new Microsoft 365 compliance center includes Compliance Manager and integrated solutions for classification, data governance, case management, and more. You'll have easy access to Sensitivity and Retention labels, Data Loss Prevention reports, Cloud App Security reports, alerts, and compliance policies.
+Your new Microsoft 365 compliance center provides you with a Compliance Score that reflects your overall compliance posture and gives you recommended actions to help you configure settings to meet complex compliance obligations. You’ll have easy access to Sensitivity and Retention labels and policies, Data Loss Prevention, Data Governance, eDiscovery, Data Subject Requests (DSRs) case management and Cloud App Security.
 
 ![Microsoft 365 compliance center](media/m365-compliance-center.png)
 
@@ -57,7 +57,7 @@ The following table summarizes who can access various portals across Azure, Offi
 |---------|---------|---------|---------|
 |Office 365 Security & Compliance Center |Yes |Yes  |Yes |
 |Microsoft 365 security center  |Yes  | Yes  | No        |
-|Microsoft 365 compliance center  | Yes | No | Yes |
+|Microsoft 365 compliance center  | Yes | Yes | Yes |
 |Azure Information Protection  |Yes |Yes |No |
 |Azure Security Center  |Yes |Yes |No |
 |Azure Advanced Threat Protection  |Yes |Yes |No |
