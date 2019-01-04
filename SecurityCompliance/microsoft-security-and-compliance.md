@@ -13,9 +13,9 @@ description: "Get ready for the all-new Microsoft 365 security center and compli
 
 # Get ready for the all-new Microsoft 365 security center and Microsoft 365 compliance center
 
-As we're adding features to security & compliance capabilities for your organization, **we are pleased to announce the all-new [Microsoft 365 security center](#security-center) and [Microsoft 365 compliance center](#compliance-center), rolling out beginning in early February 2019 and through March 2019**. Read this article to get an overview and what to expect.
+As we're adding features to security & compliance capabilities for your organization, **we are pleased to announce the all-new [Microsoft 365 security center](#microsoft-365-security-center) and [Microsoft 365 compliance center](#microsoft-365-compliance-center), rolling out beginning in early February 2019 and through March 2019**. Read this article to get an overview and what to expect.
 
-## Security center
+## Microsoft 365 security center
 
 Your new Microsoft 365 security center includes a dashboard to help you monitor and manage security across your identities, data, devices, apps, and infrastructure. You will also have easy access to your all-new Microsoft 365 Secure Score, device threat reports, identity threat reports, and Cloud App Security reports. 
 
@@ -28,7 +28,7 @@ When you use the Microsoft 365 security center for the first time, you'll see in
 > [!NOTE]
 > You must be assigned a valid Azure Active Directory role in order to access the security center. To learn more, see the [Permissions needed](#permissions-needed) section (in this article).
 
-## Compliance center
+## Microsoft 365 compliance center
 
 Your new Microsoft 365 compliance center provides you with a Compliance Score that reflects your overall compliance posture and gives you recommended actions to help you configure settings to meet complex compliance obligations. You’ll have easy access to Sensitivity and Retention labels and policies, Data Loss Prevention, Data Governance, eDiscovery, Data Subject Requests (DSRs) case management and Cloud App Security.
 
