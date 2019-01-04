@@ -57,7 +57,7 @@ The following table summarizes who can access various portals across Azure, Offi
 |---------|---------|---------|---------|
 |Office 365 Security & Compliance Center |Yes |Yes  |Yes |
 |Microsoft 365 security center  |Yes  | Yes  | No        |
-|Microsoft 365 compliance center  | Yes | Yes | Yes |
+|Microsoft 365 compliance center  | Yes | No | Yes |
 |Azure Information Protection  |Yes |Yes |No |
 |Azure Security Center  |Yes |Yes |No |
 |Azure Advanced Threat Protection  |Yes |Yes |No |
@@ -68,7 +68,7 @@ The following table summarizes who can access various portals across Azure, Offi
 |Cloud App Security     |Yes |Yes |Yes |
 |Secure Score     |Yes |Yes |No |
 |Exchange     |Yes |Yes |Yes |
-|Compliance Manager     |Yes | No |Yes  |
+|Compliance Manager     |Yes | Yes |Yes  |
 
 ## What to expect
 
