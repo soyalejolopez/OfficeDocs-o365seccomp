@@ -55,10 +55,10 @@ The Threat Protection Status widget shows threat protection effectiveness with a
 The details depend on whether your Office 365 subscription includes [Exchange Online Protection](eop/exchange-online-protection-eop.md) (EOP) with or without [Office 365 Advanced Threat Protection](office-365-atp.md) (ATP).
 
 
-|If your subscription includes... |You'll see these details |Learn more here |
-|---------|---------|---------|
-|EOP but not Office 365 ATP     |Malicious email that was detected and blocked by Exchange Online Protection<br>| [Threat Protection Status report (EOP)](view-email-security-reports.md#threat-protection-status-report-new)|
-|Office 365 ATP |Malicious content and malicious email detected and blocked<br><br>Aggregated count of unique email messages with malicious content blocked by the anti-malware engine, zero-hour auto purge, and ATP features (including Safe Links, Safe Attachments, and anti-phishing capabilities). | [Threat Protection Status report (ATP)](view-reports-for-atp.md#threat-protection-status-report) |
+|If your subscription includes... |You'll see these details |
+|---------|---------|
+|EOP but not Office 365 ATP     |Malicious email that was detected and blocked by EOP<br> See [Threat Protection Status report (EOP)](view-email-security-reports.md#threat-protection-status-report-new).| |
+|Office 365 ATP |Malicious content and malicious email detected and blocked by EOP and Office 365 ATP<br>Aggregated count of unique email messages with malicious content blocked by the anti-malware engine, [zero-hour auto purge](zero-hour-auto-purge.md), and ATP features (including [Safe Links](atp-safe-links.md), [Safe Attachments](atp-safe-attachments.md), and [ATP anti-phishing](atp-anti-phishing.md)).<br>See [Threat Protection Status report (ATP)](view-reports-for-atp.md#threat-protection-status-report). | 
 
 ## Global Weekly Threat Detections
  
@@ -66,7 +66,7 @@ The Global Weekly Threat Detections widget shows how many threats were detected 
 
 ![Global Weekly Threat Detections widget](media/globalweeklythreatdetections.png)
 
-The metrics are determined as described in the following table:
+The metrics are calculated as described in the following table:
 
 |Metric  |How it's calculated  |
 |---------|---------|
@@ -91,12 +91,10 @@ For example, you might see that phishing email messages are being delivered beca
   
 ## Threat intelligence
 
-If your organization has [Office 365 Threat Intelligence](office-365-ti.md), your Security Dashboard has a **Threat Intelligence** section that includes advanced tools. Your organization's security team can use the information in this section to understand emerging campaigns, investigate threats and manage incidents. 
+If your organization's subscription includes  [Threat Intelligence capabilities](office-365-ti.md), your Security Dashboard has a **Threat Intelligence** section that includes advanced tools. Your organization's security team can use the information in this section to understand emerging campaigns, investigate threats and manage incidents. 
   
 ![Threat intelligence helps you understand attacks targeted at your organization](media/threatintelwidget.png)
   
-> [!TIP]
-> Office 365 Threat Intelligence is included with Office 365 Enterprise E5; however, if your organization is using another Office 365 Enterprise subscription, Office 365 Threat Intelligence can be purchased as an add-on. For more information, see [Office 365 Threat Intelligence](office-365-ti.md). 
   
 ## Trends
 
@@ -104,7 +102,7 @@ Near the bottom of the Security Dashboard is a **Trends** section, which summari
   
 ![The Trends section summarizes email flow trends for the organization](media/trends.png)
   
-And, if your organization's Office 365 subscription includes [Office 365 Threat Intelligence](office-365-ti.md), you will also have a **Recent threat management alerts** report in this section that enables your security team to view and take action on high-priority security alerts. 
+And, if your organization's Office 365 subscription includes [Threat Intelligence capabilities](office-365-ti.md), you will also have a **Recent threat management alerts** report in this section that enables your security team to view and take action on high-priority security alerts. 
   
 ## Related topics
 
