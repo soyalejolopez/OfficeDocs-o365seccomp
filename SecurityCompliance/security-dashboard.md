@@ -52,12 +52,13 @@ The Threat Protection Status widget shows threat protection effectiveness with a
 
 ![Threat protection status widget](media/tpswidget.png)
 
-The details depend on whether your Office 365 subscription includes [Exchange Online Protection](eop/exchange-online-protection-eop.md) with or without [Office 365 Advanced Threat Protection](office-365-atp.md).
+The details depend on whether your Office 365 subscription includes [Exchange Online Protection](eop/exchange-online-protection-eop.md) (EOP) with or without [Office 365 Advanced Threat Protection](office-365-atp.md) (ATP).
 
-- If your subscription includes Exchange Online Protection but not Office 365 Advanced Threat Protection, you'll see details about malicious email that was detected and blocked by Exchange Online Protection, as well as email identified as malware or a phishing attempt. To learn more, see [Threat Protection Status report (EOP)](view-email-security-reports.md#threat-protection-status-report-new).
 
-- If your subscription includes Office 365 Advanced Threat Protection, you'll see details about malicious content and malicious email detected and blocked, as well as an aggregated count of unique email messages with malicious content blocked by the anti-malware engine, zero-hour auto purge, and ATP features (including Safe Links, Safe Attachments, and anti-phishing capabilities). To learn more, see [Threat Protection Status report (ATP)](view-reports-for-atp.md#threat-protection-status-report).
-
+|If your subscription includes... |You'll see these details |Learn more here |
+|---------|---------|---------|
+|EOP but not Office 365 ATP     |Malicious email that was detected and blocked by Exchange Online Protection<br>| [Threat Protection Status report (EOP)](view-email-security-reports.md#threat-protection-status-report-new)|
+|Office 365 ATP |Malicious content and malicious email detected and blocked<br><br>Aggregated count of unique email messages with malicious content blocked by the anti-malware engine, zero-hour auto purge, and ATP features (including Safe Links, Safe Attachments, and anti-phishing capabilities). | [Threat Protection Status report (ATP)](view-reports-for-atp.md#threat-protection-status-report) |
 
 ## Global Weekly Threat Detections
  
@@ -74,7 +75,11 @@ The metrics are determined as described in the following table:
 |Blocked by [ATP](office-365-atp.md) |Number of email messages blocked by ATP multiplied by the number of recipients |
 |Removed after delivery |Number of messages removed by [zero-hour auto purge](zero-hour-auto-purge.md) multiplied by the number of recipients |
 
+## Malware
 
+Malware widgets show details about malware trends and malware family types over the past seven (7) days.
+
+![Malware trends and family types](media/malwarewidgetatpe5.png)
  
 ## Insights
 
