@@ -3,7 +3,7 @@ title: "Limits for Content Search in the Office 365 Security &amp; Compliance Ce
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 4/30/2018
+ms.date: 
 ms.audience: Admin
 ms.topic: reference
 ms.service: o365-administration
@@ -24,16 +24,7 @@ description: "Learn about the limits in effect for the Content Search feature in
   
 Various limits are applied to the Content Search feature in the Office 365 Security &amp; Compliance Center. This include searches run on the **Content search** page and searches that are associated with an eDiscovery case. These limits help to maintain the health and quality of services provided to Office 365 organizations. There are also limits related to the indexing of email messages in Exchange Online for search. You can't modify the Content Search or email indexing limits, but you should be aware of them so that you can take these limits into consideration when planning, running, and troubleshooting Content Searches. 
   
- **Contents**
-  
-[Content Search limits](limits-for-content-search.md#searchlimits)
-  
-[Indexing limits for email messages](limits-for-content-search.md#indexinglimits)
-  
-[More information](limits-for-content-search.md#moreinfo)
-  
 ## Content Search limits
-<a name="searchlimits"> </a>
 
 The following table lists the search limits in the Security &amp; Compliance Center.
   
@@ -58,10 +49,7 @@ The following table lists the search limits in the Security &amp; Compliance Cen
 > [!NOTE]
 > <sup>1</sup> When searching SharePoint and OneDrive for Business locations, the characters in the URLs of the sites being searched are counted against this limit. <br/> <sup>2</sup> For non-phrase queries (a keyword value that doesn't use double quotation marks) we use a special prefix index. This tells us that a word occurs in a document, but not where it occurs in the document. To do a phrase query (a keyword value with double quotation marks), we need to compare the position within the document for the words in the phrase. This means that we can't use the prefix index for phrase queries. In this case, we internally expand the query with all possible words that the prefix expands to; for example,  `"time*"` can expand to  `"time OR timer OR times OR timex OR timeboxed OR …"`. 10,000 is the maximum number of variants the word can expand to, not the number of documents matching the query. There is no upper limit for non-phrase terms. 
   
-[Return to top](limits-for-content-search.md#top)
-  
 ## Indexing limits for email messages
-<a name="indexinglimits"> </a>
 
 The following table describes the indexing limits that might result in an email message being returned as an unindexed item or a partially indexed item in the results of a Content Search.
   
@@ -77,15 +65,12 @@ The following table describes the indexing limits that might result in an email 
 |Maximum annotation tokens  <br/> |2 million  <br/> |When an email message is indexed, each word is annotated with different processing instructions that specify how that word should be indexed. Each set of processing instructions is called an annotation token. To maintain the quality of service in Office 365, there is a limit of 2 million annotation tokens for an email message.  <br/> |
 |Maximum body size in index  <br/> |67 million characters  <br/> |The total number of characters in the body of an email message and all its attachments. When an email message is indexed, all text in the body of the message and in all attachments is concatenated into a single string. The maximum size of this string that is indexed is 67 million characters.  <br/> |
 |Maximum unique tokens in body  <br/> |1 million  <br/> |As previously explained, tokens are the result of extracting text from content, removing punctuation and spaces, and then dividing it into words (called tokens) that are stored in the index. For example, the phrase  `"cat, mouse, bird, dog, dog"` contains 5 tokens. But only 4 of these are unique tokens. There is a limit of 1 million unique tokens per email message, which helps prevent the index from getting too large with random tokens.  <br/> |
-   
-[Return to top](limits-for-content-search.md#top)
   
 ## More information
-<a name="moreinfo"> </a>
 
 There are additional limits related to different aspects of Content Search, such as exporting search results and content indexing. For a description of these limits, see the following topics:
   
-- 
+- [Export Content Search results](export-search-results.md#export-limits)
     
 - [Partially indexed items in Content Search in Office 365](partially-indexed-items-in-content-search.md)
     
@@ -98,7 +83,3 @@ For information about Content Searches, see:
 - [Content Search in Office 365](content-search.md)
     
 - [Keyword queries and search conditions for Content Search](keyword-queries-and-search-conditions.md)
-    
-[Return to top](limits-for-content-search.md#top)
-  
-
