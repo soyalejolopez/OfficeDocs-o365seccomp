@@ -41,6 +41,18 @@ To view the new Microsoft 365 compliance center, go to [https://compliance.micro
 > [!NOTE]
 > You must be assigned a valid Azure Active Directory role in order to access the Microsoft 365 compliance center. To learn more, see the [permissions needed](#permissions-needed-to-access-the-new-security-center-and-the-new-compliance-center) section (in this article).
 
+## What to expect
+
+- **Coming soon!** The new Microsoft 365 security center and the new Microsoft 365 compliance center are rolling out beginning in early Febuary 2019 and through March 2019. You should have your new Microsoft 365 security center and your new Microsoft 365 compliance center within this timeframe.
+
+- **Easy access!** With improved navigation, integrated solutions, and a streamlined experience, you can expect to see and access the information you're most interested in, and take advantage of the powerful new or improved security and compliance features of Microsoft 365.
+
+- **Smooth transition!** You can expect a smooth transition to the new centers, with redirects happening automatically from the former Office 365 Security & Compliance Center feature areas. 
+
+    - Links to security features in the Office 365 Security & Compliance Center will take you to the new Microsoft 365 security center automatically. 
+
+    - Links to compliance features in the Office 365 Security & Compliance Center will take you to the new Microsoft 365 compliance center automatically.
+
 ## Permissions needed
 
 In order to access the new Microsoft 365 security center or the new Microsoft 365 compliance center, you must be assigned the Global Administrator, Compliance Administrator, or Security Administrator role in Azure Active Directory.
@@ -72,18 +84,6 @@ The following table summarizes who can access various portals across Azure, Offi
 |[Secure Score](https://docs.microsoft.com/office365/securitycompliance/office-365-secure-score)     |Yes |Yes |No |
 |[Exchange](https://docs.microsoft.com/exchange/)     |Yes |Yes |Yes |
 |Compliance Manager (coming soon!) |Yes | Yes |Yes  |
-
-## What to expect
-
-- **Coming soon!** The new Microsoft 365 security center and the new Microsoft 365 compliance center are rolling out beginning in early Febuary 2019 and through March 2019. You should have your new Microsoft 365 security center and your new Microsoft 365 compliance center within this timeframe.
-
-- **Easy access!** With improved navigation, integrated solutions, and a streamlined experience, you can expect to see and access the information you're most interested in, and take advantage of the powerful security and compliance features of Microsoft 365.
-
-- **Smooth transition!** You can expect a smooth transition to the new centers, with redirects happening automatically from the former Office 365 Security & Compliance Center feature areas. 
-
-    - Links to security features in the Office 365 Security & Compliance Center will take you to the new Microsoft 365 security center automatically. 
-
-    - Links to compliance features in the Office 365 Security & Compliance Center will take you to the new Microsoft 365 compliance center automatically.
 
 
 
