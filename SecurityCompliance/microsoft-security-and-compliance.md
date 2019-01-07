@@ -17,7 +17,7 @@ As we're adding features to security & compliance capabilities for your organiza
 
 ## Microsoft 365 security center
 
-Your new Microsoft 365 security center includes a dashboard to help you monitor and manage security across your identities, data, devices, apps, and infrastructure. You will also have easy access to your all-new Microsoft Secure Score, device threat reports, identity threat reports, and Cloud App Security reports. 
+Your new Microsoft 365 security center includes a dashboard to help you monitor and manage security across your identities, data, devices, apps, and infrastructure. You will also have easy access to your all-new Microsoft Secure Score, and new and improved device threat reports, identity threat reports, and Cloud App Security reports. 
 
 ![New Microsoft 365 security center](media/m365-security-center.png)
 
