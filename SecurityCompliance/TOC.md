@@ -195,9 +195,33 @@
 ### [Increase the Recoverable Items quota for mailboxes on hold](increase-the-recoverable-quota-for-mailboxes-on-hold.md)
 ### [How to identify the type of hold placed on an Exchange Online mailbox](identify-a-hold-on-an-exchange-online-mailbox.md)
 ## [Office 365 Advanced eDiscovery](office-365-advanced-ediscovery.md)
-### [Quick setup for Office 365 Advanced eDiscovery](quick-setup-for-advanced-ediscovery.md)
-### [Import non-Office 365 content for Advanced eDiscovery analysis](import-non-office-365-data-into-advanced-ediscovery.md)
-### [Set up users and cases in Office 365 Advanced eDiscovery](set-up-users-and-cases-in-advanced-ediscovery.md)
+### [Quick setup](quick-setup-for-advanced-ediscovery.md)
+
+### [Set up users and cases](set-up-users-and-cases-in-advanced-ediscovery.md)
+### [Import non-Office 365 content](import-non-office-365-data-into-advanced-ediscovery.md)
+
+
+### Collecting data
+
+
+### Processing data
+
+
+### Reviewing data
+
+
+
+### Analyzing data
+
+
+
+### Exporting data
+
+
+### Advanced eDiscovery reference
+
+
+
 ### [Export results in Office 365 Advanced eDiscovery](export-results-in-advanced-ediscovery.md)
 ### [Run the Process module in Office 365 Advanced eDiscovery](run-the-process-module-in-advanced-ediscovery.md)
 ### [Analyze case data with Office 365 Advanced eDiscovery](analyze-case-data-with-advanced-ediscovery.md)
