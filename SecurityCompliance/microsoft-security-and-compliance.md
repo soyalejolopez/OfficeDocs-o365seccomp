@@ -30,7 +30,7 @@ To view the new Microsoft 365 security center, go to [https://security.microsoft
 
 ## Microsoft 365 compliance center
 
-Your new Microsoft 365 compliance center provides you with your all-new Microsoft Compliance Score that reflects your overall compliance posture and gives you recommended actions to help you configure settings to meet complex compliance obligations. You’ll have easy access to new/improved Sensitivity and Retention labels and policies, Data Loss Prevention, Data Governance, eDiscovery, Data Subject Requests (DSRs) case management and Cloud App Security.
+Your new Microsoft 365 compliance center provides you with visibility into Microsoft Compliance Score that reflects your overall compliance posture and gives you recommended actions to help you configure settings to meet complex compliance obligations. You’ll have easy access to new/improved Sensitivity and Retention labels and policies, Data Loss Prevention, Data Governance, eDiscovery, Data Subject Requests (DSRs) case management and Cloud App Security.
 
 ![Microsoft 365 compliance center](media/m365-compliance-center.png)
 
