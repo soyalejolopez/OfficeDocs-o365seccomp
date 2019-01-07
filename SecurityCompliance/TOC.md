@@ -199,32 +199,55 @@
 ### [Delete items in the Recoverable Items folder of cloud-based mailboxes on hold](delete-items-in-the-recoverable-items-folder-of-mailboxes-on-hold.md)
 ### [Increase the Recoverable Items quota for mailboxes on hold](increase-the-recoverable-quota-for-mailboxes-on-hold.md)
 ### [How to identify the type of hold placed on an Exchange Online mailbox](identify-a-hold-on-an-exchange-online-mailbox.md)
+
 ## [Office 365 Advanced eDiscovery](office-365-advanced-ediscovery.md)
 ### [Quick setup](quick-setup-for-advanced-ediscovery.md)
 
-### [Set up users and cases](set-up-users-and-cases-in-advanced-ediscovery.md)
-### [Import non-Office 365 content](import-non-office-365-data-into-advanced-ediscovery.md)
+### [Setting up cases](set-up-users-and-cases-in-advanced-ediscovery.md)
+#### [Configure case and organization settings](define-case-and-tenant-settings-in-advanced-ediscovery.md)
+#### [Configure settings for analysis](set-analyze-options-in-advanced-ediscovery.md)
+#### [Defining issues for a case](define-issues-and-assign-users.md)
 
+### [Configure Ignore Text settings for analysis](set-ignore-text-in-advanced-ediscovery.md)
+### [Configure highlighted keywords and other settings for Relevance](define-highlighted-keywords-and-advanced-options.md)
 
-### Collecting data
+### Collecting case data
+#### [Prepare data for Advanced eDiscovery](prepare-data-for-advanced-ediscovery.md)
+#### [Import non-Office 365 content to a case](import-non-office-365-data-into-advanced-ediscovery.md)
 
+### [Processing data](run-the-process-module-in-advanced-ediscovery.md)
+#### [Run the Process module and load data](run-the-process-module-and-load-data-in-advanced-ediscovery.md)
+### [View Process module results](view-process-module-results-in-advanced-ediscovery.md)
 
-### Processing data
+### Reviewing case data
+#### [Tagging and Search](search-and-tagging.md)
+### [Making decisions about the review set](decision-based-on-the-results-in-advanced-ediscovery.md)
 
+### [Analyzing case data](analyze-case-data-with-advanced-ediscovery.md)
+#### [Configure analysis settings](set-analyze-options-in-advanced-ediscovery.md)
+#### [Run Express Analysis](use-express-analysis-in-advanced-ediscovery.md)
+#### [Understanding document similarity (near duplicates)](understand-document-similarity-in-advanced-ediscovery.md)
+#### [View the results of analysis](view-analyze-results-in-advanced-ediscovery.md)
 
-### Reviewing data
+### [Using the Relevance module](use-relevance-in-advanced-ediscovery.md)
+#### [Understanding Relevance assessment](assessment-in-relevance-in-advanced-ediscovery.md)
+#### [Setting up Relevance training](manage-relevance-setup-in-advanced-ediscovery.md)
+#### [Perform Relevance training and tagging](tagging-and-relevance-training-in-advanced-ediscovery.md)
+#### [Track the Relevance training process](track-relevance-analysis-in-advanced-ediscovery.md)
+#### [Perform Relevance assessment and tagging](tagging-and-assessment-in-advanced-ediscovery.md)
+#### [Test the results of Relevance analysis](test-relevance-analysis-in-advanced-ediscovery.md)
+### [Loads additional data for Relevance training](set-up-loads-to-add-imported-files.md)
 
-
-
-### Analyzing data
-
-
-
-### Exporting data
-
+### [Exporting case data](export-case-data-in-advanced-ediscovery.md)
+#### [Export data](export-results-in-advanced-ediscovery.md)
+#### [Export report fields](export-report-fields-in-advanced-ediscovery.md)
+#### [View batch history and export past results](view-batch-history-and-export-past-results.md)
 
 ### Advanced eDiscovery reference
+#### [Use eDiscovery utilities](use-advanced-ediscovery-utilities.md)
+#### [Run reports](run-reports-in-advanced-ediscovery.md)
 
+<<<<<<< HEAD
 
 
 ### [Export results in Office 365 Advanced eDiscovery](export-results-in-advanced-ediscovery.md)
@@ -326,6 +349,8 @@
 ### [Download limits](compliance20/download-limits-ediscovery20.md)
 ### [Supported file types](compliance20/supported-filetypes-ediscovery20.md)
 
+=======
+>>>>>>> v1 of revised AeD TOC
 # [Search the audit log](search-the-audit-log-in-security-and-compliance.md)
 ## [Turn audit log search on or off](turn-audit-log-search-on-or-off.md)
 ## [Enable mailbox auditing](enable-mailbox-auditing.md)
