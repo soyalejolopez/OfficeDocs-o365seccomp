@@ -198,13 +198,7 @@
 ## [Office 365 Advanced eDiscovery](office-365-advanced-ediscovery.md)
 ### [Getting started in Advanced eDiscovery](quick-setup-for-advanced-ediscovery.md)
 
-### Configuring Advanced eDiscovery
-#### [Configure analysis settings](set-analyze-options-in-advanced-ediscovery.md)
-#### [Configure Ignore Text settings](set-ignore-text-in-advanced-ediscovery.md)
-#### [Configure highlighted keywords and other Relevance settings](define-highlighted-keywords-and-advanced-options.md)
-
 ### [Setting up cases](set-up-users-and-cases-in-advanced-ediscovery.md)
-#### [Configure case and organization settings](define-case-and-tenant-settings-in-advanced-ediscovery.md)
 #### [Defining issues for a case](define-issues-and-assign-users.md)
 
 ### Collecting case data
@@ -226,10 +220,10 @@
 
 ### [Using the Relevance module](use-relevance-in-advanced-ediscovery.md)
 #### [Overview of Relevance assessment](assessment-in-relevance-in-advanced-ediscovery.md)
+#### [Perform Relevance assessment and tagging](tagging-and-assessment-in-advanced-ediscovery.md)
 #### [Set up Relevance training](manage-relevance-setup-in-advanced-ediscovery.md)
 #### [Perform Relevance training and tagging](tagging-and-relevance-training-in-advanced-ediscovery.md)
 #### [Track the Relevance training process](track-relevance-analysis-in-advanced-ediscovery.md)
-#### [Perform Relevance assessment and tagging](tagging-and-assessment-in-advanced-ediscovery.md)
 #### [Test the results of Relevance analysis](test-relevance-analysis-in-advanced-ediscovery.md)
 #### [Load additional data for Relevance training](set-up-loads-to-add-imported-files.md)
 
@@ -237,6 +231,12 @@
 #### [Export data](export-results-in-advanced-ediscovery.md)
 #### [Export report fields](export-report-fields-in-advanced-ediscovery.md)
 #### [View batch history and export past results](view-batch-history-and-export-past-results.md)
+
+### Configuring Advanced eDiscovery
+#### [Configure case and organization settings](define-case-and-tenant-settings-in-advanced-ediscovery.md)
+#### [Configure analysis settings](set-analyze-options-in-advanced-ediscovery.md)
+#### [Configure Ignore Text settings](set-ignore-text-in-advanced-ediscovery.md)
+#### [Configure highlighted keywords and other Relevance settings](define-highlighted-keywords-and-advanced-options.md)
 
 ### Advanced eDiscovery reference
 #### [Use eDiscovery utilities](use-advanced-ediscovery-utilities.md)
