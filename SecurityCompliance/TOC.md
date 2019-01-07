@@ -201,42 +201,42 @@
 ### [How to identify the type of hold placed on an Exchange Online mailbox](identify-a-hold-on-an-exchange-online-mailbox.md)
 
 ## [Office 365 Advanced eDiscovery](office-365-advanced-ediscovery.md)
-### [Quick setup](quick-setup-for-advanced-ediscovery.md)
+### [Getting started in Advanced eDiscovery](quick-setup-for-advanced-ediscovery.md)
+
+### Configuring Advanced eDiscovery
+#### [Configure analysis settings](set-analyze-options-in-advanced-ediscovery.md)
+#### [Configure Ignore Text settings](set-ignore-text-in-advanced-ediscovery.md)
+#### [Configure highlighted keywords and other Relevance settings](define-highlighted-keywords-and-advanced-options.md)
 
 ### [Setting up cases](set-up-users-and-cases-in-advanced-ediscovery.md)
 #### [Configure case and organization settings](define-case-and-tenant-settings-in-advanced-ediscovery.md)
-#### [Configure settings for analysis](set-analyze-options-in-advanced-ediscovery.md)
 #### [Defining issues for a case](define-issues-and-assign-users.md)
-
-### [Configure Ignore Text settings for analysis](set-ignore-text-in-advanced-ediscovery.md)
-### [Configure highlighted keywords and other settings for Relevance](define-highlighted-keywords-and-advanced-options.md)
 
 ### Collecting case data
 #### [Prepare data for Advanced eDiscovery](prepare-data-for-advanced-ediscovery.md)
 #### [Import non-Office 365 content to a case](import-non-office-365-data-into-advanced-ediscovery.md)
 
-### [Processing data](run-the-process-module-in-advanced-ediscovery.md)
+### [Processing case data](run-the-process-module-in-advanced-ediscovery.md)
 #### [Run the Process module and load data](run-the-process-module-and-load-data-in-advanced-ediscovery.md)
-### [View Process module results](view-process-module-results-in-advanced-ediscovery.md)
+#### [View Process module results](view-process-module-results-in-advanced-ediscovery.md)
 
 ### Reviewing case data
-#### [Tagging and Search](search-and-tagging.md)
-### [Making decisions about the review set](decision-based-on-the-results-in-advanced-ediscovery.md)
+#### [Search and tag case data](search-and-tagging.md)
+#### [Making decisions about the review set](decision-based-on-the-results-in-advanced-ediscovery.md)
 
 ### [Analyzing case data](analyze-case-data-with-advanced-ediscovery.md)
-#### [Configure analysis settings](set-analyze-options-in-advanced-ediscovery.md)
 #### [Run Express Analysis](use-express-analysis-in-advanced-ediscovery.md)
-#### [Understanding document similarity (near duplicates)](understand-document-similarity-in-advanced-ediscovery.md)
+#### [Overview of document similarity (near duplicates)](understand-document-similarity-in-advanced-ediscovery.md)
 #### [View the results of analysis](view-analyze-results-in-advanced-ediscovery.md)
 
 ### [Using the Relevance module](use-relevance-in-advanced-ediscovery.md)
-#### [Understanding Relevance assessment](assessment-in-relevance-in-advanced-ediscovery.md)
-#### [Setting up Relevance training](manage-relevance-setup-in-advanced-ediscovery.md)
+#### [Overview of Relevance assessment](assessment-in-relevance-in-advanced-ediscovery.md)
+#### [Set up Relevance training](manage-relevance-setup-in-advanced-ediscovery.md)
 #### [Perform Relevance training and tagging](tagging-and-relevance-training-in-advanced-ediscovery.md)
 #### [Track the Relevance training process](track-relevance-analysis-in-advanced-ediscovery.md)
 #### [Perform Relevance assessment and tagging](tagging-and-assessment-in-advanced-ediscovery.md)
 #### [Test the results of Relevance analysis](test-relevance-analysis-in-advanced-ediscovery.md)
-### [Loads additional data for Relevance training](set-up-loads-to-add-imported-files.md)
+#### [Load additional data for Relevance training](set-up-loads-to-add-imported-files.md)
 
 ### [Exporting case data](export-case-data-in-advanced-ediscovery.md)
 #### [Export data](export-results-in-advanced-ediscovery.md)
