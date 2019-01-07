@@ -51,6 +51,9 @@ In order to access the new Microsoft 365 security center or the new Microsoft 36
 
 - A Security Administrator can access the security center
 
+> [!NOTE]
+> Additional roles, including Security Operator and Compliance Data Administrator, are coming soon.
+
 The following table summarizes who can access various portals across Azure, Office 365, and Windows:
 
 |Portal  |Global<br/>Administrator  |Security <br/>Administrator  |Compliance<br/>Administrator  |
