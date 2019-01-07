@@ -3,7 +3,7 @@ title: "Get ready for Microsoft 365 security and compliance"
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 01/04/2019
+ms.date: 01/07/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-administration
