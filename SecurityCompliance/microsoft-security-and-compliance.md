@@ -69,7 +69,7 @@ The following table summarizes who can access various portals across Azure, Offi
 |[Office 365 Security & Compliance Center](https://protection.office.com) |Yes |Yes  |Yes |
 |[Microsoft 365 security center](https://security.microsoft.com) |Yes  | Yes  | No        |
 |[Microsoft 365 compliance center](https://compliance.microsoft.com) | Yes | No | Yes |
-|Compliance Manager |Yes | Yes |Yes  |
+|[Compliance Manager](https://aka.ms/compliancemanager) |Yes | Yes |Yes  |
 |[Azure Information Protection](https://docs.microsoft.com/azure/information-protection) |Yes |Yes |No |
 |[Azure Security Center](https://docs.microsoft.com/azure/security-center/)  |Yes |Yes |No |
 |[Azure Advanced Threat Protection](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp)  |Yes |Yes |No |
