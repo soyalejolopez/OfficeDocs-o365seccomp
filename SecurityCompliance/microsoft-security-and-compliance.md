@@ -75,7 +75,7 @@ The following table summarizes who can access various portals across Azure, Offi
 
 ## What to expect
 
-- **Coming soon!** The new Microsoft 365 security center and the new Microsoft 365 compliance center are rolling out beginning in early Febuary 2019 and through March 2019. You should have your new Microsoft 365 security center and Microsoft 365 compliance center within this timeframe.
+- **Coming soon!** The new Microsoft 365 security center and the new Microsoft 365 compliance center are rolling out beginning in early Febuary 2019 and through March 2019. You should have your new Microsoft 365 security center and your new Microsoft 365 compliance center within this timeframe.
 
 - **Easy access!** With improved navigation, integrated solutions, and a streamlined experience, you can expect to see and access the information you're most interested in, and take advantage of the powerful security and compliance features of Microsoft 365.
 
