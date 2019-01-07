@@ -23,7 +23,7 @@ Your new Microsoft 365 security center includes a dashboard to help you manage a
 
 When you use the Microsoft 365 security center for the first time, you'll see information across the top of the screen to help you get started. And you'll see how to navigate easily to the security features you're most interested in exploring.
 
-To view the new Microsoft 365 security center, go to [https://security.microsoft.com](https://security.microsoft.com) and sign in. (When your new Microsoft 365 security center is rolled out, links to security features in your previous [Office 365 Security & Compliance Center](https://protection.office.com) will redirect automatically.) 
+To view the new Microsoft 365 security center, go to [https://security.microsoft.com](https://security.microsoft.com) and sign in. 
 
 > [!NOTE]
 > You must be assigned a valid Azure Active Directory role in order to access the Microsoft 365 security center. To learn more, see the [Permissions needed](#permissions-needed) section (in this article).
@@ -36,7 +36,7 @@ Your new Microsoft 365 compliance center provides you with visibility into Micro
 
 When you use the Microsoft 365 compliance center for the first time, you'll see information across the top of the screen to help you get started. And you'll see how to navigate easily to the compliance features you're most interested in exploring.
 
-To view the new Microsoft 365 compliance center, go to [https://compliance.microsoft.com](https://compliance.microsoft.com) and sign in. (When your new Microsoft 365 compliance center is rolled out, links to compliance features in your previous [Office 365 Security & Compliance Center](https://protection.office.com) will redirect automatically.) 
+To view the new Microsoft 365 compliance center, go to [https://compliance.microsoft.com](https://compliance.microsoft.com) and sign in.  
 
 > [!NOTE]
 > You must be assigned a valid Azure Active Directory role in order to access the Microsoft 365 compliance center. To learn more, see the [permissions needed](#permissions-needed-to-access-the-new-security-center-and-the-new-compliance-center) section (in this article).
