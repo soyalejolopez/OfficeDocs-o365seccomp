@@ -47,11 +47,7 @@ To view the new Microsoft 365 compliance center, go to [https://compliance.micro
 
 - **Easy access!** With improved navigation, integrated solutions, and a streamlined experience, you can expect to see and access the information you're most interested in, and take advantage of the powerful new or improved security and compliance features of Microsoft 365.
 
-- **Smooth transition!** You can expect a smooth transition to the new centers, with redirects happening automatically from the former Office 365 Security & Compliance Center feature areas. 
-
-    - Links to security features in the Office 365 Security & Compliance Center will take you to the new Microsoft 365 security center automatically. 
-
-    - Links to compliance features in the Office 365 Security & Compliance Center will take you to the new Microsoft 365 compliance center automatically.
+- **Smooth transition!** You can expect a smooth transition to the new centers. After the Microsoft 365 security center and the Microsoft 365 compliance center are fully rolled out, Office 365 customers who visit [protection.microsoft.com](https://protection.microsoft.com) will be redirected to [protection.office.com](https://protection.office.com); Microsoft 365 customers who visit [protection.microsoft.com](https://protection.microsoft.com) will be redirected to a site that shows the new Microsoft 365 security center and Microsoft 365 compliance center entry points.
 
 ## Permissions needed
 
@@ -73,6 +69,7 @@ The following table summarizes who can access various portals across Azure, Offi
 |[Office 365 Security & Compliance Center](https://protection.office.com) |Yes |Yes  |Yes |
 |[Microsoft 365 security center](https://security.microsoft.com) |Yes  | Yes  | No        |
 |[Microsoft 365 compliance center](https://compliance.microsoft.com) | Yes | No | Yes |
+|Compliance Manager |Yes | Yes |Yes  |
 |[Azure Information Protection](https://docs.microsoft.com/azure/information-protection) |Yes |Yes |No |
 |[Azure Security Center](https://docs.microsoft.com/azure/security-center/)  |Yes |Yes |No |
 |[Azure Advanced Threat Protection](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp)  |Yes |Yes |No |
@@ -83,7 +80,7 @@ The following table summarizes who can access various portals across Azure, Offi
 |[Cloud App Security](https://docs.microsoft.com/cloud-app-security/)     |Yes |Yes |Yes |
 |[Secure Score](https://docs.microsoft.com/office365/securitycompliance/office-365-secure-score)     |Yes |Yes |No |
 |[Exchange](https://docs.microsoft.com/exchange/)     |Yes |Yes |Yes |
-|Compliance Manager (coming soon!) |Yes | Yes |Yes  |
+
 
 
 
