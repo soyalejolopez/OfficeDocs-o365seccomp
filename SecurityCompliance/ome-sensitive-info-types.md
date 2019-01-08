@@ -3,7 +3,7 @@ title: "New Office 365 Message Encryption policy for sensitive information"
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 12/13/2018
+ms.date: 1/7/2019
 ROBOTS: NOINDEX, NOFOLLOW
 audience: ITPro
 ms.topic: article
@@ -12,20 +12,20 @@ localization_priority: None
 search.appverid:
 - MET150
 ms.collection: Strat_O365_Enterprise
-description: "Summary: New Office 365 Message Encryption policy for sensitive information."
+description: "Summary: Automatically applied Office 365 Message Encryption policy for sensitive information types rolling out to all tenants."
 ---
 
-# New Office 365 Message Encryption policy for sensitive information
+# Office 365 Message Encryption policy for sensitive information
 
 We will be creating a new automatic policy in Office 365 tenants that will apply Office 365 Message Encryption to all emails that contain sensitive information and that are being sent outside your organization. This new Exchange mail flow rule will be automatically created in your Office 365 tenant so that your organization will be protected by default.
 
-## How will this work?
+## When to expect the update for your tenant
 
-Your organization will receive a notification in the Office 365 Message Center notifying you the date on which this automatic policy will be created in your tenant. You will be given at least a 30-day notice and you will also have the option to opt-out. A scenario in which you may want to potentially opt out is if you have a 3rd-party Data Loss Prevention solution that already scans for sensitive types.
+Your organization will receive a notification in the Office 365 Message Center notifying you the date on which this automatic policy will be created in your tenant. You will be given at least a 30-day notice and you will also have the option to opt-out. A scenario in which you may want to potentially opt out is if you have a 3rd-party Data Loss Prevention solution that already scans for sensitive types. More details on how to opt-out are available later in this article.
 
-## New policy details
+## Sensitive information type policy details
 
-A new Exchange mail flow rule will be created in your organization that will automatically encrypt emails going outside your organization with the *Encrypt-Only* policy if they contain the following sensitive information types:
+An Exchange mail flow rule will be created in your organization that will automatically encrypt emails going outside your organization with the *Encrypt-Only* policy if they contain the following sensitive information types:
 
 - ABA routing number
 - Credit card Number
@@ -58,12 +58,12 @@ This activity is audited and is available to customers.  The operation is ‘New
 
 If you would like to opt-out of this change, please follow these steps:
 
-1. Connect to [Exchange Online PowerShell](https://aka.ms/exopowershell) as a user with the global administrator role.
-2.  Run the following code after authenticating:
+1. Using a work or school account that has global administrator permissions in your Office 365 organization, start a Windows PowerShell session and connect to Exchange Online. For instructions, see [Connect to Exchange Online PowerShell](https://aka.ms/exopowershell).
+2. Run the Set-IRMConfiguration cmdlet as follows:
 
-    ```
-    Set-IRMConfiguration -AutomaticServiceUpdateEnabled $false
-    ```
+   ```
+   Set-IRMConfiguration -AutomaticServiceUpdateEnabled $false
+   ```
 
 ## How do I disable the automatic policy?
 
