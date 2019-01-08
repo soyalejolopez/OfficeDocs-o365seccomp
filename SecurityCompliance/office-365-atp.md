@@ -3,7 +3,7 @@ title: "Office 365 Advanced Threat Protection"
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 12/14/2018
+ms.date: 01/08/2019
 ms.audience: Admin
 ms.topic: hub-page
 ms.service: o365-administration
@@ -60,7 +60,7 @@ Office 365 ATP is included in subscriptions, such as [Microsoft 365 Enterprise](
 
 - **[Set up ATP Safe Links policies in Office 365](set-up-atp-safe-links-policies.md)** including your organization's [custom blocked URLs list](set-up-a-custom-blocked-urls-list-wtih-atp.md) and [custom "Do not rewrite" URLs list](set-up-a-custom-do-not-rewrite-urls-list-with-atp.md)
     
-- **[Set up ATP Safe Attachments policies in Office 365](set-up-atp-safe-attachments-policies.md)** that can include [Dynamic Delivery and previewing](dynamic-delivery-and-previewing.md)
+- **[Set up ATP Safe Attachments policies in Office 365](set-up-atp-safe-attachments-policies.md)** and choose from several options, such as [Dynamic Delivery and previewing](dynamic-delivery-and-previewing.md)
   
 ## See how ATP is working by viewing reports
 
@@ -73,12 +73,9 @@ After your ATP policies are in place, reports are available to show how the serv
 2. [View reports for Advanced Threat Protection](view-reports-for-atp.md).
     
 3. If needed, make adjustments to your security policies. See the following resources:
-
-  - [ATP anti-phishing policies in Office 365](set-up-anti-phishing-policies.md)
-    
-  - [ATP Safe Links policies in Office 365](set-up-atp-safe-links-policies.md)
-    
-  - [ATP Safe Attachments policies in Office 365](set-up-atp-safe-attachments-policies.md)
+      - [ATP anti-phishing policies in Office 365](set-up-anti-phishing-policies.md)
+      - [ATP Safe Links policies in Office 365](set-up-atp-safe-links-policies.md)
+      - [ATP Safe Attachments policies in Office 365](set-up-atp-safe-attachments-policies.md)
     
     
 ## Submit a suspicious file to Microsoft for analysis
