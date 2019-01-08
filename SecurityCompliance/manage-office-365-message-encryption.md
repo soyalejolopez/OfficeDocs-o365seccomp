@@ -120,7 +120,7 @@ When you choose to do this, the service sends a decrypted copy of the file to th
   
 Regardless of whether you set up service-side decryption of attachments, any attachments to encrypted and rights protected mail cannot be viewed in the iOS mail app.
   
-If you choose not to allow decrypted email attachments, which is the default, users receive a message that states that they don't have the rights to view the attachment. \*\*\* insert picture?
+If you choose not to allow decrypted email attachments, which is the default, users receive a message that states that they don't have the rights to view the attachment.
   
 For more information about how Office 365 implements encryption for emails and email attachments with the Encrypt-Only option, see [Encrypt-Only option for emails.](https://docs.microsoft.com/azure/information-protection/deploy-use/configure-usage-rights#encrypt-only-option-for-emails)
   
