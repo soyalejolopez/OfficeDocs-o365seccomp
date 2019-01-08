@@ -58,12 +58,12 @@ This activity is audited and is available to customers.  The operation is ‘New
 
 If you would like to opt-out of this change, please follow these steps:
 
-1. Connect to [Exchange Online PowerShell](https://aka.ms/exopowershell) as a user with the global administrator role.
-2.  Run the following code after authenticating:
+1. Using a work or school account that has global administrator permissions in your Office 365 organization, start a Windows PowerShell session and connect to Exchange Online. For instructions, see [Connect to Exchange Online PowerShell](https://aka.ms/exopowershell).
+2. Run the Set-IRMConfiguration cmdlet as follows:
 
-    ```
-    Set-IRMConfiguration -AutomaticServiceUpdateEnabled $false
-    ```
+   ```
+   Set-IRMConfiguration -AutomaticServiceUpdateEnabled $false
+   ```
 
 ## How do I disable the automatic policy?
 
