@@ -119,9 +119,7 @@ Azure Security and Compliance Blueprints offers turn-key security and compliance
   
 ### My Library
 
-Use the My Library feature to add documents and resources on the Service Trust Portal to your My Library page. This lets you access documents that are relevant to you in a single place.  To add a document to your My Library, click the **...** menu to the right of a document and then select **Add to library**. You can add multiple documents to your My Library by clicking the checkbox next to one or more documents, and then clicking **Save to library** at the top of the page.
-
-Additionally, the notifications feature lets you configure you My Library so that an email message is sent to you whenever Microsoft updates a document that you've added to your My Library.
+This new feature lets you save (or *pin*) documents so that you can quickly access them on your My Library page. For more information, see the [My Library](#my-library) section in this topic. 
 
 ### Admin
 
@@ -148,6 +146,11 @@ To list controls from Assessments in Compliance Manager related your search term
   
 ## My Library
 
+Use the My Library feature to add documents and resources on the Service Trust Portal to your My Library page. This lets you access documents that are relevant to you in a single place.  To add a document to your My Library, click the **...** menu to the right of a document and then select **Add to library**. You can add multiple documents to your My Library by clicking the checkbox next to one or more documents, and then clicking **Save to library** at the top of the page.
+
+Additionally, the notifications feature lets you configure your My Library so that an email message is sent to you whenever Microsoft updates a document that you've added to your My Library. To set up notifications, go to your My Library and click **Notification Settings**. You can choose to send notifications to any email address in your organization. Email notifications will include a link to the document that's been updated.
+
+Also note that we identify any documents in your My Library that have been updated within the last 30 days, regardless of whether or not you turn on notifications. 
 
 ## Starter packs
 
