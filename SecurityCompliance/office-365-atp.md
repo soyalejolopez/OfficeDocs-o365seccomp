@@ -3,7 +3,7 @@ title: "Office 365 Advanced Threat Protection"
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 12/14/2018
+ms.date: 01/07/2019
 ms.audience: Admin
 ms.topic: hub-page
 ms.service: o365-administration
@@ -12,7 +12,7 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: e100fe7c-f2a1-4b7d-9e08-622330b83653
-description: "Office 365 Advanced Threat Protection includes spoof intelligence, safe links, safe attachments, and advanced anti-phishing capabilities. Advanced Threat Protection is also being extended to files in SharePoint Online, OneDrive for Business, and Microsoft Teams."
+description: "Office 365 Advanced Threat Protection includes spoof intelligence, safe links, safe attachments, advanced anti-phishing capabilities, and threat intelligence."
 ---
 
 # Office 365 Advanced Threat Protection
@@ -48,6 +48,8 @@ We are continuing to add new features to Office 365, and that includes ATP. Belo
 - Beginning in September 2018, [Office 365 ATP warning pages](atp-safe-links-warning-pages.md) feature a new color scheme, more details, and the ability to continue to a site despite given warnings and recommendations. 
  
 - Beginning in October 2018 and rolling out over the next several months, when people are using Outlook Web Application (OWA) or Outlook, ATP Safe Links renders original URLs, not rewritten URLs. (We call this native link visibility.)
+
+- Beginning in February 2019 and rolling out over the next several months, Threat Intelligence capabilities are being added to ATP. In addition, if your organization does not currently have ATP, you'll have new options to consider, including ATP Plan 1 and ATP Plan 2. To learn more, see LINK GOES HERE.
 
       
 ## Get Office 365 ATP
