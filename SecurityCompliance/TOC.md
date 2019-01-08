@@ -244,7 +244,7 @@
 #### [Configure highlighted keywords and other Relevance settings](define-highlighted-keywords-and-advanced-options.md)
 
 ### Advanced eDiscovery reference
-#### [Use eDiscovery utilities](use-advanced-ediscovery-utilities.md)
+#### [Use Advanced eDiscovery utilities](use-advanced-ediscovery-utilities.md)
 #### [Run reports](run-reports-in-advanced-ediscovery.md)
 
 <<<<<<< HEAD
