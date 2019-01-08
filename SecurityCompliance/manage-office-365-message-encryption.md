@@ -82,11 +82,11 @@ By default, the **Protect** button in Outlook on the web is not enabled when you
 
    For example, to disable the **Protect** button:
 
-  ```Set-IRMConfiguration -SimplifiedClientAccessEnabled $false```
+   ```Set-IRMConfiguration -SimplifiedClientAccessEnabled $false```
 
-    To enable the **Protect** button:
+   To enable the **Protect** button:
 
-  ```Set-IRMConfiguration -SimplifiedClientAccessEnabled $true```
+   ```Set-IRMConfiguration -SimplifiedClientAccessEnabled $true```
 
 ## Enable service-side decryption of email messages for iOS mail app users
 
@@ -137,7 +137,7 @@ For more information about how Office 365 implements encryption for emails and e
    ```Set-IRMConfiguration -DecryptAttachmentFromPortal $true```
 
    To configure the service to leave encrypted email attachments as they are upon download:
-    
+
    ```Set-IRMConfiguration -DecryptAttachmentFromPortal $false```
 
 ## Customizing the appearance of email messages and the OME portal
@@ -157,6 +157,5 @@ We hope it doesn't come to it, but if you need to, disabling the new capabilitie
    ```Set-IRMConfiguration -SimplifiedClientAccessEnabled $false```
 
 3. Disable the new capabilities for OME by running the Set-IRMConfiguration cmdlet with the AzureRMSLicensingEnabled parameter set to false:
-    
-   ```Set-IRMConfiguration -AzureRMSLicensingEnabled $false```
 
+   ```Set-IRMConfiguration -AzureRMSLicensingEnabled $false```
