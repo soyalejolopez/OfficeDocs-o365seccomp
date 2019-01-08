@@ -25,7 +25,7 @@ Zero-hour auto purge (ZAP) is an email protection feature that detects messages 
   
 ZAP is available with the default Exchange Online Protection that is included with any Office 365 subscription that contains Exchange Online mailboxes.
 
-ZAP is turned on by default, but the folowing conditions must be met:
+ZAP is turned on by default, but the following conditions must be met:
   
 - **Spam action** is set to **Move message to Junk Email folder**. <br/>You can also create a new spam filter policy that applies only to a set of users if you don't want all mailboxes to be screened by ZAP.
 
@@ -57,7 +57,7 @@ Allow lists, [mail flow rules](https://go.microsoft.com/fwlink/p/?LinkId=722755)
     
 ## To see if ZAP moved your message
 
-If you want to see if ZAP moved your message, you can use either the [Threat Protection Status report](view-email-security-reports.md#threat-protection-status-report-new) (or [Threat Explorer](use-explorer-in-security-and-compliance.md)).
+If you want to see if ZAP moved your message, you can use either the [Threat Protection Status report](view-email-security-reports.md#threat-protection-status-report) (or [Threat Explorer](use-explorer-in-security-and-compliance.md)).
     
 ## To disable ZAP
   
