@@ -4,7 +4,7 @@ ms.author: deniseb
 author: denisebmsft
 manager: laurawi
 ms.audience: Admin
-ms.date: 11/08/2018
+ms.date: 01/08/2019
 ms.topic: overview
 ms.service: o365-administration
 localization_priority: Normal
@@ -34,13 +34,13 @@ Here are two examples of ATP Safe Attachments at work.
     
 - **Example 2: File in SharePoint Online** Suppose that Jean received a file and uploaded it into a library in SharePoint Online. Jean shares the link to the file with the rest of the team, not knowing that the file is actually malicious. Fortunately, [ATP for SharePoint, OneDrive, and Microsoft Teams](atp-for-spo-odb-and-teams.md) detects the malicious file and blocks it. A few days later, Chris goes to open the document. Although Chris can see the file is there, Chris cannot open or share it, which prevents Chris's computer and others from the malicious file. 
     
+ATP Safe Attachments scanning takes place in the same region where your Office 365 data resides. For more information about data center geography, see [Where is your data located?](https://products.office.com/where-is-your-data-located?geo=All) 
+
 ATP Safe Attachments policies can be applied to specific people or groups in your organization, or to your entire domain. To learn more, see **[Set up ATP Safe Attachments policies in Office 365](set-up-atp-safe-attachments-policies.md)**. 
   
 ## How to get ATP Safe Attachments
 
-The ATP Safe Attachments feature is part of [Advanced Threat Protection](office-365-atp.md), which is included in Microsoft 365 Enterprise, Office 365 Enterprise E5, and Microsoft 365 Business. 
-  
-The ATP Safe Attachments feature applies when:
+The ATP Safe Attachments feature is part of [Office 365 Advanced Threat Protection](office-365-atp.md). The ATP Safe Attachments features apply when:
   
 - ATP Safe Attachments policies are set up. (See [Set up ATP Safe Attachments policies in Office 365](set-up-atp-safe-attachments-policies.md).)
     
@@ -48,11 +48,12 @@ The ATP Safe Attachments feature applies when:
     
 ## How to know if ATP Safe Attachments protection is in place
 
- [ATP Safe Attachments policies](set-up-atp-safe-attachments-policies.md) must be defined in order for ATP Safe Attachments protection to be in place. 
-  
 One good way to see how the service is working is by [viewing reports for Advanced Threat Protection](view-reports-for-atp.md).
+
+
+[ATP Safe Attachments policies](set-up-atp-safe-attachments-policies.md) must be defined in order for ATP Safe Attachments protection to be in place.   
   
-In addition, the following table describes some example scenarios. In all of these cases, we assume the organization has Office 365 Enterprise E5, which includes Advanced Threat Protection.
+The following table describes some example scenarios. In all of these cases, we assume the organization has an Office 365 subscription that includes Advanced Threat Protection.
   
 |**Example scenario**|**Does ATP Safe Attachments protection apply in this case?**|
 |:-----|:-----|
