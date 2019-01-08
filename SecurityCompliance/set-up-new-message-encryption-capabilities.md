@@ -38,34 +38,33 @@ If your organization does not automatically have OME enabled, or if you turned O
   
 ### To manually set up the new capabilities for OME
 
-1. Ensure you have the right subscription for your organization. For information on subscriptions, see "What subscriptions do I need to use the new OME capabilities?" in the [Office 365 Message Encryption FAQ.](ome-faq.md)﻿ For information about purchasing a subscription to Azure Information Protection, see [Azure Information Protection](https://azure.microsoft.com/services/information-protection/).
-    
+1. Ensure you have the right subscription for your organization. For information on subscriptions, see "What subscriptions do I need to use the new OME capabilities?" in the [Office 365 Message Encryption FAQ.](ome-faq.md). For information about purchasing a subscription to Azure Information Protection, see [Azure Information Protection](https://azure.microsoft.com/services/information-protection/).
+
 2. Decide whether you want Microsoft to manage the root key for Azure Information Protection (the default), or generate and manage this key yourself (known as bring your own key, or BYOK). If you want to generate and manage this key yourself, you need to complete some steps before you set up the new capabilities for OME. For more information, see [Planning and implementing your Azure Information Protection tenant key](https://docs.microsoft.com/information-protection/plan-design/plan-implement-tenant-key). Microsoft recommends that you complete these steps before you set up OME.
-    
+
 3. Enable the new capabilities for OME by activating Azure Rights Management. For instructions, see [Activating Azure Rights Management](https://docs.microsoft.com/azure/information-protection/deploy-use/activate-service).﻿ When you do this, Office 365 automatically enables the new OME capabilities for you.
-    
+
     > [!TIP]
-    > Outlook on the Web caches its UI, so it's a good idea to wait a day before you try applying the new capabilities for OME to email messages using this client. Before the UI updates to reflect the new configuration, the new capabilities for OME won't be available. After the UI updates, users can protect email messages by using the new capabilities for OME. 
+    > Outlook on the Web caches its UI, so it's a good idea to wait a day before you try applying the new capabilities for OME to email messages using this client. Before the UI updates to reflect the new configuration, the new capabilities for OME won't be available. After the UI updates, users can protect email messages by using the new capabilities for OME.
   
 4. (Optional) Set up new mail flow rules or update existing mail flow rules that define how and when you want Office 365 to encrypt messages sent from your organization.
-    
+
 ## Verify that the new capabilities for OME are configured properly by using Windows PowerShell
 
 Follow these steps to verify that your tenant is properly configured to use the new capabilities for OME through Exchange Online PowerShell.
   
-1. Using a work or school account that has global administrator permissions in your Office 365 organization, start a Windows PowerShell session and connect to Exchange Online. For instructions, see [Connect to Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps).
-    
+1. Using a work or school account that has global administrator permissions in your Office 365 organization, start a Windows PowerShell session and connect to Exchange Online. For instructions, see [Connect to Exchange Online PowerShell](https://aka.ms/exopowershell).
+
 2. Run the Test-IRMConfiguration cmdlet using the following syntax:
-    
+
     ```Test-IRMConfiguration [-Sender <email address >]```  
 
    For example:
-    
+
     ```Test-IRMConfiguration -Sender securityadmin@contoso.com```
 
-    Where email address is the email address of a user in your Office 365 organization. While optional, providing a sender email address forces the system to perform additional checks.
-    
-    Your results should look like these:
+    Where email address is the email address of a user in your Office 365 organization. While optional, providing a sender email address forces the system to perform additional checks. Your results should look like these:
+
     
     ```
     Results : Acquiring RMS Templates ...
@@ -81,12 +80,12 @@ Follow these steps to verify that your tenant is properly configured to use the 
             OVERALL RESULT: PASS
     ```
 
-    Where  *Contoso*  is replaced with the name of your Office 365 organization. 
-    
+    Where *Contoso* is replaced with the name of your Office 365 organization. 
+
     The names of the default templates returned in the results may be different from those displayed in the results above.
-    
+
     For an introduction to templates and information about the default templates, see [Configuring and managing templates for Azure Information Protection](https://docs.microsoft.com/information-protection/deploy-use/configure-policy-templates). For information about the Do Not Forward option, encrypt-only option, and how to create additional templates, or find out what rights are included in an existing template, see [Configuring usage rights for Azure Rights Management](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights).
-    
+
 3. Run the Remove-PSSession cmdlet to disconnect from the Rights Management service.
     
     ```Remove-PSSession $session```
@@ -101,7 +100,6 @@ Mail flow rules determine under what conditions email messages should be encrypt
 For more information about mail flow rules, see [Define mail flow rules to encrypt email messages in Office 365](define-mail-flow-rules-to-encrypt-email.md).
   
 ## Related Topics
-<a name="Rules_1"> </a>
 
 [Send, view, and reply to encrypted messages in Outlook](https://support.office.com/article/eaa43495-9bbb-4fca-922a-df90dee51980.aspx)
   
@@ -110,5 +108,3 @@ For more information about mail flow rules, see [Define mail flow rules to encry
 [Connect to Exchange Online PowerShell](https://technet.microsoft.com/library/jj984289%28v=exchg.160%29.aspx)
   
 [Define mail flow rules to encrypt email messages in Office 365](define-mail-flow-rules-to-encrypt-email.md)
-  
-
