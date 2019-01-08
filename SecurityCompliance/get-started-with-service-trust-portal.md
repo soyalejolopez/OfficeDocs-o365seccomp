@@ -53,7 +53,7 @@ STP features and content are accessible from the main menu, shown below:
   
 ### Service Trust Portal
 
-The **Service Trust Portal** link takes you to the STP home page, displays a list of independent audit and assessment reports on Microsoft's Cloud services compliance with data protection standards and regulatory requirements, such as:
+The **Service Trust Portal** link takes you to the STP home page. At the top, a list of independent audit and assessment reports on Microsoft's Cloud services is displayed. These reports provide information about  Microsoft Cloud services compliance with data protection standards and regulatory requirements, such as:
   
 - International Organization for Standardization (ISO)
     
