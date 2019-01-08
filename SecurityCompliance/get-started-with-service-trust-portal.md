@@ -45,7 +45,7 @@ To create a new account or to create a trial account, use one of the following s
     
 When you sign up for either a free trial, or a subscription, you must enable Azure Active Directory to support your access to the STP.
   
-## Navigating the Service Trust Portal
+## Using the Service Trust Portal
 
 STP features and content are accessible from the main menu, shown below:
   
