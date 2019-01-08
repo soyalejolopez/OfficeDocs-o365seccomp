@@ -3,7 +3,7 @@ title: "View email security reports in the Security &amp; Compliance Center"
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 11/27/2018
+ms.date: 01/07/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -23,7 +23,7 @@ A variety of email security reports are available in the [Security &amp; Complia
   
 Your email security reports include the following:
   
-- [Threat Protection Status report](view-email-security-reports.md#tps) (new!) 
+- [Threat Protection Status report](view-email-security-reports.md#tps) 
     
 - [Malware Detections report](view-email-security-reports.md#maldet)
     
@@ -39,7 +39,7 @@ Your email security reports include the following:
     
 - [User-reported messages report](view-email-security-reports.md#userreported) (new!) 
     
-## Threat Protection Status report (new!)
+## Threat Protection Status report
 
 The new **Threat Protection Status** report is a smart report that shows malicious email that was detected and blocked by Exchange Online Protection. This report shows information about email identified as malware or a phishing attempt. 
 
@@ -171,7 +171,7 @@ To view this report, in the [Security &amp; Compliance Center](https://security.
   
 ## What permissions are needed to view these reports?
 
-In order to view and use the reports described in this article, you must have an appropriate role assigned in both the Security &amp; Compliance Center and the Exchange Admin Center.
+In order to view and use the reports described in this article, **you must have an appropriate role assigned in both the Security &amp; Compliance Center and the Exchange Admin Center**.
 
 - For the Security &amp; Compliance Center, you must have one of the following roles assigned:
     - Organization Management
