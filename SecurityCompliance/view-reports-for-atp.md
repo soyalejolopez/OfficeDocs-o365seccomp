@@ -3,7 +3,7 @@ title: "View reports for Office 365 Advanced Threat Protection"
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 11/27/2018
+ms.date: 01/07/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -85,7 +85,7 @@ In addition to the ATP reports described in this article, several other reports 
   
 ## What permissions are needed to view the ATP reports?
 
-In order to view and use the reports described in this article, you must have an appropriate role assigned in both the Security &amp; Compliance Center and the Exchange Admin Center.
+In order to view and use the reports described in this article, **you must have an appropriate role assigned in both the Security &amp; Compliance Center and the Exchange Admin Center**.
 
 - For the Security &amp; Compliance Center, you must have one of the following roles assigned:
     - Organization Management
