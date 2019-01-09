@@ -19,7 +19,7 @@ description: "Understanding supervision policies in Office 365"
 
 # Supervision policies in Office 365
 
-Supervision policies in Office 365 allow you to capture employee communications for examination by designated reviewers. You can define specific policies that capture internal and external email or 3rd-party communications in your organization, and then have reviewers classify the messages to make sure they are compliant with your organization's message standards. These policies can also help you overcome many modern compliance challenges, including monitoring increasing types of communication channels, increasing volume of message data, and regulatory enforcement & the risk of fines.
+Supervision policies in Office 365 allow you to capture employee communications for examination by designated reviewers. You can define specific policies that capture internal and external email, Microsoft Teams, or 3rd-party communications in your organization. Reviewers can then examine the messages to make sure they are compliant with your organization's message standards and resolve them with classification type. These policies can also help you overcome many modern compliance challenges, including monitoring increasing types of communication channels, increasing volume of message data, and regulatory enforcement & the risk of fines.
 
 In some organizations, there may be a separation of duties between IT support and the compliance management group. Office 365 supports the separation between configuring the tenant with supervision policy support features and the configuration of policies and taking action on captured communication. For example, the IT group for an organization may be responsible for setting up role permissions and groups to support supervision policies that are configured and managed by the organization's compliance team.
 
@@ -43,11 +43,11 @@ Supervision policies can assist monitoring communications in your organization i
 
 ### Supervision policy
 
-You'll create supervision policies in the Security & Compliance Center. These policies define which communications are subject to review in your organization, define custon conditions that the communications must meet, and specifies who should perform reviews. Users included in the Supervisory Review role group can set up policies and anyone who has this role assigned can access the Supervision page under Data Governance in the Office 365 Security & Compliance Center.
+You'll create supervision policies in the Security & Compliance Center. These policies define which communications and users are subject to review in your organization, define custom conditions that the communications must meet, and specifies who should perform reviews. Users included in the Supervisory Review role group can set up policies and anyone who has this role assigned can access the Supervision page under Data Governance in the Office 365 Security & Compliance Center.
 
 ### Supervised users
 
-Before you start using supervision, you'll need to determine who will have their communications reviewed. In the policy, you'll use user email addresses to identify individuals or groups of people to supervise. You also have the ability to exclude specific users or groups from supervision that are included within a supervised group or a list of groups.
+Before you start using supervision, you'll need to determine who will have their communications reviewed. In the policy, you'll use user email addresses to identify individuals or groups of people to supervise. Some examples of these groups are Office 365 Groups, Exchange-based distribution lists, and Microsoft Teams channels. You also have the ability to exclude specific users or groups from supervision that are included within a supervised group or a list of groups.
 
 > [!IMPORTANT]
 > All users monitored by supervision policies must have either an Office 365 Enterprise E3 license with the Advanced Compliance add-on or be included in an Office 365 Enterprise E5 subscription. If you don't have an existing Enterprise E5 plan and want to try supervision, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279).
@@ -70,7 +70,7 @@ With supervision policies, you can choose to monitor messages in one or more of 
     - Microsoft Excel (.xlsx)
     - Microsoft PowerPoint (.pptx)
 
-- **Microsoft Teams:** Chat communications in both public and private Microsoft Teams channels and individual chats can be supervised. Teams chats matching supervision policy conditions are processed twice every 24 hours and then are available for monitoring and in supervision reports.
+- **Microsoft Teams:** Chat communications and associated attachments in both public and private Microsoft Teams channels and individual chats can be supervised. Teams chats matching supervision policy conditions are processed twice every 24 hours and then are available for monitoring and in supervision reports.
 - **Third-party sources:** You can supervise communications from third-party sources (like from Facebook or DropBox) if you've imported this data into Office 365 mailboxes in your organization. [Learn how to import 3rd-party data into Office 365](https://docs.microsoft.com/office365/securitycompliance/archiving-third-party-data).
 
 ### Policy settings
@@ -96,7 +96,7 @@ To learn more about sensitive information details and the patterns included in t
 
 #### Custom keyword dictionaries
 
-Custom keyword dictionaries (or lexicons) can provide simple management of keywords specific to your organization or industry and can support up to 100,000 terms per dictionary. If needed, you can apply multiple custom keyword dictionaries to a single policy, or have a single keyword dictionary per policy. These dictionaries can be sourced from a file (such as a .csv or .txt list), or from a list you can [enter directly in a PowerShell cmdlet](create-a-keyword-dictionary.md).
+Configuring custom keyword dictionaries (or lexicons) can provide simple management of keywords specific to your organization or industry and can support up to 100,000 terms per dictionary. If needed, you can apply multiple custom keyword dictionaries to a single policy, or have a single keyword dictionary per policy. These dictionaries are assigned in a supervision policy and can be sourced from a file (such as a .csv or .txt list), or from a list you can [enter directly in a PowerShell cmdlet](create-a-keyword-dictionary.md).
 
 #### Conditional settings
 
@@ -152,9 +152,9 @@ The dashboard **Home** page has several sections to help you quickly take action
 - See a list of the reviewers and review teams for the selected policy
 - See which communication platforms have content under supervision for the policy.
 
-#### Supervise page
+#### Supervise tab
 
-The **Supervise** page is where reviewers can take action and resolve items identified by the selected policy. Here you can:
+The **Supervise** tab is where reviewers can take action and resolve items identified by the selected policy. Here you can:
 
 - Filter by pending, compliant, non-compliant, and questionable items
 - Tag a single item as compliant, non-compliant, or questionable. You can also record a comment with the item to help clarify the tagging action taken.
@@ -162,9 +162,9 @@ The **Supervise** page is where reviewers can take action and resolve items iden
 - View the history of the tagging for a single item, including who resolved the item, the date and time of the action, the resolution tag, and any included comments.
 - Reclassify previously reviewed items as compliant, non-compliant, or questionable. You can also record a comment with single or multiple items to help clarify the reclassification action taken.
 
-#### Resolved Items page
+#### Resolved Items tab
 
-The **Resolved Items** page is where reviewers can view all previously resolved items for the selected policy. Here you can:
+The **Resolved Items** tab is where reviewers can view all previously resolved items for the selected policy. Here you can:
 
 - Quickly view and sort the subject, sender, and date of resolved items.
 - View the classification and comment history of any selected item
