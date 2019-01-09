@@ -107,7 +107,7 @@ For more information about role groups and permissions, see [Permissions in the 
 
 ### Enable remote PowerShell access for reviewers (if email is hosted on Exchange Online)
 
-1. Follow the guidance in [Enable or disable access to Exchange Online PowerShell]https://docs.microsoft.com/powershell/exchange/exchange-online/disable-access-to-exchange-online-powershell).
+1. Follow the guidance in [Enable or disable access to Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/disable-access-to-exchange-online-powershell).
 
 <a name="sensitiveinfo"> </a>
   
