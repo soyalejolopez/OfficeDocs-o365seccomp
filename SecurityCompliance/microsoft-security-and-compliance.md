@@ -47,7 +47,9 @@ To view the new Microsoft 365 compliance center, go to [https://compliance.micro
 
 - **Easy access!** With improved navigation, integrated solutions, and a streamlined experience, you can expect to see and access the information you're most interested in, and take advantage of the powerful new or improved security and compliance features of Microsoft 365.
 
-- **Smooth transition!** You can expect a smooth transition to the new centers. After the Microsoft 365 security center and the Microsoft 365 compliance center are fully rolled out, Office 365 customers who visit [protection.microsoft.com](https://protection.microsoft.com) will be redirected to [protection.office.com](https://protection.office.com); Microsoft 365 customers who visit [protection.microsoft.com](https://protection.microsoft.com) will be redirected to a site that shows the new Microsoft 365 security center and Microsoft 365 compliance center entry points.
+- **Smooth transition!** You can expect a smooth transition to the new centers. We plan to retire the former [Microsoft 365 Security & Compliance Center](http://protection.microsoft.com) after this change is fully rolled out. The admin user experience will change, but this won’t impact your security and compliance configurations.  
+ 
+ After the Microsoft 365 security center and the Microsoft 365 compliance center are fully rolled out, Office 365 customers who visit [protection.microsoft.com](https://protection.microsoft.com) will be redirected to [protection.office.com](https://protection.office.com); Microsoft 365 customers who visit [protection.microsoft.com](https://protection.microsoft.com) will be redirected to a site that shows the new Microsoft 365 security center and Microsoft 365 compliance center entry points.
 
 ## Permissions needed
 
