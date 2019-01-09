@@ -22,24 +22,28 @@ The Microsoft Service Trust Portal provides a variety of content, tools, and oth
 
 The Service Trust Portal contains details about Microsoft's implementation of controls and processes that protect our cloud services and the customer data therein. To access some of the resources on the Service Trust Portal, you must log in as an authenticated user with your Microsoft cloud services account (either an Azure Active Directory organization account or a Microsoft Account) and review and accept the Microsoft Non-Disclosure Agreement for Compliance Materials.
   
- - **Existing customers can access the Service Trust Portal** at [https://aka.ms/STP](https://aka.ms/STP) with one of the following online subscriptions (trial or paid): 
+**Existing customers can access the Service Trust Portal** at [https://aka.ms/STP](https://aka.ms/STP) with one of the following online subscriptions (trial or paid): 
   
-    - Office 365
-    - Dynamics 365
-    - Azure
+- Office 365
+
+- Dynamics 365
+
+- Azure
     
-    > [!NOTE]
-    > Azure Active Directory accounts associated with organizations have access to the full range of documents and features like Compliance Manager. Microsoft accounts created for personal use have limited access to Service Trust Portal content. 
+ > [!NOTE]
+ > Azure Active Directory accounts associated with organizations have access to the full range of documents and features like Compliance Manager. Microsoft accounts created for personal use have limited access to Service Trust Portal content. 
   
- - **New customers and customers evaluating Microsoft online services**
+**New customers and customers evaluating Microsoft online services**
   
-    To create a new account or to create a trial account, use one of the following sign-up forms (also used for trial accounts) to get access to the STP.
+To create a new account or to create a trial account, use one of the following sign-up forms (also used for trial accounts) to get access to the STP.
   
-    - Sign up for a new [Office 365 Business trial account](https://go.microsoft.com/fwlink/p/?LinkID=507653) or a new [Office 365 Enterprise trial account](https://go.microsoft.com/fwlink/p/?LinkID=698279)
-    - Sign up for a new [Dynamics 365 trial account](https://go.microsoft.com/fwlink/?LinkId=252780)
-    - Sign up for a new [Azure trial account](https://go.microsoft.com/fwlink/?LinkId=722737). 
+- Sign up for a new [Office 365 Business trial account](https://go.microsoft.com/fwlink/p/?LinkID=507653) or a new [Office 365 Enterprise trial account](https://go.microsoft.com/fwlink/p/?LinkID=698279)
+
+- Sign up for a new [Dynamics 365 trial account](https://go.microsoft.com/fwlink/?LinkId=252780)
+
+- Sign up for a new [Azure trial account](https://go.microsoft.com/fwlink/?LinkId=722737). 
     
-   When you sign up for either a free trial, or a subscription, you must enable Azure Active Directory to support your access to the STP.
+When you sign up for either a free trial, or a subscription, you must enable Azure Active Directory to support your access to the STP.
   
 ## Using the Service Trust Portal
 
@@ -111,9 +115,11 @@ Administrative functions that are only available to the global administrator acc
   
 ### Search
 
+Click the magnifying glass in the upper right-hand corner of the Service Trust Portal page to expand the box, enter your search terms, and press **Enter**.
+
 ![Service Trust Portal - Search Input field](media/7c5cd817-3d62-420b-adb4-76e33fef941f.png)
   
-Click the magnifying glass in the upper right-hand corner of the Service Trust Portal page to expand the box, enter your search terms, and press **Enter**. The **Search** page is displayed, with the search term displayed in the search box and the search results listed below.
+ The **Search** page is displayed, with the search term displayed in the search box and the search results listed below.
   
 ![Service Trust Portal - Search on Documents with filter applied](media/86b754e1-c63c-4514-89ac-d014bf334140.png)
 
