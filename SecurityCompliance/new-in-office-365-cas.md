@@ -5,7 +5,7 @@ author: denisebmsft
 manager: laurawi
 ms.audience: Admin
 ms.topic: reference
-ms.date: 12/03/2018
+ms.date: 12/26/2018
 ms.service: o365-administration
 localization_priority: Normal
 search.appverid:
@@ -22,9 +22,20 @@ description: "See what's new in Office 365 Cloud App Security"
 > [!TIP]
 > This article is updated frequently, as features are added or improved. Office 365 Cloud App Security updates are released approximately two weeks after Microsoft Cloud App Security updates, and not all Microsoft Cloud App Security updates apply to Office 365 Cloud App Security. In addition, new features might take a week or more after their release date to show up in your Office 365 Cloud App Security environment.
 
+## Office 365 Cloud App Security release 138
+
+*Released December 23, 2018*
+
+**Following [Microsoft Cloud App Security release 138](https://docs.microsoft.com/cloud-app-security/release-notes#cloud-app-security-release-138)**:
+
+- **Automatic log upload using Docker on Windows** Cloud App Security now supports automatic log upload for Windows 10 ([Fall Creators Update](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) and newer) and Windows Server ([version 1709](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1709) and newer) by using Docker on Windows. See [this article](https://docs.microsoft.com/cloud-app-security/discovery-docker-windows) to learn more and configure Docker.  
+
+- **Microsoft Flow integration** Cloud App Security now integrates with [Microsoft Flow](https://docs.microsoft.com/flow/getting-started) to provide custom alert automation and orchestration playbooks. See [this article](https://docs.microsoft.com/cloud-app-security/flow-integration) to learn more and configure Microsoft Flow integration. 
+
+
 ## Office 365 Cloud App Security release 137
 
-*Releases December 8, 2018*
+*Released December 8, 2018*
 
 **Following [Microsoft Cloud App Security release 137](https://docs.microsoft.com/cloud-app-security/release-notes#cloud-app-security-release-137)**:
 
@@ -91,9 +102,9 @@ description: "See what's new in Office 365 Cloud App Security"
   
 **Following [Microsoft Cloud App Security release 128](https://docs.microsoft.com/cloud-app-security/release-notes#cloud-app-security-release-128)**: 
   
-- **OAuth apps across multiple apps** For OAuth apps, you can now ban or approve multiple apps in a single action. For example, you can review all the apps that have been granted permission by users in your organization, select all the apps you want to ban, and then click ban apps to revoke all consent granted and will no longer allow users to grant permission to those apps. 
+- **OAuth apps across multiple apps** For OAuth apps, you can now ban or approve multiple apps in a single action. For example, you can review all the apps that have been granted permission by users in your organization, select all the apps you want to ban, and then click ban apps to revoke all consent granted and will no longer allow users to grant permission to those apps. To learn more, see [Manage OAuth apps using Office 365 Cloud App Security](manage-app-permissions-in-ocas.md). 
     
-- **New suggested query: GDPR ready** There is a new suggested query to enable you to identify discovered apps that are GDPR ready. GDPR has recently became a top priority for security admins. This query helps you easily identify apps that are GDPR ready, and mitigate threat by assessing the risk of the apps that aren't. 
+- **New suggested query: GDPR-ready cloud apps** There is a new suggested query to enable you to identify discovered apps that are GDPR ready. As you probably already know, GDPR has recently became a top priority for security admins. This query helps you easily identify apps that are GDPR ready, and mitigate threat by assessing the risk of the apps that aren't. To use the new query, in the **Cloud Discovery** dashboard, on the **Discovered apps** tab, choose **QUERIES** > **GDPR-ready cloud apps**.<br/>![GDPR-ready cloud apps query](media/OCAS-FindGDPRQueries.png)<br/>
     
 ## Office 365 Cloud App Security release 126
 
