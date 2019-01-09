@@ -33,7 +33,7 @@ Follow these steps to set up and use supervision in your Office 365 organization
 
 - **Step 2 (required)** - [Make supervision available in your organization](configure-supervision-policies.md#MakeAvailable)
 
-    Add yourself to the Supervisory Review role group so you can set up policies. Anyone who has this role assigned can access the **Supervision** page under **Data Governance** in the Security & Compliance Center.
+    Add yourself to the Supervisory Review role group so you can set up policies. Anyone who has this role assigned can access the **Supervision** page under **Data Governance** in the Security & Compliance Center. If email to be reviewed is hosted on Exchange Online, each reviewer must also have [remote PowerShell access to Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/disable-access-to-exchange-online-powershell).
 
 - **Step 3 (optional)** - [Configure custom sensitive information types or custom keyword dictionaries/lexicons](configure-supervision-policies.md#sensitiveinfo)
 
@@ -105,6 +105,10 @@ To do this, you can either add yourself as a member of the Supervisory Review ro
 
 For more information about role groups and permissions, see [Permissions in the Office 365 Security &amp; Compliance Center](permissions-in-the-security-and-compliance-center.md).
 
+### Enable remote PowerShell access for reviewers (if email is hosted on Exchange Online)
+
+1. Follow the guidance in [Enable or disable access to Exchange Online PowerShell]https://docs.microsoft.com/powershell/exchange/exchange-online/disable-access-to-exchange-online-powershell).
+
 <a name="sensitiveinfo"> </a>
   
 ## Step 3 - Create custom sensitive information types or custom keyword dictionaries (optional)
@@ -123,7 +127,7 @@ In order to pick from existing custom sensitive information types or custom keyw
 
 ### Create custom keyword dictionary/lexicon
 
-1. Using a text editor (like Notepad), create a new file that includes the keyword terms you'd like to monitor in a supervision policy. Make sure each term is on a separate line and save the file in any of the **Unicode** formats.
+1. Using a text editor (like Notepad), create a new file that includes the keyword terms you'd like to monitor in a supervision policy. Make sure each term is on a separate line and save the file in the **UTF-8 without byte-order mark (BOM)** format.
 2. Import the keyword file into your Office 365 tenant using PowerShell. To connect to Office 365 with PowerShell, see [Connect to Office 365 Security & Compliance Center PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).
 
     After you've connected to Office 365 with PowerShell, run the following commands to import your keyword dictionary:
@@ -242,3 +246,5 @@ If needed, you can create and manage supervision policies using the following Po
 - [New-SupervisoryReviewRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/new-supervisoryreviewrule?view=exchange-ps)
 - [Set-SupervisoryReviewRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/set-supervisoryreviewrule?view=exchange-ps)
 - [Get-SupervisoryReviewActivity](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/get-supervisoryreviewactivity?view=exchange-ps)
+- [Get-SupervisoryReviewOverallProgressReport](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/get-supervisoryreviewoverallprogressreport?view=exchange-ps)
+- [Get-SupervisoryReviewTopCasesReport](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/get-supervisoryreviewtopcasesreport?view=exchange-ps)
