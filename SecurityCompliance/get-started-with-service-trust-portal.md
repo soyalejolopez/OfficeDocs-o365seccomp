@@ -105,7 +105,7 @@ Links to the [Microsoft Trust Center](https://www.microsoft.com/trustcenter), wh
   
 ### My Library
 
-This new feature lets you save (or *pin*) documents so that you can quickly access them on your My Library page. You can also set up notifications so that Microsoft sends you an email message when documents in your My Library are updated. For more information, see the [My Library](#my-library) section in this article.
+This new feature lets you save (or *pin*) documents so that you can quickly access them on your My Library page. You can also set up notifications so that Microsoft sends you an email message when documents in your My Library are updated. For more information, see the [My Library](#my-library-1) section in this article.
 
 ### Admin
 
