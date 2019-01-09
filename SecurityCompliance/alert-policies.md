@@ -79,7 +79,7 @@ An alert policy consists of the following settings and conditions.
     
   - Others
     
-    When an activity occurs that matches the conditions of the alert policy, the alert that's generated is tagged with the category defined in this setting. This allows you to track and manage alerts that have the same category setting on the **View alerts** page in the Security &amp; Compliance Center because you can sort and filter alerts based on category. 
+  When an activity occurs that matches the conditions of the alert policy, the alert that's generated is tagged with the category defined in this setting. This allows you to track and manage alerts that have the same category setting on the **View alerts** page in the Security &amp; Compliance Center because you can sort and filter alerts based on category. 
     
 - **Alert severity** - Similar to the alert category, you assign a severity attribute ( **Low**, **Medium**, or **High**) to alert policies. Like the alert category, when an activity occurs that matches the conditions of the alert policy, the alert that's generated is tagged with the same severity level that's set for the alert policy. Again, this allows you to track and manage alerts that have the same severity setting on the **View alerts** page. For example, you can filter the list of alerts so that only alerts with a **High** severity are displayed. 
     
@@ -132,7 +132,45 @@ You can use the following filters to view a subset of all the alerts on the **Vi
 
 - **Source** - Use this filter to show alerts triggered by alert policies in the Security & Compliance Center or alerts triggered by Office 365 Cloud App Security policies, or both. For more information about Office 365 Cloud App Security alerts, see the [Viewing Cloud App Security alerts](#viewing-cloud-app-security-alerts) section.
 
-  
+### RBAC permissions to view alerts
+
+
+
+|<br/>|Data governance|Data loss prevention|Mail flow|Permissions|Threat management|Others | 
+|:---------|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
+|Audit Logs <br/> |         ||         |         |         |         |
+|Case Management <br/>|         |         |         |         |         |         |
+|Compliance Administrator<br/>|![Check mark](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)| ![Check mark](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||![Check mark](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|         |![Check mark](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+|Compliance Search<br/>|         |         |         |         |         |         |
+|Device Management<br/>|         |         |         |         |         |         |
+|Disposition Management<br/>|         |         |         |         |         |         |
+|DLP Compliance Management<br/>|         |![Check mark](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|         |         |         |         |
+|Export<br/>|         |         |         |         |         |         |
+|Hold<br/>|         |         |         |         |         |         |
+|Manage Alerts<br/>|         |         |         |         |         |![Check mark](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+|Organization Configuration|         |         |         |         |         |![Check mark](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+|Preview <br/>|         |         |         |         |         |         |
+|Record Management <br/>|![Check mark](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|         |         |         |         |         |
+|Retention Management <br/>| ![Check mark](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|         |         |         |         |         |
+|Review <br/>|         |         |         |         |         |         |
+|RMS Decrypt<br/>|         |         |         |         |         |         |
+|Role Management<br/>|         |         |         |![Check mark](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|         |         |
+|Search And Purge<br/>|         |         |         |         |         |         |
+|Security Administrator<br/>||![Check mark](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)| | ![Check mark](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)| ![Check mark](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Check mark](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+|Security Reader<br/>|         |![Check mark](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)| | ![Check mark](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)| ![Check mark](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Check mark](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)
+|Service Assurance View<br/>|         |         |         |         |         |         |
+|Supervisory Review Administrator<br/>|         |         |         |         |         |         |
+|View-Only Audit Logs<br/>|         |         |         |         |         |         |
+|View-Only Device Management<br/>|         |         |         |         |         |         |
+|View-Only DLP Compliance Management<br/>|         |![Check mark](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|         |         |         |         |
+|View-Only Manage Alerts<br/>|         |         |         |         |         |![Check mark](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+|View-Only Recipients<br/>|         |         |         |         |![Check mark](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|         |
+|View-Only Record Management<br/>|![Check mark](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|         |         |         |         |         |
+|View-Only Retention Management<br/>|![Check mark](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|         |         |         |         |         |
+|         |         |         |         |         |         |
+
+
+
 ## Managing alerts
 
 After alerts have been generated and displayed on the **View alerts** page in the Security &amp; Compliance Center, you can triage, investigate, and resolve them. Here are some tasks you can perform to manage alerts. 
