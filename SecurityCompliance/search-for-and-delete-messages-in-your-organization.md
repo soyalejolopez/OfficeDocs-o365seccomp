@@ -94,12 +94,12 @@ If your Office 365 account uses multi-factor authentication (MFA) or federated a
   
 ## Step 3: Delete the message
 
-After you've created and refined a Content Search to return the message that you want to remove and are connected to Security &amp; Compliance Center PowerShell, the final step is to run the **New-ComplianceSearchAction** cmdlet to delete the message. Deleted messages are moved to a user's Recoverable Items folder. 
+After you've created and refined a Content Search to return the message that you want to remove and are connected to Security &amp; Compliance Center PowerShell, the final step is to run the **New-ComplianceSearchAction** cmdlet to delete the message. Deleted messages are marked for permanent removal from the mailbox and will be permanently removed the next time the mailbox is processed by the Managed Folder Assistant. If single item recovery is enabled for the mailbox, purged items will be permanently removed after the deleted item retention period expires.
   
 In the following example, the command will delete the search results returned by a Content Search named "Remove Phishing Message". 
 
 ```
-New-ComplianceSearchAction -SearchName "Remove Phishing Message" -Purge -PurgeType SoftDelete
+New-ComplianceSearchAction -SearchName "Remove Phishing Message" -Purge -PurgeType HardDelete
 ```
   
 The search specified by the  *SearchName*  parameter is the Content Search that you created in Step 1. 
@@ -113,13 +113,9 @@ For more information, see [New-ComplianceSearchAction](https://docs.microsoft.co
 
     Run the **Get-ComplianceSearchAction** to get the status on the delete operation. Note that the object that is created when you run the **New-ComplianceSearchAction** cmdlet is named using this format:  `<name of Content Search>_Purge`. 
     
-- **What happens after you delete a message?**
+- **What happens after you delete a message using the soft-delete option?**
 
-    A message that is deleted by using the  `New-ComplianceSearchAction -Purge -PurgeType SoftDelete` command is moved to the Deletions folder in the user's Recoverable Items folder. It isn't immediately purged from Office 365. The user can recover messages in the Deleted Items folder for the duration based on the deleted item retention period configured for the mailbox. After this retention period expires (or if user purges the message before it expires), the message is moved to the Purges folder and can no longer be accessed by the user. Once in the Purges folder, the message is again retained for the duration based on the deleted item retention period configured for the mailbox if single items recovery is enabled for the mailbox. (In Office 365, single item recovery is enabled by default when a new mailbox is created. ) After the deleted item retention period expires, the message is marked for permanent deletion and will be purged from Office 365 the next time that the mailbox is processed by the Managed Folder assistant. 
-    
-- **How do you know that messages are deleted and moved to the user's Recoverable Items folder?**
-
-    If you run the same Content Search after you delete a message, you will still see the same number of search results (and might assume that the message wasn't deleted from user mailboxes). This is because a Content Search searches the Recoverable Items folder, which is where the deleted message is moved to after you run the  `New-ComplianceSearchAction -Purge -PurgeType SoftDelete` command. To verify that messages were moved to the Recoverable Items folder, you can run an In-Place eDiscovery search (using the same source mailboxes and search criteria as the Content Search created in Step 1) and then copy the search results to the discovery mailbox. Then you can view the search results in the discovery mailbox and verify that the messages were moved to the Recoverable Items folder. See [Use Content Search in your eDiscovery workflow](use-content-search-in-ediscovery.md) for details about creating an In-Place eDiscovery search that uses the list of source mailboxes and search query from a Content Search. 
+    If you use the  `New-ComplianceSearchAction -Purge -PurgeType SoftDelete` command, messages are moved to the Deletions folder in the user's Recoverable Items folder. It isn't immediately purged from Office 365. The user can recover messages in the Deleted Items folder for the duration based on the deleted item retention period configured for the mailbox. After this retention period expires (or if user purges the message before it expires), the message is moved to the Purges folder and can no longer be accessed by the user. Once in the Purges folder, the message is again retained for the duration based on the deleted item retention period configured for the mailbox if single items recovery is enabled for the mailbox. (In Office 365, single item recovery is enabled by default when a new mailbox is created. ) After the deleted item retention period expires, the message is marked for permanent deletion and will be purged from Office 365 the next time that the mailbox is processed by the Managed Folder assistant. 
     
 - **What if you have to delete a message from more than 50,000 mailboxes?**
 
@@ -127,7 +123,7 @@ For more information, see [New-ComplianceSearchAction](https://docs.microsoft.co
     
 - **Will unindexed items included in the search results be deleted?**
 
-    No, the  `New-ComplianceSearchAction -Purge -PurgeType SoftDelete` command doesn't delete unindexed items. 
+    No, the  `New-ComplianceSearchAction -Purge -PurgeType HardDelete` command doesn't delete unindexed items. 
     
 - **What happens if a message is deleted from a mailbox that has been placed on In-Place Hold or Litigation Hold or is assigned to an Office 365 retention policy?**
 
