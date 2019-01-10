@@ -94,7 +94,7 @@ If your Office 365 account uses multi-factor authentication (MFA) or federated a
   
 ## Step 3: Delete the message
 
-After you've created and refined a Content Search to return the message that you want to remove and are connected to Security &amp; Compliance Center PowerShell, the final step is to run the **New-ComplianceSearchAction** cmdlet to delete the message. You can either soft or hard delete messages. Soft deleted messages are moved to a user's Recoverable Items folder and retained until retention period expires. If hard deleted, messages are immediately deleted unless single item recovery is enabled or legal hold is placed on the mailbox. 
+After you've created and refined a Content Search to return the message that you want to remove and are connected to Security &amp; Compliance Center PowerShell, the final step is to run the **New-ComplianceSearchAction** cmdlet to delete the message. You can soft or hard delete the message. Soft deleted message is moved to a user's Recoverable Items folder and retained until retention period expires. Unless single item recovery is enabled or legal hold is placed on the mailbox, hard deleted message is marked for permanent deletion and will be purged the next time mailbox is processed by the Managed Folder Assistant.
   
 In the following example, the command will soft delete the search results returned by a Content Search named "Remove Phishing Message". 
 
