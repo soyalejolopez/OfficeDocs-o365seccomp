@@ -145,6 +145,8 @@ In order to pick from existing custom sensitive information types or custom keyw
     - Add your custom dictionary as a requirement for the matching element
     - Review your selections and create the sensitive info type
 
+    After the custom dictionary/lexicon is created, you can add or remove terms using the [Set-DlpKeywordDictionary](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/set-dlpkeyworddictionary) cmdlet.
+
     For more detailed information, see [Create a custom sensitive information type](create-a-custom-sensitive-information-type.md).
 
 <a name="setupsuper"> </a>
