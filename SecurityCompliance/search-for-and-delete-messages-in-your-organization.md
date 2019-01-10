@@ -134,7 +134,7 @@ For more information, see [New-ComplianceSearchAction](https://docs.microsoft.co
     
 - **Will unindexed items included in the search results be deleted?**
 
-    No, the  `New-ComplianceSearchAction -Purge -PurgeType SoftDelete` command doesn't delete unindexed items. 
+    No, the  `New-ComplianceSearchAction -Purge` command doesn't delete unindexed items. 
     
 - **What happens if a message is deleted from a mailbox that has been placed on In-Place Hold or Litigation Hold or is assigned to an Office 365 retention policy?**
 
