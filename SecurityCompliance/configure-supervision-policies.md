@@ -181,7 +181,7 @@ After you create a supervision policy, it's a good idea to test to make sure tha
 
 ## Step 6 - Set up Outlook add-in for reviewers (optional)
 
-Reviewers that want to use Outlook instead of using the Supervision dashboard in Office 365 or Outlook web app to review communications must install the Supervision add-in for their Outlook client.
+Reviewers that want to use Outlook instead of using the Supervision dashboard in Office 365 or Outlook on the web to review communications must install the Supervision add-in for their Outlook client.
 
 ### Step 1: Copy the address for the supervision mailbox
 

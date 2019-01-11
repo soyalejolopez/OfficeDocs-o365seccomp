@@ -173,11 +173,11 @@ The **Resolved Items** tab is where reviewers can view all previously resolved i
 
 If reviewers would prefer not to use the supervision dashboard in Office 365, they also have other options to review and manage items collected by supervision policies.
 
-#### Outlook Web App
+#### Outlook on the web
 
-Users designated as reviewers in a supervision policy can use Outlook Web App (OWA) to review and resolved supervision items. The Supervision add-in is installed automatically in OWA for all reviewers you specified in the policy. No extra configuration is needed by your organization for supervision policy shared folders to be available for configured reviewers.
+Users designated as reviewers in a supervision policy can use Outlook on the web to review and resolved supervision items. The Supervision add-in is installed automatically in Outlook on the web for all reviewers you specified in the policy. No extra configuration is needed by your organization for supervision policy shared folders to be available for configured reviewers.
 
-Using OWA, reviewers can:
+Using Outlook on the web, reviewers can:
 
 - View filtered items by compliant, non-compliant, questionable, and resolved status
 - Tag a single item as compliant, non-compliant, questionable, or resolved. You can also record a comment with the item to help clarify the tagging action taken.
