@@ -41,7 +41,7 @@ Follow these steps to set up and use supervision in your Office 365 organization
 
 - **Step 4 (required)** - [Set up a supervision policy](configure-supervision-policies.md#setupsuper)
 
-    You'll create supervision policies in the Security & Compliance Center. These policies define which communications are subject to review in your organization, and specifies who should perform reviews. Communications include email and Microsoft Teams communications, as well as 3rd-party platform communications (such as Facebook, Twitter, etc.)
+    You'll create supervision policies in the Security & Compliance Center. These policies define which communications are subject to review in your organization and specifies who should perform reviews. Communications include email and Microsoft Teams communications, as well as 3rd-party platform communications (such as Facebook, Twitter, etc.)
 
 - **Step 5 - (optional)** [Test your new supervision policy](configure-supervision-policies.md#TestPolicy)
 
@@ -97,9 +97,9 @@ To do this, you can either add yourself as a member of the Supervisory Review ro
 
 1. Sign into [https://protection.office.com](https://protection.office.com) using credentials for an admin account in your Office 365 organization.
 
-2. In the Security & Compliance Center, go to **Permissions** and then click Add ( **+**).
+2. In the Security & Compliance Center, go to **Permissions** and then click Add (**+**).
 
-3. In the **Roles** section, click Add ( **+**) and scroll down to **Supervisory Review Administrator**. Add this role to the role group.
+3. In the **Roles** section, click Add (**+**) and scroll down to **Supervisory Review Administrator**. Add this role to the role group.
 
 4. In the **Members** section, add the people who you want to manage supervision for your organization.
 
@@ -165,7 +165,7 @@ In order to pick from existing custom sensitive information types or custom keyw
     - Choose if you'd like to include sensitive information types. This is where you can select default and custom sensitive info types. 
     - Define the percentage of communications to review.
     - Choose the reviewers for the policy.
-    - Review you policy selections and create the policy.
+    - Review your policy selections and create the policy.
 
 <a name="TestPolicy"> </a>
 
@@ -198,7 +198,7 @@ To install the add-in for Outlook desktop, you'll need the address for the super
 
 3. Click the supervision policy that's gathering the communications you want to review.
 
-4. In the policy details flyout, under ** Supervision mailbox **, copy the address.<br/>![The 'Supervision Mailbox' section of a supervision policy's details flyout showing the supervision mailbox address highlighted](media/71779d0e-4f01-4dd3-8234-5f9c30eeb067.jpg)
+4. In the policy details flyout, under **Supervision mailbox**, copy the address.<br/>![The 'Supervision Mailbox' section of a supervision policy's details flyout showing the supervision mailbox address highlighted](media/71779d0e-4f01-4dd3-8234-5f9c30eeb067.jpg)
   
 ### Step 2: Configure the supervision mailbox for Outlook desktop access
 
@@ -217,7 +217,7 @@ Next, reviewers will need to run a couple Exchange Online PowerShell commands so
 For the final step, reviewers will need to create an Outlook profile to connect to the supervision mailbox.
 
 > [!NOTE]
-> To create a new Outlook profile, you'll use the Mail settings in the Windows Control Panel. The path you take to get to these settings might depend on which Windows operating system (Windows 7, Windows 8, or Windows 10) you're using and which version of Outlook is installed.
+> To create a new Outlook profile, you'll use the Mail settings in the Windows Control Panel. The path you take to get to these settings might depend on which Windows operating system (Windows 7, Windows 8, or Windows 10) you're using, and which version of Outlook is installed.
   
 1. Open the Control Panel, and in the **Search** box at the top of the window, type **Mail**.<br/>(Not sure how to get to the Control Panel? See [Where is Control Panel?](https://support.microsoft.com/help/13764/windows-where-is-control-panel))
   
