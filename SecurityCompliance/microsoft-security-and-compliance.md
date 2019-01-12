@@ -30,7 +30,7 @@ Once the Microsoft 365 security center is enabled for your tenant, you will be a
 
 ## Microsoft 365 compliance center
 
-Your new Microsoft 365 compliance center provides you with visibility into Microsoft Compliance Score that reflects your overall compliance posture and gives you recommended actions to help you configure settings to meet complex compliance obligations. You’ll have easy access to new/improved Sensitivity and Retention labels and policies, Data Loss Prevention, Data Governance, eDiscovery, Data Subject Requests (DSRs) case management and Cloud App Security.
+Your new Microsoft 365 compliance center provides you with visibility into Microsoft Compliance Manager, which reflects your overall compliance posture and gives you recommended actions to help you configure settings to meet complex compliance obligations. You’ll have easy access to sensitivity and retention labels and policies, Data Loss Prevention, Data Governance, eDiscovery, Data Subject Requests (DSRs), case management, and Cloud App Security. Additionally, you can gain actionable insights and leverage intelligent automation to reduce your compliance risks and safeguard your digital estate. 
 
 ![Microsoft 365 compliance center](media/m365-compliance-center.png)
 
