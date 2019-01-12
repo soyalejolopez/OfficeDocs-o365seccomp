@@ -21,7 +21,7 @@ Your new Microsoft 365 security center includes a dashboard to help you manage a
 
 ![New Microsoft 365 security center](media/m365-security-center.png)
 
-When you use the Microsoft 365 security center for the first time, you'll see information across the top of the screen to help you get started. And you'll see how to navigate easily to the security features you're most interested in exploring.
+When you use the Microsoft 365 security center for the first time, you'll see information across the top of the screen to help you get started. You'll also see how to navigate easily to the security features you're most interested in exploring.
 
 Once the Microsoft 365 security center is enabled for your tenant, you will be notified by email. You will then be able to access it at [https://security.microsoft.com](https://security.microsoft.com) and sign in. 
 
