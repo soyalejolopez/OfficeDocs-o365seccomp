@@ -3,7 +3,7 @@ title: "Get ready for Microsoft 365 security and compliance"
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 01/10/2019
+ms.date: 01/12/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -11,7 +11,7 @@ localization_priority: Normal
 description: "Get ready for the all-new Microsoft 365 security center and compliance center"
 ---
 
-# Get ready for the new Microsoft 365 security center and the new Microsoft 365 compliance center
+# Get ready for the new Microsoft 365 security center and Microsoft 365 compliance center
 
 As we're adding features to security & compliance capabilities for your organization, **we are pleased to announce the all-new [Microsoft 365 security center](#microsoft-365-security-center) and the all-new [Microsoft 365 compliance center](#microsoft-365-compliance-center), rolling out beginning in early February 2019 and through March 2019**. Read this article to get an overview of what's coming, required licenses and permissions needed, and what to expect.
 
