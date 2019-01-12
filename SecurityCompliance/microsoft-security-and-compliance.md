@@ -34,9 +34,9 @@ Your new Microsoft 365 compliance center provides you with visibility into Micro
 
 ![Microsoft 365 compliance center](media/m365-compliance-center.png)
 
-When you use the Microsoft 365 compliance center for the first time, you'll see information across the top of the screen to help you get started. And you'll see how to navigate easily to the compliance features you're most interested in exploring.
+When you use the Microsoft 365 compliance center for the first time, you'll see information across the top of the screen to help you get started. You'll see how to navigate easily to the compliance features you're most interested in exploring.
 
-Once the Microsoft 365 compliance center is enabled for your tenant, you will be notified by email. You will then be able to access it at [https://compliance.microsoft.com](https://compliance.microsoft.com) and sign in.  
+Once the Microsoft 365 compliance center is enabled for your tenant, you will be to access it at [https://compliance.microsoft.com](https://compliance.microsoft.com).  
 
 > [!NOTE]
 > You must be assigned a valid Azure Active Directory role in order to access the Microsoft 365 compliance center. To learn more, see the [Required licenses and permissions](#required-licenses-and-permissions) section (in this article).
