@@ -13,7 +13,7 @@ description: "Get ready for the all-new Microsoft 365 security center and compli
 
 # Get ready for the new Microsoft 365 security center and Microsoft 365 compliance center
 
-**We are pleased to announce the all-new [Microsoft 365 security center](#microsoft-365-security-center) and [Microsoft 365 compliance center](#microsoft-365-compliance-center), rolling out starting at the end of January 2019 and through March 2019**. Read this article to get an overview of what's coming, required licenses and permissions needed, and what to expect.
+**We are pleased to announce the all-new [Microsoft 365 security center](#microsoft-365-security-center) and [Microsoft 365 compliance center](#microsoft-365-compliance-center), rolling out starting at the end of January 2019 and through March 2019**. Read this article to get an overview of what's coming, [required licenses and permissions needed](#required-licenses-and-permissions), and [what to expect](#what-to-expect).
 
 ## Microsoft 365 security center
 
