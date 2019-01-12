@@ -67,11 +67,11 @@ Your organization must have Microsoft 365 Enterprise E3 or E5 to get the new Mic
 
 In addition, users must be assigned the Global Administrator, Compliance Administrator, Security Administrator, or Security Reader role in Azure Active Directory to access the new Microsoft 365 security center or Microsoft 365 compliance center.
 
-- A Global Administrator can access both the security center and the compliance center
+- Global Administrators can access both the security center and the compliance center
 
-- A Compliance Administrator can access the compliance center
+- Compliance Administrators can access the compliance center
 
-- A Security Administrator or Security Reader can access the security center
+- Security Administrators or Security Readers can access the security center
 
 > [!NOTE]
 > Additional roles, including Security Operator and Compliance Data Administrator, are coming soon.
