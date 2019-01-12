@@ -60,16 +60,12 @@ After this update is rolled out, if your organization has Microsoft 365 Enterpri
 - Go to the Microsoft 365 admin center and then navigate to the new Microsoft 365 security center and Microsoft 365 compliance center.    
 
 In addition, if you are using the Office 365 Security & Compliance Center ([https://protection.office.com](http://protection.office.com)), you will still be able to configure and manage your Office 365 settings within your existing Office 365 Security & Compliance Center. Configurations will be maintained in the Office 365 Security & Compliance Center as well as in the new Microsoft 365 security center and Microsoft 365 compliance center.  
- 
-After the Microsoft 365 security center and the Microsoft 365 compliance center are fully rolled out, redirects will be in place as follows:
-- **Office 365** customers who visit [protection.microsoft.com](https://protection.microsoft.com) will be redirected to [protection.office.com](https://protection.office.com)
-- **Microsoft 365** customers who visit [protection.microsoft.com](https://protection.microsoft.com) will be redirected to a new site includes links to the new Microsoft 365 security center and the new Microsoft 365 compliance center.
 
 ## Required licenses and permissions
 
-Your organization must have Microsoft 365 Enterprise E3 or E5 to get the new Microsoft 365 security center and the new Microsoft 365 compliance center.
+Your organization must have Microsoft 365 Enterprise E3 or E5 to get the new Microsoft 365 security center and Microsoft 365 compliance center.
 
-In addition, users must be assigned the Global Administrator, Compliance Administrator, Security Administrator, or Security Reader role in Azure Active Directory in order to access the new Microsoft 365 security center or the new Microsoft 365 compliance center.
+In addition, users must be assigned the Global Administrator, Compliance Administrator, Security Administrator, or Security Reader role in Azure Active Directory to access the new Microsoft 365 security center or Microsoft 365 compliance center.
 
 - A Global Administrator can access both the security center and the compliance center
 
@@ -78,7 +74,7 @@ In addition, users must be assigned the Global Administrator, Compliance Adminis
 - A Security Administrator or Security Reader can access the security center
 
 > [!NOTE]
-> Additional roles, including Security Reader, Security Operator and Compliance Data Administrator, are coming soon.
+> Additional roles, including Security Operator and Compliance Data Administrator, are coming soon.
 
 The following table summarizes who can access various portals across Azure, Office 365, and Windows:
 
