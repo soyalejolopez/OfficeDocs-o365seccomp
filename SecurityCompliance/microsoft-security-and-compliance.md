@@ -49,7 +49,7 @@ The new Microsoft 365 security center and the new Microsoft 365 compliance cente
 
 ### Easy access!
 
-With improved navigation, integrated solutions, and a streamlined experience, you'll be able to see and access the information you're most interested in, and take advantage of the powerful new/improved security and compliance features of Microsoft 365.
+With improved navigation, integrated solutions, and a streamlined experience, you'll be able to see and access the information you're most interested in and take advantage of the powerful security and compliance solutions in Microsoft 365.
 
 ### Smooth transition!
 
