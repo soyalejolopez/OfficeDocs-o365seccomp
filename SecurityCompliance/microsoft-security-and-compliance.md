@@ -59,7 +59,7 @@ After this update is rolled out, if your organization has Microsoft 365 Enterpri
 - Navigate directly to [https://security.microsoft.com](https://security.microsoft.com) and [https://compliance.microsoft.com](https://compliance.microsoft.com); or  
 - Go to the Microsoft 365 admin center and then navigate to the new Microsoft 365 security center and Microsoft 365 compliance center.    
 
-In addition, if you are using the Office 365 Security & Compliance Center ([https://protection.office.com](http://protection.office.com)), you will still be able to configure and manage your Office 365 settings within your existing Office 365 Security & Compliance Center. Configurations will be maintained in the Office 365 Security & Compliance Center as well as in the new Microsoft 365 security center and the new Microsoft 365 compliance center.  
+In addition, if you are using the Office 365 Security & Compliance Center ([https://protection.office.com](http://protection.office.com)), you will still be able to configure and manage your Office 365 settings within your existing Office 365 Security & Compliance Center. Configurations will be maintained in the Office 365 Security & Compliance Center as well as in the new Microsoft 365 security center and Microsoft 365 compliance center.  
  
 After the Microsoft 365 security center and the Microsoft 365 compliance center are fully rolled out, redirects will be in place as follows:
 - **Office 365** customers who visit [protection.microsoft.com](https://protection.microsoft.com) will be redirected to [protection.office.com](https://protection.office.com)
