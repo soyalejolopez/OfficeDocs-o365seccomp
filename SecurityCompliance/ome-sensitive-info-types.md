@@ -3,7 +3,7 @@ title: "New Office 365 Message Encryption policy for sensitive information"
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 1/7/2019
+ms.date: 1/9/2019
 ROBOTS: NOINDEX, NOFOLLOW
 audience: ITPro
 ms.topic: article
@@ -17,7 +17,7 @@ description: "Summary: Automatically applied Office 365 Message Encryption polic
 
 # Office 365 Message Encryption policy for sensitive information
 
-We will be creating a new automatic policy in Office 365 tenants that will apply Office 365 Message Encryption to all emails that contain sensitive information and that are being sent outside your organization. This new Exchange mail flow rule will be automatically created in your Office 365 tenant so that your organization will be protected by default.
+We are doing a slow roll-out of a new automatic policy in Office 365 tenants that will apply Office 365 Message Encryption to emails that contain certain types of sensitive information. This policy will not be rolled out to all organizations and considerations such as organization size and complexity of mail flow will be used to determine the eligibility for this roll-out. If your organization is selected for this roll-out, you will receive a notification in the Office 365 Message Center notifying you the date on which this automatic policy will be created and you will be given at least a 30-day notice and the option to opt-out. If you don't want to wait for Microsoft to create this policy and would like to do so yourselves, you can create this automatic policy using Exchange Mail Flow rules.
 
 ## When to expect the update for your tenant
 
@@ -25,7 +25,7 @@ Your organization will receive a notification in the Office 365 Message Center n
 
 ## Sensitive information type policy details
 
-An Exchange mail flow rule will be created in your organization that will automatically encrypt emails going outside your organization with the *Encrypt-Only* policy if they contain the following sensitive information types:
+An Exchange mail flow rule will be created in your organization that will automatically encrypt emails going outside your organization with the *Encrypt-Only* policy if the emails or their attachments contain the following sensitive information types:
 
 - ABA routing number
 - Credit card Number
@@ -65,6 +65,6 @@ If you would like to opt-out of this change, please follow these steps:
    Set-IRMConfiguration -AutomaticServiceUpdateEnabled $false
    ```
 
-## How do I disable the automatic policy?
+## How do I disable or customize the automatic policy?
 
-If you didn’t opt-out of this change and the Exchange mail rule has already been created, you can [disable the rule](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules#enable-or-disable-a-mail-flow-rule) by going to **Mail flow** > **Rules** in the Exchange admin center (EAC) and disable the rule “*Encrypt outbound sensitive emails (out of box rule)*”.
+If you didn’t opt-out of this change and the Exchange mail flow rule has already been created, you can [disable or edit the rule](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules#enable-or-disable-a-mail-flow-rule) by going to **Mail flow** > **Rules** in the Exchange admin center (EAC) and disable the rule “*Encrypt outbound sensitive emails (out of box rule)*”.
