@@ -243,7 +243,23 @@ Here's a breakdown of the values you might see in the **Tag type** column.
 
 In some instances, you'll need to provide information to regulatory or compliance auditors to prove supervision of employee activities and communications. This may be a summary of all supervisory activities associated with a defined policy or anytime a supervision policy was changed or updated. Supervision policies have built-in audit trails for complete readiness for internal or external audits. Proof of supervisory procedures can be demonstrated with a detailed audit history of every action monitored by your supervision policies.
 
-In addition to information provided in the supervision reports, you can also use the [Get-SupervisoryReviewActivity](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/get-supervisoryreviewactivity?view=exchange-ps) PowerShell cmdlet to return a complete detailed listing of all supervision policy activities.
+The following supervision policy activities are audited and can be viewed using the unified Office 365 audit logs:
+
+|**Activity**|**Associated commands**|
+|:-----|:-----|
+| Creating a policy | New-SupervisoryReviewPolicy <br> New-SupervisoryReviewRule |
+| Editing a policy | Set-SupervisoryReviewPolicy <br> Set-SupervisoryReviewRule |
+| Deleting a policy| Remove-SupervisoryReviewPolicy |
+
+The audits can be retrieved using the unified audit log search function or by using the [Search-UnifiedAuditLog](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog) PowerShell cmdlet.
+
+For example, the following example returns the activities for the all the supervisory review activities (policies and rules) and lists detailed information for each:
+
+```
+Search-UnifiedAuditLog -StartDate $startDate -EndDate $endDate -RecordType DataGovernance -ResultSize 5000 | Where-Object {$_.Operations -like "*SupervisoryReview*"} | fl CreationDate,Operations,UserIds,AuditData 
+```
+
+In addition to information provided in the supervision reports and logs, you can also use the [Get-SupervisoryReviewActivity](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/get-supervisoryreviewactivity?view=exchange-ps) PowerShell cmdlet to return a complete detailed listing of all supervision policy activities.
 
 ## Ready to get started?
 
