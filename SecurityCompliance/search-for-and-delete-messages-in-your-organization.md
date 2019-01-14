@@ -101,7 +101,12 @@ In the following example, the command will soft-delete the search results return
 ```
 New-ComplianceSearchAction -SearchName "Remove Phishing Message" -Purge -PurgeType SoftDelete
 ```
-  
+In the following example, the command will hard delete the search results returned by a Content Search named "Remove Phishing Message". 
+
+```
+New-ComplianceSearchAction -SearchName "Remove Phishing Message" -Purge -PurgeType HardDelete
+```
+
 The search specified by the  *SearchName*  parameter is the Content Search that you created in Step 1. 
 
 To hard-deleted the items returned by the  "Remove Phishing Message" content search, you would run this command:
