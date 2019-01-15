@@ -67,9 +67,8 @@
 ## Monitor data governance
 ### [View the data governance reports](view-the-data-governance-reports.md)
 ### [View label activity for documents](view-label-activity-for-documents.md)
+### [Supervision policies in Office 365](supervision-policies.md)
 ### [Configure supervision policies for your organization](configure-supervision-policies.md)
-### [Install the Supervision add-in for Outlook desktop](install-the-supervision-add-in-for-outlook-desktop.md)
-### [Supervision reports](supervision-reports.md)
 ## More information about data governance
 ### [Watch videos from the Microsoft Data Governance team](https://go.microsoft.com/fwlink/?linkid=867039)
 # [Protect against threats](protect-against-threats.md)
