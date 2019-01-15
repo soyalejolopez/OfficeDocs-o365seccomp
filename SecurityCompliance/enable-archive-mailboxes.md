@@ -96,8 +96,6 @@ To disable an archive mailbox:
     - Moves items that are 14 days or older from the Recoverable Items folder in the user's primary mailbox to the Recoverable Items folder in their archive mailbox.
     
 - For more information about archive mailboxes and Exchange retention policies, see:
-  
-  - [Archive mailboxes in Exchange Online](https://go.microsoft.com/fwlink/?LinkId=404421)
     
   - [Retention tags and retention policies](https://go.microsoft.com/fwlink/?LinkId=404424)
     

@@ -287,8 +287,9 @@ Click one of the following links to go to a specific table.
 |[Sway activities](#sway-activities) <br/> |[User administration activities](#user-administration-activities) <br/> |[Azure AD group administration activities](#azure-ad-group-administration-activities) <br/> |
 |[Application administration activities](#application-administration-activities) <br/> |[Role administration activities](#role-administration-activities) <br/> |[Directory administration activities](#directory-administration-activities) <br/> |
 |[eDiscovery activities](#ediscovery-activities) <br/> |[Power BI activities](#power-bi-activities) <br/> |[Microsoft Teams activities](#microsoft-teams-activities) <br/> |
-|[Yammer activities](#yammer-activities) <br/> |[Microsoft Flow](#microsoft-flow) <br/> |[Microsoft Stream](#microsoft-stream) <br/>|
-|[Exchange admin audit log](#exchange-admin-audit-log) <br/> |
+|[Yammer activities](#yammer-activities) <br/> |[Microsoft Flow activities](#microsoft-flow) <br/> |[Microsoft Stream activities](#microsoft-stream) <br/>|
+|[Exchange admin audit log](#exchange-admin-audit-log) <br/> |[Retention policy and label activities](#retention-policy-and-label-activities)<br/>
+||||
    
   
 ### File and page activities
@@ -619,15 +620,33 @@ The following table lists the user and admin activities in Yammer that are logge
 |Updated file name  <br/> |FileUpdateName  <br/> |User changes the name of a file.  <br/> |
 |Viewed file  <br/> |FileVisited  <br/> |User views a file.  <br/> |
    
-### Microsoft Flow
+### Microsoft Flow activities
 
 You can search the audit log for activities in Microsoft Flow. These activities include creating, editing and deleting flows, and changing flow permissions. For information about auditing for Flow activities, see the blog  [Microsoft Flow audit events now available in Office 365 Security & Compliance Center](https://flow.microsoft.com/blog/security-and-compliance-center).
 
 
-### Microsoft Stream
+### Microsoft Stream activities
   
 You can search the audit log for activities in Microsoft Stream. These activities include video activities performed by users, group channel activities, and admin activities such as managing users, managing organization settings, and exporting reports. For a description of these activities, see the "Activities logged in Microsoft Stream" section in [Audit Logs in Microsoft Stream](https://docs.microsoft.com/stream/audit-logs).
   
+### Retention policy and label activities
+
+The following table describes the activities for Office 365 retention policies and retention labels.
+
+|**Activity**|**Operation**|**Description**|
+|:-----|:-----|:-----|
+| Created retention configuration for a retention policy<br/> |NewRetentionComplianceRule | |
+| Created retention label <br/> |  | |
+| Created retention policy<br/> | |   |
+| Deleted retention configuration for a retention policy<br/> | | |
+| Deleted retention label <br/> |  | |
+| Deleted retention policy<br/> | |   |
+| Updated retention configuration for a retention policy<br/> | | |
+| Updated retention label <br/> |  | |
+| Updated retention policy<br/> | |   |
+| | | |
+
+
 ### Exchange admin audit log
   
 Exchange administrator audit logging—which is enabled by default in Office 365—logs an event in the Office 365 audit log when an administrator (or a user who has been assigned administrative permissions) makes a change in your Exchange Online organization. Changes made by using the Exchange admin center or by running a cmdlet in Windows PowerShell are logged in the Exchange admin audit log. For more detailed information about admin audit logging in Exchange, see [Administrator audit logging](https://go.microsoft.com/fwlink/p/?LinkID=619225).
