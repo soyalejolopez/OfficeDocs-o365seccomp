@@ -22,11 +22,11 @@ With Office 365 Enterprise, you can help protect your organization against a var
 
 If you're using a custom domain in Office 365, help stop sender fraud from your organization, improve email security, and protect your domain's reputation.
   
-- [Prevent spoofing with SPF]([Set up SPF in Office 365 to help prevent spoofing](set-up-spf-in-office-365-to-help-prevent-spoofing.md))
+- [Set up SPF in Office 365 to help prevent spoofing](set-up-spf-in-office-365-to-help-prevent-spoofing.md)
     
-- [Validate outbound email with DKIM]([Use DKIM to validate outbound email sent from your custom domain in Office 365](use-dkim-to-validate-outbound-email.md))
+- [Use DKIM to validate outbound email sent from your custom domain in Office 365](use-dkim-to-validate-outbound-email.md)
     
-- [Validate email with DMARC]([Use DMARC to validate email in Office 365](use-dmarc-to-validate-email.md))
+- [Use DMARC to validate email in Office 365](use-dmarc-to-validate-email.md)
     
 ## Anti-spam &amp; anti-malware
 
@@ -34,11 +34,11 @@ Learn about Office 365 anti-spam scoring, connection filtering, and malware capt
   
 - [Anti-spam &amp; anti-malware protection](anti-spam-and-anti-malware-protection.md)
     
-- [Turn on logging for email]([Enable mailbox auditing in Office 365](enable-mailbox-auditing.md))
+- [Enable mailbox auditing in Office 365](enable-mailbox-auditing.md)
     
 - [Quarantine email messages in Office 365](quarantine-email-messages.md)
     
-- [Submit suspicious content to Microsoft]([Submitting malware and non-malware to Microsoft for analysis](submitting-malware-and-non-malware-to-microsoft-for-analysis.md))
+- [Submitting malware and non-malware to Microsoft for analysis](submitting-malware-and-non-malware-to-microsoft-for-analysis.md)
     
 ## Advanced Threat Protection
 
