@@ -79,7 +79,7 @@ An alert policy consists of the following settings and conditions.
     
   - Others
     
-  When an activity occurs that matches the conditions of the alert policy, the alert that's generated is tagged with the category defined in this setting. This allows you to track and manage alerts that have the same category setting on the **View alerts** page in the Security &amp; Compliance Center because you can sort and filter alerts based on category. 
+  When an activity occurs that matches the conditions of the alert policy, the alert that's generated is tagged with the category defined in this setting. This allows you to track and manage alerts that have the same category setting on the **View alerts** page in the Security & Compliance Center because you can sort and filter alerts based on category. 
     
 - **Alert severity** - Similar to the alert category, you assign a severity attribute ( **Low**, **Medium**, or **High**) to alert policies. Like the alert category, when an activity occurs that matches the conditions of the alert policy, the alert that's generated is tagged with the same severity level that's set for the alert policy. Again, this allows you to track and manage alerts that have the same severity setting on the **View alerts** page. For example, you can filter the list of alerts so that only alerts with a **High** severity are displayed. 
     
@@ -142,7 +142,7 @@ The Role Bases Access Control (RBAC) permissions assigned to users in your organ
 
 This design (based on RBAC permissions) lets you determine which alerts can be  viewed (and acted on) by users in specific job roles in your organization. 
 
-The following table lists the roles that are required to view alerts from the 6 different alert categories. The first column in the tables lists all the Security & Compliance Center roles.  A check mark indicates that a person who is assigned that role can view alerts from one of the 6 alert categories listed in the top row.
+The following table lists the roles that are required to view alerts from the 6 different alert categories. The first column in the tables lists all the Security & Compliance Center roles.  A check mark indicates that a user who is assigned that role can view alerts from the corresponding alert category listed in the top row.
 
 |<br/>|Data governance|Data loss prevention|Mail flow|Permissions|Threat management|Others | 
 |:---------|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
@@ -176,7 +176,6 @@ The following table lists the roles that are required to view alerts from the 6 
 |View-Only Record Management<br/>|![Check mark](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|         |         |         |         |         |
 |View-Only Retention Management<br/>|![Check mark](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|         |         |         |         |         |
 |         |         |         |         |         |         |
-
 
 **Tip:** To view the roles that are assigned to each of the default role groups, run the following commands in Security & Compliance Center PowerShell: 
 
