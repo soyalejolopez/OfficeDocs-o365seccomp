@@ -135,7 +135,7 @@ If you enter multiple conditions, Office 365 uses all the conditions together to
 
 You can specify a percentage of all the communications governed by a supervision policy if you want to reduce the amount of content to review. We'll randomly select that amount of content from the total percentage that matched the conditions you chose. If you want reviewers to review all items, you can enter **100%** in a supervision policy.
 
-## Monitoring & reporting
+## Monitoring & managing
 
 Monitoring the results of your supervision policies and applying a resolution tag is easy and convenient. You can quickly see the status of reviewed items, the users and groups under supervision, and the users and groups designated as reviewers.
 
@@ -239,7 +239,7 @@ Here's a breakdown of the values you might see in the **Tag type** column.
 > [!NOTE]
 > Supervision policies must first be provisioned before they will appear in this report. Additionally, if policies are deleted, historical data is still shown. However, they're indicated as a "Non-existent policy" and the **Export** function isn't available.
 
-### Audit activities
+## Auditing
 
 In some instances, you'll need to provide information to regulatory or compliance auditors to prove supervision of employee activities and communications. This may be a summary of all supervisory activities associated with a defined policy or anytime a supervision policy was changed or updated. Supervision policies have built-in audit trails for complete readiness for internal or external audits. Proof of supervisory procedures can be demonstrated with a detailed audit history of every action monitored by your supervision policies.
 
