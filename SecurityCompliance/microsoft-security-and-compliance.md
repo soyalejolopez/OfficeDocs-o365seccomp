@@ -56,16 +56,16 @@ With improved navigation, integrated solutions, and a streamlined experience, yo
 You can expect a smooth transition to the new centers. After this change is fully rolled out, we plan to retire the former Microsoft 365 Security & Compliance Center ([https://protection.microsoft.com](https://protection.microsoft.com)). The administrator experience will change, but this won’t impact your current security and compliance configurations.
 
 After this update is rolled out, if your organization has Microsoft 365 Enterprise E3 or E5, your security and compliance administrators can:
-- Navigate directly to [https://security.microsoft.com](https://security.microsoft.com) and [https://compliance.microsoft.com](https://compliance.microsoft.com); or  
-- Go to the Microsoft 365 admin center and then navigate to the new Microsoft 365 security center and Microsoft 365 compliance center.    
+- Navigate directly to [https://security.microsoft.com](https://security.microsoft.com) and [https://compliance.microsoft.com](https://compliance.microsoft.com) <br>or  
+- Go to the Microsoft 365 admin center, and then navigate to the new Microsoft 365 security center and Microsoft 365 compliance center.    
 
-In addition, if you are using the Office 365 Security & Compliance Center ([https://protection.office.com](http://protection.office.com)), you will still be able to configure and manage your Office 365 settings within your existing Office 365 Security & Compliance Center. Configurations will be maintained in the Office 365 Security & Compliance Center as well as in the new Microsoft 365 security center and Microsoft 365 compliance center.  
+If you are using the Office 365 Security & Compliance Center ([https://protection.office.com](http://protection.office.com)), you will still be able to configure and manage your Office 365 settings within your existing Office 365 Security & Compliance Center. Configurations will be maintained in the existing Office 365 Security & Compliance Center as well as in the new Microsoft 365 security center and Microsoft 365 compliance center.  
 
 ## Required licenses and permissions
 
 Your organization must have Microsoft 365 Enterprise E3 or E5 to get the new Microsoft 365 security center and Microsoft 365 compliance center.
 
-In addition, users must be assigned the Global Administrator, Compliance Administrator, Security Administrator, or Security Reader role in Azure Active Directory to access the new Microsoft 365 security center or Microsoft 365 compliance center.
+Users must be assigned the Global Administrator, Compliance Administrator, Security Administrator, or Security Reader role in Azure Active Directory to access the new Microsoft 365 security center or Microsoft 365 compliance center.
 
 - Global Administrators can access both the security center and the compliance center
 
