@@ -30,29 +30,33 @@ Threat intelligence capabilities in Office 365 Advanced Threat Protection help s
   
 ## What's changing?
 
-Formerly, Office 365 Threat Intelligence was included in Office 365 Enterprise E5. Office 365 Threat Intelligence was also available for purchase as an add-on for Office 365 Enterprise customers.
+Formerly, Office 365 Threat Intelligence was included in Office 365 Enterprise E5. This is still the case, although Threat Intelligence features are now part of Office 365 Advanced Threat Protection Plan 2 (and this is included in Office 365 Enterprise E5). 
 
-Now, **Threat Intelligence is included in Office 365 Advanced Threat Protection Plan 2**.
+Office 365 Threat Intelligence was formerly available for purchase as an add-on for Office 365 Enterprise customers. Now, Threat Intelligence is included in Office 365 Advanced Threat Protection Plan 2.
+
+Here's what all this means:
 
 - **If your organization already has Office 365 Enterprise E5**, then you already have Advanced Threat Protection, and this includes Threat Intelligence capabilities.
 
-- **If your organization previously had Office 365 Threat Intelligence (but not Office 365 Advanced Threat Protection) as an add-on** to another Office 365 subscription, then you will have Office 365 Advanced Threat Protection Plan 2. 
+- **If your organization previously had Office 365 Threat Intelligence (but not Office 365 Advanced Threat Protection) as an add-on** to another Office 365 subscription, then you will have Office 365 Advanced Threat Protection Plan 2. This includes Advanced Threat Protection and Threat Intelligence capabilities. 
 
-- **If your organization previously had Office 365 Advanced Threat Protection (but not Office 365 Threat Intelligence) as an add-on** to another Office 365 subscription, then you will have Office 365 Advanced Threat Protection Plan 1.
+- **If your organization previously had Office 365 Advanced Threat Protection (but not Office 365 Threat Intelligence) as an add-on** to another Office 365 subscription, then you will have Office 365 Advanced Threat Protection Plan 1. This includes Advanced Threat Protection (but not Threat Intelligence capabilities).
+
+For more information, see [Office 365 Advanced Threat Protection Service Description](https://docs.microsoft.com/en-us/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#whats-new-in-office-365-advanced-threat-protection-atp)
 
 ## Get started with threat intelligence capabilities
 
 Use the following resources to learn more about threat intelligence, and how you can use it to keep people in your organization safer.
   
-- [Get started with Office 365 Threat Intelligence](get-started-with-ti.md) (this includes information about required roles) 
+- [Get started with Threat Intelligence](get-started-with-ti.md) (this includes information about required roles) 
     
 - [Learn about Threat Trackers - New and Noteworthy](threat-trackers.md)
     
 - [Find and investigate malicious email that was delivered](investigate-malicious-email-that-was-delivered.md)
     
-- [Use Attack Simulator (Office 365)](attack-simulator.md)
+- [Use Attack Simulator](attack-simulator.md)
     
-- [Integrate Office 365 Threat Intelligence with Windows Defender Advanced Threat Protection](integrate-office-365-ti-with-wdatp.md)
+- [Integrate Threat Intelligence with Windows Defender Advanced Threat Protection](integrate-office-365-ti-with-wdatp.md)
     
 ## Related topics
 
