@@ -175,6 +175,10 @@ After you create a supervision policy, it's a good idea to test to make sure tha
 
 1. Open an email client or Microsoft Teams logged in as a supervised user defined in the policy you want to test.
 2. Send an email or Microsoft Teams chat that meets the criteria you've defined in the supervision policy. This can be a keyword, attachment size, domain, etc. Make sure you determine if your configured conditional settings in the policy is too restrictive or too lenient.
+
+    > [!Note]
+    > Emails subject to defined policies are processed in near real-time and can be tested immediately after the policy is configured. Chats in Microsoft Teams can take up to 24 hours to fully process in a policy. 
+
 3. Log into your Office 365 tenant as a reviewer designated in the supervision policy. Navigate to **Data governance** > **Supervision** > *Your Custom Policy* > **Open** to view the report for the policy.
 
 <a name="UseOutlook"> </a>
