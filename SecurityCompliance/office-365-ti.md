@@ -36,15 +36,13 @@ Now, Threat Intelligence is included in Office 365 Advanced Threat Protection Pl
 
 - **If your organization already has Office 365 Enterprise E5**, then you already have Advanced Threat Protection, and this includes Threat Intelligence capabilities.
 
-- If your organization previously had Office 365 Threat Intelligence as an add-on to another Office 365 subscription, then WHAT HAPPENS?
+- **If your organization previously had Office 365 Threat Intelligence as an add-on** to another Office 365 subscription, then WHAT HAPPENS?
 
-- If your organization previously had Office 365 Advanced Threat Protection (but not Office 365 Threat Intelligence) as an add-on to another Office 365 subscription, then WHAT HAPPENS?
+- **If your organization previously had Office 365 Advanced Threat Protection (but not Office 365 Threat Intelligence) as an add-on** to another Office 365 subscription, then WHAT HAPPENS?
 
-- 
+## Get started with threat intelligence capabilities
 
-## What do you want to do?
-
-In the following articles, you will learn more about the Office 365 Threat Intelligence service offering, including how to use it to your advantage to keep your users safe.
+Use the following resources to learn more about threat intelligence, and how you can use it to keep people in your organization safer.
   
 - [Get started with Office 365 Threat Intelligence](get-started-with-ti.md) (this includes information about required roles) 
     
