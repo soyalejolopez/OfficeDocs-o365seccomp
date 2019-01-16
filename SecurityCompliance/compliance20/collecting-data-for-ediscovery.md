@@ -42,4 +42,4 @@ For more information on the available statistics, please refer to [Search statis
 Once "Preview" is completed, you will see the "Preview" button is now active. You can click on the button to preview a sampled subset of the results.
 
 ## Add to working set
-Once you are ready to collect and process the entire results of a search, you can do so by adding it to a working set. Please refer to [Add data to a working set](add-data-to-working-set) for detail. 
+Once you are ready to collect and process the entire results of a search, you can do so by adding it to a working set. Please refer to [Add data to a working set](add-data-to-working-set) for details. 
