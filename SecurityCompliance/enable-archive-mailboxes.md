@@ -97,7 +97,6 @@ To disable an archive mailbox:
     
 - For more information about archive mailboxes and Exchange retention policies, see:
   
-  - [Archive mailboxes in Exchange Online](https://go.microsoft.com/fwlink/?LinkId=404421)
     
   - [Retention tags and retention policies](https://go.microsoft.com/fwlink/?LinkId=404424)
     
