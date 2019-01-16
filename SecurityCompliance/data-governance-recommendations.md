@@ -11,7 +11,6 @@ localization_priority: Priority
 search.appverid: 
 - MOE150
 - MET150
-ms.assetid: af398293-c69d-465e-a249-d74561552d30
 ROBOTS: NOINDEX, NOFOLLOW
 description: "The Office 365 Security & Compliance Center provides recommendations for data governance based on your org's current setup and lets you set things up in a couple clicks. Some of these recommendations detect specific content in your organization and then provide recommended steps for managing that content. For example, a recommendation might detect items that contain business-critical content (such as attorney-client privilege or NDA info), and then let you automatically apply a retention label to those items to ensure that they’re classified and retained as needed. This topic lists the data-governance recommendations you might see and describes what content is detected to trigger each one."
 ---
@@ -24,7 +23,7 @@ This topic lists the data-governance recommendations you might see and describes
 
 ## Clean up voicemail
 
-This recommendation appears when email messages identified as the message type ‘voicemail’ are detected in users’ mailboxes. Learn more about message properties in Exchange.
+This recommendation appears when email messages identified as the message type ‘voicemail’ are detected in users’ mailboxes. Learn more about [message properties in Exchange](https://docs.microsoft.com/en-us/exchange/policy-and-compliance/ediscovery/message-properties-and-search-operators?view=exchserver-2019#searchable-properties-in-exchange).
 
 ## Label attorney-client privilege content 
 
