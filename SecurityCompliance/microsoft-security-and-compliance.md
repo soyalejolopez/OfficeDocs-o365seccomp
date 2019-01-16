@@ -95,7 +95,7 @@ The following table summarizes who can access various portals across Azure, Offi
 |[Secure Score](https://docs.microsoft.com/office365/securitycompliance/office-365-secure-score)     |Yes |Yes |No |
 |[Exchange](https://docs.microsoft.com/exchange/)     |Yes |Yes |Yes |
 
+## Additional resources
 
-
-
+[Microsoft 365 roadmap](https://www.microsoft.com/microsoft-365/roadmap)
 
