@@ -157,7 +157,7 @@ In order to pick from existing custom sensitive information types or custom keyw
 
 2. In the Security & Compliance Center, go to select **Data governance** \> **Supervision**.
   
-3. Select **Create** and then follow the wizard to set up the following pages of the policy. Using the wizard your will:
+3. Select **Create** and then follow the wizard to set up the following pages of the policy. Using the wizard, you will:
 
     - Give the policy a name and description.
     - Choose the users or groups to supervise, including choosing users or groups you'd like to exclude.
