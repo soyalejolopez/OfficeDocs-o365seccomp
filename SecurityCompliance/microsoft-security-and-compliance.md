@@ -30,7 +30,7 @@ Once the Microsoft 365 security center is enabled for your tenant, you will be a
 
 ## Microsoft 365 compliance center
 
-Your new Microsoft 365 compliance center provides you with visibility into Microsoft Compliance Manager, which reflects your overall compliance posture and gives you recommended actions to help you configure settings to meet complex compliance obligations. You’ll have easy access to sensitivity and retention labels and policies, Data Loss Prevention, Data Governance, eDiscovery, Data Subject Requests (DSRs), case management, and Cloud App Security. Additionally, you can gain actionable insights and leverage intelligent automation to reduce your compliance risks and safeguard your digital estate. 
+Your new Microsoft 365 compliance center provides you with visibility into Microsoft Compliance Manager, which reflects your overall compliance posture and gives you recommended actions to help you configure settings to meet complex compliance obligations. You’ll have easy access to sensitivity and retention labels and policies, data loss prevention (DLP), data governance, eDiscovery, data subject requests (DSRs), case management, and Cloud App Security. Additionally, you can gain actionable insights and leverage intelligent automation to reduce your compliance risks and safeguard your digital estate. 
 
 ![Microsoft 365 compliance center](media/m365-compliance-center.png)
 
@@ -58,7 +58,20 @@ You can expect a smooth transition to the new centers. After this change is full
 After this update is rolled out, if your organization has Microsoft 365 Enterprise E3 or E5, your security and compliance administrators can:
 
 - Navigate directly to [https://security.microsoft.com](https://security.microsoft.com) and [https://compliance.microsoft.com](https://compliance.microsoft.com); <br>or  
-- Go to the Microsoft 365 admin center, and then navigate to the new Microsoft 365 security center and Microsoft 365 compliance center.    
+- Go to the Microsoft 365 admin center, and then navigate to the new Microsoft 365 security center and Microsoft 365 compliance center.
+
+### To navigate from the Microsoft 365 admin center to the new Microsoft 365 security center
+
+1. Go to the Microsoft 365 admin center ([https:admin.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2024339))
+
+2. In the navigation pane on the left, choose **Security**.
+
+### To navigate from the Microsoft 365 admin center to the new Microsoft 365 compliance center    
+1. Go to the Microsoft 365 admin center ([https:admin.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2024339))
+
+2. In the navigation pane on the left, choose **... Show more**.
+
+3. Choose **All admin centers**, and then choose **Compliance**.
 
 > [!TIP]
 > If you are using the Office 365 Security & Compliance Center ([https://protection.office.com](http://protection.office.com)), you will still be able to configure and manage your Office 365 settings within your existing Office 365 Security & Compliance Center. Configurations will be maintained in the existing Office 365 Security & Compliance Center as well as in the new Microsoft 365 security center and Microsoft 365 compliance center.  
