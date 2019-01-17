@@ -34,6 +34,6 @@ description: ""
   |Total file size per load  <br/> |100 GB  <br/> |
   |Single file maximum size  <br/> |100 MB  <br/> |
   |Single file maximum extracted characters  <br/> |10 million  <br/> |
-  |Depth of embedded items  <br/> |25  <br/> |
-  |Maximum number of working sets  <br/> |unlimited  <br/> |
+  |Depth of embedded items in a document  <br/> |25  <br/> |
+  |Maximum number of working sets  <br/> |50  <br/> |
 
