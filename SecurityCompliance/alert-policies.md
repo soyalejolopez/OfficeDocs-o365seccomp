@@ -132,7 +132,10 @@ You can use the following filters to view a subset of all the alerts on the **Vi
 
 - **Source** - Use this filter to show alerts triggered by alert policies in the Security & Compliance Center or alerts triggered by Office 365 Cloud App Security policies, or both. For more information about Office 365 Cloud App Security alerts, see the [Viewing Cloud App Security alerts](#viewing-cloud-app-security-alerts) section.
 
-### RBAC permissions to view alerts
+### RBAC permissions required to view alerts
+
+> [!NOTE]
+> The functionality described in this section will roll out to organizations beginning on February 20, 2019, and will be completed worldwide by the end of March 2019.
 
 The Role Bases Access Control (RBAC) permissions assigned to users in your organization determines which alerts users can see on the **View alerts** page. How is this accomplished? The management roles assigned to users (based on their membership in role groups in the Security & Compliance Center) determine which alert categories a user can see on the **View alerts** page. Here are some examples:
 
