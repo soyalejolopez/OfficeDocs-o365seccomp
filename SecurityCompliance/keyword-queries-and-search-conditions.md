@@ -92,7 +92,7 @@ For a complete list of SharePoint properties that can be searched, see [Overview
 The following table lists the contact properties that are indexed and that you can search for using Content Search. These are the properties that are available for users to configure for the contacts (also called personal contacts) that are located in the personal address book of a user's mailbox. To search for contacts, you can select the mailboxes to search and then use one or more contact properties in the keyword query.
   
 > [!TIP]
-> To search for values that contain spaces, use double quotation marks ("??") to contain the phrase; for example,  `businessaddress:"123 Main Street"`. 
+> To search for values that contain spaces or special characters, use double quotation marks ("  ") to contain the phrase; for example,  `businessaddress:"123 Main Street"`. 
   
 |**Property**|**Property description**|
 |:-----|:-----|
