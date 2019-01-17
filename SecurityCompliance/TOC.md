@@ -249,7 +249,7 @@
 #### [Download existing reports](download-existing-reports.md)
 ## [Enable or disable safety tips in Office 365](enable-or-disable-safety-tips.md)
 ## [Enable the Report Message add-in](enable-the-report-message-add-in.md)
-# [Mail flow]
+# Mail flow
 ## [Message trace in the Security & Compliance Center](message-trace-scc.md)
 ## [Mail flow insights in the Security & Compliance Center](mail-flow-insights.md)
 ### [Auto-forwarded messages report](mfi-auto-forwarded-messages-report.md)
