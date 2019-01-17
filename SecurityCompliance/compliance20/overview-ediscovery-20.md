@@ -1,5 +1,5 @@
 ---
-title: "Overview of eDiscovery 2.0 in Microsoft 365"
+title: "Overview of Advanced eDiscovery 2.0"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -17,5 +17,5 @@ ms.assetid:
 description: "This topic describes the new version of eDiscovery in Office 365."
 ---
 
-# Overview of eDiscovery 2.0 in Microsoft 365  
+# Overview of Advanced eDiscovery 2.0  
 

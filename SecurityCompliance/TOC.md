@@ -230,9 +230,9 @@
 ### [Understand Assessment in Relevance in Office 365 Advanced eDiscovery](assessment-in-relevance-in-advanced-ediscovery.md)
 ### [Tagging and Search](search-and-tagging.md)
 
-# [Advanced eDiscovery in Microsoft 365](compliance20/overview-ediscovery-20.md)
-## [Using Advanced eDiscovery for litigation](compliance20/ediscovery-for-litigation-workflow.md)
-## [Using Advanced eDiscovery for investigations](compliance20/ediscovery-for-investigations-workflow.md)
+# [Advanced eDiscovery 2.0](compliance20/overview-ediscovery-20.md)
+## [Using Advanced eDiscovery for legal cases](compliance20/ediscovery-for-litigation-workflow.md)
+## [Using Advanced eDiscovery for data investigations](compliance20/ediscovery-for-investigations-workflow.md)
 ## [User role matrix](compliance20/ediscovery-user-role-matrix.md)
 ## [Creating a new case](compliance20/create-new-ediscovery-case.md)
 ## [Working with custodians](compliance20/managing-custodians.md)
@@ -262,23 +262,21 @@
 ### [Create a search to collect data](compliance20/create-search-to-collect-data.md)
 ### [Building search queries](compliance20/building-search-queries.md)
 ### [Search statistics](compliance20/search-statistics.md)
-### [Add data to a working set](compliance20/add-data-to-working-set.md)
+### [Add search results to a working set](compliance20/add-data-to-working-set.md)
 
-## [Managing working sets](compliance20/managing-working-sets.md)
+## [Reviewing case data](compliance20/reviewing-data-in-working-set.md)
+### [Managing working sets](compliance20/managing-working-sets.md)
 ### [Manage load sets](compliance20/manage-load-sets.md)
 ### [Load non-Office 365 data into a working set](compliance20/load-non-office365-data.md)
-
-## [Reviewing data in a working set](compliance20/reviewing-data-in-working-set.md)
-### [Working set search](compliance20/working-set-search.md)
+### [Searching the data in a working set](compliance20/working-set-search.md)
+### [Viewing documents in a working set](compliance20/annotating-and-redacting-documents.md)
 ### [Tagging documents in a working set](compliance20/tagging-documents.md)
-### [Annotating and redacting documents in a working set](compliance20/annotating-and-redacting-documents.md)
 
-## [Analyzing data in a working set](compliance20/analyzing-data-in-working-set.md)
+## [Analyzing case data](compliance20/analyzing-data-in-working-set.md)
 ### [Near duplicates](compliance20/near-duplicates.md)
 ### [Email threading](compliance20/email-threading.md)
 ### [Themes](compliance20/themes.md)
-
-## [Using the Relevance module to analyze data](compliance20/using-relevance.md)
+### [Using the Relevance module to analyze data](compliance20/using-relevance.md)
 
 ## [Exporting data](compliance20/exporting-data-ediscover20.md)
 ### [Export documents from a working set](compliance20/export-documents-from-working-set.md)
