@@ -68,7 +68,7 @@ For approved requests, the task is processed by the Exchange Management runspace
 Privileged access management is currently only available for customers with Office 365 E5 and Advanced Compliance SKUs.
 
 ### When will privileged access be available for Office 365 workloads beyond Exchange?
-We plan to offer this feature in other Office 365 workloads soon. When we’re ready to share a timeline, it will be available through the Office 365 roadmap.
+We plan to offer this feature in other Office 365 workloads soon. When we’re ready to share a timeline, it will be available through the Microsoft 365 Roadmap.
 
 ### My organization needs more than 30 privileged access polices, will this limit be increased?
 
