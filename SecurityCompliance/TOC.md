@@ -232,7 +232,6 @@
 
 # [Advanced eDiscovery 2.0](compliance20/overview-ediscovery-20.md)
 ## [Using Advanced eDiscovery for legal cases](compliance20/ediscovery-for-litigation-workflow.md)
-## [Using Advanced eDiscovery for data investigations](compliance20/ediscovery-for-investigations-workflow.md)
 ## [User role matrix](compliance20/ediscovery-user-role-matrix.md)
 ## [Creating a new case](compliance20/create-new-ediscovery-case.md)
 ## [Working with custodians](compliance20/managing-custodians.md)
@@ -278,7 +277,7 @@
 ### [Themes](compliance20/themes.md)
 ### [Using the Relevance module to analyze data](compliance20/using-relevance.md)
 
-## [Exporting data](compliance20/exporting-data-ediscover20.md)
+## [Exporting case data](compliance20/exporting-data-ediscover20.md)
 ### [Export documents from a working set](compliance20/export-documents-from-working-set.md)
 ### [Download export jobs](compliance20/download-export-jobs.md)
 
