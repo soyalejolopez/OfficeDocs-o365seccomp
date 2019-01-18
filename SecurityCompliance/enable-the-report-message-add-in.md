@@ -68,9 +68,9 @@ After the add-in is installed and enabled, you'll see the following icons:
     
 4. Select **I want to add an Add-In from the Office Store**, and then choose **Next**.<br/>![I want to add an new Add-In](media/NewAddInScreen2.png)<br/> 
     
-5. Search for Report Message, and in the list of results, next to the Report Message Add-In, choose Add.<br/>![Search for Report Message and then choose Add](media/NewAddInScreen3.png)<br/>
+5. Search for **Report Message**, and in the list of results, next to the **Report Message Add-In**, choose **Add**.<br/>![Search for Report Message and then choose Add](media/NewAddInScreen3.png)<br/>
     
-6. On the Report Message screen, review the information, and then choose **Next**.<br/>![Report Message details](media/ReportMessageAdd-InNewScreen4.png)<br/>
+6. On the **Report Message** screen, review the information, and then choose **Next**.<br/>![Report Message details](media/ReportMessageAdd-InNewScreen4.png)<br/>
 
 7. Specify the user default settings for Outlook, and  then choose **Next**.<br/>![Report Message default settings for Outlook](media/ReportMessageOptionsScreen5.png)<br/>
 
