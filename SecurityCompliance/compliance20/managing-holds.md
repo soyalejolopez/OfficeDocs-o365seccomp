@@ -1,5 +1,5 @@
 ---
-title: "Managing holds in eDiscovery 2.0"
+title: "Working with holds in Advanced eDiscovery"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -17,4 +17,4 @@ ms.assetid:
 description: ""
 ---
 
-# Managing holds in eDiscovery 2.0 
+# Working with holds in Advanced eDiscovery

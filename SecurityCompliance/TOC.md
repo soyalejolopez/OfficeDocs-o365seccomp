@@ -274,7 +274,7 @@
 ### [Tagging documents in a working set](compliance20/tagging-documents.md)
 
 ## [Analyzing case data](compliance20/analyzing-data-in-working-set.md)
-### [Near duplicates](compliance20/near-duplicates.md)
+### [Near duplicate detection](compliance20/near-duplicates.md)
 ### [Email threading](compliance20/email-threading.md)
 ### [Themes](compliance20/themes.md)
 ### [Using the Relevance module to analyze data](compliance20/using-relevance.md)
@@ -290,7 +290,7 @@
 ### [Add or remove members from a case](compliance20/add-remove-members.md)
 ### [Configure search and analytics settings](compliance20/configure-search-analytics-settings.md)
 
-## Advanced eDiscovery Reference
+## Advanced eDiscovery reference
 ### [Search limits](compliance20/search-limits-ediscovery20.md)
 ### [Indexing limits](compliance20/indexing-limits-ediscovery20.md)
 ### [Export limits](compliance20/export-limits-ediscovery20.md)

@@ -1,5 +1,5 @@
 ---
-title: "Working set search"
+title: "Searching the data in a working set"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -17,7 +17,7 @@ ms.assetid:
 description: ""
 ---
 
-# Working set search
+# Searching the data in a working set
 
 
 ## Search conditions for workings set search

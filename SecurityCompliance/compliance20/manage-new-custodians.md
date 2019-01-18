@@ -1,5 +1,5 @@
 ---
-title: "Manage new custodians"
+title: "Working with new custodians"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -17,5 +17,5 @@ ms.assetid:
 description: ""
 ---
 
-# Manage new custodians
+# Working with new custodians
 
