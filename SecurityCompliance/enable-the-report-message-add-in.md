@@ -49,8 +49,8 @@ If you're an Office 365 global administrator or an Exchange Online administrator
     
 After the add-in is installed and enabled, you'll see the following icons: 
 
-- In Outlook, the icon looks like this: <br/> ![Report Message Add-in icon for Outlook](media/OutlookReportMessageIcon.png)<br/>
-- In Outlook Web App (or Outlook on the web), the icon looks like this:<br/>![Outlook on the Web Report Message Add-in icon](media/d9326d0b-1769-4bc2-ae58-51f0ebc69a17.png)<br/>
+- In Outlook, the icon looks like this: <br/> ![Report Message add-in icon for Outlook](media/OutlookReportMessageIcon.png)<br/>
+- In Outlook Web App (or Outlook on the web), the icon looks like this:<br/>![Outlook on the web Report Message add-in icon](media/d9326d0b-1769-4bc2-ae58-51f0ebc69a17.png)<br/>
 
 > [!TIP]
 > As a next step, learn how to [Use the Report Message add-in](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2).
@@ -122,7 +122,7 @@ See [Use the Report Message add-in](https://support.office.com/article/b5caa9f1-
 
 ## Review or edit settings for the Report Message add-in
 
-You can review and edit the default settings for the Report Message Add-In in the [Services & Add-Ins page](https://admin.microsoft.com/AdminPortal/Home#/Settings/ServicesAndAddIns). 
+You can review and edit the default settings for the Report Message add-in on the [Services & Add-Ins page](https://admin.microsoft.com/AdminPortal/Home#/Settings/ServicesAndAddIns). 
 
 > [!IMPORTANT]
 > You must be an Office 365 global administrator or an Exchange Online Administrator to complete this task.
