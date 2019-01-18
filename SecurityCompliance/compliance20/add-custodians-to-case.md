@@ -54,6 +54,7 @@ To map mailboxes, sites, or teams to a specific custodian:
 
      - **SharePoint Sites** - Click **Choose sites** and then click **Choose sites** again to specify additional SharePoint and OneDrive for Business sites that you would like to assign to the selected custodian. You can also add the URL for the SharePoint site for an Office 365 Group or a Microsoft Team. Type the URL for each site that you want to assign. Click **Choose**, and then click **Done**.
      - **Microsoft Teams** – Click **Choose Teams** and then click **Choose Teams** again to view a list of Microsoft Team groups that the custodian is a member of today. Select the Teams that you would like to add to your custodian. Once selected, the system will automatically identify & select the associated SharePoint site and Group Mailbox associated to that Microsoft Team. Click **Choose**, and then click **Done**.
+        
         [!NOTE]
         To add additional Microsoft Teams, you will need to separately add the Mailbox and SharePoint site as shown above. See the More information section for tips on adding additional Office 365 Groups and Microsoft Teams to an eDiscovery case.
 
