@@ -1,5 +1,5 @@
 ---
-title: "Using eDiscovery 2.0 for litigation"
+title: "Using Advanced eDiscovery for legal cases"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -17,5 +17,5 @@ ms.assetid:
 description: ""
 ---
 
-# Using eDiscovery 2.0 for litigation
+# Using Advanced eDiscovery for legal cases
 

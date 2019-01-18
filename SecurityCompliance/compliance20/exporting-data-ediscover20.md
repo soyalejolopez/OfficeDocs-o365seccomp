@@ -1,5 +1,5 @@
 ---
-title: "Exporting data in eDiscovery 2.0"
+title: "Exporting case data in Advanced eDiscovery"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -17,5 +17,5 @@ ms.assetid:
 description: ""
 ---
 
-# Exporting data in eDiscovery 2.0
+# Exporting case data in Advanced eDiscovery
 

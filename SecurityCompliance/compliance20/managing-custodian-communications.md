@@ -1,5 +1,5 @@
 ---
-title: "Managing custodian communications in eDiscovery 2.0"
+title: "Working with communications in Advanced eDiscovery"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -17,6 +17,6 @@ ms.assetid:
 description: ""
 ---
 
-# Managing custodian communications in eDiscovery 2.0
+# Working with communications in Advanced eDiscovery
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Add Custodians to a Case"
+title: "Add custodians to an Advanced eDiscovery case"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
