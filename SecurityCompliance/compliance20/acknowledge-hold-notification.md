@@ -17,4 +17,4 @@ ms.assetid:
 description: ""
 ---
 
-# Acknowledging a hold notification
+# Acknowledging Hold Notifications 
