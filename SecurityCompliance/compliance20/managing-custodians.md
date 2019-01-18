@@ -24,13 +24,13 @@ When an investigation begins, the eDiscovery team must quickly identify all the 
 
 Within an Office 365 Advanced eDiscovery case, Legal teams can add individuals within their organization as data custodians and automatically identify & preserve custodial sources such as Exchange, OneDrive, SharePoint, and Teams sites. By using the built-in and in-place Custodian Management tool, organizations can secure electronically stored information (ESI) from inadvertent deletion and say goodbye to manual, time consuming, and error-prone legal hold processes. 
 
-This page contains the following sections:
-•	Roles & Permissions
-•	Adding Custodians
-•	Managing Custodians
-•	Viewing Custodian Activities 
-•	Updating Existing Custodians
-•	Releasing Custodians 
+This set contains the following sections:
+  - Roles & Permissions
+  - Adding Custodians
+  - Managing Custodians
+  - Viewing Custodian Activities 
+  - Updating Existing Custodians
+  - Releasing Custodians 
 
 # Roles and Permissions
 Legal teams can control and segment their case activity using eDiscovery related RBAC roles in the Security and Compliance Center. In Advanced eDiscovery, you can leverage the built-in eDiscovery Manager and eDiscovery administrator role groups to allow users to manage the end-to-end eDiscovery workflow.
