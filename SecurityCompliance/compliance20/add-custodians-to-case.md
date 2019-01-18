@@ -16,10 +16,8 @@ ms.assetid:
 
 description: ""
 ---
-
-# Add custodians to an Advanced eDiscovery case
-
-Using Advanced eDiscovery, you can leverage the built-in Custodian Management tool to coordinate your workflows around managing custodians and identifying relevant data sources within a matter. When you add a custodian, the system can automatically identify, and place holds on their primary Exchange mailbox and OneDrive for Business site. As you conduct your discovery, you might also uncover and map additional mailboxes or sites that a custodian accessed in the past or Teams that a custodian is a member of today.
+# Add Custodians to an Advanced eDiscovery Case
+Using Advanced eDiscovery, you can leverage the built-in Custodian Management tool to coordinate your workflows around managing custodians and identifying relevant, custodial data sources within a case. When you add a custodian, the system can automatically identify, and place holds on their primary Exchange mailbox and OneDrive for Business site. As you conduct your discovery, you might also uncover and map additional mailboxes or sites that a custodian accessed in the past or Teams that a custodian is a member of today.
 
 Use the following workflow to add and manage custodians in Advanced eDiscovery cases within the Security and Compliance Center. 
 
