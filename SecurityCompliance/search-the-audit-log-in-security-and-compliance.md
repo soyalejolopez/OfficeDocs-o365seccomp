@@ -284,11 +284,11 @@ Click one of the following links to go to a specific table.
 |:-----|:-----|:-----|
 |[File and page activities](#file-and-page-activities)<br/> |[Folder activities](#folder-activities)<br/> |[Sharing and access request activities](#sharing-and-access-request-activities)<br/> |
 |[Synchronization activities](#synchronization-activities)<br/> |[Site administration activities](#site-administration-activities)<br/> |[Exchange mailbox activities](#exchange-mailbox-activities)<br/> |
-|[Sway activities](#sway-activities) <br/> |[User administration activities](#user-administration-activities) <br/> |[Azure AD group administration activities](#azure-ad-group-administration-activities) <br/> |
-|[Application administration activities](#application-administration-activities) <br/> |[Role administration activities](#role-administration-activities) <br/> |[Directory administration activities](#directory-administration-activities) <br/> |
-|[eDiscovery activities](#ediscovery-activities) <br/> |[Power BI activities](#power-bi-activities) <br/> |[Microsoft Teams activities](#microsoft-teams-activities) <br/> |
-|[Yammer activities](#yammer-activities) <br/> |[Microsoft Flow activities](#microsoft-flow) <br/> |[Microsoft Stream activities](#microsoft-stream) <br/>|
-|[Exchange admin audit log](#exchange-admin-audit-log) <br/> |[Retention policy and label activities](#retention-policy-and-label-activities)<br/>
+|[Retention policy and label activities](#retention-policy-and-label-activities)|[Sway activities](#sway-activities) <br/> |[User administration activities](#user-administration-activities) <br/> 
+|[Azure AD group administration activities](#azure-ad-group-administration-activities) <br/> |[Application administration activities](#application-administration-activities) <br/> |[Role administration activities](#role-administration-activities) <br/> |
+|[Directory administration activities](#directory-administration-activities) <br/> |[eDiscovery activities](#ediscovery-activities) <br/> |[Power BI activities](#power-bi-activities) <br/> |
+|[Microsoft Teams activities](#microsoft-teams-activities) <br/> |[Yammer activities](#yammer-activities) <br/> |[Microsoft Flow activities](#microsoft-flow) <br/> |
+|[Microsoft Stream activities](#microsoft-stream) <br/>|[Exchange admin audit log](#exchange-admin-audit-log) <br/> |<br/>
 ||||
    
   
@@ -451,6 +451,22 @@ The following table lists the activities that can be logged by mailbox audit log
 |User signed in to mailbox  <br/> |MailboxLogin  <br/> |The user signed in to their mailbox.  <br/> |
 |(none)  <br/> |UpdateInboxRules  <br/> |An inbox rule has been added, removed, or changed. Inbox rules are used to process messages in the user's Inbox based on the specified conditions and take actions when the conditions of a rule are met, such as moving a message to a specified folder or deleting a message.  <br/> To return entries for inbox rule activities, you have to select **Show results for all activities** in the **Activities** list. Use the date range boxes and the **Users** list to narrow the search results.  <br/> |
   
+### Retention policy and label activities
+
+The following table describes the activities for Office 365 retention policies and retention labels.
+
+|**Activity**|**Operation**|**Description**|
+|:-----|:-----|:-----|
+| Created retention configuration for a retention policy<br/> |NewRetentionComplianceRule | |
+| Created retention label <br/> |  | |
+| Created retention policy<br/> | |   |
+| Deleted retention configuration for a retention policy<br/> | | |
+| Deleted retention label <br/> |  | |
+| Deleted retention policy<br/> | |   |
+| Updated retention configuration for a retention policy<br/> | | |
+| Updated retention label <br/> |  | |
+| Updated retention policy<br/> | |   |
+
 ### Sway activities
   
 The following table lists user and admin activities in Sway. Sway is an Office 365 app that helps users gather, format, and share ideas, stories, and presentations on an interactive, web-based canvas. For more information, see [Frequently asked questions about Sway - Admin Help](https://support.office.com/article/446380fa-25bf-47b2-996c-e12cb2f9d075).
@@ -630,24 +646,6 @@ You can search the audit log for activities in Microsoft Flow. These activities 
 ### Microsoft Stream activities
   
 You can search the audit log for activities in Microsoft Stream. These activities include video activities performed by users, group channel activities, and admin activities such as managing users, managing organization settings, and exporting reports. For a description of these activities, see the "Activities logged in Microsoft Stream" section in [Audit Logs in Microsoft Stream](https://docs.microsoft.com/stream/audit-logs).
-  
-### Retention policy and label activities
-
-The following table describes the activities for Office 365 retention policies and retention labels.
-
-|**Activity**|**Operation**|**Description**|
-|:-----|:-----|:-----|
-| Created retention configuration for a retention policy<br/> |NewRetentionComplianceRule | |
-| Created retention label <br/> |  | |
-| Created retention policy<br/> | |   |
-| Deleted retention configuration for a retention policy<br/> | | |
-| Deleted retention label <br/> |  | |
-| Deleted retention policy<br/> | |   |
-| Updated retention configuration for a retention policy<br/> | | |
-| Updated retention label <br/> |  | |
-| Updated retention policy<br/> | |   |
-| | | |
-
 
 ### Exchange admin audit log
   
