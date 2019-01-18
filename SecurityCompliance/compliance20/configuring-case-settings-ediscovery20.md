@@ -1,5 +1,5 @@
 ---
-title: "Configuring case settings in eDiscovery 2.0"
+title: "Configuring case settings in Advanced eDiscovery"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -17,5 +17,5 @@ ms.assetid:
 description: ""
 ---
 
-# Configuring case settings in eDiscovery 2.0
+# Configuring case settings in Advanced eDiscovery
 

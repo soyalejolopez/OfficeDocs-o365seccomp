@@ -1,5 +1,5 @@
 ---
-title: "Managing jobs in eDiscovery 2.0"
+title: "Managing jobs in Advanced eDiscovery"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -17,7 +17,7 @@ ms.assetid:
 description: ""
 ---
 
-# Managing jobs in eDiscovery 2.0
+# Managing jobs in Advanced eDiscovery
 
 
 ## List of jobs
