@@ -17,7 +17,7 @@ ms.assetid:
 description: ""
 ---
 # Managing Custodians in an Advanced eDiscovery Case
-
+sdfa
 ## Viewing Custodian Details
 The Custodians tab contains a sortable list of all the custodians in the case. Once added, the custodian details will automatically be collected from Active Directory.
 
