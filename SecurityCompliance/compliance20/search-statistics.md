@@ -1,7 +1,7 @@
 ---
 title: "Search statistics"
 ms.author: markjjo
-author: markjjo
+author: esclee
 manager: laurawi
 ms.date: 
 ms.audience: Admin

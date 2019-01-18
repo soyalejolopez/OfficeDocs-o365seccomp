@@ -1,6 +1,6 @@
 ---
 title: "Collecting data for a case in Advanced eDiscovery"
-ms.author: markjjo
+ms.author: esclee
 author: markjjo
 manager: laurawi
 ms.date: 
