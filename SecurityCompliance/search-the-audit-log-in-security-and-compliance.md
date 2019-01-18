@@ -463,6 +463,7 @@ The following table describes the activities for Office 365 retention policies a
 | Deleted retention configuration for a retention policy<br/> | | |
 | Deleted retention label <br/> |  | |
 | Deleted retention policy<br/> | |   |
+| Exposed Preservation Lock and Immutable Label options<br/> |SetRestrictiveRenentionUI | |
 | Updated retention configuration for a retention policy<br/> | | |
 | Updated retention label <br/> |  | |
 | Updated retention policy<br/> | |   |
