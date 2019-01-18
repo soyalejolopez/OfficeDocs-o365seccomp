@@ -116,6 +116,10 @@ You can set up a rule to get a copy of email messages reported by users in your 
     
 With this rule in place, whenever someone in your organization reports an email message using the Report Message add-in, your global administrator, security administrator, and/or security reader will receive a copy of that message. This information can enable you to set up or adjust policies, such as [Office 365 ATP Safe Links](atp-safe-links.md) policies, or your [anti-spam](anti-spam-protection.md) settings. 
 
+## Learn how to use the Report Message add-in
+
+See [Use the Report Message add-in](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2).
+
 ## Review or edit settings for the Report Message add-in
 
 You can review and edit the default settings for the Report Message Add-In in the [Services & Add-Ins page](https://admin.microsoft.com/AdminPortal/Home#/Settings/ServicesAndAddIns). 
@@ -123,15 +127,11 @@ You can review and edit the default settings for the Report Message Add-In in th
 > [!IMPORTANT]
 > You must be an Office 365 global administrator or an Exchange Online Administrator to complete this task.
     
-1. Go to the [Services & add-ins page](https://admin.microsoft.com/AdminPortal/Home#/Settings/ServicesAndAddIns) in the new Microsoft 365 admin center.<br/>![Services and Add-Ins page in the new Microsoft 365 Admin Center](media/ServicesAddInsPageNewM365AdminCenter.png)<br/>
+1. Go to the [Services & add-ins page](https://admin.microsoft.com/AdminPortal/Home#/Settings/ServicesAndAddIns) in the Microsoft 365 admin center.<br/>![Services and Add-Ins page in the new Microsoft 365 Admin Center](media/ServicesAddInsPageNewM365AdminCenter.png)<br/>
 
 2. Find and select the Report Message Add-In.<br/>![Find and select the Report Message add-in](media/FindReportMessageAddIn.png)<br/> 
     
 3. On the Report Message screen, review and edit settings as appropriate for your organization.<br/>![Settings for the Report Message add-in](media/EditReportMessageAddIn.png)<br/> 
-
-## Learn how to use the Report Message add-in
-
-See [Use the Report Message add-in](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2).
   
 ## Related topics
 
