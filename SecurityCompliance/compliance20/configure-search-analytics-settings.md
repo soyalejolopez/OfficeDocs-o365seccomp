@@ -26,7 +26,7 @@ In this section, you can set parameters for duplicate detection, near duplicate 
 - Threshold: if the similarity level of two documents are above the threshold, they will be put in the same near duplicate set.
 - Hide duplicates by default: if this setting is on, a filter to hide duplicate documents will be applied in the working set by default. The filter can be removed manually in the working set if necessary.
 - Minimum/maximum number of words: near duplicates and email threading will run only on documents that have at least the minimum number of words and at most the maximum number of words.
-For more information on near duplicate detectio and email threading, please refer to [Near duplicates](near-duplicates.md) and [Email thread ](email-threading.md)/
+For more information on near duplicate detectio and email threading, please refer to [Near duplicates](near-duplicates.md) and [Email thread](email-threading.md)/
 
 ## Themes
 In this section, you can set parameters for themes.
