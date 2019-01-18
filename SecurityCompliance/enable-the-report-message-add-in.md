@@ -24,7 +24,7 @@ The Report Message add-in for Outlook and Outlook on the web enables people to e
 For example, suppose that people are reporting a lot of messages as phishing. This information surfaces in the [Security Dashboard](security-dashboard.md) and other reports. Your organization's security team can use this information as an indication that anti-phishing policies might need to be updated. Or, if people are reporting a lot of messages that were flagged as junk mail as Not Junk by using the Report Message add-in, your organization's security team might need to adjust [anti-spam policies](configure-the-anti-spam-policies.md). 
 
 The Report Message add-in works with your Office 365 subscription and the following products:
- - Outlook on the Web
+ - Outlook on the web
  - Outlook 2013 SP1
  - Outlook 2016
  - Outlook 2016 for Mac
@@ -81,8 +81,8 @@ After the add-in is installed and enabled, you'll see the following icons:
 
 Depending on what you selected when you set up the add-in (steps 7-8 above), people in your organization will have the [Report Message add-in](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2) available. People in your organization will see the following icons: 
 
-- In Outlook the icon looks like this: <br/> ![Report Message Add-in icon for Outlook](media/OutlookReportMessageIcon.png)<br/>
-- In Outlook Web App the icon looks like this:<br/>![Outlook on the Web Report Message Add-in icon](media/d9326d0b-1769-4bc2-ae58-51f0ebc69a17.png)<br/>
+- In Outlook, the icon looks like this: <br/> ![Report Message Add-in icon for Outlook](media/OutlookReportMessageIcon.png)<br/>
+- In Outlook Web App (or Outlook on the web), the icon looks like this:<br/>![Outlook on the Web Report Message Add-in icon](media/d9326d0b-1769-4bc2-ae58-51f0ebc69a17.png)<br/>
 
 > [!TIP]
 > When you notify users about the Report Message add-in, include a link to [Use the Report Message add-in](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2).
