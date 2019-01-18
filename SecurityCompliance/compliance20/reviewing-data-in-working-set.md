@@ -1,5 +1,5 @@
 ---
-title: "Reviewing data in a working set in eDiscovery 2.0"
+title: "Reviewing case data in Advanced eDiscovery"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -17,5 +17,5 @@ ms.assetid:
 description: ""
 ---
 
-# Reviewing data in a working set in eDiscovery 2.0
+# Reviewing case data in Advanced eDiscovery
 
