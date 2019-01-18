@@ -42,7 +42,6 @@ The Custodian details flyout appears once you have added a custodian to case and
     - **Country/Region**: The country/region in which the custodian’s is located; for example, “US” or “UK”.
     - **Office**: The office location in the custodian’s place of business.
 
-
 ## Update Custodian
 As your case progresses, you may discover that there may be additional data sources relevant to a specific custodian & your case. In other scenarios, you may want to remove certain data sources that have been reviewed and deemed as not relevant.
  
@@ -55,7 +54,7 @@ To update a custodian and the selected data sources:
   6. Update custodian hold status by selecting Place Custodial Holds.
 
 [!TIP]
- You can select multiple custodians at once to perform bulk actions, like re-indexing, releasing, or editing a set of custodians.
+  You can select multiple custodians at once to perform bulk actions, like re-indexing, releasing, or editing a set of custodians.
 
 ## Resolving Custodian Processing Errors
 In most Legal workflows, after custodians are added for a specific investigation, a subset of the users’ data will be searched. Due to large file sizes or possible corruption, some items within the custodians’ data sources may be partially indexed. Using the Advanced eDiscovery deep indexing capability, these partially indexed items can be automatically remediated by re-crawling and re-indexing these items on demand. 
@@ -70,7 +69,7 @@ A user can trigger a re-index to address partially indexed items by the followin
 4.	The status for this re-indexing process can also be tracked in the Jobs tab.
 
 [!NOTE]
- Learn more about the re-indexing and remediating partially indexed items in the Error Remediation section.
+  Learn more about the re-indexing and remediating partially indexed items in the Error Remediation section.
 
 ## Releasing a Custodian from a Case
 A custodian is released in situations where a case is closed, a custodian is no longer under obligation to preserve content for a case, or when a custodian is deemed to no longer be relevant to a particular case. 
@@ -85,9 +84,9 @@ To release a custodian:
 3.	The status of the custodian on the Custodian Tab should now be Released and the Hold Status should be changed to Inactive. 
 
 [!TIP]
-A custodian may simultaneously be involved in several legal hold matters. When a custodian is released from a case, holds and notifications across other matters will not be impacted. 
+  A custodian may simultaneously be involved in several legal hold matters. When a custodian is released from a case, holds and notifications across other matters will not be impacted. 
 
-##Related Content
+## Related Content
  - User Attributes in Active Directory 
  - Error Remediation 
  - Hold Notifications 
