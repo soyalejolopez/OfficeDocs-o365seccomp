@@ -234,11 +234,13 @@
 ## [Using Advanced eDiscovery for legal cases](compliance20/ediscovery-for-litigation-workflow.md)
 ## [User role matrix](compliance20/ediscovery-user-role-matrix.md)
 ## [Creating a new case](compliance20/create-new-ediscovery-case.md)
+
 ## [Working with custodians](compliance20/managing-custodians.md)
 ### [Add custodians to a case](compliance20/add-custodians-to-case.md)
 ### [Working with new custodians](compliance20/manage-new-custodians.md)
 ### [Working with existing custodians](compliance20/manage-existing-custodians.md)
 ### [View custodian activity](compliance20/view-custodian-activity.md)
+
 ## [Working with communications](compliance20/managing-custodian-communications.md)
 ### [Create a hold notification](compliance20/create-hold-notification.md)
 ### [Using the communications editor](compliance20/using-communications-editor.md)
