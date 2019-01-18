@@ -22,6 +22,18 @@ description: ""
 
 ## List of jobs
 
+- Re-indexing custodian data
+- Estimating search results
+- Adding data to a working set
+- Adding data to another working set
+- Adding Non-Office 365 data to a working set
+- Adding remediated data to a working set
+- Preparing search preview
+- Running analytics
+- Preparing data for export
+- Preparing for error resolution
+- Comparing load sets
+- Tagging documents
 
 ## Support information about jobs
 
