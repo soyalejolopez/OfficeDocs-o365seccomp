@@ -238,9 +238,9 @@
 
 ## [Working with custodians](compliance20/managing-custodians.md)
 ### [Add custodians to a case](compliance20/add-custodians-to-case.md)
-### [Working with new custodians](compliance20/manage-new-custodians.md)
+### [Managing custodians](compliance20/manage-new-custodians.md)
 ### [Working with existing custodians](compliance20/manage-existing-custodians.md)
-### [View custodian activity](compliance20/view-custodian-activity.md)
+### [Viewing custodian activity](compliance20/view-custodian-activity.md)
 
 ## [Working with communications](compliance20/managing-custodian-communications.md)
 ### [Create a hold notification](compliance20/create-hold-notification.md)
@@ -248,17 +248,14 @@
 ### [Manage hold notifications](compliance20/manage-hold-notification.md)
 ### [Add custodians to a hold notification](compliance20/add-custodians-to-hold-notification.md)
 ### [Edit a hold notification](compliance20/edit-hold-notification.md)
-### [Acknowledging a hold notification](compliance20/acknowledge-hold-notification.md)
+### [Acknowledging hold notifications](compliance20/acknowledge-hold-notification.md)
 
-## [Working with holds](compliance20/managing-holds.md)
-### [View all holds in a case](compliance20/view-all-holds.md)
-### [Manage custodial holds](compliance20/manage-custodial-holds.md)
-### [Manage non-custodial holds](compliance20/manage-non-custodial-holds.md)
+## [Managing holds](compliance20/managing-holds.md)
 
 ## [Fixing processing errors](compliance20/processing-data-for-case.md)
-### [View custodian indexing health](compliance20/indexing-custodian-data.md)
-### [Create a new error remediation](compliance20/processing-error-types.md)
-### [View error remediations](compliance20/error-remediation.md)
+### [Advanced indexing of custodian data](compliance20/indexing-custodian-data.md)
+### [Types of processing errors](compliance20/processing-error-types.md)
+### [Error remediation when processing data](compliance20/error-remediation.md)
 
 ## [Collecting data for a case](compliance20/collecting-data-for-ediscovery.md)
 ### [Create a search to collect data](compliance20/create-search-to-collect-data.md)
