@@ -70,7 +70,7 @@ With supervision policies, you can choose to monitor messages in one or more of 
     - Microsoft Excel (.xlsx)
     - Microsoft PowerPoint (.pptx)
 
-- **Microsoft Teams:** Chat communications and associated attachments in both public and private Microsoft Teams channels and individual chats can be supervised. Teams chats matching supervision policy conditions are processed twice every 24 hours and then are available for monitoring and in supervision reports.
+- **Microsoft Teams:** Chat communications and associated attachments in both public and private Microsoft Teams channels and individual chats can be supervised. Teams chats matching supervision policy conditions are processed once every 24 hours and then are available for monitoring and in supervision reports.
 - **Third-party sources:** You can supervise communications from third-party sources (like from Facebook or DropBox) if you've imported this data into Office 365 mailboxes in your organization. [Learn how to import 3rd-party data into Office 365](https://docs.microsoft.com/office365/securitycompliance/archiving-third-party-data).
 
 ### Policy settings
