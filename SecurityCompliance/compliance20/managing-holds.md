@@ -1,5 +1,5 @@
 ---
-title: "Working with holds in Advanced eDiscovery"
+title: "Working with Holds in Advanced eDiscovery"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -17,4 +17,4 @@ ms.assetid:
 description: ""
 ---
 
-# Working with holds in Advanced eDiscovery
+# Remove this page
