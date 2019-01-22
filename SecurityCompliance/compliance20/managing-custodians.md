@@ -30,9 +30,7 @@ This set contains the following sections:
   - Roles and permissions
   - Adding custodians
   - Managing custodians
-  - Viewing custodian activities 
-  - Updating existing custodians
-  - Releasing custodians 
+  - Viewing custodian activities  
 
 ## Roles and permissions
 
