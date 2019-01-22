@@ -142,13 +142,13 @@ Also note that we identify any documents in your My Library that have been updat
 
 ## Starter packs
 
-Starter packs are a Microsoft-curated set of documentation about Microsoft Cloud services for specific industries. Currently, the Service Trust Portal offers the following three starter packs for financial services organizations. These starter packs help organizations evaluate and assess security, compliance, and privacy in the Microsoft Cloud and provide guidance to help you with implementation of Microsoft Cloud services in the highly regulated financial services industry.
+Starter packs are a Microsoft-curated set of documentation about Microsoft Cloud services for specific industries. Currently, the Service Trust Portal offers the following three starter packs for financial services organizations. These starter packs help organizations evaluate and assess security, compliance, and privacy in the Microsoft Cloud and provide guidance to help implement Microsoft Cloud services in the highly regulated financial services industry.
 
 - **Evaluation Starter Pack** - Use for early evaluation of the Microsoft cloud for financial services organizations.
 
-- **Assessment Starter Pack** - After evaluation, use the checklists and other guidance in this starter pack to help your organization assess it's exposure to security- and compliance-related risk.
+- **Assessment Starter Pack** - After evaluation, use the checklists and other guidance in this starter pack to help your organization assess risks related to security, compliance, and privacy.
 
-- **Audit Starter Pack** - User this starter pack to help you begin using auditing controls that will help guide implementation and help reduce your organization's exposure to risk.
+- **Audit Starter Pack** - User this starter pack for guidance on using auditing controls and other tool to help guide your implementation of Microsoft Cloud services in a way that helps reduce your organization's exposure to risk.
 
 To access these starter packs, go to **Service Trust Portal > Industries & Regions > Industry Solutions > Financial Services**. You can open or a download documents from a starter pack or save them to your My Library.
 
