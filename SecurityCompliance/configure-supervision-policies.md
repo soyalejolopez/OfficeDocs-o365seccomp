@@ -127,7 +127,7 @@ In order to pick from existing custom sensitive information types or custom keyw
 
 ### Create custom keyword dictionary/lexicon
 
-1. Using a text editor (like Notepad), create a new file that includes the keyword terms you'd like to monitor in a supervision policy. Make sure each term is on a separate line and save the file in the **UTF-8 without byte-order mark (BOM)** format.
+1. Using a text editor (like Notepad), create a new file that includes the keyword terms you'd like to monitor in a supervision policy. Make sure each term is on a separate line and save the file in the **Unicode/UTF-16 (Little Endian)** format.
 2. Import the keyword file into your Office 365 tenant using PowerShell. To connect to Office 365 with PowerShell, see [Connect to Office 365 Security & Compliance Center PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).
 
     After you've connected to Office 365 with PowerShell, run the following commands to import your keyword dictionary:
