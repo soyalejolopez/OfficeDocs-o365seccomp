@@ -33,7 +33,7 @@ Here's a quick overview of how alert policies work and the alerts that are trigg
     
 2. A user performs an activity that matches the conditions of an alert policy. In the case of malware attacks, infected email messages sent to users in your organization will trigger an alert.
     
-3. Office 365 generates an alert that's displayed on the **View alerts** page in the Security &amp; Compliance Center. Also, if email notifications are enabled for the alert policy, Office 365 sends an notification to a list recipients. The alerts that an admin or other user can see on the **View alerts** is determined by the the RBAC permissions assigned to the user. For more information, see the [RBAC permissions required to view alerts](#rbac-permissions-required-to-view-alerts) section.
+3. Office 365 generates an alert that's displayed on the **View alerts** page in the Security &amp; Compliance Center. Also, if email notifications are enabled for the alert policy, Office 365 sends an notification to a list recipients. The alerts that an admin or other users can see on the **View alerts** page is determined by the roles assigned to the user. For more information, see the [RBAC permissions required to view alerts](#rbac-permissions-required-to-view-alerts) section.
     
 4. An admin manages alerts in the Security &amp; Compliance Center. Managing alerts consists of assigning an alert status to help track and manage any investigation.
     
