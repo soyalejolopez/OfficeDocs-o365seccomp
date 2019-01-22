@@ -17,5 +17,4 @@ ms.assetid:
 description: ""
 ---
 
-# View all holds in a case
-
+# Remove this page 
