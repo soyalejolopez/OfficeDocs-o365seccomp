@@ -65,7 +65,7 @@ After this update is rolled out, if your organization has Microsoft 365 Enterpri
 
 ## Required licenses and permissions
 
-Your organization must have Microsoft 365 Enterprise E3 or E5 to get the new Microsoft 365 security center and Microsoft 365 compliance center.
+To get the new Microsoft 365 security center and Microsoft 365 compliance center, your organization must have a subscription to Microsoft 365 E3 or E5, or a Volume Licensing equivalent (which consists of Office 365 Enterprise E3 or E5, Enterprise Mobility + Security E3 or E5, and Windows 10 Enterprise E3/E5).
 
 Users must be assigned the Global Administrator, Compliance Administrator, Security Administrator, or Security Reader role in Azure Active Directory to access the new Microsoft 365 security center or Microsoft 365 compliance center.
 
