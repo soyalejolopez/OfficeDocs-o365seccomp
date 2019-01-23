@@ -239,7 +239,6 @@
 ## [Working with custodians](compliance20/managing-custodians.md)
 ### [Add custodians to a case](compliance20/add-custodians-to-case.md)
 ### [Managing custodians](compliance20/manage-new-custodians.md)
-### [Working with existing custodians](compliance20/manage-existing-custodians.md)
 ### [Viewing custodian activity](compliance20/view-custodian-activity.md)
 
 ## [Working with communications](compliance20/managing-custodian-communications.md)
