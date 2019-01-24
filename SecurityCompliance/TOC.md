@@ -231,7 +231,7 @@
 ### [Understand Assessment in Relevance in Office 365 Advanced eDiscovery](assessment-in-relevance-in-advanced-ediscovery.md)
 ### [Tagging and Search](search-and-tagging.md)
 
-# [Advanced eDiscovery 2.0](compliance20/overview-ediscovery-20.md)
+# [Advanced eDiscovery (Preview)](compliance20/overview-ediscovery-20.md)
 ## [Using Advanced eDiscovery for legal cases](compliance20/ediscovery-for-litigation-workflow.md)
 ## [User role matrix](compliance20/ediscovery-user-role-matrix.md)
 ## [Creating a new case](compliance20/create-new-ediscovery-case.md)
@@ -245,7 +245,6 @@
 ### [Create a hold notification](compliance20/create-hold-notification.md)
 ### [Using the communications editor](compliance20/using-communications-editor.md)
 ### [Manage hold notifications](compliance20/manage-hold-notification.md)
-### [Add custodians to a hold notification](compliance20/add-custodians-to-hold-notification.md)
 ### [Edit a hold notification](compliance20/edit-hold-notification.md)
 ### [Acknowledging hold notifications](compliance20/acknowledge-hold-notification.md)
 
