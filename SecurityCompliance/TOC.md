@@ -253,7 +253,7 @@
 
 ## [Fixing processing errors](compliance20/processing-data-for-case.md)
 ### [Advanced indexing of custodian data](compliance20/indexing-custodian-data.md)
-### [Types of processing errors](compliance20/processing-error-types.md)
+### [Create a new error remediation](compliance20/processing-error-types.md)
 ### [Error remediation when processing data](compliance20/error-remediation.md)
 
 ## [Collecting data for a case](compliance20/collecting-data-for-ediscovery.md)
