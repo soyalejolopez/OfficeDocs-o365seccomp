@@ -155,7 +155,7 @@ In order to pick from existing custom sensitive information types or custom keyw
   
 1. Sign into [https://protection.office.com](https://protection.office.com) using credentials for an admin account in your Office 365 organization.
 
-2. In the Security & Compliance Center, go to select **Data governance** \> **Supervision**.
+2. In the Security & Compliance Center, select **Supervision**.
   
 3. Select **Create** and then follow the wizard to set up the following pages of the policy. Using the wizard, you will:
 
@@ -179,7 +179,7 @@ After you create a supervision policy, it's a good idea to test to make sure tha
     > [!Note]
     > Emails subject to defined policies are processed in near real-time and can be tested immediately after the policy is configured. Chats in Microsoft Teams can take up to 24 hours to fully process in a policy. 
 
-3. Log into your Office 365 tenant as a reviewer designated in the supervision policy. Navigate to **Data governance** > **Supervision** > *Your Custom Policy* > **Open** to view the report for the policy.
+3. Log into your Office 365 tenant as a reviewer designated in the supervision policy. Navigate to **Supervision** > *Your Custom Policy* > **Open** to view the report for the policy.
 
 <a name="UseOutlook"> </a>
 
@@ -198,7 +198,7 @@ To install the add-in for Outlook desktop, you'll need the address for the super
   
 1. Sign into the [Security &amp; Compliance Center](https://protection.office.com) using credentials for an admin account in your Office 365 organization.
 
-2. Go to **Data governance** \> **Supervision**.
+2. Go to **Supervision**.
 
 3. Click the supervision policy that's gathering the communications you want to review.
 
