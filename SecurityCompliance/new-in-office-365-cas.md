@@ -30,16 +30,6 @@ description: "See what's new in Office 365 Cloud App Security"
 
 - **Advanced tuning for anomaly detection policies** You can now affect the anomaly detection engine to suppress or surface alerts according to your preferences. In the Impossible Travel policy, you can set the sensitivity slider to determine the level of anomalous behavior needed before an alert is triggered. You can also configure whether the alerts for Activity from infrequent country, anonymous IP addresses, suspicious IP addresses, and impossible travel should analyze both failed and successful logins or just successful logins. 
 
-## Office 365 Cloud App Security release 138
-
-*Released December 23, 2018*
-
-**Following [Microsoft Cloud App Security release 138](https://docs.microsoft.com/cloud-app-security/release-notes#cloud-app-security-release-138)**:
-
-- **Automatic log upload using Docker on Windows** Cloud App Security now supports automatic log upload for Windows 10 ([Fall Creators Update](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) and newer) and Windows Server ([version 1709](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1709) and newer) by using Docker on Windows. See [this article](https://docs.microsoft.com/cloud-app-security/discovery-docker-windows) to learn more and configure Docker.  
-
-- **Microsoft Flow integration** Cloud App Security now integrates with [Microsoft Flow](https://docs.microsoft.com/flow/getting-started) to provide custom alert automation and orchestration playbooks. See [this article](https://docs.microsoft.com/cloud-app-security/flow-integration) to learn more and configure Microsoft Flow integration. 
-
 ## Related topics
 
 [See the 2018 updates for Office 365 Cloud App Security](new-in-office-365-cas-2018.md)
