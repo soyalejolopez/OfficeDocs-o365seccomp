@@ -1,5 +1,5 @@
 ---
-title: "Supported file types in Advanced eDiscovery"
+title: "Supported file types in Advanced eDiscovery (Preview)"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -17,7 +17,7 @@ ms.assetid:
 description: ""
 ---
 
-# Supported file types in Advanced eDiscovery
+# Supported file types in Advanced eDiscovery (Preview)
 
 
 ## File types supported for Analysis

@@ -1,5 +1,5 @@
 ---
-title: "Overview of Advanced eDiscovery (Preview)"
+title: "Overview of Advanced eDiscovery (Preview) (Preview)"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,8 +14,8 @@ search.appverid:
 - MET150
 ms.assetid: 
 
-description: "This article describes the new version of Advanced eDiscovery in Office 365."
+description: "This article describes the new version of Advanced eDiscovery (Preview) in Office 365."
 ---
 
-# Overview of Advanced eDiscovery (Preview)  
+# Overview of Advanced eDiscovery (Preview) (Preview)  
 

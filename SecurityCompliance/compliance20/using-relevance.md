@@ -1,5 +1,5 @@
 ---
-title: "Using the Relevance module to analyze data in Advanced eDiscovery"
+title: "Using the Relevance module to analyze data in Advanced eDiscovery (Preview)"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -17,31 +17,31 @@ ms.assetid:
 description: ""
 ---
 
-# Using the Relevance module to analyze data in Advanced eDiscovery
+# Using the Relevance module to analyze data in Advanced eDiscovery (Preview)
 
-In Advanced eDiscovery, the Relevance module includes the Relevance training and review of files related to a case. The Relevance workflow is shown and described as follows:
+In Advanced eDiscovery (Preview), the Relevance module includes the Relevance training and review of files related to a case. The Relevance workflow is shown and described as follows:
   
 ![Relevance workflow](../media/44c67dd2-7a20-40a9-b0ed-784364845c77.gif)
   
 - **Cycles of assessment and tracking**:
     
-  - **Assessment**: Advanced eDiscovery enables early assessment based on a random sample of files and uses this assessment to apply decisions to determine the performance of the predictive coding process. 
+  - **Assessment**: Enables early assessment based on a random sample of files and uses this assessment to apply decisions to determine the performance of the predictive coding process. 
     
-  - **Track**: Advanced eDiscovery calculates and displays interim results of the assessment while monitoring statistical validity of the process. 
+  - **Track**: Calculate and display interim results of the assessment while monitoring statistical validity of the process. 
     
-- **Cycles of training and tracking**:
+- **Cycles of training and tracking**
     
-  - **Tag**: Advanced eDiscovery learns Relevance criteria specific to each issue based on the expert's iterative review and tagging of individual files.
+  - **Tag**: Advanced eDiscovery (Preview) learns Relevance criteria specific to each issue based on the expert's iterative review and tagging of individual files.
     
-  - **Track**: Advanced eDiscovery calculates and displays interim results of the Relevance training while monitoring statistical validity of the process. 
+  - **Track**: Calculate and display interim results of the Relevance training while monitoring statistical validity of the process. 
     
-- **Batch calculation**: Advanced eDiscovery takes the accumulated and learned Relevance criteria, applies it to the entire file collection, and generates Relevance scores for each file.
+- **Batch calculation**: The accumulated and learned Relevance criteria is applied to the entire file collection, and a Relevance score is generated for each file.
     
-- **Decide**: Advanced eDiscovery displays the results of the analysis applied to the entire case after Batch calculation and displays data for making document review decisions.
+- **Decide**: The results of the analysis applied to the entire case is displayed after Batch calculation, and data used to make document review decisions is displayed.
     
-- **Test**: Advanced eDiscovery results can be tested to verify the validity and effectiveness of the Advanced eDiscovery processing.
+- **Test**: Results can be tested to verify the validity and effectiveness of the Advanced eDiscovery (Preview) processing.
 
-- **Search**: Once Relevance workflow is complete, you can use the output such as read percentile of a document for your issue when you query within your working set.
+- **Search**: Once the Relevance workflow is complete, you can use the output such as read percentile of a document for your issue when you run a query within your working set.
     
 ## Guidelines for Relevance training and review
 
@@ -59,7 +59,7 @@ Following is an overview of guidelines for Relevance training and review:
      
   - Ignore text applied to Relevance will be removed in the displayed file content in the text view in Relevance. If the values for Ignore text were defined after Relevance training already started, the new ignored text will be applied to sample files created from the point in which it was defined. The Ignore Text feature should be used cautiously, as its use may reduce the performance of file analysis
     
-  - Use the **Skip tagging** option only when necessary. Advanced eDiscovery does not train based on skipped files. In assessment, if it's hard to tell whether a file is relevant, it is better to tag as Relevant (R) or Not relevant (NR) whenever possible rather than selecting **Skip**. When Advanced eDiscovery evaluates training, it can then be seen how well these types of files were processed.
+  - Use the **Skip tagging** option only when necessary. Advanced eDiscovery (Preview) does not train based on skipped files. In assessment, if it's hard to tell whether a file is relevant, it is better to tag as Relevant (R) or Not relevant (NR) whenever possible rather than selecting **Skip**. When Advanced eDiscovery (Preview) evaluates training, it can then be seen how well these types of files were processed.
     
   - Even files with a very small amount of extracted text should be tagged in training as R/NR, rather than as "Skip", when possible. 
     
@@ -122,7 +122,7 @@ It is possible to accept or override Advanced eDiscovery Next step processing ch
 > [!NOTE]
 > Some options may remain disabled after unlocking as they are not supported for use at that point in the process. 
   
-## See also
+## More information
 
 [Understanding Assessment in Relevance](../assessment-in-relevance-in-advanced-ediscovery.md)
   
