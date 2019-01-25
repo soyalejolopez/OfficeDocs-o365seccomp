@@ -30,16 +30,15 @@ Alternatively, you can visit the Security & Compliance Center ([https://protecti
 The widget includes a link to your Secure Score dashboard.
 
 ![Secure Score dashboard](media/SecureScore-WelcomeScreen.png)
-
   
 ## How it works
 
-Secure Score determines what Office 365 services you're using (such as OneDrive, SharePoint, and Exchange) then compares your settings and activities to a baseline established by Microsoft. You'll get a score based on how well aligned your organization is with security best practices.
-  
-You'll also get recommendations on steps you can take to improve your organization's score. 
+Secure Score determines what Office 365 services you're using (such as OneDrive, SharePoint, and Exchange) then compares your settings and activities to a baseline established by Microsoft. You'll get a score based on how well aligned your organization is with security best practices. You'll also get recommendations on steps you can take to improve your organization's score. 
   
 ![Actions queue in the Office 365 Secure Score tool](media/SecureScore-ActionsToTake.png)
   
+Secure Score calculates your score based on the services you purchased. For example, if you only purchased an Exchange Online plan, you won't be scored for SharePoint Online security features. The denominator of the score is the sum of all the baselines for the controls that apply to the products you purchased. The numerator is the sum of all the controls for which you completed, or partially completed, the actions to fulfill that control.
+
 Expand an action to learn about what steps to take, the threats it'll help protect you from, and how many points your score will increase once you follow the recommendation.
   
 ![Expanded action in the Office 365 Secure Score tool](media/SecureScore-DetailedActionToTake.png)
@@ -48,13 +47,15 @@ To see the impact of your actions on your organization's security, select the **
   
 ![Score Analyzer tab of the Office 365 Secure Score tool](media/SecureScore-ScoreAnalyzer-7days.png)
   
-Below the chart, you'll see a list of scores and actions by category.
+Below the chart, you'll see a list of scores and actions by category. 
   
 ![Graph on the Score Analyzer tab showing a data point selected](media/SecureScore-Analyzer-breakdownbelowchart.png)
  
 Actions that are labeled as **[Not Scored]** are ones you can perform for your organization, but because they are not connected to Secure Score, they are not scored.  
 
-The score is calculated once per day (around 1:00 AM PST). If you make a change to a measured action, the score will automatically update the next day. It takes up to 48 hours for a change to be reflected in your score.
+On the **Score Analyzer** page, click a data point for a specific day, then scroll down to see the completed and incomplete actions for that day to find out what changed. The score is calculated once per day (around 1:00 AM PST). If you make a change to a measured action, the score will automatically update the next day. It takes up to 48 hours for a change to be reflected in your score.
+
+Secure Score does not express an absolute measure of how likely you are to get breached. It expresses the extent to which you have adopted features that can offset the risk of being breached. No service can guarantee that you will not be breached, and the Secure Score should not be interpreted as a guarantee in any way.
  
 ## How Secure Score helps
 
@@ -78,40 +79,6 @@ In order to view and use your Secure Score dashboard, you must be assigned one o
 - SharePoint Administrator
 
  Users who aren't assigned an admin role won't be able to access Secure Score.
-
-## FAQs
-  
-
-  
-### Who can see my results?
-
-Results are filtered to show scores only to people in your organization who are assigned an admin role (global admin or a custom admin role).
-  
-### My score changed. How do I figure out why?
-
-On the **Score Analyzer** page, click a data point for a specific day, then scroll down to see the completed and incomplete actions for that day to find out what changed. 
-  
-### Does the Secure Score measure my risk of getting breached?
-
-In short, no. Secure Score does not express an absolute measure of how likely you are to get breached. It expresses the extent to which you have adopted features that can offset the risk of being breached. No service can guarantee that you will not be breached, and the Secure Score should not be interpreted as a guarantee in any way.
-  
-### How should I interpret my score?
-
-You're given points for configuring recommended security features or performing security-related tasks (such as viewing reports). Some actions are scored for partial completion, like enabling multi-factor authentication (MFA) for your users. Your Secure Score is directly representative of the Microsoft security services you use. Remember that security should always be balanced with usability. All security controls have a user impact component. Controls with low user impact should have little to no effect on your users' day-to-day operations.
-  
-To see your score history, go to the **Score Analyzer** page. Choose a specific date to see which controls were enabled for that day and what points you earned for each one. 
-  
-### I have an idea for another control. How do I let you know what it is?
-
-We'd love to hear from you. Please post your ideas on the [Office Security, Privacy &amp; Compliance community](https://go.microsoft.com/fwlink/?linkid=836898). We're listening and want the Secure Score to include all options that are important to you.
-  
-### Something isn't working right. Who should I contact?
-
-If you have any issues, please let us know by posting in the [Office Security, Privacy &amp; Compliance community](hhttps://techcommunity.microsoft.com/t5/Security-Privacy-Compliance/bd-p/security_privacy). We're monitoring the community and will provide help.
-  
-### My organization only has certain security features. Does this affect my score?
-
-Secure Score calculates your score based on the services you purchased. For example, if you only purchased an Exchange Online plan, you won't be scored for SharePoint Online security features. The denominator of the score is the sum of all the baselines for the controls that apply to the products you purchased. The numerator is the sum of all the controls for which you completed, or partially completed, the actions to fulfill that control.
 
 ## Related topics
 
