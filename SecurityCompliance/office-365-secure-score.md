@@ -3,7 +3,7 @@ title: "Office 365 Secure Score"
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 11/27/2018
+ms.date: 01/25/2019
 ms.audience: Admin
 ms.topic: overview
 ms.service: o365-administration
@@ -21,22 +21,20 @@ description: "Ever wonder how secure your organization really is in Office 365? 
   
 ## How to get to Secure Score
 
-If your organization has a subscription that includes [Office 365 Enterprise](https://docs.microsoft.com/office365/enterprise/), [Microsoft 365 Business](https://docs.microsoft.com/microsoft-365/business/), or Office 365 Business Premium, and you have the necessary permissions, you can view your organization's secure score by visiting [https://securescore.office.com](https://securescore.office.com). 
+If your organization has a subscription that includes [Office 365 Enterprise](https://docs.microsoft.com/office365/enterprise/), [Microsoft 365 Business](https://docs.microsoft.com/microsoft-365/business/), or Office 365 Business Premium, and you have the [necessary permissions](#required-permissions), you can view your organization's secure score by visiting [https://securescore.office.com](https://securescore.office.com). 
 
 Alternatively, you can visit the Security & Compliance Center ([https://protection.office.com](https://protection.office.com)), where you'll find a Secure Score widget that provides you with your current score.
 
 ![Secure Score widget](media/SecureScoreWidget-o365.png)
 
-The widget includes a link to Microsoft Secure Score, which takes you to your Secure Score dashboard for Office 365.
+The widget includes a link to your Secure Score dashboard.
 
 ![Secure Score dashboard](media/SecureScore-WelcomeScreen.png)
 
-> [!NOTE]
-> You must be an Office 365 administrator, such as a global admin or security admin, to access Secure Score.
   
 ## How it works
 
-Secure Score figures out what Office 365 services you're using (such as OneDrive, SharePoint, and Exchange) then looks at your settings and activities and compares them to a baseline established by Microsoft. You'll get a score based on how aligned you are with best security practices.
+Secure Score determines what Office 365 services you're using (such as OneDrive, SharePoint, and Exchange) then compares your settings and activities to a baseline established by Microsoft. You'll get a score based on how well aligned your organization is with security best practices.
   
 You'll also get recommendations on steps you can take to improve your organization's score. 
   
@@ -53,29 +51,37 @@ To see the impact of your actions on your organization's security, select the **
 Below the chart, you'll see a list of scores and actions by category.
   
 ![Graph on the Score Analyzer tab showing a data point selected](media/SecureScore-Analyzer-breakdownbelowchart.png)
-  
+ 
+Actions that are labeled as **[Not Scored]** are ones you can perform for your organization, but because they are not connected to Secure Score, they are not scored.  
+
+The score is calculated once per day (around 1:00 AM PST). If you make a change to a measured action, the score will automatically update the next day. It takes up to 48 hours for a change to be reflected in your score.
+ 
 ## How Secure Score helps
 
-Using Secure Score helps increase your organization's security by encouraging you to use the built-in security features in Office 365 (many of which you already purchased but might not be aware of). Learning more about these features as you use the tool will help give you piece of mind that you're taking the right steps to protect your organization from threats.
+With Secure Score, you can help improve your organization's security posture by using the built-in security features in Office 365 (many of which you already purchased but might not be aware of). Learning more about these features can help give you peace of mind that you're taking the right steps to protect your organization from threats.
   
 But don't just take our word for it. Customers who are using Secure Score have seen their score increase five times more than customers who aren't using it. (The increase in their score corresponds with the security features being used in their organizations.)
   
 > [!NOTE]
 > Secure Score does not express an absolute measure of how likely you are to get breached. It expresses the extent to which you have adopted controls which can offset the risk of being breached. No service can guarantee that you will not be breached, and Secure Score should not be interpreted as a guarantee in any way. 
   
+## Required permissions
+
+In order to view and use your Secure Score dashboard, you must be assigned one of the following roles in Azure Active Directory:
+- Global Administrator
+- Billing Administrator
+- User Administrator
+- Password Administrator
+- Security Administrator
+- Security Reader
+- Exchange Administrator
+- SharePoint Administrator
+
+ Users who aren't assigned an admin role won't be able to access Secure Score.
+
 ## FAQs
-
-### Who can use Secure Score?
-
-Anyone who has admin permissions (global admin or a custom admin role) for an Office 365 Enterprise, Microsoft 365 Business, or Office 365 Business Premium subscription can access Secure Score at [https://securescore.office.com](https://securescore.office.com). Users who aren't assigned an admin role won't be able to access Secure Score . However, admins can use the tool to share their results with other people in their organization. We're looking at including other, non-admin roles in the permissions list in the future. If there are specific roles you'd like us to consider, let us know by posting in the [Office Security, Privacy &amp; Compliance community](https://techcommunity.microsoft.com/t5/Security-Privacy-Compliance/bd-p/security_privacy).
   
-### What does [Not Scored] mean?
 
-Actions labeled as **[Not Scored]** are ones you can perform in your organization but won't be scored because they aren't hooked up in the tool (yet!). So, you can still improve your security, but you won't get credit for those actions right now. 
-  
-### How often is my score updated?
-
-The score is calculated once per day (around 1:00 AM PST). If you make a change to a measured action, the score will automatically update the next day. It takes up to 48 hours for a change to be reflected in your score.
   
 ### Who can see my results?
 
