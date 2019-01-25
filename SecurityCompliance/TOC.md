@@ -58,6 +58,8 @@
 ### [Disposition reviews](disposition-reviews.md)
 ### [Event-driven retention](event-driven-retention.md)
 ### [File plan manager](file-plan-manager.md)
+## [Supervision policies in Office 365](supervision-policies.md)
+### [Configure supervision policies for your organization](configure-supervision-policies.md)
 ## [Manage inactive mailboxes](inactive-mailboxes-in-office-365.md)
 ### [Create and manage inactive mailboxes](create-and-manage-inactive-mailboxes.md)
 ### [Change the hold duration for an inactive mailbox](change-the-hold-duration-for-an-inactive-mailbox.md)
@@ -67,8 +69,6 @@
 ## Monitor data governance
 ### [View the data governance reports](view-the-data-governance-reports.md)
 ### [View label activity for documents](view-label-activity-for-documents.md)
-### [Supervision policies in Office 365](supervision-policies.md)
-### [Configure supervision policies for your organization](configure-supervision-policies.md)
 ## More information about data governance
 ### [Watch videos from the Microsoft Data Governance team](https://go.microsoft.com/fwlink/?linkid=867039)
 # [Protect against threats](protect-against-threats.md)
