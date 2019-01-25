@@ -23,8 +23,7 @@ Processing is the process of file identification, expansion of embedded document
 
 The **Processing** tab in Advanced eDiscovery (Preview) provides transparency into the status of Advanced Indexing for all of these scenarios.
 
-See the following topics for more details.
+See the following articles for more details.
 
-- [View custodian indexing health](indexing-custodian-data.md)
-- [Create a new error remediation](processing-error-types.md)
-- [View error remediations](error-remediation.md)
+- [Advanced indexing of custodian data](indexing-custodian-data.md)
+- [Error remediation when processing data](error-remediation.md)
