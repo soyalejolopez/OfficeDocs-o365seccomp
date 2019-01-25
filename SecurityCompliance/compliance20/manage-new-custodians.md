@@ -1,5 +1,5 @@
 ---
-title: "Managing custodians in an Advanced eDiscovery case"
+title: "Managing custodians in an Advanced eDiscovery (Preview) case"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -16,7 +16,7 @@ ms.assetid:
 
 description: ""
 ---
-# Managing custodians in an Advanced eDiscovery case
+# Managing custodians in an Advanced eDiscovery (Preview) case
 
 The Custodians tab contains a sortable list of all the custodians in the case. After you add custodians to a case, details about each custodian will automatically be collected from Azure Active Directory.
 
@@ -57,7 +57,7 @@ As your case progresses, you may discover that there may be additional data sour
 
 To update a custodian and the selected data sources:
 
-1. Select an existing case from the **eDiscovery > Advanced eDiscovery**.
+1. Select an existing case from the **eDiscovery > Advanced eDiscovery (Preview)**.
   
 2. In the case, click the **Custodians** tab.
   
@@ -65,7 +65,7 @@ To update a custodian and the selected data sources:
   
 4. Update selections for Exchange and OneDrive locations by clicking **Choose data sources**.
   
-5. Add or remove Teams, SharePoint, or Exchange mailboxes mapped the user by clicking to **Select additional data sources**. For more information about how you to map data sources to a custodian, see [Add custodians to an Advanced eDiscovery Case](add-custodians-to-case.md).
+5. Add or remove Teams, SharePoint, or Exchange mailboxes mapped the user by clicking to **Select additional data sources**. For more information about how you to map data sources to a custodian, see [Add custodians to an Advanced eDiscovery (Preview) Case](add-custodians-to-case.md).
   
 6. To update the custodian hold status, click **Place custodial holds**, and enable or disable the hold for custodians.
 
@@ -74,13 +74,13 @@ To update a custodian and the selected data sources:
 
 ## Resolving custodian processing errors
 
-In most Legal workflows, after custodians are added for a specific investigation, a subset of the users’ data will be searched. Due to large file sizes or possible corruption, some items within the custodians’ data sources may be partially indexed. Using the Advanced eDiscovery deep indexing capability, these partially indexed items can be automatically remediated by re-crawling and re-indexing these items on demand. 
+In most Legal workflows, after custodians are added for a specific investigation, a subset of the users’ data will be searched. Due to large file sizes or possible corruption, some items within the custodians’ data sources may be partially indexed. Using the Advanced eDiscovery (Preview) deep indexing capability, these partially indexed items can be automatically remediated by re-crawling and re-indexing these items on demand. 
 
 When a custodian is added to a case, their data will automatically be "deep indexed”, allowing users to leave these partially indexed items in place instead of having to download, remediate and re-run searches outside of Office 365. During the lifecycle of a case, a user may remediate items or add new data sources for a given custodian. This may require the Custodian Index to be updated. 
 
 To trigger a re-indexing process to address partially indexed items:
 
-1. Go to **eDiscovery > Advanced eDiscovery** and select an existing case.
+1. Go to **eDiscovery > Advanced eDiscovery (Preview)** and select an existing case.
 
 2. In the case, click to **Custodians tab**. 
 
@@ -90,7 +90,7 @@ To trigger a re-indexing process to address partially indexed items:
 
 5. The status for the re-indexing process can also be tracked on the **Jobs** page.
 
-For more information about re-indexing and remediating partially indexed items, see [Fixing processing errors in Advanced eDiscovery](processing-data-for-case.md).
+For more information about re-indexing and remediating partially indexed items, see [Fixing processing errors in Advanced eDiscovery (Preview)](processing-data-for-case.md).
 
 ## Releasing a custodian from a case
 

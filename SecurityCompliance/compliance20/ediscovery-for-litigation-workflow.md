@@ -1,5 +1,5 @@
 ---
-title: "Using Advanced eDiscovery for legal cases"
+title: "Using Advanced eDiscovery (Preview) for legal cases"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -17,5 +17,5 @@ ms.assetid:
 description: ""
 ---
 
-# Using Advanced eDiscovery for legal cases
+# Using Advanced eDiscovery (Preview) for legal cases
 

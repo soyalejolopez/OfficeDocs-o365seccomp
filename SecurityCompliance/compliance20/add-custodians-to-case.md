@@ -1,5 +1,5 @@
 ---
-title: "Add custodians to an Advanced eDiscovery case"
+title: "Add custodians to an Advanced eDiscovery (Preview) case"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -16,19 +16,19 @@ ms.assetid:
 
 description: ""
 ---
-# Add custodians to an Advanced eDiscovery Case
+# Add custodians to an Advanced eDiscovery (Preview) Case
 
-Using Advanced eDiscovery, you can leverage the built-in custodian management tool to coordinate your workflows around managing custodians and identifying relevant, custodial data sources within a case. When you add a custodian, the system can automatically identify, and place holds on their primary Exchange mailbox and OneDrive for Business site. As you conduct your discovery, you might also uncover and map additional mailboxes or sites that a custodian accessed in the past or Teams that a custodian is a member of today.
+Using Advanced eDiscovery (Preview), you can leverage the built-in custodian management tool to coordinate your workflows around managing custodians and identifying relevant, custodial data sources within a case. When you add a custodian, the system can automatically identify, and place holds on their primary Exchange mailbox and OneDrive for Business site. As you conduct your discovery, you might also uncover and map additional mailboxes or sites that a custodian accessed in the past or Teams that a custodian is a member of today.
 
-Use the following workflow to add and manage custodians in Advanced eDiscovery cases within the Security & Compliance Center. 
+Use the following workflow to add and manage custodians in Advanced eDiscovery (Preview) cases within the Security & Compliance Center. 
 
 ## Step 1: Identify potential custodians
 
 The first step is to identify the appropriate custodians for your matter. To add custodians to a case, you must be a member of the eDiscovery Managers or eDiscovery Admins role group.   
 
-To add custodians to an existing Advanced eDiscovery case:
+To add custodians to an existing Advanced eDiscovery (Preview) case:
 
-1. From the **Advanced eDiscovery** page, go to your case.
+1. From the **Advanced eDiscovery (Preview)** page, go to your case.
  
 2. After you have selected a case, go to the **Custodians** tab and click **+ Add Custodian**. 
  

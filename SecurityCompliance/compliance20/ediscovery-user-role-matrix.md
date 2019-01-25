@@ -1,5 +1,5 @@
 ---
-title: "User role matrix for Advanced eDiscovery"
+title: "User role matrix for Advanced eDiscovery (Preview)"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -17,5 +17,5 @@ ms.assetid:
 description: ""
 ---
 
-# User role matrix for Advanced eDiscovery
+# User role matrix for Advanced eDiscovery (Preview)
 
