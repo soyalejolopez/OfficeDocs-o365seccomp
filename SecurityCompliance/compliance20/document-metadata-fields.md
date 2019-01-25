@@ -1,5 +1,5 @@
 ---
-title: "Create a new error remediation"
+title: "Document metadata fields"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -17,5 +17,5 @@ ms.assetid:
 description: ""
 ---
 
-# Create a new error remediation
+# Document metadata fields
 
