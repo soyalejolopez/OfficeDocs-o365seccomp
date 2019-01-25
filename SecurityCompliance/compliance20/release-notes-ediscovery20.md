@@ -1,5 +1,5 @@
 ---
-title: "Release notes for Advanced eDiscovery (Preview) (Preview)"
+title: "Release notes for Advanced eDiscovery (Preview)"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -19,31 +19,47 @@ description: "This article contains the release notes for Advanced eDiscovery (P
 
 # Release notes for Advanced eDiscovery (Preview)
 
-The Microsoft Advanced eDiscovery preview program is the way to get early access to the upcoming functionality and updates. To get early access to the newest features, just create and use an Advanced eDiscovery case in the Security and Compliance Center.
+The Public Preview program for Advanced eDiscovery is the way to get early access to the upcoming functionality and updates. To get early access to the newest features, just create and use an Advanced eDiscovery (Preview) case in the Office 365 Security & Compliance Center. See [Create a new case](create-new-ediscovery-case.md).
 
-**Known Issues** 
-1.	Add Custodian Workflow does not reflect Compliance Boundaries
-2.	PowerShell commandlets
+## Known issues 
 
-**Issues Fixed in This Release**
+- The Add Custodian workflow doesn't reflect Compliance Boundaries
+- PowerShell cmdlets
+
+## Issues fixed in this release
+
 - DCR: Exception handling – unindexed and orphan items
-- DRC: Hold Notifications
+- DCR: Hold notifications
 - DCR: Custodians in eDiscovery
 
-**What’s New**
-•	Redesigned Security and Compliance Navigation – Advanced eDiscovery has a new look and feel. Use Advanced eDiscovery to manage more of your case workflow. 
-•	Case Management – There’s additional support for new case types. You can also select and save your recent and favorite cases. Track and monitor activity within and across cases through new dashboards.
-•	Custodian Management – Add and remove users as data custodians within a case.
-•	Exchange, OneDrive, and Teams Integration – Automatically add a user’s current mailbox, OneDrive site, and Teams sites to your case. 
-•	Custodian Communications – Send and manage legal hold notifications on behalf of your organization.
-•	Custodian Portal – New portal for custodians to access their active hold notices.
-•	Deep Indexing – Re-crawl partially indexed items on demand
-•	Error Remediation – Remediate or download processing errors, including remediation support for large file types, password protected files, and more. 
-•	Improvements to Search – Create a search by identifying custodians and/or locations.
-•	Working Sets – Manage, track, and audit static sets of documents.
-•	Review – Use a native, text, and near-native view to review documents added to your Working Set.
-•	Redact, Tag, and Annotate – Apply redactions, tags, and annotations as you review your documents.  
-•	Analytics Powered Review – Leverage eDiscovery analytics to find, search, and cull results within a Working Set 
-•	Jobs – Track status of long-running processes 
-•	New Audit Activities – Track and view new audit activity 
+## What’s new
 
+- Redesigned navigation in the Security & Compliance Center – Advanced eDiscovery (Preview) has a new look and feel. Use Advanced eDiscovery (Preview) to manage more of your case workflow.
+
+- Case management – There’s additional support for new case types. You can also select and save your recent and favorite cases. Track and monitor activity within and across cases using new dashboards.
+
+- Custodian management – Add and remove users as data custodians within a case.
+
+- Exchange, OneDrive, and Teams Integration – Automatically add a user’s current mailbox, OneDrive for Business account, and Microsoft Teams sites to a case. 
+
+- Custodian communications – Send and manage legal hold notifications on behalf of your organization.
+
+- Custodian portal – New portal for custodians to access their active hold notices.
+
+- Deep indexing – Re-crawl partially indexed items on demand.
+
+- Error remediation – Remediate or download processing errors; this include remediation support for large file types, password protected files, and more. 
+
+- Improvements to search – Create a search by identifying custodians and/or locations.
+
+- Working sets – Manage, track, and audit static sets of documents.
+
+- Review – Use a native, text, and near-native view to review documents added to your working set.
+
+- Redact, tag, and annotate – Redact text, apply tags, and make annotations as you review documents.
+  
+- Analytics-powered review – Leverage eDiscovery analytics to find, search, and cull results within a working set.
+
+- Jobs – Track status of long-running processes.
+
+- New audit activities – Track and view new audit activity.
