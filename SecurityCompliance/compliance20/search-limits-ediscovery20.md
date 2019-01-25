@@ -1,5 +1,5 @@
 ---
-title: "Search limits in Advanced eDiscovery"
+title: "Search limits in Advanced eDiscovery (Preview)"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -17,6 +17,6 @@ ms.assetid:
 description: ""
 ---
 
-# Search limits in Advanced eDiscovery
+# Search limits in Advanced eDiscovery (Preview)
 
 (add content here)

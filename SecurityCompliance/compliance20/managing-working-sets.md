@@ -1,5 +1,5 @@
 ---
-title: "Managing working sets in Advanced eDiscovery"
+title: "Managing working sets in Advanced eDiscovery (Preview)"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -17,14 +17,14 @@ ms.assetid:
 description: ""
 ---
 
-# Managing working sets in Advanced eDiscovery  
+# Managing working sets in Advanced eDiscovery (Preview)  
 
 
 
 
 ## More information
 
-- **There are limits for eDiscovery working sets** The following table lists the limits for Advanced eDiscovery working sets.  Any items that exceed the single file maximums will show up as processing errors.
+- **There are limits for eDiscovery working sets** The following table lists the limits for Advanced eDiscovery (Preview) working sets.  Any items that exceed the single file maximums will show up as processing errors.
     
   |**Description of limit**|**Limit**|
   |:-----|:-----|

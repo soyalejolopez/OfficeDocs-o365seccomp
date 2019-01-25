@@ -1,5 +1,5 @@
 ---
-title: "Create a new case in Advanced eDiscovery"
+title: "Create a new case in Advanced eDiscovery (Preview)"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -17,5 +17,5 @@ ms.assetid:
 description: ""
 ---
 
-# Create a new case in Advanced eDiscovery
+# Create a new case in Advanced eDiscovery (Preview)
 

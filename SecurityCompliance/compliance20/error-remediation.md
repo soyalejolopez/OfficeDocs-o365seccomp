@@ -19,7 +19,7 @@ description: ""
 
 # Error remediation when processing data
 
-Error remediation allows eDiscovery administrators the ability to rectify data issues which prevent Microsoft 365 Advanced eDiscovery from properly processing the content. For example, files that are password protected cannot be processed since the files are locked or encrypted. Using error remediation, eDiscovery administrators can download files with such errors, remove the password protection and upload the remediated files.
+Error remediation allows eDiscovery administrators the ability to rectify data issues which prevent Microsoft 365 Advanced eDiscovery (Preview) from properly processing the content. For example, files that are password protected cannot be processed since the files are locked or encrypted. Using error remediation, eDiscovery administrators can download files with such errors, remove the password protection and upload the remediated files.
 
 Use the following workflow to remediate files with errors in Advanced eDiscovery cases within the Security and Compliance Center.
 

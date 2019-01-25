@@ -1,5 +1,5 @@
 ---
-title: "Reviewing case data in Advanced eDiscovery"
+title: "Reviewing case data in Advanced eDiscovery (Preview)"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -17,5 +17,5 @@ ms.assetid:
 description: ""
 ---
 
-# Reviewing case data in Advanced eDiscovery
+# Reviewing case data in Advanced eDiscovery (Preview)
 

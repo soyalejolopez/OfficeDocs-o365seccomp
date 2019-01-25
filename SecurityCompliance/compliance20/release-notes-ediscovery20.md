@@ -1,5 +1,5 @@
 ---
-title: "Manage custodial holds"
+title: "Release notes for Advanced eDiscovery (Preview) (Preview)"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,8 +14,8 @@ search.appverid:
 - MET150
 ms.assetid: 
 
-description: ""
+description: "This article contains the release notes for Advanced eDiscovery (Preview) (Preview)."
 ---
 
-# Manage custodial holds
+# Release notes for Advanced eDiscovery (Preview) (Preview)
 

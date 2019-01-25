@@ -1,5 +1,5 @@
 ---
-title: "Types of processing errors"
+title: "Create a new error remediation"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -17,5 +17,5 @@ ms.assetid:
 description: ""
 ---
 
-# Types of processing errors
+# Create a new error remediation
 
