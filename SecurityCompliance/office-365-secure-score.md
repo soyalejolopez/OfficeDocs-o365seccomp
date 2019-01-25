@@ -12,7 +12,7 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: c9e7160f-2c34-4bd0-a548-5ddcc862eaef
-description: "Ever wonder how secure your organization really is in Office 365? Secure Score is here to help. Secure Score analyzes your organization's security  based on your regular activities and security settings in Offic 365, and assigns a score."
+description: "Ever wonder how secure your organization really is in Office 365? Secure Score is here to help. Secure Score analyzes your organization's security  based on your regular activities and security settings in Office 365, and assigns a score."
 ---
 
 # Office 365 Secure Score
@@ -85,5 +85,3 @@ In order to view and use your Secure Score dashboard, you must be assigned one o
 [Security dashboard overview](security-dashboard.md)
 
 [What subscription do I have?](https://docs.microsoft.com/office365/admin/admin-overview/what-subscription-do-i-have?view=o365-worldwide)
-  
-
