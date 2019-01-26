@@ -250,12 +250,13 @@
 #### [Add or remove members from a case](compliance20/add-remove-members.md)
 #### [Configure search and analytics settings](compliance20/configure-search-analytics-settings.md)
 
-### Advanced eDiscovery reference
+### Advanced eDiscovery (Preview) reference
 #### [Search limits](compliance20/search-limits-ediscovery20.md)
 #### [Indexing limits](compliance20/indexing-limits-ediscovery20.md)
 #### [Export limits](compliance20/export-limits-ediscovery20.md)
 #### [Download limits](compliance20/download-limits-ediscovery20.md)
 #### [Supported file types](compliance20/supported-filetypes-ediscovery20.md)
+#### [Document metadata fields](compliance20/document-metadata-fields.md)
 
 ## [Office 365 Advanced eDiscovery](office-365-advanced-ediscovery.md)
 ### [Getting started in Advanced eDiscovery](quick-setup-for-advanced-ediscovery.md)
