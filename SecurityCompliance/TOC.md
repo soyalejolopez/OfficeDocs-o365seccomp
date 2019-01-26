@@ -197,7 +197,8 @@
 ### [How to identify the type of hold placed on an Exchange Online mailbox](identify-a-hold-on-an-exchange-online-mailbox.md)
 
 ## [Advanced eDiscovery (Preview) in Microsoft 365](compliance20/overview-ediscovery-20.md)
-### [Creating a new case](compliance20/create-new-ediscovery-case.md)
+### [Release notes](compliance20/release-notes-ediscovery20.md)
+### [Create a new case](compliance20/create-new-ediscovery-case.md)
 
 ### [Working with custodians](compliance20/managing-custodians.md)
 #### [Add custodians to a case](compliance20/add-custodians-to-case.md)

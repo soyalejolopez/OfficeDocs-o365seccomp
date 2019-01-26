@@ -25,7 +25,7 @@ When a custodian is added to an Advanced eDiscovery (Preview) case, any content 
 
 After the Advanced indexing process is completed, you can get an understanding of the effectiveness of re-processing.  In the Custodian Indexing view, the graph lists all items added to the *hybrid index*.  The hybrid index is where Advanced eDiscovery (Preview) stores the re-processed content.
 
-The graph also includes the number of items that require remediation and another graph of errors by file type. For more information, see [Create a new error remediation](processing-error-types.md).
+The graph also includes the number of items that require remediation and another graph of errors by file type. For more information, see [Error remediation when processing data](error-remediation.md).
 
 ## Updating Advanced indexes for custodians
 
