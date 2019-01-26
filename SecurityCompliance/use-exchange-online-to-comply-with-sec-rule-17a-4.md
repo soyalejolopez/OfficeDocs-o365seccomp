@@ -34,7 +34,7 @@ You can [download the Cohasset assessment here](https://servicetrust.microsoft.c
 
 Note that this assessment is specific to Exchange Online. The assessment does not include other Office 365 services such as SharePoint Online or OneDrive for Business, although we are planning support for those services with respect to SEC 17a-4 in the future.
 
-Also, it’s important to understand that additional Office 365 services also store data in Exchange Online.  Therefore, it’s possible to retain additional data, such as messages from Skype for Business and channel and chat messages from Teams.
+It’s important to understand that Skype for Business and Teams also store data in Exchange Online.  Therefore, the assessment does cover messages from Skype for Business and channel and chat messages from Teams.
 
 ## Using Preservation Lock is key to the recommended configuration
 
