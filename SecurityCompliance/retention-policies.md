@@ -261,7 +261,7 @@ Therefore, before you lock a retention policy, it's **critical** that you unders
 
 ### Lock a retention policy by using PowerShell
   
-You can lock a retention policy only by using PowerShell. This option is intentionally not available in the UI of the Security & Compliance Center.
+You can lock a retention policy only by using PowerShell.
 
 First, [connect to Office 365 Security & Compliance Center PowerShell](http://go.microsoft.com/fwlink/p/?LinkID=799771).
 
