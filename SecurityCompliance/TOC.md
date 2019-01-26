@@ -1,4 +1,4 @@
-﻿# [Get started]()
+# [Get started]
 ## [Office 365 security roadmap](security-roadmap.md)
 ## [Configure your Office 365 tenant for increased security](tenant-wide-setup-for-increased-security.md)
 ## [Go to the Office 365 Security & Compliance Center](go-to-the-securitycompliance-center.md)
@@ -129,6 +129,7 @@
 ### [Use Explorer in the Security & Compliance Center](use-explorer-in-security-and-compliance.md)
 ## [Office 365 Cloud App Security](office-365-cas-overview.md)
 ### [What's new in Office 365 Cloud App Security](new-in-office-365-cas.md)
+#### [Updates during 2018](new-in-office-365-cas-2018.md)
 #### [Updates during 2017](new-in-office-365-cas-2017.md)
 ### [Get ready for Office 365 Cloud App Security](get-ready-for-office-365-cas.md)
 ### [Set up Office 365 Cloud App Security](turn-on-office-365-cas.md)
@@ -249,12 +250,13 @@
 #### [Add or remove members from a case](compliance20/add-remove-members.md)
 #### [Configure search and analytics settings](compliance20/configure-search-analytics-settings.md)
 
-### Advanced eDiscovery reference
+### Advanced eDiscovery (Preview) reference
 #### [Search limits](compliance20/search-limits-ediscovery20.md)
 #### [Indexing limits](compliance20/indexing-limits-ediscovery20.md)
 #### [Export limits](compliance20/export-limits-ediscovery20.md)
 #### [Download limits](compliance20/download-limits-ediscovery20.md)
 #### [Supported file types](compliance20/supported-filetypes-ediscovery20.md)
+#### [Document metadata fields](compliance20/document-metadata-fields.md)
 
 ## [Office 365 Advanced eDiscovery](office-365-advanced-ediscovery.md)
 ### [Getting started in Advanced eDiscovery](quick-setup-for-advanced-ediscovery.md)

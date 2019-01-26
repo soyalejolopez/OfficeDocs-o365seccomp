@@ -37,3 +37,23 @@ Microsoft has just released a preview version of the updated Advanced eDiscovery
 
 ## Advanced eDiscovery (Preview) workflow
 
+Here's an outline of the built-in workflow in Advanced eDiscovery (Preview). The following screenshot shows the home page of a cased named *Product Liability 2019002*. The tabs at the top of the page are sequenced to align with the EDRM workflow process.
+
+- **Custodians** - 
+
+- **Communications** - 
+
+- **Holds** - 
+
+- **Processing** - 
+
+- **Searches** - 
+
+- **Working sets** - 
+
+- **Exports** - 
+
+- **Jobs** - 
+
+- **Settings** - 
+
