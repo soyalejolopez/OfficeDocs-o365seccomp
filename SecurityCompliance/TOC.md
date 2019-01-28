@@ -59,7 +59,7 @@
 ### [Disposition reviews](disposition-reviews.md)
 ### [Event-driven retention](event-driven-retention.md)
 ### [File plan manager](file-plan-manager.md)
-## [Supervision policies in Office 365](supervision-policies.md)
+## [Supervise communications](supervision-policies.md)
 ### [Configure supervision policies for your organization](configure-supervision-policies.md)
 ## [Manage inactive mailboxes](inactive-mailboxes-in-office-365.md)
 ### [Create and manage inactive mailboxes](create-and-manage-inactive-mailboxes.md)
