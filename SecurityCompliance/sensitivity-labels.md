@@ -117,9 +117,9 @@ With a label policy, you can:
 
     ![Prompt where users enter a justification](media/Sensitivity_label_justification_required.png)
 
-- **Require users to apply a label to their email and documents.** If you want all of a user's content to be labeled, you can require that a label must be applied to all of their saved documents and sent emails. The label can be assigned manually by the user, automatically as a result of a condition, or be assigned by default (the default label option described above).
+- **Require users to apply a label to their email and documents.** If you want all of a user's content to be labeled, you can require that a label must be applied to all of their saved documents and sent emails. The label can be assigned manually by the user, automatically as a result of a condition, or be assigned by default (the default label option described above). Here's the prompt shown in Outlook when a user is required to assign a label.
 
-NEED IMAGE OF REQUIRED LABEL PROMPT
+    ![Prompt in Outlook asking user to apply required label](media/sensitivity_labels_mandatory_prompt_aipv2_outlook.PNG)
 
 - **Provide help link to a custom help page.** If your users aren’t sure what your sensitivity labels mean or how they should be used, you can provide a Learn More URL that appears at the bottom of the Sensitivity label menu in the Office apps.
 
