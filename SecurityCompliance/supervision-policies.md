@@ -209,7 +209,7 @@ Use the supervision reports to see the review activity at the policy and reviewe
 3. Select the **Supervision** widget to open the detailed report page.
 
 > [!NOTE]
-> If you aren't able to access the **Reports** page, check that you're a member of the Supervisory Review role group, as described in [Make supervision available in your organization](configure-supervision-policies.md#SRavailable). Being included in this role group lets you create and manage supervision polices and run the report.
+> If you aren't able to access the **Reports** page, check that you're a member of the Supervisory Review role group, as described in [Make supervision available in your organization](configure-supervision-policies.md). Being included in this role group lets you create and manage supervision polices and run the report.
   
 ### How to use the report
 
