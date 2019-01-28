@@ -27,9 +27,7 @@ The ability to apply sensitivity labels to content automatically is important be
 - Users no longer need to know about your policies - they can instead focus on their work.
 
 > [!NOTE]
-> The capability to apply labels automatically requires an Office 365 Enterprise E5 license for each user who has permissions to edit content that's been automatically labeled in a site or mailbox. Users who simply have read-only access do not require a license.
-
-Note that currently, automatic and recommended labeling is available only in Office apps on Windows. To use this feature, you must [Download and install the Azure Information Protection unified labeling client](https://docs.microsoft.com/en-us/azure/information-protection/rms-client/install-unifiedlabelingclient-app).
+> The capability to apply labels automatically requires an Azure Information Protection P2 subscription. To use this feature, you must [Download and install the Azure Information Protection unified labeling client](https://docs.microsoft.com/en-us/azure/information-protection/rms-client/install-unifiedlabelingclient-app). We're working on native support for this feature in Office apps, so that it won't require the Azure Information Protection unified labeling client.
 
 ![Auto labeling options for sensitivity labels](media/Sensitivity_labels_Auto_labeling_options.png)
 
@@ -61,20 +59,14 @@ Here's an example of a prompt when you configure a condition to apply a label as
 
 # How automatic or recommended labels are applied
 
-- Automatic labeling applies to Word, Excel, and PowerPoint when documents are saved, and to Outlook when emails are sent. These conditions detect sensitive information in the body text in documents and emails, and to headers and footers. DOES THIS STILL APPLY? I THINK DLP SCANS ATTACHMENTS TOO?
+- Automatic labeling applies to Word, Excel, and PowerPoint when documents are saved, and to Outlook when emails are sent. These conditions detect sensitive information in the body text in documents and emails, and to headers and footers -- but not in the subject line or attachments of email.
 
 - You cannot use automatic classification for documents and emails that were previously manually labeled, or previously automatically labeled with a higher classification. Remember, a document or email can have only a single sensitivity label applied to it (in addition to a single retention label).
 
-- Recommended classification applies to Word, Excel, and PowerPoint when documents are saved. You cannot use recommended classification for Outlook unless you configure an advanced client setting that is currently in preview. STILL RELEVENT
+- Recommended classification applies to Word, Excel, and PowerPoint when documents are saved. We're working on support for recommended labeling in Outlook.
 
 - You cannot use recommended classification for documents that were previously labeled with a higher classification. In this case, when the content's already labeled with a higher classification, the user won't see the prompt with the recommendation and policy tip.
 
-- You can change this behavior so that the Azure Information Protection client periodically checks documents for the condition rules that you specify. This configuration requires an advanced client setting that is currently in preview. RELEVANT HERE??
-
 # How multiple conditions are evaluated when they apply to more than one label
 
-1. The labels are ordered for evaluation, according to their position that you specify in the policy: The label positioned first has the lowest position (least sensitive) and the label positioned last has the highest position (most sensitive). For more information on priority, see [Label priority (order matters)](sensitivity-labels.md#label-priority-order-matters).
-
-1. The most sensitive label is applied. WHAT DOES THIS MEAN? HOW DIFFERENT FROM PRIORITY??
-
-1. The last sublabel is applied.
+The labels are ordered for evaluation according to their position that you specify in the policy: The label positioned first has the lowest position (least sensitive) and the label positioned last has the highest position (most sensitive). For more information on priority, see [Label priority (order matters)](sensitivity-labels.md#label-priority-order-matters).
