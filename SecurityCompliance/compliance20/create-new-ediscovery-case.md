@@ -36,3 +36,11 @@ description: ""
     - Click **No** to just create case and display it in the list of cases on the **Advanced eDiscovery (Preview)** page. If you choose this option, you will be added as the only member of the case and the default search and analytics settings will be used. You can add members or change settings any time after the case is created.
 
 7. Click **Save** to create the case.
+
+    The new case is displayed in the list of cases on the **Advanced eDiscovery (Preview)** page. 
+
+8. To open a case, click the name of the case. 
+
+    The home page for the case is displayed. For example, here's the home page a case named *Product Liability 2019002*.
+
+    ![Case home page](../media/aedisco-homepage-1.png)
