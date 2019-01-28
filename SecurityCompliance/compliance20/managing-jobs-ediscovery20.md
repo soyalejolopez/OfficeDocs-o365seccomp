@@ -19,21 +19,17 @@ description: ""
 
 # Managing jobs in Advanced eDiscovery (Preview)
 
-
-## List of jobs
+Here's a list of the jobs that are tracked on the **Jobs** page of a case in Advanced eDiscovery (Preview).
 
 - Re-indexing custodian data
 - Estimating search results
+- Preparing search preview
 - Adding data to a working set
 - Adding data to another working set
-- Adding Non-Office 365 data to a working set
-- Adding remediated data to a working set
-- Preparing search preview
-- Running analytics
-- Preparing data for export
+- Adding non-Office 365 data to a working set
 - Preparing for error resolution
+- Adding remediated data to a working set
 - Comparing load sets
 - Tagging documents
-
-## Support information about jobs
-
+- Running analytics
+- Preparing data for export

@@ -37,7 +37,9 @@ Microsoft has just released a preview version of the updated Advanced eDiscovery
 
 ## Advanced eDiscovery (Preview) workflow
 
-Here's an outline of the built-in workflow in Advanced eDiscovery (Preview). The following screenshot shows the home page of a cased named *Product Liability 2019002*. Note the tabs at the top of the page are sequenced to align with the EDRM workflow process.
+Here's an outline of the built-in workflow in Advanced eDiscovery (Preview). The following screenshot shows the home page of a cased named *Product Liability 2019002*. Note the tabs at the top of the page are sequenced to align with the EDRM workflow process. 
+
+For more information about the end-to-end workflow in Advanced eDiscovery (Preview), see this [Microsoft Mechanics video](https://go.microsoft.com/fwlink/?linkid=2066133). 
 
 ![Tabs in Advanced eDiscovery (Preview) follow the EDRM workflow](../media/aedisco-homepage-1.png)
 
@@ -49,13 +51,16 @@ Here's an outline of the built-in workflow in Advanced eDiscovery (Preview). The
 
 - **Indexing custodian data** - When you add a custodian and the corresponding custodial data sources to a case, any partially indexed item from a custodian data source is re-indexed (by a process called *Advanced indexing*). This allow custodial content such as images, unsupported file types, and other potentially un-indexed content to be fully searchable when you run searches to collect data that's relevant to the case. Use the **Processing** page to monitor the status of Advanced indexing and fix processing errors (using a process calle *error remediation*.) For more information, see [Fixing processing errors in Advanced eDiscovery (Preview)](processing-data-for-case.md).
 
-- **Collecting data** - Use the **Searches** page to create searches to search custodial and non-custodial data searches for content that is relevant to the case. You can create and run query-based searches (using keywords and conditions) to identify a set email messages and documents that are relevant to the case and the  you want to further review and analyze in subsequent steps in the eDiscovery workflow. You can create one or more searches associated with the case. Additionally, you can use the search tool to preview sample documents and view search statistics that may help refine and improve the search results. Once you're satisfied that the search results contain the all the data relevant to the case, you add the search results to a working set for further review, analysis and if necessary, culling. For more information, see [Collecting data for a case in Advanced eDiscovery (Preview)](collecting-data-for-ediscovery.md).
+- **Collecting data** - Use the **Searches** page to create searches to search the in-place custodial and non-custodial data sources in Office 365 for content that is relevant to the case. You can create and run query-based searches (using keywords and conditions) to identify a set email messages and documents that are relevant to the case and the  you want to further review and analyze in subsequent steps in the eDiscovery workflow. You can create one or more searches associated with the case. Additionally, you can use the search tool to preview sample documents and view search statistics that may help refine and improve the search results. Once you're satisfied that the search results contain the all the data relevant to the case, you add the search results to a working set for further review, analysis and if necessary, culling. For more information, see [Collecting data for a case in Advanced eDiscovery (Preview)](collecting-data-for-ediscovery.md).
 
-- **Working sets** - 
+- **Review and analyze case data** - Use the **Working sets** page or review and analyze the content that you've collected from the live system and added to a working set. A *working set* is a static collection (in other words, an offline copy of dat) of custodial data (and if applicable, non-custodial data ) that you collected in the previous phase of the eDiscovery workflow. When you add search results to a working set, a process is triggered that extracts files from containers, extracts metadata, and extracts text. When this process is complete, the system builds a new index of all the data collected from custodians and added to the working set. Once the data is added to the working set, you can run additional queries to narrow the case data, view data as text or in the native file format, and annotate, redact, and tag documents in the working set. Additionally, you can perform advanced analytics such as identify document duplication, email threading, and themes. Once you've culled the data to only what is relevant to the case, you can either download download documents directly or export them along with file metadata, annotations, and any tags. For more information, see:
 
-- **Exports** - 
+    - [Reviewing case data in Advanced eDiscovery (Preview)](reviewing-data-in-working-set.md)
+    - [Analyzing data in a working set in Advanced eDiscovery (Preview)](analyzing-data-in-working-set.md)
 
-- **Jobs** - 
+- **Exporting data for review and presentation** - After you export the data from a working set, use the **Exports** page to manage an export job and download data from a working set. When you export a working set, the data is uploaded to an Azure storage location and then is available to be downloaded to a local computer. You can obtain the location and storage assess key necessary to download the exported data on the **Exports** page. For more information, see [Exporting case data in Advanced eDiscovery (Preview)](exporting-data-ediscover20.md).
 
-- **Settings** - 
+- **Managing jobs** - Use the **Jobs** page to monitor long-running processes for case-related tasks that you've initiated, searches as re-indexing, searches, and exports. For example, you might create a new search on the **Searches** page that includes a large number of data sources. The status of this search process is displayed on the **Jobs** page. For more information, see [Managing jobs in Advanced eDiscovery (Preview)](managing-jobs-ediscovery20.md).
+
+- **Configuring case settings** - Use the **Settings** page for configure case-wide settings. This includes adding members to a case, closing or deleting a case, and configuring search and analytics behavior. For more information, see [Configuring case settings in Advanced eDiscovery (Preview)](configuring-case-settings-ediscovery20.md).
 
