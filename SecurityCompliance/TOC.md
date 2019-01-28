@@ -1,4 +1,4 @@
-# [Get started]()
+# Get started
 ## [Office 365 security roadmap](security-roadmap.md)
 ## [Configure your Office 365 tenant for increased security](tenant-wide-setup-for-increased-security.md)
 ## [Go to the Security & Compliance Center](go-to-the-securitycompliance-center.md)
@@ -58,6 +58,8 @@
 ### [Disposition reviews](disposition-reviews.md)
 ### [Event-driven retention](event-driven-retention.md)
 ### [File plan manager](file-plan-manager.md)
+## [Supervise communications](supervision-policies.md)
+### [Configure supervision policies for your organization](configure-supervision-policies.md)
 ## [Manage inactive mailboxes](inactive-mailboxes-in-office-365.md)
 ### [Create and manage inactive mailboxes](create-and-manage-inactive-mailboxes.md)
 ### [Change the hold duration for an inactive mailbox](change-the-hold-duration-for-an-inactive-mailbox.md)
@@ -67,9 +69,6 @@
 ## Monitor data governance
 ### [View the data governance reports](view-the-data-governance-reports.md)
 ### [View label activity for documents](view-label-activity-for-documents.md)
-### [Configure supervision policies for your organization](configure-supervision-policies.md)
-### [Install the Supervision add-in for Outlook desktop](install-the-supervision-add-in-for-outlook-desktop.md)
-### [Supervision reports](supervision-reports.md)
 ## More information about data governance
 ### [Watch videos from the Microsoft Data Governance team](https://go.microsoft.com/fwlink/?linkid=867039)
 # [Protect against threats](protect-against-threats.md)
@@ -128,6 +127,7 @@
 ### [Use Explorer in the Security & Compliance Center](use-explorer-in-security-and-compliance.md)
 ## [Office 365 Cloud App Security](office-365-cas-overview.md)
 ### [What's new in Office 365 Cloud App Security](new-in-office-365-cas.md)
+#### [Updates during 2018](new-in-office-365-cas-2018.md)
 #### [Updates during 2017](new-in-office-365-cas-2017.md)
 ### [Get ready for Office 365 Cloud App Security](get-ready-for-office-365-cas.md)
 ### [Set up Office 365 Cloud App Security](turn-on-office-365-cas.md)
