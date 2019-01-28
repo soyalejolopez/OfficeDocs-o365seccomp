@@ -23,7 +23,7 @@ Often, when an organization is responding to a legal investigation, the workflow
 
 When an investigation begins, the eDiscovery team must quickly identify all the relevant custodians and data sources related to the case. Over time, the lists of custodians and their data sources may expand or contract. As a result, organizations must maintain a controlled process around identifying, preserving, and collecting custodial content throughout the lifecycle of a case.
 
-Within an Office 365 Advanced eDiscovery (Preview) case, Legal teams can add individuals within their organization as data custodians and automatically identify & preserve custodial sources such as Exchange, OneDrive, SharePoint, and Teams sites. By using the built-in and in-place Custodian Management tool, organizations can secure electronically stored information (ESI) from inadvertent deletion and say goodbye to manual, time consuming, and error-prone legal hold processes. 
+Within an Advanced eDiscovery (Preview) case, legal teams can add individuals within their organization as data custodians and automatically identify and preserve custodial sources such as Exchange, OneDrive, SharePoint, and Teams sites. By using the built-in and in-place Custodian Management tool, organizations can secure electronically stored information (ESI) from inadvertent deletion and say goodbye to manual, time consuming, and error-prone legal hold processes. 
 
 For more information about working with custodians, see the following articles: 
 
