@@ -7,7 +7,6 @@
 ## [Permissions in the Security & Compliance Center](permissions-in-the-security-and-compliance-center.md)
 ## [Give users access to the Security & Compliance Center](grant-access-to-the-security-and-compliance-center.md)
 ## [Security Dashboard overview](security-dashboard.md)
-## [Install the Supervision add-in for Outlook desktop](install-the-supervision-add-in-for-outlook-desktop.md)
 ## [Use your free Azure Active Directory subscription](use-your-free-azure-ad-subscription-in-office-365.md)
 ## [Plan for security and compliance in Office 365](plan-for-security-and-compliance.md)
 # Protect access to data and services
@@ -59,6 +58,8 @@
 ### [Disposition reviews](disposition-reviews.md)
 ### [Event-driven retention](event-driven-retention.md)
 ### [File plan manager](file-plan-manager.md)
+## [Supervise communications](supervision-policies.md)
+### [Configure supervision policies for your organization](configure-supervision-policies.md)
 ## [Manage inactive mailboxes](inactive-mailboxes-in-office-365.md)
 ### [Create and manage inactive mailboxes](create-and-manage-inactive-mailboxes.md)
 ### [Change the hold duration for an inactive mailbox](change-the-hold-duration-for-an-inactive-mailbox.md)
@@ -68,9 +69,6 @@
 ## Monitor data governance
 ### [View the data governance reports](view-the-data-governance-reports.md)
 ### [View label activity for documents](view-label-activity-for-documents.md)
-### [Configure supervision policies for your organization](configure-supervision-policies.md)
-### [Install the Supervision add-in for Outlook desktop](install-the-supervision-add-in-for-outlook-desktop.md)
-### [Supervision reports](supervision-reports.md)
 ## More information about data governance
 ### [Watch videos from the Microsoft Data Governance team](https://go.microsoft.com/fwlink/?linkid=867039)
 # [Protect against threats](protect-against-threats.md)
