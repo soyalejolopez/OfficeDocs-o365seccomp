@@ -19,9 +19,4 @@ description: ""
 
 # Supported file types in Advanced eDiscovery (Preview)
 
-
-## File types supported for Analysis
-
-
-
-## File types supported for Optical Character Recognition
+Content coming soon.

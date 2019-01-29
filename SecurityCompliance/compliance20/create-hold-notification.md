@@ -31,7 +31,7 @@ The first step is to specify the appropriate details for legal hold notices or o
    
 2. Click the **Communications** tab, and then click **New communication**.
    
-3. On the Name communication page, specify the following (required) communication details.
+3. On the **Name communication** page, specify the following (required) communication details.
 
     - **Name**: This is the name for the communication.
     

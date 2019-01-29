@@ -19,6 +19,4 @@ description: ""
 
 # Viewing documents in a working set
 
-## Annotating documents
-
-## Redacting documents
+Content coming soon.

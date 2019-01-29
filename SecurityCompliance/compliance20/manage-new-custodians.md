@@ -22,7 +22,7 @@ The Custodians tab contains a sortable list of all the custodians in the case. A
 
 ## Viewing custodian details
 
-The flyout page that contains custodian details appears after you add a custodian to a case and select them from the list **Custodians** page. From here, you can view all the details related to that custodian. The flyout page contains the following fields:
+The flyout page that contains custodian details appears after you add a custodian to a case and select them from the list on the **Custodians** tab. From here, you can view all the details related to that custodian. The flyout page contains the following fields:
 
 - Contact information
 
@@ -86,9 +86,9 @@ To trigger a re-indexing process to address partially indexed items:
 
 3. Select the custodian(s) that needs to be re-indexed, and then click **Update index** on the flyout page.
 
-4. Check the status of the custodian index by clicking the link in the **Indexing job Status** column on the **Custodians** page.  
+4. Check the status of the custodian index by clicking the link in the **Indexing job Status** column on the **Custodians** tab.  
 
-5. The status for the re-indexing process can also be tracked on the **Jobs** page.
+5. The status for the re-indexing process can also be tracked on the **Jobs** tab.
 
 For more information about re-indexing and remediating partially indexed items, see [Fixing processing errors in Advanced eDiscovery (Preview)](processing-data-for-case.md).
 
@@ -102,11 +102,11 @@ If the custodian was placed on a silent hold, where they were not issued any leg
 
 To release a custodian: 
 
-1.	Go to the **Custodians** page.
+1.	Go to the **Custodians** tab.
 
 2.	Select the custodian from the list and click **Release custodians** on the flyout page.
 
-    The status of the custodian on the **Custodians** page is set to **Released** and the **Hold status** on the flyout page is changed to **Inactive**. 
+    The status of the custodian on the **Custodians** tab is set to **Released** and the **Hold status** on the flyout page is changed to **Inactive**. 
 
 > [!TIP]
 > A custodian might be simultaneously be involved in several legal hold matters. When a custodian is released from a case, the holds and notifications across other matters will not be impacted.

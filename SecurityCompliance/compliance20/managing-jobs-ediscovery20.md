@@ -19,7 +19,7 @@ description: ""
 
 # Managing jobs in Advanced eDiscovery (Preview)
 
-Here's a list of the jobs that are tracked on the **Jobs** page of a case in Advanced eDiscovery (Preview).
+Here's a list of the jobs that are tracked on the **Jobs** tab of a case in Advanced eDiscovery (Preview).
 
 - Re-indexing custodian data
 - Estimating search results
