@@ -1,5 +1,3 @@
-Data investigations Release note (Preview)
-
 # Release notes for Data investigations (Preview)
 
 The Public Preview program for Data investigations is the way to get early access to the upcoming functionality and updates. To get early access to the newest features, create a new investigation in Data investigations (Preview) in the Office 365 Security & Compliance Center. 
