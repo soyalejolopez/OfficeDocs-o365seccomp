@@ -45,9 +45,9 @@ To create a hold for an eDiscovery case:
   
   2. Click Open next to the case that you want to create the holds in.
   
-  3. From the Home page for the case, click the **Holds** tab.
+  3. On the**Home** tab for the case, click the **Holds** tab.
   
-  4. On the Hold page, click  Create.
+  4. On the **Holds** tab, click  **Create**.
   
   5. On the Name your hold page, give the hold a name. The name of the hold must be unique in your organization.
  
@@ -86,9 +86,10 @@ To create a hold for an eDiscovery case:
 
 
 ## View Hold Statistics
-After some time, information about the new hold is displayed in the details pane on the Holds page for the selected hold. This information includes the number of mailboxes and sites on hold and statistics about the content that was placed on hold, such as the total number and size of items placed on hold and the last time the hold statistics were calculated. These hold statistics help you identify how much content that's related to the eDiscovery case is being held.
+After some time, information about the new hold is displayed in the details pane on the **Holds** tab for the selected hold. This information includes the number of mailboxes and sites on hold and statistics about the content that was placed on hold, such as the total number and size of items placed on hold and the last time the hold statistics were calculated. These hold statistics help you identify how much content that's related to the eDiscovery case is being held.
 
 Keep the following things in mind about hold statistics:
+
   - The total number of items on hold indicates the number of items from all content sources that are placed on hold. If you've created a query-based hold, this statistic indicates the number of items that match the query.
   - The number of items on hold also includes unindexed items found in the content locations. Note that if you create a query-based hold, all unindexed items in the content locations are placed on hold. This includes unindexed items that don't match the search criteria of a query-based hold and unindexed items that might fall outside of a date range condition. This is different than what happens when you run a Content Search, in which unindexed items that don't match the search query or are excluded by a date range condition aren't included in the search results. For more information about unindexed items, see [Partially indexed items in Content Search in Office 365] (https://docs.microsoft.com/en-us/office365/SecurityCompliance/partially-indexed-items-in-content-search). 
   - You can get the latest hold statistics by clicking Update statistics to re-run a search estimate that calculates the current number of items on hold.

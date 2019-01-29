@@ -50,7 +50,7 @@ To create a hold for an Advanced eDiscovery (Preview) case:
   
 3. From the home page for the case, click the **Holds** tab.
   
-4. On the hold page, click **Create**.
+4. On the **Holds** tab, click **Create**.
   
 5. On the **Name your hold** page, give the hold a name. The name of the hold must be unique in your organization.
  
@@ -91,7 +91,7 @@ To create a hold for an Advanced eDiscovery (Preview) case:
 
 ## View hold statistics
 
-After some time, information about the new hold is displayed in the details pane on the Holds page for the selected hold. This information includes the number of mailboxes and sites on hold and statistics about the content that was placed on hold, such as the total number and size of items placed on hold and the last time the hold statistics were calculated. These hold statistics help you identify how much content that's related to the eDiscovery case is being held.
+After some time, information about the new hold is displayed in the details pane on the **Holds** tab for the selected hold. This information includes the number of mailboxes and sites on hold and statistics about the content that was placed on hold, such as the total number and size of items placed on hold and the last time the hold statistics were calculated. These hold statistics help you identify how much content that's related to the eDiscovery case is being held.
 
 Keep the following things in mind about hold statistics:
 
