@@ -28,13 +28,13 @@ This document provides a list of instructions on how to permanently remove items
 In Data investigations, click on "Create new investigation". Consider establishing a naming convention for investigations and provide as much information as you can in the name and description so you can locate and refer to in the future if necessary. You can add users or role groups as members to an investigation to manage access. 
 
 ## Step 2: Search for the spilled data  
-In search tab, you can create searches to find the spilled data. You will use the same search query that you used to find the email messages to delete those same messages in "Step 4: Permanently delete the spilled data". 
-
 If you know which users you want to search for spilled data, you can add them as people of interest to map their data sources and use them to scope your searches. To add people of interest, go to “People of interest” tab, and click on “Add people”. 
+
+In search tab, you can create searches to find the spilled data. You will use the same search query that you used to find the email messages to delete those same messages in [Step 4](##step-4:-permanently-delete-the-spilled-data)
 
 Click on "Create new search" and specify data you are looking for. [Learn more](https://docs.microsoft.com/en-us/office365/securitycompliance/content-search)
 
-Preview samples of search results and statistics to evaluate your search query. Once you identify search results that you want to delete from your system, you can create an incident and add search results to review individual documents, investigate who had access or export to a different environment. If you want to simply delete them instead, skip [Step 3] and go to [Step 4](##step-4:-permanently-delete-the-spilled-data). 
+Preview samples of search results and statistics to evaluate your search query. Once you identify search results that you want to delete from your system, you can create an incident and add search results. In the incident, you can review individual documents, investigate who had access and export to a different environment. If you want to simply delete them instead, you can skip [Step 3](##step-3:-review-and-investigate) and go to [Step 4](##step-4:-permanently-delete-the-spilled-data). 
 
 **Important:** The keywords that you use in the search query may contain the actual spilled data that you're searching for. For example, if you searching for documents containing a social security number and you use the it as search keyword, you must delete the query afterwards to avoid further spillage. You can delete search or entire investigation in [Step 5](##step-5:-close-or-delete-investigation). 
 
