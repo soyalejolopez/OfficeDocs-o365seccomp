@@ -23,7 +23,13 @@ Microsoft has just released a preview version of the updated Advanced eDiscovery
 
 ## Alignment with EDRM
 
-The built-in workflow of Advanced eDiscovery (Preview) aligns with the eDiscovery process outlined by the Electronic Discovery Reference Model (EDRM). At a high level, here's how Advanced eDiscovery (Preview) supports the EDRM workflow:
+The built-in workflow of Advanced eDiscovery (Preview) aligns with the eDiscovery process outlined by the Electronic Discovery Reference Model (EDRM). 
+
+![The Electronic Discovery Reference Model (EDRM)](../media/EDRMv1.png)
+
+(Image source courtesy of edrm.net. The source image was made available under Creative Commons Attribution 3.0 Unported License.)
+
+At a high level, here's how Advanced eDiscovery (Preview) supports the EDRM workflow:
 
 - **Identification** - After you identify potential persons of interest in an investigation, you can add them as custodians (also called *data custodians*, because they may possess information that's relevant to the investigation) to a Advanced eDiscovery (Preview) case. After users are added as custodians, it's easy to preserve, collect, and review custodian documents.
 
