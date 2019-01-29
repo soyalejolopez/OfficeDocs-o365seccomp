@@ -3,7 +3,7 @@ title: "Revoke email encrypted by Office 365 Message Encryption"
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 9/24/2018
+ms.date: 1/29/2019
 ms.audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
