@@ -21,11 +21,11 @@ description: ""
 
 After you have initiated your legal hold notification workflow, you can leverage  Advanced eDiscovery (Preview) to track the status of your communications. The Communications Tab showcases all of the hold notifications within your Advanced eDiscovery (Preview) case. Here, you can see details, such as the number of custodians that have been assigned or have acknowledged the notice.
 
-## View communication Details
+## View communication details
 
 ### Track acknowledgements
 
-Once you select a communication from the **Communications Tab**, you can view a list of custodians that have acknowledged a hold notice. 
+Once you select a communication from the **Communications**, tab you can view a list of custodians that have acknowledged a hold notice. 
 
 ### Preview acknowledgements
 

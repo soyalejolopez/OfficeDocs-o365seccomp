@@ -41,6 +41,6 @@ description: ""
 
 8. To open a case, click the name of the case. 
 
-    The home tab for the case is displayed. For example, here's the home tab a case named *Product Liability 2019002*.
+    The **Home** tab for the case is displayed. For example, here's a new case named *Contoso Investigation*.
 
-    ![Case home page](../media/aedisco-homepage-1.png)
+    ![The Home tab for a new case in Advanced eDiscovery](../media/newAeDcase.png)

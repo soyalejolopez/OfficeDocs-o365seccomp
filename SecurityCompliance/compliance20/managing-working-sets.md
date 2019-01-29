@@ -19,12 +19,11 @@ description: ""
 
 # Managing working sets in Advanced eDiscovery (Preview)  
 
-
-
+Content coming soon.
 
 ## More information
 
-- **There are limits for eDiscovery working sets** The following table lists the limits for Advanced eDiscovery (Preview) working sets.  Any items that exceed the single file maximums will show up as processing errors.
+The following table lists the limits for working sets in Advanced eDiscovery (Preview).  Any items that exceed the single file maximums will show up as processing errors.
     
   |**Description of limit**|**Limit**|
   |:-----|:-----|

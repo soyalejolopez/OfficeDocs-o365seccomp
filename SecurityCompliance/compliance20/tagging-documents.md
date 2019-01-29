@@ -19,8 +19,4 @@ description: ""
 
 # Tagging documents in a working set
 
-
-## Creating a tag
-
-
-## Applying tags to documents
+Content coming soon.
