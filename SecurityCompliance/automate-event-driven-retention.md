@@ -17,141 +17,94 @@ description: "With labels in Office 365, you can base a retention period on when
 
 # Automate event-based retention
 
- For most organizations, the volume and complexity of their data is increasing daily - email, documents, instant messages, and more. Effectively managing and governing this information is important because organizations need to:
+The explosion of content in organizations and how it can become ROT (redundant, obsolete, trivial) is serious business. To continue to meet legal, business, and regulatory compliance challenges, businesses must be able to keep and protect important information and quickly find what’s relevant. Retaining only important, pertinent information is key to a business’s success.
 
-  - > **Comply proactively with industry regulations and internal policies** that require you to retain content for a minimum period - for example, the Sarbanes-Oxley Act might require you to retain certain types of content for seven years.
+Hence organizations can take advantage of retention solutions in the Office 365 Security & Compliance Center. Retention can be triggered by using [retention labels](labels.md). A retention label has the option to [base the retention period on a specific event](event-driven-retention.md). Typically, the retention period is based on a known date, such as the creation date or last modified date for the content. However, organizations also have requirements to dispose of content based on the occurrence of an event, such as 7 years after an employee leaves an organization.
 
-  - > **Reduce your risk in the event of litigation or a security breach** by permanently deleting old content that you're no longer required to keep.
+In order to ensure compliant disposal of content, it is imperative to know when an event takes place. With the volume of content increasing rapidly, it is becoming challenging to retain and dispose content in a timely and compliant manner.
 
-  - > **Help your organization to share knowledge effectively and be more agile** by ensuring that your users work only with content that's current and relevant to them.
+Event-based retention solves this problem. This topic explains how to set up your business process flows to automate retention through events by using the Microsoft 365 REST API.
 
-The explosion of content in organizations and how it can become ROT (Redundant, Obsolete, Trivial) is serious business.
+## About event-based retention
 
-To continue to meet legal, business, and regulatory compliance challenges, businesses must be able to keep and protect important information and quickly find what’s relevant. Retaining only important pertinent information is key to a business’ success.
+An organization can be small, medium, or large. The number of business documents, legal documents, employee files, contracts, and product documents that get created and managed on a day to day basis is increasing dramatically.
 
-Hence organizations can take advantage of Retention solutions in Microsoft 365 (M365). Retention can be triggered in M365 via retention labels. The Microsoft 365 Security & Compliance Center is your one-stop portal for data governance solutions, including retention labels.
+For example, each day, tens and hundreds of employees are joining and leaving organizations. The HR department continues to create, update, or delete employee-related documents as per business requirements. This process is subject to the different retention policies outlined for the business:
 
-A retention label has the option to base the retention period on a specific event. Typically, period of retention can be known – such as create date or last modified date for the content. However organizations also have requirements to dispose off content based on the occurrence or timing of an event, such as 7 years after an employee leaves an organization.”
+- **The period of retention for content can be a known date** such as the date the content was created, last modified or labeled. For example, you might retain documents for seven years after they're created and then delete them.
 
-In order to ensure compliant disposal of content, it is imperative to know when an event takes place. With volume of content increasing rapidly, it is becoming challenging to retain and dispose content in a timely and compliant manner
+- **The period of retention of content can also be an unknown date**. For example, with retention labels, you can also base a retention period on when a specific type of event occurs, such as an employee leaving the organization.
 
-Event based retention in M365 solves this problem. In this paper we will discuss how to set up and use event-based retention to ensure organizations effectively dispose their content based on their needs.
+The event triggers the start of the retention period, and all content with a label applied for that type of event get the label's retention actions enforced on them. This is called event-based retention - to learn more, see [Overview of event-driven retention](event-driven-retention.md).
 
-This paper will enable you to easily set up your business process flows to automate retention through events by using the Microsoft 365 REST API. 
+## Set up event-based retention
 
-## Introduction to event-based retention
+This section describes what needs to be done prior to retaining content.
 
-An organization can be small, medium or large. The number of business documents, legal documents, employee files, contracts, and product documents that get created and managed on a day to day basis is increasing dramatically.
+### Identify roles
 
-For example: Each day, tens and hundreds of employees are joining and leaving organizations. The HR department continues to create, update or delete employee-related documents as per business requirements. This process is subject to the different retention policies outlined for the business.
+Identify the different roles in an organization that perform Record Management tasks that would be responsible for effective and efficient retention of business documents.
 
-**The period of retention for content can be a known date** such as the date the content was created, last modified or labeled. For example, you might retain documents for seven years after they're created and then delete them.
+  | **Persona**| **Role**|
+  | - | - |
+  | Security & Compliance Center admin | Creates Retention Event types, Retention labels and Record repositories in SharePoint |
+  | Records Manager                                  | Provides Retention Policies and Retention Schedules guidance and compliance details   |
+  | System Admin (business)                          | Sets up and manages external systems to work with Microsoft 365                       |
+  | Information Worker                               | Manages the lifecycle of their business process (HR, Finance, IT etc)                 |
 
-**The period of retention of content can also be an unknown date**. For example, with Microsoft 365[labels in](https://docs.microsoft.com/en-us/office365/securitycompliance/labels) , you can also base a retention period on when a specific type of event occurs, such as an employee leaving the organization.
-
-The event triggers the start of the retention period, and all content with a label applied for that type of event get the label's retention actions enforced on them.
-
-**This is called Event Based Retention**
-
-The diagram below shows the relationship between labels and event-type . Especially, how you can include multiple labels in one event type.
-
-https://docs.microsoft.com/en-us/office365/securitycompliance/event-driven-retention
-
-# Setup Event Based Retention in Microsoft 365
-
-This section helps to understand what is needed to be done prior to retaining content.
-
-1.  **Personas:** Identify the different roles in an organization that perform Record Management tasks that would be responsible for effective and efficient retention of business documents.
-
-    | **Persona**                                      | **Role**                                                                              |
-    | ------------------------------------------------ | ------------------------------------------------------------------------------------- |
-    | Security and Compliance Center Admin (SCC Admin) | Creates Retention Event types, Retention labels and Record repositories in SharePoint |
-    | Records Manager                                  | Provides Retention Policies and Retention Schedules guidance and compliance details   |
-    | System Admin (business)                          | Sets up and manages external systems to work with Microsoft 365                       |
-    | Information Worker                               | Manages the lifecycle of their business process (HR, Finance, IT etc)                 |
-
-2.  **Security and Compliance Center Setup and Access:**
+### Set up the Security & Compliance Center
+  
+1. Compliance admin creates an event type – for example, Employee Termination or Contract Expiration or End of Product Manufacturing (Please refer to step by step process in [Event retention article](https://docs.microsoft.com/en-us/office365/securitycompliance/event-driven-retention)
     
-    1.  Set up access for a Global Admin
+1. Compliance admin creates a retention label based on an event and associates the label with an event type
     
-    2.  1.  1.  
-            2.  
-            3.  
-            4.  
-    3.  Security and Compliance Center Admin (SCC Admin) creates an event type – for example, Employee Termination or Contract Expiration or End of Product Manufacturing (Please refer to step by step process in [Event retention article](https://docs.microsoft.com/en-us/office365/securitycompliance/event-driven-retention)
-    
-    4.  SCC Admin creates a retention label based on an event and associates the label with an event type
-    
-    5.  2.  There are 4 types of triggers for retention label in SCC
+1. There are 4 types of triggers for retention labels:
             
-            5.  Create date
-            
-            6.  Last modified
-            
-            7.  
-            8.  Label date (when the content was labeled) 
-            
-            9.  Event-based
+    1. Create date
+                
+    1. Last modified
+                
+    1. Label date (when the content was labeled)
+                
+    1. Event-based
     
-    6.  SCC Admin publishes the label
+1. Compliance admin publishes the label
 
-3.  **Setting up SharePoint:**
-    
-    7.  Admin creates a SharePoint site
+### Set up SharePoint
+   
+To create a records repository, the compliance admin:
+
+1. Creates a SharePoint site.
+
+1. Does one of the following:
         
-        3.  Create a SharePoint library: Set event-based label at the library level (For more information https://docs.microsoft.com/en-us/office365/securitycompliance/labels\#applying-a-default-retention-label-to-all-content-in-a-sharepoint-library-folder-or-document-set )
-        
-        4.  Set up a Document set in SharePoint: (For more information on Document sets - https://support.office.com/en-us/article/Introduction-to-Document-Sets-3DBCD93E-0BED-46B7-B1BA-B31DE2BCD234)
-        
-        5.  Assign Asset Id (asset ID is a product name or code used by the organization, for example, Employee number can be an asset id)to each employee document set (By assigning the asset ID to the folder, every item in that folder automatically inherits the same asset ID. This means all the items can have their retention period triggered by the same event.
+    - Creates a SharePoint library: Set event-based label at the library level. For more information, see [Applying a default retention label to all content in a SharePoint library, folder, or document set](labels.md#applying-a-default-retention-label-to-all-content-in-a-sharepoint-library-folder-or-document-set).
+          
+    - Sets up a Document set in SharePoint. For more information, see [Introduction to document sets](https://support.office.com/en-us/article/Introduction-to-Document-Sets-3DBCD93E-0BED-46B7-B1BA-B31DE2BCD234).
+      
+1. Assigns Asset Id (asset ID is a product name or code used by the organization, for example, Employee number can be an asset id) to each employee document set (By assigning the asset ID to the folder, every item in that folder automatically inherits the same asset ID. This means all the items can have their retention period triggered by the same event.
 
-# Ways to trigger Event Based Retention in Microsoft 365
+## Ways to trigger event-based retention
 
-There are two ways in which Event Based Retention can be configured and triggered:
+There are two ways in which event-based retention can be triggered:
 
-## Using Security & Compliance Center User Interface:
+- **Using Security & Compliance Center UI** This is a process that can be used to retain less content at a time or the frequency to trigger retention is not often, such as monthly or yearly. For more information on this method, see [Overview of event-driven retention](event-driven-retention.md). However, this way to trigger retention can be time-consuming and prone to error, thus stunting scalability. Therefore, an automated, seamless solution to trigger retention can enhance the security and compliance of data.
 
-This is a process that can be used to retain less content at a time or the frequency to trigger retention is not often such as monthly or yearly.
+- **Using a M365 REST API** This process can be used when large amounts of content are to be retained at a time and/or the frequency to trigger retention is often such as daily or weekly. The flow detects when an event occurs in your line-of-business system, and then automatically creates a related event in the Security & Compliance Center. You don't need to manually create an event in the UI each time one occurs.
 
-  - Log in as SCC Admin 
+There are two options for using the REST API:
 
-  - SCC Admin creates an event type such as Employee Termination or Contract Expiration or End of Product Manufacturing 
+- **Microsoft Flow or a similar application** can be used to trigger the occurrence of an event automatically. Microsoft Flow is an orchestrator for connecting to other systems. Using Microsoft Flow does not require a custom solution.
 
-  - SCC Admin creates an “Employee Termination” or “Contract Expiration” or “End of Product Manufacturing” retention label based on an event and associates the label with an event type 
+- **PowerShell or an HTTP client to call REST API** Using PowerShell (version 6 or higher) to call Microsoft 365 REST API to create events. 
 
-  - SCC Admin publishes or auto-applies the label to the document set or library (**<span class="underline">Please note:</span>** <span class="underline"> </span> Event-based retention is not turned on for autoclassification) 
+A Rest API is a service endpoint that supports sets of HTTP operations (methods), which provide create/retrieve/update/delete access to the service's resources - for more information, see [Components of a REST API request/response](https://docs.microsoft.com/en-us/rest/api/gettingstarted/#components-of-a-rest-api-requestresponse). In this case, by using the Microsoft 365 REST API, events can be created and retrieved using operations (methods) POST and GET.
 
-  - HR Manager or Contracts Manager or Manufacturing Manager works on a document and applies the retention label 
+## Example scenarios
 
-  - When an employee leaves the organization or a contract expires or a product manufacturing ends, the Admin **manually** creates the “Employee Left”, or “Contract Expired” or “End of Product Manufacturing” event of the event type “Employee Termination”, or “Contract Expiration” or “End of Product Manufacturing”. 
+Let’s consider the following scenarios.
 
-  - The creation of this event triggers the retention clock.
-
-The above way to trigger retention can be time-consuming, prone to error and hence stunting scalability. Hence an automated seamless solution to trigger retention can enhance the security and compliance of data.
-
-## Automated Process using a M365 REST API:
-
-This is a process that can be used when large amounts of content is to be retained at a time and/or the frequency to trigger retention is often such as daily or weekly.
-
-Below are 2 options you can use to automate your business process using event-based retention.
-
-### Option 1: Microsoft Flow triggering M365 REST API
-
-**Microsoft Flow or a similar application** can be used to trigger the occurrence of an event automatically. Microsoft Flow is an orchestrator for connecting to other systems. Using Microsoft Flow does not require a custom solution.
-
-### Option 2: <span class="underline"> </span> PowerShell or an HTTP client to call M365 REST API
-
-Using PowerShell (version 6 or higher) to call Microsoft 365 REST API to create events.
-
-A Rest API is a service endpoint that supports sets of HTTP operations (methods), which provide create/retrieve/update/delete access to the service's resources.
-
-In this case, using the Microsoft 365 REST API, events can be created and retrieved using operations (methods) POST and GET
-
-Let’s consider the following scenarios:
-
-# Example scenarios
-
-## Scenario 1: Employees leaving the organization 
+### Scenario 1: Employees leaving the organization 
 
 An organization creates and stores numerous employee related documents per employee. These documents are managed and retained during the employment of each employee. However, when the employee leaves the organization or the employment is terminated, the organization is obligated by legal and business requirements to retain the documents of that employee for a stipulated period.
 
@@ -161,7 +114,7 @@ In addition to this, the retention period needs to be calculated for each of the
 
 The diagram below shows how there can be multiple labels that are associated with a single event. Here all the files under Worker’s compensation label and all the files under Employee benefits label are both associated with a single event which is the employee leaving the organization. Each of these different files have different retention clocks. So, when an employee leaves the organization, these files within each label experience a different retention period. To trigger all these different retention clocks for each file type or label for each employee is a very challenging task. Imagine doing this for multiple employees.
 
-![](c:\\Users\\stephow\\GitHub\\officedocs-o365seccomp-pr\\SecurityCompliance/media/image3.png)
+DIAGRAM
 
 Hence an automated process to trigger these different retention clocks for multiple employees will be time-saving, error-free and extremely efficient .
 
@@ -187,19 +140,17 @@ Hence an automated process to trigger these different retention clocks for multi
 
   - If an employee has left the organization, the Flow will trigger the M365 Event Based Retention REST API that will begin the retention clock on the specific employee’s files.
 
-**Using Microsoft Flow:**
+#### Using Microsoft Flow
 
 Step 1- Create a flow to create an event using the Microsoft 365 REST API
 
-**URL: https://ps.compliance.protection.outlook.com/psws/service.svc/ComplianceRetentionEvent**
+IMAGE
 
-![](c:\\Users\\stephow\\GitHub\\officedocs-o365seccomp-pr\\SecurityCompliance/media/image7.png)
+IMAGE
 
-![](c:\\Users\\stephow\\GitHub\\officedocs-o365seccomp-pr\\SecurityCompliance/media/image8.png)
+##### Create an event
 
-**Sample code to call the M365 Event Based Retention REST API**
-
-**<span class="underline">Create Event</span>**
+Sample code to call the REST API
 
 <table>
 <thead>
@@ -257,6 +208,8 @@ Step 1- Create a flow to create an event using the Microsoft 365 REST API
 </tbody>
 </table>
 
+##### Available parameters
+
 <table>
 <thead>
 <tr class="header">
@@ -290,6 +243,8 @@ Step 1- Create a flow to create an event using the Microsoft 365 REST API
 </tbody>
 </table>
 
+##### Response codes
+
 | **Response Code** | **Description**       |
 | ----------------- | --------------------- |
 | 302               | Redirect              |
@@ -297,7 +252,7 @@ Step 1- Create a flow to create an event using the Microsoft 365 REST API
 | 403               | Authorization Failed  |
 | 401               | Authentication Failed |
 
-**<span class="underline">Get Events based on time range:</span>**
+##### Get Events based on time range
 
 <table>
 <thead>
@@ -343,6 +298,8 @@ Step 1- Create a flow to create an event using the Microsoft 365 REST API
 </tbody>
 </table>
 
+##### Response codes
+
 | **Response Code** | **Description**                   |
 | ----------------- | --------------------------------- |
 | 200               | OK, A list of events in atom+ xml |
@@ -351,9 +308,9 @@ Step 1- Create a flow to create an event using the Microsoft 365 REST API
 | 401               | Authorization Failed              |
 | 403               | Authentication Failed             |
 
-**<span class="underline">Get an Event by ID:</span>**
+##### Get an event by ID
 
-| Method         | GET                                                                                                                                                                                                                                                                |                      |
+| Method         | GET   |                      |
 | -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------- |
 | URL            | [https://ps.compliance.protection.outlook.com/psws/service.svc/ComplianceRetentionEvent(‘174e9a86-74ff-4450-8666-7c11f7730f66’)](https://ps.compliance.protection.outlook.com/psws/service.svc/ComplianceRetentionEvent\('174e9a86-74ff-4450-8666-7c11f7730f66'\)) |                      |
 | Header         | Content-Type                                                                                                                                                                                                                                                       | application/atom+xml |
@@ -361,6 +318,8 @@ Step 1- Create a flow to create an event using the Microsoft 365 REST API
 | Username       | “Complianceuser”                                                                                                                                                                                                                                                   |                      |
 | Password       | “Compliancepassword”                                                                                                                                                                                                                                               |                      |
 
+##### Response codes
+
 | **Response Code** | **Description**                                      |
 | ----------------- | ---------------------------------------------------- |
 | 200               | OK, The response body contains the event in atom+xml |
@@ -369,9 +328,9 @@ Step 1- Create a flow to create an event using the Microsoft 365 REST API
 | 401               | Authorization Failed                                 |
 | 403               | Authentication Failed                                |
 
-**<span class="underline">Get an Event by Name:</span>**
+##### Get an event by name
 
-| Method         | GET                                                                                                                                          |                      |
+| Method         | GET       |                      |
 | -------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- |
 | URL            | <https://ps.compliance.protection.outlook.com/psws/service.svc/ComplianceRetentionEvent('EventByRESTPost-2226bfebcc2841a8968ba71f9516b763')> |                      |
 | Headers        | Content-Type                                                                                                                                 | application/atom+xml |
@@ -379,6 +338,8 @@ Step 1- Create a flow to create an event using the Microsoft 365 REST API
 | Username       | “Complianceuser”                                                                                                                             |                      |
 | Password       | “Compliancepassword”                                                                                                                         |                      |
 
+##### Response codes
+
 | **Response Code** | **Description**                                      |
 | ----------------- | ---------------------------------------------------- |
 | 200               | OK, The response body contains the event in atom+xml |
@@ -387,11 +348,11 @@ Step 1- Create a flow to create an event using the Microsoft 365 REST API
 | 401               | Authorization Failed                                 |
 | 403               | Authentication Failed                                |
 
-**Using PowerShell (ver.6 or higher) or any HTTP client**
+#### Using PowerShell (ver.6 or higher) or any HTTP client
 
 Step 1: Connect to PowerShell.
 
-Step 2: run the following script.
+Step 2: Run the following script.
 
 <table>
 <tbody>
@@ -437,7 +398,7 @@ Step 2: run the following script.
 </tbody>
 </table>
 
-Outcome in both options:
+#### Verify the outcome in both options
 
 Step 1: Go to Security & Compliance Center
 
@@ -445,11 +406,9 @@ Step 2: Click on Events under Data Governance
 
 Step 3: Verify Event has been created.
 
-![cid:image001.jpg@01D4AE51.AC4230B0](c:\\Users\\stephow\\GitHub\\officedocs-o365seccomp-pr\\SecurityCompliance/media/image9.jpeg)
-
 Similarly, the above options to automate event based retention can be used for the following scenarios as well.
 
-## Scenario 2: Contracts Expiring
+### Scenario 2: Contracts Expiring
 
 An organization can have multiple records for a single contract with customers, vendors and partners. These documents can reside in a document library like SharePoint. The ending of a contract determines the start of the retention period of the documents associated with the contract. For example: all records related to contracts need to be retained for five years from the time the contract expires. The event that triggers the five-year retention period is the expiration of the contract.
 
@@ -475,7 +434,7 @@ A Customer Relationship Management (CRM) system can work with Microsoft 365 and 
 
   - If a contract expires, Microsoft Flow will trigger the M365 Event Based Retention REST API that will begin the retention clock on the specific contract’s files.
 
-## Scenario 3: End of Product Manufacturing
+### Scenario 3: End of Product Manufacturing
 
 A manufacturing company that produces different lines of products creates many manufacturing specifications and pricing documents. When the product is no longer manufactured, all specifications and documents linked to this product need to be retained for a specific period after the end of the lifetime of the product.
 
@@ -501,9 +460,9 @@ An Enterprise Resource Planning (ERP) system can work with Microsoft 365 and Mic
 
   - If the manufacturing of a product ends, Microsoft Flow will trigger the M365 Event Based Retention REST API that will begin the retention clock on the specific product’s files.
 
-# Appendix
+## Appendix
 
-**Using Redirect 302 response results to call the REST API**
+### Using Redirect 302 response results to call the REST API
 
 1.  Invoke a POST retention event call using the REST API URL <https://ps.compliance.protection.outlook.com/psws/service.svc/ComplianceRetentionEvent> (Global Admin permissions are required)
 
@@ -511,40 +470,8 @@ An Enterprise Resource Planning (ERP) system can work with Microsoft 365 and Mic
 
 3.  Invoke the POST retention event call again using the redirected URL.
 
-#### **What is a** [REST API](https://docs.microsoft.com/en-us/rest/api/gettingstarted/#components-of-a-rest-api-requestresponse)**?** 
+## Credits
 
-Representational State Transfer (REST) APIs are service endpoints that support sets of HTTP operations (methods), which provide create/retrieve/update/delete access to the service's resources.
+This topic was reviewed by:
 
-#### **Components of a REST API request/response**
-
-A REST API request/response pair can be separated into 5 components:
-
-1.  > The **request URI**, which consists of: {URI-scheme} :// {URI-host} / {resource-path} ? {query-string}. Note that we are calling this out separately here, as most languages/frameworks require you to pass this separately from the request message, but it's actually included in the request message header.
-    
-      - > URI scheme: indicates the protocol used to transmit the request. For example, http or https.
-    
-      - > URI host: the domain name or IP address of the server where the REST service endpoint is hosted, such as graph.microsoft.com
-    
-      - > Resource path: specifies the resource or resource collection, which may include multiple segments used by the service in determining the selection of those resources. For example: beta/applications/00003f25-7e1f-4278-9488-efc7bac53c4a/owners could be used to query the list of owners of a specific application within the applications collection.
-    
-      - > Query string (optional): used to provide additional simple parameters, such as the API version, resource selection criteria, etc.
-
-<!-- end list -->
-
-1.  > HTTP **request message header** fields
-    
-      - > A required [HTTP method](http://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html) (also known as an operation or verb), which tell the service what type of operation you are requesting. Azure REST APIs support GET, HEAD, PUT, POST, and PATCH methods.
-    
-      - > Optional additional header fields as required by the specified URI and HTTP method. For example, an Authorization header that provides a bearer token containing client authorization information for the request.
-
-2.  > Optional HTTP **request message body** fields, to support the URI and HTTP operation. For example, POST operations contain MIME-encoded objects passed as complex parameters. The MIME encoding type for the body should be specified in the Content-type request header as well, for POST/PUT operations. Note that some services require you to use a specific MIME type, such as application/json.
-
-3.  > HTTP **response message header** fields
-    
-      - > An [HTTP status code](http://www.w3.org/Protocols/HTTP/HTRESP.html), ranging from 2xx success codes to 4xx/5xx error codes. Alternatively, a service-defined status code may be returned, as indicated in the API documentation.
-    
-      - > Optional additional header fields as required to support the request's response, such as a Content-type response header.
-
-4.  > Optional HTTP **response message body** fields
-    
-      - > MIME-encoded response objects may be returned in the HTTP response body, such as a response from a GET method that is returning data. Typically these will be returned in a structured format as JSON or XML, as indicated by the Content-type response header. For example, when requesting an access token from Azure AD, it will be returned in the response body as the access\_token element, one of several name/value paired objects in a data collection. In this example, a response header of Content-Type: application/json will also be included.
+Antonio Maio</br>Microsoft Office Apps and Services MVP</br> Antonio.Maio@Protiviti.com
