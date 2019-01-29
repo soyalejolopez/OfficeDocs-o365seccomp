@@ -58,6 +58,7 @@
 ### [Bulk create and publish retention labels by using PowerShell](https://docs.microsoft.com/en-us/office365/securitycompliance/bulk-create-publish-labels-using-powershell)
 ### [Disposition reviews](disposition-reviews.md)
 ### [Event-driven retention](event-driven-retention.md)
+### [Automate event-based retention](automate-event-driven-retention.md)
 ### [File plan manager](file-plan-manager.md)
 ## [Supervise communications](supervision-policies.md)
 ### [Configure supervision policies for your organization](configure-supervision-policies.md)
