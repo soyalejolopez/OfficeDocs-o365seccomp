@@ -1,5 +1,5 @@
 ---
-title: "Managing jobs in eDiscovery 2.0"
+title: "Managing jobs in Advanced eDiscovery (Preview)"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -17,11 +17,19 @@ ms.assetid:
 description: ""
 ---
 
-# Managing jobs in eDiscovery 2.0
+# Managing jobs in Advanced eDiscovery (Preview)
 
+Here's a list of the jobs that are tracked on the **Jobs** tab of a case in Advanced eDiscovery (Preview).
 
-## List of jobs
-
-
-## Support information about jobs
-
+- Re-indexing custodian data
+- Estimating search results
+- Preparing search preview
+- Adding data to a working set
+- Adding data to another working set
+- Adding non-Office 365 data to a working set
+- Preparing for error resolution
+- Adding remediated data to a working set
+- Comparing load sets
+- Tagging documents
+- Running analytics
+- Preparing data for export

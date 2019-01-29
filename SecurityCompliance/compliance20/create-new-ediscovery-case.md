@@ -1,5 +1,5 @@
 ---
-title: "Create a new case in eDiscovery 2.0"
+title: "Create a new case in Advanced eDiscovery (Preview)"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -16,34 +16,28 @@ ms.assetid:
 
 description: ""
 ---
+1. Go to [https://protection.office.com](https://protection.office.com).
+    
+2. Sign in to Office 365 using your work or school account.
+    
+3. In the Security & Compliance Center, click **eDiscovery > Advanced eDiscovery**.
+ 
+4. On the **Advanced eDiscovery (Preview)** page, click **Create a case**.
+    
+5. On the **New eDiscovery case** flyout page, give the case a name (required), and then type an optional case number and description. Note that the case name must be unique in your organization.
 
-# Create a new case in eDiscovery 2.0
+6. Under Do you want to configure additional settings after creating this case, do one of the following:
 
-Using Advanced eDiscovery in the Office 365 Security & Compliance Center, you can manage custodians, find, retain and review information needed in legal investigations. In an Advanced eDiscovery case, you can add members who can access the case, control what types of actions that specific case members can perform, search for and place a legal hold on content locations relevant to a legal case. You can also create static copies of gathered content to review, annotate and export.
+    - Click **Yes** to create the case, and display the **Settings** page in the new case. This allows you to add members to the case.
+    
+    - Click **No** to just create case and display it in the list of cases on the **Advanced eDiscovery (Preview)** page. If you choose this option, you will be added as the only member of the case and the default search and analytics settings will be used. You can add members or change settings any time after the case is created.
 
-Below is recommended workflow to set up and use Advanced eDiscovery cases in the Security & Compliance Center.
+7. Click **Save** to create the case.
 
-•    Manage role group and permissions
-•    Create a new case
-•    Add members to the case
-•    Configure case settings
+    The new case is displayed in the list of cases on the **Advanced eDiscovery (Preview)** page. 
 
-# Manage role group and permissions
+8. To open a case, click the name of the case. 
 
-# Create a new case
+    The **Home** tab for the case is displayed. For example, here's a new case named *Contoso Investigation*.
 
-1. Click Create a case located above the list of cases.
-2. Create a name for your case and add additional information about your case. Under “Do you want to configure additional settings after creating this case?,” select “Yes, I want to add members or configure analytics settings.”
-3. Click Save.
-
-# Add members to the case
-
-1. In "Settings" tab, Click Select in Access & permissions.
-2. Click Update.
-3. Add people or role group as a new member to the case.
-4. Click Save.
-
-# Configure case settings
-
-1. Click Search & analytics.
-2. Enable or disable advanced analytics features such as near duplicate detection, themes, optical character recognition. You can configure analytics which is run when you add search results into a working set. To learn more about analytics, see more.
+    ![The Home tab for a new case in Advanced eDiscovery](../media/newAeDcase.png)
