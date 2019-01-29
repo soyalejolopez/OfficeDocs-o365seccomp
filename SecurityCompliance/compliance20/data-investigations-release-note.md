@@ -26,4 +26,4 @@ The Public Preview program for Data investigations is the way to get early acces
 - **SCC Hard delete cmdlet** - In urgent situations, you want to delete misplaced items immediately. SCC hard delete cmdlet marks items to be permanently removed from mailboxes. 
 
 ## Data spillage scenario user guide 
-To learn more, read this article](https://go.microsoft.com/fwlink/?linkid=2059481)
+To learn more, read [this article](https://go.microsoft.com/fwlink/?linkid=2059481)
