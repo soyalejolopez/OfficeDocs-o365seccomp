@@ -39,7 +39,7 @@ Preview samples of search results and statistics to evaluate your search query. 
 **Important:** The keywords that you use in the search query may contain the actual spilled data that you're searching for. For example, if you searching for documents containing a social security number and you use the it as search keyword, you must delete the query afterwards to avoid further spillage. You can delete search or entire investigation in [Step 5](##step-5:-close-or-delete-investigation). 
 
 ## Step 3: Review and investigate 
-Click on the search that you want to investigate. In the information panel, click on “Add to incident” and follow instructions. Go to “Incidents” tab and click on the incident that you just created. Once processing job is completed, you can review individual documents in native, text and annotate view. You can also create queries to filter the list and tag documents to mark with investigation findings. 
+Click on the search that you want to investigate. In the information panel, click on “Add to incident” and follow instructions. Go to “Incidents” tab and click on the incident that you just created. Once processing job is completed, you can review individual documents in native, text, and near-native. You can also create queries to filter the list and tag documents to mark with investigation findings. 
 
 To group documents together and get more assistance in review, click “Analyze” in “Incident configuration”. This will run advanced analytics such as email threading, duplication and theme analysis. 
 
