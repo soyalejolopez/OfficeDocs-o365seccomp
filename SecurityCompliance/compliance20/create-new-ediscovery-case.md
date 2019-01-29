@@ -16,6 +16,9 @@ ms.assetid:
 
 description: ""
 ---
+
+# Create a new case in Advanced eDiscovery (Preview)	
+
 1. Go to [https://protection.office.com](https://protection.office.com).
     
 2. Sign in to Office 365 using your work or school account.
