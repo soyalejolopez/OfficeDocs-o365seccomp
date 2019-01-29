@@ -3,7 +3,7 @@ title: "New Office 365 Message Encryption policy for sensitive information"
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 1/9/2019
+ms.date: 1/16/2019
 ROBOTS: NOINDEX, NOFOLLOW
 audience: ITPro
 ms.topic: article

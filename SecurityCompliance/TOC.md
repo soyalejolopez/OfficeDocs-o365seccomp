@@ -1,12 +1,12 @@
-# [Get started]()
+# [Get started]
 ## [Office 365 security roadmap](security-roadmap.md)
 ## [Configure your Office 365 tenant for increased security](tenant-wide-setup-for-increased-security.md)
-## [Go to the Security & Compliance Center](go-to-the-securitycompliance-center.md)
+## [Go to the Office 365 Security & Compliance Center](go-to-the-securitycompliance-center.md)
+## [Get ready for the new Microsoft 365 security center and Microsoft 365 compliance center](microsoft-security-and-compliance.md)
 ## [Office 365 Secure Score](office-365-secure-score.md)
 ## [Permissions in the Security & Compliance Center](permissions-in-the-security-and-compliance-center.md)
 ## [Give users access to the Security & Compliance Center](grant-access-to-the-security-and-compliance-center.md)
 ## [Security Dashboard overview](security-dashboard.md)
-## [Install the Supervision add-in for Outlook desktop](install-the-supervision-add-in-for-outlook-desktop.md)
 ## [Use your free Azure Active Directory subscription](use-your-free-azure-ad-subscription-in-office-365.md)
 ## [Plan for security and compliance in Office 365](plan-for-security-and-compliance.md)
 # Protect access to data and services
@@ -15,6 +15,7 @@
 # Protect information
 ## [Sensitivity labels](sensitivity-labels.md)
 ### [Restrict access to content by using encryption in sensitivity labels](encryption-sensitivity-labels.md)
+### [Apply a sensitivity label to content automatically](apply_sensitivity_label_automatically.md)
 ## [Prevent data loss (DLP)](data-loss-prevention-policies.md)
 ### [Watch an extended overview of DLP](https://channel9.msdn.com/events/ignite/microsoft-ignite-orlando-2017/brk3111)
 ## Set up DLP
@@ -37,6 +38,15 @@
 ### [Create a custom sensitive information type in Office 365 Security & Compliance Center PowerShell](create-a-custom-sensitive-information-type-in-scc-powershell.md)
 ### [Create a keyword dictionary](create-a-keyword-dictionary.md)
 ### [Document Fingerprinting](document-fingerprinting.md) 
+# Records management
+## [Retention policies](retention-policies.md)
+## [Retention labels](labels.md)
+## [Use Exchange Online and the Security & Compliance Center to comply with SEC Rule 17a-4](use-exchange-online-to-comply-with-sec-rule-17a-4.md)
+## [Disposition reviews](disposition-reviews.md)
+## [Event-driven retention](event-driven-retention.md)
+## [Automate event-based retention](automate-event-driven-retention.md)
+## [File plan manager](file-plan-manager.md)
+## [Bulk create and publish retention labels by using PowerShell](https://docs.microsoft.com/en-us/office365/securitycompliance/bulk-create-publish-labels-using-powershell)
 # Manage data governance		
 ## [Import data](importing-pst-files-to-office-365.md)
 ### [Use network upload to import PST files](use-network-upload-to-import-pst-files.md)
@@ -54,10 +64,14 @@
 ## Retain data
 ### [Retention policies](retention-policies.md)
 ### [Retention labels](labels.md)
-### [Bulk create and publish retention labels by using PowerShell](https://docs.microsoft.com/en-us/office365/securitycompliance/bulk-create-publish-labels-using-powershell)
+### [Use Exchange Online and the Security & Compliance Center to comply with SEC Rule 17a-4](use-exchange-online-to-comply-with-sec-rule-17a-4.md)
 ### [Disposition reviews](disposition-reviews.md)
 ### [Event-driven retention](event-driven-retention.md)
+### [Automate event-based retention](automate-event-driven-retention.md)
 ### [File plan manager](file-plan-manager.md)
+### [Bulk create and publish retention labels by using PowerShell](https://docs.microsoft.com/en-us/office365/securitycompliance/bulk-create-publish-labels-using-powershell)
+## [Supervise communications](supervision-policies.md)
+### [Configure supervision policies for your organization](configure-supervision-policies.md)
 ## [Manage inactive mailboxes](inactive-mailboxes-in-office-365.md)
 ### [Create and manage inactive mailboxes](create-and-manage-inactive-mailboxes.md)
 ### [Change the hold duration for an inactive mailbox](change-the-hold-duration-for-an-inactive-mailbox.md)
@@ -67,9 +81,6 @@
 ## Monitor data governance
 ### [View the data governance reports](view-the-data-governance-reports.md)
 ### [View label activity for documents](view-label-activity-for-documents.md)
-### [Configure supervision policies for your organization](configure-supervision-policies.md)
-### [Install the Supervision add-in for Outlook desktop](install-the-supervision-add-in-for-outlook-desktop.md)
-### [Supervision reports](supervision-reports.md)
 ## More information about data governance
 ### [Watch videos from the Microsoft Data Governance team](https://go.microsoft.com/fwlink/?linkid=867039)
 # [Protect against threats](protect-against-threats.md)
@@ -128,6 +139,7 @@
 ### [Use Explorer in the Security & Compliance Center](use-explorer-in-security-and-compliance.md)
 ## [Office 365 Cloud App Security](office-365-cas-overview.md)
 ### [What's new in Office 365 Cloud App Security](new-in-office-365-cas.md)
+#### [Updates during 2018](new-in-office-365-cas-2018.md)
 #### [Updates during 2017](new-in-office-365-cas-2017.md)
 ### [Get ready for Office 365 Cloud App Security](get-ready-for-office-365-cas.md)
 ### [Set up Office 365 Cloud App Security](turn-on-office-365-cas.md)
@@ -194,41 +206,115 @@
 ### [Delete items in the Recoverable Items folder of cloud-based mailboxes on hold](delete-items-in-the-recoverable-items-folder-of-mailboxes-on-hold.md)
 ### [Increase the Recoverable Items quota for mailboxes on hold](increase-the-recoverable-quota-for-mailboxes-on-hold.md)
 ### [How to identify the type of hold placed on an Exchange Online mailbox](identify-a-hold-on-an-exchange-online-mailbox.md)
+
+## [Advanced eDiscovery (Preview) in Microsoft 365](compliance20/overview-ediscovery-20.md)
+### [Release notes](compliance20/release-notes-ediscovery20.md)
+### [Create a new case](compliance20/create-new-ediscovery-case.md)
+
+### [Working with custodians](compliance20/managing-custodians.md)
+#### [Add custodians to a case](compliance20/add-custodians-to-case.md)
+#### [Managing custodians](compliance20/manage-new-custodians.md)
+#### [Viewing custodian activity](compliance20/view-custodian-activity.md)
+
+### [Working with communications](compliance20/managing-custodian-communications.md)
+#### [Create a hold notification](compliance20/create-hold-notification.md)
+#### [Using the communications editor](compliance20/using-communications-editor.md)
+#### [Manage hold notifications](compliance20/manage-hold-notification.md)
+#### [Edit a hold notification](compliance20/edit-hold-notification.md)
+#### [Acknowledging hold notifications](compliance20/acknowledge-hold-notification.md)
+
+### [Managing holds](compliance20/managing-holds.md)
+
+### [Fixing processing errors](compliance20/processing-data-for-case.md)
+#### [Advanced indexing of custodian data](compliance20/indexing-custodian-data.md)
+#### [Error remediation when processing data](compliance20/error-remediation.md)
+
+### [Collecting data for a case](compliance20/collecting-data-for-ediscovery.md)
+#### [Create a search to collect data](compliance20/create-search-to-collect-data.md)
+#### [Building search queries](compliance20/building-search-queries.md)
+#### [Search statistics](compliance20/search-statistics.md)
+#### [Add search results to a working set](compliance20/add-data-to-working-set.md)
+
+### [Reviewing case data](compliance20/reviewing-data-in-working-set.md)
+#### [Managing working sets](compliance20/managing-working-sets.md)
+#### [Manage load sets](compliance20/manage-load-sets.md)
+#### [Load non-Office 365 data into a working set](compliance20/load-non-office365-data.md)
+#### [Querying the data in a working set](compliance20/working-set-search.md)
+#### [Viewing documents in a working set](compliance20/annotating-and-redacting-documents.md)
+#### [Tagging documents in a working set](compliance20/tagging-documents.md)
+
+### [Analyzing case data](compliance20/analyzing-data-in-working-set.md)
+#### [Near duplicate detection](compliance20/near-duplicates.md)
+#### [Email threading](compliance20/email-threading.md)
+#### [Themes](compliance20/themes.md)
+#### [Using the Relevance module to analyze data](compliance20/using-relevance.md)
+
+### [Exporting case data](compliance20/exporting-data-ediscover20.md)
+#### [Export documents from a working set](compliance20/export-documents-from-working-set.md)
+#### [Download export jobs](compliance20/download-export-jobs.md)
+
+### [Managing jobs](compliance20/managing-jobs-ediscovery20.md)
+
+### [Configuring case settings](compliance20/configuring-case-settings-ediscovery20.md)
+#### [Close or delete a case](compliance20/close-or-delete-case.md)
+#### [Add or remove members from a case](compliance20/add-remove-members.md)
+#### [Configure search and analytics settings](compliance20/configure-search-analytics-settings.md)
+
+### Advanced eDiscovery (Preview) reference
+#### [Search limits](compliance20/search-limits-ediscovery20.md)
+#### [Indexing limits](compliance20/indexing-limits-ediscovery20.md)
+#### [Export limits](compliance20/export-limits-ediscovery20.md)
+#### [Download limits](compliance20/download-limits-ediscovery20.md)
+#### [Supported file types](compliance20/supported-filetypes-ediscovery20.md)
+#### [Document metadata fields](compliance20/document-metadata-fields.md)
+
 ## [Office 365 Advanced eDiscovery](office-365-advanced-ediscovery.md)
-### [Quick setup for Office 365 Advanced eDiscovery](quick-setup-for-advanced-ediscovery.md)
-### [Import non-Office 365 content for Advanced eDiscovery analysis](import-non-office-365-data-into-advanced-ediscovery.md)
-### [Set up users and cases in Office 365 Advanced eDiscovery](set-up-users-and-cases-in-advanced-ediscovery.md)
-### [Export results in Office 365 Advanced eDiscovery](export-results-in-advanced-ediscovery.md)
-### [Run the Process module in Office 365 Advanced eDiscovery](run-the-process-module-in-advanced-ediscovery.md)
-### [Analyze case data with Office 365 Advanced eDiscovery](analyze-case-data-with-advanced-ediscovery.md)
-### [Export case data in Office 365 Advanced eDiscovery](export-case-data-in-advanced-ediscovery.md)
-### [Use Office 365 Advanced eDiscovery utilities](use-advanced-ediscovery-utilities.md)
-### [User roles and access in Office 365 Advanced eDiscovery](user-roles-and-access-in-advanced-ediscovery.md)
-### [Manage Relevance setup in Office 365 Advanced eDiscovery](manage-relevance-setup-in-advanced-ediscovery.md)
-### [Use the Relevance module in Office 365 Advanced eDiscovery](use-relevance-in-advanced-ediscovery.md)
-### [Tagging and Relevance training in Office 365 Advanced eDiscovery](tagging-and-relevance-training-in-advanced-ediscovery.md)
-### [Run the Process module and load data in Office 365 Advanced eDiscovery](run-the-process-module-and-load-data-in-advanced-ediscovery.md)
-### [Define case and tenant settings in Office 365 Advanced eDiscovery](define-case-and-tenant-settings-in-advanced-ediscovery.md)
-### [Run reports in Office 365 Advanced eDiscovery](run-reports-in-advanced-ediscovery.md)
-### [View Analyze results in Office 365 Advanced eDiscovery](view-analyze-results-in-advanced-ediscovery.md)
-### [Use Express Analysis in Office 365 Advanced eDiscovery](use-express-analysis-in-advanced-ediscovery.md)
-### [Prepare data for Office 365 Advanced eDiscovery](prepare-data-for-advanced-ediscovery.md)
-### [Export report fields in Office 365 Advanced eDiscovery](export-report-fields-in-advanced-ediscovery.md)
-### [Tagging and Assessment in Office 365 Advanced eDiscovery](tagging-and-assessment-in-advanced-ediscovery.md)
-### [Understand document similarity in Office 365 Advanced eDiscovery](understand-document-similarity-in-advanced-ediscovery.md)
-### [Define highlighted keywords and advanced options in Office 365 Advanced eDiscovery](define-highlighted-keywords-and-advanced-options.md)
-### [Set Ignore Text option for Analyze in Office 365 Advanced eDiscovery](set-ignore-text-in-advanced-ediscovery.md)
-### [View batch history and export past results in Office 365 Advanced eDiscovery](view-batch-history-and-export-past-results.md)
-### [Set Analyze options in Office 365 Advanced eDiscovery](set-analyze-options-in-advanced-ediscovery.md)
-### [View Process module results in Office 365 Advanced eDiscovery](view-process-module-results-in-advanced-ediscovery.md)
-### [Track Relevance analysis in Office 365 Advanced eDiscovery](track-relevance-analysis-in-advanced-ediscovery.md)
-### [Decision based on the results in Office 365 Advanced eDiscovery](decision-based-on-the-results-in-advanced-ediscovery.md)
-### [Test Relevance analysis in Office 365 Advanced eDiscovery](test-relevance-analysis-in-advanced-ediscovery.md)
-### [Set up loads to add imported files in Office 365 Advanced eDiscovery](set-up-loads-to-add-imported-files.md)
-### [Define issues and assign users in Office 365 Advanced eDiscovery](define-issues-and-assign-users.md)
-### [Set Analyze advanced settings in Office 365 Advanced eDiscovery](set-analyze-options-in-advanced-ediscovery.md)
-### [Understand Assessment in Relevance in Office 365 Advanced eDiscovery](assessment-in-relevance-in-advanced-ediscovery.md)
-### [Tagging and Search](search-and-tagging.md)
+### [Getting started in Advanced eDiscovery](quick-setup-for-advanced-ediscovery.md)
+
+### [Setting up cases](set-up-users-and-cases-in-advanced-ediscovery.md)
+#### [Defining issues for a case](define-issues-and-assign-users.md)
+
+### Collecting case data
+#### [Prepare data for Advanced eDiscovery](prepare-data-for-advanced-ediscovery.md)
+#### [Import non-Office 365 content to a case](import-non-office-365-data-into-advanced-ediscovery.md)
+
+### [Processing case data](run-the-process-module-in-advanced-ediscovery.md)
+#### [Run the Process module and load data](run-the-process-module-and-load-data-in-advanced-ediscovery.md)
+#### [View Process module results](view-process-module-results-in-advanced-ediscovery.md)
+
+### Reviewing case data
+#### [Search and tag case data](search-and-tagging.md)
+#### [Making decisions about the review set](decision-based-on-the-results-in-advanced-ediscovery.md)
+
+### [Analyzing case data](analyze-case-data-with-advanced-ediscovery.md)
+#### [Run Express Analysis](use-express-analysis-in-advanced-ediscovery.md)
+#### [Overview of document similarity (near duplicates)](understand-document-similarity-in-advanced-ediscovery.md)
+#### [View the results of analysis](view-analyze-results-in-advanced-ediscovery.md)
+
+### [Using the Relevance module](use-relevance-in-advanced-ediscovery.md)
+#### [Overview of Relevance assessment](assessment-in-relevance-in-advanced-ediscovery.md)
+#### [Perform Relevance assessment and tagging](tagging-and-assessment-in-advanced-ediscovery.md)
+#### [Set up Relevance training](manage-relevance-setup-in-advanced-ediscovery.md)
+#### [Perform Relevance training and tagging](tagging-and-relevance-training-in-advanced-ediscovery.md)
+#### [Track the Relevance training process](track-relevance-analysis-in-advanced-ediscovery.md)
+#### [Test the results of Relevance analysis](test-relevance-analysis-in-advanced-ediscovery.md)
+#### [Load additional data for Relevance training](set-up-loads-to-add-imported-files.md)
+
+### [Exporting case data](export-case-data-in-advanced-ediscovery.md)
+#### [Export data](export-results-in-advanced-ediscovery.md)
+#### [Export report fields](export-report-fields-in-advanced-ediscovery.md)
+#### [View batch history and export past results](view-batch-history-and-export-past-results.md)
+
+### Configuring Advanced eDiscovery
+#### [Configure case and organization settings](define-case-and-tenant-settings-in-advanced-ediscovery.md)
+#### [Configure analysis settings](set-analyze-options-in-advanced-ediscovery.md)
+#### [Configure Ignore Text settings](set-ignore-text-in-advanced-ediscovery.md)
+#### [Configure highlighted keywords and other Relevance settings](define-highlighted-keywords-and-advanced-options.md)
+
+### Advanced eDiscovery reference
+#### [Use Advanced eDiscovery utilities](use-advanced-ediscovery-utilities.md)
+#### [Run reports](run-reports-in-advanced-ediscovery.md)
+
 # [Search the audit log](search-the-audit-log-in-security-and-compliance.md)
 ## [Turn audit log search on or off](turn-audit-log-search-on-or-off.md)
 ## [Enable mailbox auditing](enable-mailbox-auditing.md)
@@ -239,7 +325,7 @@
 # [Monitor security and compliance]()
 ## [Alert policies](alert-policies.md)
 ## [Smart reports and insights in the Security & Compliance Center](reports-and-insights-in-security-and-compliance.md)
-### [ View email security reports in the Security & Compliance Center](view-email-security-reports.md)
+### [View email security reports in the Security & Compliance Center](view-email-security-reports.md)
 #### [Walkthrough - From a detailed report to an insight](from-a-detailed-report-to-an-insight.md)
 #### [Walkthrough - From an insight to a detailed report](from-an-insight-to-a-detailed-report.md)
 #### [Walkthrough - From a dashboard to an insight](from-a-dashboard-to-an-insight.md)
@@ -249,6 +335,14 @@
 #### [Download existing reports](download-existing-reports.md)
 ## [Enable or disable safety tips in Office 365](enable-or-disable-safety-tips.md)
 ## [Enable the Report Message add-in](enable-the-report-message-add-in.md)
+# Mail flow
+## [Message trace in the Security & Compliance Center](message-trace-scc.md)
+## [Mail flow insights in the Security & Compliance Center](mail-flow-insights.md)
+### [Auto-forwarded messages report](mfi-auto-forwarded-messages-report.md)
+### [Mail loop insight](mfi-mail-loop-insight.md)
+### [Outbound and inbound mail flow](mfi-outbound-and-inbound-mail-flow.md)
+### [Queue alerts and Queues](mfi-queue-alerts-and-queues.md)
+### [Slow mail flow rules insight](mfi-slow-mail-flow-rules-insight.md)
 # Security solutions
 ## [Microsoft Security Guidance for Political Campaigns, Nonprofits, and Other Agile Organizations](microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md)
 ### [Configure groups and users for a political campaign dev/test environment](configure-groups-and-users-for-a-political-campaign-dev-test-environment.md)
@@ -263,7 +357,6 @@
 ### [Manage an isolated SharePoint Online team site](manage-an-isolated-sharepoint-online-team-site.md)
 ### [Isolated SharePoint Online team site dev/test environment](isolated-sharepoint-online-team-site-dev-test-environment.md)
 ## [SIEM server integration](siem-server-integration.md)
-
 # Compliance solutions
 ## [Microsoft Service Trust Portal](get-started-with-service-trust-portal.md)
 ## [Compliance Manager](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md)
