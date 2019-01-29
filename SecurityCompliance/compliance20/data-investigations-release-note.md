@@ -1,6 +1,6 @@
 # Release notes for Data investigations (Preview)
 
-The Public Preview program for Data investigations is the way to get early access to the upcoming functionality and updates. To get early access to the newest features, create a new investigation in Data investigations (Preview) in the Office 365 Security & Compliance Center. 
+You can use Data investigations triage, investigate and remediate data related incidents such as data spillage. The Public Preview program for Data investigations is the way to get early access to the upcoming functionality and updates. To get early access to the newest features, create a new investigation in Data investigations (Preview) in the Office 365 Security & Compliance Center. 
 
 ## What’s new 
 - **Investigation** – You can group searches and incidents by an investigation. Manage who can access the investigation by adding or removing members. Once you complete your investigation, change the status to closed or delete it. You can also select and save your favorite investigations. Track and monitor activity within and across investigations using new dashboards.
