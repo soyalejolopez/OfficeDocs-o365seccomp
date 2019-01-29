@@ -50,6 +50,8 @@ When you export a report, it's downloaded to a folder that has the same name as 
 
 - If the estimated total size of the results returned by a Content Search exceeds 20&nbsp;TB, exporting the report will fail. To successfully export the report, try to narrow the scope and re-run the search so the estimated size of the results is less than 20&nbsp;TB.
 
+- Exporting Content Search reports counts against the maximum number of exports running at the same time and the maximum number of exports that a single user can run. For more information about export limits, see [Export Content Search results from the Office 365 Security & Compliance Center](export-search-results.md#export-limits).
+
 ## Generate and download a Content Search report
 
 The steps to generate and download a Content Search report are very similar to actually exporting search results.

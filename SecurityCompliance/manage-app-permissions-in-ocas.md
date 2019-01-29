@@ -3,7 +3,7 @@ title: "Manage OAuth apps using Office 365 Cloud App Security"
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 12/03/2018
+ms.date: 12/26/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -23,20 +23,16 @@ description: "OAuth apps in Office 365 Cloud App Security help you manage the ap
    
 People love apps and they download them often, especially apps that people think will save time by making it easier to get at their work or school information. However, some apps could potentially be a security risk to your organization, depending on what information they access and how they handle that information. With [Office 365 Cloud App Security](office-365-cas-overview.md), if you are a global or security administrator, you can manage OAuth apps for your organization. You can see the apps people are using with Office 365 data, what permissions those apps have, and more. 
   
-This article describes where to go to manage OAuth apps, how to approve or ban an app, and how to create an app query.
+This article describes where to go to manage OAuth apps, how to approve, ban, or report an app, and how to create an app query.
   
 ## How to find the Manage OAuth apps page
 
 > [!NOTE]
 > OAuth apps are managed in the Office 365 Cloud App Security portal. You must be a global administrator or security administrator to perform the following task. To learn more see [Permissions in the Office 365 Security &amp; Compliance Center](permissions-in-the-security-and-compliance-center.md). 
   
-1. Go to [https://protection.office.com](https://protection.office.com) and sign in using your work or school account for Office 365. (This takes you to the Security &amp; Compliance Center.) 
-    
-2. Go to **Alerts** \> **Manage advanced alerts**.
-    
-3. Click (or tap) **Go to Office 365 Cloud App Security**.<br/>![In the Security &amp; Compliance Center, choose Manage Advanced Alerts to go to Office 365 Cloud App Security](media/958632d4-03e3-4ade-8e22-d5509db6fca7.png)<br/>NO****TE: If Office 365 Cloud App Security is not turned on yet, you can do that on this page. See [Get ready for Office 365 Cloud App Security](get-ready-for-office-365-cas.md). 
+1. Go to the Cloud App Security portal ([https://portal.cloudappsecurity.com](https://portal.cloudappsecurity.com)) and sign in.
   
-4. Choose **Investigate** \> **OAuth apps**.<br/>![In the O365 CAS portal, choose Investigate.](media/8c7b87c9-71a6-4952-adb2-185e941ffe9a.png)<br/>
+2. Choose **Investigate** \> **OAuth apps**.<br/>![In the O365 CAS portal, choose Investigate.](media/OCAS-OAuthApps.png)<br/>
   
 ## What you'll see on the Manage OAuth apps page
 
@@ -51,13 +47,14 @@ The following table describes the controls and options available on the Manage O
 |Name  <br/> |Use this to see the name of an app. Select the name to view more information, such as its description, publisher, app website and app ID.  <br/> |
 |Authorized by  <br/> |Use this to see how many users have authorized an app to access their Office 365 account. Select the number to view more information, such as a list of user accounts.  <br/> |
 |Permissions Level  <br/> ![Icon that indicates the permisiions level for an app](media/aaebdd29-35b6-4c62-aef1-7c7817bd803d.png)|Use this to see how much access an app has to Office 365 data. Permissions levels indicate **Low**, **Medium**, or **High**, where **Low** might indicate that the app only accesses a user's profile and name. Select the level to view more information, such as permissions granted to the app, community use, and related activity in the [Governance log](suspend-or-restore-an-account-in-ocas.md).  <br/> |
-|App state ( **Banned**, **Approved**, or **Undetermined**)  <br/> ![icons after being allowed, blocked, or no action has been taken by an admin](media/5748bd02-cd59-4bd1-a36f-d25a186e8055.png)|Use this to mark an app as Approved or Banned, or leave it as undetermined.  <br/> |
+|Last authorized <br/> |Use this to see the date and time an OAuth app was last authorized to access your organization's Office 365 data. <br/>  |
+|Actions<br/>![OAuth apps](media/OCAS-OAuthAppApproveBanReport.png)<br/> |Use this to see or to mark an app as Approved or Banned, report an OAuth app to Microsoft, or leave it as undetermined.  <br/> |
    
 ## Mark an app as approved
 
 On the **Manage OAuth apps** page, locate the app you want to approve, and choose the **Mark app as approved** icon. 
   
-![Choose the Mark app as approved icon](media/dd1b7690-441a-48c9-9c3a-58466513c63d.png)
+![Choose the Mark app as approved icon](media/OCAS-MarkOAuthApproved.png)
   
 The icon turns green, and the app is approved for all your Office 365 users.
   
@@ -66,34 +63,50 @@ The icon turns green, and the app is approved for all your Office 365 users.
   
 ## Ban an app
 
-1. On the **Manage OAuth apps** page, locate the app you want to ban, and choose the **Mark app as banned** icon.<br/>![Choose the Mark app as banned icon](media/b9b1c5f6-fde7-46d5-8589-1564d05702b3.png)
+1. On the **Manage OAuth apps** page, locate the app you want to ban, and choose the **Mark app as banned** icon.<br/>![Choose the Mark app as banned icon](media/OCAS-MarkOAuthBanned.png)
   
-2. Choose whether to let users know that their app has been banned. <br/>
-    
-    - (Recommended) To let users know, select **Notify users who granted access to this banned app**, and add or edit a custom notification message.
-    
-    - To not let users know, clear **Notify users who granted access to this banned app**.<br/>![The mail template for a banned app](media/6d132700-5f7f-472c-bfb5-a44549e69c16.jpg)<br/>
+2. In the notification message box, keep the existing text as it is, or customize the text. Choose whether to let users know that their app has been banned. <br/>![The mail template for a banned app](media/6d132700-5f7f-472c-bfb5-a44549e69c16.jpg)<br/>
   
 3. Choose **Ban app**.
+
+## Report an OAuth app to Microsoft
+
+If you want to submit an OAuth app to Microsoft for analysis, you can report that app.
+
+1. On the **Manage OAuth apps** page, locate the app you want to submit for analysis.
+
+2. Choose the vertical ellipsis, and then choose **Report app...**.<br/>![Report an OAuth app](media/OCAS-MarkOAuthReported.png)<br/>
+
+3. In the **Report this app** dialog box, use the drop-down list to indicate your concern. By default, **This app is malicious** is selected. However, you can choose on one of the other available options. <br/>![Report an OAuth app](media/OCAS-ReportOAuthApp.png)<br/>
+
+4. (Recommended) Keep the option to contact you selected, and confirm (or edit) the email address listed.
+
+5. Choose **Submit**. 
     
 ## Create an app query
 
-1. In the app query bar, if you see **Advanced**, click (or tap) it to go to the Advanced view. (If you see Basic, you are using the Advanced view; keep your view as it is.)
+We recommend using the Advanced view, which looks like this: 
+
+![Advanced view](media/OCAS-OAuthAppsAdvQueryView.png)
+
+In the app query bar, if you see **Advanced**, you're using the Basic view. Click (or tap) **Advanced** to go to the Advanced view. 
+
+![Basic view](media/OCAS-OAuthAppsBasicQueryView.png)
     
-2. Use the **Select a filter** list to choose an option. 
-    - **App** Apps with certain names 
+1. In the query bar, use the **Select a filter** list to choose an option. 
+    - **App** Apps with certain names
     - **App state** Apps based on their state (Approved, Banned, or Undetermined)
     - **Community use** Apps based on community use levels (Rare, Uncommon, or Common)
     - **Permission level** Apps based on certain permission levels 
     - **Permissions** Apps that require certain permissions
-    - **Publisher** <br/> |Apps from certain publishers
+    - **Publisher**  Apps from certain publishers
     - **User** Apps that a certain user authorized
    
-3. Select **equals** or **does not equal**, and then specify a value for your filter.
+2. Select **equals** or **does not equal**, and then specify a value for your filter.
     
-4. To add more filters, select the plus sign (![Add a filter icon for querying apps](media/771b2958-67cd-4e14-9302-283ef238cae5.jpg)), and then repeat steps 2 and 3.
+3. To add more filters, select the plus sign (![Add a filter icon for querying apps](media/771b2958-67cd-4e14-9302-283ef238cae5.jpg)), and then repeat steps 2 and 3.
     
-5. To remove a filter, select the x (![Remove a filter icon for querying apps](media/5339277f-555d-4749-8dcc-d2574250556e.jpg)) next to a filter name.
+4. To remove a filter, select the x (![Remove a filter icon for querying apps](media/5339277f-555d-4749-8dcc-d2574250556e.jpg)) next to a filter name.
     
 The filters are applied automatically, and the apps list is updated accordingly.
   
