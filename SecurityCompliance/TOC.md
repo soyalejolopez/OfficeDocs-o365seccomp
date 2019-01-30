@@ -12,6 +12,7 @@
 # Protect access to data and services
 ## [Protect access to data and services in Office 365](protect-access-to-data-and-services.md)
 ## [Choose between MDM and Intune](choose-between-mdm-and-intune.md)
+
 # Protect information
 ## [Sensitivity labels](sensitivity-labels.md)
 ### [Restrict access to content by using encryption in sensitivity labels](encryption-sensitivity-labels.md)
@@ -37,7 +38,8 @@
 ### [Create a custom sensitive information type](create-a-custom-sensitive-information-type.md)
 ### [Create a custom sensitive information type in Office 365 Security & Compliance Center PowerShell](create-a-custom-sensitive-information-type-in-scc-powershell.md)
 ### [Create a keyword dictionary](create-a-keyword-dictionary.md)
-### [Document Fingerprinting](document-fingerprinting.md) 
+### [Document Fingerprinting](document-fingerprinting.md)
+
 # Records management
 ## [Retention policies](retention-policies.md)
 ## [Retention labels](labels.md)
@@ -47,6 +49,7 @@
 ## [Automate event-based retention](automate-event-driven-retention.md)
 ## [File plan manager](file-plan-manager.md)
 ## [Bulk create and publish retention labels by using PowerShell](https://docs.microsoft.com/en-us/office365/securitycompliance/bulk-create-publish-labels-using-powershell)
+
 # Manage data governance
 ## [Import data](importing-pst-files-to-office-365.md)
 ### [Use network upload to import PST files](use-network-upload-to-import-pst-files.md)
@@ -83,9 +86,10 @@
 ### [View label activity for documents](view-label-activity-for-documents.md)
 ## More information about data governance
 ### [Watch videos from the Microsoft Data Governance team](https://go.microsoft.com/fwlink/?linkid=867039)
+
 # [Protect against threats](protect-against-threats.md)
-## [Videos for getting started with protecting your email](videos-for-getting-started-with-protecting-your-email.md)
 ## [Anti-spam and anti-malware protection](anti-spam-and-anti-malware-protection.md)
+### [Videos for getting started with protecting your email](videos-for-getting-started-with-protecting-your-email.md)
 ### [Office 365 email anti-spam protection](anti-spam-protection.md)
 ### [How to prevent real email from being marked as spam in Office 365](prevent-email-from-being-marked-as-spam.md)
 ### [How to reduce spam email in Office 365](reduce-spam-email.md)
@@ -122,11 +126,9 @@
 #### [How Office 365 validates the From: address to prevent phishing](how-office-365-validates-the-from-address.md)
 ### [Anti-spoofing protection in Office 365](anti-spoofing-protection.md)
 #### [Learn more about spoof intelligence](learn-about-spoof-intelligence.md)
+
 ## [Encryption in Office 365](encryption.md)
 ### [Set up encryption in Office 365 Enterprise](set-up-encryption.md)
-## [Information Rights Management](information-rights-management-in-exchange-online.md)
-### [Information Rights Management in Exchange Online](information-rights-management-in-exchange-online.md)
-### [Configure IRM to use an on-premises AD RMS server](configure-irm-to-use-an-on-premises-ad-rms-server.md)
 ### [Email encryption in Office 365](email-encryption.md)
 ### [Office 365 Message Encryption (OME)](ome.md)
 #### [Set up new Office 365 Message Encryption capabilities](set-up-new-message-encryption-capabilities.md)
@@ -138,6 +140,9 @@
 #### [Legacy information for Office 365 Message Encryption](legacy-information-for-message-encryption.md)
 #### [Set up Azure Rights Management for the previous version of Office 365 Message Encryption](set-up-azure-rms-for-previous-version-message-encryption.md)
 #### [Office 365 Protected Message Viewer Portal privacy statement](protected-message-viewer-portal-privacy-statement.md)
+### [Information Rights Management](information-rights-management-in-exchange-online.md)
+#### [Information Rights Management in Exchange Online](information-rights-management-in-exchange-online.md)
+#### [Configure IRM to use an on-premises AD RMS server](configure-irm-to-use-an-on-premises-ad-rms-server.md)
 ### [S/MIME](s-mime-for-message-signing-and-encryption.md)
 #### [S/MIME for message signing and encryption](s-mime-for-message-signing-and-encryption.md)
 #### [Configure S/MIME settings for Outlook Web App](configure-s-mime-settings-for-outlook-web-app.md)
@@ -149,6 +154,17 @@
 ### [Service encryption with Customer Key for Office 365 FAQ](service-encryption-with-customer-key-faq.md)
 ### [Technical reference details about encryption in Office 365](technical-reference-details-about-encryption.md)
 ### [How Exchange Online uses TLS to secure email connections in Office 365](exchange-online-uses-tls-to-secure-email-connections.md)
+
+### [Encryption in the Microsoft Cloud](office-365-encryption-in-the-microsoft-cloud-overview.md)
+#### [Office 365 Service Encryption](office-365-service-encryption.md)
+#### [Encryption for Data in Transit](office-365-encryption-for-data-in-transit.md)
+#### [Customer-Managed Encryption Features](office-365-customer-managed-encryption-features.md)
+#### [Encryption Risks and Protections](office-365-encryption-risks-and-protections.md)
+#### [Encryption for Skype for Business, OneDrive for Business, SharePoint Online, and Exchange Online](office-365-encryption-for-skype-onedrive-sharepoint-and-exchange.md)
+#### [BitLocker and Distributed Key Manager (DKM) for Encryption](office-365-bitlocker-and-distributed-key-manager-for-encryption.md)
+#### [Encryption in Microsoft Dynamics 365](office-365-encryption-in-microsoft-dynamics-365.md)
+#### [Encryption in Azure](office-365-azure-encryption.md)
+
 ## [Office 365 Advanced Threat Protection](office-365-atp.md)
 ### [ATP Safe Links](atp-safe-links.md)
 #### [Set up ATP Safe Links policies](set-up-atp-safe-links-policies.md)
@@ -195,6 +211,7 @@
 ### [Use user spam notifications to release and report quarantined messages in Office 365](use-spam-notifications-to-release-and-report-quarantined-messages.md)
 ## [Privileged access management](privileged-access-management-overview.md)
 ### [Configure privileged access management](privileged-access-management-configuration.md)
+
 # [Search for content](search-for-content.md)
 ## [Use Content Search](content-search.md)
 ### [Keyword queries and search conditions for Content Search](keyword-queries-and-search-conditions.md)
@@ -225,6 +242,7 @@
 ### [Use Content Search to search the mailbox and OneDrive for Business site for a list of users](search-the-mailbox-and-onedrive-for-business-for-a-list-of-users.md)
 ### [Create, report on, and delete multiple Content Searches](create-report-on-and-delete-multiple-content-searches.md)
 ### [Clone a Content Search](clone-a-content-search.md)
+
 # [Manage legal investigations](manage-legal-investigations.md)
 ## [Create and manage eDiscovery cases](ediscovery-cases.md)
 ## [Assign eDiscovery permissions](assign-ediscovery-permissions.md)
@@ -355,6 +373,7 @@
 ## [Use the audit log to troubleshoot common scenarios](auditing-troubleshooting-scenarios.md)
 ## [Use sharing auditing in the audit log](use-sharing-auditing.md)
 ## [Search for eDiscovery activities in the audit log](search-for-ediscovery-activities-in-the-audit-log.md)
+
 # Monitor security and compliance
 ## [Alert policies](alert-policies.md)
 ## [Smart reports and insights in the Security & Compliance Center](reports-and-insights-in-security-and-compliance.md)
@@ -368,6 +387,7 @@
 #### [Download existing reports](download-existing-reports.md)
 ## [Enable or disable safety tips in Office 365](enable-or-disable-safety-tips.md)
 ## [Enable the Report Message add-in](enable-the-report-message-add-in.md)
+
 # Mail flow
 ## [Message trace in the Security & Compliance Center](message-trace-scc.md)
 ## [Mail flow insights in the Security & Compliance Center](mail-flow-insights.md)
@@ -376,6 +396,7 @@
 ### [Outbound and inbound mail flow](mfi-outbound-and-inbound-mail-flow.md)
 ### [Queue alerts and Queues](mfi-queue-alerts-and-queues.md)
 ### [Slow mail flow rules insight](mfi-slow-mail-flow-rules-insight.md)
+
 # Security solutions
 ## [Microsoft Security Guidance for Political Campaigns, Nonprofits, and Other Agile Organizations](microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md)
 ### [Configure groups and users for a political campaign dev/test environment](configure-groups-and-users-for-a-political-campaign-dev-test-environment.md)
@@ -390,6 +411,7 @@
 ### [Manage an isolated SharePoint Online team site](manage-an-isolated-sharepoint-online-team-site.md)
 ### [Isolated SharePoint Online team site dev/test environment](isolated-sharepoint-online-team-site-dev-test-environment.md)
 ## [SIEM server integration](siem-server-integration.md)
+
 # Compliance solutions
 ## [Microsoft Service Trust Portal](get-started-with-service-trust-portal.md)
 ## [Compliance Manager](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md)
@@ -410,11 +432,13 @@
 ### [GDPR for Project Server](gdpr-for-project-server.md)
 ### [GDPR for Office Web Apps Server and Office Online Server](gdpr-for-office-online-server.md)
 ### [GDPR for on-premises Windows Server file shares](gdpr-for-on-premises-file-shares.md)
+
 # Security incident management
 ## [Office 365 Security Incident Response](office365-security-incident-response-overview.md)
 ## [Detect and Remediate Illicit Consent Grants in Office 365](detect-and-remediate-illicit-consent-grants.md)
 ## [Detect and Remediate Outlook Rules and Custom Forms Injections Attacks in Office 365](detect-and-remediate-outlook-rules-forms-attack.md)
 ## [Responding to a Compromised Email Account in Office 365](responding-to-a-compromised-email-account.md)
+
 # Service assurance
 ## [Service assurance in the Office 365 Security & Compliance Center](service-assurance.md)
 ## [Tenant isolation in Office 365](office-365-tenant-isolation-overview.md)
@@ -425,15 +449,6 @@
 ### [Tenant Isolation in Office 365 Search](office-365-isolation-in-office-365-search.md)
 ### [Tenant Isolation in Office 365 Video](office-365-isolation-in-office-365-video.md)
 ### [Tenant Isolation in the Office Graph and Delve](office-365-isolation-in-graph-and-delve.md)
-## [Encryption in Office 365](office-365-encryption-in-the-microsoft-cloud-overview.md)
-### [Office 365 Service Encryption](office-365-service-encryption.md)
-### [Encryption for Data in Transit](office-365-encryption-for-data-in-transit.md)
-### [Customer-Managed Encryption Features](office-365-customer-managed-encryption-features.md)
-### [Encryption Risks and Protections](office-365-encryption-risks-and-protections.md)
-### [Encryption for Skype for Business, OneDrive for Business, SharePoint Online, and Exchange Online](office-365-encryption-for-skype-onedrive-sharepoint-and-exchange.md)
-### [BitLocker and Distributed Key Manager (DKM) for Encryption](office-365-bitlocker-and-distributed-key-manager-for-encryption.md)
-### [Encryption in Microsoft Dynamics 365](office-365-encryption-in-microsoft-dynamics-365.md)
-### [Encryption in Azure](office-365-azure-encryption.md)
 ## [Data Resiliency in Office 365](office-365-data-resiliency-overview.md)
 ### [Dealing with Data Corruption](office-365-dealing-with-data-corruption.md)
 ### [Exchange Online Data Resilience](office-365-exchange-data-resiliency.md)
