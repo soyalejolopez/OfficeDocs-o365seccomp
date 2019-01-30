@@ -23,25 +23,44 @@ To report the phishing message to us, it's important that you use the Report Mes
 
 ATP or TI required?
 
+Ask Denise
+
 To enable and use the Report Message add-in, see [Enable the Report Message add-in](enable-the-report-message-add-in.md).
 
 ## Step 2: Learn why you got the phishing message by inspecting the message headers
 
 a.	Reading Headers and what they mean
+
+SPF/DKIM/DMARC header information not Send-To/To
+
+SKI (Skipped) Spoofed; looks real fails on final phishing filter
+
 b.	Header tool 
 
 [Message Header Analyzer](https://testconnectivity.microsoft.com/MHA/Pages/mha.aspx)
 
+Message released from quarantine?.
+
 ## Step 3: Block these phishing messages
 
-a.	Sku related or CFA
+a.	Sku related or CFA (?)
+
+ATP: Antiphishing policies Brendon, Denise
+
 b.	Dealing with compromised accounts – MFA, forwarding rules, restricted users etc.
+
+Sam Workman
+
+
 
 ## Step 4: Best practices to stay protected
 
 a.	Allow lists/ETRs that cause problems
     i.	Your own domain on the allow list.
+
+rules to go around phishing (?)
+
 b.	Authentication 
-    i.	Dkim
+    i.	Dkim (and SPF and DMARC)
     ii.	Spoof intelligence
 c.	Bulk
