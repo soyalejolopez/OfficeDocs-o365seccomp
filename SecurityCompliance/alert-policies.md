@@ -37,8 +37,6 @@ Here's a quick overview of how alert policies work and the alerts that are trigg
     
 4. An admin manages alerts in the Security &amp; Compliance Center. Managing alerts consists of assigning an alert status to help track and manage any investigation.
     
-
-  
 ## Alert policy settings
 
 An alert policy consists of a set of rules and conditions that define the user or admin activity that will generate an alert, a list of users who will trigger the alert if they perform the activity, and threshold that defines how many times the activity has to occur before an alert is triggered. You also categorize the policy and assign it a severity level. These two settings help you manage alert policies (and the alerts that are triggered when the policy conditions are matched) because you can filter on these settings when managing policies and viewing alerts in the Security &amp; Compliance Center. For example, you can view alerts that match the conditions from the same category or view alerts with the same severity level.
@@ -132,7 +130,7 @@ You can use the following filters to view a subset of all the alerts on the **Vi
 
 - **Source** - Use this filter to show alerts triggered by alert policies in the Security & Compliance Center or alerts triggered by Office 365 Cloud App Security policies, or both. For more information about Office 365 Cloud App Security alerts, see the [Viewing Cloud App Security alerts](#viewing-cloud-app-security-alerts) section.
 
-### RBAC permissions required to view alerts
+## RBAC permissions required to view alerts
 
 > [!NOTE]
 > The functionality described in this section will roll out to organizations beginning on February 20, 2019, and will be completed worldwide by the end of March 2019.
