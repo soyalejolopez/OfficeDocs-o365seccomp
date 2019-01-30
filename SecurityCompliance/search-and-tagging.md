@@ -25,33 +25,36 @@ In Advanced eDiscovery, the Search and Tagging module enables you to search, pre
 
 After you have processed documents in an Advanced eDiscovery case (and optionally run the Analyze or Relevance module), you can use the Search and Tagging to search documents and then organize them by applying case-specific tags (also called labels). You can define a search query using the provided condition cards or by using a KQL-like query language in the Keywords condition card. Common KQL syntax, such as AND, OR, NOT, and NEAR(n) are supported, as well as trailing multi-character wildcard (*). 
 
-The following lists the properties that you can search for using a KQL keyword query. Alternatively, you can use a condition card for in the Advanced eDiscovery Search tool to add a condition (for selected properties) to a search query.
+The following table lists the properties that you can search for using a KQL keyword query. Alternatively, you can use a condition card for in the Advanced eDiscovery Search tool to add a condition (for selected properties) to a search query.
 
-- **caselabel**: The name of the tag created/applied when a document is tagged.
-- **custodian**: The custodian associated with a document - subject to limitations.
-- **date**: Sent date for email; the modified date for site documents.
-- **fileid**: File ID within the case.
-- **filetype**: Native file extension.
-- **fileclass**: Email, document, or attachment.
-- **senderauthor**: The sender for email; the author for site documents.
-- **size**: The size of the file in KB.
-- **subjecttitle**: The subject for email; the title for site documents.
-- **bcc**: The Bcc field of an email.
-- **cc**: The Cc field of an email.
-- **participants**: Th email address of all participants in an email thread, including for missing links.
-- **received**: The date an email was received.
-- **recipients**: Recipients of an email, included on the To, Cc, or Bcc fields.
-- **sender**: The sender of an email.
-- **lastmodifieddate**: The last modified date of a site document.
-- **sent**: The sent date of an email.
-- **to**: The recipient listed in the To field of an email.
-- **author**: The author of a site document.
-- **title**: The title of a site document.
-- **dominanttheme**: The dominant theme of an item.\*
-- **themeslist**: Themes that are associated with an item.\*
-- **readpercentile_[issuenum]**: The read percentile of an item for issue [issuenum].\*\*
-- **relevancescore_[issuenum]**: The relevance score of an item for issue [issuenum].\*\*
-- **relevancetag_[issuenum]**: If an item has been manually tagged for relevance, its tag for [issuenum].\*\*
+|**Property**|**Description**|
+|:-----|:-----|
+|**caselabel** <br/> | The name of the tag created/applied when a document is tagged. <br/> |
+|**custodian** <br/> | The custodian associated with a document; subject to limitations. <br/> |
+|**date** <br/> | Sent date for email; the modified date for site documents. <br/> |
+|**fileid** <br/> | The File ID within the case. <br/> |
+|**filetype** <br/> | The native file extension. <br/> |
+|**fileclass** <br/> | Email, document, or attachment. <br/> |
+|**senderauthor** <br/> | The sender for email; the author for site documents. <br/> |
+|**size** <br/> | The size of the file in KB. <br/> |
+|**subjecttitle** <br/> | The subject for email; the title for site documents. <br/> |
+|**bcc** <br/> | The Bcc field of an email. <br/> |
+|**cc** <br/> | The Cc field of an email. <br/> |
+|**participants** <br/> | The email address of all participants in an email thread, including for missing links. <br/> |
+|**received** <br/> | The date an email was received. <br/> |
+|**recipients** <br/> | Recipients of an email, included on the To, Cc, or Bcc fields. <br/> |
+|**sender** <br/> | The sender of an email. <br/> |
+|**lastmodifieddate** <br/> | The last modified date of a site document. <br/> |
+|**sent** <br/> | The sent date of an email. <br/> |
+|**to** <br/> | The recipient listed in the To field of an email. <br/> |
+|**author** <br/> | The author of a site document. <br/> |
+|**title** <br/> | The title of a site document. <br/> |
+|**dominanttheme**\* <br/> | The dominant theme of an item. <br/> |
+|**themeslist**\* <br/> | Themes that are associated with an item. <br/> |
+|**readpercentile_[issuenum]**\*\* <br/> | The read percentile of an item, for the issue defined by [issuenum]. <br/> |
+|**relevancescore_[issuenum]**\*\* <br/> | The relevance score of an item, for the issue defined by [issuenum]. <br/> |
+|**relevancetag_[tagname]**\*\* <br/> | If an item has been manually tagged for relevance, the tag defined by  [tagname]. <br/> |
+|||
 
 \* Only available if the Themes module has been run.
 
