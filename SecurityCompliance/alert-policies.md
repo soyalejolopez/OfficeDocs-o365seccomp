@@ -107,6 +107,7 @@ The table also indicates the Office 365 Enterprise and Office 365 US Government 
 |**Unusual volume of external file sharing** <br/> |Generates an alert when an usually large number of files in SharePoint or OneDrive are shared with users outside of your organization. This policy has a **Medium** severity setting.  <br/> |Data governance<br/> |E5/G5, or Office 365 Threat Intelligence or Advanced Compliance add-on subscription  <br/> |
 |**Unusual volume of file deletion** <br/> |Generates an alert when an unusually large number of files are deleted in SharePoint or OneDrive within a short time frame. This policy has a **Medium** severity setting.  <br/> |Data governance <br/> |E5/G5, or Office 365 Threat Intelligence or Advanced Compliance add-on subscription  <br/> |
 |**Unusual increase in email reported as phish** <br/> |Generates an alert when there is a significant increase in the number of people in your organization using the Report Message add-in in Outlook to report messages as phishing mail. This policy has a **High** severity setting. For more information about this add-in, see [Use the Report Message add-in](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2).  <br/> |Threat management<br/> |E5/G5 or Office 365 Threat Intelligence add-on subscription  <br/> |
+|||||
    
 Note that the unusual activity monitored by some of the built-in policies is based on the same process as the alert threshold setting that was previously described. Office 365 establishes a baseline value that defines the normal frequency for "usual" activity. Alerts are then triggered when the frequency of activities tracked by the built-in alert policy greatly exceeds the baseline value.
  
@@ -147,7 +148,9 @@ The Role Bases Access Control (RBAC) permissions assigned to users in your organ
 
 This design (based on RBAC permissions) lets you determine which alerts can be  viewed (and managed) by users in specific job roles in your organization. 
 
-The following table lists the roles that are required to view alerts from the 6 different alert categories. The first column in the tables lists all the Security & Compliance Center roles.  A check mark indicates that a user who is assigned that role can view alerts from the corresponding alert category listed in the top row.
+The following table lists the roles that are required to view alerts from the 6 different alert categories. The first column in the tables lists all roles in the Security & Compliance Center.  A check mark indicates that a user who is assigned that role can view alerts from the corresponding alert category listed in the top row.
+
+To see which category a default alert policy is assigned to, see the table in the [Default alert policies](#default-alert-policies) section.
 
 |<br/>|Data governance|Data loss prevention|Mail flow|Permissions|Threat management|Others | 
 |:---------|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
