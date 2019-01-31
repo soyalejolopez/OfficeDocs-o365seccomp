@@ -3,7 +3,7 @@ title: "Search and Tagging"
 ms.author: chrfox
 author: chrfox
 manager: laurawi
-ms.date: 6/13/2018
+ms.date: 
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-administration
