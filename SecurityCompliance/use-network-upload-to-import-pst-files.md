@@ -3,7 +3,7 @@ title: "Use network upload to import your organization PST files to Office 365"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 6/29/2018
+ms.date: 
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
