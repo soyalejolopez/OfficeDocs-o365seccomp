@@ -32,17 +32,15 @@ ATP anti-phishing polices can be applied to a specific set of people or groups i
   
 ## How to get ATP anti-phishing
 
-ATP Anti-Phishing features are part of [Advanced Threat Protection](office-365-atp.md). 
-  
-ATP anti-phishing protection applies when an anti-phishing policy, such as an impersonation-based policy are set up. (See [Set up anti-phishing policies in Office 365](set-up-anti-phishing-policies.md).)
+ATP Anti-Phishing features are part of [Advanced Threat Protection](office-365-atp.md); however, ATP anti-phishing protection applies when anti-phishing policies are defined. (One example is an impersonation-based policy.) See [Set up anti-phishing policies in Office 365](set-up-anti-phishing-policies.md).
   
 ## How to know if ATP anti-phishing is in place
 
-ATP anti-phishing policies must be defined in order for protection to be in effect. 
+ATP anti-phishing policies must be defined in order for protection to be in effect. Check this first to verify protection is in place.
 
-Reports are available to show how the service is working for your organization. To learn more, see [View reports for Office 365 Advanced Threat Protection](view-reports-for-atp.md).
+In addition, reports are available to show how the service is working for your organization. To learn more, see [View reports for Office 365 Advanced Threat Protection](view-reports-for-atp.md).
 
-For ATP anti-phishing machine learning models to be active for a user, that user must be part of a defined [ATP Safe Attachements](atp-safe-attachments.md), [ATP Safe Links](atp-safe-links.md), or ATP Anti-Phishing policy. 
+For ATP anti-phishing machine learning models to be active for a particular user, that user must be part of a defined [ATP Safe Attachements](atp-safe-attachments.md), [ATP Safe Links](atp-safe-links.md), or ATP Anti-Phishing policy. 
 
 The following table describes a few example scenarios. In each of these examples, the organization is using Office 365 Enterprise E5, which includes Advanced Threat Protection.
   
