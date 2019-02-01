@@ -41,7 +41,7 @@ The new capabilities provide the following advantages:
 - Ability to use Encrypt-Only (which enables secure collaboration), Do Not Forward, as well as custom restrictions.
 - Senders can send mail encrypted with the new capabilities manually from Outlook Desktop, Outlook for Mac and Outlook on the web clients.
 - Office 365 recipients get to use an inline experience in supported Outlook clients. Alternatively, admins can choose to show Office 365 recipients a branded experience.
-- Gmail, Yahoo, and Microsoft identities are federated with the OME portal, which provides a better user experience for these recipients. All other identities use a one-time passcode to access encrypted messages.
+- Gmail, Yahoo, and Microsoft identities are federated with the OME portal, which provides a better user experience for these recipients. All other identities use a one-time pass code to access encrypted messages.
 - Admins can customize branding, and create multiple branding templates.
 - Admins can revoke emails encrypted with the new capabilities.
 - The new capabilities provide detailed usage reports through the Security &amp; Compliance Center.
