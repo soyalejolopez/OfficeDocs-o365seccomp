@@ -33,6 +33,7 @@ This article compares legacy Office 365 Message Encryption to the new OME capabi
 |*Experience for external recipient*|Recipients receive an HTML message, which they download and open in a web browser or mobile app|N/A|Native inline experience for Office 365 recipients. All other recipients can read message from OME portal (no download or app required).|
 |*Attachment permissions*           |No restrictions on attachments|Attachments are protected|Attachments are protected for Do Not Forward and custom templates. Admins can choose whether attachments for Encrypt-Only template are protected or not.|
 |*Bring your own key (BYOK) support*|None                |None               |BYOK supported          |
+||
 
 ## Advantages of using the new OME capabilities over legacy OME
 
