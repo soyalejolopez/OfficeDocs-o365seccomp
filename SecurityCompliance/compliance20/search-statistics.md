@@ -18,6 +18,7 @@ description: ""
 ---
 
 # Search statistics
+
 One way you can validate your search results is to look at the statistics around your results to make sure they align with your expectations. When a search completes, high-level statistics are shown on the search details flyout:
 - Number and volume of items retrieved by the search
 - Number and volume of partially indexed/unindexed items that were found in the search locations
@@ -25,12 +26,14 @@ One way you can validate your search results is to look at the statistics around
 In order to view more detailed statistics, click on "Statistics" from the search details flyout.
 
 ## Summary
+
 In Summary view, you can see the search results broken down by location type (e.g. Exchange). For each location type, you can see:
 - Number of locations that had items that matched the search conditions
 - Number of items from these locations that matched the search conditions
 - Total volume of items that matched the search conditions.
 
 ## Top locations
+
 In Top locations view, you see the individual locations with the most matches. For each location, you will see:
 - Location name (e.g. SharePoint URL)
 - Location type
@@ -38,6 +41,7 @@ In Top locations view, you see the individual locations with the most matches. F
 - Total volume of items that matched the search conditions.
 
 ## Queries
+
 If you have used (c:s) keyword or keyword rows in your query, then you can see the breakdown of your query in Queries view per location type. For each location type, you will see:
 - Part: this column will either have the word "Primary" or "Keyword". "Primary" means that the row presents statistics on the entire query, whereas "Keyword" means one of the query components.
 - Query: the actual query component the row refers to. If Part is "Primary", this will be the entire query; if Part was "Keyword", you will see one of the query components here.
@@ -50,4 +54,5 @@ If you have used (c:s) keyword or keyword rows in your query, then you can see t
 - Total volumne of items that matched the search conditions.
 
 ## Refiners
+
 For Exchange mailboxes, Refiners view gives you additional breakdowns by ItemClass, Sender, and Recipient. For each location and refiner value, you can see how many documents were returned in the search.

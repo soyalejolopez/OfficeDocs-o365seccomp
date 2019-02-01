@@ -1,5 +1,5 @@
 ---
-title: "Managing custodians in an Advanced eDiscovery (Preview) case"
+title: "Manage custodians in an Advanced eDiscovery (Preview) case"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -16,7 +16,7 @@ ms.assetid:
 
 description: ""
 ---
-# Managing custodians in an Advanced eDiscovery (Preview) case
+# Manage custodians in an Advanced eDiscovery (Preview) case
 
 The Custodians tab contains a sortable list of all the custodians in the case. After you add custodians to a case, details about each custodian will automatically be collected from Azure Active Directory.
 
