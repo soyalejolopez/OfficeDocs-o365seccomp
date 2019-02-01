@@ -16,7 +16,7 @@ ms.assetid:
 
 description: ""
 ---
-# Viewing custodian audit activity
+# View custodian audit activity
 
 Need to find if a user viewed a specific document or purged an item from their mailbox? Advanced eDiscovery (Preview) is now integrated with the existing audit log search tool in the Security & Compliance Center. Using this embedded experience, you can use the Advanced eDiscovery (Preview) Custodian Management tool to facilitate your investigation by easily accessing and searching the activity for custodians within your case.
 

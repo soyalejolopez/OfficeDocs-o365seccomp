@@ -1,5 +1,5 @@
 ---
-title: "Manage Holds in Advanced eDiscovery (Preview)"
+title: "Manage holds in Advanced eDiscovery (Preview)"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -16,9 +16,9 @@ ms.assetid:
 
 description: ""
 ---
-# Rename this page and MD File to "Managing Holds"
 
-# Holds in Advanced eDiscovery (Preview)
+# Manage holds in Advanced eDiscovery (Preview)
+
 You can use an Advanced eDiscovery (Preview) case to create holds to preserve content that might be relevant to your case. Using the Advanced eDiscovery (Preview) hold capabilities, you can place holds on custodians and their data sources. Additionally, you can place a non-custodial hold on mailboxes and OneDrive for Business sites. You can also place a hold on the group mailbox, SharePoint site, and OneDrive for Business site for an Office 365 Group. Similarly, you can place a hold on the mailbox and site that are associated with Microsoft Teams. When you place content locations on hold, content is held until you release the custodian, remove a specific data location, or delete the hold policy entirely.
 
 ## Manage Custodian Based Holds

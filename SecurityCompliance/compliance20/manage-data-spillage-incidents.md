@@ -1,5 +1,5 @@
 ---
-title: "Managing a data spillage incident in Microsoft 365"
+title: "Manage a data spillage incident in Microsoft 365"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -17,7 +17,7 @@ ms.assetid:
 description: "This article describes using the new Data investigations (Preview) tool in the Office 365 Security & Compliance Center to manage a data spillage incident."
 ---
 
-# Managing a data spillage incident in Microsoft 365 
+# Manage a data spillage incident in Microsoft 365 
 
 Data spillage is when a confidential document is released into an untrusted environment. When a data spillage incident is detected, it's important to quickly assess the size and locations of the spillage, examine user activities around it, and then permanently purge the spilled data from the system.
 
