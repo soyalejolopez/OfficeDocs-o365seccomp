@@ -131,6 +131,7 @@
 ### [Set up encryption in Office 365 Enterprise](set-up-encryption.md)
 ### [Email encryption in Office 365](email-encryption.md)
 ### [Office 365 Message Encryption (OME)](ome.md)
+#### [Compare versions of OME](ome-version-comparison.md)
 #### [Set up new Office 365 Message Encryption capabilities](set-up-new-message-encryption-capabilities.md)
 #### [Define mail flow rules to encrypt email messages in Office 365](define-mail-flow-rules-to-encrypt-email.md)
 #### [Manage Office 365 Message Encryption](manage-office-365-message-encryption.md)
