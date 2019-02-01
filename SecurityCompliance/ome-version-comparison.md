@@ -1,5 +1,5 @@
 ---
-title: "Office 365 Message Encryption version comparison and cohabitation"
+title: "Office 365 Message Encryption version comparison"
 ms.author: krowley
 author: kccross
 manager: laurawi
