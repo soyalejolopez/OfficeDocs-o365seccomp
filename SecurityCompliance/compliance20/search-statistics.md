@@ -43,16 +43,25 @@ In Top locations view, you see the individual locations with the most matches. F
 ## Queries
 
 If you have used (c:s) keyword or keyword rows in your query, then you can see the breakdown of your query in Queries view per location type. For each location type, you will see:
+
 - Part: this column will either have the word "Primary" or "Keyword". "Primary" means that the row presents statistics on the entire query, whereas "Keyword" means one of the query components.
+
 - Query: the actual query component the row refers to. If Part is "Primary", this will be the entire query; if Part was "Keyword", you will see one of the query components here.
+  
   - When you search all contentin mailboxes (by not specifying any keywords), the actual query is (size >= 0) so that all items are returned
+  
   - When you search SharePoint Online and OneDrive for Business sites, the two following components are added:
+    
     - NOT IsExternalContent:1 - excludes any content from an on-premises SharePoint organization
+    
     - NOT isOneNotePage: 1 - excludes all OneNote files because these would be duplicates of any document that matches the search query.
-- Number of locations that had items that matched the search conditions
-- Number of items from these locations that matched the search conditions
-- Total volumne of items that matched the search conditions.
+
+- Number of locations that had items that matched the search conditions.
+
+- Number of items from these locations that matched the search conditions.
+
+- Total volume of items that matched the search conditions.
 
 ## Refiners
 
-For Exchange mailboxes, Refiners view gives you additional breakdowns by ItemClass, Sender, and Recipient. For each location and refiner value, you can see how many documents were returned in the search.
+For Exchange mailboxes, refiners view gives you additional breakdowns by ItemClass, Sender, and Recipient. For each location and refiner value, you can see how many documents were returned in the search.
