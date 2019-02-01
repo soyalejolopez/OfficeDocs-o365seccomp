@@ -27,11 +27,11 @@ This article compares legacy Office 365 Message Encryption to the new OME capabi
 |-----------------------------------|-------------------|-------------------|--------------------------|
 |**Capability**                     | **Legacy OME**    | **IRM**           | **New OME capabilities** |
 |*Sending an encrypted mail*        |Through Exchange mail flow rules|End-user initiated from Outlook desktop or Outlook on the Web; or through Exchange mail flow rules|End-user initiated from Outlook desktop, Outlook for Mac, or Outlook on the Web; through Exchange Transport Rules and Office 365 Data Loss Prevention (DLP)|
-|*Rights management template*       |   N/A      |Do Not Forward and custom templates|Do Not Forward, Encrypt-Only templates and custom templates|
+|*Rights management template*       |   N/A      |Do Not Forward option and custom templates|Do Not Forward option, Encrypt-Only option, and custom templates|
 |*Recipient type*                   |Internal and external recipients|Internal recipients only         |Internal and external recipients|
 |*Experience for internal recipient*|Recipients receive an HTML message, which they download and open in a web browser or mobile app|Native inline experience in Outlook clients|Native inline experience for Office 365 recipients. All other recipients can read message from OME portal (no download or app required).|
 |*Experience for external recipient*|Recipients receive an HTML message, which they download and open in a web browser or mobile app|N/A|Native inline experience for Office 365 recipients. All other recipients can read message from OME portal (no download or app required).|
-|*Attachment permissions*           |No restrictions on attachments|Attachments are protected|Attachments are protected for Do Not Forward and custom templates. Admins can choose whether attachments for Encrypt-Only template are protected or not.|
+|*Attachment permissions*           |No restrictions on attachments|Attachments are protected|Attachments are protected for the Do Not Forward option and custom templates. Admins can choose whether attachments for the Encrypt-Only option are protected or not.|
 |*Bring your own key (BYOK) support*|None                |None               |BYOK supported          |
 ||
 
