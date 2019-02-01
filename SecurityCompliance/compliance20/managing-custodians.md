@@ -29,9 +29,9 @@ For more information about working with custodians, see the following articles:
 
 - [Add custodians to a case](add-custodians-to-case.md)
 
-- [Managing custodians in a case](manage-new-custodians.md)
+- [Manage custodians in a case](manage-new-custodians.md)
 
-- [Viewing custodian activity](view-custodian-activity.md)
+- [View custodian activity](view-custodian-activity.md)
 
 ## Roles and permissions
 
