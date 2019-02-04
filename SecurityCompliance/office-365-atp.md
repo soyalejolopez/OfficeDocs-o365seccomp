@@ -56,7 +56,7 @@ Office 365 ATP is included in subscriptions, such as [Microsoft 365 Enterprise](
 
 ## Define policies for ATP
 
-In order to define ATP policies, you must be an Office 365 global administrator or have one of the following roles assigned in the Office 365 Security & Compliance Center: 
+To define (or edit) ATP policies, you must be an Office 365 global administrator or have one of the following roles assigned in the Office 365 Security & Compliance Center: 
 - Security Administrator
 - Compliance Administrator
 - Organization Management
