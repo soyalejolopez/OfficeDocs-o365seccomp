@@ -169,6 +169,9 @@ Here's the process for searching the audit log in Office 365.
     
     Leave this box blank to return entries for all files and folders in your organization.
     
+    > [!TIP]
+    > If you're looking for a **site** make sure to add the wildcard symbol * after the url to get all the audit results for that site.
+    
 5. Click **Search** to run the search using your search criteria. 
     
     The search results are loaded, and after a few moments they are displayed under **Results**. When the search is finished, the number of results found is displayed. Note that a maximum of 5,000 events will be displayed in the **Results** pane in increments of 150 events; if more than 5,000 events meet the search criteria, the most recent 5,000 events are displayed. 
