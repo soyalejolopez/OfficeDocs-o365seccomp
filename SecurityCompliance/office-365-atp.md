@@ -56,23 +56,30 @@ Office 365 ATP is included in subscriptions, such as [Microsoft 365 Enterprise](
 
 ## Define policies for ATP
 
-- **[Set up ATP anti-phishing policies in Office 365](set-up-anti-phishing-policies.md)** including impersonation-based attacks to protect against attackers who send email messages that appear to be from trusted people or domains 
+In order to define ATP policies, you must be an Office 365 global administrator or have one of the following roles assigned in the Office 365 Security & Compliance Center: 
+- Security Administrator
+- Compliance Administrator
+- Organization Management
 
-- **[Set up ATP Safe Links policies in Office 365](set-up-atp-safe-links-policies.md)** including your organization's [custom blocked URLs list](set-up-a-custom-blocked-urls-list-wtih-atp.md) and [custom "Do not rewrite" URLs list](set-up-a-custom-do-not-rewrite-urls-list-with-atp.md)
+There are several kinds of ATP policies to define and periodically review.
+
+1. **[Set up ATP anti-phishing policies in Office 365](set-up-anti-phishing-policies.md)** including impersonation-based attacks to protect against attackers who send email messages that appear to be from trusted people or domains. 
+
+2. **[Set up ATP Safe Links policies in Office 365](set-up-atp-safe-links-policies.md)** including your organization's [custom blocked URLs list](set-up-a-custom-blocked-urls-list-wtih-atp.md) and [custom "Do not rewrite" URLs list](set-up-a-custom-do-not-rewrite-urls-list-with-atp.md).
     
-- **[Set up ATP Safe Attachments policies in Office 365](set-up-atp-safe-attachments-policies.md)** and choose from several options, such as [Dynamic Delivery and previewing](dynamic-delivery-and-previewing.md)
+3. **[Set up ATP Safe Attachments policies in Office 365](set-up-atp-safe-attachments-policies.md)** and choose from several options, such as [Dynamic Delivery and previewing](dynamic-delivery-and-previewing.md).
   
 ## See how ATP is working by viewing reports
 
-After your ATP policies are in place, reports are available to show how the service is working.
+After your ATP policies are in place, reports are available to show how the service is working. (In the Office 365 Security & Compliance Center, go to **Reports** > **Dashboard**.)
 
 [![The Security &amp; Compliance Center dashboard can help you see where Advanced Threat Protection is working](media/6b213d34-adbb-44af-8549-be9a7e2db087.png)](view-reports-for-atp.md)
   
-1. Make sure that you are an Office 365 global administrator, security administrator, or security reader. (See [Permissions in the Office 365 Security &amp; Compliance Center](permissions-in-the-security-and-compliance-center.md).)
+1. As an Office 365 global administrator, security administrator, or security reader, go to [https://protection.office.com](https://protection.office.com) and sign in.
     
-2. [View reports for Advanced Threat Protection](view-reports-for-atp.md).
+2. Go to **Reports** > **Dashboard**. (To get help with these reports, see [View reports for Advanced Threat Protection](view-reports-for-atp.md).)
     
-3. If needed, make adjustments to your security policies. See the following resources:
+3. If needed, make adjustments to your security policies. To get help with this, see the following resources:
       - [ATP anti-phishing policies in Office 365](set-up-anti-phishing-policies.md)
       - [ATP Safe Links policies in Office 365](set-up-atp-safe-links-policies.md)
       - [ATP Safe Attachments policies in Office 365](set-up-atp-safe-attachments-policies.md)
