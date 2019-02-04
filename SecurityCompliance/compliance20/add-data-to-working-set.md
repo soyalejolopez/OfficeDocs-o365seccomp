@@ -1,5 +1,5 @@
 ---
-title: "Add data to a working set"
+title: "Add search results to a working set"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -17,4 +17,6 @@ ms.assetid:
 description: ""
 ---
 
-# Add data to a working set
+# Add search results to a working set
+
+Content coming soon.

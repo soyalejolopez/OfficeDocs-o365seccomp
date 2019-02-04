@@ -1,5 +1,5 @@
 ---
-title: "Indexing limits"
+title: "Indexing limits in Advanced eDiscovery (Preview)"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -17,5 +17,6 @@ ms.assetid:
 description: ""
 ---
 
-# Indexing limits
+# Indexing limits in Advanced eDiscovery (Preview)
 
+Content coming soon.

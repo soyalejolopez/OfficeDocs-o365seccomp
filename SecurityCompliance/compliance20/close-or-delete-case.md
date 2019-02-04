@@ -19,3 +19,4 @@ description: ""
 
 # Close or delete a case
 
+Content coming soon.

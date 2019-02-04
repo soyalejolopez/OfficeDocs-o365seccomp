@@ -131,7 +131,7 @@ For instructions on setting up DKIM for your domain, including how to set up DKI
 Although there are other syntax options that are not mentioned here, these are the most commonly used options for Office 365. Form the DMARC TXT record for your domain in the format:
   
 ```
-_dmarc.domainTTL IN TXT "v=DMARC1; pct=100; p=policy
+_dmarc.domain  TTL  IN  TXT  "v=DMARC1; pct=100; p=policy"
 ```
 
 where:
@@ -140,7 +140,7 @@ where:
     
 - *TTL* should always be the equivalent of one hour. The unit used for TTL, either hours (1 hour), minutes (60 minutes), or seconds (3600 seconds), will vary depending on the registrar for your domain. 
     
-- pct=100 indicates that this rule should be used for 100% of email.
+- *pct=100* indicates that this rule should be used for 100% of email.
     
 - *policy* specifies what policy you want the receiving server to follow if DMARC fails. You can set the policy to none, quarantine, or reject. 
     
