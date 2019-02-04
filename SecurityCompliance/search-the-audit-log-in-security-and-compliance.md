@@ -170,7 +170,7 @@ Here's the process for searching the audit log in Office 365.
     Leave this box blank to return entries for all files and folders in your organization.
     
     > [!TIP]
-    > If you're looking for a **site** make sure to add the wildcard symbol * after the url to get all the audit results for that site.
+    > If you're looking for all activities related to a **site**, add the wildcard symbol (\*) after the URL to get all the audit results for that site; for example, **"https://contoso-my.sharepoint.com/personal/*"**.
     
 5. Click **Search** to run the search using your search criteria. 
     
