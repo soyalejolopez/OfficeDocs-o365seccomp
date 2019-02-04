@@ -3,7 +3,7 @@ title: "Office 365 Advanced Threat Protection"
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 02/01/2019
+ms.date: 02/04/2019
 ms.audience: Admin
 ms.topic: hub-page
 ms.service: o365-administration
@@ -17,7 +17,7 @@ description: "Office 365 Advanced Threat Protection includes spoof intelligence,
 
 # Office 365 Advanced Threat Protection
 
-## Overview
+## Overview of Office 365 Advanced Threat Protection
 
 Office 365 Advanced Threat Protection (ATP) helps to protect your organization from malicious attacks by:
   
