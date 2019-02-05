@@ -254,8 +254,10 @@ To delete all usage records associated with deleted documents: 
 
     ```powershell
     $tj = Get-SPTimerJob -Type Microsoft.Office.Server.Search.Analytics.UsageAnalyticsJobDefinition 
+    $tj.DisableTimerjobSchedule()
     $tj.StopAnalysis() 
     $tj.ClearAnalysis() 
+    $tj.EnableTimerjobSchedule()
     ```
 
 4.  Wait for the analysis to start again (might take up to 24 hours). 
