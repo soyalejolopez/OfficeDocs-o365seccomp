@@ -64,11 +64,11 @@ The following screen shots show a folder list before and after messages are move
 
 To access messages that are stored in an auto-expanded archive, users have to use one of the following Outlook clients:
   
-- Outlook 2016 and Outlook 2019 for Windows
+- Outlook 2016 or Outlook 2019 for Windows
     
 - Outlook on the web 
     
-- Outlook 2016  and Outlook 2019 for Mac 
+- Outlook 2016 or Outlook 2019 for Mac 
     
 > [!NOTE]
 > Outlook 2013 users can only access items that were originally stored in their archive mailbox. They won't be able to access items that are moved to additional archive storage. 
