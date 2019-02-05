@@ -35,7 +35,7 @@ description: "Set up Safe Links policies to protect your organization from malic
 
 - Make sure that your organization has [Office 365 Advanced Threat Protection](office-365-atp.md).
     
-- Make sure that you have the necessary permissions. To define (or edit) ATP policies, you must have one of roles assigned as described in the following table: <br>
+- Make sure that you have the necessary permissions. To define (or edit) ATP policies, you must have one of the roles assigned as described in the following table: <br>
 
     |Role  |Where/how assigned  |
     |---------|---------|

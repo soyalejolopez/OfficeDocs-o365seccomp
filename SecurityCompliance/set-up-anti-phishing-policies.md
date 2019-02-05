@@ -33,7 +33,7 @@ What to do:
     
 ## Review the prerequisites
 
-- To define (or edit) ATP policies, you must have one of roles assigned as described in the following table: <br>
+- To define (or edit) ATP policies, you must have one of the roles assigned as described in the following table: <br>
 
     |Role  |Where/how assigned  |
     |---------|---------|
