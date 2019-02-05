@@ -130,18 +130,12 @@ You can delete custom policies that you created by using the Security &amp; Comp
 
 5. On the page that appears, choose **Delete policy**. Allow up to 30 minutes for your changes to spread to all Office 365 datacenters.
     
-## Related topics
 
-[Office 365 Advanced Threat Protection](office-365-atp.md)
-  
-[Anti-phishing protection in Office 365](anti-phishing-protection.md)
-  
-[ATP anti-phishing capabilities in Office 365](atp-anti-phishing.md)
-  
-[Set up ATP safe links policies in Office 365](set-up-atp-safe-links-policies.md)
-  
-[Set up ATP safe attachments policies in Office 365](set-up-atp-safe-attachments-policies.md)
-  
-[View the reports for Advanced Threat Protection](view-reports-for-atp.md)
-  
+## Next steps
 
+Once your anti-phishing policies are in place, you can see how your threat protection features are working for your organization by viewing reports. See the following resources to learn more:
+- [View reports for Office 365 Advanced Threat Protection](view-reports-for-atp.md)
+- [Use Explorer in the Security &amp; Compliance Center](use-explorer-in-security-and-compliance.md)
+
+Stay on top of new features coming to ATP. visit the [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=O365) and learn about [new features that are being added to ATP](office-365-atp.md#new-features-are-continually-being-added-to-atp).
+ 

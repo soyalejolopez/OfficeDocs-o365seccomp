@@ -46,7 +46,7 @@ People regularly send, receive, and share attachments, such as documents, presen
     
 ## Step 2: Set up (or edit) an ATP Safe Attachments policy
   
-1. As a global administrator or security administrator, go to [https://protection.office.com](https://protection.office.com) and sign in with your work or school account. 
+1. Go to [https://protection.office.com](https://protection.office.com) and sign in with your work or school account. 
     
 2. In the Office 365 Security &amp; Compliance Center, in the left navigation pane, under **Threat management**, choose **Policy** \> **Safe Attachments**.
     
@@ -88,4 +88,6 @@ As you set up your ATP Safe Attachments policies, you choose from among many opt
 Once your ATP Safe Attachments policies are in place, you can see how ATP is working for your organization by viewing reports. See the following resources to learn more:
 - [View reports for Office 365 Advanced Threat Protection](view-reports-for-atp.md)
 - [Use Explorer in the Security &amp; Compliance Center](use-explorer-in-security-and-compliance.md)
+
+Stay on top of new features coming to ATP. visit the [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=O365) and learn about [new features that are being added to ATP](office-365-atp.md#new-features-are-continually-being-added-to-atp).
  
