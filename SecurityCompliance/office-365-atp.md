@@ -48,8 +48,7 @@ We are continuing to add new features to Office 365, and that includes ATP. Belo
 |Beginning in late May 2018, [quarantine](quarantine-email-messages.md) capabilities in the Security &amp; Compliance Center are being extended to [ATP for SharePoint Online, OneDrive for Business, and Microsoft Teams](atp-for-spo-odb-and-teams.md). |[Review and edit your ATP Safe Attachments policies](set-up-atp-safe-attachments-policies.md) |
 |Beginning in March 2018, ATP Safe Links protection is extended to apply to email sent between people within an organization. |[Review and edit your ATP Safe Links policies](set-up-atp-safe-links-policies.md) |
 |Beginning in late October 2017, ATP Safe Links protection is extended to apply to URLs in email as well as URLs in Office 365 ProPlus documents, such as Word, Excel, PowerPoint, and Visio on Windows, as well as Office apps on iOS and Android devices.  |Make sure you're using [Modern Authentication for Office](https://docs.microsoft.com/office365/enterprise/modern-auth-for-office-2013-and-2016) |
-
-      
+  
 ## Get Office 365 ATP
 
 Office 365 ATP is included in subscriptions, such as [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise/home), [Microsoft 365 Business](https://www.microsoft.com/microsoft-365/business), Office 365 Enterprise E5, and Office 365 Education A5. If your organization has an Office 365 subscription that does not include Office 365 ATP, you can potentially purchase ATP as an add-on. For more information, see [Office 365 Advanced Threat Protection Service Description](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description). 
@@ -58,7 +57,6 @@ Office 365 ATP is included in subscriptions, such as [Microsoft 365 Enterprise](
 
 To define (or edit) ATP policies, you must be an Office 365 global administrator or have one of the following roles assigned in the Office 365 Security & Compliance Center: 
 - Security Administrator
-- Compliance Administrator
 - Organization Management
 
 There are several kinds of ATP policies to define and periodically review.
