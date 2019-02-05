@@ -33,7 +33,6 @@ People regularly send, receive, and share attachments, such as documents, presen
     
 - Make sure that you have the necessary permissions to define or edit ATP policies. To define (or edit) ATP policies, you must be an Office 365 global administrator or have one of the following roles assigned in the Office 365 Security & Compliance Center: 
     - Security Administrator
-    - Compliance Administrator
     - Organization Management
     
 - [Learn about ATP Safe Attachments policy options](#learn-about-atp-safe-attachments-policy-options) (in this article). Some options, such as the Monitor or Replace options, can result in a minor delay of email while attachments are scanned. To avoid message delays, consider using [Dynamic Delivery and previewing](dynamic-delivery-and-previewing.md).

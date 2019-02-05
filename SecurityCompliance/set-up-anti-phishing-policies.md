@@ -35,7 +35,6 @@ What to do:
 
 - Make sure that you have the necessary permissions to define or edit ATP policies. To define (or edit) ATP policies, you must be an Office 365 global administrator or have one of the following roles assigned in the Office 365 Security & Compliance Center: 
     - Security Administrator
-    - Compliance Administrator
     - Organization Management
     
 - [Learn about ATP anti-phishing policy options](set-up-anti-phishing-policies.md#learn-about-atp-anti-phishing-policy-options) (in this article). 

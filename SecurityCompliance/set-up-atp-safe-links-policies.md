@@ -29,7 +29,7 @@ description: "Set up Safe Links policies to protect your organization from malic
     
 3. [Add or edit policies for specific email recipients](#add-a-policy-for-specific-email-recipients), including [setting up your custom "Do not rewrite" URLs list for ATP Safe Links](set-up-a-custom-do-not-rewrite-urls-list-with-atp.md).
     
-4. [Learn about ATP Safe Links policy options](#learn-about-atp-safe-links-policy-options) (in this article), including settings for recent changes
+4. [Learn about ATP Safe Links policy options](#learn-about-atp-safe-links-policy-options) (in this article), including settings for recent changes.
     
 ## Step 1: Review the prerequisites
 
@@ -37,7 +37,6 @@ description: "Set up Safe Links policies to protect your organization from malic
     
 - Make sure that you have the necessary permissions to define or edit ATP policies. To define (or edit) ATP policies, you must be an Office 365 global administrator or have one of the following roles assigned in the Office 365 Security & Compliance Center: 
     - Security Administrator
-    - Compliance Administrator
     - Organization Management
 
 - Make sure that Office clients are configured to use [Modern Authentication](https://docs.microsoft.com/office365/enterprise/modern-auth-for-office-2013-and-2016) (this is for ATP Safe Links protection in Office documents).
