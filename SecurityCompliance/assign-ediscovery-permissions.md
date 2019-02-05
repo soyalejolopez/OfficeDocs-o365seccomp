@@ -77,6 +77,7 @@ The following table lists the eDiscovery-related RBAC roles in the Security & Co
 |Review <br/>  | <br/> |![Check mark](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> | <br/> |![Check mark](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |
 |RMS Decrypt <br/>  ||![Check mark](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |||
 |Search And Purge <br/> | <br/> | <br/> |![Check mark](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> | <br/> | 
+||||
   
 The following sections describe each of the eDiscovery-related RBAC roles listed in the previous table.
 
