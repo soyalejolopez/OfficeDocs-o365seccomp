@@ -57,7 +57,6 @@ Office 365 ATP is included in subscriptions, such as [Microsoft 365 Enterprise](
 
 To define (or edit) ATP policies, you must be assigned one of the roles described in the following table:
 
-
 |Role  |Where/how assigned  |
 |---------|---------|
 |Office 365 Global Administrator |The person who signs up to buy Office 365 is a global admin by default. (See [About Office 365 admin roles](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) to learn more.)         |
