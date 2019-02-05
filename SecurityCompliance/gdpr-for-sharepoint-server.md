@@ -31,7 +31,7 @@ The basic recommended approach for user generated content contained in SharePoin
 
 The recommended approach for files shares and SharePoint sites and libraries includes these steps:
 
-1.  **Install and configure Azure Information Protection scanner.**
+1.  **[Install and configure Azure Information Protection scanner.](https://docs.microsoft.com/en-us/azure/information-protection/rms-client/client-admin-guide-install#options-to-install-the-azure-information-protection-client-for-users)**
 
     -   Decide which sensitive data types to use.
 
