@@ -28,6 +28,15 @@ Read this article to learn how to set up your organization's custom blocked URLs
 ## View or edit a custom list of blocked URLs
 
 [ATP Safe Links in Office 365](atp-safe-links.md) uses several lists, including your organization's custom blocked URLs list. If you have the necessary permissions, you can set up your organization's custom list. You do this by editing your organization's default Safe Links policy.
+
+To edit (or define) ATP policies, you must be assigned one of the roles described in the following table: 
+
+|Role  |Where/how assigned  |
+|---------|---------|
+|Office 365 Global Administrator |The person who signs up to buy Office 365 is a global admin by default. (See [About Office 365 admin roles](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) to learn more.)         |
+|Office 365 Security Administrator |Admin center ([https://aka.ms/admincenter](https://aka.ms/admincenter))|
+|Office 365 Organization Management |Admin center ([https://aka.ms/admincenter](https://aka.ms/admincenter)) |
+|Exchange Online Organization Management |Exchange admin center ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) <br>or <br>  PowerShell cmdlets (See [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)) |
   
 1. Go to [https://protection.office.com](https://protection.office.com) and sign in with your work or school account. 
     

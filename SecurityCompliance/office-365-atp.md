@@ -55,7 +55,7 @@ Office 365 ATP is included in subscriptions, such as [Microsoft 365 Enterprise](
 
 ## Define policies for ATP
 
-To define (or edit) ATP policies, you must have one of the roles assigned as described in the following table:
+To define (or edit) ATP policies, you must be assigned one of the roles described in the following table:
 
 
 |Role  |Where/how assigned  |
