@@ -9,7 +9,7 @@ ms.date: 02/04/2019
 ms.service: o365-administration
 localization_priority: Normal
 ms.assetid: 5a6f2d7f-d998-4f31-b4f5-f7cbf6f38578
-description: "Anti-phishing protection, with comprehensive protection as a part of Office 365 Advanced Threat Protection and basic protection in Office 365 Exchange Online Protection, can help protect your organization from malicious impersonation-based phishing attacks and other phishing attacks. If you're an Office 365 Enterprise global or security administrator, you can set up anti-phishing policies. Phishing attacks come in a variety of forms from commodity-based attacks to targeted spear phishing or whaling. With the growing complexity, it's difficult for even a trained eye to identify some of these sophisticated attacks. Fortunately, Office 365 Advanced Threat Protection can help. You can set up an anti-phishing policy to help ensure that your organization is protected against such attacks."
+description: "Anti-phishing protection, with comprehensive protection as a part of Office 365 Advanced Threat Protection and basic protection in Office 365 Exchange Online Protection, can help protect your organization from malicious impersonation-based phishing attacks and other phishing attacks."
 ---
 
 # Set up Office 365 ATP anti-phishing and anti-phishing policies
@@ -19,15 +19,15 @@ description: "Anti-phishing protection, with comprehensive protection as a part 
 Phishing attacks come in a variety of forms from commodity-based attacks to targeted spear phishing or whaling. With the growing complexity, it's difficult for even a trained eye to identify some of these sophisticated attacks. Fortunately, Office 365 Advanced Threat Protection can help. You can set up an ATP anti-phishing policy to help ensure that your organization is protected against such attacks.
   
 > [!NOTE]
-> ATP anti-phishing is only available in Advanced Threat Protection, which is included in subscriptions, such as [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise/home), [Microsoft 365 Business](https://www.microsoft.com/microsoft-365/business), Office 365 Enterprise E5, and Office 365 Education A5. If your organization has an Office 365 subscription that does not include Office 365 ATP, you can potentially purchase ATP as an add-on. For more information, see [Office 365 Advanced Threat Protection Service Description](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description).  Make sure your organization is using the latest version of Office 365 ProPlus on Windows to take full advantage of ATP anti-phishing protection. 
+> ATP anti-phishing is only available in Advanced Threat Protection (ATP). ATP is included in in subscriptions, such as [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise/home), [Microsoft 365 Business](https://www.microsoft.com/microsoft-365/business), Office 365 Enterprise E5, Office 365 Education A5, etc. If your organization has an Office 365 subscription that does not include Office 365 ATP, you can potentially purchase ATP as an add-on. For more information, see [Office 365 Advanced Threat Protection Service Description](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description). Make sure your organization is using the latest version of Office 365 ProPlus on Windows to take full advantage of ATP anti-phishing protection. 
 
-Anti-phishing policy is now available for Office 365 Exchange Online Protection, with a limited set of anti-spoofing protection that is intended to protect against authentication-based and deception-based attacks.
+An anti-phishing policy is also available for Office 365 Exchange Online Protection, with a limited set of anti-spoofing protection that is intended to protect against authentication-based and deception-based attacks.
   
 What to do:
   
 1. Review the prerequisites.
     
-2. Learn about anti-phishing and ATP anti-phishing policy options.
+2. Learn about your anti-phishing and ATP anti-phishing policy options.
     
 3. Set up an anti-phishing policy or an ATP anti-phishing policy.
     
@@ -48,8 +48,7 @@ What to do:
     
 ## Set up an anti-phishing or ATP anti-phishing policy
 
-Each organization in Office 365 has a default anti-phishing policy that applies to all users. You can create multiple custom anti-phishing policies that you can scope to specific users, groups, or domains within your organization. The custom policies you create take precedence over the default policy.
-You add, edit, and delete anti-phishing policies in the Office 365 Security &amp; Compliance Center.
+Each organization in Office 365 has a default anti-phishing policy that applies to all users. You can create multiple custom anti-phishing policies that you can scope to specific users, groups, or domains within your organization. The custom policies you create take precedence over the default policy. You add, edit, and delete anti-phishing policies in the Office 365 Security &amp; Compliance Center.
   
 1. Go to [https://protection.office.com](https://protection.office.com) and sign in with your work or school account. 
     
@@ -59,15 +58,12 @@ You add, edit, and delete anti-phishing policies in the Office 365 Security &amp
     
 4. On the **Anti-phishing** or **ATP anti-phishing** page, do one of the following: 
     
-  - To add a new policy select **+ Create**.
-    
-  - To edit an existing policy, select the policy name from the list displayed on the **Anti-phishing** page or choose **Default Policy** above the list to edit the default poicy for your organization. On the page that appears, choose **Edit policy**.  
-    
-    A wizard launches that steps you through defining your anti-phishing policy.
+    - To add a new policy select **+ Create**.
+    - To edit an existing policy, select the policy name from the list displayed on the **Anti-phishing** page. (Alternately, you can or choose **Default Policy** above the list.) On the page that appears, choose **Edit policy**.  
     
 5. Specify the name, description, and settings for your policy. See [Learn about ATP anti-phishing policy options](#learn-about-atp-anti-phishing-policy-options) for more details. 
     
-6. Once you have reviewed your settings, choose **Create this policy** or **Save** as appropriate. 
+6. Once you have reviewed your settings, choose **Create this policy** (or **Save**). 
     
 ## Learn about ATP anti-phishing policy options
 
