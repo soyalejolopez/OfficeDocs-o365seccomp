@@ -67,8 +67,8 @@ On the **Permissions** page in the Security &amp; Compliance Center, you can als
 
 The following table lists the eDiscovery-related RBAC roles in the Security & Compliance Center, and indicates the built-in role groups that each role is assigned to by default. 
     
-|**Role**|**Compliance Administrator**|**eDiscovery Manager &amp; Administrator**|**Organization Management**|Reviewer|
-|:-----|:-----|:-----|:-----|:-----|
+|**Role**|**Compliance Administrator**|**eDiscovery Manager & Administrator**|**Organization Management**|**Reviewer**|
+|:-----|:-----:|:-----:|:-----:|:-----:|
 |Case Management <br/> |![Check mark](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |![Check mark](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |![Check mark](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> | <br/> |
 |Compliance Search <br/> |![Check mark](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |![Check mark](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |![Check mark](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> | <br/> |
 |Export <br/> | <br/> |![Check mark](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> | <br/> | <br/> |
