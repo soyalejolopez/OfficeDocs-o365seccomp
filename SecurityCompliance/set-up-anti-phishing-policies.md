@@ -39,7 +39,7 @@ What to do:
     |---------|---------|
     |Office 365 Global Administrator |The person who signs up to buy Office 365 is a global admin by default. (See [About Office 365 admin roles](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) to learn more.)         |
     |Office 365 Security Administrator |Admin center ([https://aka.ms/admincenter](https://aka.ms/admincenter))|
-    |Office 365 Organizaton Management |Admin center ([https://aka.ms/admincenter](https://aka.ms/admincenter)) |
+    |Office 365 Organization Management |Admin center ([https://aka.ms/admincenter](https://aka.ms/admincenter)) |
     |Exchange Online Organization Management |Exchange admin center ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) <br>or <br>  PowerShell cmdlets (See [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)) |
     
 - You will probably set up multiple anti-phishing policies for your organization. Office 365 enforces these policies in the order they're listed on the **Anti-phishing page** and **ATP anti-phishing** pages in the Security &amp; Compliance Center. Once you've reviewed your [policy options](#learn-about-atp-anti-phishing-policy-options), take some time to determine how many policies you'll need and the priority for each. 
