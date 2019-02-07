@@ -3,7 +3,7 @@ title: "Security dashboard overview"
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 01/04/2019
+ms.date: 02/07/2019
 ms.audience: ITPro
 ms.topic: overview
 ms.service: o365-administration
@@ -30,7 +30,7 @@ Depending on what your organization's Office 365 subscription includes, the Secu
 To view the Security Dashboard, in the [Office 365 Security &amp; Compliance Center](go-to-the-securitycompliance-center.md), go to **Threat management** \> **Dashboard**.
   
 > [!NOTE]
-> You must be an Office 365 global administrator, a security administrator, or a security reader to view the Security Dashboard. See [Permissions in the Office 365 Security &amp; Compliance Center](permissions-in-the-security-and-compliance-center.md). 
+> You must be an Office 365 global administrator, a security administrator, or a security reader to view the Security Dashboard. Some widgets require additional permissions to view. To learn more, see [Permissions in the Office 365 Security &amp; Compliance Center](permissions-in-the-security-and-compliance-center.md). 
   
 ## Threat Management Summary
 
@@ -45,6 +45,7 @@ The information you'll see in the Threat Management Summary depends on what you 
 |---------|---------|
 |Malware messages blocked<br/>Phishing messages blocked<br>Messages reported by users<br><br><br><br> |Malware messages blocked<br>Phishing messages blocked<br>Messages reported by users<br>Zero-day malware blocked<br>Advanced phishing messages detected<br>Malicious URLs blocked |
 
+To view or access the Threat Management Summary widget, you must have permissions to view Advanced Threat Protection reports. To learn more, see [What permissions are needed to view the ATP reports?](view-reports-for-atp.md#what-permissions-are-needed-to-view-the-atp-reports). 
 
 ## Threat Protection Status
 
@@ -59,6 +60,8 @@ The details depend on whether your Office 365 subscription includes [Exchange On
 |---------|---------|
 |EOP but not Office 365 ATP     |Malicious email that was detected and blocked by EOP<br> See [Threat Protection Status report (EOP)](view-email-security-reports.md#threat-protection-status-report-new).| |
 |Office 365 ATP |Malicious content and malicious email detected and blocked by EOP and Office 365 ATP<br>Aggregated count of unique email messages with malicious content blocked by the anti-malware engine, [zero-hour auto purge](zero-hour-auto-purge.md), and ATP features (including [Safe Links](atp-safe-links.md), [Safe Attachments](atp-safe-attachments.md), and [ATP anti-phishing](atp-anti-phishing.md)).<br>See [Threat Protection Status report (ATP)](view-reports-for-atp.md#threat-protection-status-report). | 
+
+To view or access the Threat Protection Status widget, you must have permissions to view Advanced Threat Protection reports. To learn more, see [What permissions are needed to view the ATP reports?](view-reports-for-atp.md#what-permissions-are-needed-to-view-the-atp-reports). 
 
 ## Global Weekly Threat Detections
  
@@ -103,6 +106,10 @@ Near the bottom of the Security Dashboard is a **Trends** section, which summari
 ![The Trends section summarizes email flow trends for the organization](media/trends.png)
   
 And, if your organization's Office 365 subscription includes [Threat Intelligence capabilities](office-365-ti.md), you will also have a **Recent threat management alerts** report in this section that enables your security team to view and take action on high-priority security alerts. 
+
+To view or access the Sent and Received Email widget, you must have permissions to view Advanced Threat Protection reports. To learn more, see [What permissions are needed to view the ATP reports?](view-reports-for-atp.md#what-permissions-are-needed-to-view-the-atp-reports). 
+
+To view or access the Recent Threat Management Alerts widget, you must have permissions to view alerts. To learn more, see [RBAC permissions required to view alerts](alert-policies.md#rbac-permissions-required-to-view-alerts).
   
 ## Related topics
 
