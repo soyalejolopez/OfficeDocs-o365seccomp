@@ -3,7 +3,7 @@ title: "Office 365 Advanced Threat Protection"
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 02/04/2019
+ms.date: 02/07/2019
 ms.audience: Admin
 ms.topic: hub-page
 ms.service: o365-administration
@@ -42,6 +42,7 @@ We are continuing to add new features to Office 365, and that includes ATP. Belo
 
 |Feature updates  |Action items  |
 |---------|---------|
+|Beginning in February 2019 and rolling out over the next several months, Threat Intelligence capabilities are being added to ATP. In addition, if your organization does not currently have ATP, you'll have new options to consider, including ATP Plan 1 and ATP Plan 2. To learn more, see [Office 365 Advanced Threat Protection Service Description](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description). |Review your organization's subscription, and if needed, [Buy or edit an add-on](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/buy-or-edit-an-add-on).  |
 |Beginning in October 2018 and rolling out over the next several months, when people are using Outlook or Outlook Web Application (OWA), ATP Safe Links renders original URLs, not rewritten URLs. (We call this native link rendering.)<br>When native link rendering is available for your organization, this feature will work in Outlook 365 (Click-to-Run) and OWA.|None         |
 |Beginning in September 2018, [Office 365 ATP warning pages](atp-safe-links-warning-pages.md) feature a new color scheme, more details, and the ability to continue to a site despite given warnings and recommendations. |None         |
 |Beginning in the second half of 2018, ATP Safe Links protection is extended to apply to URLs in Office Online (Word Online, Excel Online, PowerPoint Online, and OneNote Online) and Office 365 ProPlus on Mac.   |[Review and edit your ATP Safe Links policies](set-up-atp-safe-links-policies.md)  |
@@ -49,7 +50,6 @@ We are continuing to add new features to Office 365, and that includes ATP. Belo
 |Beginning in March 2018, ATP Safe Links protection is extended to apply to email sent between people within an organization. |[Review and edit your ATP Safe Links policies](set-up-atp-safe-links-policies.md) |
 |Beginning in late October 2017, ATP Safe Links protection is extended to apply to URLs in email as well as URLs in Office 365 ProPlus documents, such as Word, Excel, PowerPoint, and Visio on Windows, as well as Office apps on iOS and Android devices.  |Make sure you're using [Modern Authentication for Office](https://docs.microsoft.com/office365/enterprise/modern-auth-for-office-2013-and-2016) |
 
-- Beginning in February 2019 and rolling out over the next several months, Threat Intelligence capabilities are being added to ATP. In addition, if your organization does not currently have ATP, you'll have new options to consider, including ATP Plan 1 and ATP Plan 2. To learn more, see LINK GOES HERE.
 
       
 ## Get Office 365 ATP
