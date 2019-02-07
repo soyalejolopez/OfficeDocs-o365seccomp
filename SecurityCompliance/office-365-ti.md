@@ -3,7 +3,7 @@ title: "Office 365 Threat Intelligence"
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 01/16/2019
+ms.date: 02/07/2019
 ms.audience: Admin
 ms.topic: overview
 ms.service: o365-administration
