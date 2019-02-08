@@ -29,16 +29,14 @@ Here's a quick overview of how alert policies work and the alerts that are trigg
   
 ![Overview of how alert policies work](media/e02a622d-b429-448b-8107-dd1a4770b4e0.png)
   
-1. An admin in your organization creates, configures, and turns on an alert policy by using the **Alert policies** page in the Security &amp; Compliance Center. You can also create alert policies by using the **New-ProtectionAlert** cmdlet in PowerShell. 
+1. An admin in your organization creates, configures, and turns on an alert policy by using the **Alert policies** page in the Security & Compliance Center. You can also create alert policies by using the **New-ProtectionAlert** cmdlet in PowerShell. To create alert policies, you have to be assigned the Organization Configuration role or the Manage Alerts role in the Security & Compliance Center.
     
 2. A user performs an activity that matches the conditions of an alert policy. In the case of malware attacks, infected email messages sent to users in your organization will trigger an alert.
     
-3. Office 365 generates an alert that's displayed on the **View alerts** page in the Security &amp; Compliance Center. Also, if email notifications are enabled for the alert policy, Office 365 sends an notification to a list recipients. 
+3. Office 365 generates an alert that's displayed on the **View alerts** page in the Security &amp; Compliance Center. Also, if email notifications are enabled for the alert policy, Office 365 sends an notification to a list recipients. The alerts that an admin or other users can see on the **View alerts** page is determined by the roles assigned to the user. For more information, see the [RBAC permissions required to view alerts](#rbac-permissions-required-to-view-alerts) section.
     
 4. An admin manages alerts in the Security &amp; Compliance Center. Managing alerts consists of assigning an alert status to help track and manage any investigation.
     
-
-  
 ## Alert policy settings
 
 An alert policy consists of a set of rules and conditions that define the user or admin activity that will generate an alert, a list of users who will trigger the alert if they perform the activity, and threshold that defines how many times the activity has to occur before an alert is triggered. You also categorize the policy and assign it a severity level. These two settings help you manage alert policies (and the alerts that are triggered when the policy conditions are matched) because you can filter on these settings when managing policies and viewing alerts in the Security &amp; Compliance Center. For example, you can view alerts that match the conditions from the same category or view alerts with the same severity level.
@@ -79,7 +77,7 @@ An alert policy consists of the following settings and conditions.
     
   - Others
     
-    When an activity occurs that matches the conditions of the alert policy, the alert that's generated is tagged with the category defined in this setting. This allows you to track and manage alerts that have the same category setting on the **View alerts** page in the Security &amp; Compliance Center because you can sort and filter alerts based on category. 
+  When an activity occurs that matches the conditions of the alert policy, the alert that's generated is tagged with the category defined in this setting. This allows you to track and manage alerts that have the same category setting on the **View alerts** page in the Security & Compliance Center because you can sort and filter alerts based on category. 
     
 - **Alert severity** - Similar to the alert category, you assign a severity attribute ( **Low**, **Medium**, or **High**) to alert policies. Like the alert category, when an activity occurs that matches the conditions of the alert policy, the alert that's generated is tagged with the same severity level that's set for the alert policy. Again, this allows you to track and manage alerts that have the same severity setting on the **View alerts** page. For example, you can filter the list of alerts so that only alerts with a **High** severity are displayed. 
     
@@ -92,21 +90,24 @@ An alert policy consists of the following settings and conditions.
 
 Office 365 provides built-in alert policies that help identify Exchange admin permissions abuse, malware activity, and data governance risks. On the **Alert policies** page, the name of these built-in policies are in bold and the policy type is defined as **System**. These policies are turned on by default. You can turn these policies off (or back on again), set up a list of recipients to send email notifications to, and set a daily notification limit. The other settings for these policies can't be edited.
   
-The following table lists and describes the available default alert policies and indicates the Office 365 Enterprise and Office 365 US Government plans required for each one. Note that some default alert policies are available if your organization has the appropriate add-on subscription in addition to an E1/G1 or E3/G3 subscription. 
+The following table lists and describes the available default alert policies, and the category each policy is assigned to. Note that that category is used to determine which alerts a user can view on the View alerts page. For more information, see the [RBAC permissions required to view alerts](#rbac-permissions-required-to-view-alerts) section.  
+
+The table also indicates the Office 365 Enterprise and Office 365 US Government plans required for each one. Note that some default alert policies are available if your organization has the appropriate add-on subscription in addition to an E1/G1 or E3/G3 subscription. 
   
-|**Default alert policy**|**Description**|**Office 365 Enterprise subscription**|
-|:-----|:-----|:-----|
-|**Creation of forwarding/redirect rule** <br/> |Generates an alert when someone in your organization creates an inbox rule for their mailbox that forwards or redirects messages to another email account. This policy only tracks inbox rules that are created using Outlook Web App or Exchange Online PowerShell. This policy has a **Low** severity setting. For more information using inbox rules to forward and redirect email in Outlook Web App, see [Use rules in Outlook Web App to automatically forward messages to another account](https://support.office.com/article/1433e3a0-7fb0-4999-b536-50e05cb67fed).  <br/> |E1/G1, E3/G3, or E5/G5  <br/> |
-|**eDiscovery search started or exported** <br/> |Generates an alert when someone uses the Content search tool in the Security & Compliance Center. An alert is triggered when the following content search activities are performed: <br/><br/>• A content search is started<br/>• The results of a content search are exported<br/>• A content search report is exported<br/><br/>Alerts are also trigged when the previous content search activities are performed in association with an eDiscovery case. This policy has a **Medium** severity setting. For more information about content search activities, see [Search for eDiscovery activities in the Office 365 audit log](search-for-ediscovery-activities-in-the-audit-log.md#ediscovery-activities). <br/> |E1/G1, E3/G3, or E5/G5  <br/> |
-|**Elevation of Exchange admin privilege** <br/> |Generates an alert when someone is assigned administrative permissions in your Exchange Online organization; for example, if a user is added to the Organization Management role group in Exchange Online. This policy has a **Low** severity setting.  <br/> |E1/G1, E3/G3, or E5/G5  <br/> |
-|**Messages have been delayed** <br/> |Generates an alert when Office 365 can't deliver email messages to your on-premises organization or a partner servers by using a connector. When this happen, the message is queued in Office 365. This alert is triggered when there are 2,000 messages or more that have been queued for more than an hour. This policy has a **High** severity setting.  <br/> |E1/G1, E3/G3, or E5/G5  <br/> |
-|**Malware campaign detected after delivery** <br/> |Generates an alert when an unusually large number of messages containing malware are delivered to mailboxes in your organization. If this event occurs, Office 365 removes the infected messages from Exchange Online mailboxes. This policy has a **High** severity setting.  <br/> |E5/G5 or Office 365 Threat Intelligence add-on subscription  <br/> |
-|**Malware campaign detected and blocked** <br/> |Generates an alert when someone has attempted to send an unusually large number of email messages containing a certain type of malware to users in your organization. If this event occurs, the infected messages are blocked by Office 365 and not delivered to mailboxes. This policy has a **Low** severity setting.  <br/> |E5/G5 or Office 365 Threat Intelligence add-on subscription  <br/> |
-|**Malware campaign detected in SharePoint and OneDrive** <br/> |Generates an alert when an unusually high volume of malware or viruses are detected in files located in SharePoint sites or OneDrive accounts in your organization. This policy has a **High** severity setting.  <br/> |E5/G5 or Office 365 Threat Intelligence add-on subscription  <br/> |
-|**Unusual external user file activity** <br/> |Generates an alert when an usually large number of activities are performed on files in SharePoint or OneDrive by users outside of your organization. This includes activities such as accessing files, downloading files, and deleting files. This policy has a **High** severity setting.  <br/> |E5/G5, or Office 365 Threat Intelligence or Advanced Compliance add-on subscription  <br/> |
-|**Unusual volume of external file sharing** <br/> |Generates an alert when an usually large number of files in SharePoint or OneDrive are shared with users outside of your organization. This policy has a **Medium** severity setting.  <br/> |E5/G5, or Office 365 Threat Intelligence or Advanced Compliance add-on subscription  <br/> |
-|**Unusual volume of file deletion** <br/> |Generates an alert when an unusually large number of files are deleted in SharePoint or OneDrive within a short time frame. This policy has a **Medium** severity setting.  <br/> |E5/G5, or Office 365 Threat Intelligence or Advanced Compliance add-on subscription  <br/> |
-|**Unusual increase in email reported as phish** <br/> |Generates an alert when there is a significant increase in the number of people in your organization using the Report Message add-in in Outlook to report messages as phishing mail. This policy has a **High** severity setting. For more information about this add-in, see [Use the Report Message add-in](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2).  <br/> |E5/G5 or Office 365 Threat Intelligence add-on subscription  <br/> |
+|**Default alert policy**|**Description**|**Category**|**Office 365 Enterprise subscription**|
+|:-----|:-----|:-----|:-----|
+|**Creation of forwarding/redirect rule** <br/> |Generates an alert when someone in your organization creates an inbox rule for their mailbox that forwards or redirects messages to another email account. This policy only tracks inbox rules that are created using Outlook Web App or Exchange Online PowerShell. This policy has a **Low** severity setting. For more information using inbox rules to forward and redirect email in Outlook Web App, see [Use rules in Outlook Web App to automatically forward messages to another account](https://support.office.com/article/1433e3a0-7fb0-4999-b536-50e05cb67fed).  <br/> |Threat management <br/> |E1/G1, E3/G3, or E5/G5  <br/> |
+|**eDiscovery search started or exported** <br/> |Generates an alert when someone uses the Content search tool in the Security & Compliance Center. An alert is triggered when the following content search activities are performed: <br/><br/>• A content search is started<br/>• The results of a content search are exported<br/>• A content search report is exported<br/><br/>Alerts are also trigged when the previous content search activities are performed in association with an eDiscovery case. This policy has a **Medium** severity setting. For more information about content search activities, see [Search for eDiscovery activities in the Office 365 audit log](search-for-ediscovery-activities-in-the-audit-log.md#ediscovery-activities). <br/> |Threat management<br/> |E1/G1, E3/G3, or E5/G5  <br/> |
+|**Elevation of Exchange admin privilege** <br/> |Generates an alert when someone is assigned administrative permissions in your Exchange Online organization; for example, if a user is added to the Organization Management role group in Exchange Online. This policy has a **Low** severity setting.  <br/> |Permissions <br/> |E1/G1, E3/G3, or E5/G5  <br/> |
+|**Messages have been delayed** <br/> |Generates an alert when Office 365 can't deliver email messages to your on-premises organization or a partner servers by using a connector. When this happen, the message is queued in Office 365. This alert is triggered when there are 2,000 messages or more that have been queued for more than an hour. This policy has a **High** severity setting.  <br/> |Mail flow<br/> |E1/G1, E3/G3, or E5/G5  <br/> |
+|**Malware campaign detected after delivery** <br/> |Generates an alert when an unusually large number of messages containing malware are delivered to mailboxes in your organization. If this event occurs, Office 365 removes the infected messages from Exchange Online mailboxes. This policy has a **High** severity setting.  <br/> |Threat management<br/> |E5/G5 or Office 365 Threat Intelligence add-on subscription  <br/> |
+|**Malware campaign detected and blocked** <br/> |Generates an alert when someone has attempted to send an unusually large number of email messages containing a certain type of malware to users in your organization. If this event occurs, the infected messages are blocked by Office 365 and not delivered to mailboxes. This policy has a **Low** severity setting.  <br/> |Threat management<br/> |E5/G5 or Office 365 Threat Intelligence add-on subscription  <br/> |
+|**Malware campaign detected in SharePoint and OneDrive** <br/> |Generates an alert when an unusually high volume of malware or viruses are detected in files located in SharePoint sites or OneDrive accounts in your organization. This policy has a **High** severity setting.  <br/> |Threat management<br/> |E5/G5 or Office 365 Threat Intelligence add-on subscription  <br/> |
+|**Unusual external user file activity** <br/> |Generates an alert when an usually large number of activities are performed on files in SharePoint or OneDrive by users outside of your organization. This includes activities such as accessing files, downloading files, and deleting files. This policy has a **High** severity setting.  <br/> |Data governance<br/> |E5/G5, or Office 365 Threat Intelligence or Advanced Compliance add-on subscription  <br/> |
+|**Unusual volume of external file sharing** <br/> |Generates an alert when an usually large number of files in SharePoint or OneDrive are shared with users outside of your organization. This policy has a **Medium** severity setting.  <br/> |Data governance<br/> |E5/G5, or Office 365 Threat Intelligence or Advanced Compliance add-on subscription  <br/> |
+|**Unusual volume of file deletion** <br/> |Generates an alert when an unusually large number of files are deleted in SharePoint or OneDrive within a short time frame. This policy has a **Medium** severity setting.  <br/> |Data governance <br/> |E5/G5, or Office 365 Threat Intelligence or Advanced Compliance add-on subscription  <br/> |
+|**Unusual increase in email reported as phish** <br/> |Generates an alert when there is a significant increase in the number of people in your organization using the Report Message add-in in Outlook to report messages as phishing mail. This policy has a **High** severity setting. For more information about this add-in, see [Use the Report Message add-in](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2).  <br/> |Threat management<br/> |E5/G5 or Office 365 Threat Intelligence add-on subscription  <br/> |
+|||||
    
 Note that the unusual activity monitored by some of the built-in policies is based on the same process as the alert threshold setting that was previously described. Office 365 establishes a baseline value that defines the normal frequency for "usual" activity. Alerts are then triggered when the frequency of activities tracked by the built-in alert policy greatly exceeds the baseline value.
  
@@ -132,7 +133,68 @@ You can use the following filters to view a subset of all the alerts on the **Vi
 
 - **Source** - Use this filter to show alerts triggered by alert policies in the Security & Compliance Center or alerts triggered by Office 365 Cloud App Security policies, or both. For more information about Office 365 Cloud App Security alerts, see the [Viewing Cloud App Security alerts](#viewing-cloud-app-security-alerts) section.
 
-  
+## RBAC permissions required to view alerts
+
+> [!NOTE]
+> The functionality described in this section will roll out to organizations beginning on February 20, 2019, and will be completed worldwide by the end of March 2019.
+
+The Role Bases Access Control (RBAC) permissions assigned to users in your organization determines which alerts a user can see on the **View alerts** page. How is this accomplished? The management roles assigned to users (based on their membership in role groups in the Security & Compliance Center) determine which alert categories a user can see on the **View alerts** page. Here are some examples:
+
+- Members of the Records Management role group can view only the alerts that are generated by alert policies that are assigned the **Data governance** category.
+
+- Members of the Compliance Administrator  role group can't view alerts that are generated by alert policies that are assigned the **Threat management** category. 
+
+- Members of the eDiscovery Manager role group can't view any alerts because none of the assigned roles provide permission to view alerts from any alert category.
+
+This design (based on RBAC permissions) lets you determine which alerts can be  viewed (and managed) by users in specific job roles in your organization. 
+
+The following table lists the roles that are required to view alerts from the 6 different alert categories. The first column in the tables lists all roles in the Security & Compliance Center.  A check mark indicates that a user who is assigned that role can view alerts from the corresponding alert category listed in the top row.
+
+To see which category a default alert policy is assigned to, see the table in the [Default alert policies](#default-alert-policies) section.
+
+|<br/>|Data governance|Data loss prevention|Mail flow|Permissions|Threat management|Others | 
+|:---------|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
+|Audit Logs <br/> |         ||         |         |         |         |
+|Case Management <br/>|         |         |         |         |         |         |
+|Compliance Administrator<br/>|![Check mark](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)| ![Check mark](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||![Check mark](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|         |![Check mark](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+|Compliance Search<br/>|         |         |         |         |         |         |
+|Device Management<br/>|         |         |         |         |         |         |
+|Disposition Management<br/>|         |         |         |         |         |         |
+|DLP Compliance Management<br/>|         |![Check mark](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|         |         |         |         |
+|Export<br/>|         |         |         |         |         |         |
+|Hold<br/>|         |         |         |         |         |         |
+|Manage Alerts<br/>|         |         |         |         |         |![Check mark](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+|Organization Configuration|         |         |         |         |         |![Check mark](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+|Preview <br/>|         |         |         |         |         |         |
+|Record Management <br/>|![Check mark](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|         |         |         |         |         |
+|Retention Management <br/>| ![Check mark](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|         |         |         |         |         |
+|Review <br/>|         |         |         |         |         |         |
+|RMS Decrypt<br/>|         |         |         |         |         |         |
+|Role Management<br/>|         |         |         |![Check mark](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|         |         |
+|Search And Purge<br/>|         |         |         |         |         |         |
+|Security Administrator<br/>||![Check mark](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)| | ![Check mark](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)| ![Check mark](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Check mark](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+|Security Reader<br/>|         |![Check mark](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)| | ![Check mark](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)| ![Check mark](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Check mark](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)
+|Service Assurance View<br/>|         |         |         |         |         |         |
+|Supervisory Review Administrator<br/>|         |         |         |         |         |         |
+|View-Only Audit Logs<br/>|         |         |         |         |         |         |
+|View-Only Device Management<br/>|         |         |         |         |         |         |
+|View-Only DLP Compliance Management<br/>|         |![Check mark](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|         |         |         |         |
+|View-Only Manage Alerts<br/>|         |         |         |         |         |![Check mark](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+|View-Only Recipients<br/>|         |         |  ![Check mark](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)       |         ||         |
+|View-Only Record Management<br/>|![Check mark](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|         |         |         |         |         |
+|View-Only Retention Management<br/>|![Check mark](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|         |         |         |         |         |
+|         |         |         |         |         |         |
+
+**Tip:** To view the roles that are assigned to each of the default role groups, run the following commands in Security & Compliance Center PowerShell: 
+
+```
+$RoleGroups = Get-RoleGroup
+
+$RoleGroups | foreach {Write-Output -InputObject `r`n,$_.Name,"-----------------------"; Get-RoleGroup $_.Identity | Select-Object -ExpandProperty Roles}
+```
+You can also view the roles assigned to a role group in the Security & Compliance Center. Go to the **Permissions** page, and click a role group. The assigned roles are listed on the flyout page.
+
+
 ## Managing alerts
 
 After alerts have been generated and displayed on the **View alerts** page in the Security &amp; Compliance Center, you can triage, investigate, and resolve them. Here are some tasks you can perform to manage alerts. 

@@ -1,5 +1,5 @@
 ---
-title: "Annotating and redacting documents in a working set"
+title: "View documents in a working set"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -17,5 +17,6 @@ ms.assetid:
 description: ""
 ---
 
-# Annotating and redacting documents in a working set
+# View documents in a working set
 
+Content coming soon.

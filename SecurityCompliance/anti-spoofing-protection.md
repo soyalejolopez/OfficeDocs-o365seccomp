@@ -94,7 +94,7 @@ Authentication-Results:
 |||
 |:-----|:-----|
 |**Reason**|**Description**|
-|0xx|Message failed composite authentication.<br/>**000** means the message failed DMARC with an action of reject or quarantine.                    - 001 means the message failed implicit email authentication. This means that the sending domain did not have email authentication records published, or if they did, they had a weaker failure policy (SPF soft fail or neutral, DMARC policy of p=none).  <br/>**002** means the organization has a policy for the sender/domain pair that is explicitly prohibited from sending spoofed email, this setting is manually set by an administrator.  <br/>**010** means the message failed DMARC with an action of reject or quarantine, and the sending domain is one of your organization's accepted-domains (this is part of self-to-self, or intra-org, spoofing).  <br/>**011** means the message failed implicit email authentication, and the sending domain is one of your organization's accepted domains (this is part of self-to-self, or intra-org, spoofing).|
+|0xx|Message failed composite authentication.<br/>**000** means the message failed DMARC with an action of reject or quarantine.  <br/>**001** means the message failed implicit email authentication. This means that the sending domain did not have email authentication records published, or if they did, they had a weaker failure policy (SPF soft fail or neutral, DMARC policy of p=none).  <br/>**002** means the organization has a policy for the sender/domain pair that is explicitly prohibited from sending spoofed email, this setting is manually set by an administrator.  <br/>**010** means the message failed DMARC with an action of reject or quarantine, and the sending domain is one of your organization's accepted-domains (this is part of self-to-self, or intra-org, spoofing).  <br/>**011** means the message failed implicit email authentication, and the sending domain is one of your organization's accepted domains (this is part of self-to-self, or intra-org, spoofing).|
 |All other codes (1xx, 2xx, 3xx, 4xx, 5xx)|Corresponds to various internal codes for why a message passed implicit authentication, or had no authentication but no action was applied.|
    
 By looking at the headers of a message, an administrator or even an end user can determine how Office 365 arrives at the conclusion that the sender may be spoofed.
@@ -439,7 +439,7 @@ However, there is a legitimate scenario where anti-spoofing should be disabled, 
   
 ![Customer MX record does not point to Office 365](media/62127c16-cfb8-4880-9cad-3c12d827c67e.jpg)
   
-The other server may be an Exchange on-premise mail server, a mail filtering device such as Ironport, or another cloud hosted service.
+The other server may be an Exchange on-premises mail server, a mail filtering device such as Ironport, or another cloud hosted service.
   
 If the MX record of the recipient domain does not point to Office 365, then there is no need to disable anti-spoofing because Office 365 looks up your receiving domain's MX record and suppresses anti-spoofing if it points to another service. If you don't know if your domain has another server in front, you can use a website like MX Toolbox to look up the MX record. It might say something like the following:
   
@@ -451,7 +451,7 @@ However, if the MX record of the recipient domain  *does*  point to Office 365, 
   
 ![Routing diagram for recipient rewrite](media/070d90d1-50a0-42e4-9fd3-920bc99a7cad.jpg)
   
-The domain contoso.com's MX record points to the on-premise server, while the domain @office365.contoso.net's MX record points to Office 365 because it contains \*.protection.outlook.com, or \*.eo.outlook.com in the MX record:
+The domain contoso.com's MX record points to the on-premises server, while the domain @office365.contoso.net's MX record points to Office 365 because it contains \*.protection.outlook.com, or \*.eo.outlook.com in the MX record:
   
 ![MX record points to Office 365, therefore probably recipient rewrite](media/4101ad51-ef92-4907-b466-b41d14d344ca.jpg)
   
@@ -630,7 +630,7 @@ If you are a domain administrator but are not an Office 365 customer:
     
 - If you have bulk senders who are transmitting email on your behalf, you should work with them to send email in a way such that the sending domain in the From: address (if it belongs to you) aligns with the domain that passes SPF or DMARC.
     
-- If you have on-premise mail servers, or send from a Software-as-a-service provider, or from a cloud-hosting service like Microsoft Azure, GoDaddy, Rackspace, Amazon Web Services, or similar, you should ensure that they are added to your SPF record.
+- If you have on-premises mail servers, or send from a Software-as-a-service provider, or from a cloud-hosting service like Microsoft Azure, GoDaddy, Rackspace, Amazon Web Services, or similar, you should ensure that they are added to your SPF record.
     
 - If you are a small domain that is hosted by an ISP, you should set up your SPF record according to the instructions that is provided to you by your ISP. Most ISPs provide these types of instructions and can be found on the company's support pages.
     
