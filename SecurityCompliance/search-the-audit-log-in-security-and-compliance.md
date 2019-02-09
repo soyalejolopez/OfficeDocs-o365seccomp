@@ -437,7 +437,7 @@ The following table lists the activities that can be logged by mailbox audit log
 |**Friendly name**|**Operation**|**Description**|
 |:-----|:-----|:-----|
 |Added delegate mailbox permissions  <br/> |Add-MailboxPermission  <br/> |An administrator assigned the FullAccess mailbox permission to a user (known as a delegate) to another person's mailbox. The FullAccess permission allows the delegate to open the other person's mailbox, and read and manage the contents of the mailbox.  <br/> |
-|Classified message as a record  <br/> |ApplyRecordLabel<br/> |<br/> |
+|Classified message as a record  <br/> |ApplyRecordLabel<br/> |A message was classified as a record. This occurs when a retention label that classifies content as a record is manually or automatically applied to a message.<br/> |
 |Copied messages to another folder  <br/> |Copy  <br/> |A message was copied to another folder.  <br/> |
 |Created mailbox item  <br/> |Create  <br/> |An item is created in the Calendar, Contacts, Notes, or Tasks folder in the mailbox; for example, a new meeting request is created. Note that creating, sending, or receiving a message isn't audited. Also, creating a mailbox folder is not audited.  <br/> |
 |Created new inbox rule in Outlook web app  <br/> |NewInboxRule<br/> |<br/> |
@@ -456,20 +456,20 @@ The following table lists the activities that can be logged by mailbox audit log
   
 ### Retention policy and label activities
 
-The following table describes the activities for Office 365 retention policies and retention labels.
+The following table describes the activities related to Office 365 retention policies and retention labels.
 
 |**Activity**|**Operation**|**Description**|
 |:-----|:-----|:-----|
-| Created retention configuration for a retention policy<br/> |NewRetentionComplianceRule | |
-| Created retention label <br/> |  | |
-| Created retention policy<br/> | |   |
-| Deleted retention configuration for a retention policy<br/> | | |
-| Deleted retention label <br/> |  | |
-| Deleted retention policy<br/> | |   |
-| Exposed Preservation Lock and Immutable Label options<br/> |SetRestrictiveRenentionUI | |
-| Updated retention configuration for a retention policy<br/> | | |
-| Updated retention label <br/> |  | |
-| Updated retention policy<br/> | |   |
+| Created retention configuration for a retention policy<br/> |NewRetentionComplianceRule |Administrator configures the retention settings for a new retention policy. Retention settings include how long items are retained, and what happens to items when the retention period expires (such as deleting items, retaining items, or retaining and then deleting them). |
+| Created retention label <br/> |NewComplianceTag  |Administrator creates a new retention label. |
+| Created retention policy<br/> |NewRetentionCompliancePolicy |Administrator creates a new retention policy.  |
+| Deleted retention configuration for a retention policy<br/> | RemoveRetentionComplianceRule| Administrator deletes the configuration settings of a retention policy. Most likely, this activity is logged when an administrator runs the **Remove-RetentionComplianceRule** cmdlet. |
+| Deleted retention label <br/> |RemoveComplianceTag  | Administrator deletes a retention label.|
+| Deleted retention policy<br/> |RemoveRetentionCompliancePolicy |Administrator deletes a retention policy.   |
+| Enable regulatory compliance features<br/> |SetRestrictiveRetentionUI |Administrator enables regulatory compliance features by running the **Set-RegulatoryComplianceUI** cmdlet. After this cmdlet is run, the Preservation Lock and Immutable Label check boxes are displayed in the Security & Compliance Center. This enables compliance administrators to lock a retention policy and make classify apply a Preservation Lock to a retention policy and appli  is displayed in the when configuring a retention policy and is exposed in the  and Immutable Label options|
+| Updated retention configuration for a retention policy<br/> | SetRetentionComplianceRule| |
+| Updated retention label <br/> |SetComplianceTag  | Administrator updated a Retention Label|
+| Updated retention policy<br/> |SetRetentionCompliancePolicy |Administrator updated a Compliance Retention Policy   |
 
 ### Sway activities
   
