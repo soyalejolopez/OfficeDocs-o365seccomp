@@ -10,7 +10,6 @@
 ## [Plan for security and compliance in Office 365](plan-for-security-and-compliance.md)
 # Protect access to data and services
 ## [Protect access to data and services in Office 365](protect-access-to-data-and-services.md)
-## [Choose between MDM and Intune](choose-between-mdm-and-intune.md)
 
 # Protect information
 ## [Sensitivity labels](sensitivity-labels.md)
