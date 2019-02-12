@@ -1,5 +1,5 @@
 ---
-title: "Use DKIM to validate outbound email sent from your custom domain in Office 365"
+title: "Use DKIM for email in your custom domain in Office 365"
 ms.author: krowley
 author: kccross
 manager: laurawi
