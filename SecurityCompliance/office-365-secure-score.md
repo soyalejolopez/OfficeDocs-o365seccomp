@@ -3,7 +3,7 @@ title: "Office 365 Secure Score"
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 01/25/2019
+ms.date: 02/13/2019
 ms.audience: Admin
 ms.topic: overview
 ms.service: o365-administration
