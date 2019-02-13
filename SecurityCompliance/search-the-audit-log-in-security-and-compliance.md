@@ -49,6 +49,8 @@ Need to find if a user viewed a specific document or purged an item from their m
 - User and admin activity in Microsoft Flow
     
 - User and admin activity in Microsoft Stream
+
+- Analyst and admin activity in Microsoft Workplace Analytics
     
    
 ## Before you begin
@@ -583,7 +585,7 @@ Note that audit logging for Power BI isn't enabled by default. To search for Pow
   
 ### Microsoft Workplace Analytics activities
 
-Workplace Analytics provides insight into how groups collaborate across your Office 365 organization. The following table lists activities performed by users with the administrator and analyst roles in Workplace Analytics. Users with the analyst role have full access to all service features and use the product to do analysis. Users with the administrator role can configure privacy settings and system defaults, and can prepare, upload, and verify organizational data in Workplace Analytics. For more information, see [Workplace Analytics](https://docs.microsoft.com/en-us/workplace-analytics/index-orig).
+Workplace Analytics provides insight into how groups collaborate across your Office 365 organization. The following table lists activities performed by users that are assigned the Administrator role or the Analyst roles in Workplace Analytics. Users assigned the Analyst role have full access to all service features and use the product to do analysis. Users assigned the Administrator role can configure privacy settings and system defaults, and can prepare, upload, and verify organizational data in Workplace Analytics. For more information, see [Workplace Analytics](https://docs.microsoft.com/en-us/workplace-analytics/index-orig).
 
 |**Friendly name**|**Operation**|**Description**|
 |:-----|:-----|:-----|
