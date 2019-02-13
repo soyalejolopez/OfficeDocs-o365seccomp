@@ -68,7 +68,7 @@ But don't just take our word for it. Customers who are using Secure Score have s
   
 ## Required permissions
 
-In order to view and use your Secure Score dashboard, you must be assigned one of the following roles in Azure Active Directory:
+In order to view and use your Secure Score dashboard, you must be assigned one of the following roles in [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles):
 - Global Administrator
 - Billing Administrator
 - User Administrator
