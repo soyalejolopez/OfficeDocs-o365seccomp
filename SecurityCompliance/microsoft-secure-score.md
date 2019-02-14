@@ -1,6 +1,6 @@
 ---
-title: Microsoft Secure score
-description: describes the M365 Secure Score, how details are calculated, and what SecAdmins can expect using it.
+title: Microsoft Secure Score
+description: Describes Microsoft 365 Secure Score, how details are calculated, and what security admins can expect using it.
 keywords: security, malware, Microsoft 365, M365, secure score, security center, improvement actions
 ms.prod: w10
 ms.mktglfcycl: deploy
@@ -13,10 +13,7 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ---
 
-# Microsoft Secure Score
-
->[!NOTE]
->This is preliminary content and subject to change.
+# Microsoft Secure Score (Preview)
 
 With Microsoft Secure Score in the Microsoft 365 security center, you can have increased visibility and control over your organization’s security posture. From a centralized dashboard you can monitor and improve the security for your Microsoft 365 identities, data, apps, devices, and infrastructure.
 
