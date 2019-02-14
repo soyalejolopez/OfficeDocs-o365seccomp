@@ -15,7 +15,7 @@ ms.topic: article
 
 # Microsoft Secure Score
 
->![Note]
+>[!NOTE]
 >This is preliminary content and subject to change.
 
 With Microsoft Secure Score in the Microsoft 365 security center, you can have increased visibility and control over your organization’s security posture. From a centralized dashboard you can monitor and improve the security for your Microsoft 365 identities, data, apps, devices, and infrastructure.
@@ -69,7 +69,7 @@ When you click on an improvement action, a fly out appears. To complete the acti
 
 ![M365 homepage](./media/secure-score/secure-score1x450.png) ![M365 homepage](./media/secure-score/secure-score2x450.png)
 
-*Figures 2 & 3: Microsoft Secure Score flyouts*
+*Figures 2 & 3: Improvement action flyouts*
 
 ## Monitor improvements over time
 
