@@ -24,7 +24,8 @@ Follow these steps to configure Azure AD Office 365 apps to be controlled by Off
 
 **Step 4: [Test the deployment](#step-4-test-the-deployment)**
 
-**Note:** To deploy Conditional Access App Control for Office 365 apps, you need a valid [**license for Azure AD Premium P1**](https://docs.microsoft.com/azure/active-directory/license-users-groups) as well as a Office 365 Cloud App Security license.
+> [!IMPORTANT]
+> To deploy Conditional Access App Control for Office 365 apps, you need a valid [**license for Azure AD Premium P1**](https://docs.microsoft.com/azure/active-directory/license-users-groups) as well as a Office 365 Cloud App Security license.
 
 ## Step 1: Create an Azure AD conditional access test policy 
 
@@ -40,7 +41,7 @@ Follow these steps to configure Azure AD Office 365 apps to be controlled by Off
 
 6. Add any applicable **Condition assignments** or **Grant controls** (optional).
 
-> ![Azure AD conditional access](c:\\GitHub\\OfficeDocs-O365SecComp-pr\\SecurityCompliance/media/image1.png)
+> ![Azure AD conditional access](media/image1.png)
 
 ## Step 2: Sign in with a user scoped to the policy in the apps 
 
@@ -48,13 +49,11 @@ After you've created the policy, sign in to each app configured in that policy. 
 
 Cloud App Security will sync your policy details to its servers for each new app you log in to. This may take up to one minute.
 
-## 
-
 ## Step 3: Configure advanced controls in the Cloud App Security portal 
 
 The instructions above helped you create a built-in Cloud App Security policy for featured apps directly in Azure AD.
 
-To configure an advanced policy, create an [access policy](https://docs.microsoft.com/en-us/cloud-app-security/access-policy-aad) or a [session policy](https://docs.microsoft.com/en-us/cloud-app-security/session-policy-aad) in the Cloud App Security portal.
+To configure an advanced policy, create an [access policy](ocas-access-policies.md) or a [session policy](ocas-session-policies.md) in the Office 365 Cloud App Security portal.
 
 To identify devices using client certificates (optional):
 
@@ -64,7 +63,7 @@ To identify devices using client certificates (optional):
 
 3.  After the certificate is uploaded, you can create access policies and session policies based on **Device tag** and **Valid client certificate**.
 
-> ![Conditional access app control device ID](c:\\GitHub\\OfficeDocs-O365SecComp-pr\\SecurityCompliance/media/image2.png)
+> ![Conditional access app control device ID](media/image2.png)
 
 **Note** A certificate is only requested from a user if the session matches a policy that uses the valid client certificate filter.
 

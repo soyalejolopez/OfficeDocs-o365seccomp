@@ -110,7 +110,7 @@ Conditional Access App Control records the traffic logs of every user session th
 
 1. Go to the settings cog and click **Conditional Access App Control**.
 
-2. On the right side of the table, click the export button.<br>![export button](c:\\GitHub\\OfficeDocs-O365SecComp-pr\\SecurityCompliance/media/image3.png)<br>
+2. On the right side of the table, click the export button.<br>![export button](media/image3.png)<br>
 
 3. Select the range of the report and click **Export**. This process may take some time.
 
@@ -118,7 +118,7 @@ Conditional Access App Control records the traffic logs of every user session th
 
 1.  After the report is ready, go to **Settings** and then **Exported reports**.
 
-2.  In the table, select the relevant report from the list of **Conditional Access App Control traffic logs** and click download.<br>![download button](c:\\GitHub\\OfficeDocs-O365SecComp-pr\\SecurityCompliance/media/image4.png)<br>
+2.  In the table, select the relevant report from the list of **Conditional Access App Control traffic logs** and click download.<br>![download button](media/image4.png)<br>
 
 ## Block all downloads
 
