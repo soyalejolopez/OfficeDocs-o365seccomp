@@ -25,7 +25,7 @@ Follow these steps to configure Azure AD Office 365 apps to be controlled by Off
 **Step 4: [Test the deployment](#step-4-test-the-deployment)**
 
 > [!IMPORTANT]
-> To deploy Conditional Access App Control for Office 365 apps, you need a valid [**license for Azure AD Premium P1**](https://docs.microsoft.com/azure/active-directory/license-users-groups) as well as a Office 365 Cloud App Security license.
+> To deploy Conditional Access App Control for Office 365 apps, you need a valid [license for Azure AD Premium P1](https://docs.microsoft.com/azure/active-directory/license-users-groups) as well as a Office 365 Cloud App Security license.
 
 ## Step 1: Create an Azure AD conditional access test policy 
 
