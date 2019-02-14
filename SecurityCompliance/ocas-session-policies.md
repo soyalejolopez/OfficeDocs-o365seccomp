@@ -38,9 +38,7 @@ For example, you can decide that from unmanaged devices, or for sessions coming 
 
 Azure Active Directory conditional access policies and Cloud App Security session policies work in tandem to examine each user session and make policy decisions for each app. To set up a conditional access policy in Azure AD, follow this procedure:
 
-1. Configure an [Azure AD conditional access policy](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal) with assignments for a user or group of users and the app you want to control with the Conditional Access App Control.
-
-> **Note** Only apps that were [deployed with Conditional Access App Control](https://docs.microsoft.com/en-us/cloud-app-security/proxy-deployment-aad) will be affected by this policy.
+1. Configure an [Azure AD conditional access policy](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal) with assignments for a user or group of users and the app you want to control with the Conditional Access App Control. NOTE: Only apps that were [deployed with Conditional Access App Control](https://docs.microsoft.com/en-us/cloud-app-security/proxy-deployment-aad) will be affected by this policy.
 
 2. Route users to Office 365 Cloud App Security by selecting the **Use Conditional Access App Control enforced restrictions** in the **Session** page.
 
@@ -74,7 +72,7 @@ To create a new session policy, follow this procedure:
 
 6.  If you selected the option to **Control file download (with DLP)**, under **Activity source** in the **Files matching all of the following** section, select additional file filters to apply to the policy. These filters can include the following options:
         
-    - **Classification label** - Use this filter if your organization uses Azure Information Protection and your data has been protected by its Classification labels. You can filter files based on the Classification label you applied to them. For more information about integration with Azure Information Protection, see [<span class="underline">Azure Information Protection integration</span>](https://docs.microsoft.com/en-us/cloud-app-security/azip-integration).
+    - **Classification label** - Use this filter if your organization uses Azure Information Protection and your data has been protected by its Classification labels. You can filter files based on the Classification label you applied to them. For more information about integration with Azure Information Protection, see [Azure Information Protection integration](https://docs.microsoft.com/en-us/cloud-app-security/azip-integration).
         
     - **File name** - Use this filter to apply the policy to specific files.
         
@@ -86,9 +84,9 @@ To create a new session policy, follow this procedure:
         
         - **Test (Monitor all activities)**: Set this action to explicitly allow download according to the policy filters you set.
         
-        - **Block (Block file download and monitor all activities)**: Set this action to explicitly block download according to the policy filters you set. For more information, see [<span class="underline">How block download works</span>](https://docs.microsoft.com/en-us/cloud-app-security/session-policy-aad#block-download).
+        - **Block (Block file download and monitor all activities)**: Set this action to explicitly block download according to the policy filters you set. For more information, see [How block download works](https://docs.microsoft.com/en-us/cloud-app-security/session-policy-aad#block-download).
         
-        - **Protect (Apply classification label to download and monitor all activities)**: This option is only available if you selected **Control file download (with DLP)** under **Session policy**. If your organization uses Azure Information Protection, you can set an **Action** to apply a classification label set in Azure Information Protection to the file. For more information, see [<span class="underline">How protect download works</span>](https://docs.microsoft.com/en-us/cloud-app-security/session-policy-aad#protect-download).
+        - **Protect (Apply classification label to download and monitor all activities)**: This option is only available if you selected **Control file download (with DLP)** under **Session policy**. If your organization uses Azure Information Protection, you can set an **Action** to apply a classification label set in Azure Information Protection to the file. For more information, see [How protect download works](https://docs.microsoft.com/en-us/cloud-app-security/session-policy-aad#protect-download).
 
 7. You can **Create an alert for each matching event with the policy's severity** and set an alert limit. Select whether you want the alert as an email, a text message, or both.
 
