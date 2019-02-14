@@ -17,7 +17,7 @@ description: "Stop breaches and leaks in real time with Office 365 Cloud App Sec
 In today’s workplace, it’s often not enough to know what’s happening in your cloud environment after the fact. You want to stop breaches and leaks in real time, before employees intentionally or inadvertently put your data and your organization at risk. It's important to enable users in your organization to make the most of the services and tools available to them in cloud apps, and let them bring their own devices to work. At the same time, you need tools to help protect your organization from data leaks, and data theft, in real time. Together with Azure Active Directory, Office 365 Cloud App Security delivers these capabilities in a holistic and integrated experience with Conditional Access App Control.
 
 > [!IMPORTANT]
-> To use Cloud App Security Conditional Access App Control, you need an [Azure Active Directory P1 license](https://azure.microsoft.com/pricing/details/active-directory/) and an active Office 365 Cloud App Security subscription.
+> To use Cloud App Security Conditional Access App Control, you need an [Azure Active Directory P1 license](https://azure.microsoft.com/pricing/details/active-directory/) and an active [Office 365 Cloud App Security](office-365-cas-overview.md) subscription.
 
 ## How it works
 
@@ -47,15 +47,15 @@ This method doesn't require you to install anything on the device. This method i
 
 After a session is directed through Office 365 Cloud App Security, the following actions can be done:
 
-1.  Inspect the traffic for user activities
+1. Inspect the traffic for user activities
 
-2.  Display the identified activities in the Office 365 Cloud App Security Activity log
+2. Display the identified activities in the Office 365 Cloud App Security Activity log
 
-3.  Save the traffic logs and analyze them
+3. Save the traffic logs and analyze them
 
-4.  Enable the admin to export the traffic logs
+4. Enable the admin to export the traffic logs
 
-5.  Enforce policies on the session
+5. Enforce policies on the session
 
 ## Managed device identification
 
@@ -67,11 +67,11 @@ Conditional Access App Control enables you to create policies that take into acc
 
 - Client certificates deployment
 
-### Compliant and domain joined devices
+### Compliant and domain-joined devices
 
 Azure AD conditional access enables compliant and domain-joined device information to be passed directly to Office 365 Cloud App Security. From there, an access policy or a session policy can be developed that uses device state as a filter. For more information, see the [Introduction to device management in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/device-management-introduction).
 
-**Client-certificate authenticated devices**
+### Client-certificate authenticated devices
 
 The device identification mechanism can request authentication from relevant devices using client certificates. You can either use existing client certificates already deployed in your organization or roll out new client certificates to managed devices. You then use the presence of those certificates to set access and session policies. For information on how to deploy client certificates see [Deploy Conditional Access App Control for Azure AD apps](https://docs.microsoft.com/en-us/cloud-app-security/proxy-deployment-aad).
 
