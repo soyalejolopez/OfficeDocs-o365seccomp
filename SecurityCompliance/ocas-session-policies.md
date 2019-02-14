@@ -38,31 +38,30 @@ For example, you can decide that from unmanaged devices, or for sessions coming 
 
 Azure Active Directory conditional access policies and Cloud App Security session policies work in tandem to examine each user session and make policy decisions for each app. To set up a conditional access policy in Azure AD, follow this procedure:
 
-1.  > Configure an [<span class="underline">Azure AD conditional access policy</span>](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal) with assignments for a user or group of users and the app you want to control with the Conditional Access App Control.
+1. Configure an [<span class="underline">Azure AD conditional access policy</span>](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal) with assignments for a user or group of users and the app you want to control with the Conditional Access App Control.
 
 > **Note** Only apps that were [**<span class="underline">deployed with Conditional Access App Control</span>**](https://docs.microsoft.com/en-us/cloud-app-security/proxy-deployment-aad) will be affected by this policy.
 
-2.  > Route users to Office 365 Cloud App Security by selecting the **Use Conditional Access App Control enforced restrictions** in the **Session** page.
+2. Route users to Office 365 Cloud App Security by selecting the **Use Conditional Access App Control enforced restrictions** in the **Session** page.
 
-**Create a Cloud App Security session policy**
+## Create a Cloud App Security session policy
 
 To create a new session policy, follow this procedure:
 
-1.  > In the portal, select **Control** followed by **Policies**.
+1. In the portal, select **Control** followed by **Policies**.
 
-2.  > In the **Policies** page, click **Create policy** and select **Session policy**.
+2. In the **Policies** page, click **Create policy** and select **Session policy**.
 
-3.  > In the **Session policy** window, assign a name for your policy
+3. In the **Session policy** window, assign a name for your policy
 
-4.  > In the **Session control type** field:
+4. In the **Session control type** field:
     
-    1.  > Select **Monitor only** if you only want to monitor activities by users. This selection will create a Monitor only policy for the apps you selected where all sign-ins, heuristic downloads, and Activity types will be downloaded.
+    1. Select **Monitor only** if you only want to monitor activities by users. This selection will create a Monitor only policy for the apps you selected where all sign-ins, heuristic downloads, and Activity types will be downloaded.
     
-    2.  > Select **Control file download (with DLP)** if you want to monitor user activities. You can take additional actions like block or protect downloads for users.
+    2. Select **Control file download (with DLP)** if you want to monitor user activities. You can take additional actions like block or protect downloads for users.
     
-    3.  > Select **Block activities** to block specific activities, which you can select using the **Activity type** filter. All activities from selected apps will be monitored (and reported in the Activity log). The specific activities you select will be blocked if you select the **Block** action. The specific activities you selected will raise alerts if you select the **Test** action and have alerts turned on.
+    3. Select **Block activities** to block specific activities, which you can select using the **Activity type** filter. All activities from selected apps will be monitored (and reported in the Activity log). The specific activities you select will be blocked if you select the **Block** action. The specific activities you selected will raise alerts if you select the **Test** action and have alerts turned on.
 
-<!-- end list -->
 
 1.  > Under **Activity source** in the **Activities matching all of the following** section, select additional activity filters to apply to the policy. These filters can include the following options:
     
