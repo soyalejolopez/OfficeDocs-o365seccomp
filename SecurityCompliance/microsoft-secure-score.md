@@ -15,6 +15,8 @@ ms.topic: article
 
 # Microsoft Secure Score
 
+>![Note] This is preliminary content and subject to change.
+
 With Microsoft Secure Score in the Microsoft 365 security center, you can have increased visibility and control over your organization’s security posture. From a centralized dashboard you can monitor and improve the security for your Microsoft 365 identities, data, apps, devices, and infrastructure.
 
 Microsoft Secure Score gives you robust visualizations, integration with other Microsoft products, comparison of your score with other companies, filtering by category, and much more. With the tool, you can complete security improvement actions within your organization and track the history of your score. The score can also reflect when third-party solutions have addressed recommended improvement actions.  
@@ -45,7 +47,7 @@ To help you the information you need more quickly, Microsoft recommendations are
 
 In the Microsoft Secure Score overview page, you can see how points are split between these groups and what points are available. The overview page is also the place to get an all-up view of the total score, historical trend of your secure score with benchmark comparisons, and prioritized improvement actions that can be taken to improve your score. You can use this data to act and make big differences in your security posture.  
 
-![M365 homepage](./media/homepage-original.png)
+![M365 homepage](./media/secure-score/homepage-original.png)
 *Figure 1: Microsoft Secure Score overview page*
 
 ## Take action to improve your score
@@ -64,7 +66,7 @@ When you click on an improvement action, a fly out appears. To complete the acti
 
 4. Select **Review** because the improvement action requires you to regularly review a part of your environment to gain and retain points. For example, mailbox forwarding rules should be reviewed on a weekly basis to make sure data is not being exfiltrated from your network. You do not need to make any changes, but an action will need to be performed. If you regularly review the rules, you will receive the points. If not, the score will be reduced.
 
-![M365 homepage](./media/fly-out-400x552.jpg) ![M365 homepage](./media/fly-out-2-400x555.png)
+![M365 homepage](./media/secure-score/secure-score1x400.png) ![M365 homepage](./media/secure-score/secure-score2x400.png)
 
 *Figures 2 & 3: Microsoft Secure Score flyouts*
 
@@ -78,6 +80,6 @@ The score is calculated once per day (around 1:00 AM PST). If you make a change 
 
 Microsoft Secure Score is a numerical summary of your security posture based on system configurations, user behavior and other security related measurements; it is not an absolute measurement of how likely your system or data will be breached. Rather, it represents the extent to which you have adopted security controls in your Microsoft environment which can help offset the risk of being breached. No online service is completely immune from security breaches, and secure score should not be interpreted as a guarantee against security breach in any manner.
 
-## Feedback
+## We want to hear from you
 
 If you have any issues, please let us know by posting in the [Security, Privacy & Compliance](https://techcommunity.microsoft.com/t5/Security-Privacy-Compliance/bd-p/security_privacy) community. We're monitoring the community and will provide help.
