@@ -73,7 +73,7 @@ Azure AD conditional access enables compliant and domain-joined device informati
 
 ### Client-certificate authenticated devices
 
-The device identification mechanism can request authentication from relevant devices using client certificates. You can either use existing client certificates already deployed in your organization or roll out new client certificates to managed devices. You then use the presence of those certificates to set access and session policies. For information on how to deploy client certificates see [Deploy Conditional Access App Control for Azure AD apps](https://docs.microsoft.com/en-us/cloud-app-security/proxy-deployment-aad).
+The device identification mechanism can request authentication from relevant devices using client certificates. You can either use existing client certificates already deployed in your organization or roll out new client certificates to managed devices. You then use the presence of those certificates to set access and session policies. For information on how to deploy client certificates see [Deploy Conditional Access App Control for Office 365 apps](ocas-deploy-conditional-access-app-control.md).
 
 ## Supported apps and clients
 
