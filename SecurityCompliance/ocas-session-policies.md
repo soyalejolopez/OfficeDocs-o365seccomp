@@ -18,19 +18,19 @@ Office 365 Cloud App Security session policies enable real-time session-level mo
 
 For example, you can decide that from unmanaged devices, or for sessions coming from specific locations, you want to allow the user to access the app but also limit the download of sensitive files or require that certain documents be protected upon download. Session policies enable you to set these user-session controls and allow access and enables you to:
 
-- [Monitor all activities](https://docs.microsoft.com/en-us/cloud-app-security/session-policy-aad#monitor-session)
+- [Monitor all activities](#monitor-all-activities)
 
-- [Block all downloads](https://docs.microsoft.com/en-us/cloud-app-security/session-policy-aad#block-download)
+- [Block all downloads](#block-all-downloads)
 
-- [Block specific activities](https://docs.microsoft.com/en-us/cloud-app-security/session-policy-aad#block-activities)
+- [Block specific activities](#block-specific-activities)
 
-- [Protect files on download](https://docs.microsoft.com/en-us/cloud-app-security/session-policy-aad#protect-download)
+- [Protect files on download](#protect-files-on-download)
 
 ## Prerequisites to using session policies
 
 - Azure AD Premium P1 license
 
-- The relevant Office 365 apps should be [deployed with Conditional Access App Control](https://docs.microsoft.com/en-us/cloud-app-security/proxy-deployment-aad)
+- The relevant Office 365 apps should be [deployed with Conditional Access App Control](ocas-deploy-conditional-access-app-control.md)
 
 - An [Azure AD conditional access policy](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal) should be in place that redirects users to Office 365 Cloud App Security
 
@@ -38,7 +38,7 @@ For example, you can decide that from unmanaged devices, or for sessions coming 
 
 Azure Active Directory conditional access policies and Cloud App Security session policies work in tandem to examine each user session and make policy decisions for each app. To set up a conditional access policy in Azure AD, follow this procedure:
 
-1. Configure an [Azure AD conditional access policy](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal) with assignments for a user or group of users and the app you want to control with the Conditional Access App Control. NOTE: Only apps that were [deployed with Conditional Access App Control](https://docs.microsoft.com/en-us/cloud-app-security/proxy-deployment-aad) will be affected by this policy.
+1. Configure an [Azure AD conditional access policy](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal) with assignments for a user or group of users and the app you want to control with the Conditional Access App Control. NOTE: Only apps that were [deployed with Conditional Access App Control](ocas-deploy-conditional-access-app-control.md) will be affected by this policy.
 
 2. Route users to Office 365 Cloud App Security by selecting the **Use Conditional Access App Control enforced restrictions** in the **Session** page.
 
@@ -72,7 +72,7 @@ To create a new session policy, follow this procedure:
 
 6.  If you selected the option to **Control file download (with DLP)**, under **Activity source** in the **Files matching all of the following** section, select additional file filters to apply to the policy. These filters can include the following options:
         
-    - **Classification label** - Use this filter if your organization uses Azure Information Protection and your data has been protected by its Classification labels. You can filter files based on the Classification label you applied to them. For more information about integration with Azure Information Protection, see [Azure Information Protection integration](https://docs.microsoft.com/en-us/cloud-app-security/azip-integration).
+    - **Classification label** - Use this filter if your organization uses Azure Information Protection and your data has been protected by its Classification labels. You can filter files based on the Classification label you applied to them. For more information about integration with Azure Information Protection, see [Azure Information Protection integration](https://docs.microsoft.com/cloud-app-security/azip-integration).
         
     - **File name** - Use this filter to apply the policy to specific files.
         
