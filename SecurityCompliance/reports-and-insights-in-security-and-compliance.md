@@ -1,5 +1,5 @@
 ---
-title: "Smart and insights in the Office 365 Security &amp; Compliance Center"
+title: "Smart reports and insights in the Office 365 Security & Compliance Center"
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
