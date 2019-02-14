@@ -55,18 +55,19 @@ The instructions above helped you create a built-in Cloud App Security policy fo
 
 To configure an advanced policy, create an [access policy](ocas-access-policies.md) or a [session policy](ocas-session-policies.md) in the Office 365 Cloud App Security portal.
 
-To identify devices using client certificates (optional):
+### To identify devices using client certificates (this is optional):
 
-1.  Go to the settings cog and choose **Device identification**.
+1. Go to the settings cog and choose **Device identification**.
 
-2.  Upload one or more root or intermediate certificates.
+2. Upload one or more root or intermediate certificates.
 
-3.  After the certificate is uploaded, you can create access policies and session policies based on **Device tag** and **Valid client certificate**.
+3. After the certificate is uploaded, you can create access policies and session policies based on **Device tag** and **Valid client certificate**.
 
 > ![Conditional access app control device ID](media/image2.png)
 
-**Note** A certificate is only requested from a user if the session matches a policy that uses the valid client certificate filter.
-
+> [!NOTE]
+> A certificate is only requested from a user if the session matches a policy that uses the valid client certificate filter.
+> 
 ## Step 4: Test the deployment 
 
 1. First sign out of any existing sessions. Then, try to sign in to each app that was successfully deployed. Sign in using a user that matches the policy configured in Azure AD.
@@ -77,12 +78,9 @@ To identify devices using client certificates (optional):
 
 4. It's recommended that you sign into mobile and desktop apps from managed and unmanaged devices. This is to make sure that the activities are properly captured in the activity log. To verify that the activity is properly captured, click on a single sign-on log on activity so that it opens the activity drawer. Make sure the **User agent tag** properly reflects whether the device is a native client (meaning either a mobile or desktop app) or the device is a managed device (compliant, domain joined, or valid client certificate).
 
-**Note** After it is deployed, you can't remove an app from the Conditional Access App Control page. As long as you don't set a session or access policy on the app, the Conditional Access App Control won't change any behavior for the app.
+> [!NOTE]
+> After it is deployed, you can't remove an app from the Conditional Access App Control page. As long as you don't set a session or access policy on the app, the Conditional Access App Control won't change any behavior for the app.
 
-[« Previous: Introduction to Conditional Access App Control](https://docs.microsoft.com/en-us/cloud-app-security/proxy-intro-aad)  
-[Next: How to create a session policy »](https://docs.microsoft.com/en-us/cloud-app-security/session-policy-aad)
+## Related articles
 
-## Next steps
-
-[Working with the Cloud App Security Conditional Access App Control](https://docs.microsoft.com/en-us/cloud-app-security/proxy-intro-aad)
-
+[Protect apps with Office 365 Cloud App Security Conditional Access App Control](ocas-conditional-access-app-control.md)
