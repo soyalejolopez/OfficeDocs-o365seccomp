@@ -60,7 +60,7 @@ To create a new session policy, follow this procedure:
     
     - Select **Block activities** to block specific activities, which you can select using the **Activity type** filter. All activities from selected apps will be monitored (and reported in the Activity log). The specific activities you select will be blocked if you select the **Block** action. The specific activities you selected will raise alerts if you select the **Test** action and have alerts turned on.
 
-5.  Under **Activity source** in the **Activities matching all of the following** section, select additional activity filters to apply to the policy. These filters can include the following options:
+5. Under **Activity source** in the **Activities matching all of the following** section, select additional activity filters to apply to the policy. These filters can include the following options:
     
     - **Device tags**: Use this filter to identify unmanaged devices.
     
@@ -70,7 +70,7 @@ To create a new session policy, follow this procedure:
     
     - **User agent tag**: Use this filter to enable the heuristic to identify mobile and desktop apps. This filter can be set to equals or doesn't equal **Native client**. This filter should be tested against your mobile and desktop apps for each cloud app.<br>NOTE: Session policies don’t support mobile and desktop apps. Mobile apps and desktop apps can also be blocked or allowed by creating an access policy.
 
-6.  If you selected the option to **Control file download (with DLP)**, under **Activity source** in the **Files matching all of the following** section, select additional file filters to apply to the policy. These filters can include the following options:
+6. If you selected the option to **Control file download (with DLP)**, under **Activity source** in the **Files matching all of the following** section, select additional file filters to apply to the policy. These filters can include the following options:
         
     - **Classification label** - Use this filter if your organization uses Azure Information Protection and your data has been protected by its Classification labels. You can filter files based on the Classification label you applied to them. For more information about integration with Azure Information Protection, see [Azure Information Protection integration](https://docs.microsoft.com/cloud-app-security/azip-integration).
         
@@ -114,9 +114,9 @@ Conditional Access App Control records the traffic logs of every user session th
 
 ### To download the exported log:
 
-1.  After the report is ready, go to **Settings** and then **Exported reports**.
+1. After the report is ready, go to **Settings** and then **Exported reports**.
 
-2.  In the table, select the relevant report from the list of **Conditional Access App Control traffic logs** and click download.<br>![download button](media/image4.png)<br>
+2. In the table, select the relevant report from the list of **Conditional Access App Control traffic logs** and click download.<br>![download button](media/image4.png)<br>
 
 ## Block all downloads
 
