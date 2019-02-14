@@ -2,6 +2,7 @@
 ## [Office 365 security roadmap](security-roadmap.md)
 ## [Configure your Office 365 tenant for increased security](tenant-wide-setup-for-increased-security.md)
 ## [Go to the Security & Compliance Center](go-to-the-securitycompliance-center.md)
+## [Get ready for the new Microsoft 365 security center and Microsoft 365 compliance center](microsoft-security-and-compliance.md)
 ## [Office 365 Secure Score](office-365-secure-score.md)
 ## [Permissions in the Security & Compliance Center](permissions-in-the-security-and-compliance-center.md)
 ## [Give users access to the Security & Compliance Center](grant-access-to-the-security-and-compliance-center.md)
@@ -10,7 +11,6 @@
 ## [Plan for security and compliance in Office 365](plan-for-security-and-compliance.md)
 # Protect access to data and services
 ## [Protect access to data and services in Office 365](protect-access-to-data-and-services.md)
-## [Choose between MDM and Intune](choose-between-mdm-and-intune.md)
 
 # Protect information
 ## [Sensitivity labels](sensitivity-labels.md)
