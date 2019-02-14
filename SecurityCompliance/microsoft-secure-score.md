@@ -15,7 +15,8 @@ ms.topic: article
 
 # Microsoft Secure Score
 
->![Note] This is preliminary content and subject to change.
+>![Note]
+>This is preliminary content and subject to change.
 
 With Microsoft Secure Score in the Microsoft 365 security center, you can have increased visibility and control over your organization’s security posture. From a centralized dashboard you can monitor and improve the security for your Microsoft 365 identities, data, apps, devices, and infrastructure.
 
@@ -66,7 +67,7 @@ When you click on an improvement action, a fly out appears. To complete the acti
 
 4. Select **Review** because the improvement action requires you to regularly review a part of your environment to gain and retain points. For example, mailbox forwarding rules should be reviewed on a weekly basis to make sure data is not being exfiltrated from your network. You do not need to make any changes, but an action will need to be performed. If you regularly review the rules, you will receive the points. If not, the score will be reduced.
 
-![M365 homepage](./media/secure-score/secure-score1x400.png) ![M365 homepage](./media/secure-score/secure-score2x400.png)
+![M365 homepage](./media/secure-score/secure-score1x450.png) ![M365 homepage](./media/secure-score/secure-score2x450.png)
 
 *Figures 2 & 3: Microsoft Secure Score flyouts*
 
