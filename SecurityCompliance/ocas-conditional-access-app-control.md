@@ -96,4 +96,3 @@ Additional apps are being continuously on-boarded to session control.
 ## Next step
 
 [Deploy Conditional Access App Control for Office 365 apps](ocas-deploy-conditional-access-app-control.md)
-
