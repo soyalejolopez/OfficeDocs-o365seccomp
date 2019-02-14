@@ -17,7 +17,7 @@ ms.collection:
 description: "Learn about Office 365 Threat Intelligence and how to get started."
 ---
 
-# Get started with Office 365 Advanced Threat Protection Plan 2 (formerly Office 365 Threat Intelligence)
+# Get started with Threat Intelligence
 
 If you are part of your organization's security team, you can use Threat Intelligence capabilities to protect your users from attacks. Office 365 Advanced Threat Protection Plan 2 (formerly Office 365 Threat Intelligence) helps security analysts and administrators keep users safe by bubbling up insights and identifying action based on what is happening in their your Office 365 environment. These insights are based on a comprehensive repository of threat intelligence data and systems to spot patterns that correspond to attack behaviors and suspicious activity.
   
