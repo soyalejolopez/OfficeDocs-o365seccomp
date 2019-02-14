@@ -98,112 +98,45 @@ When you create a session policy, each user session that matches the policy is r
 
 If you don't want to notify the user that they're being monitored, you can disable the notification message.
 
-1.  > Under the settings cog, select **General settings**.
+1. Under the settings cog, select **General settings**.
 
-2.  > Then, under **Conditional Access App Control** select **User monitoring** and unselect the **Notify users** checkbox.
+2. Then, under **Conditional Access App Control** select **User monitoring** and unselect the **Notify users** checkbox.
 
 To keep the user within the session, Conditional Access App Control replaces all the relevant URLs, Java scripts, and cookies within the app session with Office 365 Cloud App Security URLs. For example, if the app returns a page with links whose domains ends with myapp.com, Conditional Access App Control replaces the links with domains ending with something like myapp.com.us.cas.ms. This way the entire session is monitored by Office 365 Cloud App Security.
 
 Conditional Access App Control records the traffic logs of every user session that is routed through it. The traffic logs include the time, IP, user agent, URLs visited, and the number of bytes uploaded and downloaded. These logs are analyzed and a continuous report, **Cloud App Security Conditional Access App Control**, is added to the list of Cloud Discovery reports in the Cloud Discovery dashboard.
 
-To export these logs:
+### To export these logs:
 
-1.  > Go to the settings cog and click **Conditional Access App Control**.
+1. Go to the settings cog and click **Conditional Access App Control**.
 
-2.  > On the right side of the table, click the export button.
+2. On the right side of the table, click the export button.<br>![export button](c:\\GitHub\\OfficeDocs-O365SecComp-pr\\SecurityCompliance/media/image3.png)<br>
 
-> ![export button](c:\\GitHub\\OfficeDocs-O365SecComp-pr\\SecurityCompliance/media/image3.png)
+3. Select the range of the report and click **Export**. This process may take some time.
 
-3.  > Select the range of the report and click **Export**. This process may take some time.
+### To download the exported log:
 
-To download the exported log:
+1.  After the report is ready, go to **Settings** and then **Exported reports**.
 
-1.  > After the report is ready, go to **Settings** and then **Exported reports**.
+2.  In the table, select the relevant report from the list of **Conditional Access App Control traffic logs** and click download.<br>![download button](c:\\GitHub\\OfficeDocs-O365SecComp-pr\\SecurityCompliance/media/image4.png)<br>
 
-2.  > In the table, select the relevant report from the list of **Conditional Access App Control traffic logs** and click download.
-
-> ![download button](c:\\GitHub\\OfficeDocs-O365SecComp-pr\\SecurityCompliance/media/image4.png)
-
-**Block all downloads **
+## Block all downloads
 
 When **Block** is set as the **Action** you want to take in the Cloud App Security session policy, Conditional Access App Control prevents a user from downloading a file per the policy’s file filters. A download event is recognized by Office 365 Cloud App Security for each app when a user starts a download. Conditional Access App Control intervenes in real time to prevent it from running. When the signal is received that a user has initiated a download, Conditional Access App Control returns a **Download restricted** message to the user and replaces the downloaded file with a text file. The text file's message to the user can be configured and customized from the session policy.
 
-**Block specific activities **
+## Block specific activities
 
 When **Block activities** is set as the **Activity type**, you can select specific activities to block in specific apps. All activities from selected apps will be monitored and reported in the Activity log. The specific activities you select will be blocked if you select the **Block** action. The specific activities you selected will raise alerts if you select the **Test** action and have alerts turned on.
 
 **Block specific activities** and apply it to specific groups to create a comprehensive read-only mode for your organization.
 
-**Protect files on download **
+## Protect files on download
 
 Select **Block activities** to block specific activities, which you can find using the **Activity type** filter. All activities from selected apps will be monitored (and reported in the Activity log). The specific activities you select will be blocked if you select the **Block** action. The specific activities you selected will raise alerts if you select the **Test** action and have alerts turned on.
 
 When **Protect** is set as the **Action** to be taken in the Cloud App Security session policy, Conditional Access App Control enforces the labeling and subsequent protection of a file per the policy’s file filters. Labels are configured in the Azure Information Protection console and **Protect** must be selected within the label for it to appear as an option in the Cloud App Security policy. When a label is selected, and a file is downloaded that meets the criteria of the Cloud App Security policy, the label, and corresponding protection (with permissions) is applied to the file upon download. The original file remains as-is in the cloud app while the downloaded file is now protected. Users who try to access the file must meet the permission requirements determined by the protection applied.
 
-[<span class="underline">« PREVIOUS: Deploy Conditional Access App Control</span>](https://docs.microsoft.com/en-us/cloud-app-security/proxy-deployment-aad)  
-[<span class="underline">NEXT: How to create an access policy »</span>](https://docs.microsoft.com/en-us/cloud-app-security/access-policy-aad)
+## Next step
 
-**Next steps**
+[Blocking downloads on unmanaged devices using Azure AD Conditional Access App Control capabilities](https://docs.microsoft.com/en-us/cloud-app-security/use-case-proxy-block-session-aad)
 
-[<span class="underline">Blocking downloads on unmanaged devices using Azure AD Conditional Access App Control capabilities</span>](https://docs.microsoft.com/en-us/cloud-app-security/use-case-proxy-block-session-aad)
-
-**Access policies**
-
-[<span class="underline">« PREVIOUS: How to create a session policy</span>](https://docs.microsoft.com/en-us/cloud-app-security/session-policy-aad)  
-[<span class="underline">NEXT: Explore popular use cases »</span>](https://docs.microsoft.com/en-us/cloud-app-security/use-case-proxy-block-session-aad)
-
-Office 365 Cloud App Security access policies enable real-time monitoring and control over access to cloud apps based on user, location, device, and app. You can create access policies for any device, including devices that aren't domain joined, and not managed by Windows Intune by rolling out client certificates to managed devices or by using existing certificates, such as third-party MDM certificates. For example, you can deploy client certificates to managed devices, and then block access from devices without a certificate.
-
-** Note**
-
-Instead of allowing or blocking access completely, with [**<span class="underline">session policies</span>**](https://docs.microsoft.com/en-us/cloud-app-security/session-policy-aad) you can allow access while monitoring the session and/or limit specific session activities.
-
-**Prerequisites to using access policies**
-
-- Azure AD Premium P1 license
-
-- The relevant apps should be [deployed with Conditional Access App Control](https://docs.microsoft.com/en-us/cloud-app-security/proxy-deployment-aad)
-
-- An [Azure AD conditional access policy](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal) should be in place that redirects users to Office 365 Cloud App Security, as described below.
-
-**Create an Azure AD conditional access policy**
-
-Azure Active Directory conditional access policies and Cloud App Security session policies work in tandem to examine each user session and make policy decisions for each app. To set up a conditional access policy in Azure AD, follow this procedure:
-
-1.  > Configure an [<span class="underline">Azure AD conditional access policy</span>](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal) with assignments for user or group of users and the app you want to control with Conditional Access App Control.
-
-> **Note** Only apps that were [**<span class="underline">deployed with Conditional Access App Control</span>**](https://docs.microsoft.com/en-us/cloud-app-security/proxy-deployment-aad) will be affected by this policy.
-
-2.  > Route users to Office 365 Cloud App Security by selecting the **Use Conditional Access App Control enforced restrictions** under **Session**.
-
-**Create a Cloud App Security access policy**
-
-To create a new access policy, follow this procedure:
-
-1.  > In the portal, select **Control** followed by **Policies**.
-
-2.  > In the **Policies** page, click **Create policy** and select **Access policy**.
-
-3.  > In the **Access policy** window, assign a name for your policy, such as *Block access from unmanaged devices*.
-
-4.  > In the **Activities matching all of the following** section, Under **Activity source**, select additional activity filters to apply to the policy. Filters include the following options:
-    
-    - **Device tags**: Use this filter to identify unmanaged devices.
-    
-    - **Location**: Use this filter to identify unknown (and therefore risky) locations.
-    
-    - **IP address**: Use this filter to filter per IP addresses or use previously assigned IP address tags.
-    
-    - **User agent tag**: Use this filter to enable the heuristic to identify mobile and desktop apps. This filter can be set to equals or does not equal. The values should be tested against your mobile and desktop apps for each cloud app.
-
-<!-- end list -->
-
-1.  > Under **Actions**, select one of the following options:
-    
-    - **Allow**: Set this action to explicitly allow access according to the policy filters you set.
-    
-    - **Block**: Set this action to explicitly block access according to the policy filters you set.
-
-2.  > You can **Create an alert for each matching event with the policy's severity** and set an alert limit and select whether you want the alert as an email, a text message or both.
-
-[<span class="underline">« PREVIOUS: How to create a session policy</span>](https://docs.microsoft.com/en-us/cloud-app-security/session-policy-aad)
