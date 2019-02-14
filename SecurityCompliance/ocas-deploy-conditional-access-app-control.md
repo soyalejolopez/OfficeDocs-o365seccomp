@@ -16,13 +16,13 @@ description: "Follow these steps to configure Azure AD Office 365 apps to be con
 
 Follow these steps to configure Azure AD Office 365 apps to be controlled by Office 365 Cloud App Security Conditional Access App Control.
 
-**Step 1: [Go to the Azure AD portal and create a conditional access policy for the apps and route the session to Cloud App Security](https://docs.microsoft.com/en-us/cloud-app-security/proxy-deployment-aad#add-azure-ad).**
+**Step 1: [Create an Azure AD conditional access test policy](#step-1-create-an-azure-ad-conditional-access-test-policy)**
 
-**Step 2: [Sign in with a user scoped to the policy in the apps](https://docs.microsoft.com/en-us/cloud-app-security/proxy-deployment-aad#sign-in-scoped).**
+**Step 2: [Sign in with a user scoped to the policy in the apps](#step-2-sign-in-with-a-user-scoped-to-the-policy-in-the-apps)**
 
-**Step 3: If you did not select a built-in Cloud App Security policy in Azure AD or if you want to apply the policy to a non-featured app, [go to the Cloud App Security portal](https://docs.microsoft.com/en-us/cloud-app-security/proxy-deployment-aad#portal)**
+**Step 3: If you did not select a built-in Cloud App Security policy in Azure AD or if you want to apply the policy to a non-featured app, [Configure advanced controls in the Cloud App Security portal](#step-3-configure-advanced-controls-in-the-cloud-app-security-portal)**
 
-[**<span class="underline">Step 4: Test the deployment</span>**](https://docs.microsoft.com/en-us/cloud-app-security/proxy-deployment-aad#test)
+**Step 4: [Test the deployment](#step-4-test-the-deployment)**
 
 **Note:** To deploy Conditional Access App Control for Office 365 apps, you need a valid [**license for Azure AD Premium P1**](https://docs.microsoft.com/azure/active-directory/license-users-groups) as well as a Office 365 Cloud App Security license.
 
