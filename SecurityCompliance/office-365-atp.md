@@ -91,9 +91,9 @@ After your ATP policies are in place, reports are available to show how the serv
 2. Go to **Reports** > **Dashboard**. (To get help with these reports, see [View reports for Advanced Threat Protection](view-reports-for-atp.md).)
     
 3. If needed, make adjustments to your security policies. To get help with this, see the following resources:
-    - [ATP anti-phishing policies in Office 365](set-up-anti-phishing-policies.md)
-    - [ATP Safe Links policies in Office 365](set-up-atp-safe-links-policies.md)
-    - [ATP Safe Attachments policies in Office 365](set-up-atp-safe-attachments-policies.md)
+    - [ATP anti-phishing policies](set-up-anti-phishing-policies.md)
+    - [ATP Safe Links policies](set-up-atp-safe-links-policies.md)
+    - [ATP Safe Attachments policies](set-up-atp-safe-attachments-policies.md)
     
     
 ## Submit a suspicious file to Microsoft for analysis
