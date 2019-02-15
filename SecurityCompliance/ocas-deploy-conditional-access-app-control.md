@@ -14,6 +14,10 @@ description: "Follow these steps to configure Azure AD Office 365 apps to be con
 
 # Deploy Conditional Access App Control for Office 365 apps
 
+|****Evaluation** \>**|****Planning** \>**|****Deployment** \>**|****Utilization****|
+|:-----|:-----|:-----|:-----|
+|[Start evaluating](office-365-cas-overview.md) <br/> |[Start planning](get-ready-for-office-365-cas.md) <br/> |You are here!  <br/> [Next step](ocas-session-policies.md) <br/> |[Start utilizing](utilization-activities-for-ocas.md) <br/> |
+
 Follow these steps to configure Azure AD Office 365 apps to be controlled by Office 365 Cloud App Security Conditional Access App Control.
 
 **Step 1: [Create an Azure AD conditional access test policy](#step-1-create-an-azure-ad-conditional-access-test-policy)**
@@ -81,6 +85,10 @@ To configure an advanced policy, create an [access policy](ocas-access-policies
 > [!NOTE]
 > After it is deployed, you can't remove an app from the Conditional Access App Control page. As long as you don't set a session or access policy on the app, the Conditional Access App Control won't change any behavior for the app.
 
-## Related articles
+## Next steps
 
-[Protect apps with Office 365 Cloud App Security Conditional Access App Control](ocas-conditional-access-app-control.md)
+- [Learn about session policies in Office 365 Cloud App Security](ocas-session-policies.md)
+
+- [Learn about access policies in Office 365 Cloud App Security](ocas-access-policies.md) 
+
+- [Group your IP addresses to simplify management in Office 365 Cloud App Security](group-your-ip-addresses-in-ocas.md)

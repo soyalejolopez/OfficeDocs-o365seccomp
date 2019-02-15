@@ -14,6 +14,10 @@ description: "Office 365 Cloud App Security session policies enable real-time se
 
 # Session policies in Office 365 Cloud App Security
 
+|****Evaluation** \>**|****Planning** \>**|****Deployment** \>**|****Utilization****|
+|:-----|:-----|:-----|:-----|
+|[Start evaluating](office-365-cas-overview.md) <br/> |[Start planning](get-ready-for-office-365-cas.md) <br/> |You are here!  <br/> [Next step](ocas-access-policies.md) <br/> |[Start utilizing](utilization-activities-for-ocas.md) <br/> |
+
 Office 365 Cloud App Security session policies enable real-time session-level monitoring, affording you granular visibility into Office 365 apps and the ability to take different actions depending on the policy you set for a user session. Instead of allowing or blocking access completely, with session control you can allow access while monitoring the session and/or limit specific session activities using the reverse proxy capabilities of Conditional Access App Control.
 
 For example, you can decide that from unmanaged devices, or for sessions coming from specific locations, you want to allow the user to access the app but also limit the download of sensitive files or require that certain documents be protected upon download. Session policies enable you to set these user-session controls and allow access and enables you to:
@@ -134,7 +138,9 @@ Select **Block activities** to block specific activities, which you can find u
 
 When **Protect** is set as the **Action** to be taken in the Cloud App Security session policy, Conditional Access App Control enforces the labeling and subsequent protection of a file per the policy’s file filters. Labels are configured in the Azure Information Protection console and **Protect** must be selected within the label for it to appear as an option in the Cloud App Security policy. When a label is selected, and a file is downloaded that meets the criteria of the Cloud App Security policy, the label, and corresponding protection (with permissions) is applied to the file upon download. The original file remains as-is in the cloud app while the downloaded file is now protected. Users who try to access the file must meet the permission requirements determined by the protection applied.
 
-## Next step
+## Next steps
 
-[Blocking downloads on unmanaged devices using Azure AD Conditional Access App Control capabilities](https://docs.microsoft.com/en-us/cloud-app-security/use-case-proxy-block-session-aad)
+- [Learn about access policies in Office 365 Cloud App Security](ocas-access-policies.md)
+
+- [Blocking downloads on unmanaged devices using Azure AD Conditional Access App Control capabilities](https://docs.microsoft.com/en-us/cloud-app-security/use-case-proxy-block-session-aad)
 
