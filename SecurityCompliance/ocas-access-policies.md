@@ -14,6 +14,10 @@ description: "Office 365 Cloud App Security access policies enable real-time mon
 
 # Access policies in Office 365 Cloud App Security
 
+|****Evaluation** \>**|****Planning** \>**|****Deployment** \>**|****Utilization****|
+|:-----|:-----|:-----|:-----|
+|[Start evaluating](office-365-cas-overview.md) <br/> |[Start planning](get-ready-for-office-365-cas.md) <br/> |You are here!  <br/> [Next step](group-your-ip-addresses-in-ocas.md) <br/> |[Start utilizing](utilization-activities-for-ocas.md) <br/> |
+
 Office 365 Cloud App Security access policies enable real-time monitoring and control over access to cloud apps based on user, location, device, and app. You can create access policies for any device, including devices that aren't domain joined, and not managed by Windows Intune by rolling out client certificates to managed devices or by using existing certificates, such as third-party MDM certificates. For example, you can deploy client certificates to managed devices, and then block access from devices without a certificate.
 
 Instead of allowing or blocking access completely, with [session policies](ocas-session-policies.md) you can allow access while monitoring the session and/or limit specific session activities.
@@ -61,3 +65,7 @@ To create a new access policy, follow this procedure:
     - **Block**: Set this action to explicitly block access according to the policy filters you set.
 
 6. You can **Create an alert for each matching event with the policy's severity** and set an alert limit and select whether you want the alert as an email, a text message or both.
+
+## Next steps
+
+- [Group your IP addresses to simplify management in Office 365 Cloud App Security](group-your-ip-addresses-in-ocas.md)
