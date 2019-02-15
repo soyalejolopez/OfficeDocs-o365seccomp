@@ -21,7 +21,7 @@ description: "Get started using Office 365 Cloud App Security"
 |:-----|:-----|:-----|:-----|
 |[Start evaluating](office-365-cas-overview.md) <br/> |You are here!  <br/> [Next step](turn-on-office-365-cas.md) <br/> |[Start deploying](turn-on-office-365-cas.md) <br/> |[Start utilizing](utilization-activities-for-ocas.md) <br/> |
    
-As you prepare to turn on and implement Office 365 Cloud App Security (formerly known as Advanced Security Management) for your organization, there are a few things to take into account. Use this article as a guide to plan for Office 365 Cloud App Security.
+As you prepare to turn on and implement Office 365 Cloud App Security for your organization, there are a few things to take into account. Use this article as a guide to plan for Office 365 Cloud App Security.
     
 ## Step 1: Identify and protect your global and security administrator accounts
 
