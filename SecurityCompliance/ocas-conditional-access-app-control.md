@@ -14,6 +14,10 @@ description: "Stop breaches and leaks in real time with Office 365 Cloud App Sec
 
 # Protect apps with Office 365 Cloud App Security Conditional Access App Control
 
+|****Evaluation** \>**|****Planning** \>**|****Deployment** \>**|****Utilization****|
+|:-----|:-----|:-----|:-----|
+|[Start evaluating](office-365-cas-overview.md) <br/> |[Start planning](get-ready-for-office-365-cas.md) <br/> |You are here!  <br/> [Next step](ocas-deploy-conditional-access-app-control.md) <br/> |[Start utilizing](utilization-activities-for-ocas.md) <br/> |
+
 In today’s workplace, it’s often not enough to know what’s happening in your cloud environment after the fact. You want to stop breaches and leaks in real time, before employees intentionally or inadvertently put your data and your organization at risk. It's important to enable users in your organization to make the most of the services and tools available to them in cloud apps, and let them bring their own devices to work. At the same time, you need tools to help protect your organization from data leaks, and data theft, in real time. Together with Azure Active Directory, Office 365 Cloud App Security delivers these capabilities in a holistic and integrated experience with Conditional Access App Control.
 
 > [!IMPORTANT]
@@ -93,6 +97,10 @@ Conditional Access App Control for Office 365 supports the following featured ap
 
 Additional apps are being continuously on-boarded to session control.
 
-## Next step
+## Next steps
 
-[Deploy Conditional Access App Control for Office 365 apps](ocas-deploy-conditional-access-app-control.md)
+- [Deploy Conditional Access App Control for Office 365 apps](ocas-deploy-conditional-access-app-control.md)
+
+- [Learn about session policies in Office 365 Cloud App Security](ocas-session-policies.md)
+
+- [Learn about access policies in Office 365 Cloud App Security](ocas-access-policies.md) 
