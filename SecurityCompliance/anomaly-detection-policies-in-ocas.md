@@ -3,7 +3,7 @@ title: "Anomaly detection policies in Office 365 Cloud App Security"
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 01/28/2019
+ms.date: 02/15/2019
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -17,8 +17,6 @@ description: "Anomaly detection policies in Office 365 Cloud App Security use bu
 
 # Anomaly detection policies in Office 365 Cloud App Security
 
-Office 365 Advanced Security Management is now Office 365 Cloud App Security.
-  
 |****Evaluation** \>**|****Planning** \>**|****Deployment** \>**|****Utilization****|
 |:-----|:-----|:-----|:-----|
 |[Start evaluating](office-365-cas-overview.md) <br/> |[Start planning](get-ready-for-office-365-cas.md) <br/> |You are here!  <br/> [Next step](ocas-conditional-access-app-control.md) <br/> |[Start utilizing](utilization-activities-for-ocas.md) <br/> |
