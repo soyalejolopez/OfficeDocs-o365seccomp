@@ -39,7 +39,7 @@ To help you the information you need more quickly, Microsoft recommendations are
 
 * Identity (protection state of your Azure AD accounts and roles)
 * Data (protection state of your Office 365 documents)
-* Device (protection state of your devices; coming soon)
+* Device (protection state of your devices; Windows Defender ATP improvement actions coming soon)
 * App (protection state of your email and cloud apps)
 * Infrastructure (protection state of your Azure resources; coming soon)
 
