@@ -28,9 +28,9 @@ You need the following permissions to view reports in the Security & Compliance 
   
 - You have to be assigned the Security Reader role in the Exchange admin center (EAC) to view reports in the Security & Compliance Center. By default, this role is assigned to the Organization Management and Security Reader role groups in the EAC.
     
-- You have to be assigned the View-Only DLP Compliance Management role in the Security & Compliance Center to view DLP reports (and DLP policies) in the Security & Compliance Center. By default, this role is assigned to the Compliance Administrator, Organization Management, Security Administrator, and Security Reader role groups in the Security & Compliance Center.
+- You have to be assigned the View-Only DLP Compliance Management role in the Security & Compliance Center to view DLP reports in the Security & Compliance Center. By default, this role is assigned to the Compliance Administrator, Organization Management, Security Administrator, and Security Reader role groups in the Security & Compliance Center.
     
-Additionally, you have to be assigned the View-Only Recipients role in the EAC to view DLP reports (and DLP policies) in the EAC. By default, this role is assigned to the Compliance Management, Organization Management, and View-Only Organization Management role groups in the EAC.
+Additionally, you have to be assigned the View-Only Recipients role in the EAC to view DLP reports in the EAC. By default, this role is assigned to the Compliance Management, Organization Management, and View-Only Organization Management role groups in the EAC.
   
  **To open the View reports page in the Security & Compliance Center:**
   
