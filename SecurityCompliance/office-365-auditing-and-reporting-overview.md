@@ -10,7 +10,10 @@ ms.service: Office 365 Administration
 localization_priority: None
 search.appverid:
 - MET150
-ms.collection: Strat_O365_Enterprise
+ms.collection:
+- Strat_O365_IP
+- M365-security-compliance
+- M365-analytics
 description: "An overview of auditing and reporting features within Office 365, as well as Service Assurance."
 ---
 
