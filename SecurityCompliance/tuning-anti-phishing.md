@@ -20,16 +20,21 @@ Although Microsoft Office 365 comes with a variety of anti-phishing protections 
 ## Step 1: Report the phishing message to Microsoft
 
 To report the phishing message to us, it's important that you use the Report Message add-in for Outlook and Outlook on the web (formerly known as Outlook Web App). Using the add-in preserves the original message header fields in the message. Don't forward the message to us, because the original message headers aren't included in a forwarded message.
+Forward message as attachment
 
-ATP or TI required?
+Link to reporting page
 
-Ask Denise
+(Ask Denise)
 
 To enable and use the Report Message add-in, see [Enable the Report Message add-in](enable-the-report-message-add-in.md).
 
 ## Step 2: Learn why you got the phishing message by inspecting the message headers
 
-a.	Reading Headers and what they mean
+a.	Reading Headers and what they mean (existing ExO topic)
+
+Looking for skips in the protection stack
+
+SKA/SKN/SKI whitelisted
 
 SPF/DKIM/DMARC header information not Send-To/To
 
@@ -39,28 +44,45 @@ b.	Header tool
 
 [Message Header Analyzer](https://testconnectivity.microsoft.com/MHA/Pages/mha.aspx)
 
-Message released from quarantine?.
+Message released from quarantine?. or message trace
 
 ## Step 3: Block these phishing messages
 
 a.	Sku related or CFA (?)
 
-ATP: Antiphishing policies Brendon, Denise
+Standard: Block specific senders, submit problem messages to MS; we'll take care of it.
 
-b.	Dealing with compromised accounts – MFA, forwarding rules, restricted users etc.
+ATP: Antiphishing policies Brendon, Denise Safelinks. SafeAttachments
 
-Sam Workman
+## Step 4: Dealing with compromised accounts – MFA, forwarding rules, restricted users etc.
+
+Dealing with compromised article
+
+ATP: Threat explorer, etc.
+
+1-4: existing articles
 
 
 
-## Step 4: Best practices to stay protected
+## Step 5: Best practices to stay protected
 
 a.	Allow lists/ETRs that cause problems
-    i.	Your own domain on the allow list.
+    i.	Your own domain on the allow list. IP/Domain allows in ETRs, SCL -1 on ETRs
 
-rules to go around phishing (?)
+MX records point to O365; turn on quarantine (keep messages from Junk folder)
+
+One-button ATP setup
+
+ATP: AntiPhish Threshold levers (standard to something higher aggressive, more aggressive, most aggressive), enable stuff (SafeLinks, SafeAttachments Impersonation)
 
 b.	Authentication 
-    i.	Dkim (and SPF and DMARC)
-    ii.	Spoof intelligence
-c.	Bulk
+    i.	Dkim (and SPF and DMARC) turn on for custom domains
+    ii.	Review Spoof intelligence reports
+
+Report message plug-in
+
+MFA
+
+c.	Bulk thresholds (tune down)
+
+Impersonation or zero day stuff requires ATP
