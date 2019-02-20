@@ -98,7 +98,7 @@ ATP Safe Links features are active when:
     
 - **Your organization's email passes through Exchange Online Protection**.  
 
-To define (or edit) ATP policies, you must be assigned one of the roles described in the following table:
+To define (or edit) ATP policies, you must be assigned an appropriate role. Some examples are described in the following table:
 
 |Role  |Where/how assigned  |
 |---------|---------|

@@ -68,7 +68,7 @@ Office 365 ATP includes best-of-class [threat intelligence tools](office-365-ti.
     
 ## Permissions required to use ATP features
 
-To access the Security & Compliance Center, you must be assigned an appropriate role. The following table includes some examples:
+To access ATP features in the Security & Compliance Center, you must be assigned an appropriate role. The following table includes some examples:
 
 |Role or role group  |Resources to learn more  |
 |---------|---------|
