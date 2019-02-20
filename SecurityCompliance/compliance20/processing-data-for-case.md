@@ -1,5 +1,5 @@
 ---
-title: "Fix processing errors in Advanced eDiscovery (Preview)"
+title: "Work with processing errors in Advanced eDiscovery (Preview)"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -17,7 +17,7 @@ ms.assetid:
 description: ""
 ---
 
-# Fix processing errors in Advanced eDiscovery (Preview)
+# Work with processing errors in Advanced eDiscovery (Preview)
 
 Processing is the process of file identification, expansion of embedded documents and attachments, text extraction, OCR (Optical Character Recognition) of image files and indexing of that content.  
 
