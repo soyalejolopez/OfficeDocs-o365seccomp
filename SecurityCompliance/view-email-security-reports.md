@@ -3,7 +3,7 @@ title: "View email security reports in the Security &amp; Compliance Center"
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 01/07/2019
+ms.date: 02/19/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -18,9 +18,9 @@ description: "Learn how to find and use email security reports for your organiza
 
 # View email security reports in the Security &amp; Compliance Center
 
-A variety of email security reports are available in the [Security &amp; Compliance Center](https://security.microsoft.com) to help you see how anti-spam and anti-malware features in Office 365 are protecting your organization. If you have the [necessary permissions](#what-permissions-are-needed-to-view-these-reports), you can view these reports in the Security &amp; Compliance Center by going to **Reports** \> **Dashboard**.
+A variety of email security reports are available in the [Security &amp; Compliance Center](https://protection.office.com) to help you see how anti-spam and anti-malware features in Office 365 are protecting your organization. If you have the [necessary permissions](#what-permissions-are-needed-to-view-these-reports), you can view these reports in the Security &amp; Compliance Center by going to **Reports** \> **Dashboard**.
   
-![The Security &amp; Compliance Center dashboard can help you see where Advanced Threat Protection is working](media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
+![Dashboard where you see how Advanced Threat Protection is working](media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
   
 Your email security reports include the following:
   
@@ -42,7 +42,7 @@ Your email security reports include the following:
     
 ## Threat Protection Status report
 
-The new **Threat Protection Status** report is a smart report that shows malicious email that was detected and blocked by Exchange Online Protection. This report shows information about email identified as malware or a phishing attempt. 
+The **Threat Protection Status** report is a smart report that shows malicious email that was detected and blocked by Exchange Online Protection. This report shows information about email identified as malware or a phishing attempt. 
 
 > [!NOTE]
 > A Threat Protection Status report is available to customers who have either [Office 365 ATP](office-365-atp.md) or [Exchange Online Protection](eop/exchange-online-protection-eop.md) (EOP); however, the information that is displayed in the Threat Protection Status report for ATP customers will likely contain different data than what EOP customers might see. For example, EOP customers can view information about malware detected in email, but not information about [malicious files detected in SharePoint Online, OneDrive, or Microsoft Teams](atp-for-spo-odb-and-teams.md), an ATP-specific capability. ([Learn more about ATP reports](view-reports-for-atp.md).)
@@ -103,13 +103,13 @@ Use the **Show data for** list to choose whether to view data for top senders, r
   
 Below the chart, you'll see who the top email senders or recipients were, along with a count of messages sent or received for the given time period.
   
-## Spoof Mail report
+## Spoof Detections report
 
-The **Spoof Mail** report shows how many spoof mail messages were detected, and of those, which ones were considered "good" (spoof mail done for legitimate business reasons). 
+The **Spoof Detections** report shows how many spoof mail messages were detected, and of those, which ones were considered "good" (spoof mail done for legitimate business reasons). 
   
 To view this report, in the [Security &amp; Compliance Center](https://protection.office.com), go to **Reports** \> **Dashboard** \> **Spoof Mail**.
   
-![To view this report, in the Security &amp; Compliance Center, go to Reports \> Dashboard \> Spoof Mail](media/0427e85c-9e40-4225-a0f0-e21a4e8b0e44.png)
+![In the Security &amp; Compliance Center, go to Reports \> Dashboard \> Spoof Mail](media/0427e85c-9e40-4225-a0f0-e21a4e8b0e44.png)
   
 When you hover over a day in the chart, you can see how many spoof mail messages came through.
   
@@ -151,7 +151,15 @@ Below the chart, you'll see a list of email categories, such as **GoodMail**, **
   
 ![This report tells you about anti-malware, anti-spam, and other message detections](media/9ea4b606-f27a-46ee-97a7-be018e2b839c.png)
   
-## User-reported messages report (new!)
+## Encryption report
+
+The **Encryption** report shows information about ...
+
+To view this report, in the Security & Compliance Center, go to **Reports** \> **Dashboard** \> **Encryption report**.
+
+![Encryption report](media/encryptionreport-thumbnail.png) 
+
+## User-reported messages report
 
 The **User-reported messages** report shows information about email messages that users have reported as junk, phishing attempts, or good mail by using the [Report Message add-in](enable-the-report-message-add-in.md).
   
