@@ -281,7 +281,7 @@
 
 ### [Manage holds](compliance20/managing-holds.md)
 
-### [Fix processing errors](compliance20/processing-data-for-case.md)
+### [Work with processing errors](compliance20/processing-data-for-case.md)
 #### [Advanced indexing of custodian data](compliance20/indexing-custodian-data.md)
 #### [Error remediation when processing data](compliance20/error-remediation.md)
 
