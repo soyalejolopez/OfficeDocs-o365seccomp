@@ -159,6 +159,8 @@ To view this report, in the Security & Compliance Center, go to **Reports** \> *
 
 ![Encryption report](media/encryptionreport-thumbnail.png) 
 
+DESCRIBE HOW TO USE
+
 ## User-reported messages report
 
 The **User-reported messages** report shows information about email messages that users have reported as junk, phishing attempts, or good mail by using the [Report Message add-in](enable-the-report-message-add-in.md).
