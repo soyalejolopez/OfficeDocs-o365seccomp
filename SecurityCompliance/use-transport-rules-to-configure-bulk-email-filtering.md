@@ -24,7 +24,7 @@ If you want to more options to filter bulk messages, you can create mail flow ru
 > Before creating the mail flow rules documented this topic, we recommend that you first read [What's the difference between junk email and bulk email?](what-s-the-difference-between-junk-email-and-bulk-email.md) and [Bulk Complaint Level values](bulk-complaint-level-values.md).<br> 
 > The following procedures mark a message as spam for your entire organization. However, you can add another condition to apply these rules only to specific recipients in your organization. This way, the aggressive bulk email filtering settings can apply to a few users who are highly targeted, while the rest of your users (who mostly get the bulk email they signed up for) aren't impacted. 
   
-### Create a mail flow rule to filter bulk email messages based on text patterns
+## Create a mail flow rule to filter bulk email messages based on text patterns
 
 1. In the Exchange admin center (EAC), go to **Mail flow** \> **Rules**.
     
@@ -74,7 +74,7 @@ If you want to more options to filter bulk messages, you can create mail flow ru
     
 8. Save the rule.
     
-### Create a mail flow rule to filter bulk email messages based on phrases
+## Create a mail flow rule to filter bulk email messages based on phrases
 
 1. In the EAC, go to **Mail flow** \> **Rules**.
     
