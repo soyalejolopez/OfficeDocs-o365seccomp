@@ -12,7 +12,7 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 74aaade0-efc0-46ac-b949-f2d1d59256fa
-description: "Tips for Office 365 Admins to prevent good email marked as spam from being sent to quarantine as a false positive. Customize a safelist and other options to prevent good email marked as spam"
+description: "Tips for Office 365 Admins to prevent good email marked as spam from being sent to quarantine as a false positive. Customize a safelist and other options to prevent good email marked as spam."
 ---
 
 # Prevent email from being marked as spam in Office 365 and Exchange Online Protection
