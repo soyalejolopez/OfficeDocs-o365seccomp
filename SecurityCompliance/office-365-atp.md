@@ -60,11 +60,11 @@ Reports update in real-time, providing you with the latest insights. These repor
 
 Office 365 ATP includes best-of-class [threat intelligence tools](office-365-ti.md) that enable your organization's security team to anticipate, understand, and prevent malicious attacks. 
 
-- [Threat trackers](threat-trackers.md) provide the latest intelligence on prevailing cybersecurity issues. For example, you can view information about the latest malware, and take countermeasures before it becomes an actual threat to your organization. Available trackers include [Noteworthy trackers](threat-trackers.md#notey), [Trending trackers](threat-trackers.md#trending), [Tracked queries](threat-trackers.md#trackedq), and [Saved queries](threat-trackers.md#savedq).
+- [Threat trackers](threat-trackers.md) provide the latest intelligence on prevailing cybersecurity issues. For example, you can view information about the latest malware, and take countermeasures before it becomes an actual threat to your organization. Available trackers include [Noteworthy trackers](threat-trackers.md#noteworthy-trackers), [Trending trackers](threat-trackers.md#trending-trackers), [Tracked queries](threat-trackers.md#tracked-queries), and [Saved queries](threat-trackers.md#saved-queries).
 
 - [Explorer](use-explorer-in-security-and-compliance.md) (also referred to as Threat Explorer) is a real-time report that allows you to identify and analyze recent threats. You can configure Explorer to show data for custom periods.
 
-- [Attack Simulator](attack-simulator.md) allows you to run realistic attack scenarios in your organization to identify vulnerabilites. Simulations of current types of attacks are available, including a [display name spear-phishing attack](attack-simulator#spearphish), a [password-spray attack](attack-simulator#passwordspray.md), a [brute-force password attack](attack-simulator#bruteforce), and more.
+- [Attack Simulator](attack-simulator.md) allows you to run realistic attack scenarios in your organization to identify vulnerabilites. Simulations of current types of attacks are available, including a [display name spear-phishing attack](attack-simulator.md#display-name-spear-phishing-attack), a [password-spray attack](attack-simulator.md#password-spray-attack), a [brute-force password attack](attack-simulator.md#brute-force-password-attack), and more.
     
 ## Permissions required to use ATP features
 
