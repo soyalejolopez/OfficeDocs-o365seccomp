@@ -36,23 +36,23 @@ If you want to more options to filter bulk messages, you can create mail flow ru
     
 5. In the **specify words or phrases** dialog box, add the following regular expressions commonly found in bulk emails, one at a time, and click **ok** when you're done: 
     
-   - `If you are unable to view the content of this email, please`
+   - `If you are unable to view the content of this email\, please`
     
-   - `>(safe )?unsubscribe( here)?</a>`
+   - `\>(safe )?unsubscribe( here)?\</a\>`
     
-   - `If you do not wish to receive further communications like this, please`
+   - `If you do not wish to receive further communications like this\, please`
     
-   - `<img height="?1"? width="?1"? src=.?http://`
+   - `\<img height\="?1"? width\="?1"? sr\c=.?http\://`
     
-   - `To stop receiving these+emails: http://`
+   - `To stop receiving these+emails\:http\://`
     
-   - `To unsubscribe from w+ (e-?letter|e?-?mail|newsletter)`
+   - `To unsubscribe from \w+ (e\-?letter|e?-?mail|newsletter)`
     
    - `no longer (wish )?(to )?(be sent|receive) w+ email`
     
-   - `If you are unable to view the content of this email, please click here`
+   - `If you are unable to view the content of this email\, please click here`
     
-   - `To ensure you receive (your daily deals|our e-?mails), add`
+   - `To ensure you receive (your daily deals|our e-?mails)\, add`
     
    - `If you no longer wish to receive these emails`
     
