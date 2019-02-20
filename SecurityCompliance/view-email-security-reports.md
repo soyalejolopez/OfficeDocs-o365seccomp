@@ -3,7 +3,7 @@ title: "View email security reports in the Security &amp; Compliance Center"
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 02/19/2019
+ms.date: 02/20/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -23,6 +23,8 @@ A variety of email security reports are available in the [Security &amp; Complia
 ![Dashboard where you see how Advanced Threat Protection is working](media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
   
 Your email security reports include the following:
+
+- [Encryption report](#encryption-report) (NEW!)
   
 - [Threat Protection Status report](view-email-security-reports.md#tps) 
     
@@ -37,9 +39,20 @@ Your email security reports include the following:
 - [Spam Detections report](#spam-detections-report)
     
 - [Sent and received email report](view-email-security-reports.md#sentreceivedemail)
+
+- [User-reported messages report](view-email-security-reports.md#userreported)
     
-- [User-reported messages report](view-email-security-reports.md#userreported) (new!) 
-    
+## Encryption report
+
+(**NEW!**) The **Encryption** report shows information about email messages that were encrypted through policies or by end-user controls. This information can be used to identify patterns and proactively apply or adjust policies for sensitive email messages.
+
+To view this report, in the Security & Compliance Center, go to **Reports** \> **Dashboard** \> **Encryption report**.
+
+![Encryption report](media/encryptionreport-thumbnail.png) 
+
+DESCRIBE HOW TO USE
+
+
 ## Threat Protection Status report
 
 The **Threat Protection Status** report is a smart report that shows malicious email that was detected and blocked by Exchange Online Protection. This report shows information about email identified as malware or a phishing attempt. 
@@ -151,16 +164,6 @@ Below the chart, you'll see a list of email categories, such as **GoodMail**, **
   
 ![This report tells you about anti-malware, anti-spam, and other message detections](media/9ea4b606-f27a-46ee-97a7-be018e2b839c.png)
   
-## Encryption report
-
-The **Encryption** report shows information about ...
-
-To view this report, in the Security & Compliance Center, go to **Reports** \> **Dashboard** \> **Encryption report**.
-
-![Encryption report](media/encryptionreport-thumbnail.png) 
-
-DESCRIBE HOW TO USE
-
 ## User-reported messages report
 
 The **User-reported messages** report shows information about email messages that users have reported as junk, phishing attempts, or good mail by using the [Report Message add-in](enable-the-report-message-add-in.md).
