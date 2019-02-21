@@ -3,7 +3,7 @@ title: "View email security reports in the Security &amp; Compliance Center"
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 02/20/2019
+ms.date: 02/21/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -50,8 +50,21 @@ To view this report, in the Security & Compliance Center, go to **Reports** \> *
 
 ![Encryption report](media/encryptionreport-defaultview.png) 
 
-When the report first opens, you'll see data for the past seven (7) days. 
+When the report first opens, you'll see data about encryption methods used on email messages for the past seven (7) days. You can change the date range and details in the report by clicking Filters in the upper right corner of the screen.
 
+![Encryption report filters](media/encryptionreport-filters.png)   
+
+You can also use the Break down by menu to view data by encryption template (or method).
+
+![Encryption method or template](media/encryptionreport-breakdownby.png)
+
+And, you can use the View data by menu to change the view to see counts of encrypted messages to the top five recipient domains.
+
+![Encryption report view data by menu](media/encryptionreport-viewdataby.png)
+
+With the flexibility of the new Encryption report, you can view trends and take appropriate actions. For example, if you see a high number of email messages encrypted by users, you might want to add an encryption policy to automate encryption for certain use cases. And, if you have a number of encryption templates available but no one is using them, you might explore whether users need training for that feature. 
+
+This report enables your organization's security and compliance team to monitor how message encryption is being used, and whether further actions are needed.
 
 ## Threat Protection Status report
 
