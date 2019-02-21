@@ -44,13 +44,13 @@ Your email security reports include the following:
     
 ## Encryption report
 
-(**NEW!**) The **Encryption** report shows information about email messages that were encrypted through policies or by end-user controls. This information can be used to identify patterns and proactively apply or adjust policies for sensitive email messages.
+(**NEW!**) The **Encryption report** shows information about email messages that were encrypted through policies or by end-user controls. Your organization's security team can use this information to identify patterns and proactively apply or adjust policies for sensitive email messages.
 
 To view this report, in the Security & Compliance Center, go to **Reports** \> **Dashboard** \> **Encryption report**.
 
-![Encryption report](media/encryptionreport-thumbnail.png) 
+![Encryption report](media/encryptionreport-defaultview.png) 
 
-DESCRIBE HOW TO USE
+When the report first opens, you'll see data for the past seven (7) days. 
 
 
 ## Threat Protection Status report
