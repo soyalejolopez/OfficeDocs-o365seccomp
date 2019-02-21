@@ -1,24 +1,3 @@
----
-title: "Review case data in Advanced eDiscovery (Preview)"
-ms.author: markjjo
-author: markjjo
-manager: laurawi
-ms.date: 
-ms.audience: Admin
-ms.topic: article
-ms.service: o365-administration
-localization_priority: Normal
-ms.collection: 
-search.appverid: 
-- MOE150
-- MET150
-ms.assetid: 
-
-description: ""
----
-
-# Review case data in Advanced eDiscovery (Preview)
-
 # View documents in a working set
 
 Advanced eDiscovery displays content via several viewers each with different purposes. The various viewers can be used by simply clicking on any document within a working set. The viewers currently provided are:
