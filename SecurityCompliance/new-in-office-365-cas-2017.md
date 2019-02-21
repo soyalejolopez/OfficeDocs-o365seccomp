@@ -5,10 +5,10 @@ author: denisebmsft
 manager: laurawi
 ms.audience: Admin
 ms.topic: reference
-ms.date: 12/03/2018
+ms.date: 01/25/2019
 ms.service: o365-administration
 localization_priority: Normal
-description: "See what's released in 2017 for Office 365 Cloud App Security"
+description: "See what released in 2017 for Office 365 Cloud App Security"
 ---
 
 # Office 365 Cloud App Security updates during 2017
@@ -72,8 +72,6 @@ description: "See what's released in 2017 for Office 365 Cloud App Security"
 2. Go to **Alerts** \> **Manage advanced alerts**.
     
 3. Choose **Go to Office 365 Cloud App Security**.
-    
-    ![In the Security &amp; Compliance Center, choose Alerts \> Manage advanced alerts \> Go to Advanced Security Management](media/9792b121-9cd4-4faa-a6e0-81cfab4bf2f2.png)
   
 4. Choose **Settings** \> **Security extensions**.
     
@@ -86,9 +84,8 @@ description: "See what's released in 2017 for Office 365 Cloud App Security"
 ## Related topics
 
 [Office 365 Cloud App Security help content](office-365-cas-help.md)
+
+[What is new in Office 365 Cloud App Security](new-in-office-365-cas.md)
   
 [Utilization activities after rolling out Office 365 Cloud App Security](utilization-activities-for-ocas.md)
-  
-[Permissions in the Office 365 Security &amp; Compliance Center](permissions-in-the-security-and-compliance-center.md)
-  
 
