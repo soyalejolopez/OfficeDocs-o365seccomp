@@ -24,21 +24,24 @@ Use the following workflow to add and manage custodians in Advanced eDiscovery (
 
 ## Step 1: Identify potential custodians
 
+![Custodian Management Tab](./media/CustodianMgtPage)
+
+## Step 1: Identify Potential Custodians
 The first step is to identify the appropriate custodians for your matter. To add custodians to a case, you must be a member of the eDiscovery Managers or eDiscovery Admins role group.   
 
-To add custodians to an existing Advanced eDiscovery (Preview) case:
+![Identify Potential Custodians](./media/Add_Custodian_Step_1.PNG)
 
-1. From the **Advanced eDiscovery (Preview)** page, go to your case.
- 
-2. After you have selected a case, go to the **Custodians** tab and click **+ Add Custodian**. 
- 
-3. Choose the custodians that you want to add to the case. You can start by typing to search and select the users from your organization's Azure Active Directory.
- 
-4. After you have finalized the list of custodians, click **Next** to begin identifying potential data sources. 
+To add custodians to an existing Advanced eDiscovery case:
+ 1. From the **Advanced eDiscovery** page, navigiate to your case.
+ 2. Once you have selected a case, navigate to the **Custodians** tab and then click **+ Add Custodian**. 
+ 3. Choose the custodians that you want to add to the case. You can start by typing to search & select the users fron your company's Azure Active Directory.
+ 4. Once you have finalized your list of custodians, click **Next** to begin identifying potential data sources. 
    
 ## (Optional) Step 2: Select custodian data sources
 
 After you have added custodians to a case, you can leverage Office 365 to help you identify and preserve the primary custodian data sources. The next step in this workflow is to select the data sources owned by the custodians specified in Step 1. 
+
+![Select Custodial Data Sources](./media/Add_Custodian_Step_2.PNG)
 
 To identify custodian data sources: 
 
@@ -53,6 +56,8 @@ To identify custodian data sources:
 ## (Optional) Step 3: Map additional data sources
 
 Depending on your case, you may also want to add mailboxes that a given custodian may have used in the past, groups where a custodian is currently a member, or sites that a custodian had access to in the past. In addition to primary custodian data sources, you can add additional Office 365 data sources to a custodian or leverage Office 365 to help you identify potentially relevant data sources as well. 
+
+![Map Additional Data Sources](./media/Add_Custodian_Step_3.PNG)
 
 To map mailboxes, sites, or teams to a specific custodian:
 1. Select **Update** to assign content locations, like mailboxes, sites, and Teams, to a specific custodian. 
@@ -74,12 +79,12 @@ After you have finished mapping your sources, you can view the total mailboxes, 
 
 ## (Optional) Step 4: Place custodians on hold
 
- After you have finalized the custodians and data sources that you would like to add to your case, you can optionally place some or all of your custodians on hold. When you place a custodian on hold, the content mapped to that user is held until you release the custodian from the case or until you delete the hold. In some cases, you may want to add custodians to a case without placing them on hold. 
+![Place Holds](./media/Add_Custodian_Step_4.PNG)
 
 To place the selected custodians and data sources on hold:
-
-1. Verify your custodian selections and select the checkox to place each custodian on hold.Once a custodian is placed on hold, a custodian hold policy containing all custodial sources will automatically be created. If the option is not checked, the custodian & selected data sources will be added to the case but the content will not be preserved.
-
-2. Go to the **Holds** tab and select the **Custodian Hold Policy**. 
-
-3. Click **Edit** to view all the selected custodian data sources.
+  1. Verify your custodian selections and select the checkox to place each custodian on hold.Once a custodian is placed on hold, a custodian hold policy containing all custodial sources will automatically be created. If the option is not checked, the custodian & selected data sources will be added to the case but the content will not be preserved.
+  2. Navigate to the **Holds** tab and select the **Custodian Hold Policy**. 
+  3. Click **Edit** to view all the selected custodian data sources.
+    
+ 
+    

@@ -475,7 +475,7 @@
 ### [Office 365 Technology Controls](office-365-technology-controls.md)
 ### [Yammer Enterprise Access Controls](office-365-yammer-enterprise-access-controls.md)
 ## [Defending against denial-of-service attacks in Office 365](office-365-defending-against-denial-of-service-attacks-overview.md)
-### [Microsoft's Denial-of-Services Defense Strategy](office-365-microsoft-dos-defense-strategy.md)
+### [Microsoft's Denial-of-Services Defense Strategy](office-365-microsoft-dos-defense-strategy.md)
 ### [Core Principles of Defense Against Denial-of-Service Attacks](office-365-core-principles-of-defense-against-dos-attacks.md)
 ## [Auditing and Reporting in Office 365](office-365-auditing-and-reporting-overview.md)
 ### [Office 365 Reporting Features](office-365-reporting-features.md)
