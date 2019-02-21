@@ -24,12 +24,12 @@ Use the following workflow to add and manage custodians in Advanced eDiscovery (
 
 ## Step 1: Identify potential custodians
 
-![Custodian Management Tab](./media/CustodianMgtPage)
+![Custodian Management Tab](../media/CustodianMgtPage.png)
 
 ## Step 1: Identify Potential Custodians
 The first step is to identify the appropriate custodians for your matter. To add custodians to a case, you must be a member of the eDiscovery Managers or eDiscovery Admins role group.   
 
-![Identify Potential Custodians](./media/Add_Custodian_Step_1.PNG)
+![Identify Potential Custodians](../media/AddCustodianStep1.png)
 
 To add custodians to an existing Advanced eDiscovery case:
  1. From the **Advanced eDiscovery** page, navigiate to your case.
@@ -41,7 +41,7 @@ To add custodians to an existing Advanced eDiscovery case:
 
 After you have added custodians to a case, you can leverage Office 365 to help you identify and preserve the primary custodian data sources. The next step in this workflow is to select the data sources owned by the custodians specified in Step 1. 
 
-![Select Custodial Data Sources](./media/Add_Custodian_Step_2.PNG)
+![Select Custodial Data Sources](../media/AddCustodianStep2.png)
 
 To identify custodian data sources: 
 
@@ -57,20 +57,20 @@ To identify custodian data sources:
 
 Depending on your case, you may also want to add mailboxes that a given custodian may have used in the past, groups where a custodian is currently a member, or sites that a custodian had access to in the past. In addition to primary custodian data sources, you can add additional Office 365 data sources to a custodian or leverage Office 365 to help you identify potentially relevant data sources as well. 
 
-![Map Additional Data Sources](./media/Add_Custodian_Step_3.PNG)
+![Map Additional Data Sources](../media/AddCustodianStep3.PNG)
 
 To map mailboxes, sites, or teams to a specific custodian:
 1. Select **Update** to assign content locations, like mailboxes, sites, and Teams, to a specific custodian. 
 
 2. In the flyout, specify the following:
    
-  -  **Exchange Mailboxes** - Click **Choose users, groups, or Teams** and then click **Choose users, groups, or teams** again. To specify mailboxes to assign to the selected custodian, use the search box to find user mailboxes and distribution groups. You can also assign the associated mailbox for an Office 365 Group or a Microsoft Team. Select the user, group, team check box, click **Choose**, and then click **Done**.
+    -  **Exchange Mailboxes** - Click **Choose users, groups, or Teams** and then click **Choose users, groups, or teams** again. To specify mailboxes to assign to the selected custodian, use the search box to find user mailboxes and distribution groups. You can also assign the associated mailbox for an Office 365 Group or a Microsoft Team. Select the user, group, team check box, click **Choose**, and then click **Done**.
 
-      > [!NOTE]
-      > When you click Choose users, groups, or teams to specify mailboxes, the mailbox picker that's displayed is empty. This is by design to enhance performance. To add people to this list, type a name (a minimum of 3 characters) in the search box.
+        > [!NOTE]
+        > When you click Choose users, groups, or teams to specify mailboxes, the mailbox picker that's displayed is empty. This is by design to enhance performance. To add people to this list, type a name (a minimum of 3 characters) in the search box.
      
-   - **SharePoint Sites** - Click **Choose sites** and then click **Choose sites** again to specify additional SharePoint and OneDrive for Business sites that you would like to assign to the selected custodian. You can also add the URL for the SharePoint site for an Office 365 Group or a Microsoft Team. Type the URL for each site that you want to assign. Click **Choose**, and then click **Done**.
-   - **Microsoft Teams** – Click **Choose Teams** and then click **Choose Teams** again to view a list of Microsoft Team groups that the custodian is a member of today. Select the Teams that you would like to add to your custodian. Once selected, the system will automatically identify & select the associated SharePoint site and Group Mailbox associated to that Microsoft Team. Click **Choose**, and then click **Done**.
+     - **SharePoint Sites** - Click **Choose sites** and then click **Choose sites** again to specify additional SharePoint and OneDrive for Business sites that you would like to assign to the selected custodian. You can also add the URL for the SharePoint site for an Office 365 Group or a Microsoft Team. Type the URL for each site that you want to assign. Click **Choose**, and then click **Done**.
+     - **Microsoft Teams** – Click **Choose Teams** and then click **Choose Teams** again to view a list of Microsoft Team groups that the custodian is a member of today. Select the Teams that you would like to add to your custodian. Once selected, the system will automatically identify & select the associated SharePoint site and Group Mailbox associated to that Microsoft Team. Click **Choose**, and then click **Done**.
         
       > [!NOTE]
       > To add additional Microsoft Teams, you will need to separately add the mailbox and SharePoint site as shown above.
@@ -79,12 +79,9 @@ After you have finished mapping your sources, you can view the total mailboxes, 
 
 ## (Optional) Step 4: Place custodians on hold
 
-![Place Holds](./media/Add_Custodian_Step_4.PNG)
+![Place Holds](../media/AddCustodianStep4.PNG)
 
 To place the selected custodians and data sources on hold:
   1. Verify your custodian selections and select the checkox to place each custodian on hold.Once a custodian is placed on hold, a custodian hold policy containing all custodial sources will automatically be created. If the option is not checked, the custodian & selected data sources will be added to the case but the content will not be preserved.
   2. Navigate to the **Holds** tab and select the **Custodian Hold Policy**. 
   3. Click **Edit** to view all the selected custodian data sources.
-    
- 
-    
