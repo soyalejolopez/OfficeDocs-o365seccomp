@@ -3,11 +3,7 @@ title: "Office 365 Secure Score"
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-<<<<<<< HEAD
-ms.date: 01/25/2019
-=======
 ms.date: 02/13/2019
->>>>>>> upstream/compliance20
 ms.audience: Admin
 ms.topic: overview
 ms.service: o365-administration
@@ -72,11 +68,7 @@ But don't just take our word for it. Customers who are using Secure Score have s
   
 ## Required permissions
 
-<<<<<<< HEAD
-In order to view and use your Secure Score dashboard, you must be assigned one of the following roles in Azure Active Directory:
-=======
 In order to view and use your Secure Score dashboard, you must be assigned one of the following roles in [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles):
->>>>>>> upstream/compliance20
 - Global Administrator
 - Billing Administrator
 - User Administrator
@@ -92,8 +84,4 @@ In order to view and use your Secure Score dashboard, you must be assigned one o
 
 [Security dashboard overview](security-dashboard.md)
 
-<<<<<<< HEAD
 [What subscription do I have?](https://docs.microsoft.com/office365/admin/admin-overview/what-subscription-do-i-have?view=o365-worldwide)
-=======
-[What subscription do I have?](https://docs.microsoft.com/office365/admin/admin-overview/what-subscription-do-i-have?view=o365-worldwide)
->>>>>>> upstream/compliance20

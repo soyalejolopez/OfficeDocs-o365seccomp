@@ -4,10 +4,6 @@
 # So if a pull request only touches javascript files, only these owners
 # will be requested to review.
 
-<<<<<<< HEAD
-* @robmazz
-=======
 * @robmazz @denisebmsft
->>>>>>> upstream/compliance20
 
 /SecurityCompliance/ @denisebmsft @kccross @AndreaBarr
