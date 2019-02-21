@@ -24,7 +24,7 @@ Use the following workflow to add and manage custodians in Advanced eDiscovery (
 
 ## Step 1: Identify potential custodians
 
-![Custodian Management Tab](./media/Custodian_Management_Page)
+![Custodian Management Tab](./media/CustodianMgtPage)
 
 ## Step 1: Identify Potential Custodians
 The first step is to identify the appropriate custodians for your matter. To add custodians to a case, you must be a member of the eDiscovery Managers or eDiscovery Admins role group.   
