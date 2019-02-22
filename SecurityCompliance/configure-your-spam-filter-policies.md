@@ -12,8 +12,8 @@ localization_priority: Normal
 search.appverid:
 - MET150
 ms.assetid: 316544cb-db1d-4c25-a5b9-c73bbcf53047
-	ms.collection:
-	- M365-security-compliance
+ms.collection:
+- M365-security-compliance
 description: "Basic spam filter settings include selecting the action to take on messages that are identified as spam, and choosing whether to filter messages that are written in specific languages or sent from specific countries or regions."
 ---
 

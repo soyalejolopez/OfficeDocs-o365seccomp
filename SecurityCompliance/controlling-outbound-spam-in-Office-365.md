@@ -12,8 +12,8 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 6a601501-a6a8-4559-b2e7-56b59c96a586
-	ms.collection:
-	- M365-security-compliance
+ms.collection:
+- M365-security-compliance
 description: "If your organization sends a lot of bulk mail that's marked as spam, you could get blocked from sending email with Office 365. Read this article to learn more about why this happens and what you can do about it."
 ---
 
