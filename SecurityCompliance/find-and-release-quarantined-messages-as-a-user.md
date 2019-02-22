@@ -13,8 +13,7 @@ search.appverid:
 - MEW150
 ms.assetid: efff08ec-68ff-4099-89b7-266e3c4817be
 ms.collection:
-	- M365-security-compliance
-
+- M365-security-compliance
 description: "As an Office 365 user, you can manage your own spam-quarantined messages in one of two ways: by responding to spam notifications sent to you directly (if your admin has set up this feature), or by using the spam quarantine feature in the Security &amp; Compliance Center."
 ---
 
