@@ -5,7 +5,7 @@ author: BrendaCarter
 manager: laurawi
 ms.date: 10/11/2018
 ms.audience: ITPro
-ms.topic: get-started-article
+ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid: MET150

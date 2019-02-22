@@ -5,7 +5,7 @@ author: brendonb
 manager: laurawi
 ms.date: 6/25/2018
 ms.audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
