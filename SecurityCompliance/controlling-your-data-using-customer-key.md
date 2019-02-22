@@ -5,8 +5,8 @@ author: MSFTTracyP
 manager: laurawi
 ms.date: 8/1/2018
 ms.audience: ITPro
-ms.topic: get-started-article
-ms.service: o365-administration
+ms.topic: article
+ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150

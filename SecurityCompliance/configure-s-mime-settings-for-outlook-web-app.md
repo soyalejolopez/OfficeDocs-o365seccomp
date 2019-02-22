@@ -3,7 +3,6 @@ title: "Configure S/MIME settings for Outlook on the web"
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
