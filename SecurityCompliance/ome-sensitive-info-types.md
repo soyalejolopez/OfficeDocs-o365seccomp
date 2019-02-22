@@ -7,7 +7,8 @@ ms.date: 1/31/2019
 ROBOTS: NOINDEX, NOFOLLOW
 audience: ITPro
 ms.topic: article
-ms.service: O365-seccomplocalization_priority: None
+ms.service: O365-seccomp
+localization_priority: None
 search.appverid:
 - MET150
 ms.collection: Strat_O365_Enterprise
