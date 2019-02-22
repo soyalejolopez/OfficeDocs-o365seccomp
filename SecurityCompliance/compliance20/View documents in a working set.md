@@ -1,14 +1,14 @@
 # View documents in a working set
 
-Advanced eDiscovery displays content via several viewers each with different purposes. The various viewers can be used by simply clicking on any document within a working set. The viewers currently provided are:
+Advanced eDiscovery displays content via several viewers each with different purposes. The various viewers can be used by clicking on any document within a working set. The viewers currently provided are:
 
-1.  Native View
+- Native View
 
-2.  Text View
+- Text View
 
-3.  Annotate View
+- Annotate View
 
-4.  Converted View
+- Converted View
 
 ## 
 
@@ -17,14 +17,16 @@ Advanced eDiscovery displays content via several viewers each with different pur
 This panel can be toggled on/off to display various metadata associated with the document. Although the search results grid can be customized to display specific metadata, there are instances where scrolling horizontally can be difficult while reviewing data. The File metadata panel allows a user to toggle on a view within the viewer.
 
 ![A screenshot of a social media post
-Description automatically generated](c:\\Users\\irarras\\Documents\\GitHub\\OfficeDocs-O365SecComp-pr\\SecurityCompliance\\compliance20/media/image1.png)
+Description automatically generated](../media/Reviewimage1.png)
 
 ## Native View
 
 The Native viewer displays the richest view of a document. It supports hundreds of file types and is meant to display the truest to native experience possible. For Microsoft Office files, for example, the viewer leverages Office Online in order to display content such as document comments, Excel formulas, hidden rows/columns, PowerPoint notes, etc. For more information regarding the Office Online viewers, visit here \[need link\]
 
 ![A screenshot of a cell phone
-Description automatically generated](c:\\Users\\irarras\\Documents\\GitHub\\OfficeDocs-O365SecComp-pr\\SecurityCompliance\\compliance20/media/image2.png)
+Description automatically generated](../media/Reviewimage2.png)
+
+
 
 ## Text View
 
@@ -37,10 +39,10 @@ The Text viewer provides a view of the extracted text of a file. It ignores any 
   - Diff view provides a comparison view that highlights textual differences when viewing Near Duplicate documents
 
 ![A screenshot of a social media post
-Description automatically generated](c:\\Users\\irarras\\Documents\\GitHub\\OfficeDocs-O365SecComp-pr\\SecurityCompliance\\compliance20/media/image3.png)
+Description automatically generated](../media/Reviewimage3.png)
 
 ![A screenshot of a social media post
-Description automatically generated](c:\\Users\\irarras\\Documents\\GitHub\\OfficeDocs-O365SecComp-pr\\SecurityCompliance\\compliance20/media/image4.png)
+Description automatically generated](../media/Reviewimage4.png)
 
 ## Annotate View
 
@@ -67,4 +69,4 @@ The Annotate view provides features that allow users to apply markup on a docume
   - Search – user can search within a document and navigate to the various hits within the document
     
     ![A screenshot of a cell phone
-    Description automatically generated](c:\\Users\\irarras\\Documents\\GitHub\\OfficeDocs-O365SecComp-pr\\SecurityCompliance\\compliance20/media/image5.png)
+    Description automatically generated](../media/Reviewimage5.png)
