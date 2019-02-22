@@ -65,7 +65,7 @@ Depending on your case, you may also want to add mailboxes that a given custodia
 
 To map mailboxes, sites, or teams to a specific custodian:
 
-1. Select **Update** to assign content locations, like mailboxes, sites, and Teams, to a specific custodian. 
+1. Select **Update** to assign content locations, like mailboxes, sites, and Teams to a specific custodian. 
 
 2. In the flyout, specify the following:
    
