@@ -12,8 +12,7 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 1d33d4fb-91ed-41c0-b72e-5a26eca3a2a7
-description: "Get an overview of the Assessment stage and its role in determining the richness of issues during Relevance training in Office 365 Advanced eDiscovery. 
-"
+description: "Get an overview of the Assessment stage and its role in determining the richness of issues during Relevance training in Office 365 Advanced eDiscovery."
 ---
 
 # Understand Assessment in Relevance in Office 365 Advanced eDiscovery

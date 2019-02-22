@@ -3,7 +3,6 @@ title: "Alert policies in the Office 365 Security &amp; Compliance Center"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 
 ms.audience: Admin
 ms.topic: overview
 ms.service: O365-seccomp
