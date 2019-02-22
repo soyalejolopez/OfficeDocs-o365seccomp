@@ -1,7 +1,7 @@
 ---
 title: "How Exchange Online uses TLS to secure email connections in Office 365"
-ms.author: krowley
-author: kccross
+ms.author: tracyp
+author: MSFTTracyP
 manager: laurawi
 ms.date: 8/2/2018
 ms.audience: ITPro
@@ -13,6 +13,9 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 4cde0cda-3430-4dc0-b489-f2c0736c929f
+ms.collection:
+	- M365-security-compliance
+
 description: "Learn how Exchange Online and Office 365 use Transport Layer Security (TLS) and Forward Secrecy (FS) to secure email communications. Also get information about the certificate issued by Microsoft for Exchange Online."
 ---
 
