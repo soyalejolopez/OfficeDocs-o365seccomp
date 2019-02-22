@@ -14,8 +14,6 @@ ms.service: O365-seccomp
 localization_priority: Priority
 search.appverid:
 - MET150
-ms.custom:
-ms.assetid:
 description: "Get an overview of Office 365 Information Protection for GDPR. Learn how to discover, classify, protect, adn monitor personal data."
 ---
 # Overview of Office 365 Information Protection for GDPR

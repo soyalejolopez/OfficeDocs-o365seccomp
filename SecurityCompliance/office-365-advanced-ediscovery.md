@@ -3,7 +3,6 @@ title: "Office 365 Advanced eDiscovery"
 ms.author: chrfox
 author: chrfox
 manager: laurawi
-ms.date: 
 ms.audience: Admin
 ms.topic: overview
 ms.service: O365-seccomp

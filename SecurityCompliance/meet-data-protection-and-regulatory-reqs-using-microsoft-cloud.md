@@ -3,7 +3,6 @@ title: "Use Compliance Manager to help meet data protection and regulatory requi
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 
 ms.audience: Admin
 ms.topic: overview
 ms.service: O365-seccomp
