@@ -66,7 +66,7 @@ In order to work effectively, Exchange Online Protection (EOP) requires that adm
     
 - **Create a safe sender list** Users can add addresses from senders that they trust to their safe sender list in [Outlook](https://go.microsoft.com/fwlink/p/?LinkId=270065) or [Outlook on the Web](https://go.microsoft.com/fwlink/p/?LinkId=294862). To get started in Outlook on the Web, choose **Settings**![ConfigureAPowerBIAnalysisServicesConnector_settingsIcon](media/24bd5467-c8d2-4936-9c37-a179bd0e21ec.png) \> **Options** \> **Block or allow**. The following diagram shows an example of adding something to a safe sender list.
   
-![Adding a safe sender in Outlook Web App](media/8de6b24e-429e-4e8f-8ce8-53ba659cbfcb.png)
+![Adding a safe sender in Outlook on the web](media/8de6b24e-429e-4e8f-8ce8-53ba659cbfcb.png)
   
 EOP will honor your users' Safe Senders and Recipients, but not Safe Domains. This is true regardless of whether the domain is added through the Outlook on the Web, or added in Outlook and synchronized using Directory Sync.
 
