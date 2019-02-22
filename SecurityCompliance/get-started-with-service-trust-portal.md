@@ -3,7 +3,6 @@ title: "Get started with the Microsoft Service Trust Portal"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 
 ms.audience: Admin
 ms.topic: overview
 ms.service: O365-seccomp

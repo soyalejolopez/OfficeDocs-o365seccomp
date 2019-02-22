@@ -3,7 +3,6 @@ title: "Export a Content Search report"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 
 ms.audience: Admin
 ms.topic: article
 f1_keywords:

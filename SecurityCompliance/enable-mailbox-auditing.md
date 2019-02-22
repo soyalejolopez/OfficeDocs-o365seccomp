@@ -3,7 +3,6 @@ title: "Enable mailbox auditing in Office 365"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 
 ms.audience: Admin
 ms.topic: article
 ms.service: O365-seccomp

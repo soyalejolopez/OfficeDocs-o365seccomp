@@ -3,7 +3,6 @@ title: "Enable archive mailboxes in the Office 365 Security &amp; Compliance Cen
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 
 ms.audience: Admin
 ms.topic: article
 f1_keywords:

@@ -10,7 +10,6 @@ ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid: MET150
 ms.assetid: 39db1659-0b12-4243-a21c-2614512dcb44
-
 ---
 
 # Create a Litigation Hold in Office 365

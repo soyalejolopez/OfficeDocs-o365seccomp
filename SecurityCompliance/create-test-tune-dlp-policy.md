@@ -3,7 +3,6 @@ title: "Create, test, and tune a DLP policy"
 ms.author: stephow
 author: stephow-MSFT
 manager: laurawi
-ms.date: 
 ms.audience: Admin
 ms.topic: article
 f1_keywords:

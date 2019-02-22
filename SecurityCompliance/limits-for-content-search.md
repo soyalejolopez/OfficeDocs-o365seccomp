@@ -3,7 +3,6 @@ title: "Limits for Content Search in the Office 365 Security &amp; Compliance Ce
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 
 ms.audience: Admin
 ms.topic: reference
 ms.service: O365-seccomp

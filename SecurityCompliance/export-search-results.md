@@ -3,7 +3,6 @@ title: "Export Content Search results from the Office 365 Security & Compliance 
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 
 ms.audience: Admin
 ms.topic: article
 f1_keywords:

@@ -3,7 +3,6 @@ title: "Keyword queries and search conditions for Content Search"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 
 ms.audience: Admin
 ms.topic: reference
 f1_keywords:
