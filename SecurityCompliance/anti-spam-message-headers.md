@@ -3,7 +3,6 @@ title: "Anti-spam message headers"
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date:
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
