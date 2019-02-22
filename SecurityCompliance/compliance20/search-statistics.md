@@ -61,7 +61,3 @@ If you have used (c:s) keyword or keyword rows in your query, then you can see t
 - Number of items from these locations that matched the search conditions.
 
 - Total volume of items that matched the search conditions.
-
-## Refiners
-
-For Exchange mailboxes, refiners view gives you additional breakdowns by ItemClass, Sender, and Recipient. For each location and refiner value, you can see how many documents were returned in the search.
