@@ -5,7 +5,7 @@ author: stephow-MSFT
 manager: laurawi
 ms.date: 
 ms.audience: Admin
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Priority
 ms.collection: Strat_O365_IP
 search.appverid: 

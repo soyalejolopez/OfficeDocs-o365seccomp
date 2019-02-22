@@ -9,7 +9,7 @@ ms.topic: get-started-article
 f1_keywords:
 - 'O365M_APNCertMDM'
 - 'O365E_APNCertMDM'
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MOE150

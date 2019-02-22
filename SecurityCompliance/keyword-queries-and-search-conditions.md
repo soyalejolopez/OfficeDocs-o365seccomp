@@ -8,7 +8,7 @@ ms.audience: Admin
 ms.topic: reference
 f1_keywords:
 - 'ms.o365.cc.SearchQueryLearnMore'
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: Strat_O365_IP
 search.appverid: 

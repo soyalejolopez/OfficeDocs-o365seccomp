@@ -6,7 +6,7 @@ manager: laurawi
 ms.date: 10/11/2018
 ms.audience: ITPro
 ms.topic: get-started-article
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid: MET150
 ms.assetid: 8d274fe3-db51-4107-ba64-865e7155b355
