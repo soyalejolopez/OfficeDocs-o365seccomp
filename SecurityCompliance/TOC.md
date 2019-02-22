@@ -146,7 +146,7 @@
 #### [Configure IRM to use an on-premises AD RMS server](configure-irm-to-use-an-on-premises-ad-rms-server.md)
 ### [S/MIME](s-mime-for-message-signing-and-encryption.md)
 #### [S/MIME for message signing and encryption](s-mime-for-message-signing-and-encryption.md)
-#### [Configure S/MIME settings for Outlook Web App](configure-s-mime-settings-for-outlook-web-app.md)
+#### [Configure S/MIME settings for Outlook on the web](configure-s-mime-settings-for-outlook-web-app.md)
 #### [Send and receive S/MIME signed and encrypted email](send-and-receive-s-mime-signed-and-encrypted-email.md)
 #### [Sync user certificates to Office 365 for S/MIME](sync-user-certificates-to-office-365-for-s-mime.md)
 #### [Set up virtual certificate collection to validate S/MIME](set-up-virtual-certificate-collection-to-validate-s-mime.md)
