@@ -21,15 +21,15 @@ description: ""
 
 # View documents in a working set
 
-Advanced eDiscovery displays content via several viewers each with different purposes. The various viewers can be used by simply clicking on any document within a working set. The viewers currently provided are:
+Advanced eDiscovery displays content via several viewers each with different purposes. The various viewers can be used by clicking on any document within a working set. The viewers currently provided are:
 
-1.  Native View
+- Native View
 
-2.  Text View
+- Text View
 
-3.  Annotate View
+- Annotate View
 
-4.  Converted View
+- Converted View
 
 ## 
 
