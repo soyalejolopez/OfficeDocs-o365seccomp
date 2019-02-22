@@ -318,7 +318,6 @@
 #### [Configure search and analytics settings](compliance20/configure-search-analytics-settings.md)
 
 ### Advanced eDiscovery (Preview) reference
-#### [Case limits](compliance20/case-limits-ediscovery20.md)
 #### [Search limits](compliance20/search-limits-ediscovery20.md)
 #### [Indexing limits](compliance20/indexing-limits-ediscovery20.md)
 #### [Export limits](compliance20/export-limits-ediscovery20.md)
