@@ -3,10 +3,9 @@ title: "Limits for Content Search in the Office 365 Security &amp; Compliance Ce
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 
 ms.audience: Admin
 ms.topic: reference
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: Strat_O365_IP
 search.appverid: 
