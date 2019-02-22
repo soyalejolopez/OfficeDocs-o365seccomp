@@ -13,8 +13,7 @@ search.appverid:
 - MET150
 ms.assetid: ab95bf17-bb09-4dd1-9990-ddd02ddecf05
 ms.collection:
-	- M365-security-compliance
-
+- M365-security-compliance
 description: "This topic describes how Exchange Online and Exchange Online Protection (EOP) admins can find, release, and report on quarantined messages in the Exchange admin center (EAC)."
 ---
 
