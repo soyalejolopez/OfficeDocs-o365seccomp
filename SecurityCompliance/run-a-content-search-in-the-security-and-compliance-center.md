@@ -11,7 +11,6 @@ f1_keywords:
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 61852fd9-fe8a-4880-a339-cb19ed3bff4a
-
 description: "Use Content Search in the Office 365 Security &amp; Compliance Center to search mailboxes, SharePoint Online sites, and OneDrive for Business locations. "
 ---
 
