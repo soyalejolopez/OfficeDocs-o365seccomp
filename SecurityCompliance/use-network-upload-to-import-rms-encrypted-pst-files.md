@@ -13,7 +13,6 @@ search.appverid:
 - MED150
 - MET150
 ms.assetid: 84a595b8-cd77-4f66-ac52-57a33ddd4773
-
 description: "Learn how to use network upload to import RMS-encrypted PST files to user mailboxes in Office 365."
 ---
 
