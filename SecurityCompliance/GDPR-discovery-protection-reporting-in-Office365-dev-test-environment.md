@@ -12,7 +12,6 @@ ms.service: O365-seccomp
 localization_priority: Priority
 search.appverid:
 - MET150
-ms.custom:
 ms.assetid: c2112ce8-1c4b-424f-b200-59e161db2d21
 description: "Demonstrate GDPR capabilities in Office 365."
 ---
