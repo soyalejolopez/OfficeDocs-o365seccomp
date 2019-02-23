@@ -3,7 +3,6 @@ title: "Search for and delete email messages in your Office 365 organization - A
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 
 ms.audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
