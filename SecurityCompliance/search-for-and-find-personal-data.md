@@ -14,8 +14,6 @@ ms.service: O365-seccomp
 localization_priority: Priority
 search.appverid:
 - MET150
-ms.custom:
-ms.assetid:
 description: "Learn how to search for and find personal data in Office 365."
 ---
 # Search for and find personal data

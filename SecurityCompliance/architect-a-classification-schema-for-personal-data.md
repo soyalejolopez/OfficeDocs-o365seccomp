@@ -12,8 +12,6 @@ ms.collection:
 - GDPR
 ms.service: O365-seccomp
 localization_priority: Priority
-ms.custom: 
-ms.assetid:
 search.appverid:
 - MET150
 description: "Determine whether your organization will implement labels as part of your GDPR plan."

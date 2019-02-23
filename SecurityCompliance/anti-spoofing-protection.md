@@ -11,8 +11,8 @@ localization_priority: Normal
 search.appverid:
 - MET150
 ms.assetid: d24bb387-c65d-486e-93e7-06a4f1a436c0
-	ms.collection:
-	- M365-security-compliance
+ms.collection:
+- M365-security-compliance
 description: "This article describes how Office 365 mitigates against phishing attacks that uses forged sender domains, that is, domains that are spoofed. It accomplishes this by analyzing the messages and blocking the ones that can be authenticated neithe by using standard email authentication methods, nor other sender reputation techniques. This change is being implemented to reduce the number of phishing attacks organizations in Office 365 are exposed to."
 ---
 

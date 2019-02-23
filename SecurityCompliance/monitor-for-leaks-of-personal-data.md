@@ -14,8 +14,6 @@ ms.service: O365-seccomp
 localization_priority: Priority
 search.appverid:
 - MET150
-ms.custom:
-ms.assetid:
 description: "Learn about three tools you can use to monitor for leaks of personal data."
 ---
 # Monitor for leaks of personal data
