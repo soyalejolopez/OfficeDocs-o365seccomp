@@ -11,8 +11,8 @@ localization_priority: Normal
 search.appverid:
 - MET150
 ms.assetid: c7dee22c-9b5b-425c-91a9-d093204ff84e
-	ms.collection:
-	- M365-security-compliance
+ms.collection:
+- M365-security-compliance
 description: "A brief description of what Exchange Online admins need to do to view and configure the S/MIME settings in Outlook on the web in Exchange Online."
 ---
 

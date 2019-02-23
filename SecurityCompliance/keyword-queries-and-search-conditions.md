@@ -14,7 +14,6 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: c4639c2e-7223-4302-8e0d-b6e10f1c3be3
-
 description: "Learn about email and file properties that you can search in Exchange Online mailboxes and in SharePoint or OneDrive for Business sites using the Content Search tool in the Office 365 Security &amp; Compliance Center. 
 "
 ---
