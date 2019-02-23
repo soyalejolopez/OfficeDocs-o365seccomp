@@ -479,4 +479,4 @@ An Enterprise Resource Planning (ERP) system can work with Microsoft 365 and Mic
 
 This topic was reviewed by:
 
-Antonio Maio</br>Microsoft Office Apps and Services MVP</br> Antonio.Maio@Protiviti.com
+Antonio Maio<br/>Microsoft Office Apps and Services MVP<br/> Antonio.Maio@Protiviti.com
