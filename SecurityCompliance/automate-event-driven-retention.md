@@ -3,7 +3,6 @@ title: "Automate event-driven retention"
 ms.author: stephow
 author: stephow-MSFT
 manager: laurawi
-ms.date: 
 ms.audience: Admin
 ms.topic: article
 ms.service: O365-seccomp

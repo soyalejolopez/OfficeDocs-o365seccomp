@@ -12,7 +12,6 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 5b9a067b-9d2e-4aa5-bb33-99d8c0d0b5d7
-
 description: "Assign the permissions required to perform eDiscovery-related tasks using the Security &amp; Compliance Center."
 ---
 

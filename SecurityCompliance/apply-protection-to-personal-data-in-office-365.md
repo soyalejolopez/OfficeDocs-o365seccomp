@@ -12,8 +12,6 @@ ms.collection:
 - GDPR
 ms.service: O365-seccomp
 localization_priority: Priority
-ms.custom: 
-ms.assetid:
 search.appverid:
 - MET150
 description: "Learn how to use DLP policies to protect personal data in Office 365."
