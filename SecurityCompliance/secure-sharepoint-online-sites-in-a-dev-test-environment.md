@@ -13,7 +13,6 @@ ms.service: O365-seccomp
 localization_priority: Priority
 search.appverid:
 - MET150
-ms.custom: 
 ms.assetid: 06af70f3-e7dc-4ee2-a385-fb4d61a5e93b
 description: "Summary: Create public, private, sensitive, and highly confidential SharePoint Online team sites in a dev/test environment."
 ---
