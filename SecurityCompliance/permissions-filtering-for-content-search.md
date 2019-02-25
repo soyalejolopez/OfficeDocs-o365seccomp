@@ -13,7 +13,6 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 1adffc35-38e5-4f7d-8495-8e0e8721f377
-
 description: "Use Content Search permissions filtering to let an eDiscovery manager search only a subset of mailboxes and sites in your Office 365 organization."
 ---
 

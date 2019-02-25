@@ -12,9 +12,6 @@ ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
-ms.custom: 
-ms.assetid:
-
 description: "Learn how to recognize and respond to a compromised email account in Office 365"
 ---
 # Responding to a Compromised Email Account in Office 365

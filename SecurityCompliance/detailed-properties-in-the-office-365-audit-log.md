@@ -3,7 +3,6 @@ title: "Detailed properties in the Office 365 audit log"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 
 ms.audience: Admin
 ms.topic: reference
 ms.service: O365-seccomp
