@@ -6,12 +6,14 @@ manager: laurawi
 ms.date: 02/07/2019
 ms.audience: ITPro
 ms.topic: overview
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: fe0b9b8f-faa9-44ff-8095-4d1b2f507b74
+ms.collection: 
+- M365-security-compliance
 description: "Use the new Security Dashboard to review Office 365 Threat Protection Status, and view and act on security alerts."
 ---
 

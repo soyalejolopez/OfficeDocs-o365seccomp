@@ -5,13 +5,13 @@ author: denisebmsft
 manager: laurawi
 ms.audience: ITPro
 ms.topic: article
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: aac65513-e75e-4c82-a668-9a6604dd9f9d
-description: "Reviewing app discovery reports in Advanced Security Management can help you learn more about how people in your organization use cloud apps. After you've created app discovery reports using log files from your firewalls and proxies, review the results in the app discovery dashboard."
+description: "Reviewing app discovery reports in Office 365 Cloud App Security can help you learn more about how people in your organization use cloud apps. After you've created app discovery reports using log files from your firewalls and proxies, review the results in the app discovery dashboard."
 ---
 
 # Review app discovery findings in Office 365 Cloud App Security

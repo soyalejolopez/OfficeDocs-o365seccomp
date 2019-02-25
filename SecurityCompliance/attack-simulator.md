@@ -3,21 +3,26 @@ title: "Attack Simulator in Office 365"
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 01/02/2019
+ms.date: 02/13/2019
 ms.audience: ITPro
 ms.topic: overview
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: da5845db-c578-4a41-b2cb-5a09689a551b
+ms.collection:
+- M365-security-compliance
 description: "As an Office 365 global administrator, you can use Attack Simulator to run realistic attack scenarios in your organization. This can help you identify and find vulnerable users before a real attack hits your business."
 ---
 
 # Attack Simulator in Office 365
 
 **Summary** If you are an Office 365 global administrator and your organization has [Office 365 Threat Intelligence](office-365-ti.md), you can use Attack Simulator to run realistic attack scenarios in your organization. This can help you identify and find vulnerable users before a real attack impacts your bottom line. Read this article to learn more.
+
+> [!IMPORTANT]
+> Beginning in February 2019 and rolling out over the next several months, Office 365 Threat Intelligence is becoming Office 365 Advanced Threat Protection Plan 2, with additional threat protection capabilities. To learn more, see [Office 365 Advanced Threat Protection plans and pricing](https://products.office.com/exchange/advance-threat-protection) and the [Office 365 Advanced Threat Protection Service Description](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description).
   
 ## The Attacks
 

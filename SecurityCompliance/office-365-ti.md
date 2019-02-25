@@ -6,12 +6,14 @@ manager: laurawi
 ms.date: 02/08/2019
 ms.audience: Admin
 ms.topic: overview
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: 32405da5-bee1-4a4b-82e5-8399df94c512
+ms.collection: 
+- M365-security-compliance
 description: "Find out how threat intelligence capabilities in Advanced Threat Protection can help you research threats against your organization, respond to malware, phishing, and other attacks that Office 365 has detected on your behalf, and search for threat indicators."
 ---
 

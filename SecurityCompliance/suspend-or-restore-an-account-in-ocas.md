@@ -6,7 +6,7 @@ manager: laurawi
 ms.date: 12/03/2018
 ms.audience: ITPro
 ms.topic: article
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -17,8 +17,6 @@ description: "With Office 365 Cloud App Security, the governance actions you can
 
 # Suspend or restore a user account in Office 365 Cloud App Security
 
-Office 365 Advanced Security Management is now Office 365 Cloud App Security.
-  
 |****Evaluation** \>**|****Planning** \>**|****Deployment** \>**|****Utilization****|
 |:-----|:-----|:-----|:-----|
 |[Start evaluating](office-365-cas-overview.md) <br/> |[Start planning](get-ready-for-office-365-cas.md) <br/> |[Start deploying](turn-on-office-365-cas.md) <br/> |You are here!  <br/> [Next steps](suspend-or-restore-an-account-in-ocas.md#nextsteps) <br/> |

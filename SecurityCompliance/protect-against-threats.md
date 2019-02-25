@@ -5,12 +5,14 @@ author: denisebmsft
 manager: laurawi
 ms.audience: Admin
 ms.topic: hub-page
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid: 
 - MOE150
 - MET150
 ms.assetid: b10023f6-f30f-45d3-b3ad-b71aa4aa0d58
+ms.collection: 
+- M365-security-compliance
 description: "Learn how Office 365 Enterprise can help protect your organization against a variety of threats, including spoofing, malware, spam, phishing attempts, and unauthorized access to data."
 ---
 

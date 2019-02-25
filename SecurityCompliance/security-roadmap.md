@@ -6,11 +6,12 @@ manager: laurawi
 ms.date: 10/08/2018
 ms.audience: Admin
 ms.topic: conceptual
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection:
 - Ent_O365
 - Strat_O365_IP
+- M365-security-compliance
 search.appverid:
 - MET150
 ms.assetid: 28c86a1c-e4dd-4aad-a2a6-c768a21cb352

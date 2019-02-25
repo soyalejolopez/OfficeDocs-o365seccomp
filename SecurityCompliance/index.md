@@ -5,7 +5,7 @@ services: office-365-security-compliance
 author: robmazz
 manager: laurawi
 layout: LandingPage
-ms.service: office-365
+ms.service: O365-seccomp
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: landing-page

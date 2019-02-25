@@ -6,16 +6,21 @@ manager: laurawi
 ms.audience: Admin
 ms.topic: article
 ms.date: 02/06/2019
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: 896a7efb-1683-465e-a394-261349e5d866
+ms.collection: 
+- M365-security-compliance
 description: "Learn how to set up a list of blocked URLs for your organization using Office 365 Advanced Threat Protection. The blocked URLs will apply to email messages and Office documents according to your ATP safe links policies."
 ---
 
 # Set up a custom blocked URLs list using Office 365 ATP Safe Links
+
+> [!IMPORTANT]
+> This article is intended for business customers. If you are a home user looking for information about Safe Links in Outlook, see [Advanced Outlook.com security](https://support.office.com/article/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2).
 
 With [Office 365 Advanced Threat Protection](office-365-atp.md) (ATP), your organization can have a custom list of website addresses (URLs) that are blocked. When a URL is blocked, people who click on links to the blocked URL are taken to a [warning page](atp-safe-links-warning-pages.md) that resembles the following image: 
   

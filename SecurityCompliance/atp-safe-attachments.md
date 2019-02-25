@@ -6,13 +6,15 @@ manager: laurawi
 ms.audience: Admin
 ms.date: 02/08/2019
 ms.topic: overview
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: Strat_O365_IP
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: 6e13311e-92ae-495e-a619-56d770199170
+ms.collection:
+- M365-security-compliance
 description: "The Safe Attachments feature provides time-of-click verification of email attachments. Use Safe Attachments to protect your organization from malicious files people send or receive in email."
 ---
 
@@ -48,7 +50,7 @@ Next, make sure your ATP Safe Attachments policies are defined. (See [Set up Off
     
 - Users have signed into Office 365 using their work or school account. (See [Sign in to Office or Office 365](https://support.office.com/article/b9582171-fd1f-4284-9846-bdd72bb28426).)
 
-To define (or edit) ATP policies, you must be assigned one of the roles described in the following table:
+To define (or edit) ATP policies, you must be assigned an appropriate role. Some examples are described in the following table:
 
 |Role  |Where/how assigned  |
 |---------|---------|
