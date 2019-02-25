@@ -1,7 +1,7 @@
 ---
 title: "Junk email reporting add-in for Microsoft Outlook"
-ms.author: krowley
-author: kccross
+ms.author: tracyp
+author: MSFTTracyP
 manager: laurawi
 ms.date: 1/14/2016
 ms.audience: ITPro
