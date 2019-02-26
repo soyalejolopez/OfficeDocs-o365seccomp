@@ -6,13 +6,14 @@ manager: laurawi
 ms.date: 02/13/2019
 ms.audience: ITPro
 ms.topic: article
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: 8f54cd33-4af7-4d1b-b800-68f8818e5b2a
-ms.collection: M365-security-compliance
+ms.collection: 
+- M365-security-compliance
 description: "Learn how to use Threat Intelligence to find and investigate malicious email."
 ---
 

@@ -1,15 +1,17 @@
 ---
 title: "Office 365 BitLocker for Encryption"
-ms.author: krowley
-author: kccross
+ms.author: tracyp
+author: MSFTTracyP
 manager: laurawi
 audience: ITPro
 ms.topic: article
-ms.service: Office 365 Administration
+ms.service: O365-seccomp
 localization_priority: None
 search.appverid:
 - MET150
 ms.collection: Strat_O365_Enterprise
+ms.collection:
+- M365-security-compliance
 description: "Summary: Information about BitLocker for encryption in the cloud."
 ---
 

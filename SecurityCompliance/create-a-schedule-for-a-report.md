@@ -6,7 +6,7 @@ manager: laurawi
 ms.date: 6/1/2018
 ms.audience: ITPro
 ms.topic: article
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -40,7 +40,7 @@ In the Security &amp; Compliance Center, several [reports and insights](reports-
   
     If you choose to customize your report schedule, you can specify the report's frequency, a sender's email address, and a recipient's email address. 
     
-Once you have created a schedule for a report, that report will be delivered via email to recipients' emali addresses automatically. 
+Once you have created a schedule for a report, that report will be delivered via email to recipients' email addresses automatically. 
   
 ## Related topics
 

@@ -1,18 +1,20 @@
 ---
 title: "How to reduce spam email in Office 365"
-ms.author: krowley
-author: kccross
+ms.author: tracyp
+author: MSFTTracyP
 manager: laurawi
 ms.date: 6/7/2018
 ms.audience: Admin
 ms.topic: overview
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Priority
 ms.collection: Strat_O365_IP
 search.appverid: 
 - MOE150
 - MET150
 ms.assetid: 07824c51-2c45-4005-8596-03c0d7c4ff2a
+ms.collection:
+- M365-security-compliance
 description: "Learn the most common ways to help reduce spam and junk mail in Office 365."
 ---
 

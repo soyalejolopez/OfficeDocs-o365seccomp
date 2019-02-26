@@ -10,7 +10,7 @@ ms.date: 02/13/2019
 >>>>>>> upstream/compliance20
 ms.audience: ITPro
 ms.topic: article
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150

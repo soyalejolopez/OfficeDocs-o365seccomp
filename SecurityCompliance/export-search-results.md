@@ -3,14 +3,15 @@ title: "Export Content Search results from the Office 365 Security & Compliance 
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 
 ms.audience: Admin
 ms.topic: article
 f1_keywords:
 - 'ms.o365.cc.CustomizeExport'
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
-ms.collection: Strat_O365_IP
+ms.collection: 
+- Strat_O365_IP
+- M365-security-compliance
 search.appverid:
 - MOE150
 - MED150

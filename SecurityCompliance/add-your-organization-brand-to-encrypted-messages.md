@@ -5,12 +5,14 @@ author: kccross
 manager: laurawi
 ms.audience: Admin
 ms.topic: article
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: 7a29260d-2959-42aa-8916-feceff6ee51d
+ms.collection:
+- M365-security-compliance
 description: "As an Exchange administrator, you can apply your organization's branding to  your organization's encrypted email messages and the contents of the encryption portal."
 ---
 

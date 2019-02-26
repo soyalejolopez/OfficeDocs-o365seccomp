@@ -6,13 +6,14 @@ manager: laurawi
 ms.date: 01/07/2019
 ms.audience: ITPro
 ms.topic: article
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: 3a137e28-1174-42d5-99af-f18868b43e86
-ms.collection: M365-security-compliance
+ms.collection: 
+- M365-security-compliance
 description: "Learn how to find and use email security reports for your organization with Office 365 Enterprise. Email security reports are available in the Security &amp; Compliance Center."
 ---
 

@@ -3,7 +3,6 @@ title: "Configure S/MIME settings for Outlook on the web"
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -12,6 +11,8 @@ localization_priority: Normal
 search.appverid:
 - MET150
 ms.assetid: c7dee22c-9b5b-425c-91a9-d093204ff84e
+ms.collection:
+- M365-security-compliance
 description: "A brief description of what Exchange Online admins need to do to view and configure the S/MIME settings in Outlook on the web in Exchange Online."
 ---
 

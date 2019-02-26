@@ -1,12 +1,12 @@
 ---
 title: "Security best practices for Office 365"
-ms.author: krowley
-author: kccross
+ms.author: tracyp
+author: MSFTTracyP
 manager: laurawi
 ms.date: 5/22/2018
 ms.audience: Admin
 ms.topic: article
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: Strat_O365_IP
 search.appverid:
@@ -16,6 +16,8 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 9295e396-e53d-49b9-ae9b-0b5828cdedc3
+ms.collection:
+- M365-security-compliance
 description: "Minimize the potential of a data breach or a compromised account by following these recommended best practices."
 ---
 

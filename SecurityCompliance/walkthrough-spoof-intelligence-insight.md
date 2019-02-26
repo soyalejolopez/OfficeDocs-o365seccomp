@@ -1,16 +1,18 @@
 ---
 title: "Walkthrough spoof intelligence insight"
-ms.author: krowley
-author: kccross
+ms.author: tracyp
+author: MSFTTracyP
 ms.date: 7/30/2018
 ms.audience: ITPro
 ms.topic: overview
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: 59a3ecaf-15ed-483b-b824-d98961d88bdd
+ms.collection:
+- M365-security-compliance
 description: "See how the new spoof intelligence insight works."
 ---
 

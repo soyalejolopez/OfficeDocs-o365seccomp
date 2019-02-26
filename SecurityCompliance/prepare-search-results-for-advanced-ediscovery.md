@@ -3,14 +3,15 @@ title: "Prepare search results for Office 365 Advanced eDiscovery"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 
 ms.audience: Admin
 ms.topic: article
 f1_keywords:
 - 'ms.o365.cc.CustomizeExportWithZoom'
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
-ms.collection: Strat_O365_IP
+ms.collection: 
+- Strat_O365_IP
+- M365-security-compliance
 search.appverid: MOE150
 ms.assetid: 0b6fac2d-8627-4b05-9df0-03609db6248b
 description: "Learn how to prepare the results of a Content Search in the Office 365 Security &amp; Compliance Center for further analysis with the Advanced eDiscovery tool."

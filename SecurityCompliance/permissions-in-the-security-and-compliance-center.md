@@ -8,14 +8,13 @@ ms.audience: Admin
 ms.topic: overview
 f1_keywords:
 - 'ms.o365.cc.AdminRoleGroups'
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: Strat_O365_IP
 search.appverid: 
 - MOE150
 - MET150
 ms.assetid: d10608af-7934-490a-818e-e68f17d0e9c1
-
 description: "The Office 365 Security &amp; Compliance Center lets you grant permissions to people who perform compliance tasks like device management, data loss prevention, eDiscovery, retention, and so on. These people can perform only the tasks that you explicitly grant them access to. To access the Security &amp; Compliance Center, users need to be an Office 365 global administrator or a member of one or more Security &amp; Compliance Center role groups."
 ---
 
