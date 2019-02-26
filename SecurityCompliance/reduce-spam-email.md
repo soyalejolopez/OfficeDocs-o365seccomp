@@ -20,15 +20,16 @@ description: "Learn the most common ways to help reduce spam and junk mail in Of
 
  **Are you getting too much spam in Office 365? Do this.**
   
-Many issues with spam in Office 365 can be resolved by [viewing the e-mail message headers](https://support.office.com/article/cd039382-dc6e-4264-ac74-c048563d212c) and determining what went wrong. You will need to look for a header named X-Forefront-Antispam-Report.
+We strongly recommend that you report False Negative messages by [using the Report Message add-in](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2) to help us improve our filters. Additionally, you can forward the message *as an attachment* to junk@office365.microsoft.com or phish@office365.microsoft.com (if it was phish).
 
-  If it contains the string SFV:NSPM, this means that Exchange Online Protection (EOP) scanned the message and didn't think it was spam. If you don't agree, this is called a false negative and we strongly recommend that you [use the Report Message add-in](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2) to help us improve our filters.
+>[Warning]
+> If you think the message is junk and it is in the Junk Email folder, that should not be a problem. If you don't want to see it at all in the mailbox, you should change the antispam policy to quarantine the message. More information on quarantining a message can be found in [Quarantine email messages in Office 365](quarantine-email-messages.md).
 
-  If you don't see this value in the headers, it could mean either that the mail didn't pass through spam scanning, or that there was a configuration issue that caused the message to be ignored. In this case, consult the information below. 
-  
-You can learn more about [anti-spam message headers](https://technet.microsoft.com/library/dn205071%28v=exchg.150%29.aspx).
+## Fixing allowed spam
 
-## Solutions to common causes of getting too much spam
+We often see that customers get junk mail into their inbox because of incorrect configurations. The most common of which is configuring your domains in a transport rule to bypass filters or listing your domain(s) in the allowed/safe-senders list. This is not good because these messages skip spam filtering and could have otherwise been caught.  
+
+## Solutions to other common causes of getting too much spam
 
 In order to protect you from getting too much spam, Exchange Online Protection (EOP) requires that administrators complete a few tasks. If you are not the administrator for your Office 365 tenant and you are getting too much spam, then you may want to work with your administrator on these tasks. Otherwise, you can skip to the user section.
   
@@ -39,8 +40,6 @@ In order to protect you from getting too much spam, Exchange Online Protection (
 - **Enable the junk mail rule on all mailboxes** By default, the spam filtering action is set to **Move message to Junk Email folder**. If this is the preferred and current spam policy action, then each mailbox [must also have the junk mail rule enabled](https://support.office.com/en-us/article/overview-of-the-junk-email-filter-5ae3ea8e-cf41-4fa0-b02a-3b96e21de089). To check this, you can run the Get-MailboxJunkEmailConfiguration cmdlet against one or more mailboxes. For example, you might check all mailboxes for this by running the following: Get-MailboxJunkEmailConfiguration -Identity \* | Where {$_.Enabled -eq $false}
     
     When viewing the output, the Enable property should be set to True. If it is set to False, you can run Set-MailboxJunkEmailConfiguration to change it to True.
-    
-- **Check your mail flow rules and safe lists** Look at the message header for a message that should have been marked as spam. Find the SCL property in the X-Forefront-Antispam-Report header. If the SCL value is -1, this indicates that the message was safe listed and bypassed EOP spam filtering. Investigate mail flow rules, allow lists, and the recipient's allowed senders list. A [Find and fix email delivery issues as an Office 365 for business admin](https://support.office.com/article/e7758b99-1896-41db-bf39-51e2dba21de6) will also be useful in providing details about why a message received an SCL of -1. 
     
 - **Create mail flow rules in on-premises Exchange Server** If you are using Exchange Online Protection, but your mailboxes are located in on-premises Exchange Server, then you will need to create a couple of mail flow rules in on-premises Exchange Server. See the [instructions for EOP-only](https://technet.microsoft.com/library/ms.exch.eac.EditAntispamPolicy_SpamAction%28EXCHG.150%29.aspx?v=15.20.548.14&amp;l=1&amp;s=BPOS_S_E15_0).
     
