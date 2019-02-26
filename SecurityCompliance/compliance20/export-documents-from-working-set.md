@@ -9,7 +9,6 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: 
-search.appverid: 
 - MOE150
 - MET150
 ms.assetid: 
