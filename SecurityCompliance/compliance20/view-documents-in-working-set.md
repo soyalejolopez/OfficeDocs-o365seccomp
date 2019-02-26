@@ -8,7 +8,7 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-ms.collection: 
+ms.collection: M365-security-compliance 
 search.appverid: 
 - MOE150
 - MET150
