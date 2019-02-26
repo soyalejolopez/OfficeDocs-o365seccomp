@@ -1,7 +1,7 @@
 ---
 title: "Controlling your data in Office 365 using Customer Key"
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: krowley
+author: kccross
 manager: laurawi
 ms.date: 8/1/2018
 ms.audience: ITPro
