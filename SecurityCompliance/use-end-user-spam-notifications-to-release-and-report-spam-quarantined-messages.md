@@ -12,7 +12,7 @@ localization_priority: Normal
 ms.assetid: 4b250bc9-0056-4426-8397-7b4398f1b026
 ms.collection:
 - M365-security-compliance
-description: ""
+description: "Users who see an end-user spam notification message from their administrator about quarantined email can take these actions on the messages. "
 ---
 
 # Use end-user spam notifications to release and report spam-quarantined messages
