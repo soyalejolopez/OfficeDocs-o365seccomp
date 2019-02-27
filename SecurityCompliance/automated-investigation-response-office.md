@@ -17,7 +17,7 @@ description: "Learn about Automated Investigation and Response capabilities in O
 
 # Automated Investigation and Response (AIR) with Office 365 Threat Intelligence
 
-Automated Investigation and Response (AIR) (coming soon to [Office 365 Threat Intelligence](office-365-ti.md) capabilities) enables you to run automated investigation and remediation to well-known threats that exist today. Read this article to get an overview of AIR and how it can help your organization mitigate threats more effectively and efficiently.
+Automated Investigation and Response (AIR) (coming soon to [Office 365 Advanced Threat Protection](office-365-atp.md)) enables you to run automated investigation and remediation to well-known threats that exist today. Read this article to get an overview of AIR and how it can help your organization mitigate threats more effectively and efficiently.
 
 ## Security playbooks
 
