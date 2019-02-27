@@ -194,14 +194,14 @@ On this page, you have several options:
 When you click the Actions node or Action tab, you go to a view that shows all the play book actions that are recommended for remediation after the investigation has completed. 
 The actions capture a complete list of all the action steps Microsoft recommend you take at the end of a investigation. The experience allows you to remediate from within the interface directly, buy selecting one or a multiple step actions, then clicking approve will allow the remediations to begin running (you will require appropriate permissions for example, Security Reader can view actions but not approve them).  
 
-IMAGE
+![AIR investigations action page](media/air-investigationactionspage.png)
 
-On this page, you have several options.
-•	You can see a visual overview of the play book recommend Actions.
-•	You can select a single or multiple Actions.
-•	You can Approve recommended Actions are started immediately (with comments).
-•	You can export the results to a CSV file.
-•	You can filter the view.
+On this page, you have several options:
+- Get a visual overview of the playbook-recommended actions.
+- Select a single action or multiple actions.
+- Approve recommended actions. (These are started immediately with comments.)
+- Export the results to a CSV file.
+- Filter the view.
 
 
 ## How do I get AIR?
