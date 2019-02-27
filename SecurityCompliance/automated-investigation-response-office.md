@@ -110,7 +110,7 @@ On this page, you have several options:
 
 ### The investigation alerts page
 
-By clicking the Alerts node or Alerts tab, we are taken to a view that shows ALL alerts relevant to the investigation – these include the alert triggering the investigation as well as other alerts (in this case, risky sign-in, mass download, etc.) that were correlated to the investigation. From this page, a security analyst can also view additional details on the alerts themselves.
+By clicking the Alerts node or Alerts tab for an investigation, we are taken to a page that shows ALL alerts relevant to the investigation. Details include the alert that triggered the investigation as well as other alerts, such as risky sign-in, mass download, etc., that are correlated to an investigation. From this page, a security analyst can also view additional details on the alerts themselves.
 
 ![AIR alerts page](media/air-investigationalertspage.png)
 
@@ -118,8 +118,12 @@ On this page, you have several options:
 - Get a visual overview of the current triggering alert and any associated alerts.
 - Click an alert in the list to activate a fly-out page that shows full alert details.
 
+### The investigation email messages page
 
-### Investigation email messages page
+By clicking the Email node or Email tab, we are taken to a view that shows all the email clusters identified as part of the investigation. 
+Given the sheer volume of email that users in an organization sent and receive, clustering emails based on similar attributes from the header, body, URL and attachment --- then separating the malicious from the clean email and finally taking action on the malicious ones can take many hours. We are now automating this process with AIR.
+As you’ll note the 1st cluster of 3 mails was deemed as phish. Another cluster of similar messages with the same IP and subject was found and considered malicious as some of them were identified as phish during initial detection. 
+
 
 ### Investigation users page
 
