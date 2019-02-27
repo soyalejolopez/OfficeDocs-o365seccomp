@@ -23,9 +23,16 @@ Automated Investigation and Response (AIR) within [Office 365 Threat Intelligenc
 
 Security playbooks are back-end policies that admins can select as part of security policies. At the heart of automation in Microsoft Threat Protection, the security playbooks provided in [Office 365 Advanced Threat Protection](office-365-atp.md) are based on common real-world security scenarios. 
 
-A Security playbook is kicks off when an alert is triggered within your organization. Once the alert triggers, the associated playbook is run automatically. The playbook runs an investigation, looking at all the associated metadata (including email messages, users, subjects, senders, etc.) and, based on its findings, recommends a set of actions the security team can take to control and mitigate the threat. (Initially for phase 1, the recommendation actions to take will require an administrator to approve, phase 2 will have the option to allow the feature to automatically take the actions with no administration interaction required)
+A Security playbook is kicks off when an alert is triggered within your organization. Once the alert triggers, the associated playbook is run automatically. The playbook runs an investigation, looking at all the associated metadata (including email messages, users, subjects, senders, etc.) and, based on its findings, recommends a set of actions the security team can take to control and mitigate the threat. 
 
-Since Microsoft provides services to one of the largest bases of customers across the globe, we have seen almost everything.  So, we leverage our experience and design playbooks which tackle the most frequent threats that we have experienced across our ecosystem.  
+Based on extensive experience, the security playbooks are designed to tackle the most frequent threats our customers face.
+
+### Security playbooks are rolling out in phases
+
+- **Phase 1**: Recommended actions to take will require a security administrator to approve.
+
+- **Phase 2**: Security administrators will have the option to allow security playbooks to automatically take action without administration interaction.
+
 
 ## The playbooks
 
