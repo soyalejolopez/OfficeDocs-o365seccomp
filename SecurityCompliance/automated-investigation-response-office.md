@@ -17,11 +17,11 @@ description: "Learn about Automated Investigation and Response capabilities in O
 
 # Automated Investigation and Response (AIR) with Office 365 Threat Intelligence
 
-Automated Investigation and Response (AIR) (coming soon to [Office 365 Advanced Threat Protection](office-365-atp.md)) enables you to run automated investigation and remediation to well-known threats that exist today. Read this article to get an overview of AIR and how it can help your organization mitigate threats more effectively and efficiently.
+Automated Investigation and Response (AIR) (coming soon to [Office 365 Threat Intelligence](office-365-ti.md)) enables you to run automated investigation and remediation to well-known threats that exist today. Read this article to get an overview of AIR and how it can help your organization mitigate threats more effectively and efficiently.
 
 ## Security playbooks
 
-Security playbooks are back-end policies that admins can select as part of security policies. At the heart of automation in Microsoft Threat Protection, the security playbooks provided in [Office 365 Advanced Threat Protection](office-365-atp.md) are based on common real-world security scenarios. 
+Security playbooks are back-end policies that admins can select as part of security policies. At the heart of automation in Microsoft Threat Protection, the security playbooks provided in AIR are based on common real-world security scenarios. 
 
 A Security playbook is kicks off when an alert is triggered within your organization. Once the alert triggers, the associated playbook is run automatically. The playbook runs an investigation, looking at all the associated metadata (including email messages, users, subjects, senders, etc.) and, based on its findings, recommends a set of actions that your organization's security team can take to control and mitigate the threat. 
 
