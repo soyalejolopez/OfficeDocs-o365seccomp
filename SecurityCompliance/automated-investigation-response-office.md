@@ -69,7 +69,14 @@ Next, several hunting steps are executed:
  
 - The signal is shared with other platforms, such as [WDATP](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection).
 
-- A determination on whether any users have clicked-through on the suspicious email message, we determine if Office 365 ATP Safe Links may have missed any instance of the email which was submitted, and we also determine if the user has been compromised.  During the hunting, we also assign risks and threats to various hunting steps.  
+- A determination on whether any users have clicked-through on the suspicious email message.
+
+A check is done to see if [Office 365 ATP Safe Links](atp-safe-links.md) may have missed any instance of the email which was submitted.
+
+A check is done to see if the user has been compromised.  
+
+During the hunting, we also assign risks and threats to various hunting steps.  
+
 In the final aspect of the playbook is the remediation of the threat.  Remediation steps are carried as needed based on the results from analyzers determined from the investigation and the hunting.  
 
 
