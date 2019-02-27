@@ -147,6 +147,9 @@ In the following example, AIR has identified indicators of compromise and anomal
 
 ![AIR investigation uers page](media/air-investigationuserspage.png)
 
+On this page, you have several options.
+- Get a visual overview of the identified user results and risks found.
+- Click a user to activate a fly-out page that shows the full alert details.
 
 ### Investigation machines page
 
