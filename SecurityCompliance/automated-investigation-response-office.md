@@ -73,7 +73,7 @@ Next, several hunting steps are executed:
 
 During the hunting phase, risks and threats are assigned to various hunting steps.  
 
-Remediation is the final phase of the playbook. Remediation steps are carried out, based on the results from the investigation and hunting phases.  
+Remediation is the final phase of the playbook. During this phase, remediation steps are carried out, based on the results from the investigation and hunting phases.  
 
 
 ## Getting started
