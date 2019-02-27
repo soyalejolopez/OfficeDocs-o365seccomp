@@ -87,7 +87,7 @@ Your AIR widgets will appear across the top of the [Security Dashboard](security
 
 ### The main investigation page
 
-The Investigation main page shows an overview view of your organization's investigations and their current states.
+The main investigation page shows an overview view of your organization's investigations and their current states.
 
 ![Main investigation page for AIR](media/air-maininvestigationpage.png) 
   
