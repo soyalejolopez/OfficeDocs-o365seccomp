@@ -34,7 +34,7 @@ Based on extensive experience, the security playbooks are designed to tackle the
 - **Phase 2**: Security administrators will have the option to allow security playbooks to take action automatically, without administrative interaction.
 
 
-### The playbooks
+### Playbooks overview
 
 The following five playbooks will be offered:
 
