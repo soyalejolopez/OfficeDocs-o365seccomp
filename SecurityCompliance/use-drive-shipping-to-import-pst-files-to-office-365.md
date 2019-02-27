@@ -6,14 +6,15 @@ manager: laurawi
 ms.date: 6/14/2018
 ms.audience: Admin
 ms.topic: article
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
-ms.collection: Strat_O365_IP
+ms.collection: 
+- Strat_O365_IP
+- M365-security-compliance
 search.appverid: 
 - MOE150
 - MET150
 ms.assetid: 40829b57-793c-4d41-b171-e9270129173d
-
 description: "For administrators: Learn how to bulk-import your organization's PST files to Office 365 mailboxes by copying PST files to a hard drive and then shipping it to Microsoft.
 "
 ---

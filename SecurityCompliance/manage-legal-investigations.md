@@ -3,11 +3,11 @@ title: "Manage legal investigations in Office 365"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 
 ms.audience: Admin
-ms.topic: hub-page
-ms.service: o365-administration
+ms.topic: conceptual
+ms.service: O365-seccomp
 localization_priority: Normal
+ms.collection: M365-security-compliance
 search.appverid: 
 - MOE150
 - MET150
