@@ -110,7 +110,7 @@ On this page, you have several options:
 
 ### The investigation alerts page
 
-By clicking the Alerts node or Alerts tab for an investigation, we are taken to a page that shows ALL alerts relevant to the investigation. Details include the alert that triggered the investigation as well as other alerts, such as risky sign-in, mass download, etc., that are correlated to an investigation. From this page, a security analyst can also view additional details on the alerts themselves.
+By clicking the Alerts node or Alerts tab for an investigation, you go to a page that shows ALL alerts relevant to the investigation. Details include the alert that triggered the investigation as well as other alerts, such as risky sign-in, mass download, etc., that are correlated to an investigation. From this page, a security analyst can also view additional details on the alerts themselves.
 
 ![AIR alerts page](media/air-investigationalertspage.png)
 
@@ -120,12 +120,12 @@ On this page, you have several options:
 
 ### The investigation email messages page
 
-By clicking the Email node or Email tab for an investigation, we are taken to a page that shows all the email clusters identified as part of the investigation. 
+By clicking the Email node or Email tab for an investigation, you go to a page that shows all the email clusters identified as part of the investigation. 
 
 Given the sheer volume of email that users in an organization send and receive, the process of 
 - clustering email messages based on similar attributes from a message header, body, URL and attachment, 
 - separating malicious email from the good email, and 
-- taking action on malicious email messages, 
+- taking action on malicious email messages 
 
 can take many hours. We are now automating this process with AIR. 
 
@@ -134,13 +134,17 @@ In the following image, the first cluster of three email messages are deemed to 
 ![AIR email investigation page](media/air-investigationemailpage.png)
 
 On this page, you have several options:
-- You can see a visual overview of the current clustering results and threats found.
-- You can click on any cluster entity or threat list to activate a fly out page, which will show the full alert details.
+- Get a visual overview of the current clustering results and threats found.
+- Click a cluster entity or a threat list to activate a fly-out page that shows the full alert details.
 
 ![AIR investigation email with flyout details](media/air-investigationemailpageflyoutdetails.png)
 
+### The investigation users page
 
-### Investigation users page
+By clicking the Users node or Users tab, you go to a view that shows all the users identified as part of the investigation. 
+
+In this scenario, we have identified indicators of compromise and anomalies based on a new inbox rule being created. Additional details (evidence) of the investigation are also available through detailed views within this tab.
+
 
 ### Investigation machines page
 
