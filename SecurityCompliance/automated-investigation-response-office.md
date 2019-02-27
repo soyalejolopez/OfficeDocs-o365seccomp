@@ -17,15 +17,15 @@ description: "Learn about Automated Investigation and Response capabilities in O
 
 # Automated Investigation and Response (AIR) with Office 365 Threat Intelligence
 
-Automated Investigation and Response (AIR) within [Office 365 Threat Intelligence](office-365-ti.md) capabilities allows you to run automated investigation and remediation to well-known threats that exist today. Read this article to get an overview of AIR and how it can help your organization more effectively mitigate threats.
+Automated Investigation and Response (AIR) (coming soon to [Office 365 Threat Intelligence](office-365-ti.md) capabilities) enables you to run automated investigation and remediation to well-known threats that exist today. Read this article to get an overview of AIR and how it can help your organization mitigate threats more effectively and efficiently.
 
 ## Security playbooks
 
 Security playbooks are back-end policies that admins can select as part of security policies. At the heart of automation in Microsoft Threat Protection, the security playbooks provided in [Office 365 Advanced Threat Protection](office-365-atp.md) are based on common real-world security scenarios. 
 
-A Security playbook is kicks off when an alert is triggered within your organization. Once the alert triggers, the associated playbook is run automatically. The playbook runs an investigation, looking at all the associated metadata (including email messages, users, subjects, senders, etc.) and, based on its findings, recommends a set of actions the security team can take to control and mitigate the threat. 
+A Security playbook is kicks off when an alert is triggered within your organization. Once the alert triggers, the associated playbook is run automatically. The playbook runs an investigation, looking at all the associated metadata (including email messages, users, subjects, senders, etc.) and, based on its findings, recommends a set of actions that your organization's security team can take to control and mitigate the threat. 
 
-Based on extensive experience, the security playbooks are designed to tackle the most frequent threats our customers face.
+Based on extensive experience, the security playbooks are designed to tackle the most frequent threats organizations face.
 
 ### Security playbooks are rolling out in phases
 
@@ -79,7 +79,7 @@ Remediation is the final phase of the playbook. During this phase, remediation s
 
 To access your investigations, as an Office 365 global administrator or security administrator, go to the Office 365 Security & Compliance Center ([https://protection.office.com](https://protection.office.com)) and sign in. Then, in the left navigation, go to **Threat management** > **Investigations**.
 
-Alternately, you can visit the Threat management dashboard (In the Security & Compliance Center, go to **Threat management** > **Dashboard**).
+Alternately, visit the Threat management dashboard (In the Security & Compliance Center, go to **Threat management** > **Dashboard**).
 
 ![AIR widgets](media/air-widgets.png)
 
@@ -98,7 +98,7 @@ On this page, you have several options:
 
 ### The investigation graph page
 
-When you open a specific investigation, you see the investigation graph page. This page shows all the different entities: email messages, users (and their activities), and devices that have been automatically investigated as part of the alert that was triggered.
+When you open a specific investigation, you see the investigation graph page. This page shows all the different entities: email messages, users (and their activities), and devices that were automatically investigated as part of the alert that was triggered.
 
 ![AIR investigation graph page](media/air-investigationgraphpage.png)
 
@@ -127,9 +127,9 @@ Given the sheer volume of email that users in an organization send and receive, 
 - separating malicious email from the good email, and 
 - taking action on malicious email messages 
 
-can take many hours. We are now automating this process with AIR. 
+can take many hours. AIR now automates this process, saving your organization's security team time and effort. 
 
-In the following image, the first cluster of three email messages are deemed to be phish. Another cluster of similar messages with the same IP and subject was found and is considered to be malicious, as some of them were identified as phish during initial detection. 
+As an example, consider the following image. The first cluster of three email messages were deemed to be phish. Another cluster of similar messages with the same IP and subject was found and is considered to be malicious, as some of them were identified as phish during initial detection. 
 
 ![AIR email investigation page](media/air-investigationemailpage.png)
 
@@ -143,7 +143,9 @@ On this page, you have several options:
 
 When you click the Users node or Users tab, you go to a view that shows all the users identified as part of the investigation. 
 
-In this scenario, we have identified indicators of compromise and anomalies based on a new inbox rule being created. Additional details (evidence) of the investigation are also available through detailed views within this tab.
+In the following example, AIR has identified indicators of compromise and anomalies based on a new inbox rule being created. Additional details (evidence) of the investigation are also available through detailed views within this tab.
+
+![AIR investigation uers page](media/air-investigationuserspage.png)
 
 
 ### Investigation machines page
