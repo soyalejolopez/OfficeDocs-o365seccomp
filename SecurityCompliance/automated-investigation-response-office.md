@@ -92,7 +92,7 @@ The Investigation main page shows an overview view of your organization's invest
 ![Main investigation page for AIR](media/air-maininvestigationpage.png) 
   
 On this page, you have several options:
-- Navigate directly to an investigation by clicking an Investigation ID.
+- Navigate directly to an investigation When you click an Investigation ID.
 - Apply filters to the Investigation State, Status and Time. Or a combination of all, to show you a filtered list of your choosing.
 - Export the data to a CSV file.
 
@@ -110,7 +110,7 @@ On this page, you have several options:
 
 ### The investigation alerts page
 
-By clicking the Alerts node or Alerts tab for an investigation, you go to a page that shows ALL alerts relevant to the investigation. Details include the alert that triggered the investigation as well as other alerts, such as risky sign-in, mass download, etc., that are correlated to an investigation. From this page, a security analyst can also view additional details on the alerts themselves.
+When you click the Alerts node or Alerts tab for an investigation, you go to a page that shows ALL alerts relevant to the investigation. Details include the alert that triggered the investigation as well as other alerts, such as risky sign-in, mass download, etc., that are correlated to an investigation. From this page, a security analyst can also view additional details on the alerts themselves.
 
 ![AIR alerts page](media/air-investigationalertspage.png)
 
@@ -120,7 +120,7 @@ On this page, you have several options:
 
 ### The investigation email messages page
 
-By clicking the Email node or Email tab for an investigation, you go to a page that shows all the email clusters identified as part of the investigation. 
+When you click the Email node or Email tab for an investigation, you go to a page that shows all the email clusters identified as part of the investigation. 
 
 Given the sheer volume of email that users in an organization send and receive, the process of 
 - clustering email messages based on similar attributes from a message header, body, URL and attachment, 
@@ -141,7 +141,7 @@ On this page, you have several options:
 
 ### The investigation users page
 
-By clicking the Users node or Users tab, you go to a view that shows all the users identified as part of the investigation. 
+When you click the Users node or Users tab, you go to a view that shows all the users identified as part of the investigation. 
 
 In this scenario, we have identified indicators of compromise and anomalies based on a new inbox rule being created. Additional details (evidence) of the investigation are also available through detailed views within this tab.
 
