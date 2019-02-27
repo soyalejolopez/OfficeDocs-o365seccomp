@@ -211,7 +211,7 @@ Currently, AIR is in preview. When released, AIR will be included in the followi
 - Microsoft 365 Enterprise E5
 - Office 365 Enterprise E5
 - Microsoft Threat Protection
-- Office 365 Advanced Threat Protection Plan 2 (available as an add-on)
+- Office 365 Advanced Threat Protection Plan 2
 
 To learn more about feature availability, visit the [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap).
 
