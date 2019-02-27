@@ -34,7 +34,7 @@ Based on extensive experience, the security playbooks are designed to tackle the
 - **Phase 2**: Security administrators will have the option to allow security playbooks to take action automatically, without administrative interaction.
 
 
-## The playbooks
+### The playbooks
 
 The following five playbooks will be offered:
 
@@ -108,6 +108,23 @@ From this view, you have several options.
 - You can see a summary of the investigation timings.
 - You can click on any node in the graph visualization to be taken to the details for the node you clicked on.
 - You can click on any tab at the top to be taken to the details for the tab you clicked on.
+
+### Investigation alerts page
+
+### Investigation email messages page
+
+### Investigation users page
+
+### Investigation machines page
+
+### Investigation entities page
+
+### Investigation log page
+
+### Investigation actions page
+
+## How do I get AIR?
+
 
 
 ## Related topics
