@@ -44,6 +44,10 @@ The following five playbooks will be offered:
 
 Each playbook will include a root investigation, steps to hunt down other potential threats, and threat remediation. Each high-level step includes many sub-steps that are executed to provide a deep, detailed, and exhaustive response to threats.
 
+### Example: User-submitted message
+
+Suppose that a user submits an email message by using the [Report Message add-in](enable-the-report-message-add-in.md). 
+
 ## Getting started
 
 ## 
