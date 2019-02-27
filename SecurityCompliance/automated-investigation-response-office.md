@@ -91,7 +91,7 @@ The Investigation main page shows an overview view of your organization's invest
 
 ![Main investigation page for AIR](media/air-maininvestigationpage.png) 
   
-From this view, you have several options:
+On this page, you have several options:
 - Navigate directly to an investigation by clicking an Investigation ID.
 - Apply filters to the Investigation State, Status and Time. Or a combination of all, to show you a filtered list of your choosing.
 - Export the data to a CSV file.
@@ -102,7 +102,7 @@ When you open a specific investigation, you see the investigation graph page. Th
 
 ![AIR investigation graph page](media/air-investigationgraphpage.png)
 
-From this view, you have several options:
+On this page, you have several options:
 - Get a visual overview of the current investigation.
 - View a summary of the investigation timings.
 - Click a node in the graph visualization to view details for that node.
@@ -110,9 +110,14 @@ From this view, you have several options:
 
 ### The investigation alerts page
 
-By clicking the Alerts node or Alerts tab, we are taken to a view that shows ALL alerts relevant to the investigation – these include the alert triggering the investigation as well as other alerts (in this case, risky sign-in, mass download, etc.) that were correlated to the investigation. From this page, a SOC analyst may also view additional details on the alerts themselves.
+By clicking the Alerts node or Alerts tab, we are taken to a view that shows ALL alerts relevant to the investigation – these include the alert triggering the investigation as well as other alerts (in this case, risky sign-in, mass download, etc.) that were correlated to the investigation. From this page, a security analyst can also view additional details on the alerts themselves.
 
 ![AIR alerts page](media/air-investigationalertspage.png)
+
+On this page, you have several options.
+- Get a visual overview of the current triggering alert and associated (if any) alerts.
+- Click an alert in the list to activate a fly-out page that shows full alert details.
+
 
 ### Investigation email messages page
 
