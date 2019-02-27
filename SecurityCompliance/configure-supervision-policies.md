@@ -49,9 +49,9 @@ Follow these steps to set up and use supervision in your Office 365 organization
 
     Testing your supervision policy to make sure it is functioning as desired is an important part of ensuring that your compliance strategy is meeting your standards.
 
-- **Step 6 - (optional)** [Set up Outlook add-in for reviewers who do not want to use Office 365 supervision dashboard or Outlook on the web (formerly known as Outlook Web App) to review supervised communications](configure-supervision-policies.md#UseOutlook)
+- **Step 6 - (optional)** [Configure Outlook for reviewers who do not want to use Office 365 supervision dashboard or Outlook on the web (formerly known as Outlook Web App) to review supervised communications](configure-supervision-policies.md#UseOutlook)
 
-    The Supervision add-in for Outlook gives reviewers access to the supervision functionality right within the Outlook client so they can assess and categorize each item.
+    Outlook can be configured to give reviewers access to the supervision functionality within the Outlook client so they can assess and categorize each item.
 
 <a name="exampledist"> </a>
 
