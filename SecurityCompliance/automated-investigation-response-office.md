@@ -165,12 +165,12 @@ On this page, you have several options:
 
 ### Investigation entities page
 
-By clicking the Entities tab, we are taken to a view that shows all the machines identified as part of the investigation. 
+When you click the Entities tab, you go to a view that shows all the machines identified as part of the investigation. 
 On this tab we can see the investigated entities. We can see details of the types of entities, such as emails, clusters, IP’s, users et al. How many were analyzed, and the threats associated with each. 
 
 IMAGE
 
-From this view, you have several options.
+On this page, you have several options.
 •	You can see a visual overview of the investigation entities and threats found.
 •	You can click on an entity to activate a flyout view that into the related entity detail.
 
@@ -178,12 +178,12 @@ IMAGE
 
 ### Investigation log page
 
-By clicking the Log tab, we are taken to a view that shows all the play book steps that have occurred during the investigation. 
+When you click the Log tab, you go to a view that shows all the play book steps that have occurred during the investigation. 
 The log captures a complete inventory of all actions completed by Office 365 Threat Intelligence as part of the AIR. It provides a clear view of all the steps taken, including the Action itself, a description and the duration of the actual from start to finish. 
 
 IMAGE
 
-From this view, you have several options.
+On this page, you have several options.
 •	You can see a visual overview of the play book steps taken.
 •	You can export the results to a CSV file.
 •	You can filter the view.
@@ -191,12 +191,12 @@ From this view, you have several options.
 
 ### Investigation actions page
 
-By clicking the Actions node or Action tab, we are taken to a view that shows all the play book actions that are recommended for remediation after the investigation has completed. 
+When you click the Actions node or Action tab, you go to a view that shows all the play book actions that are recommended for remediation after the investigation has completed. 
 The actions capture a complete list of all the action steps Microsoft recommend you take at the end of a investigation. The experience allows you to remediate from within the interface directly, buy selecting one or a multiple step actions, then clicking approve will allow the remediations to begin running (you will require appropriate permissions for example, Security Reader can view actions but not approve them).  
 
 IMAGE
 
-From this view, you have several options.
+On this page, you have several options.
 •	You can see a visual overview of the play book recommend Actions.
 •	You can select a single or multiple Actions.
 •	You can Approve recommended Actions are started immediately (with comments).
