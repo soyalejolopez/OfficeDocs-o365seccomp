@@ -1,7 +1,7 @@
 ---
 title: "Use mail flow rules to set the spam confidence level (SCL) in messages"
-ms.author: krowley
-author: kccross
+ms.author: tracyp
+author: MSFTTracyP
 manager: laurawi
 ms.date: 11/17/2014
 ms.audience: ITPro
@@ -12,6 +12,8 @@ localization_priority: Normal
 search.appverid:
 - MET150
 ms.assetid: 4ccab17a-6d49-4786-aa28-92fb28893e99
+ms.collection:
+- M365-security-compliance
 description: "You can create a transport rule that sets the spam confidence level (SCL) of an email message. The SCL is a measure of how likely a message is to be spam. Spam is unsolicited (and typically unwanted) email messages. The service takes different action on a message depending on its SCL rating. For example, you might want to bypass spam content filtering for messages that are sent from people inside your organization because you trust that a message sent internally from a colleague isn't spam. Using transport rules to set the SCL value of a message gives you increased control in handling spam."
 ---
 
@@ -37,7 +39,7 @@ You can create a transport rule that sets the spam confidence level (SCL) of an 
     
 4. Choose **More options**, and then under **Apply this rule if**, specify a condition that will trigger the action you'll be setting for this rule (which is to set the SCL value).
     
-    For example, you can set **The sender** \> **is internal/external**, and then in the **select sender location** dialog box, select **Inside the organization**, and choose **ok**.</br>
+    For example, you can set **The sender** \> **is internal/external**, and then in the **select sender location** dialog box, select **Inside the organization**, and choose **ok**.<br/>
     ![Select sender location](media/EOP-ETR-SetSCL-1.jpg)
   
 5. Under **Do the following**, select **Modify the message properties** \> **set the spam confidence level (SCL)**.

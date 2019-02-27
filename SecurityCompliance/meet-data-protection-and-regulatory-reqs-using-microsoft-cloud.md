@@ -3,16 +3,15 @@ title: "Use Compliance Manager to help meet data protection and regulatory requi
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 6/26/2018
 ms.audience: Admin
-ms.topic: overview
-ms.service: o365-administration
+ms.topic: article
+ms.service: O365-seccomp
 localization_priority: Priority
+ms.collection: M365-security-compliance
 search.appverid: 
 - MOE150
 - MET150
 ms.assetid: 429e686f-d8a6-455e-a2b6-3791d763f000
-
 description: "The Compliance Manager in the Microsoft Service Trust Portal provides tools to track, implement, and manage the controls to help your organization reach compliance with security and data protection industry standards (such as GDPR, ISO 27001 and 27018, and HIPAA) when measured against Microsoft cloud services, such as Office 365 and Microsoft Azure. The Compliance Manager helps the person who oversees the data protection and privacy strategy for your organization manage your compliance and risk assessment process."
 ---
 
@@ -20,7 +19,9 @@ description: "The Compliance Manager in the Microsoft Service Trust Portal provi
 
  *Compliance Manager isn't available in Office 365 operated by 21Vianet, Office 365 Germany, Office 365 U.S. Government Community High (GCC High), or Office 365 Department of Defense.* 
   
-Compliance Manager, a workflow-based risk assessment tool in the Microsoft [Get started with the Microsoft Service Trust Portal](https://support.office.com/article/f30e2353-0bd6-41ed-8347-eea1fb8d2662), enables you to track, assign, and verify your organization's regulatory compliance activities related to Microsoft Professional Services and Microsoft cloud services, such as Microsoft Office 365, Microsoft Dynamics 365, and Microsoft Azure. Compliance Manager:
+Compliance Manager, a workflow-based risk assessment tool in the Microsoft [Service Trust Portal](https://support.office.com/article/f30e2353-0bd6-41ed-8347-eea1fb8d2662), enables you to track, assign, and verify your organization's regulatory compliance activities related to Microsoft Professional Services and Microsoft cloud services, such as Microsoft Office 365, Microsoft Dynamics 365, and Microsoft Azure. 
+
+Compliance Manager:
   
 - Combines the detailed information provided by Microsoft to auditors and regulators as part of various third-party audits of Microsoft 's cloud services against various standards (for example, ISO 27001, ISO 27018, and NIST) and information that Microsoft compiles internally for its compliance with regulations (such as HIPAA and the EU General Data Protection Regulation, or GDPR) with your own self-assessment of your organization's compliance with these standards and regulations.
     
@@ -31,36 +32,17 @@ Compliance Manager, a workflow-based risk assessment tool in the Microsoft [Get 
 - Provides a secure repository for you to upload and manage evidence and other artifacts related to your compliance activities.
     
 - Produces richly detailed reports in Microsoft Excel that document the compliance activities performed by Microsoft and your organization, which can be provided to auditors, regulators, and other compliance stakeholders.
+
+For a brief demo of Compliance Manager, see this [Compliance Manager](https://www.youtube.com/watch?v=r1vs8NdSXKQ) video.
+
     
 > [!IMPORTANT]
 > Compliance Manager is a dashboard that provides a summary of your data protection and compliance stature and recommendations to improve data protection and compliance. The Customer Actions provided in Compliance Manager are recommendations; it is up to each organization to evaluate the effectiveness of these recommendations in their respective regulatory environment prior to implementation. Recommendations found in Compliance Manager should not be interpreted as a guarantee of compliance.
+
     
 ## What is Compliance Manager?
 
 Compliance Manager is a workflow-based risk assessment tool designed to help you manage regulatory compliance within the shared responsibility model of the cloud. Compliance Manager provides you with a dashboard view of standards and regulations and assessments that contain Microsoft's control implementation details and test results and customer control implementation guidance and tracking for your organization to enter. Compliance Manager provides certification assessment control definitions, guidance on implementation and testing of controls, risk-weighted scoring of controls, role-based access management, and an in-place control action assignment workflow to track control implementation, testing status and evidence management. Compliance Manager optimizes compliance workload by enabling customers to logically group assessments together and apply assessment control testing to identical or related controls, reducing the duplication of effort that might otherwise be required to satisfy identical control requirements across different certifications.
-  
-## Using search
-
-![Service Trust Portal - Search Input field](media/7c5cd817-3d62-420b-adb4-76e33fef941f.png)
-  
-Click the magnifying glass in the upper right-hand corner of the page by to expand the Search input field, enter your search terms and press Enter. The Search control will appear, with the search term in the search pane input field, and search results will appear beneath.
-  
-By default, Search returns Document results, and you can use the Filter By dropdown lists to refine the list of documents displayed, to add or remove search results from view. You can use multiple filter attributes at the same time to narrow the returned documents to specific cloud services, categories of compliance or security practices, regions of the world, or industries. Click the document name link to download the document.
-  
-![Service Trust Portal - Search on Documents with filter applied](media/86b754e1-c63c-4514-89ac-d014bf334140.png)
-  
-Click on the Compliance Manager link to display Search results for Compliance Manager assessment controls. The listed search results show the date the assessment was created, the name of the assessment grouping, the applicable cloud service, and whether the controls is Microsoft or Customer Managed.
-  
-![Service Trust Portal - Search on Compliance Manager Controls](media/bafb811a-68ce-40b5-ad16-058498fe5439.png)
-  
-> [!NOTE]
-> Service Trust Portal reports and documents are available to download for at least twelve months after publishing or until a new version of document becomes available. 
- 
-## Localization support
-
-Service Trust Portal enables you to view the page content in different languages. To change the page language, simply click on the globe icon in the lower left corner of the page and select the language of your choice. 
-  
-![Service Trust Portal - Localized content options](media/b50c677e-a886-4267-9eca-915d880ead7a.png)
 
 ## Assessments in Compliance Manager
 
@@ -127,7 +109,7 @@ After Compliance Manager access has been configured, any user that does not have
 
 ## Understanding the Compliance Score
 
-On the Dashboard, Compliance Manager displays a total score for Office 365 assessments in the upper right hand corner of the tile. This is the overall total Compliance Score for the Assessment, and is the accumulation of points received for each control assessment that has been marked as Implemented and Tested in the Assessment. When adding an Assessment, you will see that the Compliance Score is already on the way towards completion because the points for the Microsoft managed controls that have been implemented by Microsoft and tested by independant third parties are already applied.
+On the Dashboard, Compliance Manager displays a total score for Office 365 assessments in the upper right hand corner of the tile. This is the overall total Compliance Score for the Assessment, and is the accumulation of points received for each control assessment that has been marked as Implemented and Tested in the Assessment. When adding an Assessment, you will see that the Compliance Score is already on the way towards completion because the points for the Microsoft managed controls that have been implemented by Microsoft and tested by independent third parties are already applied.
   
 ![Compliance Manager Dashboard - Total Compliance Score](media/756091aa-1afd-4aff-93ab-c6f6824f2add.png)
   
@@ -687,6 +669,30 @@ To view archived Assessments:
     
 When viewing an archived assessment, none of the normally editable controls (i.e. Implementation, Test Results) will be active, and the **Managed Documents** button will be absent.
 
+## Using search
+
+![Service Trust Portal - Search Input field](media/7c5cd817-3d62-420b-adb4-76e33fef941f.png)
+  
+Click the magnifying glass in the upper right-hand corner of the page by to expand the Search input field, enter your search terms and press Enter. The Search control will appear, with the search term in the search pane input field, and search results will appear beneath.
+  
+By default, Search returns Document results, and you can use the Filter By dropdown lists to refine the list of documents displayed, to add or remove search results from view. You can use multiple filter attributes at the same time to narrow the returned documents to specific cloud services, categories of compliance or security practices, regions of the world, or industries. Click the document name link to download the document.
+  
+![Service Trust Portal - Search on Documents with filter applied](media/86b754e1-c63c-4514-89ac-d014bf334140.png)
+  
+Click on the Compliance Manager link to display Search results for Compliance Manager assessment controls. The listed search results show the date the assessment was created, the name of the assessment grouping, the applicable cloud service, and whether the controls is Microsoft or Customer Managed.
+  
+![Service Trust Portal - Search on Compliance Manager Controls](media/bafb811a-68ce-40b5-ad16-058498fe5439.png)
+  
+> [!NOTE]
+> Service Trust Portal reports and documents are available to download for at least twelve months after publishing or until a new version of document becomes available. 
+ 
+## Localization support
+
+Service Trust Portal enables you to view the page content in different languages. To change the page language, simply click on the globe icon in the lower left corner of the page and select the language of your choice. 
+  
+![Service Trust Portal - Localized content options](media/b50c677e-a886-4267-9eca-915d880ead7a.png)
+
+
 ## Change log for Customer Managed Controls
 
 Compliance Manager is designed to be regularly updated to keep pace with changes in regulatory requirements, as well as changes in our cloud services. These updates include changes to the Customer Managed Controls. A Change Log is provided to help you understand the impact of these changes, including the details of the content being added or changed, and guidance as to what effect the changes have on existing Assessments. Generally, there are two types of changes:
@@ -827,8 +833,8 @@ Compliance Manager is designed to be regularly updated to keep pace with changes
    
 ## See also
 
-- [Announcing Compliance Manager general availability](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/Announcing-Compliance-Manager-general-availability/ba-p/161922)
-    
-- [Microsoft 365 provides an information protection strategy to help with the GDPR](https://blogs.office.com/en-us/2018/02/22/microsoft-365-provides-an-information-protection-strategy-to-help-with-the-gdpr)
-    
+- [Compliance Manager Interactive guide](https://content.cloudguides.com/guides/Compliance%20Manager)
 
+- [Announcing Compliance Manager general availability](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/Announcing-Compliance-Manager-general-availability/ba-p/161922)
+
+- [Microsoft 365 provides an information protection strategy to help with the GDPR](https://blogs.office.com/en-us/2018/02/22/microsoft-365-provides-an-information-protection-strategy-to-help-with-the-gdpr)

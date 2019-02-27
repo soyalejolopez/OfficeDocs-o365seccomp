@@ -6,12 +6,11 @@ manager: laurawi
 ms.date: 6/26/2018
 ms.audience: Admin
 ms.topic: article
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - SPO160
 - MOE150
-- MET150
 ms.assetid: 1d463dda-a3b5-4675-95d4-83db19c9c4a3
 description: "Learn how to automate Content Search tasks like creating searches and running reports via PowerShell scripts in the Office 365 Security &amp; Compliance Center."
 ---

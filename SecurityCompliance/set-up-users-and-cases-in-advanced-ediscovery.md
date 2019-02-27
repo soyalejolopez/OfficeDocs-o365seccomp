@@ -6,7 +6,7 @@ manager: laurawi
 ms.date: 9/14/2017
 ms.audience: Admin
 ms.topic: article
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid: 
 - MOE150
@@ -58,6 +58,4 @@ After you create an eDiscovery case and add members, you (or any member of the c
 [Office 365 Advanced eDiscovery](office-365-advanced-ediscovery.md)
   
 [Preparing data](prepare-data-for-advanced-ediscovery.md)
-  
-[User roles and access](user-roles-and-access-in-advanced-ediscovery.md)
-
+ 

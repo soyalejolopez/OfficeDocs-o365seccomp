@@ -1,16 +1,16 @@
 ---
 title: "Office 365 Service Encryption"
-ms.author: robmazz
-author: robmazz
+ms.author: krowley
+author: kccross
 manager: laurawi
-ms.date: 8/21/2018
 audience: ITPro
 ms.topic: article
-ms.service: Office 365 Administration
+ms.service: O365-seccomp
 localization_priority: None
 search.appverid:
 - MET150
 ms.collection: Strat_O365_Enterprise
+
 description: "Summary: Understand data resiliency in Microsoft Office 365."
 ---
 

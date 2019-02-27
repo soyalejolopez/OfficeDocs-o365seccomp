@@ -1,7 +1,7 @@
 ---
 title: "What's the difference between junk email and bulk email?"
-ms.author: krowley
-author: kccross
+ms.author: tracyp
+author: MSFTTracyP
 manager: laurawi
 ms.date: 1/7/2015
 ms.audience: ITPro
@@ -12,6 +12,8 @@ localization_priority: Normal
 search.appverid:
 - MET150
 ms.assetid: 8079f193-1b40-4081-9e5d-d0e50dfbcc59
+ms.collection:
+- M365-security-compliance
 description: "Customers sometimes askwhat's the difference between junk email and bulk email messages?The purpose of this topic is to explain the difference and to provide information about the different options that are available for both in Exchange Online and Exchange Online Protection (EOP)."
 ---
 
@@ -36,6 +38,6 @@ How to manage bulk email isn't a clear cut decision, because if all bulk email i
   
 ### Enable bulk mail sensitivity control in the content filter policy
 
-Depending on your company's policy on bulk email messages, admins can select a threshold to assign the bulk email. The setting is is configurable via content filter policies in the EAC. Check out [Configure your spam filter policies](configure-your-spam-filter-policies.md)) for the steps. You can choose a threshold setting from 1 - 9, where 1 marks most bulk email as spam, and 9 allows the most bulk email to be delivered. The service then performs the configured action, such as sending the message to the recipient's Junk Email folder. 
+Depending on your company's policy on bulk email messages, admins can select a threshold to assign the bulk email. The setting is configurable via content filter policies in the EAC. Check out [Configure your spam filter policies](configure-your-spam-filter-policies.md) for the steps. You can choose a threshold setting from 1-9, where 1 marks most bulk email as spam, and 9 allows most bulk email to be delivered. The service then performs the configured action, such as sending the message to the recipient's Junk Email folder. 
   
 

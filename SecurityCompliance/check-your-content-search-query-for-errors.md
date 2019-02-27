@@ -6,11 +6,9 @@ manager: laurawi
 ms.date: 11/30/2016
 ms.audience: Admin
 ms.topic: article
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
-search.appverid: 
-- MOE150
-- MET150
+search.appverid: MOE150
 ms.assetid: 88898874-e262-4c5c-b6d2-4e697497fc74
 description: "Check your keyword query for Content Search for errors and typos, such as unsupported characters and lowercase Boolean operators, before you run the search. If we find an error, we'll suggest a revised query."
 ---

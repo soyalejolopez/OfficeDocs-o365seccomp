@@ -3,21 +3,25 @@ title: "Threat Trackers - New and Noteworthy"
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 6/15/2018
 ms.audience: ITPro
 ms.topic: overview
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: a097f5ca-eac0-44a4-bbce-365f35b79ed1
+ms.collection: 
+- M365-security-compliance
 description: "Learn about Threat Trackers, including new Noteworthy Trackers, to help your organization stay on top of security concerns."
 ---
 
 # Threat Trackers - New and Noteworthy
 
-[Office 365 Threat Intelligence](office-365-ti.md) enables your organization's security team to discover and take action against cybersecurity threats. **Beginning in late March 2018 and over the next several weeks, Office 365 Threat Intelligence will include new Threat Tracker features**, including Noteworthy trackers. Read this article to get an overview of these new features and next steps. 
+[Office 365 Threat Intelligence](office-365-ti.md) enables your organization's security team to discover and take action against cybersecurity threats. Beginning in late March 2018 and over the next several weeks, Office 365 Threat Intelligence will include new Threat Tracker features, including Noteworthy trackers. Read this article to get an overview of these new features and next steps. 
+
+> [!IMPORTANT]
+> Beginning in February 2019 and rolling out over the next several months, Office 365 Threat Intelligence is becoming Office 365 Advanced Threat Protection Plan 2, with additional threat protection capabilities. To learn more, see [Office 365 Advanced Threat Protection plans and pricing](https://products.office.com/exchange/advance-threat-protection) and the [Office 365 Advanced Threat Protection Service Description](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description).
   
 ## What are Threat Trackers?
 

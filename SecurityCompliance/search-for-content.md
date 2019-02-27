@@ -6,11 +6,8 @@ manager: laurawi
 ms.date: 4/4/2018
 ms.audience: Admin
 ms.topic: hub-page
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
-search.appverid: 
-- MOE150
-- MET150
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: df2d1e0f-b476-42c9-aade-4a260b24f193
 description: "Use the Content Search eDiscovery tool in the Office 365 Security &amp; Compliance Center to quickly find email in Exchange mailboxes, documents in SharePoint sites and OneDrive locations, and instant messaging conversations in Skype for Business."
@@ -40,6 +37,8 @@ The first step is to starting using the Content Search tool to choose content lo
     
 - [Bulk edit](bulk-edit-content-searches.md) the query and content locations for multiple searches 
     
+- [Preserve Bcc recipients](https://docs.microsoft.com/exchange/policy-and-compliance/holds/preserve-bcc-recipients-and-group-members) so you can search for them 
+
 ## Perform actions on content you find
 
 After you run a search and refine it as necessary, the next step is to do something with the results returned by the search. You can export and download the results to your local computer or in the case of a email attack on your organization, you can delete the results of a search from user mailboxes.

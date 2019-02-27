@@ -3,10 +3,10 @@ title: "Suspend or restore a user account in Office 365 Cloud App Security"
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 2/26/2018
+ms.date: 12/03/2018
 ms.audience: ITPro
 ms.topic: article
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -17,8 +17,6 @@ description: "With Office 365 Cloud App Security, the governance actions you can
 
 # Suspend or restore a user account in Office 365 Cloud App Security
 
-Office 365 Advanced Security Management is now Office 365 Cloud App Security.
-  
 |****Evaluation** \>**|****Planning** \>**|****Deployment** \>**|****Utilization****|
 |:-----|:-----|:-----|:-----|
 |[Start evaluating](office-365-cas-overview.md) <br/> |[Start planning](get-ready-for-office-365-cas.md) <br/> |[Start deploying](turn-on-office-365-cas.md) <br/> |You are here!  <br/> [Next steps](suspend-or-restore-an-account-in-ocas.md#nextsteps) <br/> |
@@ -39,9 +37,7 @@ When you suspend a user account, you prevent the user from signing in again. It'
     
 2. In the Security &amp; Compliance Center, choose **Alerts** \> **Manage advanced alerts**.
     
-3. Choose **Go to Office 365 Cloud App Security**.
-    
-    ![In the Security &amp; Compliance Center, choose Manage Advanced Alerts to go to Office 365 Cloud App Security](media/958632d4-03e3-4ade-8e22-d5509db6fca7.png)
+3. Choose **Go to Office 365 Cloud App Security**.<br>![In the Security &amp; Compliance Center, choose Manage Advanced Alerts to go to Office 365 Cloud App Security](media/958632d4-03e3-4ade-8e22-d5509db6fca7.png)<br>
   
 4. In the navigation bar across the top of the screen, choose **Alerts**.
     
@@ -57,7 +53,7 @@ See [Restore a user in Office 365](https://support.office.com/article/2c261e42-5
 
 - [Review and take action on alerts in Office 365 Cloud App Security](review-office-365-cas-alerts.md)
     
-- [Manage app permissions using Office 365 Cloud App Security](manage-app-permissions-in-ocas.md)
+- [Manage OAuth apps using Office 365 Cloud App Security](manage-app-permissions-in-ocas.md)
     
 - Review your [utilization activities for Office 365 Cloud App Security](utilization-activities-for-ocas.md)
     

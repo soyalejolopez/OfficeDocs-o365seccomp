@@ -3,10 +3,10 @@ title: "Technical reference details about encryption in Office 365"
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 4/12/2018
+ms.date: 1/15/2019
 ms.audience: ITPro
 ms.topic: reference
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: Strat_O365_IP
 search.appverid:
@@ -21,8 +21,8 @@ description: "View technical details about encyption in Office 365."
 Refer to this article to learn about certificates, technologies, and TLS cipher suites used for [encryption in Office 365](encryption.md). This article also provides details about planned deprecations.
   
 - If you're looking for overview information, see [Encryption in Office 365](encryption.md).
-    
 - If you're looking for setup information, see [Set up encryption in Office 365 Enterprise](set-up-encryption.md).
+- For information about cipher suites supported by specific versions of Windows, see [Cipher Suites in TLS/SSL (Schannel SSP)](https://docs.microsoft.com/windows/desktop/SecAuthN/cipher-suites-in-schannel).
     
 ## Microsoft Office 365 certificate ownership and management
 
@@ -30,7 +30,10 @@ You do not need to purchase or maintain certificates for Office 365 because Micr
   
 ## Current encryption standards and planned deprecations
 
-In order to continue to provide best-in-class encryption for Office 365, Microsoft regularly reviews supported encryption standards. Sometimes, we need to deprecate old standards as they become out of date and therefore less secure. This topic describes currently supported cipher suites and other standards as well as details about planned deprecations.
+In order to continue to provide best-in-class encryption for Office 365, Microsoft regularly reviews supported encryption standards. Sometimes, we need to deprecate old standards as they become out of date and therefore less secure. This topic describes currently supported cipher suites and other standards as well as details about planned deprecations. 
+
+## FIPS compliance for Office 365
+All cipher suites supported by Office 365 use algorithms acceptable under FIPS 140-2. Office 365 inherits FIPS validations from Windows (through Schannel). For information about Schannel, see [Cipher Suites in TLS/SSL (Schannel SSP)](https://docs.microsoft.com/windows/desktop/SecAuthN/cipher-suites-in-schannel).
   
 ## Versions of TLS supported by Office 365
 
@@ -47,7 +50,11 @@ Transport Layer Security (TLS), and SSL that came before TLS, are cryptographic 
 ## Deprecating support for TLS 1.0 and 1.1 and what this means for you
 <a name="TLS11and12deprecation"> </a>
 
-Important changes are coming to supported encryption options for Office 365. As of October 31, 2018, Office 365 will no longer support the use of TLS 1.0 or 1.1 for communication to Office 365. Once Office 365 deprecates support for these protocols, all communication to and from Office 365 servers will need to use TLS 1.2. For information about how this impacts you, see [Preparing for the mandatory use of TLS 1.2 in Office 365](https://support.microsoft.com/en-us/help/4057306/preparing-for-tls-1-2-in-office-365). Servers and clients communicating with O365 after this date must support TLS 1.2.
+As of October 31, 2018, Office 365 will no longer support TLS 1.0 and 1.1. This means that Microsoft will not fix new issues that are found in clients, devices, or services that connect to Office 365 by using TLS 1.0 and 1.1.
+
+Note This doesn't mean Office 365 will block TLS 1.0 and 1.1 connections. There is no official date for disabling or removing TLS 1.0 and 1.1 in the TLS service for customer connections. The eventual deprecation date will be determined by customer telemetry and is not yet known. After a decision is made, there will be an announcement six months in advance unless we become aware of a known compromise, in which case we may have to act in less than six months to protect customers who use the services.
+
+You should make sure that all client-server and browser-server combinations use TLS 1.2 (or a later version) to maintain connection to Office 365 services. You may have to update certain client-server and browser-server combinations. For information about how this impacts you, see [Preparing for the mandatory use of TLS 1.2 in Office 365](https://support.microsoft.com/en-us/help/4057306/preparing-for-tls-1-2-in-office-365).
   
 ## Deprecating support for 3DES
 <a name="TLS11and12deprecation"> </a>
@@ -77,9 +84,14 @@ Starting December 1, 2014, Office 365 began disabling support for Secure Sockets
 <a name="TLSCipherSuites"> </a>
 
 A cipher suite is a collection of encryption algorithms that TLS uses to establish secure connections. Cipher suites supported by Office 365 are listed in the following table in order of strength with the strongest cipher suite listed first. When Office 365 receives a connection request, Office 365 first attempts to connect using the topmost cipher suite then, if unsuccessful, tries the second cipher suite in the list and so on down the list. When Office 365 sends a connection request to another server or to a client, it's up to the receiving server or client to choose the cipher suite or whether TLS will be used at all.
+
+> [!IMPORTANT]
+> Be aware that TLS versions deprecate, and that deprecated versions *should not be used* where newer versions are available. In other words, anywhere where it's listed that TLS 1.0, 1.1, and 1.2 are supported, choose the *most recent* version (TLS 1.2).
   
 |**Protocols**|**Cipher suite name**|**Key exchange algorithm/Strength**|**Perfect Forward Secrecy support**|**Authentication algorithm/Strength**|**Cipher/Strength**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
+|TLS 1.2  <br/> |TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384  <br/> |ECDH/192  <br/> |Yes  <br/> |RSA/112  <br/> |AES/256  <br/> |
+|TLS 1.2  <br/> |TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256  <br/> |ECDH/128  <br/> |Yes  <br/> |RSA/112  <br/> |AES/128  <br/> |
 |TLS 1.2  <br/> |TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384  <br/> |ECDH/192  <br/> |Yes  <br/> |RSA/112  <br/> |AES/256  <br/> |
 |TLS 1.2  <br/> |TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256_P256  <br/> |ECDH/128  <br/> |Yes  <br/> |RSA/112  <br/> |AES/128  <br/> |
 |TLS 1.0, 1.1, 1.2  <br/> |TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA_P384  <br/> |ECDH/192  <br/> |Yes  <br/> |RSA/112  <br/> |AES/256  <br/> |
@@ -88,10 +100,9 @@ A cipher suite is a collection of encryption algorithms that TLS uses to establi
 |TLS 1.2  <br/> |TLS_RSA_WITH_AES_128_CBC_SHA256  <br/> |RSA/112  <br/> |No  <br/> |RSA/112  <br/> |AES/128  <br/> |
 |TLS 1.0, 1.1, 1.2  <br/> |TLS_RSA_WITH_AES_256_CBC_SHA  <br/> |RSA/112  <br/> |No  <br/> |RSA/112  <br/> |AES/256  <br/> |
 |TLS 1.0, 1.1, 1.2  <br/> |TLS_RSA_WITH_AES_128_CBC_SHA  <br/> |RSA/112  <br/> |No  <br/> |RSA/112  <br/> |AES/128  <br/> |
-|TLS 1.0, 1.1, 1.2  <br/> |TLS_RSA_WITH_3DES_EDE_CBC_SHA  <br/> |RSA/112  <br/> |No  <br/> |RSA/112  <br/> |3DES/192  <br/> |
    
 ## Related topics
-<a name="TLSCipherSuites"> </a>
+[TLS Cipher Suites in Windows 10 v1607](https://docs.microsoft.com/windows/desktop/SecAuthN/tls-cipher-suites-in-windows-10-v1607)
 
 [Encryption in Office 365](encryption.md)
   

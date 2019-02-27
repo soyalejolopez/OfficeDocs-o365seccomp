@@ -8,10 +8,12 @@ ms.audience: Admin
 ms.topic: overview
 f1_keywords:
 - 'ms.o365.cc.IngestionHelp'
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
-ms.collection: Strat_O365_IP
-search.appverid: MOE150
+ms.collection: 
+- Strat_O365_IP
+- M365-security-compliance
+search.appverid: MET150
 ms.assetid: ba688e0a-0fcb-4bd7-8e57-2b669564ea84
 description: "For administrators: Learn about using the Import service in the Office 365 Security &amp; Compliance Center to bulk-import email data (PST files)  to user mailboxes in Exchange Online. This topic provides FAQs and explains how the PST import process works."
 ---
@@ -95,7 +97,15 @@ Here's an illustration and description of the complete PST import process. The i
     
 ## Importing SharePoint data to Office 365
 
-You can also import files and documents to SharePoint sites and OneDrive accounts in your Office 365 organization. For more information, see [Upload on-premises content to SharePoint Online using PowerShell cmdlets](https://docs.microsoft.com/sharepointmigration/upload-on-premises-content-to-sharepoint-online-using-powershell-cmdlets).
+You can also import files and documents to SharePoint sites and OneDrive accounts in your Office 365 organization. For more information, see the following articles:
+
+- [Migrate to SharePoint Online](https://docs.microsoft.com/sharepointmigration/migrate-to-sharepoint-online)
+
+- [Introducing the SharePoint Migration Tool](https://docs.microsoft.com/sharepointmigration/introducing-the-sharepoint-migration-tool)
+
+- [Migrate to SharePoint Online using PowerShell](https://docs.microsoft.com/sharepointmigration/overview-spmt-ps-cmdlets)
+
+- [Migrate your file share content to SharePoint Online using the Azure Data Box](https://docs.microsoft.com/sharepointmigration/how-to-migrate-file-share-content-to-spo-using-azuredatabox)
 
 
 ## Frequently asked questions about importing PST files to Office 365

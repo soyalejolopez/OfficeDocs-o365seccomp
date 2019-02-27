@@ -3,15 +3,14 @@ title: "Manage legal investigations in Office 365"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 5/18/2018
 ms.audience: Admin
-ms.topic: hub-page
-ms.service: o365-administration
+ms.topic: conceptual
+ms.service: O365-seccomp
 localization_priority: Normal
+ms.collection: M365-security-compliance
 search.appverid: 
 - MOE150
 - MET150
-ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 2e5fbe9f-ee4d-4178-8ff8-4356bc1b168e
 description: "Use eDiscovery cases in the Office 365 Security &amp; Compliance Center to manage your organization's legal investigation. If you have an E5 subscription, you can further analyze case data by using the text analytics, machine learning, and predictive coding capabilities of Advanced eDiscovery."
 ---
@@ -28,7 +27,7 @@ Organizations have many reasons to respond to a legal case involving certain exe
    
 ## Manage legal investigations with eDiscovery cases
 
-eDiscovery cases let you control who can create, access, and manage eDiscovery cases in your organization. Use cases to add members and control what types of actions they can perform, place a hold on content locations relevant to a legal case, and use the Content Search tool to search the locations on hold for content that might be responsive to your case. Then you can also export and download those results for further investigation by external reviewers. If your Office 365 organization has and E5 subscription, you can also prepare search results for analysis in Advanced eDiscovery.
+eDiscovery cases let you control who can create, access, and manage eDiscovery cases in your organization. Use cases to add members and control what types of actions they can perform, place a hold on content locations relevant to a legal case, and use the Content Search tool to search the locations on hold for content that might be responsive to your case. Then you can also export and download those results for further investigation by external reviewers. If your Office 365 organization has an E5 subscription, you can also prepare search results for analysis in Advanced eDiscovery.
   
 - [Manage your eDiscovery workflow](ediscovery-cases.md) by creating and using eDiscovery cases for every legal investigation your organization has to undertake 
     

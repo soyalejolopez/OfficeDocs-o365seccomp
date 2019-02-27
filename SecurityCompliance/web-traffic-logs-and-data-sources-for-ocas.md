@@ -3,10 +3,10 @@ title: "Web traffic logs and data sources for Office 365 Cloud App Security"
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 2/26/2018
+ms.date: 12/26/2018
 ms.audience: ITPro
 ms.topic: reference
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -30,96 +30,96 @@ You can use a wide range of web traffic log files and data sources with Office 3
 
 Office 365 Cloud App Security uses data in your web traffic logs to help you understand which apps people in your organization are using. The more details that are included in the log files, the better visibility you'll have into user activity.
   
-The following table lists the requirements and attributes that are needed for your web traffic logs to work correctly with Office 365 Cloud App Security:
-  
-|**Attributes**|**Additional requirements**|
-|:-----|:-----|
-| Date of the transaction  <br/>  Source IP  <br/>  Source user (recommended)  <br/>  Destination IP address  <br/>  Destination URL (recommended: URLs provide higher accuracy for cloud app detection than IP addresses)  <br/>  Total amount of data (recommended)  <br/>  Amount of uploaded or downloaded data (recommended: provides insights about cloud app usage patterns)  <br/>  Action taken (allowed or blocked)  <br/> | The data source for the log files must be supported.  <br/>  The format the log files use must match the standard format. When the file is uploaded, app discovery will verify this.  <br/>  The events in the log must have taken place no more than 90 days ago.  <br/>  The log file must include outbound traffic information that can be analyzed for network activity.  <br/> |
-   
-If attributes aren't included in the logs that are loaded, Office 365 Cloud App Security can't show or analyze the information for you. For example, Cisco ASA Firewall's standard log format does not include the amount of uploaded bytes per transaction, the username, or a target URL (only a target IP). Because that information isn't in the Cisco log files, Office 365 Cloud App Security won't include it when analyzing your organization's network traffic.
-  
-> [!NOTE]
-> For some kinds of firewalls, you must set an information level for web traffic logs to include the required attributes. For example, Cisco ASA firewalls must have the information level set to 6. Make sure to confirm that your firewalls are set to deliver the correct information in your web traffic logs. 
+The following sections list the necessary attributes and additional requirements for your web traffic logs to work correctly with Office 365 Cloud App Security.
+
+### Attributes
+
+Office 365 Cloud App Security can't show or analyze attributes that aren't included in your web traffic logs. For example, Cisco ASA Firewall's standard log format does not have the number of uploaded bytes per transaction, the username, or a target URL (only a target IP). Therefore, those attributes are not shown in Cloud Discovery data, and visibility into the cloud apps is limited. For Cisco ASA firewalls, the information level must be set to 6. 
+
+Your web traffic logs should include the following attributes:
+
+- Date of the transaction
+- Source IP
+- Source user (highly recommended)
+- Destination IP address
+- Destination URL (recommended; URLs provide higher accuracy for cloud app detection than IP addresses)
+- Total amount of data (recommended; data information is highly valuable)
+- Amount of uploaded or downloaded data (recommended; provides insights about cloud app usage patterns)
+- Action taken (allowed or blocked)
+
+### Additional requirements
+
+In addition to including the attributes listed earlier in this article, your web traffic logs should meet the following requirements:
+
+- The data source for the log files must be supported.
+- The format the log files use must match the standard format. When the file is uploaded, app discovery will verify this.
+- The events in the log must have taken place no more than 90 days ago.
+- The log file must include outbound traffic information that can be analyzed for network activity.
   
 ## Data attributes for different vendors
-<a name="BKMK_LogAndData"> </a>
 
 The following table summarizes the information in web traffic logs from various vendors. **Be sure to check with your vendor for the most current information.**
-  
-|**Data source**|**Target app URL**|**Target app IP**|**Username**|**Origin IP**|**Total traffic**|**Uploaded bytes**|
-|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Barracuda  <br/> |**Yes** <br/> |**Yes** <br/> |**Yes** <br/> |**Yes** <br/> |No  <br/> |No  <br/> |
-|Blue Coat  <br/> |**Yes** <br/> |No  <br/> |**Yes** <br/> |**Yes** <br/> |**Yes** <br/> |**Yes** <br/> |
-|Checkpoint  <br/> |No  <br/> |**Yes** <br/> |No  <br/> |**Yes** <br/> |No  <br/> |No  <br/> |
-|Cisco ASA  <br/> |No  <br/> |**Yes** <br/> |No  <br/> |**Yes** <br/> |**Yes** <br/> |No  <br/> |
-|Cisco FWSM  <br/> |No  <br/> |**Yes** <br/> |No  <br/> |**Yes** <br/> |**Yes** <br/> |No  <br/> |
-|Cisco Ironport WSA  <br/> |**Yes** <br/> |**Yes** <br/> |**Yes** <br/> |**Yes** <br/> |**Yes** <br/> |**Yes** <br/> |
-|Cisco Meraki  <br/> |**Yes** <br/> |**Yes** <br/> |No  <br/> |**Yes** <br/> |No  <br/> |No  <br/> |
-|Clavister NGFW (Syslog)  <br/> |**Yes** <br/> |**Yes** <br/> |**Yes** <br/> |**Yes** <br/> |**Yes** <br/> |**Yes** <br/> |
-|Dell SonicWall  <br/> |**Yes** <br/> |**Yes** <br/> |No  <br/> |**Yes** <br/> |**Yes** <br/> |**Yes** <br/> |
-|Fortigate  <br/> |No  <br/> |**Yes** <br/> |No  <br/> |**Yes** <br/> |**Yes** <br/> |**Yes** <br/> |
-|Juniper SRX  <br/> |No  <br/> |**Yes** <br/> |No  <br/> |**Yes** <br/> |**Yes** <br/> |**Yes** <br/> |
-|Juniper SSG  <br/> |No  <br/> |**Yes** <br/> |No  <br/> |**Yes** <br/> |**Yes** <br/> |**Yes** <br/> |
-|McAfee SWG  <br/> |**Yes** <br/> |No  <br/> |No  <br/> |**Yes** <br/> |**Yes** <br/> |**Yes** <br/> |
-|Meraki (Cisco)  <br/> |**Yes** <br/> |**Yes** <br/> |No  <br/> |**Yes** <br/> |No  <br/> |No  <br/> |
-|Microsoft Threat Management Gateway  <br/> |**Yes** <br/> |No  <br/> |**Yes** <br/> |**Yes** <br/> |**Yes** <br/> |**Yes** <br/> |
-|Palo Alto Networks  <br/> |**Yes** <br/> |**Yes** <br/> |**Yes** <br/> |**Yes** <br/> |**Yes** <br/> |**Yes** <br/> |
-|Sophos  <br/> |**Yes** <br/> |**Yes** <br/> |**Yes** <br/> |**Yes** <br/> |**Yes** <br/> |No  <br/> |
-|Squid (Common)  <br/> |**Yes** <br/> |No  <br/> |**Yes** <br/> |**Yes** <br/> |No  <br/> |**Yes** <br/> |
-|Squid (Native)  <br/> |**Yes** <br/> |No  <br/> |**Yes** <br/> |**Yes** <br/> |No  <br/> |**Yes** <br/> |
-|Websense - Investigative detail report (CSV)  <br/> |**Yes** <br/> |**Yes** <br/> |**Yes** <br/> |**Yes** <br/> |**Yes** <br/> |**Yes** <br/> |
-|Websense - Internet activity log (CEF)  <br/> |**Yes** <br/> |**Yes** <br/> |**Yes** <br/> |**Yes** <br/> |**Yes** <br/> |**Yes** <br/> |
-|Zscaler  <br/> |**Yes** <br/> |**Yes** <br/> |**Yes** <br/> |**Yes** <br/> |**Yes** <br/> |**Yes** <br/> |
+
+
+|                 Data source                  |    Target App URL    |    Target App IP     |       Username       |      Origin IP       |    Total traffic     |    Uploaded bytes    |
+|----------------------------------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|
+|                  Barracuda                   | <strong>Yes</strong> | <strong>Yes</strong> | <strong>Yes</strong> | <strong>Yes</strong> |          No          |          No          |
+|                  Blue Coat                   | <strong>Yes</strong> |          No          | <strong>Yes</strong> | <strong>Yes</strong> | <strong>Yes</strong> | <strong>Yes</strong> |
+|                  Checkpoint                  |          No          | <strong>Yes</strong> |          No          | <strong>Yes</strong> |          No          |          No          |
+|              Cisco ASA (Syslog)              |          No          | <strong>Yes</strong> |          No          | <strong>Yes</strong> | <strong>Yes</strong> |          No          |
+|           Cisco ASA with FirePOWER           | <strong>Yes</strong> | <strong>Yes</strong> | <strong>Yes</strong> | <strong>Yes</strong> | <strong>Yes</strong> | <strong>Yes</strong> |
+|                  Cisco FWSM                  |          No          | <strong>Yes</strong> |          No          | <strong>Yes</strong> | <strong>Yes</strong> |          No          |
+|              Cisco Ironport WSA              | <strong>Yes</strong> | <strong>Yes</strong> | <strong>Yes</strong> | <strong>Yes</strong> | <strong>Yes</strong> | <strong>Yes</strong> |
+|                 Cisco Meraki                 | <strong>Yes</strong> | <strong>Yes</strong> |          No          | <strong>Yes</strong> |          No          |          No          |
+|           Clavister NGFW (Syslog)            | <strong>Yes</strong> | <strong>Yes</strong> | <strong>Yes</strong> | <strong>Yes</strong> | <strong>Yes</strong> | <strong>Yes</strong> |
+|                SonicWall (formerly Dell)                | <strong>Yes</strong> | <strong>Yes</strong> |          No          | <strong>Yes</strong> | <strong>Yes</strong> | <strong>Yes</strong> |
+|            Digital Arts i-FILTER             | <strong>Yes</strong> | <strong>Yes</strong> | <strong>Yes</strong> | <strong>Yes</strong> | <strong>Yes</strong> | <strong>Yes</strong> |
+|                  Fortigate                   |          No          | <strong>Yes</strong> |          No          | <strong>Yes</strong> | <strong>Yes</strong> | <strong>Yes</strong> |
+|                 Juniper SRX                  |          No          | <strong>Yes</strong> |          No          | <strong>Yes</strong> | <strong>Yes</strong> | <strong>Yes</strong> |
+|                 Juniper SSG                  |          No          | <strong>Yes</strong> | <strong>Yes</strong> | <strong>Yes</strong> | <strong>Yes</strong> | <strong>Yes</strong> |
+|                  McAfee SWG                  | <strong>Yes</strong> |          No          |          No          | <strong>Yes</strong> | <strong>Yes</strong> | <strong>Yes</strong> |
+|                    MS TMG                    | <strong>Yes</strong> |          No          | <strong>Yes</strong> | <strong>Yes</strong> | <strong>Yes</strong> | <strong>Yes</strong> |
+|              Palo Alto Networks              |          No          | <strong>Yes</strong> | <strong>Yes</strong> | <strong>Yes</strong> | <strong>Yes</strong> | <strong>Yes</strong> |
+|                    Sophos                    | <strong>Yes</strong> | <strong>Yes</strong> | <strong>Yes</strong> | <strong>Yes</strong> | <strong>Yes</strong> |          No          |
+|                Squid (Common)                | <strong>Yes</strong> |          No          | <strong>Yes</strong> | <strong>Yes</strong> |          No          | <strong>Yes</strong> |
+|                Squid (Native)                | <strong>Yes</strong> |          No          | <strong>Yes</strong> | <strong>Yes</strong> |          No          | <strong>Yes</strong> |
+| Websense - Investigative detail report (CSV) | <strong>Yes</strong> | <strong>Yes</strong> | <strong>Yes</strong> | <strong>Yes</strong> | <strong>Yes</strong> | <strong>Yes</strong> |
+|    Websense - Internet activity log (CEF)    | <strong>Yes</strong> | <strong>Yes</strong> | <strong>Yes</strong> | <strong>Yes</strong> | <strong>Yes</strong> | <strong>Yes</strong> |
+|                   Zscaler                    | <strong>Yes</strong> | <strong>Yes</strong> | <strong>Yes</strong> | <strong>Yes</strong> | <strong>Yes</strong> | <strong>Yes</strong> |
    
 ## Supported vendor firewalls and proxies
-<a name="BKMK_Supported"> </a>
 
 Office 365 Cloud App Security supports the following firewalls and proxies.
   
-- Barracuda - Web App Firewall (W3C)
-    
+- Barracuda - Web App Firewall (W3C)  
 - Blue Coat Proxy SG - Access log (W3C)
-    
 - Check Point
-    
-- Cisco ASA Firewall (note that you must set the information level to 6)
-    
+- Cisco ASA Firewall (make sure to set the information level to 6)
+- Cisco ASA with FirePOWER   
 - Cisco IronPort WSA
-    
 - Cisco ScanSafe
-    
 - Cisco Merkai - URLs log
-    
-- Dell Sonicwall
-    
+- Clavister NGFW (Syslog)
+- Digital Arts i-FILTER
 - Fortinet Fortigate
-    
+- iboss Secure Cloud Gateway
 - Juniper SRX
-    
 - Juniper SSG
-    
 - McAfee Secure Web Gateway
-    
 - Microsoft Forefront Threat Management Gateway (W3C)
-    
 - Palo Alto series Firewall
-    
+- Sonicwall (formerly Dell)   
 - Sophos SG
-    
+- Sophos XG
 - Sophos Cyberoam
-    
 - Squid (Common)
-    
 - Squid (Native)
-    
 - Websense - Web Security Solutions - Investigative detail report (CSV)
-    
 - Websense - Web Security Solutions - Internet activity log (CEF)
-    
 - Zscaler
     
 > [!NOTE]
-> If a data source that you'd like to use is not included here, you can request that it be added to app discovery. To do that, when you're creating a report, select **Other** for **Data source**. Then type the name of the data source that you're trying to upload. We'll review the log, and let you know if we add support for that log type. 
+> If a data source that you'd like to use is not included here, you can request that it be added to app discovery. To do that, when you're creating a report, select **Other** for **Data source**. Then type the name of the data source that you're trying to upload. We'll review the log, and let you know if we add support for that log type. Alternatively, you can [define a custom parser](https://docs.microsoft.com/cloud-app-security/custom-log-parser) that matches your format. 
   
 ## Troubleshoot errors when log files are uploaded
 

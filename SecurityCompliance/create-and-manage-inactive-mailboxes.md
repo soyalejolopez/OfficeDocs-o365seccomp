@@ -6,9 +6,11 @@ manager: laurawi
 ms.date: 6/29/2018
 ms.audience: Admin
 ms.topic: article
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
-ms.collection: Strat_O365_IP
+ms.collection: 
+- Strat_O365_IP
+- M365-security-compliance
 search.appverid: 
 - MOE150
 - MET150
@@ -117,8 +119,6 @@ After a mailbox is made inactive, you can change the duration of the hold or the
 ## Recover an inactive mailbox
 
 If a former employee returns to your organization, or if a new employee is hired to take on the job responsibilities of the departed employee, you can recover the contents of the inactive mailbox. When you recover an inactive mailbox, the mailbox is converted to a new mailbox, the contents and folder structure of the inactive mailbox are retained, and the mailbox is linked to a new user account. After it's recovered, the inactive mailbox no longer exists. For step-by-step procedures and more information about happens when you recover an inactive mailbox, see [Recover an inactive mailbox in Office 365](recover-an-inactive-mailbox.md).
-  
-[Managing inactive mailboxes](create-and-manage-inactive-mailboxes.md#manageinactivemailboxes)
   
 ## Restore the contents of an inactive mailbox to another mailbox
 

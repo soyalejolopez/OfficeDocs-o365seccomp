@@ -1,25 +1,26 @@
 ---
-title: "Export Content Search results from the Office 365 Security &amp; Compliance Center"
+title: "Export Content Search results from the Office 365 Security & Compliance Center"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 6/22/2018
 ms.audience: Admin
 ms.topic: article
 f1_keywords:
 - 'ms.o365.cc.CustomizeExport'
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
-ms.collection: Strat_O365_IP
+ms.collection: 
+- Strat_O365_IP
+- M365-security-compliance
 search.appverid:
 - MOE150
 - MED150
 - MET150
 ms.assetid: ed48d448-3714-4c42-85f5-10f75f6a4278
-description: "Export the search results from a Content Search in the Office 365 Security &amp; Compliance Center to a local computer. Emaill email results are exported as PST files. Content from SharePoint and OneDrive for Business sites are exported as native Office documents. "
+description: "Export the search results from a Content Search in the Office 365 Security & Compliance Center to a local computer. Email results are exported as PST files. Content from SharePoint and OneDrive for Business sites are exported as native Office documents. "
 ---
 
-# Export Content Search results from the Office 365 Security &amp; Compliance Center
+# Export Content Search results from the Office 365 Security & Compliance Center
 
 After a Content Search is successfully run, you can export the search results to a local computer. When you export email results, they're downloaded to your computer as PST files. When you export content from SharePoint and OneDrive for Business sites, copies of native Office documents are exported. There are additional documents and reports that are included with the exported search results.
   
@@ -69,10 +70,6 @@ Exporting the results of a Content Search involves preparing the results, and th
        </defaultProxy>
     </system.net>
     ```
-
-- See the  section for a description of the limits for exporting search results. 
-    
-- The maximum size of a PST file that can be exported is 10 GB. If you want to change this default size, you can edit the Windows Registry on the computer that you use to export the search results. See [Change the size of PST files when exporting eDiscovery search results](change-the-size-of-pst-files-when-exporting-results.md).
     
 ## Step 1: Prepare search results for export
 
@@ -91,13 +88,13 @@ The first step is to prepare the search results for exporting. When you prepare 
     > [!NOTE]
     > If the results for a search are older than 7 days, you are prompted to update the search results. If this happens, cancel the export, click **Update search results** in the details pane for the selected search, and then start the export again after the results are updated. 
   
-6. On the **Export the search results** page, under **Include these items from the search**, choose one of the following options:
+6. On the **Export the search results** page, under **Output options**, choose one of the following options:
     
-    - Export only indexed items
+    - All items, excluding ones that have unrecognized format, are encrypted, or weren't indexed for other reasons
     
-    - Export indexed and partially indexed items
+    - All items, including ones that have unrecognized format, are encrypted, or weren't indexed for other reasons
     
-    - Export only partially indexed items
+    - Only items that have an unrecognized format, are encrypted, or weren't indexed for other reasons
     
     See the [More information](#more-information) section for a description about how partially indexed items are exported. For more information about partially indexed items, see [Partially indexed items in Content Search](partially-indexed-items-in-content-search.md).
     
@@ -169,23 +166,22 @@ As previously explained, you can increase the download speed by configuring a Wi
 
   
 ## More information
-<a name="moreinfo"> </a>
 
 Here's more information about exporting search results.
   
-[Export limits](export-search-results.md#export-limits)
+[Export limits](#export-limits)
   
-[Export reports](export-search-results.md#export-reports)
+[Export reports](#export-reports)
   
-[Exporting unindexed items](export-search-results.md#exporting-unindexed-items)
+[Exporting partially indexed items](#exporting-partially-indexed-items)
+
+[Exporting individual messages or PST files](#exporting-individual-messages-or-pst-files)
   
-[Exporting individual messages or PST files](export-search-results.md#Exporting-individual-messages-or-PST-files)
+[Decrypting RMS-encrypted messages](#decrypting-rms-encrypted-messages)
+
+[Filenames of exported items](#filenames-of-exported-items)  
   
-[Decrypting RMS-encrypted messages](export-search-results.md#Decrypting-RMS-encrypted-messages)
-  
-[Filenames of exported items](export-search-results.md#Filenames-of-exported-items)
-  
-[Miscellaneous](export-search-results.md#miscellaneous)
+[Miscellaneous](#miscellaneous)
   
  ### Export limits
   
@@ -198,10 +194,11 @@ Here's more information about exporting search results.
   - You can have a maximum of 10 exports running at the same time within your organization.
     
   - A single user can run a maximum of three exports at the same time.
+
+  > [!NOTE]
+  > Exporting only the reports from a Content Search also counts against the number of exports running at the same time and the number of exports that a single user can run.
     
-  - Exporting Content Search reports doesn't count against any of the export limits. 
-    
-- As previously stated, search results from mailboxes and sites are uploaded to the Azure storage location (as described in [Step 1: Prepare search results for export](export-search-results.md#step1)) at a maximum rate of 2 GB per hour.
+- As previously stated, search results from mailboxes and sites are uploaded to the Azure storage location (as described in [Step 1: Prepare search results for export](#step-1-prepare-search-results-for-export)) at a maximum rate of 2 GB per hour.
     
 - The maximum size of a PST file that can be exported is 10 GB by default. That means if the search results from a user's mailbox are larger than 10 GB, the search results for the mailbox will be exported in two (or more) separate PST files. Additionally, if you choose to export all search results in a single PST file, the PST file will be spilt into additional PST files if the total size of the search results is larger than 10 GB. If you want to change this default size, you can edit the Windows Registry on the computer that you use to export the search results. See [Change the size of PST files when exporting eDiscovery search results](change-the-size-of-pst-files-when-exporting-results.md).
     
@@ -274,6 +271,8 @@ Here's more information about exporting search results.
     C - All partially indexed items from all sites in the search are exported, regardless of whether a site contains items that match the search criteria.
     
     If you choose to export partially indexed items, partially indexed mailbox items are exported in a separate PST file regardless of the option that you choose under **Export Exchange content as**.
+
+- If partially indexed items are returned in the search results (because other properties of an partially indexed items matched the search criteria), then those partially indexed are exported with the regular search results. So, if you choose to export both indexed items and partially indexed items (by selecting the **All items, including ones that have unrecognized format, are encrypted, or weren't indexed for other reasons** export option), the partially indexed items exported with the regular results will be listed in the Results.csv report. They will not be listed in the Unindexed items.csv report.
     
  ### Exporting individual messages or PST files
   
@@ -324,3 +323,5 @@ Here's more information about exporting search results.
 - All search results and the export reports are included in a folder that has the same name as the Content Search. The email messages that were exported are located in a folder named **Exchange**. Documents are located in a folder named **SharePoint**. 
     
 - The file system metadata for documents on SharePoint and OneDrive for Business sites is maintained when documents are exported to your local computer. That means document properties, such as created and last modified dates, aren't changed when documents are exported.
+
+- If your search results include a list item from SharePoint that matches the search query, all rows in the list will be exported in addition to the item that matches the search query. This includes any attachments in the list. The reason for this is to provide a context for list items that are returned in the search results. Also note that the additional list items and attachments may cause the count of exported items to be different than the original estimate of search results.

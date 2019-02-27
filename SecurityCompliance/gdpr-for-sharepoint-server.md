@@ -5,8 +5,7 @@ author: MikePlumleyMSFT
 manager: pamgreen
 ms.audience: ITPro
 ms.topic: article
-ms.service: o365-solutions
-ms.custom: 
+ms.service: O365-seccomp
 localization_priority: Priority
 description: "Learn about how to address GDPR requirements in on-premises SharePoint Server."
 ---
@@ -31,7 +30,7 @@ The basic recommended approach for user generated content contained in SharePoin
 
 The recommended approach for files shares and SharePoint sites and libraries includes these steps:
 
-1.  **Install and configure Azure Information Protection scanner.**
+1.  **[Install and configure Azure Information Protection scanner.](https://docs.microsoft.com/en-us/azure/information-protection/rms-client/client-admin-guide-install#options-to-install-the-azure-information-protection-client-for-users)**
 
     -   Decide which sensitive data types to use.
 
@@ -254,8 +253,10 @@ To delete all usage records associated with deleted documents: 
 
     ```powershell
     $tj = Get-SPTimerJob -Type Microsoft.Office.Server.Search.Analytics.UsageAnalyticsJobDefinition 
+    $tj.DisableTimerjobSchedule()
     $tj.StopAnalysis() 
     $tj.ClearAnalysis() 
+    $tj.EnableTimerjobSchedule()
     ```
 
 4.  Wait for the analysis to start again (might take up to 24 hours). 

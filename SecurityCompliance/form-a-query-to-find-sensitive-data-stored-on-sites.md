@@ -6,7 +6,7 @@ manager: laurawi
 ms.date: 6/29/2018
 ms.audience: Admin
 ms.topic: article
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid: 
 - MOE150
@@ -79,9 +79,7 @@ Not all queries are created equal. The following table gives examples of queries
    
 ## For more information
 
-[Find sensitive data stored in SharePoint Online sites](https://support.office.com/article/ef788d8f-9748-4025-bfe4-40541ca4cfb2)
-  
-[Sensitive information types inventory](https://go.microsoft.com/fwlink/?LinkID=509999)
+[What the sensitive information types look for](what-the-sensitive-information-types-look-for.md)
   
 [Run a Content Search in the Office 365 Security &amp; Compliance Center](run-a-content-search-in-the-security-and-compliance-center.md)
   

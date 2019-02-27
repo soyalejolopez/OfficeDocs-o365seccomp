@@ -9,13 +9,10 @@ ms.topic: article
 ms.collection: 
 - o365_security_incident_response
 - Strat_O365_IP
-ms.service: o365-solutions
+ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
-ms.custom: 
-ms.assetid:
-
 description: "Learn how to recognize and remediate the Outlook rules and custom forms injections attacks in Office 365"
 ---
 # Detect and Remediate Outlook Rules and Custom Forms Injections Attacks in Office 365

@@ -6,7 +6,7 @@ manager: laurawi
 ms.date: 5/22/2018
 ms.audience: Admin
 ms.topic: article
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Priority
 ms.collection: Strat_O365_IP
 search.appverid: 
@@ -30,7 +30,7 @@ For example, you can use labels with event-driven retention for:
     
 Event-driven retention is typically used as part of a records-management process. This means that:
   
-- Labels based on events also usually classify content as a record. For more information, see [Using Content Search to find all content with a specific label applied to it](labels.md#using-content-search-to-find-all-content-with-a-specific-label-applied-to-it).
+- Labels based on events also usually classify content as a record. For more information, see [Using Content Search to find all content with a specific retention label applied to it](labels.md#using-content-search-to-find-all-content-with-a-specific-retention-label-applied-to-it).
     
 - A document that's been declared as a record but whose event trigger has not yet happened is retained indefinitely (records can't be permanently deleted), until an event triggers that document's retention period.
     

@@ -1,17 +1,19 @@
 ---
 title: "Find and release quarantined messages as a user in Office 365"
-ms.author: krowley
-author: kccross
+ms.author: tracyp
+author: MSFTTracyP
 manager: laurawi
 ms.date: 5/19/2018
 ms.audience: Consumer/IW
 ms.topic: article
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
 - MEW150
 ms.assetid: efff08ec-68ff-4099-89b7-266e3c4817be
+ms.collection:
+- M365-security-compliance
 description: "As an Office 365 user, you can manage your own spam-quarantined messages in one of two ways: by responding to spam notifications sent to you directly (if your admin has set up this feature), or by using the spam quarantine feature in the Security &amp; Compliance Center."
 ---
 
@@ -39,7 +41,7 @@ You can view a list of all quarantined messages, or you can search for specific 
     
 - Mail identified as bulk mail.
     
-After you find a specific quarantined message, click the message to view details about it, and take actions. You can release the message to your inbox, preview the message, download the message, or delete the message from quarantine immediately.
+After you find a specific quarantined message, click the message to view details about it, and take actions. You can release the message to your mailbox, preview the message, download the message, or delete the message from quarantine immediately.
   
 > [!NOTE]
 > You must have admin permissions in Office 365 to work with quarantined messages that were sent to other users. 
@@ -89,7 +91,7 @@ After you select a message, you'll see a summary of the message properties in a 
     
 - **Released to:** All email addresses (if any) to which the message has been released. 
     
-- **Not yet released to:** All email addresses (if any) to which the message has not been released. You can choose **Release** if you want to release the message to your inbox (more about releasing messages in the next section). 
+- **Not yet released to:** All email addresses (if any) to which the message has not been released. You can choose **Release** if you want to release the message to your mailbox (more about releasing messages in the next section). 
     
 You can get even more details about the message by choosing one of the following options:
   
@@ -103,12 +105,12 @@ After you select a message or group of messages, you have several options for ma
   
 - Do nothing. If you choose to do nothing, the message will be deleted by Office 365 automatically upon expiration. Remember, when Office 365 deletes a message from quarantine, you can't get it back.
     
-- **Release message** Release a quarantined message (or set of messages) so that the message is sent to your inbox. When you release a message, you have the option to report the message to Microsoft for analysis. 
+- **Release message** Release a quarantined message (or set of messages) so that the message is sent to your mailbox. When you release a message, you have the option to report the message to Microsoft for analysis. 
     
     When you choose to report a message, also called reporting a message as a false positive, the message is reported to the Microsoft Spam Analysis Team. The team evaluates and analyzes false positive messages, and, depending on the results of the analysis, the service-wide spam content filter rules may be adjusted to allow these messages through.
     
 - **Download message** Lets you download the message as a .eml file. Once you download a message, you can review the .eml file using your email client prior to releasing the message. 
     
-- **Remove from quarantine** Deletes the message immediately from quarantine without releasing the message to your inbox. 
+- **Remove from quarantine** Deletes the message immediately from quarantine without releasing the message to your mailbox. 
     
 

@@ -1,16 +1,17 @@
 ---
 title: "Office 365 Encryption in Azure"
-ms.author: robmazz
-author: robmazz
+ms.author: krowley
+author: kccross
 manager: laurawi
-ms.date: 8/21/2018
 audience: ITPro
 ms.topic: article
-ms.service: Office 365 Administration
+ms.service: O365-seccomp
 localization_priority: None
 search.appverid:
 - MET150
 ms.collection: Strat_O365_Enterprise
+ms.collection:
+- M365-security-compliance
 description: "Summary: An explanation of encryption in Azure."
 ---
 

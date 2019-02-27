@@ -6,13 +6,14 @@ manager: laurawi
 ms.date: 4/13/2017
 ms.audience: Admin
 ms.topic: overview
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
-ms.collection: Strat_O365_IP
+ms.collection: 
+- Strat_O365_IP
+- M365-security-compliance
 search.appverid:
 - SPO160
 - MOE150
-- MET150
 ms.assetid: 8f20ca4f-a908-46ec-99e6-9890d269ecf2
 description: "Understand why estimated and actual search results may vary in searches run with eDiscovery tools in Office 365.
 "

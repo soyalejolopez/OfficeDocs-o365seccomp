@@ -3,12 +3,13 @@ title: "Set up compliance boundaries for eDiscovery investigations in Office 365
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 6/6/2018
 ms.audience: Admin
 ms.topic: article
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
-ms.collection: Strat_O365_IP
+ms.collection: 
+- Strat_O365_IP
+- M365-security-compliance
 search.appverid: 
 - MOE150
 - MET150
@@ -51,8 +52,6 @@ The first step is to choose an Azure Active Directory attribute to use that will
 Here's a list of Azure Active Directory user attributes that you can use for compliance boundaries:
   
 - Company
-    
-- CountryCode
     
 - CustomAttribute1 - CustomAttribute15
     
@@ -119,7 +118,7 @@ Here's a description of each parameter in the command:
     
   -  `Site` - Specifies the OneDrive accounts that the role groups defined in the  `Users` parameter can search. For the OneDrive filter, use the actual string  `ComplianceAttribute`; this will map to the same attribute that you identified in Step 1 and that's synchronized to OneDrive accounts as a result of the support request that you submitted in Step 2;  *AttributeValue*  specifies the agency. This filter allow members of the role group to only search the OneDrive accounts in a specific agency; for example,  `"Site_ComplianceAttribute -eq 'FourthCoffee'"`.
     
-  -  `Site_Path` - Specifies the SharePoint sites that the role groups defined in the  `Users` parameter can search. The  *SharePointURL*  specifies the sites in the agency that members of the role group can search; for example,  `Site_Path -like 'https://contoso.sharepoint.com/sites/FourthCoffee*'"`
+  -  `Site_Path` - Specifies the SharePoint sites that the role groups defined in the  `Users` parameter can search. The  *SharePointURL*  specifies the sites in the agency that members of the role group can search; for example,  `"Site_Path -like 'https://contoso.sharepoint.com/sites/FourthCoffee*'"`
     
 -  `Action` - Specifies the type of Compliance Search action that the filter is applied to. For example,  `-Action Search` would only apply the filter when members of the role groups defined in the  `Users` parameter runs a content search. In this case, the filter wouldn't be applied when exporting search results. For compliance boundaries, use  `-Action All` so the filter applies to all search actions. 
     
@@ -174,9 +173,9 @@ Keep the following limitations in mind when managing eDiscovery cases and invest
     
 - Search permissions filters aren't applied to Exchange public folders.
 
-## Searching and exporting SharePoint content in Multi-Geo environments
+## Searching and exporting content in Multi-Geo environments
 
-Search permissions filters also let you control where content is routed for export and which datacenters can be searched SharePoint sites and OneDrive accounts in a [SharePoint Multi-Geo environment](https://go.microsoft.com/fwlink/?linkid=860840):
+Search permissions filters also let you control where content is routed for export and which datacenter can be searched when searching SharePoint sites and OneDrive accounts in a [SharePoint Multi-Geo environment](https://go.microsoft.com/fwlink/?linkid=860840):
   
 - Export search results from a specific data center. This means that you can specify the data center location that search results will be exported from.
     
@@ -206,7 +205,7 @@ Similarly, you can use the following values for the **Region** parameter values 
 |IND  <br/> |Asia Pacific  <br/> |
 |LAM  <br/> |US  <br/> |
    
- **Note:** If you don't specify the Region parameter for a search permissions filter, then search results are exported from the closest data center. 
+ **Note:** If you don't specify the Region parameter for a search permissions filter, the organizations default SharePoint region will be searched, then search results are exported to the closest data center. 
   
 Here are examples of using the **-Region** parameter when creating search permission filters for compliance boundaries. This assumes that the Fourth Coffee subsidiary is located in North America and that Coho Winery is in Europe. 
   
@@ -218,7 +217,7 @@ New-ComplianceSecurityFilter -FilterName "Fourth Coffee Security Filter" -Users 
 New-ComplianceSecurityFilter -FilterName "Coho Winery Security Filter" -Users "Coho Winery eDiscovery Managers", "Coho Winery Investigators" -Filters "Mailbox_Department -eq 'CohoWinery'", "Site_Department -eq 'CohoWinery' -or Site_Path -like 'https://contoso.sharepoint.com/sites/CohoWinery*'" -Action ALL -Region EUR
 ```
    
-Keep the following things in mind when searching and exporting SharePoint and OneDrive content in multi-geo environments.
+Keep the following things in mind when searching and exporting content in multi-geo environments.
   
 - The **Region** parameter doesn't control searches of Exchange mailboxes; all data centers will be searched when you search mailboxes. To limit the scope of which Exchange mailboxes can be searched, use the **Filters** parameter when creating or changing a search permissions filter. 
     

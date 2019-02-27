@@ -5,12 +5,11 @@ author: markjjo
 manager: laurawi
 ms.date: 10/27/2017
 ms.audience: Admin
-ms.topic: reference
-ms.service: o365-administration
+ms.topic: conceptual
+ms.service: O365-seccomp
+ms.collection: M365-security-compliance
 localization_priority: Normal
-search.appverid: 
-- MOE150
-- MET150
+search.appverid: MOE150
 ms.assetid: ec2677ff-c4d7-4363-a9e7-22c80e015688
 description: "Use the Content Search eDiscovery tool to search for items that were imported to mailboxes in Office 365 from a third-party data source. You can create a query to search for all imported items or create a query to search for specific third-party data types. This article lists the values you can use in a keyword query to search the third-party data types that can be imported to Office 365."
 ---

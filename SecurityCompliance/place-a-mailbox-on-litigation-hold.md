@@ -8,9 +8,9 @@ ms.audience: End User
 ms.topic: article
 ms.service: O365-seccomp
 ms.custom: TN2DMC
+ms.collection: M365-security-compliance
 localization_priority: Normal
 search.appverid:
-- MET150
 ms.assetid: adee4621-3626-4aec-aa53-00b35ff0d0b0
 description: "Place a mailbox on Litigation Hold to preserve all mailbox content, including deleted items and original versions of modified items. "
 ---
