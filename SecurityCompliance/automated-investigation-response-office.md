@@ -29,9 +29,9 @@ Based on extensive experience, the security playbooks are designed to tackle the
 
 ### Security playbooks are rolling out in phases
 
-- **Phase 1**: Recommended actions to take will require a security administrator to approve.
+- **Phase 1**: Playbooks include recommendations that security administrators review and approve. 
 
-- **Phase 2**: Security administrators will have the option to allow security playbooks to automatically take action without administration interaction.
+- **Phase 2**: Security administrators will have the option to allow security playbooks to take action automatically, without administrative interaction.
 
 
 ## The playbooks
@@ -85,6 +85,7 @@ Alternately, you can visit the Threat management dashboard (In the Security & Co
 ![AIR widgets](media/air-widgets.png)
 
 When available, your AIR widgets will appear across the top of the [Security Dashboard](security-dashboard.md).
+
 
 
 ## 
