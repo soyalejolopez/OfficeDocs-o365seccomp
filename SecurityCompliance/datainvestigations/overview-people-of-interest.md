@@ -1,5 +1,5 @@
 ---
-title: "Work with custodians in Advanced eDiscovery (Preview)"
+title: "Work with people of interest in a data investigation"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -17,7 +17,7 @@ ms.assetid:
 description: ""
 ---
 
-# Work with custodians in Advanced eDiscovery (Preview)
+# Work with people of interest in a data investigation
 
 Often, when an organization is responding to a legal investigation, the workflow around identifying, preserving, and collecting potentially relevant content is based off people or data custodians within their organization. In eDiscovery, these individuals are called data custodians and are defined as “persons having administrative control of a document or electronic file”. For example, the data custodian of an email could be the owner of the mailbox which contains the relevant message.  
 

@@ -369,6 +369,16 @@
 #### [Use Advanced eDiscovery utilities](use-advanced-ediscovery-utilities.md)
 #### [Run reports](run-reports-in-advanced-ediscovery.md)
 
+# [Manage data investigations](datainvestigations/overview-datainvestigations.md)
+## [Release notes](compliance20/data-investigations-release-notes.md)
+## [Create a new case](datainvestigations/create-new-case.md)
+
+## [Work with people of interest](datainvestigations/overview-people-of-interest.md)
+### [Add people of interest to a case](datainvestigations/add-people-of-interest-to-case.md)
+### [Manage people of interest](datainvestigations/manage-people-of-interest.md)
+### [View the audit activity of people of interest](datainvestigations/view-people-of-interest-activity.md)
+
+
 # [Search the audit log](search-the-audit-log-in-security-and-compliance.md)
 ## [Turn audit log search on or off](turn-audit-log-search-on-or-off.md)
 ## [Enable mailbox auditing](enable-mailbox-auditing.md)

@@ -1,5 +1,5 @@
 ---
-title: "Overview of Advanced eDiscovery (Preview) in Microsoft 365"
+title: "Overview of Data Investigations in Microsoft 365"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,10 +14,10 @@ search.appverid:
 - MET150
 ms.assetid: 
 
-description: "This article describes the new version of Advanced eDiscovery (Preview) in Microsoft 365."
+description: "This article describes the new Data Investigations tool in Microsoft 365."
 ---
 
-# Overview of Advanced eDiscovery (Preview) in Microsoft 365
+# Overview of Data Investigations in Microsoft 365
 
 Microsoft has just released a preview version of the updated Advanced eDiscovery tool that builds on the existing eDiscovery capabilities in Office 365. This preview version, called *Advanced eDiscovery (Preview)*, provides an end-to-end workflow to preserve, collect, review, analyze, and export content that's responsive to your organization's internal and external investigations. 
 
