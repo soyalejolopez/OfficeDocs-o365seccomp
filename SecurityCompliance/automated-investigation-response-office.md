@@ -49,7 +49,7 @@ Each playbook includes:
 
 Each high-level step includes many sub-steps that are executed to provide a deep, detailed, and exhaustive response to threats.
 
-### Example: User-submitted message scenario
+### Example: User-submitted message playbook
 
 Suppose that a user submits an email message by using the [Report Message add-in for Outlook](enable-the-report-message-add-in.md). This triggers the **User-submitted message** playbook.
 
@@ -75,7 +75,6 @@ During the hunting phase, risks and threats are assigned to various hunting step
 
 Remediation is the final phase of the playbook. During this phase, remediation steps are carried out, based on the results from the investigation and hunting phases.  
 
-
 ## Getting started
 
 To access investigations, as an Office 365 global administrator or security administrator, go to the Office 365 Security & Compliance Center ([https://protection.office.com](https://protection.office.com)) and sign in. Then, in the left navigation, go to **Threat management** > **Investigations**.
@@ -92,12 +91,12 @@ The Investigation main page shows an overview view of your organization's invest
 
 ![Main investigation page for AIR](media/air-maininvestigationpage.png) 
   
-From this view, you have several options.
-- You can navigate directly to an Investigation by clicking on any of the Investigation ID’s in the ID column.
-- You can select to apply filters to apply to the Investigation State, Status and Time. Or a combination of all, to show you a filtered list of your choosing.
-- You can Export the data to a CSV file, by following the save as prompt.
+From this view, you have several options:
+- You can navigate directly to an Investigation by clicking on any of the Investigation IDs in the ID column.
+- You can apply filters to the Investigation State, Status and Time. Or a combination of all, to show you a filtered list of your choosing.
+- You can export the data to a CSV file.
 
-### Investigation graph page
+### The investigation graph page
 
 When you open a specific investigation, you see the Office 365 Threat Intelligence Summary Investigation Graph. This page shows all the different entities: email messages, users (and their activities), and devices that have been automatically investigated as part of the alert that was triggered.
 
