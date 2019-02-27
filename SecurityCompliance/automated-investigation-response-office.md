@@ -114,8 +114,8 @@ By clicking the Alerts node or Alerts tab, we are taken to a view that shows ALL
 
 ![AIR alerts page](media/air-investigationalertspage.png)
 
-On this page, you have several options.
-- Get a visual overview of the current triggering alert and associated (if any) alerts.
+On this page, you have several options:
+- Get a visual overview of the current triggering alert and any associated alerts.
 - Click an alert in the list to activate a fly-out page that shows full alert details.
 
 
