@@ -166,11 +166,12 @@ On this page, you have several options:
 ### Investigation entities page
 
 When you click the Entities tab, you go to a view that shows all the machines identified as part of the investigation. 
-On this tab we can see the investigated entities. We can see details of the types of entities, such as emails, clusters, IP’s, users et al. How many were analyzed, and the threats associated with each. 
+
+On this page, you can see the investigated entities. You can see details of the types of entities, such as email messages, clusters, IP addresses, users, and more. You can also see how many entities were analyzed, and the threats that were associated with each. 
 
 IMAGE
 
-On this page, you have several options.
+On this page, you have several options:
 - Get a visual overview of the investigation entities and threats found.
 - Click an entity to activate a fly-out page that shows the related entity detail.
 
