@@ -188,7 +188,6 @@ On this page, you have several options:
 - Export the results to a CSV file.
 - Filter the view.
 
-
 ### Investigation actions page
 
 When you click the Actions node or Action tab, you go to a view that shows all the play book actions that are recommended for remediation after the investigation has completed. 
