@@ -179,12 +179,11 @@ On this page, you have several options:
 
 ### Investigation log page
 
-When you click the Log tab, you go to a view that shows all the play book steps that have occurred during the investigation. 
-The log captures a complete inventory of all actions completed by Office 365 Threat Intelligence as part of the AIR. It provides a clear view of all the steps taken, including the Action itself, a description and the duration of the actual from start to finish. 
+When you click the Log tab, you go to a view that shows all the play book steps that have occurred during the investigation. The log captures a complete inventory of all actions completed by Office 365 Threat Intelligence capabilities as part of AIR. It provides a clear view of all the steps taken, including the Action itself, a description and the duration of the actual from start to finish. 
 
 IMAGE
 
-On this page, you have several options.
+On this page, you have several options:
 - Get see a visual overview of the play book steps taken.
 - Export the results to a CSV file.
 - Filter the view.
