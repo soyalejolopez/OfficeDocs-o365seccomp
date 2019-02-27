@@ -148,10 +148,12 @@ In the following example, AIR has identified indicators of compromise and anomal
 ![AIR investigation uers page](media/air-investigationuserspage.png)
 
 On this page, you have several options.
-- Get a visual overview of the identified user results and risks found.
+- Get a visual overview of identified user results and risks found.
 - Click a user to activate a fly-out page that shows the full alert details.
 
 ### Investigation machines page
+
+
 
 ### Investigation entities page
 
@@ -161,7 +163,14 @@ On this page, you have several options.
 
 ## How do I get AIR?
 
+Currently, AIR is in preview. When released, AIR will be included in the following subscriptions:
 
+- Microsoft 365 Enterprise E5
+- Office 365 Enterprise E5
+- Microsoft Threat Protection
+- Office 365 Advanced Threat Protection Plan 2 (available as an add-on)
+
+To learn more about feature availability, visit the [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap).
 
 ## Related topics
 
