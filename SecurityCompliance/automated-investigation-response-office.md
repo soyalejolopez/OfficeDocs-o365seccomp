@@ -110,7 +110,9 @@ From this view, you have several options:
 
 ### The investigation alerts page
 
+By clicking the Alerts node or Alerts tab, we are taken to a view that shows ALL alerts relevant to the investigation – these include the alert triggering the investigation as well as other alerts (in this case, risky sign-in, mass download, etc.) that were correlated to the investigation. From this page, a SOC analyst may also view additional details on the alerts themselves.
 
+![AIR alerts page](media/air-investigationalertspage.png)
 
 ### Investigation email messages page
 
