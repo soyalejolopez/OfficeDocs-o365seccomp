@@ -38,7 +38,7 @@ Based on extensive experience, the security playbooks are designed to tackle the
 
 The following five playbooks will be offered:
 
-|Initial release  |Coming soon after |
+|Initial release  |Following soon |
 |---------|---------|
 |User-submitted message<br>URL verdict change<br>Manual investigation |Zapped malware<br>Zapped phish|
 
@@ -71,9 +71,9 @@ Next, several hunting steps are executed:
 - A check is done to see if [Office 365 ATP Safe Links](atp-safe-links.md) may have missed any instance of the email which was submitted.
 - A check is done to see if the user has been compromised.  
 
-During the hunting, we also assign risks and threats to various hunting steps.  
+During the hunting phase, risks and threats are assigned to various hunting steps.  
 
-In the final aspect of the playbook is the remediation of the threat.  Remediation steps are carried as needed based on the results from analyzers determined from the investigation and the hunting.  
+Remediation is the final phase of the playbook. Remediation steps are carried out, based on the results from the investigation and hunting phases.  
 
 
 ## Getting started
