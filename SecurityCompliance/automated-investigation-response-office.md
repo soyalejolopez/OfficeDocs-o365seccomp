@@ -36,6 +36,14 @@ Based on extensive experience, the security playbooks are designed to tackle the
 
 ## The playbooks
 
+The following five playbooks will be offered:
+
+|Initial release  |Coming soon after |
+|---------|---------|
+|User-submitted message<br>URL verdict change<br>Manual investigation |Zapped malware<br>Zapped phish|
+
+Each playbook will include a root investigation, steps to hunt down other potential threats, and threat remediation. Each high-level step includes many sub-steps that are executed to provide a deep, detailed, and exhaustive response to threats.
+
 ## Getting started
 
 ## 
