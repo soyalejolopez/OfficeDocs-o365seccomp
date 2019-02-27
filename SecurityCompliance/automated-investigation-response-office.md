@@ -169,13 +169,13 @@ When you click the Entities tab, you go to a view that shows all the machines id
 
 On this page, you can see the investigated entities. You can see details of the types of entities, such as email messages, clusters, IP addresses, users, and more. You can also see how many entities were analyzed, and the threats that were associated with each. 
 
-IMAGE
+![AIR investigation entities page](media/air-investigationentitiespage.png)
 
 On this page, you have several options:
 - Get a visual overview of the investigation entities and threats found.
 - Click an entity to open a fly-out page that shows the related entity detail.
 
-IMAGE
+![AIR investigation entities details](media/air-investigationsentitiespagedetails.png)
 
 ### Investigation log page
 
