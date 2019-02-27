@@ -122,7 +122,12 @@ On this page, you have several options:
 
 By clicking the Email node or Email tab for an investigation, we are taken to a page that shows all the email clusters identified as part of the investigation. 
 
-Given the sheer volume of email that users in an organization send and receive, the process of clustering email messages based on similar attributes from a message header, body, URL and attachment, then separating malicious email from the good email, and finally taking action on malicious email messages, can take many hours. We are now automating this process with AIR. 
+Given the sheer volume of email that users in an organization send and receive, the process of 
+- clustering email messages based on similar attributes from a message header, body, URL and attachment, 
+- separating malicious email from the good email, and 
+- taking action on malicious email messages, 
+
+can take many hours. We are now automating this process with AIR. 
 
 In the following example, the first cluster of three email messages was deemed as phish. Another cluster of similar messages with the same IP and subject was found and considered to be malicious, as some of them were identified as phish during initial detection. 
 
