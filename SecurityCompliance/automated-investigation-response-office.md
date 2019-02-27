@@ -105,8 +105,8 @@ When you open a specific investigation, you see the investigation graph page. Th
 From this view, you have several options:
 - Get a visual overview of the current investigation.
 - View a summary of the investigation timings.
-- Click on any node in the graph visualization to be taken to the details for the node you clicked on.
-- Click on any tab at the top to be taken to the details for the tab you clicked on.
+- Click a node in the graph visualization to view details for that node.
+- Click a tab across the top to view details for that tab.
 
 ### The investigation alerts page
 
