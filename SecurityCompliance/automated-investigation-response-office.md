@@ -46,7 +46,7 @@ Each playbook will include a root investigation, steps to hunt down other potent
 
 ### Example: User-submitted message
 
-Suppose that a user submits an email message by using the [Report Message add-in](enable-the-report-message-add-in.md). 
+Suppose that a user submits an email message by using the [Report Message add-in](enable-the-report-message-add-in.md). This triggers the User-submitted message playbook.
 
 ## Getting started
 
