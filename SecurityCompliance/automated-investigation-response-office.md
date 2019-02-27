@@ -33,7 +33,6 @@ Based on extensive experience, the security playbooks are designed to tackle the
 
 - **Phase 2**: Security administrators will have the option to allow security playbooks to take action automatically, without administrative interaction.
 
-
 ### Five playbooks will be offered
 
 At initial release, three playbooks will be available. Two more will follow soon after.
@@ -59,7 +58,7 @@ During the root investigation phase, various aspects of the email are assessed. 
 - Whether other instances of the email were removed by the [ZAP feature](zero-hour-auto-purge.md),
 - An assessment from our analysts,
 - Whether the email is associated with any known campaigns,
-- ... and more.
+- and more.
 
 After the root investigation is complete, the playbook provides a list of recommended actions to take.
   
@@ -92,8 +91,8 @@ The main investigation page shows an overview view of your organization's invest
 ![Main investigation page for AIR](media/air-maininvestigationpage.png) 
   
 On this page, you have several options:
-- Navigate directly to an investigation When you click an Investigation ID.
-- Apply filters to the Investigation State, Status and Time. Or a combination of all, to show you a filtered list of your choosing.
+- Navigate directly to an investigation (click an Investigation ID).
+- Apply filters to the Investigation State, Status, Time, or a combination of all, to get a filtered list of your choosing.
 - Export the data to a CSV file.
 
 ### The investigation graph page
@@ -105,7 +104,7 @@ When you open a specific investigation, you see the investigation graph page. Th
 On this page, you have several options:
 - Get a visual overview of the current investigation.
 - View a summary of the investigation timings.
-- Click a node in the graph visualization to view details for that node.
+- Click a node in the visualization to view details for that node.
 - Click a tab across the top to view details for that tab.
 
 ### The investigation alerts page
@@ -145,7 +144,7 @@ When you click the Users node or Users tab, you go to a view that shows all the 
 
 For example, in the following image, AIR has identified indicators of compromise and anomalies based on a new inbox rule that was created. Additional details (evidence) of the investigation are available through detailed views within this tab.
 
-![AIR investigation uers page](media/air-investigationuserspage.png)
+![AIR investigation users page](media/air-investigationuserspage.png)
 
 On this page, you have several options:
 - Get a visual overview of identified user results and risks found.
@@ -191,7 +190,8 @@ On this page, you have several options:
 ### Investigation actions page
 
 When you click the Actions node or Action tab, you go to a view that shows all the play book actions that are recommended for remediation after the investigation has completed. 
-The actions capture a complete list of all the action steps Microsoft recommend you take at the end of a investigation. The experience allows you to remediate from within the interface directly, buy selecting one or a multiple step actions, then clicking approve will allow the remediations to begin running (you will require appropriate permissions for example, Security Reader can view actions but not approve them).  
+
+The actions capture a complete list of all the action steps Microsoft recommend you take at the end of a investigation. You can take remediation actions here by selecting one or more actions. Clicking Approve will allow remediations to begin running. (Appropriate permissions might be required. for example, Security Reader can view actions but not approve them.)  
 
 ![AIR investigations action page](media/air-investigationactionspage.png)
 
