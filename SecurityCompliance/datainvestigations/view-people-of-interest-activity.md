@@ -1,5 +1,5 @@
 ---
-title: "View custodian audit activity"
+title: "View the audit activity of people of interest"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -16,7 +16,7 @@ ms.assetid:
 
 description: ""
 ---
-# View custodian audit activity
+# View the audit activity of people of interest
 
 Need to find if a user viewed a specific document or purged an item from their mailbox? Advanced eDiscovery (Preview) is now integrated with the existing audit log search tool in the Security & Compliance Center. Using this embedded experience, you can use the Advanced eDiscovery (Preview) Custodian Management tool to facilitate your investigation by easily accessing and searching the activity for custodians within your case.
 
