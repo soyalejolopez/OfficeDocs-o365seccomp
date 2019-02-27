@@ -171,8 +171,8 @@ On this tab we can see the investigated entities. We can see details of the type
 IMAGE
 
 On this page, you have several options.
-•	You can see a visual overview of the investigation entities and threats found.
-•	You can click on an entity to activate a flyout view that into the related entity detail.
+- Get a visual overview of the investigation entities and threats found.
+- Click an entity to activate a fly-out page that shows the related entity detail.
 
 IMAGE
 
@@ -184,9 +184,9 @@ The log captures a complete inventory of all actions completed by Office 365 Thr
 IMAGE
 
 On this page, you have several options.
-•	You can see a visual overview of the play book steps taken.
-•	You can export the results to a CSV file.
-•	You can filter the view.
+- Get see a visual overview of the play book steps taken.
+- Export the results to a CSV file.
+- Filter the view.
 
 
 ### Investigation actions page
