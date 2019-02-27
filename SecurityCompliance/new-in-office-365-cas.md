@@ -5,7 +5,7 @@ author: denisebmsft
 manager: laurawi
 ms.audience: Admin
 ms.topic: reference
-ms.date: 01/25/2019
+ms.date: 02/27/2019
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
