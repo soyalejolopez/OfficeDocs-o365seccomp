@@ -40,7 +40,7 @@ At initial release, three playbooks will be available. Two more will follow soon
 
 |Initial release  |Following soon |
 |---------|---------|
-|User-submitted message<br>URL verdict change<br>Manual investigation |Zapped malware<br>Zapped phish|
+|User-submitted message<br>URL verdict change<br>Manual investigation |Zapped malware<br>Zapped phish<br/> |
 
 Each playbook includes: 
 - a root investigation, 
