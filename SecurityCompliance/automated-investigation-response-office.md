@@ -78,9 +78,13 @@ Remediation is the final phase of the playbook. During this phase, remediation s
 
 ## Getting started
 
+To access investigations, as an Office 365 global administrator or security administrator, go to [https://protection.office.com](https://protection.office.com) and sign in. Then, in the left navigation, go to **Threat management** > **Investigations**.
+
 ## 
   
 ## Related topics
+
+[Permissions in the Office 365 Security &amp; Compliance Center](permissions-in-the-security-and-compliance-center.md)
 
 [Reports and insights in the Office 365 Security &amp; Compliance Center](reports-and-insights-in-security-and-compliance.md)
   
