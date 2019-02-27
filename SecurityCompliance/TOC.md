@@ -371,12 +371,14 @@
 
 # [Manage data investigations](datainvestigations/overview-datainvestigations.md)
 ## [Release notes](compliance20/data-investigations-release-notes.md)
-## [Create a new case](datainvestigations/create-new-case.md)
+## [Create a new investigation](datainvestigations/create-new-investigation.md)
 
 ## [Work with people of interest](datainvestigations/overview-people-of-interest.md)
-### [Add people of interest to a case](datainvestigations/add-people-of-interest-to-case.md)
+### [Add people of interest to an investigation](datainvestigations/add-people-of-interest-to-investigation.md)
 ### [Manage people of interest](datainvestigations/manage-people-of-interest.md)
 ### [View the audit activity of people of interest](datainvestigations/view-people-of-interest-activity.md)
+
+## [Manage holds in an investigation](datainvestigations/manage-holds.md) 
 
 
 # [Search the audit log](search-the-audit-log-in-security-and-compliance.md)
