@@ -135,7 +135,7 @@ As an example, consider the following image. The first cluster of three email me
 
 On this page, you have several options:
 - Get a visual overview of the current clustering results and threats found.
-- Click a cluster entity or a threat list to activate a fly-out page that shows the full alert details.
+- Click a cluster entity or a threat list to open a fly-out page that shows the full alert details.
 
 ![AIR investigation email with flyout details](media/air-investigationemailpageflyoutdetails.png)
 
@@ -143,7 +143,7 @@ On this page, you have several options:
 
 When you click the Users node or Users tab, you go to a view that shows all the users identified as part of the investigation. 
 
-In the following example, AIR has identified indicators of compromise and anomalies based on a new inbox rule being created. Additional details (evidence) of the investigation are also available through detailed views within this tab.
+For example, in the following image, AIR has identified indicators of compromise and anomalies based on a new inbox rule being created. Additional details (evidence) of the investigation are also available through detailed views within this tab.
 
 ![AIR investigation uers page](media/air-investigationuserspage.png)
 
