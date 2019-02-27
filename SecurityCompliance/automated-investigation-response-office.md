@@ -86,9 +86,11 @@ Alternately, you can visit the Threat management dashboard (In the Security & Co
 
 When available, your AIR widgets will appear across the top of the [Security Dashboard](security-dashboard.md).
 
+### The main investigation page
 
+The Investigation main page shows an overview view of your organization's investigations and their current states.
 
-## 
+![Main investigation page for AIR](media/air-maininvestigationpage.png) 
   
 ## Related topics
 
