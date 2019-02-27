@@ -25,7 +25,7 @@ Security playbooks are back-end policies that admins can select as part of secur
 
 A Security playbook is kicks off when an alert is triggered within your organization. Once the alert triggers, the associated playbook is run automatically. The playbook runs an investigation, looking at all the associated metadata (including email messages, users, subjects, senders, etc.) and, based on its findings, recommends a set of actions that your organization's security team can take to control and mitigate the threat. 
 
-Based on extensive experience, the security playbooks are designed to tackle the most frequent threats organizations face.
+Based on extensive experience, the security playbooks are designed to tackle the most frequent threats that organizations face.
 
 ### Security playbooks are rolling out in phases
 
