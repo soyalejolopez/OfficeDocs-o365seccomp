@@ -34,9 +34,9 @@ Based on extensive experience, the security playbooks are designed to tackle the
 - **Phase 2**: Security administrators will have the option to allow security playbooks to take action automatically, without administrative interaction.
 
 
-### Playbooks overview
+### Five playbooks will be offered
 
-The following five playbooks will be offered:
+At initial release, three playbooks will be available. Two more will follow soon after.
 
 |Initial release  |Following soon |
 |---------|---------|
@@ -77,7 +77,7 @@ Remediation is the final phase of the playbook. During this phase, remediation s
 
 ## Getting started
 
-To access investigations, as an Office 365 global administrator or security administrator, go to the Office 365 Security & Compliance Center ([https://protection.office.com](https://protection.office.com)) and sign in. Then, in the left navigation, go to **Threat management** > **Investigations**.
+To access your investigations, as an Office 365 global administrator or security administrator, go to the Office 365 Security & Compliance Center ([https://protection.office.com](https://protection.office.com)) and sign in. Then, in the left navigation, go to **Threat management** > **Investigations**.
 
 Alternately, you can visit the Threat management dashboard (In the Security & Compliance Center, go to **Threat management** > **Dashboard**).
 
