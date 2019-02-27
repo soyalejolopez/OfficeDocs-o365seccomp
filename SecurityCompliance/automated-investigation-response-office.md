@@ -116,7 +116,7 @@ When you click the Alerts node or Alerts tab for an investigation, you go to a p
 
 On this page, you have several options:
 - Get a visual overview of the current triggering alert and any associated alerts.
-- Click an alert in the list to activate a fly-out page that shows full alert details.
+- Click an alert in the list to open a fly-out page that shows full alert details.
 
 ### The investigation email messages page
 
@@ -143,13 +143,13 @@ On this page, you have several options:
 
 When you click the Users node or Users tab, you go to a view that shows all the users identified as part of the investigation. 
 
-For example, in the following image, AIR has identified indicators of compromise and anomalies based on a new inbox rule being created. Additional details (evidence) of the investigation are also available through detailed views within this tab.
+For example, in the following image, AIR has identified indicators of compromise and anomalies based on a new inbox rule that was created. Additional details (evidence) of the investigation are available through detailed views within this tab.
 
 ![AIR investigation uers page](media/air-investigationuserspage.png)
 
-On this page, you have several options.
+On this page, you have several options:
 - Get a visual overview of identified user results and risks found.
-- Click a user to activate a fly-out page that shows the full alert details.
+- Click a user to open a fly-out page that shows the full alert details.
 
 ### The investigation machines page
 
@@ -161,7 +161,7 @@ As part of the investigation, AIR correlates email threats to devices. For examp
 
 On this page, you have several options:
 - Get a visual overview of the current machines and threats found.
-- Click a machine to activate a view that into the related [Windows Defender ATP investigations](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/automated-investigations-windows-defender-advanced-threat-protection).
+- Click a machine to open a view that into the related [Windows Defender ATP investigations](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/automated-investigations-windows-defender-advanced-threat-protection).
 
 ### Investigation entities page
 
@@ -173,7 +173,7 @@ IMAGE
 
 On this page, you have several options:
 - Get a visual overview of the investigation entities and threats found.
-- Click an entity to activate a fly-out page that shows the related entity detail.
+- Click an entity to open a fly-out page that shows the related entity detail.
 
 IMAGE
 
