@@ -42,11 +42,36 @@ The following five playbooks will be offered:
 |---------|---------|
 |User-submitted message<br>URL verdict change<br>Manual investigation |Zapped malware<br>Zapped phish|
 
-Each playbook will include a root investigation, steps to hunt down other potential threats, and threat remediation. Each high-level step includes many sub-steps that are executed to provide a deep, detailed, and exhaustive response to threats.
+Each playbook includes: 
+- a root investigation, 
+- steps to hunt down other potential threats, and 
+- threat remediation.
 
-### Example: User-submitted message
+Each high-level step includes many sub-steps that are executed to provide a deep, detailed, and exhaustive response to threats.
 
-Suppose that a user submits an email message by using the [Report Message add-in](enable-the-report-message-add-in.md). This triggers the User-submitted message playbook.
+### Example: User-submitted message scenario
+
+Suppose that a user submits an email message by using the [Report Message add-in for Outlook](enable-the-report-message-add-in.md). This triggers the **User-submitted message** playbook.
+
+During the root investigation phase, various aspects of the email are assessed. These include:
+- A determination about what type of threat it might be
+- Who sent it
+- Whether other instances of the email were removed by the [ZAP feature](zero-hour-auto-purge.md)
+- The assessment from our analysts
+- Whether the email is associated with any known campaigns
+- ... and more
+
+After the root investigation is complete, the playbook provides a list of recommended actions to take.
+  
+Next, several hunting steps are executed:
+
+- Similar email messages in other email clusters are searched
+ 
+- The signal is shared with other platforms, such as WDATP
+
+- A determination on whether any users have clicked-through on the suspicious email message, we determine if Office 365 ATP Safe Links may have missed any instance of the email which was submitted, and we also determine if the user has been compromised.  During the hunting, we also assign risks and threats to various hunting steps.  
+In the final aspect of the playbook is the remediation of the threat.  Remediation steps are carried as needed based on the results from analyzers determined from the investigation and the hunting.  
+
 
 ## Getting started
 
