@@ -78,7 +78,14 @@ Remediation is the final phase of the playbook. During this phase, remediation s
 
 ## Getting started
 
-To access investigations, as an Office 365 global administrator or security administrator, go to [https://protection.office.com](https://protection.office.com) and sign in. Then, in the left navigation, go to **Threat management** > **Investigations**.
+To access investigations, as an Office 365 global administrator or security administrator, go to the Office 365 Security & Compliance Center ([https://protection.office.com](https://protection.office.com)) and sign in. Then, in the left navigation, go to **Threat management** > **Investigations**.
+
+Alternately, you can visit the Threat management dashboard (In the Security & Compliance Center, go to **Threat management** > **Dashboard**).
+
+![AIR widgets](media/air-widgets.png)
+
+When available, your AIR widgets will appear across the top of the [Security Dashboard](security-dashboard.md).
+
 
 ## 
   
