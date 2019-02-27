@@ -151,9 +151,17 @@ On this page, you have several options.
 - Get a visual overview of identified user results and risks found.
 - Click a user to activate a fly-out page that shows the full alert details.
 
-### Investigation machines page
+### The investigation machines page
 
+When you click the Machines node or Machines tab, you go to a view that shows all the machines identified as part of the investigation. 
 
+![AIR investigation machine page](media/air-investigationmachinepage.png)
+
+As part of the investigation, AIR correlates email threats to devices. For example, an investigation passes a file hash across to [Windows Defender ATP](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection) to investigate. This allows for automated investigation of relevant machines for your users and helps to ensure that threats are addressed both in the cloud and across your devices. 
+
+On this page, you have several options:
+- Get a visual overview of the current machines and threats found.
+- Click a machine to activate a view that into the related [Windows Defender ATP investigations](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/automated-investigations-windows-defender-advanced-threat-protection).
 
 ### Investigation entities page
 
