@@ -83,7 +83,7 @@ Alternately, you can visit the Threat management dashboard (In the Security & Co
 
 ![AIR widgets](media/air-widgets.png)
 
-When available, your AIR widgets will appear across the top of the [Security Dashboard](security-dashboard.md).
+Your AIR widgets will appear across the top of the [Security Dashboard](security-dashboard.md).
 
 ### The main investigation page
 
