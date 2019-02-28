@@ -35,14 +35,15 @@ Below the welcome message are the Assess, Protect, and Respond sections. Each se
 
 ![Assess section in Microsoft 365 compliance center](media/m365-compliance-center-assess.png)
 
+In this section, you'll find your Microsoft Compliance Score, which tells you at a glance how your organization is doing with respect to data protection and compliance. With a click, you can go to Compliance Manager, where you can review or edit your configurations and potentially improve your overall score.
 
 ### Protect
 
-
+![Protect section in the Microsoft 365 compliance center](media/m365-compliance-center-protect.png)
 
 ### Respond
 
-
+![Respond section in the Microsoft 365 compliance center](media/m365-compliance-center-respond.png)
 
 ### Navigation
 
