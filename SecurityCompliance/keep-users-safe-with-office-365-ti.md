@@ -6,13 +6,14 @@ manager: laurawi
 ms.date: 02/13/2019
 ms.audience: ITPro
 ms.topic: article
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: 3387bfc3-028a-42f4-8133-4cbecfaab812
-ms.collection: M365-security-compliance
+ms.collection: 
+- M365-security-compliance
 description: "Learn how Office 365 Threat Intelligence can help your organization detect intrusions and threats, and quickly mitigate and recover from threats."
 ---
 

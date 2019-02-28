@@ -11,6 +11,8 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 9b7daf19-d5f2-415b-bc43-a0f5f4a585e8
+ms.collection:
+- M365-security-compliance
 description: "Admins can learn to to create mail flow rules (also known as transport rules) to encrypt and decrypt messages using Office 365 Message Encryption (OME)."
 ---
 

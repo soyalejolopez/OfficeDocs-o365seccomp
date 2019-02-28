@@ -4,6 +4,7 @@
 ## [Go to the Security & Compliance Center](go-to-the-securitycompliance-center.md)
 ## [Get ready for the new Microsoft 365 security center and Microsoft 365 compliance center](microsoft-security-and-compliance.md)
 ## [Office 365 Secure Score](office-365-secure-score.md)
+## [Microsoft Secure Score](microsoft-secure-score.md)
 ## [Permissions in the Security & Compliance Center](permissions-in-the-security-and-compliance-center.md)
 ## [Give users access to the Security & Compliance Center](grant-access-to-the-security-and-compliance-center.md)
 ## [Security Dashboard overview](security-dashboard.md)
@@ -88,13 +89,13 @@
 
 # [Protect against threats](protect-against-threats.md)
 ## [Anti-spam and anti-malware protection](anti-spam-and-anti-malware-protection.md)
-### [Videos for getting started with protecting your email](videos-for-getting-started-with-protecting-your-email.md)
+### [Overview of EOP](videos-for-getting-started-with-protecting-your-email.md)
 ### [Office 365 email anti-spam protection](anti-spam-protection.md)
 ### [How to prevent real email from being marked as spam in Office 365](prevent-email-from-being-marked-as-spam.md)
 ### [How to reduce spam email in Office 365](reduce-spam-email.md)
 ### [Prevent email from being marked as spam in EOP and Office 365](prevent-email-from-being-marked-as-spam-0.md)
 ### [Controlling outbound spam in Office 365](outbound-spam-controls.md)
-### [Block email spam with the Office 365 spam filter to prevent false negative issues](block-email-spam-to-prevent-false-negatives.md)
+### [Block email spam with the Office 365 spam filter to prevent false negative issues](reduce-spam-email.md)
 ### [Zero-hour auto purge - protection against spam and malware](zero-hour-auto-purge.md)
 ### [Ensure that spam is routed to each user's Junk Email folder](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)
 ### [Report junk email messages to Microsoft](report-junk-email-messages-to-microsoft.md)
@@ -145,7 +146,7 @@
 #### [Configure IRM to use an on-premises AD RMS server](configure-irm-to-use-an-on-premises-ad-rms-server.md)
 ### [S/MIME](s-mime-for-message-signing-and-encryption.md)
 #### [S/MIME for message signing and encryption](s-mime-for-message-signing-and-encryption.md)
-#### [Configure S/MIME settings for Outlook Web App](configure-s-mime-settings-for-outlook-web-app.md)
+#### [Configure S/MIME settings for Outlook on the web](configure-s-mime-settings-for-outlook-web-app.md)
 #### [Send and receive S/MIME signed and encrypted email](send-and-receive-s-mime-signed-and-encrypted-email.md)
 #### [Sync user certificates to Office 365 for S/MIME](sync-user-certificates-to-office-365-for-s-mime.md)
 #### [Set up virtual certificate collection to validate S/MIME](set-up-virtual-certificate-collection-to-validate-s-mime.md)
@@ -281,7 +282,7 @@
 
 ### [Manage holds](compliance20/managing-holds.md)
 
-### [Fix processing errors](compliance20/processing-data-for-case.md)
+### [Work with processing errors](compliance20/processing-data-for-case.md)
 #### [Advanced indexing of custodian data](compliance20/indexing-custodian-data.md)
 #### [Error remediation when processing data](compliance20/error-remediation.md)
 
@@ -296,7 +297,7 @@
 #### [Manage load sets](compliance20/manage-load-sets.md)
 #### [Load non-Office 365 data into a working set](compliance20/load-non-office365-data.md)
 #### [Query the data in a working set](compliance20/working-set-search.md)
-#### [View documents in a working set](compliance20/annotating-and-redacting-documents.md)
+#### [View documents in a working set](compliance20/view-documents-in-working-set.md)
 #### [Tag documents in a working set](compliance20/tagging-documents.md)
 
 ### [Analyze case data](compliance20/analyzing-data-in-working-set.md)
@@ -317,10 +318,7 @@
 #### [Configure search and analytics settings](compliance20/configure-search-analytics-settings.md)
 
 ### Advanced eDiscovery (Preview) reference
-#### [Search limits](compliance20/search-limits-ediscovery20.md)
-#### [Indexing limits](compliance20/indexing-limits-ediscovery20.md)
-#### [Export limits](compliance20/export-limits-ediscovery20.md)
-#### [Download limits](compliance20/download-limits-ediscovery20.md)
+#### [Limits in Advanced eDiscovery (Preview)](compliance20/limits-ediscovery20.md)
 #### [Supported file types](compliance20/supported-filetypes-ediscovery20.md)
 #### [Document metadata fields](compliance20/document-metadata-fields.md)
 
@@ -473,7 +471,7 @@
 ### [Office 365 Technology Controls](office-365-technology-controls.md)
 ### [Yammer Enterprise Access Controls](office-365-yammer-enterprise-access-controls.md)
 ## [Defending against denial-of-service attacks in Office 365](office-365-defending-against-denial-of-service-attacks-overview.md)
-### [Microsoft's Denial-of-Services Defense Strategy](office-365-microsoft-dos-defense-strategy.md)
+### [Microsoft's Denial-of-Services Defense Strategy](office-365-microsoft-dos-defense-strategy.md)
 ### [Core Principles of Defense Against Denial-of-Service Attacks](office-365-core-principles-of-defense-against-dos-attacks.md)
 ## [Auditing and Reporting in Office 365](office-365-auditing-and-reporting-overview.md)
 ### [Office 365 Reporting Features](office-365-reporting-features.md)

@@ -5,11 +5,13 @@ author: robmazz
 manager: laurawi
 ms.audience: ITPro
 ms.topic: overview
-ms.service: o365-solutions
+ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
-ms.collection: Strat_O365_IP
+ms.collection:
+- Strat_O365_IP
+- M365-security-compliance
 ms.custom: Ent_Solutions
 ms.assetid: 
 description: "Use this topic to learn more about configuring privileged access management in Office 365"

@@ -1,14 +1,16 @@
 ---
 title: "Set up Office 365 ATP anti-phishing policies"
-ms.author: krowley
-author: kccross
+ms.author: tracyp
+author: MSFTTracyP
 manager: laurawi
 ms.audience: ITPro
 ms.topic: article
 ms.date: 02/06/2019
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 5a6f2d7f-d998-4f31-b4f5-f7cbf6f38578
+ms.collection:
+- M365-security-compliance
 description: "Anti-phishing protection, with comprehensive protection as a part of Office 365 Advanced Threat Protection and basic protection in Office 365 Exchange Online Protection, can help protect your organization from malicious impersonation-based phishing attacks and other phishing attacks."
 ---
 
@@ -33,7 +35,7 @@ What to do:
     
 ## Review the prerequisites
 
-- To define (or edit) ATP policies, you must be assigned one of the roles described in the following table: <br>
+- To define (or edit) ATP policies, you must be assigned an appropriate role. Some examples are described in the following table: <br>
 
     |Role  |Where/how assigned  |
     |---------|---------|
@@ -138,5 +140,5 @@ Once your anti-phishing policies are in place, you can see how your threat prote
 - [View reports for Office 365 Advanced Threat Protection](view-reports-for-atp.md) or [View email security reports](view-email-security-reports.md)
 - [Use Explorer (also referred to as Threat Explorer)](use-explorer-in-security-and-compliance.md)
 
-Stay on top of new features coming to ATP. visit the [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=O365) and learn about [new features that are being added to ATP](office-365-atp.md#new-features-are-continually-being-added-to-atp).
+Stay on top of new features coming to ATP. visit the [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=O365) and learn about [new features that are being added to ATP](office-365-atp.md#new-features-in-office-365-atp).
  
