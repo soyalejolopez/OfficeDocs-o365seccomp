@@ -1,5 +1,5 @@
 ---
-title: "Mailbox auditing in Office 365"
+title: "Manage mailbox auditing in Office 365"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -17,11 +17,40 @@ ms.assetid: aaca8987-5b62-458b-9882-c28476a66918
 description: "In Office 365, mailbox audit logging is turned on by default. This means that certain actions performed by mailbox owners, delegates, and administrators are automatically logged in the Office 365 audit log, where you can search for activities performed on the mailbox."
 ---
 
-# Mailbox auditing in Office 365
+# Manage mailbox auditing in Office 365
   
 Starting in January of 2019, mailbox audit logging is turned on by default for all Office 365 organizations. This means that certain actions performed by mailbox owners, delegates, and administrator are automatically logged, and that mailbox audit records will be available when you search for them in the Office 365 audit log. Before mailbox auditing was turned on by default, you had to enable mailbox auditing for every user mailbox in your organization.
 
 By default, mailbox auditing in Office 365 isn't turned on. That means mailbox auditing events won't appear in the results when you search the Office 365 audit log for mailbox activity. But after you turn on mailbox audit logging for a user mailbox, you can search the audit log for mailbox activity. Additionally, when mailbox audit logging is turned on, some actions performed by administrators, delegates, and owners are logged by default. To log (and then search for) additional actions, see Step 3.
+
+Intro
+(info about the change to default mailbox auditing for Office 365 orgs and benefit)
+
+Mailbox actions that are logged by default
+
+The following table lists the mailbox actions that are logged by default for each logon type.
+
+
+- Similar to table here: https://docs.microsoft.com/en-us/office365/securitycompliance/enable-mailbox-auditing#mailbox-auditing-actions ) 
+
+Verifying default mailbox auditing for your organization
+- Using Get-OrganizationConfig | FL AuditDisabled to verify that your org has been switched over
+
+Enabling mailbox auditing for a subset of users
+
+- Set-MailboxAuditBypassAssociation for all users except the ones they want audited
+
+Disabling mailbox auditing for specific users
+
+- Using Set-MailboxAuditBypassAssociation
+
+Disabling default auditing for your entire organization
+- Using Set-OrganizationConfig -AuditDisabled $true (and how to renable at a later time)
+
+
+
+
+
 
 ## Before you begin
   
