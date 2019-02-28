@@ -15,11 +15,10 @@ description: "Learn about the new Microsoft 365 compliance center, including wha
 
 ## Overview
 
-If you're interested in your organization's compliance posture, you're going to love the new Microsoft 365 compliance center. 
+If you're interested in your organization's compliance posture, you're going to love the new Microsoft 365 compliance center. The Microsoft 365 compliance center provides easy access to the data and tools you need to manage to your organization's compliance needs. Read this article to get acquainted with the Microsoft 365 compliance center, how to get it, and your next steps.
 
 ![Microsoft 365 compliance center](media/m365-compliance-center.png)
 
-The Microsoft 365 compliance center provides easy access to the data and tools you need to manage to your organization's compliance needs. Read this article to get acquainted with the Microsoft 365 compliance center, how to get it, and your next steps.
 
 ## Welcome to your Microsoft 365 compliance center
 
