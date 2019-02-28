@@ -1,5 +1,5 @@
 ---
-title: "Export documents from a working set"
+title: "Export documents from an incident"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -17,6 +17,6 @@ ms.assetid:
 description: ""
 ---
 
-# Export documents from a working set
+# Export documents from an incident
 
 Content coming soon.

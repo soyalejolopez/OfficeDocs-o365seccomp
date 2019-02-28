@@ -1,5 +1,5 @@
 ---
-title: "Work with processing errors in Advanced eDiscovery (Preview)"
+title: "Process data for an investigation"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -17,7 +17,7 @@ ms.assetid:
 description: ""
 ---
 
-# Work with processing errors in Advanced eDiscovery (Preview)
+# Process data for an investigation
 
 Processing is the process of file identification, expansion of embedded documents and attachments, text extraction, OCR (Optical Character Recognition) of image files and indexing of that content.  
 

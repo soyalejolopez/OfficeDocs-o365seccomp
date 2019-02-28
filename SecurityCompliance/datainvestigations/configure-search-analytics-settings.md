@@ -19,7 +19,6 @@ description: ""
 
 # Configure search and analytics settings
 
-
 ## Near duplicates and email threading
 
 In this section, you can set parameters for duplicate detection, near duplicate detection, and email threading.

@@ -1,5 +1,5 @@
 ---
-title: "View documents in a working set"
+title: "View documents in an incident"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -17,7 +17,7 @@ ms.assetid:
 description: ""
 ---
 
-# View documents in a working set
+# View documents in an incident
 
 Advanced eDiscovery (Preview) displays content via several viewers each with different purposes. The various viewers can be used by clicking on any document within a working set. The viewers currently provided are:
 

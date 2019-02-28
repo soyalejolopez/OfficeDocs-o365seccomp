@@ -1,5 +1,5 @@
 ---
-title: "Review case data in Advanced eDiscovery (Preview)"
+title: "Review data in an incident"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -17,7 +17,7 @@ ms.assetid:
 description: ""
 ---
 
-# Review case data in Advanced eDiscovery (Preview)
+# Review data in an incident
 
 
-Coming soon
+Content coming soon.

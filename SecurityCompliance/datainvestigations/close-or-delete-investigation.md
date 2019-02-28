@@ -1,5 +1,5 @@
 ---
-title: "Close or delete a case"
+title: "Close or delete a data investigation"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -17,7 +17,7 @@ ms.assetid:
 description: ""
 ---
 
-# Close or delete a case
+# Close or delete a data investigation
 
 When the legal case or investigation supported by an eDiscovery case is completed, you can close the case. Here's what happens when you close a case:
 
