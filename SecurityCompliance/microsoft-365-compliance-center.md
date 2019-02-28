@@ -31,17 +31,17 @@ This section gives you some pointers on how to get started, with next steps and 
 
 ## Assess
 
-The Assess section you at a glance how your organization is doing with respect to data protection and compliance.
+The **Assess** section shows you at a glance how your organization is doing with respect to data protection and compliance.
 
 ![Assess section in Microsoft 365 compliance center](media/m365-compliance-center-assess.png)
 
-From here, you can go to Compliance Manager to review or edit your configurations and potentially improve your overall score.
+From here, you can go to [Compliance Manager](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md) to review or edit your configurations and potentially improve your overall score.
 
 You'll see additional widgets, such as one showing your organization's cloud app compliance, and another showing data about users with shared files, with links to [Cloud App Security](https://docs.microsoft.com/cloud-app-security/) or other tools where you can explore data.
 
 ## Protect
 
-The Protect section contains widgets that provide you with high-level information about data loss prevention (DLP), third-party apps in use, shared files, shadow IT apps, and so on. 
+The **Protect** section contains widgets that provide you with high-level information about data loss prevention (DLP), third-party apps in use, shared files, shadow IT apps, and so on. 
 
 ![Protect section in the Microsoft 365 compliance center](media/m365-compliance-center-protect.png)
 
@@ -49,7 +49,7 @@ Each widget has a link to a report where you can learn more.
 
 ## Respond
 
-The Respond section surfaces alerts that you'll want to review and potentially take action.
+The **Respond** section surfaces alerts that you'll want to review and potentially take action.
 
 ![Respond section in the Microsoft 365 compliance center](media/m365-compliance-center-respond.png)
 
@@ -71,3 +71,6 @@ If you don't have the new Microsoft 365 compliance center already, you will have
 
 To learn more about requirements, see [Required licenses and permissions](microsoft-security-and-compliance.md#required-licenses-and-permissions).
 
+## Next steps
+
+- Review your Microsoft Compliance Score, and use Compliance Manager to improve your score. To learn more about Compliance Manager, see [Use Compliance Manager to help meet data protection and regulatory requirements when using Microsoft cloud services](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md).
