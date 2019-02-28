@@ -8,7 +8,7 @@ ms.audience: ITPro
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-description: "Learn about the new Microsoft 365 compliance center"
+description: "Learn about the new Microsoft 365 compliance center, including what it contains, how to get it, and your next steps."
 ---
 
 # Welcome to your all-new Microsoft 365 compliance center
@@ -73,4 +73,10 @@ To learn more about requirements, see [Required licenses and permissions](micros
 
 ## Next steps
 
-- Review your Microsoft Compliance Score, and use Compliance Manager to improve your score. To learn more about Compliance Manager, see [Use Compliance Manager to help meet data protection and regulatory requirements when using Microsoft cloud services](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md).
+- **Review your Microsoft Compliance Score**, and use Compliance Manager to improve your score. To learn more about Compliance Manager, see [Use Compliance Manager to help meet data protection and regulatory requirements when using Microsoft cloud services](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md).
+
+- **Review your organization's Data Loss Prevention policies**, and if necessary, make adjustments. To learn more about DLP, see [Overview of data loss prevention policies](data-loss-prevention-policies.md). 
+
+- **Get acquainted with and set up Microsoft Cloud App Security**. To get help with this, see [Quickstart: Get started with Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/getting-started-with-cloud-app-security).  
+
+- **Visit your Microsoft 365 compliance center often**, and make sure to review any alerts or potential risks that might arise. Go to [https://compliance.microsoft.com](https://compliance.microsoft.com) and sign in.
