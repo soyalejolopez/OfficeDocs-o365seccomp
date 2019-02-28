@@ -49,7 +49,9 @@ In this section, you'll find widgets that provide you with high-level informatio
 
 ![Respond section in the Microsoft 365 compliance center](media/m365-compliance-center-respond.png)
 
+In this section, you'll see alerts, with a link to a report where you can view more detailed information, such as Severity, Status, Category, and more.
 
+![Active alerts details](media/m365-compliance-center-alerts-details.png) 
 
 ### Navigation
 
