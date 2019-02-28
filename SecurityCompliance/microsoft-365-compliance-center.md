@@ -35,7 +35,7 @@ Below the welcome message are the Assess, Protect, and Respond sections. Each se
 
 ![Assess section in Microsoft 365 compliance center](media/m365-compliance-center-assess.png)
 
-In this section, you'll find your Microsoft Compliance Score, which tells you at a glance how your organization is doing with respect to data protection and compliance. With a click, you can go to Compliance Manager, where you can review or edit your configurations and potentially improve your overall score.
+In this section, you'll find your Microsoft Compliance Score, which tells you at a glance how your organization is doing with respect to data protection and compliance. From here, you can go to Compliance Manager to review or edit your configurations and potentially improve your overall score.
 
 You'll see additional widgets, such as one showing your organization's cloud app compliance, and another showing data about users with shared files, with links to [Cloud App Security](https://docs.microsoft.com/cloud-app-security/) or other tools where you can explore data.
 
