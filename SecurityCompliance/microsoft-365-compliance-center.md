@@ -55,7 +55,9 @@ In this section, you'll see alerts, with a link to a report where you can view m
 
 ### Navigation
 
-On the left side of the screen, you'll find a navigation pane that gives you easy access to your alerts, reports, policies, compliance solutions, and more. 
+In addition to links in widgets, you'll find a navigation pane on the left side of the screen that gives you easy access to your alerts, reports, policies, compliance solutions, and more. 
+
+![Navigation in the Microsoft 365 compliance center](media/m365-compliance-center-leftnav.png)
 
 ## How do I get this?
 
