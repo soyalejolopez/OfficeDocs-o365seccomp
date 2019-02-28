@@ -96,7 +96,7 @@ Depending on what you selected when you set up the add-in (steps 7-8 above), peo
   
 You can set up a rule to get a copy of email messages reported by users in your organization. You do this after you have downloaded and enabled the Report Message add-in for your organization.
   
-1. In the Exchange Admin Center, choose **mail flow** \> **rules**. 
+1. In the Exchange admin center, choose **mail flow** \> **rules**. 
     
 2. Choose **+** \> **Create a new rule**. 
     
