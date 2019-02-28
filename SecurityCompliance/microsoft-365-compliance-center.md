@@ -37,17 +37,19 @@ Below the welcome message are the Assess, Protect, and Respond sections. Each se
 
 In this section, you'll find your Microsoft Compliance Score, which tells you at a glance how your organization is doing with respect to data protection and compliance. With a click, you can go to Compliance Manager, where you can review or edit your configurations and potentially improve your overall score.
 
-You'll also see widgets, such as one showing your organization's cloud app compliance, and another showing data about users with shared files, with links to [Cloud App Security](https://docs.microsoft.com/cloud-app-security/) or other tools where you can explore data.
+You'll see additional widgets, such as one showing your organization's cloud app compliance, and another showing data about users with shared files, with links to [Cloud App Security](https://docs.microsoft.com/cloud-app-security/) or other tools where you can explore data.
 
 ### Protect
 
 ![Protect section in the Microsoft 365 compliance center](media/m365-compliance-center-protect.png)
 
-In this section, you'll find widgets that provide you with high-level information about data loss prevention (DLP), third-party apps in use, shared files, shadow IT apps, and so on, with links to reports where you can learn more.
+In this section, you'll find widgets that provide you with high-level information about data loss prevention (DLP), third-party apps in use, shared files, shadow IT apps, and so on. Each widget has a link to a report where you can learn more.
 
 ### Respond
 
 ![Respond section in the Microsoft 365 compliance center](media/m365-compliance-center-respond.png)
+
+
 
 ### Navigation
 
