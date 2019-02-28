@@ -55,7 +55,7 @@ Widgets, such as the Active alerts widget, include a link to a report where you 
 
 ![Active alerts details](media/m365-compliance-center-alerts-details.png) 
 
-## Navigation
+## Navigate
 
 In addition to links in widgets, you'll find a navigation pane on the left side of the screen that gives you easy access to your alerts, reports, policies, compliance solutions, and more. 
 
