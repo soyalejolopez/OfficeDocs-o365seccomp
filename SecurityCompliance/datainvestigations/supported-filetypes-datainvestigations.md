@@ -1,5 +1,5 @@
 ---
-title: "Supported file types in Advanced eDiscovery (Preview)"
+title: "Supported file types in Data Investigations"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -17,7 +17,7 @@ ms.assetid:
 description: ""
 ---
 
-# Supported file types in Advanced eDiscovery (Preview)
+# Supported file types in Data Investigations
 
 
 | Mime Type | File Class (i.e. Image, Archive, Email, Office Doc, etc.) | Native Viewer | Text | Annotate Viewer | Container Extraction | Possible Extensions |

@@ -1,5 +1,5 @@
 ---
-title: "Query the data in a working set"
+title: "Query the data in an incident"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -17,7 +17,7 @@ ms.assetid:
 description: ""
 ---
 
-# Query the data in a working set
+# Query the data in an incident
 
 In most cases, it will be useful to be able to dig deeper into what is there in a working set and organize them to review more efficiently. Queries within a working set enables you to do so by letting you focus on a subset of documents that meet the criteria defined by you at once.
 

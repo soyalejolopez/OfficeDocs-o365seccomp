@@ -1,5 +1,5 @@
 ---
-title: "Advanced indexing of custodian data"
+title: "Advanced indexing of data for an investigation"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -17,7 +17,7 @@ ms.assetid:
 description: ""
 ---
 
-# Advanced indexing of custodian data
+# Advanced indexing of data for an investigation
 
 When a custodian is added to an Advanced eDiscovery (Preview) case, any content in Office 365 that was deemed as partially indexed is re-processed to make it fully searchable.  This process is called *Advanced indexing*. Content can be partially indexed for a number of reasons including the existence of images, unsupported file types or when indexing file size limits are encountered.
 

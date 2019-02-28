@@ -1,5 +1,5 @@
 ---
-title: "Add or remove members from a case"
+title: "Add or remove members from a data investigation"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -16,7 +16,8 @@ ms.assetid:
 
 description: ""
 ---
-# Add or remove members from a case
+
+# Add or remove members from a data investigation
 
 You can add or remove members to manage who can access the case. Note that users who are added to Reviewer or eDiscovery Manager role groups can be added as members of the case. Note that the eDiscovery Manager who created the case is automatically added as a member.
 

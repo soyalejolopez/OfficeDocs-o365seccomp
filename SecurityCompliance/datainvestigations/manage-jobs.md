@@ -1,5 +1,5 @@
 ---
-title: "Manage jobs in Advanced eDiscovery (Preview)"
+title: "Manage jobs in a data investigation"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -17,18 +17,18 @@ ms.assetid:
 description: ""
 ---
 
-# Manage jobs in Advanced eDiscovery (Preview)
+# Manage jobs in a data investigation
 
-Here's a list of the jobs that are tracked on the **Jobs** tab of a case in Advanced eDiscovery (Preview).
+Here's a list of the jobs that are tracked on the **Jobs** tab of an investigation in Data Investigations.
 
-- Re-indexing custodian data
+- Re-indexing data of people of interest
 - Estimating search results
 - Preparing search preview
-- Adding data to a working set
-- Adding data to another working set
-- Adding non-Office 365 data to a working set
+- Adding data to an incident
+- Adding data to another incident
+- Adding non-Office 365 data to an incident
 - Preparing for error resolution
-- Adding remediated data to a working set
+- Adding remediated data to an incident
 - Comparing load sets
 - Tagging documents
 - Running analytics
