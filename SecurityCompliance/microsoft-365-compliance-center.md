@@ -31,16 +31,22 @@ This section gives you some pointers on how to get started and invites you to gi
 
 Below the welcome message are the Assess, Protect, and Respond sections. Each section includes widgets that surface compliance data that your organization's compliance team cares about.
 
+### Assess
 
+![Assess section in Microsoft 365 compliance center](media/m365-compliance-center-assess.png)
+
+
+### Protect
+
+
+
+### Respond
+
+
+
+### Navigation
 
 On the left side of the screen, you'll find a navigation pane that gives you easy access to your alerts, reports, policies, compliance solutions, and more. 
-
-## Assess
-
-## Protect
-
-## Respond
-
 
 ## How do I get this?
 
