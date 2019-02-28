@@ -19,8 +19,7 @@ If you're interested in your organization's compliance posture, you're going to 
 
 ![Microsoft 365 compliance center](media/m365-compliance-center.png)
 
-
-## Welcome to your Microsoft 365 compliance center
+## Welcome!
 
 When you go to your Microsoft 365 compliance center for the first time, you'll be greeted with welcome message in the upper right corner of the screen.
 
