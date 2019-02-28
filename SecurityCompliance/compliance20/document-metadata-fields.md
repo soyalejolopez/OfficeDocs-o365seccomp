@@ -1,4 +1,3 @@
-=======
 ---
 title: "Document metadata fields"
 ms.author: markjjo
