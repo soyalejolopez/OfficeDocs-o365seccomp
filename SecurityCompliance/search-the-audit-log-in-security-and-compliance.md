@@ -466,7 +466,7 @@ The following table lists the activities that can be logged by mailbox audit log
   
 ### Retention policy and label activities
 
-The following table describes the activities related to Office 365 retention policies and Office 365 retention labels For more information, see:
+The following table describes the activities related to retention policies and retention labels in the Security & Compliance Center. For more information, see:
 
 - [Overview of retention policies](retention-policies.md)
 - [Overview of retention labels](labels.md)
