@@ -108,7 +108,7 @@ To release a custodian:
 
 1.	Go to the **Custodians** tab.
 
-2.	Select the custodian from the list and click ![Release Custodian](../media/ReleaseCustodian5.PNG) on the flyout page.
+2.	Select the custodian from the list and click ![Release Custodian](../media/ReleaseCustodian.PNG) on the flyout page.
 
     The status of the custodian on the **Custodians** tab is set to **Released** and the **Hold status** on the flyout page is changed to **Inactive**. 
 
