@@ -167,7 +167,7 @@ To schedule escalations:
 
 After you have finalized the content for notifications, select the custodians that you would like to send the notifications. 
 
-![Select Custodians Page][../media/SelectCustodians.png]
+![Select Custodians Page][../media/SelectCustodians.PNG]
 
 To add custodians:
 
