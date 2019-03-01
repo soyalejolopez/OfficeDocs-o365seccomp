@@ -35,7 +35,7 @@ Follow these steps to set up and use supervision in your Office 365 organization
 
 - **Step 2 (required)** - [Make supervision available in your organization](configure-supervision-policies.md#MakeAvailable)
 
-    Add yourself to the Supervisory Review role group so you can set up policies. Anyone who has this role assigned can access the **Supervision** page under **Data Governance** in the Security & Compliance Center. If email to be reviewed is hosted on Exchange Online, each reviewer must also have [remote PowerShell access to Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/disable-access-to-exchange-online-powershell).
+    Add yourself to the Supervisory Review role group so you can set up policies. Anyone who has this role assigned can access the **Supervision** page in the Compliance Center. If email to be reviewed is hosted on Exchange Online, each reviewer must also have [remote PowerShell access to Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/disable-access-to-exchange-online-powershell).
 
 - **Step 3 (optional)** - [Configure custom sensitive information types or custom keyword dictionaries/lexicons](configure-supervision-policies.md#sensitiveinfo)
 
@@ -43,7 +43,7 @@ Follow these steps to set up and use supervision in your Office 365 organization
 
 - **Step 4 (required)** - [Set up a supervision policy](configure-supervision-policies.md#setupsuper)
 
-    You'll create supervision policies in the Security & Compliance Center. These policies define which communications are subject to review in your organization and specifies who should perform reviews. Communications include email and Microsoft Teams communications, as well as 3rd-party platform communications (such as Facebook, Twitter, etc.)
+    You'll create supervision policies in the Compliance Center. These policies define which communications are subject to review in your organization and specifies who should perform reviews. Communications include email and Microsoft Teams communications, as well as 3rd-party platform communications (such as Facebook, Twitter, etc.)
 
 - **Step 5 - (optional)** [Test your new supervision policy](configure-supervision-policies.md#TestPolicy)
 
@@ -81,7 +81,7 @@ In Contoso Financial International, a sampling of communications between brokers
 
 ## Step 2 - Make supervision available in your organization (required)
 
-To make **Supervision** available as a menu option in the Security & Compliance Center, you must be assigned the Supervisory Review Administrator role.
+To make **Supervision** available as a menu option in the Compliance Center, you must be assigned the Supervisory Review Administrator role.
   
 To do this, you can either add yourself as a member of the Supervisory Review role group, or you can create a new role group.
   
@@ -89,7 +89,7 @@ To do this, you can either add yourself as a member of the Supervisory Review ro
 
 1. Sign into [https://protection.office.com](https://protection.office.com) using credentials for an admin account in your Office 365 organization.
 
-2. In the Security & Compliance Center, go to **Permissions**.
+2. In the Compliance Center, go to **Permissions**.
 
 3. Select the **Supervisory Review** role group and then click the Edit icon.
 
@@ -99,13 +99,13 @@ To do this, you can either add yourself as a member of the Supervisory Review ro
 
 1. Sign into [https://protection.office.com](https://protection.office.com) using credentials for an admin account in your Office 365 organization.
 
-2. In the Security & Compliance Center, go to **Permissions** and then click Add (**+**).
+2. In the Compliance Center, go to **Permissions** and then click Add (**+**).
 
 3. In the **Roles** section, click Add (**+**) and scroll down to **Supervisory Review Administrator**. Add this role to the role group.
 
 4. In the **Members** section, add the people who you want to manage supervision for your organization.
 
-For more information about role groups and permissions, see [Permissions in the Office 365 Security &amp; Compliance Center](permissions-in-the-security-and-compliance-center.md).
+For more information about role groups and permissions, see [Permissions in the Compliance Center](permissions-in-the-security-and-compliance-center.md).
 
 ### Enable remote PowerShell access for reviewers (if email is hosted on Exchange Online)
 
@@ -119,7 +119,7 @@ In order to pick from existing custom sensitive information types or custom keyw
 
 ### Create custom sensitive information types
 
-1. Create a new sensitive information type in the Office 365 Security & Compliance Center. Navigate to **Classifications** \> **Sensitive info types** and follow the steps in the **New sensitive info type wizard**. Here you will:
+1. Create a new sensitive information type in the Compliance Center. Navigate to **Classifications** \> **Sensitive info types** and follow the steps in the **New sensitive info type wizard**. Here you will:
 
     - Define a name and description for the sensitive info type
     - Define the proximity, confidence level, and primary pattern elements
@@ -130,7 +130,7 @@ In order to pick from existing custom sensitive information types or custom keyw
 ### Create custom keyword dictionary/lexicon
 
 1. Using a text editor (like Notepad), create a new file that includes the keyword terms you'd like to monitor in a supervision policy. Make sure each term is on a separate line and save the file in the **Unicode/UTF-16 (Little Endian)** format.
-2. Import the keyword file into your Office 365 tenant using PowerShell. To connect to Office 365 with PowerShell, see [Connect to Office 365 Security & Compliance Center PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).
+2. Import the keyword file into your Office 365 tenant using PowerShell. To connect to Office 365 with PowerShell, see [Connect to the Compliance Center PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).
 
     After you've connected to Office 365 with PowerShell, run the following commands to import your keyword dictionary:
 
@@ -141,7 +141,7 @@ In order to pick from existing custom sensitive information types or custom keyw
     ```
     For more detailed information, see [Create a keyword dictionary](create-a-keyword-dictionary.md).
 
-3. Create a new sensitive information type in the Office 365 Security & Compliance Center. Navigate to **Classifications** \> **Sensitive info types** and follow the steps in the **New sensitive info type wizard**. Here you will:
+3. Create a new sensitive information type in the Compliance Center. Navigate to **Classifications** \> **Sensitive info types** and follow the steps in the **New sensitive info type wizard**. Here you will:
 
     - Define a name and description for the sensitive info type
     - Add your custom dictionary as a requirement for the matching element
@@ -157,7 +157,7 @@ In order to pick from existing custom sensitive information types or custom keyw
   
 1. Sign into [https://protection.office.com](https://protection.office.com) using credentials for an admin account in your Office 365 organization.
 
-2. In the Security & Compliance Center, select **Supervision**.
+2. In the Compliance Center, select **Supervision**.
   
 3. Select **Create** and then follow the wizard to set up the following pages of the policy. Using the wizard, you will:
 
@@ -198,7 +198,7 @@ To configure review for Outlook desktop or Outlook for the web, you'll need the 
 
  **To find the supervision mailbox address**
   
-1. Sign into the [Security &amp; Compliance Center](https://protection.office.com) using credentials for an admin account in your Office 365 organization.
+1. Sign into the [Compliance Center](https://compliance.microsoft.com) using credentials for an admin account in your organization.
 
 2. Go to **Supervision**.
 
