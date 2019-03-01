@@ -39,7 +39,7 @@ You have to be assigned the View-Only Audit Logs or Audit Logs role in Exchange 
       
       a. **Activities** - Click the drop-down list to display the activities that you can search for. After you run the search, only the audit records for the selected activities are displayed. Selecting **Show results for all activities** will display results for all activities that meet the other search criteria.
 
-      ![List of Activities][../media/CustodianActivityAudit.png]
+      ![List of Activities][../media/CustodianActivityAudit.PNG]
       
       b. **Start date and End date** - Select a date and time range to display the events that occurred within that period. The last seven days are selected by default. The date and time are presented in Coordinated Universal Time (UTC) format. The maximum date range that you can specify is one year.
       
