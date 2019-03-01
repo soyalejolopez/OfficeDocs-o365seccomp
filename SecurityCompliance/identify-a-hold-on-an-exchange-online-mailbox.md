@@ -6,7 +6,8 @@ manager: laurawi
 ms.date: 6/22/2018
 ms.audience: ITPro
 ms.topic: article
-ms.service: o365-administration
+ms.service: O365-seccomp
+ms.collection: M365-security-compliance
 localization_priority: Normal
 search.appverid:
 - MET150

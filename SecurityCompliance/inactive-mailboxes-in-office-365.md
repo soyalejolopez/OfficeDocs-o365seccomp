@@ -6,9 +6,11 @@ manager: laurawi
 ms.date: 6/1/2018
 ms.audience: Admin
 ms.topic: overview
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
-ms.collection: Strat_O365_IP
+ms.collection: 
+- Strat_O365_IP
+- M365-security-compliance
 search.appverid: 
 - MOE150
 - MET150

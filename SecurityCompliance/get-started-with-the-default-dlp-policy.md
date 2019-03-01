@@ -6,7 +6,7 @@ manager: laurawi
 ms.date: 8/10/2017
 ms.audience: Admin
 ms.topic: article
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid: 
 - MOE150
@@ -65,7 +65,7 @@ The widget named **Further protect shared content** appears in the **Recommended
   
 This widget appears only when:
   
-- There are no data loss prevention policies in the Security &amp; Compliance Center or Exchange Admin Center. This widget is intended to help you get started with DLP, so it doesn't appear if you already have DLP policies.
+- There are no data loss prevention policies in the Security &amp; Compliance Center or Exchange admin center. This widget is intended to help you get started with DLP, so it doesn't appear if you already have DLP policies.
     
 - Content containing least one credit card has been shared with someone outside your organization in the past 30 days.
     

@@ -5,11 +5,13 @@ author: kccross
 manager: laurawi
 audience: ITPro
 ms.topic: article
-ms.service: Office 365 Administration
+ms.service: O365-seccomp
 localization_priority: None
 search.appverid:
 - MET150
-ms.collection: Strat_O365_Enterprise
+ms.collection:
+- M365-security-compliance
+- Strat_O365_Enterprise
 description: "An overview of encryption in the Microsoft Cloud."
 ---
 
@@ -31,6 +33,7 @@ In accordance with the Public Key Infrastructure Operational Security Standard, 
 FIPS 140-2 is a standard designed specifically for validating product modules that implement cryptography rather than the products that use them. Cryptographic modules that are implemented within a service can be certified as meeting the requirements for hash strength, key management, and the like. Any time cryptographic capabilities are employed to protect the confidentiality, integrity, or availability of data in Microsoft's cloud services, the modules and ciphers used meet the FIPS 140-2 standard.
 
 Microsoft certifies the underlying cryptographic modules used in our cloud services with each new release of the Windows operating system:
+
 - Azure and Azure U.S. Government
 - Dynamics 365 and Dynamics 365 U.S. Government
 - Office 365, Office 365 U.S. Government, and Office 365 U.S. Government Defense

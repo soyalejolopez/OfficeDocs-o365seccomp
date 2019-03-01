@@ -6,13 +6,14 @@ manager: laurawi
 ms.date: 7/19/2018
 ms.audience: ITPro
 ms.topic: overview
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: e3e95f68-36e9-4256-bcca-78fe7fe5ea5d
-ms.collection: M365-security-compliance
+ms.collection: 
+- M365-security-compliance
 description: "Get an overview of reports and insights avialable in the Security &amp; Compliance Center."
 ---
 

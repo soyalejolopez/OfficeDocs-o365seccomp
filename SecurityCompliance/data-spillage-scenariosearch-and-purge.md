@@ -3,11 +3,11 @@ title: "eDiscovery solution series Data spillage scenario - Search and purge"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 
 ms.audience: ITPro
 ms.topic: article
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
+ms.collection: M365-security-compliance
 search.appverid:
 - MET150
 ms.assetid: d945f7dd-f62f-4ca7-b3e7-469824cfd493

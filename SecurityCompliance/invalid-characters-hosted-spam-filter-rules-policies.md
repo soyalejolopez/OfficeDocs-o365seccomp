@@ -1,7 +1,7 @@
 ---
 title: "Avoid invalid characters in your spam filter rules and the spam filter policy"
-ms.author: krowley
-author: kccross
+ms.author: tracyp
+author: MSFTTracyP
 manager: laurawi
 ms.date: 9/24/2018
 ms.audience: ITPro
@@ -10,12 +10,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
+ms.collection:
+- M365-security-compliance
 description: "Provides help for administrators who have invalid characters in their anti-spam configuration and run into issues when attempting to use the Security &amp; Compliance Center."
 ---
 
 # Avoid invalid characters in your spam filter rules and spam filter policy 
 
-Previously, Office 365 administrators set up and configured spam filter rules and the spam filter policy by using the Exchange Admin Center (EAC). Now, you use the Security &amp; Compliance Center to manage the your anti-spam configuration. The following characters were supported in the EAC but are not supported for use in the Security &amp; Compliance Center.  
+Previously, Office 365 administrators set up and configured spam filter rules and the spam filter policy by using the Exchange admin center (EAC). Now, you use the Security &amp; Compliance Center to manage the your anti-spam configuration. The following characters were supported in the EAC but are not supported for use in the Security &amp; Compliance Center.  
 
 **Invalid characters:**
   

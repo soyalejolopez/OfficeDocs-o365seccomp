@@ -6,11 +6,14 @@ manager: laurawi
 ms.date: 12/03/2018
 audience: ITPro
 ms.topic: article
-ms.service: Office 365 Administration
+ms.service: O365-seccomp
 localization_priority: None
 search.appverid:
 - MET150
-ms.collection: Strat_O365_Enterprise
+ms.collection:
+- Strat_O365_IP
+- M365-security-compliance
+- M365-analytics
 description: "An overview of auditing and reporting features within Office 365, as well as Service Assurance."
 ---
 

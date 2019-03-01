@@ -8,7 +8,7 @@ ms.date: 02/11/2019
 ms.topic: overview
 f1_keywords:
 - '197503'
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: 
 - Strat_O365_IP
@@ -29,13 +29,13 @@ description: "The Safe Links feature provides time-of-click verification of hype
 ## Overview of Office 365 ATP Safe Links
 
 > [!IMPORTANT]
-> This article is intended for business customers. If you are a home user looking for information about Safe Links in Outlook, see [Advanced Outlook.com security](https://support.office.com/article/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2).
+> This article is intended for Office 365 Enterprise customers. If you are using Outlook.com, Office 365 Home, or Office 365 Personal, and you're looking for information about Safe Links in Outlook, see [Advanced Outlook.com security](https://support.office.com/article/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2).
 
 Office 365 ATP Safe Links (part of [Advanced Threat Protection](office-365-atp.md)) can help protect your organization by providing time-of-click verification of web addresses (URLs) in [email messages](#how-atp-safe-links-works-with-email) and [Office documents](#how-atp-safe-links-works-with-office-documents). Protection is defined through [ATP Safe Links policies](set-up-atp-safe-links-policies.md) that are set by your Office 365 security team. 
   
 Once your ATP Safe Links policies are in place, Office 365 global administrators, security administrators, and security readers can [view reports for Advanced Threat Protection](view-reports-for-atp.md). The information in those reports can help your security team take further steps to protect your organization or research security incidents.
 
-As [new features are added to ATP](office-365-atp.md#new-features-are-continually-being-added-to-atp), your Office 365 security team can add or edit your organization's ATP Safe Links policies. In addition, you might notice changes and improvements, such as our newly revised [warning pages](atp-safe-links-warning-pages.md) and native link rendering in Outlook.
+As [new features are added to ATP](office-365-atp.md#new-features-in-office-365-atp), your Office 365 security team can add or edit your organization's ATP Safe Links policies. In addition, you might notice changes and improvements, such as our newly revised [warning pages](atp-safe-links-warning-pages.md) and native link rendering in Outlook.
          
 ## How ATP Safe Links works with URLs in email
 
@@ -98,7 +98,7 @@ ATP Safe Links features are active when:
     
 - **Your organization's email passes through Exchange Online Protection**.  
 
-To define (or edit) ATP policies, you must be assigned one of the roles described in the following table:
+To define (or edit) ATP policies, you must be assigned an appropriate role. Some examples are described in the following table:
 
 |Role  |Where/how assigned  |
 |---------|---------|

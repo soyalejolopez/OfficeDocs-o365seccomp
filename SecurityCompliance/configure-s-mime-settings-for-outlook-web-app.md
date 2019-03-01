@@ -1,9 +1,8 @@
 ---
-title: "Configure S/MIME settings for Outlook Web App"
-ms.author: krowley
-author: kccross
-manager: laurawi
-ms.date: 4/8/2015
+title: "Configure S/MIME settings in Exchange Online for Outlook on the web"
+ms.author: chrisda
+author: chrisda
+manager: serdars
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -12,19 +11,23 @@ localization_priority: Normal
 search.appverid:
 - MET150
 ms.assetid: c7dee22c-9b5b-425c-91a9-d093204ff84e
-description: "As an organization administrator for both Exchange 2013 and Exchange Online, you can set up Outlook Web App to allow sending and receiving S/MIME-protected messages. Use the SMIMEConfig cmdlet to manage this feature through the Exchange Management Shell interface."
+ms.collection:
+- M365-security-compliance
+description: "A brief description of what Exchange Online admins need to do to view and configure the S/MIME settings in Outlook on the web in Exchange Online."
 ---
 
-# Configure S/MIME settings for Outlook Web App
+# Configure S/MIME settings in Exchange Online for Outlook on the web
 
-As an organization administrator for both Exchange 2013 and Exchange Online, you can set up Outlook Web App to allow sending and receiving S/MIME-protected messages. Use the  `SMIMEConfig` cmdlet to manage this feature through the Exchange Management Shell interface. 
-  
-For more information such as a detailed description of parameters and examples for  `get-SMIMEConfig` and  `set-SMIMEConfig`, see the [Get-SmimeConfig](http://technet.microsoft.com/library/4b29fa89-0840-4fe9-8885-019fcef2e02b.aspx) and [Set-SmimeConfig](http://technet.microsoft.com/library/de357ce0-8143-4c36-8032-026292fc63f0.aspx) documentation. 
-  
-You can only use the Shell to perform this procedure. To learn how to open the Exchange Management Shell in your on-premises Exchange organization, see **Open the Shell**. To learn how to use Windows PowerShell to connect to Exchange Online, see [Connect to Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?linkid=396554).
-  
+As an admin for Exchange Online, you can set up Outlook on the web (formerly known as Outlook Web App) to allow sending and receiving S/MIME-protected messages. Use the **Get-SmimeConfig** and **Set-SmimeConfig** cmdlets to view and manage this feature in Exchange Online PowerShell. To connect to Exchange Online PowerShell, see [Connect to Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?linkid=396554).
+
+For detailed syntax and parameter information, see [Get-SmimeConfig](http://technet.microsoft.com/library/4b29fa89-0840-4fe9-8885-019fcef2e02b.aspx) and [Set-SmimeConfig](http://technet.microsoft.com/library/de357ce0-8143-4c36-8032-026292fc63f0.aspx).
+
+## Considerations for Chrome
+
+To use S/MIME in Outlook on the web in the Google Chrome web browser, you (or another admin) must set and configure the Chromium policy named **ExtensionInstallForcelist** to install the Microsoft S/MIME extension in Chrome. The policy should use the syntax: `<extension-id>;https://outlook.office.com/owa/SmimeCrxUpdate.ashx` For example: `maafgiompdekodanheihhgilkjchcakm;https://outlook.office.com/owa/SmimeCrxUpdate.ashx`. And note that applying this policy requires domain-joined computers, so using S/MIME in Chrome effectively requires domain-joined computers.
+
+This step is a prerequisite for using Chrome; it does not replace the S/MIME control that's installed by users. For details about the **ExtensionInstallForcelist** policy, see [ExtensionInstallForcelist](http://dev.chromium.org/administrators/policy-list-3#ExtensionInstallForcelist).
+
 ## For more information
 
 [S/MIME for message signing and encryption](s-mime-for-message-signing-and-encryption.md)
-  
-
