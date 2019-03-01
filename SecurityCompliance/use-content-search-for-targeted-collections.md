@@ -150,7 +150,7 @@ To display a list of mailbox folders or site documentlink (path) names:
           {
               $rawUrl = $match.Value
               $rawUrl = $rawUrl -replace "Data Link: " -replace "," -replace "}"
-              Write-Host "documentlink:""$rawUrl"""
+              Write-Host "DocumentLink:""$rawUrl"""
           }
       }
       else
