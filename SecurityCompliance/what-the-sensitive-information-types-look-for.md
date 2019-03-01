@@ -1001,15 +1001,11 @@ A DLP policy is 75% confident that it's detected this type of sensitive informat
 
 ### Format
 
-6-10 digits with or without a bank state branch number
+The string "userpwd=" followed by an alphanumeric string.
 
 ### Pattern
 
-Account number is 6-10 digits.
-Australia bank state branch number:
-- Three digits 
-- A hyphen 
-- Three digits
+The string "userpwd=" followed by any combination of up to 60 letters or digits.
 
 ### Checksum
 
@@ -1018,46 +1014,37 @@ No
 ### Definition
 
 A DLP policy is 85% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:
-- The regular expression Regex_australia_bank_account_number finds content that matches the pattern..
-- A keyword from Keyword_australia_bank_account_number is found.
-- The regular expression Regex_australia_bank_account_number_bsb finds content that matches the pattern.
-
-A DLP policy is 75% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:
-- The regular expression Regex_australia_bank_account_number finds content that matches the pattern..
-- A keyword from Keyword_australia_bank_account_number is found.
+- The regular expression CEP_Regex_AzurePublishSettingPasswords finds content that matches the pattern.
+- The regular expression CEP_CommonExampleKeywords does **not** find content that matches the pattern.
 
 ```
-<!-- Australia Bank Account Number -->
-<Entity id="74a54de9-2a30-4aa0-a8aa-3d9327fc07c7" patternsProximity="300" recommendedConfidence="75">
+<!--Azure Storage Account Key-->
+<Entity id="c7bc98e8-551a-4c35-a92d-d2c8cda714a7" patternsProximity="300" recommendedConfidence="85">
   <Pattern confidenceLevel="85">
-        <IdMatch idRef="Regex_australia_bank_account_number" />
-        <Match idRef="Keyword_australia_bank_account_number" />
-        <Match idRef="Regex_australia_bank_account_number_bsb" />
+        <IdMatch idRef="CEP_Regex_AzureStorageAccountKey" />
+        <Any minMatches="0" maxMatches="0">
+            <Match idRef="CEP_AzureEmulatorStorageAccountFilter" />
+            <Match idRef="CEP_CommonExampleKeywords" />
+        </Any>
   </Pattern>
-  <Pattern confidenceLevel="75">
-        <IdMatch idRef="Regex_australia_bank_account_number" />
-        <Match idRef="Keyword_australia_bank_account_number" />
-  </Pattern>
- </Entity>
+</Entity>
 ```
 
 ### Keywords
 
-#### Keyword_australia_bank_account_number
+#### CEP_CommonExampleKeywords
 
-- swift bank code
-- correspondent bank
-- base currency
-- usa account
-- holder address
-- bank address
-- information account
-- fund transfers
-- bank charges
-- bank details
-- banking information
-- full names
-- iaea
+(Note that technically, this sensitive information type identifies these keywords by using a regular expression, not a keyword list.)
+
+- contoso
+- fabrikam
+- northwind
+- sandbox
+- onebox
+- localhost
+- 127.0.0.1
+- testacs.<no-hyperlink>com
+- s-int.<no-hyperlink>net
 
 ## Azure Storage Account Key (Generic)
 
