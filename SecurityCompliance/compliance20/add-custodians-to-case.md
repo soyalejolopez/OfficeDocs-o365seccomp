@@ -63,7 +63,7 @@ To map mailboxes, sites, or teams to a specific custodian:
 1. Select **Add** to assign content locations, like mailboxes, sites, and Teams, to a specific custodian. 
 
 2. In the flyout, specify the following:
-   ![Map Data Sources](./media/Add_Custodian_Step_4.PNG)
+   ![Map Data Sources](./media/AddCustodianStep_4.PNG)
   -  **Exchange Mailboxes** - Click **Choose users, groups, or Teams** and then click **Choose users, groups, or teams** again. To specify mailboxes to assign to the selected custodian, use the search box to find user mailboxes and distribution groups. You can also assign the associated mailbox for an Office 365 Group or a Microsoft Team. Select the user, group, team check box, click **Choose**, and then click **Done**.
 
       > [!NOTE]
@@ -78,7 +78,7 @@ To map mailboxes, sites, or teams to a specific custodian:
 After you have finished mapping your sources, you can view the total mailboxes, sites, and Teams for the custodians that you have just added. When you've finalized the data sources relevant for a specific custodian, this mapping will be maintained and extended to the eDiscovery collection, processing, and review workflows. 
 
 ## (Optional) Step 4: Place custodians on hold
-![Place Holds](./media/Add_Custodian_Step_5.PNG)
+![Place Holds](./media/AddCustodianStep5.PNG)
 
 To place the selected custodians and data sources on hold:
   1. Verify your custodian selections and select the checkox to place each custodian on hold.Once a custodian is placed on hold, a custodian hold policy containing all custodial sources will automatically be created. If the option is not checked, the custodian & selected data sources will be added to the case but the content will not be preserved.
