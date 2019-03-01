@@ -29,9 +29,15 @@ Send the phishing messages _as attachments_ in a new, otherwise empty message to
 
 ## Inspect the message headers
 
-In Outlook, you can view the message headers in an open message by clicking **File** \> **Properties**. The message headers are shown in the **Internet headers** field. For ease of reading, you can click anywhere in the **Internet headers** field, press Ctrl+A, then Ctrl+C, and then you can paste the results in Notepad.
+One of the first things you should do is examine the headers of the phishing message to see if there's anything that you can do yourself to prevent more phishing messages from coming through.
 
-The first header field you should check is **X-Forefront-Antispam-Report**. Specifically, you are looking for indications of skipped spam or phish filtering in the Spam Filtering Verdict (SFV) or IP Filter Verdict (IPV) fields. The values to look for are described in the following table:
+Specifically, you you should check the **X-Forefront-Antispam-Report** header field in the message headers for indications of skipped spam or phish filtering in the Spam Filtering Verdict (SFV) or IP Filter Verdict (IPV) values.
+
+In Outlook, you can view the message headers in an open message by clicking **File** \> **Properties**. The message headers are shown in the **Internet headers** field. For ease of reading, you can click anywhere in the **Internet headers** field, press Ctrl+A, and then Ctrl+C to copy everything to the clipboard.
+
+You can paste the raw results in Notepad, or you can paste them into the [Message Header Analyzer](https://testconnectivity.microsoft.com/MHA/Pages/mha.aspx) or the [Message Header Analyzer app for Office](http://go.microsoft.com/?linkid=9842186) to get a formatted, friendly view of the message headers.
+
+The important values that indicate skipped filtering are described in the following table:
 
 |**Value**|**Description**|
 |:-----|:-----|
@@ -42,10 +48,13 @@ The first header field you should check is **X-Forefront-Antispam-Report**. Spec
 |`SFV:SKI`|Similar to `SFV:SKN`, the message skipped filtering for another reason such as being intra-organizational email within a tenant.|
 |`SFV:SKQ`|The message was released from the quarantine and was sent to the intended recipients.|
 
+**SFV:SKA**: Under no circumstances should you configure your own domain in **Allowed domains** in a spam filter policy. This is an open invitation to received spoofed messages from anywhere. Likewise, you shouldn't configure internal email addresses in **Allowed senders** in a spam filter policy. Although the risk isn't as great as the entire domain, you can still receive spoofed email messages from the allowed senders in your domain.
 
-**IPV:CAL**: Verify that you aren't allowing your own domain in the connection filter policy! This is an open invitation to received spoofed messages from anywhere.
+**SFV:SKN**: Mail flow rules with conditions based on domains that allow messages to completely bypass anti-spam filtering are dangerous.
 
-`SFV:SE`: This sounds like Safelist Aggregation. Is this even available?
+**SFV:SKI**: This is a truly spoofed message that appears to come from an original sender. 
+
+**SFV:SE**: This sounds like Safelist Aggregation. Is this even available?
 
 Looking for skips in the protection stack
 
@@ -54,14 +63,6 @@ SKA/SKN/SKI whitelisted
 SPF/DKIM/DMARC header information not Send-To/To
 
 SKI (Skipped) Spoofed; looks real fails on final phishing filter
-
-
-
-b.	Header tool 
-
-[Message Header Analyzer](https://testconnectivity.microsoft.com/MHA/Pages/mha.aspx)
-
-[Message Header Analyzer app for Office](http://go.microsoft.com/?linkid=9842186)
 
 Message released from quarantine?. or message trace
 
@@ -92,10 +93,14 @@ ATP: Threat explorer, etc.
 
 ## Step 5: Best practices to stay protected
 
-a.	Allow lists/ETRs that cause problems
-    i.	Your own domain on the allow list. IP/Domain allows in ETRs, SCL -1 on ETRs
 
-MX records point to O365; turn on quarantine (keep messages from Junk folder)
+- Never configure your own domain in **Allowed domains** in a spam filter policy. Instead, configure SPF, DKIM, and DMARC for your domain to accurately identify all sources for messages from senders in your domain.
+
+- Don't use mail flow rules that exempt messages from anti-spam filtering based on domains or source IP addresses. Instead, configure SPF, DKIM, and DMARC for your domain to accurately identify all sources for messages from senders in your domain.
+
+- Whenever possible, deliver email for your domain directly to Office 365 (in other words, point your domain's MX record to Office 365).
+
+- Quarantine suspicious messages in quarantine; don't deliver suspicious messages to users' Junk Email folder. For more information, see [Quarantine email messages in Office 365](quarantine-email-messages.md).
 
 One-button ATP setup
 
