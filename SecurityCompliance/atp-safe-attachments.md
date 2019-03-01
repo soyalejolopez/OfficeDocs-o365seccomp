@@ -13,6 +13,7 @@ search.appverid:
 - MOE150
 ms.assetid: 6e13311e-92ae-495e-a619-56d770199170
 ms.collection:
+- Strat_O365_IP
 - M365-security-compliance
 - Strat_O365_IP
 description: "The Safe Attachments feature provides time-of-click verification of email attachments. Use Safe Attachments to protect your organization from malicious files people send or receive in email."
