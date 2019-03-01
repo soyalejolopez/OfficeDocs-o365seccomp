@@ -69,13 +69,19 @@ Description automatically generated](../media/Bulktag.png)
 > [!NOTE]
 > When bulk tagging, the tagging panel will display a count of files that are tagged for each tag in the panel.
 
-### Tagging in the related panel
+### Tagging in other review panels
 
-The **Document family** panel displays various types of related content including email family, email threading, near duplicates, and hash duplicates. Often times review time can be reduced significantly by bulk tagging related content. For example, an email has several attachments and you want to ensure that the entire family is tagged consistently.
+When reviewing documents, you can use the other review panels to review other characteristics of documents in the results grid. This includes reviewing other related documents, email threads, near duplicates, and hash duplicates. For example, when your reviewing related documents (by using the **Document family** review panel), you can significantly reduce review time by bulk tagging related documents. For example, if an email message has several attachments and you want to ensure that the entire family is tagged consistently.
 
-1. With the related panel open displaying the list of related content, click the “Tag documents” button within the related panel.
+For example, here's how to display the **Coding panel** when using the **Document family** review panel:
 
-2. This will generate a pop-up with the tag panel allowing you to tag the entire family at once.
+1. With the review panel open for a selected document (for example, displaying the list of related content in the **Document family** review panel, click **Code documents** at the top of the current review panel.
+
+   The Coding panel is displayed is a pop-up window.
+
+2. Choose one or more tags to apply the selected document. 
+
+3. To tag all documents, select all documents in the **Document family** panel, click **Code documents**, and then choose the tags to apply to the entire family of documents.
 
 ![A screenshot of a social media post
 Description automatically generated](../media/Relatedtag.png)
