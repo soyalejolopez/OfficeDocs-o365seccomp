@@ -939,15 +939,23 @@ A DLP policy is 75% confident that it's detected this type of sensitive informat
 
 ### Format
 
-6-10 digits with or without a bank state branch number
+The string "EndPoint" followed by the characters and strings outlined in the pattern below, including the strings "servicebus.windows.net" and "SharedAccesKey".
 
 ### Pattern
 
-Account number is 6-10 digits.
-Australia bank state branch number:
-- Three digits 
-- A hyphen 
-- Three digits
+- The string "EndPoint"
+- 0-2 whitespace characters
+- An equal sign (=)
+- 0-2 whitespace characters
+- Any combination of between 1-200 ????? characters
+- The string "servicebus.windows.net"
+- Any combination of between 1-200 ????? characters
+- The string "SharedAccessKey"
+- 0-2 whitespace characters
+- An equal sign (=)
+- 0-2 whitespace characters
+- Any combination of 43 lower- or uppercase letters, digits, forward slash (/), or plus sign (+)
+- An equal sign (+)
 
 ### Checksum
 
@@ -956,52 +964,42 @@ No
 ### Definition
 
 A DLP policy is 85% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:
-- The regular expression Regex_australia_bank_account_number finds content that matches the pattern..
-- A keyword from Keyword_australia_bank_account_number is found.
-- The regular expression Regex_australia_bank_account_number_bsb finds content that matches the pattern.
-
-A DLP policy is 75% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:
-- The regular expression Regex_australia_bank_account_number finds content that matches the pattern..
-- A keyword from Keyword_australia_bank_account_number is found.
+- The regular expression CEP_Regex_AzureServiceBusConnectionString finds content that matches the pattern..
+- The regular expression CEP_CommonExampleKeywords does **not** find content that matches the pattern.
 
 ```
-<!-- Australia Bank Account Number -->
-<Entity id="74a54de9-2a30-4aa0-a8aa-3d9327fc07c7" patternsProximity="300" recommendedConfidence="75">
+<!--Azure Service Bus Connection String-->
+<Entity id="b9a6578f-a83f-4fcd-bf44-2130bae49a6f" patternsProximity="300" recommendedConfidence="85">
   <Pattern confidenceLevel="85">
-        <IdMatch idRef="Regex_australia_bank_account_number" />
-        <Match idRef="Keyword_australia_bank_account_number" />
-        <Match idRef="Regex_australia_bank_account_number_bsb" />
+        <IdMatch idRef="CEP_Regex_AzureServiceBusConnectionString" />
+        <Any minMatches="0" maxMatches="0">
+            <Match idRef="CEP_CommonExampleKeywords" />
+        </Any>
   </Pattern>
-  <Pattern confidenceLevel="75">
-        <IdMatch idRef="Regex_australia_bank_account_number" />
-        <Match idRef="Keyword_australia_bank_account_number" />
-  </Pattern>
- </Entity>
+</Entity>
 ```
 
 ### Keywords
 
-#### Keyword_australia_bank_account_number
+#### CEP_CommonExampleKeywords
 
-- swift bank code
-- correspondent bank
-- base currency
-- usa account
-- holder address
-- bank address
-- information account
-- fund transfers
-- bank charges
-- bank details
-- banking information
-- full names
-- iaea
+(Note that technically, this sensitive information type identifies these keywords by using a regular expression, not a keyword list.)
+
+- contoso
+- fabrikam
+- northwind
+- sandbox
+- onebox
+- localhost
+- 127.0.0.1
+- testacs.<no-hyperlink>com
+- s-int.<no-hyperlink>net
 
 ## Azure Storage Account Key
 
 ### Format
 
-The string "DefaultEndpointsProtocol" followed by an alphanumeric string
+The string "DefaultEndpointsProtocol" followed by the characters and strings outlined in the pattern below, including the string "AccountKey".
 
 ### Pattern
 
@@ -1015,6 +1013,7 @@ The string "DefaultEndpointsProtocol" followed by an alphanumeric string
 - An equal sign (=)
 - 0-2 whitespace characters
 - Any combination of 86 lower- or uppercase letters, digits, forward slash (/), or plus sign (+)
+- Two equal signs (=)
 
 ### Checksum
 
