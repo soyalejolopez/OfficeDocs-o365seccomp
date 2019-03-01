@@ -8,12 +8,12 @@ ms.audience: Admin
 ms.topic: overview
 ms.service: O365-seccomp
 localization_priority: Priority
-ms.collection: Strat_O365_IP
 search.appverid: 
 - MOE150
 - MET150
 ms.assetid: 07824c51-2c45-4005-8596-03c0d7c4ff2a
 ms.collection:
+- Strat_O365_IP
 - M365-security-compliance
 description: "Learn the most common ways to help reduce spam and junk mail in Office 365."
 ---

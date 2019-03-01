@@ -9,8 +9,8 @@ ms.service: O365-seccomp
 localization_priority: None
 search.appverid:
 - MET150
-ms.collection: Strat_O365_Enterprise
 ms.collection:
+- Strat_O365_Enterprise
 - M365-security-compliance
 description: "Summary: Understand data resiliency in Microsoft Office 365."
 ---
