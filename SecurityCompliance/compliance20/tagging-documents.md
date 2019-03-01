@@ -19,57 +19,63 @@ description: ""
 
 # Tag documents in a working set
 
-## Tag Overview
+Organizing content in a working set is important to complete various workflows in the eDiscovery process. This includes:
 
-Organizing content within a working set is important in order to complete various workflows including culling unnecessary content, identifying relevant content, identifying content that needs review by an expert/attorney, etc. As users are understanding the content, their opinions related to the content can be captured using tags. For example, if the intent is to cull unnecessary content, a user can tag documents with a tag such as “non-responsive” and later a search can be created to exclude any content tagged as “non-responsive” thereby eliminating that content from the next step in the flow. Tag panels can be customized for every case so that it supports the intended review workflow.
+-  Culling unnecessary content.
 
-## Tag Types
+- Identifying relevant content.
+ 
+-  Identifying content that must be reviewed by an expert or an attorney.
 
-Advanced eDiscovery provides two different tag types. Single choice tags will restrict users to select a single tag within a group. This can be useful to ensure users don’t select conflicting tags such as “responsive” and “nonresponsive”. Multiple choice tags allow users to select multiple tags within a group.
+When experts, attorneys, or other users review content in a working set, their opinions related to the content can be captured by using tags. For example, if the intent is to cull unnecessary content, a user can tag documents with a tag such as “non-responsive”. After content has been reviewed and tagged, a working set search can be created to exclude any content tagged as “non-responsive”, which eliminates this content from the next steps in the eDiscovery workflow. The tag panel can be customized for every case so that the tags can support the intended review workflow.
 
-## Tag Structure
+## Tag types
 
-Beyond the tag types, structure can also be used to make tagging document more intuitive. Tags are grouped by sections. Working set search supports the ability to search by tag **and** section meaning a search can be created to retrieve documents tagged with any tag within a section.
+Advanced eDiscovery (Preview) provides two types of tags:
 
-![A screenshot of a cell phone
-Description automatically generated](../media/Tagtypes.png)
+- **Single choice tags** - Restricts users to select a single tag within a group. This can be useful to ensure users don’t select conflicting tags such as “responsive” and “non-responsive”. 
 
-Along with sections, tags can be organized with nesting. For example, if the intent is to identify privileged content and record the type of privilege, nesting can be used to make it clear that a user can tag a document as “Privileged” and select the type of privilege by checking the appropriate nested tags.
+- **Multiple choice tags** - Allow users to select multiple tags within a group.
 
-![A screenshot of a cell phone
-Description automatically generated](../media/Nestingtags.png)
+## Tag structure
 
-## Applying Tags
+In addition to the tag types, the structure of how tags are organization in the tag panel can be used to make tagging documents more intuitive. Tags are grouped by sections. Working set search supports the ability to search by tag and by tag section. This means you can create a working set search to retrieve documents tagged with any tag in a section.
 
-There are several ways to apply a tag to content:
+![Tag sections in the tag panel](../media/Tagtypes.png)
 
-### 
+Tags can be further organized by nesting them within a section. For example, if the intent is to identify and tag privileged content, nesting can be used to make it clear that a user can tag a document as “Privileged” and select the type of privilege by checking the appropriate nested tag.
+
+![Nested tags within a tag section](../media/Nestingtags.png)
+
+## Applying tags
+
+There are several ways to apply a tag to content.
 
 ### Tagging a single document
 
-When viewing a document in a working set, the tag panel can be viewed by ensuring Tag Panel is selected
+When viewing a document in a working set, you can display the tags that a review can use by clicking **Coding panel**.
 
-![A screenshot of a computer
-Description automatically generated](../media/Singledoctag.png)
+![Click Tag panel to display the tag panel](../media/Singledoctag.png)
 
-This method will apply tags to the file in the viewer.
+This will enable you to apply tags to the document displayed in the viewer.
 
 ### Bulk tagging
 
-Bulk tagging can be done by selecting multiple files in the results grid and interacting with the panel similar to tagging single documents. Bulk un-tagging can be done by selecting tags twice; the first click will apply the tag, the second selection will ensure that tag is clear for all selected files.
+Bulk tagging can be done by selecting multiple files in the results grid and then using the tags in the **Coding panel** similar to tagging single documents. Bulk un-tagging can be done by selecting tags twice; the first click will apply the tag, and the second selection will ensure that tag is cleared for all selected files.
 
 ![A screenshot of a cell phone
 Description automatically generated](../media/Bulktag.png)
 
-Note: When bulk tagging, the tag panel will display a count of files for each tag in the panel.
+> [!NOTE]
+> When bulk tagging, the tagging panel will display a count of files that are tagged for each tag in the panel.
 
 ### Tagging in the related panel
 
-The related panel will display various forms of related content including email family, email threading, near duplicates and hash duplicates. Often times review time can be reduced significantly by bulk tagging related content. For example, an email has several attachments and you want to ensure that the entire family is tagged consistently.
+The **Document family** panel displays various types of related content including email family, email threading, near duplicates, and hash duplicates. Often times review time can be reduced significantly by bulk tagging related content. For example, an email has several attachments and you want to ensure that the entire family is tagged consistently.
 
-1.  With the related panel open displaying the list of related content, click the “Tag documents” button within the related panel.
+1. With the related panel open displaying the list of related content, click the “Tag documents” button within the related panel.
 
-2.  This will generate a pop-up with the tag panel allowing you to tag the entire family at once.
+2. This will generate a pop-up with the tag panel allowing you to tag the entire family at once.
 
 ![A screenshot of a social media post
 Description automatically generated](../media/Relatedtag.png)
