@@ -1,17 +1,19 @@
 ---
 title: "Safety tips in email messages in Office 365"
-ms.author: krowley
-author: kccross
+ms.author: tracyp
+author: MSFTTracyP
 manager: scotv
 ms.date: 10/6/2016
 ms.audience: Admin
 ms.topic: overview
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
 - BCS160
 ms.assetid: fb4f8e49-0468-4be2-8fa6-99501f1ad9d5
+ms.collection:
+- M365-security-compliance
 description: "Introduces safety tips for email messages filtered by the EOP and Office 365 spam filter."
 ---
 

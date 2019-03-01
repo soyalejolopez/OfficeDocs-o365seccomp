@@ -3,7 +3,6 @@ title: "Anti-spam message headers"
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date:
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -12,6 +11,8 @@ localization_priority: Normal
 search.appverid:
 - MET150
 ms.assetid: 2e3fcfc5-5604-4b88-ac0a-c5c45c03f1db
+ms.collection:
+- M365-security-compliance
 description: "When Exchange Online Protection scans an inbound email message it inserts the **X-Forefront-Antispam-Report** header into each message."
 ---
 
@@ -40,16 +41,16 @@ After accessing the message header information, search for **X-Forefront-Antispa
 |IPV:CAL|The message was allowed through the spam filters because the IP address was specified in an IP Allow list in the connection filter.|
 |IPV:NLI|The IP address was not listed on any IP reputation list.|
 |SFV:SPM|The message was marked as spam by the content filter.|
-|SFV:SKS|The message was marked as spam prior to being processed by the content filter. This includes messages where the message matched a Transport rule to automatically mark it as spam and bypass all additional filtering.|
+|SFV:SKS|The message was marked as spam prior to being processed by the content filter. This includes messages where the message matched a mail flow rule (also known as a transport rule) to automatically mark it as spam and bypass all additional filtering.|
 |SFV:SKA|The message skipped filtering and was delivered to the inbox because it matched an allow list in the spam filter policy, such as the **Sender allow** list.|
 |SFV:SKB|The message was marked as spam because it matched a block list in the spam filter policy, such as the **Sender block** list.|
-|SFV:SKN|The message was marked as non-spam prior to being processed by the content filter. This includes messages where the message matched a transport rule to automatically mark it as non-spam and bypass all additional filtering.|
+|SFV:SKN|The message was marked as non-spam prior to being processed by the content filter. This includes messages where the message matched a mail flow rule to automatically mark it as non-spam and bypass all additional filtering.|
 |SFV:SKI|Similar to SFV:SKN, the message skipped filtering for another reason such as being intra-organizational email within a tenant.|
 |SFV:SKQ|The message was released from the quarantine and was sent to the intended recipients.|
 |SFV:NSPM|The message was marked as non-spam and was sent to the intended recipients.|
 |H: [helostring]|The HELO or EHLO string of the connecting mail server.|
 |PTR: [ReverseDNS]|The PTR record, or pointer record, of the sending IP address, also known as the reverse DNS address.|
-|SFTY|The message was identified as phishing and will also be marked with one of the following values: <br/>• 9.1: Default value. The message contains a phishing URL, may contain other phishing content, or may have been marked as phishing by another mail filter such as an on-premises version of Exchange Server before relaying the message to Office 365. <br/>• 9.11: Message failed anti-spoofing checks where the sending domain in the From: header is the same as, or aligns with, or is part of the same organization as the receiving domain. This indicates a intra-org spoofing safety tip will be added to the message. <br/>• 9.19: Message failed domain impersonation checks where the sending domain is attempting to impersonate a domain owned by the receiver, or a custom domain protected by the Anti-Phishing policy. This indicates an impersonation safety tip will be added to the message, if enabled via the Anti-Phishig policy. <br/>• 9.20: Message failed user impersonation checks where the sending user is attempting to impersonate a user within receivers organization, or a custom user protected by the Anti-Phishing policy. This indicates an impersonation safety tip will be added to the message, if enabled via the Anti-Phishig policy. <br/>• 9.21: Message failed anti-spoofing checks and the sending domain in the From: header does not authenticate and is from an external domain. Used in combination with CompAuth (see Authentication-Results). <br/>• 9.22: Same as 9.21, except that the user has a safe sender that was overridden. <br/>• 9.23: Same as 9.22, except that the organization has an allowed sender or domain that was overridden. <br/>• 9.24: Same as 9.23, except that the user has an Exchange mail flow rule that was overridden.|
+|SFTY|The message was identified as phishing and will also be marked with one of the following values: <br/>• 9.1: Default value. The message contains a phishing URL, may contain other phishing content, or may have been marked as phishing by another mail filter such as an on-premises version of Exchange Server before relaying the message to Office 365. <br/>• 9.11: Message failed anti-spoofing checks where the sending domain in the From: header is the same as, or aligns with, or is part of the same organization as the receiving domain. This indicates a intra-org spoofing safety tip will be added to the message. <br/>• 9.19: Message failed domain impersonation checks where the sending domain is attempting to impersonate a domain owned by the receiver, or a custom domain protected by the Anti-Phishing policy. This indicates an impersonation safety tip will be added to the message, if enabled via the Anti-Phishing policy. <br/>• 9.20: Message failed user impersonation checks where the sending user is attempting to impersonate a user within receivers organization, or a custom user protected by the Anti-Phishing policy. This indicates an impersonation safety tip will be added to the message, if enabled via the Anti-Phishing policy. <br/>• 9.21: Message failed anti-spoofing checks and the sending domain in the From: header does not authenticate and is from an external domain. Used in combination with CompAuth (see Authentication-Results). <br/>• 9.22: Same as 9.21, except that the user has a safe sender that was overridden. <br/>• 9.23: Same as 9.22, except that the organization has an allowed sender or domain that was overridden. <br/>• 9.24: Same as 9.23, except that the user has an Exchange mail flow rule that was overridden.|
 |X-CustomSpam: [ASFOption]|The message matched an advanced spam filtering  option. For example, **X-CustomSpam: Image links to remote sites** denotes that the **Image links to remote sites** ASF option was matched. To find out which X-header text is added for each specific ASF option, see [Advanced spam filtering  options](advanced-spam-filtering-asf-options.md).|
    
 ## X-Microsoft-Antispam message header fields

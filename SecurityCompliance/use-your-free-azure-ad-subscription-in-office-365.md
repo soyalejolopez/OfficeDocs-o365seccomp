@@ -6,8 +6,9 @@ manager: laurawi
 ms.date: 6/8/2018
 ms.audience: Admin
 ms.topic: article
-ms.service: o365-administration
-localization_priority: Priority
+ms.service: O365-seccomp
+localization_priority: Priority\
+ms.collection: M365-security-compliance
 search.appverid: 
 - MOE150
 - MET150

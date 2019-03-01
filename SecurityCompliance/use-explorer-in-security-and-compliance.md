@@ -6,13 +6,14 @@ manager: laurawi
 ms.date: 02/13/2019
 ms.audience: ITPro
 ms.topic: article
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: 82ac9922-939c-41be-9c8a-7c75b0a4e27d
-ms.collection: M365-security-compliance
+ms.collection: 
+- M365-security-compliance
 description: "Learn about Explorer (also called Threat Explorer) in the Security &amp; Compliance Center."
 ---
 

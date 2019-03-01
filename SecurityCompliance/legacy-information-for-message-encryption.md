@@ -1,16 +1,18 @@
 ---
 title: "Legacy information for Office 365 Message Encryption"
-ms.author: krowley
-author: kccross
+ms.author: tracyp
+author: MSFTTracyP
 manager: laurawi
 ms.date: 1/4/2018
 ms.audience: ITPro
 ms.topic: article
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: None
 search.appverid:
 - MET150
 ms.assetid: 5986b9e1-c824-4f8f-9b7d-a2b0ae2a7fe9
+ms.collection:
+- M365-security-compliance
 description: "If you haven't yet moved your Office 365 organization to the new OME capabilities, but you have already deployed OME, then the information in this article applies to your organization. Microsoft recommends that you make a plan to move to the new OME capabilities as soon as it is reasonable for your organization. For instructions, see Set up new Office 365 Message Encryption capabilities built on top of Azure Information Protection. If you want to find out more about how the new capabilities work first, see Office 365 Message Encryption. The rest of this article refers to OME behavior before the release of the new OME capabilities."
 ---
 
@@ -160,7 +162,7 @@ RMS provides Information Rights Protection capabilities for an organization's in
   
  **Q. How is Office 365 Message Encryption different from S/MIME?**
   
-S/MIME is essentially a client-side encryption technology, and requires complicated certificate management and publishing infrastructure. Office 365 Message Encryption uses transport rules and does not depend on certificate publishing.
+S/MIME is essentially a client-side encryption technology, and requires complicated certificate management and publishing infrastructure. Office 365 Message Encryption uses mail flow rules (also known as transport rules) and does not depend on certificate publishing.
   
  **Q. Can I read the encrypted messages over mobile devices?**
   
@@ -206,7 +208,7 @@ No. You can't revoke a message to a particular person after it's sent.
   
  **Q. Can I view a report of encrypted messages that have been received and read?**
   
-There isn't a report that shows if an encrypted message has been viewed, but there are Office 365 reports available that you can leverage to determine the number of messages that matched a specific transport rule, for instance.
+There isn't a report that shows if an encrypted message has been viewed, but there are Office 365 reports available that you can leverage to determine the number of messages that matched a specific mail flow rule (also known as a transport rule), for instance.
   
  **Q. What does Microsoft do with the information I provide through the OME Portal and the OME Viewer App?**
   
