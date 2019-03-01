@@ -5,7 +5,7 @@ author: kccross
 manager: laurawi
 ms.audience: ITPro
 ms.topic: article
- ms.service: O365-seccomp
+ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
