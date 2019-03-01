@@ -1001,13 +1001,20 @@ A DLP policy is 75% confident that it's detected this type of sensitive informat
 
 ### Format
 
-The string "userpwd=" followed by an alphanumeric string.
+The string "DefaultEndpointsProtocol" followed by an alphanumeric string
 
 ### Pattern
 
-The string "userpwd=" followed by any combination of up to 60 letters or digits.
-
-`DefaultEndpintsProtocol\s{0,2}=\s{0,2}[\x{0020}-\x{007F}]{1,200}?AccountKey\s{0,2}=\s{0,2}[a-zA-Z0-9/+]{86}==`
+- The string "DefaultEndpointsProtocol"
+- 0-2 whitespace characters
+- An equal sign (=)
+- 0-2 whitespace characters
+- Any combination of between 1-200 ????? characters
+- The string "AccountKey"
+- 0-2 whitespace characters
+- An equal sign (=)
+- 0-2 whitespace characters
+- Any combination of 86 lower- or uppercase letters, digits, forward slash (/), or plus sign (+)
 
 ### Checksum
 
@@ -1062,7 +1069,7 @@ The string "userpwd=" followed by an alphanumeric string.
 
 ### Pattern
 
-The string "userpwd=" followed by any combination of up to 60 letters or digits.
+The string "userpwd=" followed by any combination of up to 60 lowercase letters or digits.
 
 ### Checksum
 
