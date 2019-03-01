@@ -562,6 +562,564 @@ A DLP policy is 85% confident that it's detected this type of sensitive informat
 - 7777777777
 - 8888888888
 - 9999999999
+
+## Azure DocumentD Auth Key
+
+### Format
+
+6-10 digits with or without a bank state branch number
+
+### Pattern
+
+Account number is 6-10 digits.
+Australia bank state branch number:
+- Three digits 
+- A hyphen 
+- Three digits
+
+### Checksum
+
+No
+
+### Definition
+
+A DLP policy is 85% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:
+- The regular expression Regex_australia_bank_account_number finds content that matches the pattern..
+- A keyword from Keyword_australia_bank_account_number is found.
+- The regular expression Regex_australia_bank_account_number_bsb finds content that matches the pattern.
+
+A DLP policy is 75% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:
+- The regular expression Regex_australia_bank_account_number finds content that matches the pattern..
+- A keyword from Keyword_australia_bank_account_number is found.
+
+```
+<!-- Australia Bank Account Number -->
+<Entity id="74a54de9-2a30-4aa0-a8aa-3d9327fc07c7" patternsProximity="300" recommendedConfidence="75">
+  <Pattern confidenceLevel="85">
+        <IdMatch idRef="Regex_australia_bank_account_number" />
+        <Match idRef="Keyword_australia_bank_account_number" />
+        <Match idRef="Regex_australia_bank_account_number_bsb" />
+  </Pattern>
+  <Pattern confidenceLevel="75">
+        <IdMatch idRef="Regex_australia_bank_account_number" />
+        <Match idRef="Keyword_australia_bank_account_number" />
+  </Pattern>
+ </Entity>
+```
+
+### Keywords
+
+#### Keyword_australia_bank_account_number
+
+- swift bank code
+- correspondent bank
+- base currency
+- usa account
+- holder address
+- bank address
+- information account
+- fund transfers
+- bank charges
+- bank details
+- banking information
+- full names
+- iaea
+
+## Azure IAAS Database Connection String and Azure SQL Connection String
+
+### Format
+
+6-10 digits with or without a bank state branch number
+
+### Pattern
+
+Account number is 6-10 digits.
+Australia bank state branch number:
+- Three digits 
+- A hyphen 
+- Three digits
+
+### Checksum
+
+No
+
+### Definition
+
+A DLP policy is 85% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:
+- The regular expression Regex_australia_bank_account_number finds content that matches the pattern..
+- A keyword from Keyword_australia_bank_account_number is found.
+- The regular expression Regex_australia_bank_account_number_bsb finds content that matches the pattern.
+
+A DLP policy is 75% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:
+- The regular expression Regex_australia_bank_account_number finds content that matches the pattern..
+- A keyword from Keyword_australia_bank_account_number is found.
+
+```
+<!-- Australia Bank Account Number -->
+<Entity id="74a54de9-2a30-4aa0-a8aa-3d9327fc07c7" patternsProximity="300" recommendedConfidence="75">
+  <Pattern confidenceLevel="85">
+        <IdMatch idRef="Regex_australia_bank_account_number" />
+        <Match idRef="Keyword_australia_bank_account_number" />
+        <Match idRef="Regex_australia_bank_account_number_bsb" />
+  </Pattern>
+  <Pattern confidenceLevel="75">
+        <IdMatch idRef="Regex_australia_bank_account_number" />
+        <Match idRef="Keyword_australia_bank_account_number" />
+  </Pattern>
+ </Entity>
+```
+
+### Keywords
+
+#### Keyword_australia_bank_account_number
+
+- swift bank code
+- correspondent bank
+- base currency
+- usa account
+- holder address
+- bank address
+- information account
+- fund transfers
+- bank charges
+- bank details
+- banking information
+- full names
+- iaea
+
+## Azure IoT Connection String
+
+### Format
+
+6-10 digits with or without a bank state branch number
+
+### Pattern
+
+Account number is 6-10 digits.
+Australia bank state branch number:
+- Three digits 
+- A hyphen 
+- Three digits
+
+### Checksum
+
+No
+
+### Definition
+
+A DLP policy is 85% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:
+- The regular expression Regex_australia_bank_account_number finds content that matches the pattern..
+- A keyword from Keyword_australia_bank_account_number is found.
+- The regular expression Regex_australia_bank_account_number_bsb finds content that matches the pattern.
+
+A DLP policy is 75% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:
+- The regular expression Regex_australia_bank_account_number finds content that matches the pattern..
+- A keyword from Keyword_australia_bank_account_number is found.
+
+```
+<!-- Australia Bank Account Number -->
+<Entity id="74a54de9-2a30-4aa0-a8aa-3d9327fc07c7" patternsProximity="300" recommendedConfidence="75">
+  <Pattern confidenceLevel="85">
+        <IdMatch idRef="Regex_australia_bank_account_number" />
+        <Match idRef="Keyword_australia_bank_account_number" />
+        <Match idRef="Regex_australia_bank_account_number_bsb" />
+  </Pattern>
+  <Pattern confidenceLevel="75">
+        <IdMatch idRef="Regex_australia_bank_account_number" />
+        <Match idRef="Keyword_australia_bank_account_number" />
+  </Pattern>
+ </Entity>
+```
+
+### Keywords
+
+#### Keyword_australia_bank_account_number
+
+- swift bank code
+- correspondent bank
+- base currency
+- usa account
+- holder address
+- bank address
+- information account
+- fund transfers
+- bank charges
+- bank details
+- banking information
+- full names
+- iaea
+
+## Azure Publish Setting Password
+
+### Format
+
+6-10 digits with or without a bank state branch number
+
+### Pattern
+
+Account number is 6-10 digits.
+Australia bank state branch number:
+- Three digits 
+- A hyphen 
+- Three digits
+
+### Checksum
+
+No
+
+### Definition
+
+A DLP policy is 85% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:
+- The regular expression Regex_australia_bank_account_number finds content that matches the pattern..
+- A keyword from Keyword_australia_bank_account_number is found.
+- The regular expression Regex_australia_bank_account_number_bsb finds content that matches the pattern.
+
+A DLP policy is 75% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:
+- The regular expression Regex_australia_bank_account_number finds content that matches the pattern..
+- A keyword from Keyword_australia_bank_account_number is found.
+
+```
+<!-- Australia Bank Account Number -->
+<Entity id="74a54de9-2a30-4aa0-a8aa-3d9327fc07c7" patternsProximity="300" recommendedConfidence="75">
+  <Pattern confidenceLevel="85">
+        <IdMatch idRef="Regex_australia_bank_account_number" />
+        <Match idRef="Keyword_australia_bank_account_number" />
+        <Match idRef="Regex_australia_bank_account_number_bsb" />
+  </Pattern>
+  <Pattern confidenceLevel="75">
+        <IdMatch idRef="Regex_australia_bank_account_number" />
+        <Match idRef="Keyword_australia_bank_account_number" />
+  </Pattern>
+ </Entity>
+```
+
+### Keywords
+
+#### Keyword_australia_bank_account_number
+
+- swift bank code
+- correspondent bank
+- base currency
+- usa account
+- holder address
+- bank address
+- information account
+- fund transfers
+- bank charges
+- bank details
+- banking information
+- full names
+- iaea
+
+## Azure Redis Cache Connection String
+
+### Format
+
+6-10 digits with or without a bank state branch number
+
+### Pattern
+
+Account number is 6-10 digits.
+Australia bank state branch number:
+- Three digits 
+- A hyphen 
+- Three digits
+
+### Checksum
+
+No
+
+### Definition
+
+A DLP policy is 85% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:
+- The regular expression Regex_australia_bank_account_number finds content that matches the pattern..
+- A keyword from Keyword_australia_bank_account_number is found.
+- The regular expression Regex_australia_bank_account_number_bsb finds content that matches the pattern.
+
+A DLP policy is 75% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:
+- The regular expression Regex_australia_bank_account_number finds content that matches the pattern..
+- A keyword from Keyword_australia_bank_account_number is found.
+
+```
+<!-- Australia Bank Account Number -->
+<Entity id="74a54de9-2a30-4aa0-a8aa-3d9327fc07c7" patternsProximity="300" recommendedConfidence="75">
+  <Pattern confidenceLevel="85">
+        <IdMatch idRef="Regex_australia_bank_account_number" />
+        <Match idRef="Keyword_australia_bank_account_number" />
+        <Match idRef="Regex_australia_bank_account_number_bsb" />
+  </Pattern>
+  <Pattern confidenceLevel="75">
+        <IdMatch idRef="Regex_australia_bank_account_number" />
+        <Match idRef="Keyword_australia_bank_account_number" />
+  </Pattern>
+ </Entity>
+```
+
+### Keywords
+
+#### Keyword_australia_bank_account_number
+
+- swift bank code
+- correspondent bank
+- base currency
+- usa account
+- holder address
+- bank address
+- information account
+- fund transfers
+- bank charges
+- bank details
+- banking information
+- full names
+- iaea
+
+## Azure SAS
+
+### Format
+
+6-10 digits with or without a bank state branch number
+
+### Pattern
+
+Account number is 6-10 digits.
+Australia bank state branch number:
+- Three digits 
+- A hyphen 
+- Three digits
+
+### Checksum
+
+No
+
+### Definition
+
+A DLP policy is 85% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:
+- The regular expression Regex_australia_bank_account_number finds content that matches the pattern..
+- A keyword from Keyword_australia_bank_account_number is found.
+- The regular expression Regex_australia_bank_account_number_bsb finds content that matches the pattern.
+
+A DLP policy is 75% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:
+- The regular expression Regex_australia_bank_account_number finds content that matches the pattern..
+- A keyword from Keyword_australia_bank_account_number is found.
+
+```
+<!-- Australia Bank Account Number -->
+<Entity id="74a54de9-2a30-4aa0-a8aa-3d9327fc07c7" patternsProximity="300" recommendedConfidence="75">
+  <Pattern confidenceLevel="85">
+        <IdMatch idRef="Regex_australia_bank_account_number" />
+        <Match idRef="Keyword_australia_bank_account_number" />
+        <Match idRef="Regex_australia_bank_account_number_bsb" />
+  </Pattern>
+  <Pattern confidenceLevel="75">
+        <IdMatch idRef="Regex_australia_bank_account_number" />
+        <Match idRef="Keyword_australia_bank_account_number" />
+  </Pattern>
+ </Entity>
+```
+
+### Keywords
+
+#### Keyword_australia_bank_account_number
+
+- swift bank code
+- correspondent bank
+- base currency
+- usa account
+- holder address
+- bank address
+- information account
+- fund transfers
+- bank charges
+- bank details
+- banking information
+- full names
+- iaea
+
+## Azure Service Bus Connection String
+
+### Format
+
+6-10 digits with or without a bank state branch number
+
+### Pattern
+
+Account number is 6-10 digits.
+Australia bank state branch number:
+- Three digits 
+- A hyphen 
+- Three digits
+
+### Checksum
+
+No
+
+### Definition
+
+A DLP policy is 85% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:
+- The regular expression Regex_australia_bank_account_number finds content that matches the pattern..
+- A keyword from Keyword_australia_bank_account_number is found.
+- The regular expression Regex_australia_bank_account_number_bsb finds content that matches the pattern.
+
+A DLP policy is 75% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:
+- The regular expression Regex_australia_bank_account_number finds content that matches the pattern..
+- A keyword from Keyword_australia_bank_account_number is found.
+
+```
+<!-- Australia Bank Account Number -->
+<Entity id="74a54de9-2a30-4aa0-a8aa-3d9327fc07c7" patternsProximity="300" recommendedConfidence="75">
+  <Pattern confidenceLevel="85">
+        <IdMatch idRef="Regex_australia_bank_account_number" />
+        <Match idRef="Keyword_australia_bank_account_number" />
+        <Match idRef="Regex_australia_bank_account_number_bsb" />
+  </Pattern>
+  <Pattern confidenceLevel="75">
+        <IdMatch idRef="Regex_australia_bank_account_number" />
+        <Match idRef="Keyword_australia_bank_account_number" />
+  </Pattern>
+ </Entity>
+```
+
+### Keywords
+
+#### Keyword_australia_bank_account_number
+
+- swift bank code
+- correspondent bank
+- base currency
+- usa account
+- holder address
+- bank address
+- information account
+- fund transfers
+- bank charges
+- bank details
+- banking information
+- full names
+- iaea
+
+## Azure Storage Generic Account Key
+
+### Format
+
+6-10 digits with or without a bank state branch number
+
+### Pattern
+
+Account number is 6-10 digits.
+Australia bank state branch number:
+- Three digits 
+- A hyphen 
+- Three digits
+
+### Checksum
+
+No
+
+### Definition
+
+A DLP policy is 85% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:
+- The regular expression Regex_australia_bank_account_number finds content that matches the pattern..
+- A keyword from Keyword_australia_bank_account_number is found.
+- The regular expression Regex_australia_bank_account_number_bsb finds content that matches the pattern.
+
+A DLP policy is 75% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:
+- The regular expression Regex_australia_bank_account_number finds content that matches the pattern..
+- A keyword from Keyword_australia_bank_account_number is found.
+
+```
+<!-- Australia Bank Account Number -->
+<Entity id="74a54de9-2a30-4aa0-a8aa-3d9327fc07c7" patternsProximity="300" recommendedConfidence="75">
+  <Pattern confidenceLevel="85">
+        <IdMatch idRef="Regex_australia_bank_account_number" />
+        <Match idRef="Keyword_australia_bank_account_number" />
+        <Match idRef="Regex_australia_bank_account_number_bsb" />
+  </Pattern>
+  <Pattern confidenceLevel="75">
+        <IdMatch idRef="Regex_australia_bank_account_number" />
+        <Match idRef="Keyword_australia_bank_account_number" />
+  </Pattern>
+ </Entity>
+```
+
+### Keywords
+
+#### Keyword_australia_bank_account_number
+
+- swift bank code
+- correspondent bank
+- base currency
+- usa account
+- holder address
+- bank address
+- information account
+- fund transfers
+- bank charges
+- bank details
+- banking information
+- full names
+- iaea
+
+## Azure Storage Account Key
+
+### Format
+
+6-10 digits with or without a bank state branch number
+
+### Pattern
+
+Account number is 6-10 digits.
+Australia bank state branch number:
+- Three digits 
+- A hyphen 
+- Three digits
+
+### Checksum
+
+No
+
+### Definition
+
+A DLP policy is 85% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:
+- The regular expression Regex_australia_bank_account_number finds content that matches the pattern..
+- A keyword from Keyword_australia_bank_account_number is found.
+- The regular expression Regex_australia_bank_account_number_bsb finds content that matches the pattern.
+
+A DLP policy is 75% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:
+- The regular expression Regex_australia_bank_account_number finds content that matches the pattern..
+- A keyword from Keyword_australia_bank_account_number is found.
+
+```
+<!-- Australia Bank Account Number -->
+<Entity id="74a54de9-2a30-4aa0-a8aa-3d9327fc07c7" patternsProximity="300" recommendedConfidence="75">
+  <Pattern confidenceLevel="85">
+        <IdMatch idRef="Regex_australia_bank_account_number" />
+        <Match idRef="Keyword_australia_bank_account_number" />
+        <Match idRef="Regex_australia_bank_account_number_bsb" />
+  </Pattern>
+  <Pattern confidenceLevel="75">
+        <IdMatch idRef="Regex_australia_bank_account_number" />
+        <Match idRef="Keyword_australia_bank_account_number" />
+  </Pattern>
+ </Entity>
+```
+
+### Keywords
+
+#### Keyword_australia_bank_account_number
+
+- swift bank code
+- correspondent bank
+- base currency
+- usa account
+- holder address
+- bank address
+- information account
+- fund transfers
+- bank charges
+- bank details
+- banking information
+- full names
+- iaea
    
 ## Belgium National Number
 
