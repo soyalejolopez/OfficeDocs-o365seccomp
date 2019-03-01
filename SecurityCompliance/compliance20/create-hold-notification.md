@@ -21,7 +21,7 @@ description: ""
 
 Using Advanced eDiscovery (Preview) custodian communications, organizations can manage their workflow around communicating with custodians. Through the Communications tool, legal teams can systematically send, collect, and track legal hold notifications. The flexible creation process also allows teams to customize the hold notification workflow and the content in the notices sent to custodians. 
 
-![Communications Page][../media/CommunicationPage.png]
+![Communications Page](../media/CommunicationPage.PNG)
 
 The article outlines the steps in the hold notification workflow.
 
@@ -29,7 +29,7 @@ The article outlines the steps in the hold notification workflow.
 
 The first step is to specify the appropriate details for legal hold notices or other custodian communications. 
 
-![Name Communication Page][../media/NameCommunication.png]
+![Name Communication Page](../media/NameCommunication.PNG)
 
 1. In the Security & Compliance Center, go to **eDiscovery > Advanced eDiscovery (Preview)** to display the list of cases in your organization.
    
@@ -47,11 +47,11 @@ The first step is to specify the appropriate details for legal hold notices or o
 
 Next, you can create and add the content of the hold notice. On the **Define portal content** page in the **Create communication** wizard, specify the contents of the hold notice. This content will be automatically appended to the Issuance, Re-Issue, Reminder, and Escalation notices. Additionally, this content will appear in the custodian's Compliance Portal. 
 
-![Portal Content Page][../media/PortalContent.png]
+![Portal Content Page](../media/PortalContent.PNG)
 
 To create the portal content:
 
-1. Type (or cut and paster from another document) your hold notice in the textbox for the portal content. 
+1. Type (or cut and paste from another document) your hold notice in the textbox for the portal content. 
 
 2. Insert merge variables into your notice to customize the notice and share the Custodian Compliance Portal.
 
@@ -121,7 +121,7 @@ To create a release notification:
 
 Optionally, you can simplify the workflow for following up with unresponsive custodians by creating and scheduling automated reminder and escalation notifications.
 
-![Reminder/Escalation Page][../media/ReminderEscalations.png]
+![Reminder/Escalation Page](../media/ReminderEscalations.PNG)
 
 ### Reminders
 
@@ -167,7 +167,7 @@ To schedule escalations:
 
 After you have finalized the content for notifications, select the custodians that you would like to send the notifications. 
 
-![Select Custodians Page][../media/SelectCustodians.PNG]
+![Select Custodians Page](../media/SelectCustodians.PNG)
 
 To add custodians:
 
