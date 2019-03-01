@@ -29,7 +29,7 @@ To view the custodian hold policy:
 
 1. In the **Security & Compliance Center**, click **eDiscovery > Advanced eDiscovery (Preview)** to display the list of cases in your organization.
    
-2. Go to the **Custodians** tab to add custodians within your case. To learn how you can add and place custodians on hold within an Advanced eDiscovery (Preview) case, see [Add Custodians to an Advanced eDiscovery (Preview) Case](add-custodians-to-case.md). If you have already added custodians and placed them on hold, go to step 3.
+2. Go to the **Custodians** tab to add custodians within your case. To learn how you can add and place custodians on hold within an Advanced eDiscovery (Preview) case, see [Add Custodians to an Advanced eDiscovery (Preview) Case](../add-custodians-to-case.md). If you have already added custodians and placed them on hold, go to step 3.
    
 3. Go to the **Holds** tab and select the 'Custodian Policy'.
    

@@ -67,7 +67,7 @@ To map mailboxes, sites, or teams to a specific custodian:
 1. Select **Add** to assign content locations, like mailboxes, sites, and Teams, to a specific custodian. 
 
 2. In the flyout, specify the following:
-   ![Map Data Sources](./media/AddCustodianStep_4.PNG)
+   ![Map Data Sources](../media/AddCustodianStep4.PNG)
   -  **Exchange Mailboxes** - Click **Choose users, groups, or Teams** and then click **Choose users, groups, or teams** again. To specify mailboxes to assign to the selected custodian, use the search box to find user mailboxes and distribution groups. You can also assign the associated mailbox for an Office 365 Group or a Microsoft Team. Select the user, group, team check box, click **Choose**, and then click **Done**.
 
         > [!NOTE]
@@ -83,7 +83,7 @@ After you have finished mapping your sources, you can view the total mailboxes, 
 
 ## (Optional) Step 4: Place custodians on hold
 
-![Place Holds](./media/AddCustodianStep5.PNG)
+![Place Holds](../media/AddCustodianStep5.PNG)
 
 After you have finalized the custodians and data sources that you would like to add to your case, you can optionally place some or all of your custodians on hold. When you place a custodian on hold, the content mapped to that user is held until you release the custodian from the case or until you delete the hold. In some cases, you may want to add custodians to a case without placing them on hold. 
 

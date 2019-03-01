@@ -20,7 +20,7 @@ description: ""
 
 The Custodians tab contains a sortable list of all the custodians in the case. After you add custodians to a case, details about each custodian will automatically be collected from Azure Active Directory.
 
-![Manage Custodians](./media/CustodianDetails.PNG)
+![Manage Custodians](../media/CustodianDetails.PNG)
 
 ## Viewing custodian details
 
@@ -65,7 +65,7 @@ To update a custodian and the selected data sources:
   
 3. Select the custodian(s) from the list and click **Edit sources**.
 
-    ![Edit Data Sources](./media/EditCustodianDataSource.PNG)
+    ![Edit Data Sources](../media/EditCustodianDataSource.PNG)
   
 4. Update selections for Exchange and OneDrive locations by clicking **Choose data sources**.
   
@@ -88,7 +88,7 @@ To trigger a re-indexing process to address partially indexed items:
 
 2. In the case, click to **Custodians tab**. 
 
-3. Select the custodian(s) that needs to be re-indexed, and then click ![Update Index](./media/UpdateIndex.PNG) on the flyout page.
+3. Select the custodian(s) that needs to be re-indexed, and then click ![Update Index](../media/UpdateIndex.PNG) on the flyout page.
 
 4. Check the status of the custodian index by clicking the link in the **Indexing job Status** column on the **Custodians** tab.  
 
@@ -108,7 +108,7 @@ To release a custodian:
 
 1.	Go to the **Custodians** tab.
 
-2.	Select the custodian from the list and click ![Release Custodian](./media/ReleaseCustodian5.PNG) on the flyout page.
+2.	Select the custodian from the list and click ![Release Custodian](../media/ReleaseCustodian5.PNG) on the flyout page.
 
     The status of the custodian on the **Custodians** tab is set to **Released** and the **Hold status** on the flyout page is changed to **Inactive**. 
 
