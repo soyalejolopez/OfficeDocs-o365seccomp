@@ -42,7 +42,7 @@ You can edit or delete the existing role groups, but we don't recommend this. In
 
 The following table lists the default role groups that are available in the Security &amp; Compliance Center. To grant permissions to a user to perform a compliance task, add them to the appropriate Security &amp; Compliance Center role group.
   
-Managing permissions in the Security &amp; Compliance Center only gives users access to the compliance features that are available within the Security &amp; Compliance Center itself. If you want to grant permissions to other compliance features that aren't in the Security &amp; Compliance Center, such as Exchange transport rules, you need to use the Exchange Admin Center.
+Managing permissions in the Security &amp; Compliance Center only gives users access to the compliance features that are available within the Security &amp; Compliance Center itself. If you want to grant permissions to other compliance features that aren't in the Security &amp; Compliance Center, such as Exchange mail flow rules (also known as transport rules), you need to use the Exchange admin center.
   
 To see how to grant access to the Security &amp; Compliance Center, check out [Give users access to Office 365 Compliance admin center](grant-access-to-the-security-and-compliance-center.md).
   
