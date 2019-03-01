@@ -1007,6 +1007,8 @@ The string "userpwd=" followed by an alphanumeric string.
 
 The string "userpwd=" followed by any combination of up to 60 letters or digits.
 
+`DefaultEndpintsProtocol\s{0,2}=\s{0,2}[\x{0020}-\x{007F}]{1,200}?AccountKey\s{0,2}=\s{0,2}[a-zA-Z0-9/+]{86}==`
+
 ### Checksum
 
 No
@@ -1014,8 +1016,8 @@ No
 ### Definition
 
 A DLP policy is 85% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:
-- The regular expression CEP_Regex_AzurePublishSettingPasswords finds content that matches the pattern.
-- The regular expression CEP_CommonExampleKeywords does **not** find content that matches the pattern.
+- The regular expression CEP_Regex_AzureStorageAccountKey finds content that matches the pattern.
+- The regular expression CEP_AzureEmulatorStorageAccountFilter and/or the regular expression CEP_CommonExampleKeywords do **not** find content that matches their patterns.
 
 ```
 <!--Azure Storage Account Key-->
@@ -1031,6 +1033,12 @@ A DLP policy is 85% confident that it's detected this type of sensitive informat
 ```
 
 ### Keywords
+
+#### CEP_AzureEmulatorStorageAccountFilter
+
+(Note that technically, this sensitive information type identifies these keywords by using a regular expression, not a keyword list.)
+
+- Eby8vdM02xNOcqFlqUwJPLlmEtlCDXJ1OUzFT50uSRZ6IFsuFq2UVErCz4I6tq/K1SZFPTOtr/KBHBeksoGMGw==
 
 #### CEP_CommonExampleKeywords
 
