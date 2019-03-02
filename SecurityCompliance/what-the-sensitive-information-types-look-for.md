@@ -753,15 +753,11 @@ A DLP policy is 75% confident that it's detected this type of sensitive informat
 
 ### Format
 
-6-10 digits with or without a bank state branch number
+The string "userpwd=" followed by an alphanumeric string.
 
 ### Pattern
 
-Account number is 6-10 digits.
-Australia bank state branch number:
-- Three digits 
-- A hyphen 
-- Three digits
+The string "userpwd=" followed by any combination of up to 60 lowercase letters or digits.
 
 ### Checksum
 
@@ -770,60 +766,54 @@ No
 ### Definition
 
 A DLP policy is 85% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:
-- The regular expression Regex_australia_bank_account_number finds content that matches the pattern..
-- A keyword from Keyword_australia_bank_account_number is found.
-- The regular expression Regex_australia_bank_account_number_bsb finds content that matches the pattern.
+- The regular expression CEP_Regex_AzurePublishSettingPasswords finds content that matches the pattern.
+- The regular expression CEP_CommonExampleKeywords does **not** find content that matches the pattern.
 
-A DLP policy is 75% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:
-- The regular expression Regex_australia_bank_account_number finds content that matches the pattern..
-- A keyword from Keyword_australia_bank_account_number is found.
 
 ```
-<!-- Australia Bank Account Number -->
-<Entity id="74a54de9-2a30-4aa0-a8aa-3d9327fc07c7" patternsProximity="300" recommendedConfidence="75">
+<!--Azure Publish Setting Password-->
+<Entity id="75f4cc8a-a68e-49e5-89ce-fa8f03d286a5" patternsProximity="300" recommendedConfidence="85">
   <Pattern confidenceLevel="85">
-        <IdMatch idRef="Regex_australia_bank_account_number" />
-        <Match idRef="Keyword_australia_bank_account_number" />
-        <Match idRef="Regex_australia_bank_account_number_bsb" />
+       <IdMatch idRef="CEP_Regex_AzurePublishSettingPasswords" />
+       <Any minMatches="0" maxMatches="0">
+           <Match idRef="CEP_CommonExampleKeywords" />
+       </Any>
   </Pattern>
-  <Pattern confidenceLevel="75">
-        <IdMatch idRef="Regex_australia_bank_account_number" />
-        <Match idRef="Keyword_australia_bank_account_number" />
-  </Pattern>
- </Entity>
+</Entity>
 ```
 
 ### Keywords
 
-#### Keyword_australia_bank_account_number
+#### CEP_CommonExampleKeywords
 
-- swift bank code
-- correspondent bank
-- base currency
-- usa account
-- holder address
-- bank address
-- information account
-- fund transfers
-- bank charges
-- bank details
-- banking information
-- full names
-- iaea
+(Note that technically, this sensitive information type identifies these keywords by using a regular expression, not a keyword list.)
+
+- contoso
+- fabrikam
+- northwind
+- sandbox
+- onebox
+- localhost
+- 127.0.0.1
+- testacs.<!--no-hyperlink-->com
+- s-int.<!--no-hyperlink-->net
 
 ## Azure Redis Cache Connection String
 
 ### Format
 
-6-10 digits with or without a bank state branch number
+The string "redis.cache.windows.net" followed by the characters and strings outlined in the pattern below, including the string "password|pwd".
 
 ### Pattern
 
-Account number is 6-10 digits.
-Australia bank state branch number:
-- Three digits 
-- A hyphen 
-- Three digits
+- The string "redis.cache.windows.net"
+- Any combination of between 1-200 ????? characters
+- The string "password|pwd"
+- 0-2 whitespace characters
+- An equal sign (=)
+- 0-2 whitespace characters
+- Any combination of 43 lower- or uppercase letters, digits, forward slash (/), or plus sign (+)
+- An equal sign (=)
 
 ### Checksum
 
@@ -832,60 +822,52 @@ No
 ### Definition
 
 A DLP policy is 85% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:
-- The regular expression Regex_australia_bank_account_number finds content that matches the pattern..
-- A keyword from Keyword_australia_bank_account_number is found.
-- The regular expression Regex_australia_bank_account_number_bsb finds content that matches the pattern.
-
-A DLP policy is 75% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:
-- The regular expression Regex_australia_bank_account_number finds content that matches the pattern..
-- A keyword from Keyword_australia_bank_account_number is found.
+- The regular expression CEP_Regex_AzureRedisCacheConnectionString finds content that matches the pattern..
+- The regular expression CEP_CommonExampleKeywords does **not** find content that matches the pattern.
 
 ```
-<!-- Australia Bank Account Number -->
-<Entity id="74a54de9-2a30-4aa0-a8aa-3d9327fc07c7" patternsProximity="300" recommendedConfidence="75">
+<!--Azure Redis Cache Connection String-->
+<Entity id="095a7e6c-efd8-46d5-af7b-5298d53a49fc" patternsProximity="300" recommendedConfidence="85">
   <Pattern confidenceLevel="85">
-        <IdMatch idRef="Regex_australia_bank_account_number" />
-        <Match idRef="Keyword_australia_bank_account_number" />
-        <Match idRef="Regex_australia_bank_account_number_bsb" />
+        <IdMatch idRef="CEP_Regex_AzureRedisCacheConnectionString" />
+        <Any minMatches="0" maxMatches="0">
+            <Match idRef="CEP_CommonExampleKeywords" />
+        </Any>
   </Pattern>
-  <Pattern confidenceLevel="75">
-        <IdMatch idRef="Regex_australia_bank_account_number" />
-        <Match idRef="Keyword_australia_bank_account_number" />
-  </Pattern>
- </Entity>
+</Entity>
 ```
 
 ### Keywords
 
-#### Keyword_australia_bank_account_number
+#### CEP_CommonExampleKeywords
 
-- swift bank code
-- correspondent bank
-- base currency
-- usa account
-- holder address
-- bank address
-- information account
-- fund transfers
-- bank charges
-- bank details
-- banking information
-- full names
-- iaea
+(Note that technically, this sensitive information type identifies these keywords by using a regular expression, not a keyword list.)
+
+- contoso
+- fabrikam
+- northwind
+- sandbox
+- onebox
+- localhost
+- 127.0.0.1
+- testacs.<!--no-hyperlink-->com
+- s-int.<!--no-hyperlink-->net
 
 ## Azure SAS
 
 ### Format
 
-6-10 digits with or without a bank state branch number
+The string "EndPoint" followed by the characters and strings outlined in the pattern below, including the strings "servicebus.windows.net" and "SharedAccesKey".
 
 ### Pattern
 
-Account number is 6-10 digits.
-Australia bank state branch number:
-- Three digits 
-- A hyphen 
-- Three digits
+- The string "sig"
+- 0-2 whitespace characters
+- An equal sign (=)
+- 0-2 whitespace characters
+- Any combination of between 43 and 53 lower- or uppercase letters, digits, or the percent sign (%)
+- The string "%3d"
+- Any character that is not a lower- or uppercase letter, digit, or percent sign (%)
 
 ### Checksum
 
@@ -894,46 +876,16 @@ No
 ### Definition
 
 A DLP policy is 85% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:
-- The regular expression Regex_australia_bank_account_number finds content that matches the pattern..
-- A keyword from Keyword_australia_bank_account_number is found.
-- The regular expression Regex_australia_bank_account_number_bsb finds content that matches the pattern.
-
-A DLP policy is 75% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:
-- The regular expression Regex_australia_bank_account_number finds content that matches the pattern..
-- A keyword from Keyword_australia_bank_account_number is found.
+- The regular expression CEP_Regex_AzureSAS finds content that matches the pattern.
 
 ```
-<!-- Australia Bank Account Number -->
-<Entity id="74a54de9-2a30-4aa0-a8aa-3d9327fc07c7" patternsProximity="300" recommendedConfidence="75">
+<!--Azure SAS-->
+<Entity id="4d235014-e564-47f4-a6fb-6ebb4a826834" patternsProximity="300" recommendedConfidence="85">
   <Pattern confidenceLevel="85">
-        <IdMatch idRef="Regex_australia_bank_account_number" />
-        <Match idRef="Keyword_australia_bank_account_number" />
-        <Match idRef="Regex_australia_bank_account_number_bsb" />
+        <IdMatch idRef="CEP_Regex_AzureSAS" />
   </Pattern>
-  <Pattern confidenceLevel="75">
-        <IdMatch idRef="Regex_australia_bank_account_number" />
-        <Match idRef="Keyword_australia_bank_account_number" />
-  </Pattern>
- </Entity>
+</Entity>
 ```
-
-### Keywords
-
-#### Keyword_australia_bank_account_number
-
-- swift bank code
-- correspondent bank
-- base currency
-- usa account
-- holder address
-- bank address
-- information account
-- fund transfers
-- bank charges
-- bank details
-- banking information
-- full names
-- iaea
 
 ## Azure Service Bus Connection String
 
@@ -992,8 +944,8 @@ A DLP policy is 85% confident that it's detected this type of sensitive informat
 - onebox
 - localhost
 - 127.0.0.1
-- testacs.<no-hyperlink>com
-- s-int.<no-hyperlink>net
+- testacs.<!--no-hyperlink-->com
+- s-int.<!--no-hyperlink-->net
 
 ## Azure Storage Account Key
 
@@ -1057,8 +1009,8 @@ A DLP policy is 85% confident that it's detected this type of sensitive informat
 - onebox
 - localhost
 - 127.0.0.1
-- testacs.<no-hyperlink>com
-- s-int.<no-hyperlink>net
+- testacs.<!--no-hyperlink-->com
+- s-int.<!--no-hyperlink-->net
 
 ## Azure Storage Account Key (Generic)
 
@@ -1106,9 +1058,9 @@ A DLP policy is 85% confident that it's detected this type of sensitive informat
 - onebox
 - localhost
 - 127.0.0.1
-- testacs.<no-hyperlink>com
-- s-int.<no-hyperlink>net
-   
+- testacs.<!--no-hyperlink-->com
+- s-int.<!--no-hyperlink-->net
+
 ## Belgium National Number
 
 ### Format
