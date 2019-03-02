@@ -29,7 +29,7 @@ Send the phishing messages _as attachments_ in a new, otherwise empty message to
 
 ## Inspect the message headers
 
-One of the first things you should do is examine the headers of the phishing message to see if there's anything that you can do yourself to prevent more phishing messages from coming through.
+One of the first things you should do is examine the headers of the phishing message to see if there's anything that you can do yourself to prevent more phishing messages from coming through (in other words, a setting in your organization is responsible for allowing the phishing messages in).
 
 Specifically, you you should check the **X-Forefront-Antispam-Report** header field in the message headers for indications of skipped spam or phish filtering in the Spam Filtering Verdict (SFV) or IP Filter Verdict (IPV) values.
 
@@ -37,70 +37,54 @@ In Outlook, you can view the message headers in an open message by clicking **Fi
 
 You can paste the raw results in Notepad, or you can paste them into the [Message Header Analyzer](https://testconnectivity.microsoft.com/MHA/Pages/mha.aspx) or the [Message Header Analyzer app for Office](http://go.microsoft.com/?linkid=9842186) to get a formatted, friendly view of the message headers.
 
-The important values that indicate skipped filtering are described in the following table:
+The important values that indicate skipped filtering and the causes of skipped filtering are described in the following table:
 
 |**Value**|**Description**|
 |:-----|:-----|
-|`IPV:CAL`|The message was allowed through the spam filters because the IP address was specified in an IP Allow list in the connection filter. For more information, see [Configure the connection filter policy](configure-the-connection-filter-policy.md).|
-|`SFV:SFE`|Filtering was skipped and the message was allowed through because it was sent from an email address (not an entire domain) in a user's Safe Sender List in Outlook. For more information, see [Add recipients of my email messages to the Safe Senders List](https://support.office.com/article/BE1BAEA0-BEAB-4A30-B968-9004332336CE).|
-|`SFV:SKA`|The message skipped filtering and was delivered to the inbox because it matched an allow list in the spam filter policy, such as the **Sender allow** list. For more information, see [Configure your spam filter policies](configure-your-spam-filter-policies.md).|
-|`SFV:SKN`|The message was marked as non-spam prior to being processed by the content filter. This includes messages where the message matched a mail flow rule (also known as a transport rule) to automatically mark it as non-spam and bypass all additional filtering (**Set the spam confidence level (SCL) to** \> **-1**). For more information, see [Mail flow rule actions in Exchange Online](https://docs.microsoft.com/Exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions)|
-|`SFV:SKI`|Similar to `SFV:SKN`, the message skipped filtering for another reason such as being intra-organizational email within a tenant.|
-|`SFV:SKQ`|The message was released from the quarantine and was sent to the intended recipients.|
+|`IPV:CAL`|The message was allowed through the spam filters because the IP address was specified in an IP Allow list in the connection filter. <br/><br/> zzIs this bad? Should this result be part of the conversation? <br/><br/> For more information, see [Configure the connection filter policy](configure-the-connection-filter-policy.md).|
+|`SFV:SFE`|Filtering was skipped and the message was allowed through because it was sent from an email address (not an entire domain) in a user's Safe Sender List in Outlook. <br/><br/> zzWhat's the remedy here? Can an admin see individual Safe Senders? <br/><br/> For more information, see [Add recipients of my email messages to the Safe Senders List](https://support.office.com/article/BE1BAEA0-BEAB-4A30-B968-9004332336CE).|
+|`SFV:SKA`|The message skipped filtering and was delivered to the inbox because it matched an allow list in the spam filter policy. <br/><br/> Under no circumstances should you configure your own domain in **Allowed domains** in a spam filter policy. This is an open invitation to received spoofed messages from anywhere on the internet. Likewise, you should be very careful configuring specific internal email addresses in **Allowed senders** in a spam filter policy. Although the risk isn't as great as the entire domain, you can still receive spoofed email messages from these allowed senders. <br/><br/> For more information, see [Configure your spam filter policies](configure-your-spam-filter-policies.md).|
+|`SFV:SKN`|The message was marked as non-spam prior to being processed by the content filter. This includes messages affected by mail flow rule (also known as transport rule) matches that allow messages to bypass all spam filtering. <br/><br/> The rule action that allows messages to skip filtering is: **Set the spam confidence level (SCL) to** \> **-1** (or `-SetSCL "-1"` in PowerShell). The rule conditions that are most dangerous when paired with this action identify messages from senders in your domain (all senders or specific senders), or specific recipients in your domain. Rules that contain this combination of conditions and actions are an open invitation to received spoofed messages from anywhere on the internet. <br/><br/> For more information, see [Mail flow rule actions in Exchange Online](https://docs.microsoft.com/Exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions)|
+|`SFV:SKI`|Similar to `SFV:SKN`, the message skipped filtering for another reason such as being intra-organizational email within your organization. <br/><br/> Messages with this result are likely not the result of a dangerous or misconfigured setting in your organization. The message was from a spoofed sender, but it looks completely legitimate to the phishing filters.<br/><br/> The best thing to do with these messages is [report the phishing message to Microsoft](#report-the-phishing-message-to-microsoft) and (if necessary) follow the steps in [Responding to a compromised email account in Office 365](responding-to-a-compromised-email-account.md).|
+|`SFV:SKQ`|The message was released from the quarantine and was sent to the intended recipients. <br/><br/> Admins and users need to be careful releasing messages from quarantine. You don't want to accidentally release phishing messages. <br/><br/> For more information, see [Find and release quarantined messages as an administrator](find-and-release-quarantined-messages-as-an-administrator.md) and [Find and release quarantined messages as a user in Office 365](find-and-release-quarantined-messages-as-a-user.md).|
 
-**SFV:SKA**: Under no circumstances should you configure your own domain in **Allowed domains** in a spam filter policy. This is an open invitation to received spoofed messages from anywhere. Likewise, you shouldn't configure internal email addresses in **Allowed senders** in a spam filter policy. Although the risk isn't as great as the entire domain, you can still receive spoofed email messages from the allowed senders in your domain.
+## Block these phishing messages
 
-**SFV:SKN**: Mail flow rules with conditions based on domains that allow messages to completely bypass anti-spam filtering are dangerous.
+In the standard versions of Office 365 and Exchange Online Protection, you can block specific senders or sender domains. For more information, see [Create organization-wide safe sender or blocked sender lists in Office 365](create-organization-wide-safe-sender-or-blocked-sender-lists-in-office-365.md). You should also [report the phishing message to Microsoft](#report-the-phishing-message-to-microsoft) so we can add the message source to our filters.
 
-**SFV:SKI**: This is a truly spoofed message that appears to come from an original sender. 
+If your subscription includes Advanced Threat Protection (ATP), you have additional options to block phishing messages:
 
-**SFV:SE**: This sounds like Safelist Aggregation. Is this even available?
+- ATP Safe Links
 
-Looking for skips in the protection stack
+- ATP Safe Attachments
 
-SKA/SKN/SKI whitelisted
+- ATP Anti-Phishing
 
-SPF/DKIM/DMARC header information not Send-To/To
+For more information, see [ATP anti-phishing capabilities in Office 365](atp-anti-phishing.md).
 
-SKI (Skipped) Spoofed; looks real fails on final phishing filter
+## Dealing with compromised accounts – MFA, forwarding rules, restricted users etc.
 
-Message released from quarantine?. or message trace
+If a recipient's account was compromised as a result of the phishing message, follow the steps in [Responding to a compromised email account in Office 365](responding-to-a-compromised-email-account.md).
 
-## Step 3: Block these phishing messages
+If your subscription includes ATP, you can use [Office 365 Threat Intelligence](office-365-ti.md) to identify other users who received the phish message.
 
-a.	Sku related or CFA (?)
+## Best practices to stay protected
 
-Standard: Block specific senders, submit problem messages to MS; we'll take care of it.
+- A configuration that inadvertently allows phishing messages to get through is often in response to legitimate messages that are blocked by spam and/or phish filters (false positives). The best way to deal with false positives that involve senders in your domain is to fully and completely configure the SPF, DKIM, and DMARC records in DNS to identify **all** message sources for senders in your domains.
 
-ATP: Antiphishing policies Brendon, Denise Safelinks. SafeAttachments
+  Specifics?
 
-**For more information**:
+  - [Set up SPF in Office 365 to help prevent spoofing](set-up-spf-in-office-365-to-help-prevent-spoofing.md)
 
-[View internet message headers](https://support.office.com/article/cd039382-dc6e-4264-ac74-c048563d212c)
+  - [Use DKIM to validate outbound email sent from your custom domain in Office 365](use-dkim-to-validate-outbound-email.md)
 
-[Message Header Analyzer](https://testconnectivity.microsoft.com/MHA/Pages/mha.aspx)
+  - [Use DMARC to validate email in Office 365](use-dmarc-to-validate-email.md)
 
+- Whenever possible, we always recommend that you deliver email for your domain directly to Office 365. In other words, point your domain's MX record to Office 365.
 
-## Step 4: Dealing with compromised accounts – MFA, forwarding rules, restricted users etc.
+  zzIf not, mention connector intelligence here?
 
-Dealing with compromised article
-
-ATP: Threat explorer, etc.
-
-1-4: existing articles
-
-
-
-## Step 5: Best practices to stay protected
-
-
-- Never configure your own domain in **Allowed domains** in a spam filter policy. Instead, configure SPF, DKIM, and DMARC for your domain to accurately identify all sources for messages from senders in your domain.
-
-- Don't use mail flow rules that exempt messages from anti-spam filtering based on domains or source IP addresses. Instead, configure SPF, DKIM, and DMARC for your domain to accurately identify all sources for messages from senders in your domain.
-
-- Whenever possible, deliver email for your domain directly to Office 365 (in other words, point your domain's MX record to Office 365).
-
-- Quarantine suspicious messages in quarantine; don't deliver suspicious messages to users' Junk Email folder. For more information, see [Quarantine email messages in Office 365](quarantine-email-messages.md).
+- Quarantine suspicious messages instead of delivering them to users' Junk Email folder. For more information, see [Quarantine email messages in Office 365](quarantine-email-messages.md).
 
 One-button ATP setup
 
@@ -109,8 +93,6 @@ ATP: AntiPhish Threshold levers (standard to something higher aggressive, more a
 b.	Authentication 
     i.	Dkim (and SPF and DMARC) turn on for custom domains
     ii.	Review Spoof intelligence reports
-
-Report message plug-in
 
 MFA
 
