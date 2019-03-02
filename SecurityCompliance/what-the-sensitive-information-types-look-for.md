@@ -563,7 +563,7 @@ A DLP policy is 85% confident that it's detected this type of sensitive informat
 - 8888888888
 - 9999999999
 
-## Azure DocumentD Auth Key
+## Azure DocumentDB Auth Key
 
 ### Format
 
@@ -691,15 +691,24 @@ A DLP policy is 75% confident that it's detected this type of sensitive informat
 
 ### Format
 
-6-10 digits with or without a bank state branch number
+The string "HostName" followed by the characters and strings outlined in the pattern below, including the strings "azure-devices.net" and "SharedAccessKey".
 
 ### Pattern
 
-Account number is 6-10 digits.
-Australia bank state branch number:
-- Three digits 
-- A hyphen 
-- Three digits
+- The string "HostName"
+- 0-2 whitespace characters
+- An equal sign (=)
+- 0-2 whitespace characters
+- Any combination of between 1-200 ????? characters
+- The string "azure-devices.net"
+- Any combination of between 1-200 ????? characters
+- The string "SharedAccessKey"
+- 0-2 whitespace characters
+- An equal sign (=)
+- 0-2 whitespace characters
+- Any combination of 43 lower- or uppercase letters, digits, forward slash (/), or plus sign (+)
+- An equal sign (=)
+
 
 ### Checksum
 
@@ -708,46 +717,36 @@ No
 ### Definition
 
 A DLP policy is 85% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:
-- The regular expression Regex_australia_bank_account_number finds content that matches the pattern..
-- A keyword from Keyword_australia_bank_account_number is found.
-- The regular expression Regex_australia_bank_account_number_bsb finds content that matches the pattern.
-
-A DLP policy is 75% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:
-- The regular expression Regex_australia_bank_account_number finds content that matches the pattern..
-- A keyword from Keyword_australia_bank_account_number is found.
+- The regular expression CEP_Regex_AzureIoTConnectionString finds content that matches the pattern.
+- The regular expression CEP_CommonExampleKeywords does **not** find content that matches the pattern.
 
 ```
-<!-- Australia Bank Account Number -->
-<Entity id="74a54de9-2a30-4aa0-a8aa-3d9327fc07c7" patternsProximity="300" recommendedConfidence="75">
+<!--Azure IoT Connection String-->
+<Entity id="0b34bec3-d5d6-4974-b7b0-dcdb5c90c29d" patternsProximity="300" recommendedConfidence="85">
   <Pattern confidenceLevel="85">
-        <IdMatch idRef="Regex_australia_bank_account_number" />
-        <Match idRef="Keyword_australia_bank_account_number" />
-        <Match idRef="Regex_australia_bank_account_number_bsb" />
+        <IdMatch idRef="CEP_Regex_AzureIoTConnectionString" />
+        <Any minMatches="0" maxMatches="0">
+            <Match idRef="CEP_CommonExampleKeywords" />
+        </Any>
   </Pattern>
-  <Pattern confidenceLevel="75">
-        <IdMatch idRef="Regex_australia_bank_account_number" />
-        <Match idRef="Keyword_australia_bank_account_number" />
-  </Pattern>
- </Entity>
+</Entity>
 ```
 
 ### Keywords
 
-#### Keyword_australia_bank_account_number
+#### CEP_CommonExampleKeywords
 
-- swift bank code
-- correspondent bank
-- base currency
-- usa account
-- holder address
-- bank address
-- information account
-- fund transfers
-- bank charges
-- bank details
-- banking information
-- full names
-- iaea
+(Note that technically, this sensitive information type identifies these keywords by using a regular expression, not a keyword list.)
+
+- contoso
+- fabrikam
+- northwind
+- sandbox
+- onebox
+- localhost
+- 127.0.0.1
+- testacs.<!--no-hyperlink-->com
+- s-int.<!--no-hyperlink-->net
 
 ## Azure Publish Setting Password
 
@@ -907,7 +906,7 @@ The string "EndPoint" followed by the characters and strings outlined in the pat
 - An equal sign (=)
 - 0-2 whitespace characters
 - Any combination of 43 lower- or uppercase letters, digits, forward slash (/), or plus sign (+)
-- An equal sign (+)
+- An equal sign (=)
 
 ### Checksum
 
@@ -1016,11 +1015,14 @@ A DLP policy is 85% confident that it's detected this type of sensitive informat
 
 ### Format
 
-The string "userpwd=" followed by an alphanumeric string.
+Any combination of 86 lower- or uppercase letters, digits, the forward slash (/), or plus sign (+), preceded or followed by the characters outlined in the pattern below.
 
 ### Pattern
 
-The string "userpwd=" followed by any combination of up to 60 lowercase letters or digits.
+- 0-1 of the greater than symbol (>), apostrophe ('), equal sign (=), quotation mark ("), or number sign (#)
+- Any combination of 86 lower- or uppercase letters, digits, the forward slash (/), or plus sign (+)
+- Two equal signs (=)
+
 
 ### Checksum
 
@@ -1029,37 +1031,16 @@ No
 ### Definition
 
 A DLP policy is 85% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:
-- The regular expression CEP_Regex_AzurePublishSettingPasswords finds content that matches the pattern.
-- The regular expression CEP_CommonExampleKeywords does **not** find content that matches the pattern.
-
+- The regular expression CEP_Regex_AzureStorageAccountKeyGeneric finds content that matches the pattern.
 
 ```
-<!--Azure Secrets (Generic)-->
-<Entity id="75f4cc8a-a68e-49e5-89ce-fa8f03d286a5" patternsProximity="300" recommendedConfidence="85">
+<!--Azure Storage Account Key (Generic)-->
+<Entity id="7ff41bd0-5419-4523-91d6-383b3a37f084" patternsProximity="300" recommendedConfidence="85">
   <Pattern confidenceLevel="85">
-       <IdMatch idRef="CEP_Regex_AzurePublishSettingPasswords" />
-       <Any minMatches="0" maxMatches="0">
-           <Match idRef="CEP_CommonExampleKeywords" />
-       </Any>
+        <IdMatch idRef="CEP_Regex_AzureStorageAccountKeyGeneric" />
   </Pattern>
 </Entity>
 ```
-
-### Keywords
-
-#### CEP_CommonExampleKeywords
-
-(Note that technically, this sensitive information type identifies these keywords by using a regular expression, not a keyword list.)
-
-- contoso
-- fabrikam
-- northwind
-- sandbox
-- onebox
-- localhost
-- 127.0.0.1
-- testacs.<!--no-hyperlink-->com
-- s-int.<!--no-hyperlink-->net
 
 ## Belgium National Number
 
