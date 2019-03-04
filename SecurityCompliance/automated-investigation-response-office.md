@@ -43,7 +43,7 @@ The security playbooks are designed based on input from Security Operations and 
 
 As part of AIR, security playbooks are rolling out in phases
 
-- **Phase 1 (Apriil 2019)**: Playbooks include recommendations that security administrators review and approve. 
+- **Phase 1 (April 2019)**: Playbooks include recommendations that security administrators review and approve. 
 
 - **Phase 2 (June 2019)**: Security administrators will have the option to allow security playbooks to take action automatically, without administrative interaction.
 
