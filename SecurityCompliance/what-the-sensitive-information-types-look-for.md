@@ -5015,11 +5015,9 @@ The string "User Id", "User ID", "uid", or "UserId" followed by the characters a
 - Any combination of between 1-200 ????? characters
 - The string "Password" or "pwd" where "pwd" is not preceded by a lowercase letter
 - An equal sign (=)
-- Any combination of 7-128 characters that are not a dollar sign ($), percentage symbol (5), greater than symbol (>), at symbol (@), quotation mark ("), semicolon (;), left brace ([), or left bracket ({)
-- 
-- A greater than symbol (>), an equal sign (=), a quotation mark ("), or an apostrophe (')
-- Any combination of 86 lower- or uppercase letters, digits, forward slash (/), or plus sign (+)
-- Two equal signs (=)
+- Any character that is not a dollar sign ($), percent symbol (%), greater than symbol (>), at symbol (@), quotation mark ("), semicolon (;), left brace ([), or left bracket ({)
+- Any combination of 7-128 characters that are not a semicolon (;), forward slash (/), or quotation mark (")
+- A semicolon (;) or quotation mark (")
 
 ### Checksum
 
@@ -5028,7 +5026,7 @@ No
 ### Definition
 
 A DLP policy is 85% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:
-- The regular expression CEP_Regex_AzureDocumentDBAuthKey finds content that matches the pattern.
+- The regular expression CEP_Regex_SQLServerConnectionString finds content that matches the pattern.
 - A keyword from CEP_GlobalFilter is **not** found.
 - The regular expression CEP_PasswordPlaceHolder does **not** find content that matches the pattern.
 - The regular expression CEP_CommonExampleKeywords does **not** find content that matches the pattern.
@@ -5060,7 +5058,13 @@ A DLP policy is 85% confident that it's detected this type of sensitive informat
 
 (Note that technically, this sensitive information type identifies these keywords by using a regular expression, not a keyword list.)
 
-- 
+- Password or pwd followed by 0-2 spaces, an equal sign (=), 0-2 spaces, and an asterisk (*)
+--OR--
+- Password or pwd followed by 
+    - An equal sign (=)
+    - Less than symbol (<)
+    - Any combination of 1-200 characters that are upper- or lowercase letters, digits, an asterisk (*), hyphen (-), underline (_), or whitespace character
+    - A greater than symbol (>)
 
 #### CEP_CommonExampleKeywords
 
