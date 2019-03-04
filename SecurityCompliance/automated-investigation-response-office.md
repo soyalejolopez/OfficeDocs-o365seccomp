@@ -99,6 +99,14 @@ On this page, you have several options:
 - Apply filters to the Investigation State, Status, Time, or a combination of all, to get a filtered list of your choosing.
 - Export the data to a CSV file.
 
+### Navigating from alerts to investigations
+
+To view alerts, in the Office 365 Security & Compliance Center, choose **Alerts** > **View alerts**.
+
+![Alerts that link to investigations](media/air-alerts-page-details.png) 
+
+Select an alert to view its details, and from there, navigate to the corresponding investigation.
+
 ### The investigation graph page
 
 When you open a specific investigation, you see the investigation graph page. This page shows all the different entities: email messages, users (and their activities), and devices that were automatically investigated as part of the alert that was triggered.
