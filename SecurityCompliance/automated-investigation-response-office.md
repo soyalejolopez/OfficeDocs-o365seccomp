@@ -25,6 +25,12 @@ Automated Investigation and Response (AIR) (coming soon to [Office 365 Threat In
 
 With AIR, investigation and response are automated into key security and threat management alerts that trigger your security response playbooks automatically. 
 
+To view alerts, in the Office 365 Security & Compliance Center, choose **Alerts** > **View alerts**.
+
+![Alerts that link to investigations](media/air-alerts-page-details.png) 
+
+Select an alert to view its details, and from there, use the **View investigation** link to go to the corresponding investigation.
+
 ## Security playbooks
 
 Security playbooks are back-end policies that are at the heart of automation in Microsoft Threat Protection. The security playbooks provided in AIR are based on common real-world security scenarios. 
@@ -89,9 +95,9 @@ Remediation is the final phase of the playbook. During this phase, remediation s
 
 ## Getting started
 
-To access your investigations, as an Office 365 global administrator or security administrator, do one of the following:
+To access your investigations, as an Office 365 global administrator or security administrator, Go to the Office 365 Security & Compliance Center ([https://protection.office.com](https://protection.office.com)) and sign in. Then, do one of the following:
 
-- Go to the Office 365 Security & Compliance Center ([https://protection.office.com](https://protection.office.com)) and sign in. Then, in the left navigation, go to **Threat management** > **Investigations**.
+- In the left navigation, go to **Threat management** > **Investigations**.
 
     or
 
@@ -113,14 +119,6 @@ You can:
 - Navigate directly to an investigation (select an **Investigation ID**).
 - Apply filters. Choose from **Investigation Type**, **Time range**, **Status**, or a combination of these.
 - Export the data to a CSV file.
-
-## Moving from an alert to an investigations
-
-To view alerts, in the Office 365 Security & Compliance Center, choose **Alerts** > **View alerts**.
-
-![Alerts that link to investigations](media/air-alerts-page-details.png) 
-
-Select an alert to view its details, and from there, use the **View investigation** link to go to the corresponding investigation.
 
 ## Investigation graph
 
