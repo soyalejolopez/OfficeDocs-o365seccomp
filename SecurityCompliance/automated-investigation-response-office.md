@@ -142,7 +142,7 @@ You can:
 
 ### The investigation email messages page
 
-When you select the **Email** node tab for an investigation, you go to a page that shows all the email clusters identified as part of the investigation. 
+When you select the **Email** node or tab for an investigation, you go to a page that shows all the email clusters identified as part of the investigation. 
 
 Given the sheer volume of email that users in an organization send and receive, the process of 
 - clustering email messages based on similar attributes from a message header, body, URL and attachment; 
