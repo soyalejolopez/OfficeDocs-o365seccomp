@@ -216,7 +216,7 @@ You can:
 
 On the **Actions** tab, you can see all the play book actions that are recommended for remediation after the investigation has completed. 
 
-Actions capture a complete list of all the steps Microsoft recommends you take at the end of a investigation. You can take remediation actions here by selecting one or more actions. Clicking **Approve** will allow remediations to begin running. (Appropriate permissions might be required. For example, a Security Reader can view actions but not approve them.)  
+Actions capture a complete list of all the steps Microsoft recommends you take at the end of a investigation. You can take remediation actions here by selecting one or more actions. Clicking **Approve** will allow remediation to begin. (Appropriate permissions might be required. For example, a Security Reader can view actions but not approve them.)  
 
 ![AIR investigations action page](media/air-investigationactionspage.png)
 
