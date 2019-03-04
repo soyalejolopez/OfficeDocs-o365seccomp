@@ -132,7 +132,7 @@ You can:
 
 ### The investigation alerts page
 
-When you select the **Alerts** tab for an investigation, you go to a page that shows ALL alerts relevant to the investigation. Details include the alert that triggered the investigation as well as other alerts, such as risky sign-in, mass download, etc., that are correlated to an investigation. From this page, a security analyst can also view additional details on the alerts themselves.
+On the **Alerts** tab for an investigation, you go to a page that shows ALL alerts relevant to the investigation. Details include the alert that triggered the investigation as well as other alerts, such as risky sign-in, mass download, etc., that are correlated to an investigation. From this page, a security analyst can also view additional details on the alerts themselves.
 
 ![AIR alerts page](media/air-investigationalertspage.png)
 
@@ -142,7 +142,7 @@ You can:
 
 ### The investigation email messages page
 
-When you select the **Email** tab for an investigation, you go to a page that shows all the email clusters identified as part of the investigation. 
+On the **Email** tab for an investigation, you go to a page that shows all the email clusters identified as part of the investigation. 
 
 Given the sheer volume of email that users in an organization send and receive, the process of 
 - clustering email messages based on similar attributes from a message header, body, URL and attachment; 
@@ -163,7 +163,7 @@ You can:
 
 ### The investigation users page
 
-When you select the **Users** tab, you can see all the users identified as part of the investigation. 
+On the **Users** tab, you can see all the users identified as part of the investigation. 
 
 For example, in the following image, AIR has identified indicators of compromise and anomalies based on a new inbox rule that was created. Additional details (evidence) of the investigation are available through detailed views within this tab.
 
@@ -175,7 +175,7 @@ You can:
 
 ### The investigation machines page
 
-When you select the **Machines** tab, you can see all the machines identified as part of the investigation. 
+On the **Machines** tab, you can see all the machines identified as part of the investigation. 
 
 ![AIR investigation machine page](media/air-investigationmachinepage.png)
 
@@ -187,7 +187,7 @@ You can:
 
 ### Investigation entities page
 
-When you select the **Entities** tab, you can see all the machines identified as part of the investigation. 
+On the **Entities** tab, you can see all the machines identified as part of the investigation. 
 
 Here, you can see the investigated entities. You can see details of the types of entities, such as email messages, clusters, IP addresses, users, and more. You can also see how many entities were analyzed, and the threats that were associated with each. 
 
@@ -201,7 +201,7 @@ You can:
 
 ### Investigation log page
 
-When you select the **Log** tab, you can see all the play book steps that have occurred during the investigation. The log captures a complete inventory of all actions completed by Office 365 Threat Intelligence capabilities as part of AIR. It provides a clear view of all the steps taken, including the Action itself, a description and the duration of the actual from start to finish. 
+On the **Log** tab, you can see all the play book steps that have occurred during the investigation. The log captures a complete inventory of all actions completed by Office 365 Threat Intelligence capabilities as part of AIR. It provides a clear view of all the steps taken, including the Action itself, a description and the duration of the actual from start to finish. 
 
 ![AIR investigation log page](media/air-investigationlogpage.png)
 
@@ -212,7 +212,7 @@ You can:
 
 ### Investigation actions page
 
-When you select the **Action** tab, you can see all the play book actions that are recommended for remediation after the investigation has completed. 
+On the **Action** tab, you can see all the play book actions that are recommended for remediation after the investigation has completed. 
 
 Actions capture a complete list of all the steps Microsoft recommends you take at the end of a investigation. You can take remediation actions here by selecting one or more actions. Clicking **Approve** will allow remediations to begin running. (Appropriate permissions might be required. For example, a Security Reader can view actions but not approve them.)  
 
