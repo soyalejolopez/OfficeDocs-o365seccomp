@@ -101,9 +101,7 @@ To access your investigations, as an Office 365 global administrator or security
 
 ![AIR widgets](media/air-widgets.png)
 
-Your AIR widgets will appear across the top of the [Security Dashboard](security-dashboard.md).
-
-Select a widget to get started.
+Your AIR widgets will appear across the top of the [Security Dashboard](security-dashboard.md). Select a widget to get started.
 
 ### Automated investigations
 
