@@ -3,7 +3,7 @@ title: "Automated Investigation and Response (AIR) with Office 365 Threat Intell
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 02/27/2019
+ms.date: 03/04/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -76,9 +76,13 @@ Remediation is the final phase of the playbook. During this phase, remediation s
 
 ## Getting started
 
-To access your investigations, as an Office 365 global administrator or security administrator, go to the Office 365 Security & Compliance Center ([https://protection.office.com](https://protection.office.com)) and sign in. Then, in the left navigation, go to **Threat management** > **Investigations**.
+To access your investigations, as an Office 365 global administrator or security administrator, do one of the following:
 
-Alternately, visit the Threat management dashboard (In the Security & Compliance Center, go to **Threat management** > **Dashboard**).
+- Go to the Office 365 Security & Compliance Center ([https://protection.office.com](https://protection.office.com)) and sign in. Then, in the left navigation, go to **Threat management** > **Investigations**.
+
+    or
+
+- Visit the Threat management dashboard (In the Security & Compliance Center, go to **Threat management** > **Dashboard**).
 
 ![AIR widgets](media/air-widgets.png)
 
