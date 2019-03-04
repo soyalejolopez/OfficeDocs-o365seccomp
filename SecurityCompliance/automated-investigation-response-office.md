@@ -21,9 +21,7 @@ Automated Investigation and Response (AIR) (coming soon to [Office 365 Threat In
 
 ## Alerts
 
-[Alerts](alert-policies.md#viewing-alerts) represent triggers for Security Operations team workflows for incident response. Prioritizing the right set of alerts for investigation while making sure no threats are unaddressed is challenging. When investigations into alerts are performed manually, Security Operations teams must hunt and correlate entities (e.g. content, devices and users) at risk from threats. Such tasks and workflows are very time consuming and involve multiple tools and systems. 
-
-With AIR, investigation and response are automated into key security and threat management alerts that trigger your security response playbooks automatically. 
+[Alerts](alert-policies.md#viewing-alerts) represent triggers for Security Operations team workflows for incident response. Prioritizing the right set of alerts for investigation while making sure no threats are unaddressed is challenging. When investigations into alerts are performed manually, Security Operations teams must hunt and correlate entities (e.g. content, devices and users) at risk from threats. Such tasks and workflows are very time consuming and involve multiple tools and systems. With AIR, investigation and response are automated into key security and threat management alerts that trigger your security response playbooks automatically. 
 
 To view alerts, in the Office 365 Security & Compliance Center, choose **Alerts** > **View alerts**.
 
