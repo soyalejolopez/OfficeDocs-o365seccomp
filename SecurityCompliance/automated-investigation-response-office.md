@@ -212,7 +212,7 @@ You can:
 - Export the results to a CSV file.
 - Filter the view.
 
-## Actions
+## Recommended actions
 
 On the **Actions** tab, you can see all the playbook actions that are recommended for remediation after the investigation has completed. 
 
