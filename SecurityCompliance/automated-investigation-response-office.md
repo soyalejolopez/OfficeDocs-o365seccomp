@@ -21,7 +21,7 @@ Automated Investigation and Response (AIR) (coming soon to [Office 365 Threat In
 
 ## Alerts
 
-Alerts represent triggers for Security Operations team workflows for incident response. Prioritizing the right set of alerts for investigation while making sure no threats are unaddressed is challenging. When investigations into alerts are performed manually, Security Operations teams must hunt and correlate entities (e.g. content, devices and users) at risk from threats manually. Such tasks and workflows are very time consuming and involve multiple tools and systems. 
+[Alerts](alert-policies.md#viewing-alerts) represent triggers for Security Operations team workflows for incident response. Prioritizing the right set of alerts for investigation while making sure no threats are unaddressed is challenging. When investigations into alerts are performed manually, Security Operations teams must hunt and correlate entities (e.g. content, devices and users) at risk from threats manually. Such tasks and workflows are very time consuming and involve multiple tools and systems. 
 
 With AIR in Office 365, investigation and response are automated into security and threat management alerts. Those alerts automatically trigger your security response playbooks. 
 
@@ -31,7 +31,7 @@ Security playbooks are back-end policies that are at the heart of automation in 
 
 A security playbook is launched automatically when an alert is triggered within your organization. Once the alert triggers, the associated playbook is run automatically. The playbook runs an investigation, looking at all the associated metadata (including email messages, users, subjects, senders, etc.) and, based on its findings, recommends a set of actions that your organization's security team can take to control and mitigate the threat. 
 
-The security playbooks are designed based on input from Security Operations anad Incident Response teams, including those who help defend Microsoft assets, to tackle the most frequent threats that organizations face in Office 365.
+The security playbooks are designed based on input from Security Operations and Incident Response teams, including those who help defend Microsoft assets, to tackle the most frequent threats that organizations face in Office 365.
 
 ### Security playbooks are rolling out in phases
 
