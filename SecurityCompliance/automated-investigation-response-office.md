@@ -109,7 +109,7 @@ Your AIR widgets will appear across the top of the [Security Dashboard](security
 
 Select a widget to get started.
 
-## Automated investigations
+### Automated investigations
 
 The automated investigations page shows your organization's investigations and their current states.
 
@@ -120,7 +120,7 @@ You can:
 - Apply filters. Choose from **Investigation Type**, **Time range**, **Status**, or a combination of these.
 - Export the data to a CSV file.
 
-## Investigation graph
+### Investigation graph
 
 When you open a specific investigation, you see the investigation graph page. This page shows all the different entities: email messages, users (and their activities), and devices that were automatically investigated as part of the alert that was triggered.
 
@@ -132,7 +132,7 @@ You can:
 - Select a node in the visualization to view details for that node.
 - Select a tab across the top to view details for that tab.
 
-## Alert investigation
+### Alert investigation
 
 On the **Alerts** tab for an investigation, you can see all of the alerts relevant to the investigation. Details include the alert that triggered the investigation and other alerts, such as risky sign-in, mass download, etc., that are correlated to the investigation. From this page, a security analyst can also view additional details on individual alerts.
 
@@ -142,7 +142,7 @@ You can:
 - Get a visual overview of the current triggering alert and any associated alerts.
 - Select an alert in the list to open a fly-out page that shows full alert details.
 
-## Email investigation
+### Email investigation
 
 On the **Email** tab for an investigation, you can see all the email clusters identified as part of the investigation. 
 
@@ -163,7 +163,7 @@ You can:
 
 ![AIR investigation email with flyout details](media/air-investigationemailpageflyoutdetails.png)
 
-## User investigation
+### User investigation
 
 On the **Users** tab, you can see all the users identified as part of the investigation. 
 
@@ -175,7 +175,7 @@ You can:
 - Get a visual overview of identified user results and risks found.
 - Select a user to open a fly-out page that shows the full alert details.
 
-## Machine investigation
+### Machine investigation
 
 On the **Machines** tab, you can see all the machines identified as part of the investigation. 
 
@@ -187,7 +187,7 @@ You can:
 - Get a visual overview of the current machines and threats found.
 - Select a machine to open a view that into the related [Windows Defender ATP investigations](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/automated-investigations-windows-defender-advanced-threat-protection).
 
-## Entity investigation
+### Entity investigation
 
 On the **Entities** tab, you can see all the machines identified as part of the investigation. 
 
@@ -201,7 +201,7 @@ You can:
 
 ![AIR investigation entities details](media/air-investigationsentitiespagedetails.png)
 
-## Playbook log
+### Playbook log
 
 On the **Log** tab, you can see all the playbook steps that have occurred during the investigation. The log captures a complete inventory of all actions completed by Office 365 Threat Intelligence capabilities as part of AIR. It provides a clear view of all the steps taken, including the Action itself, a description and the duration of the actual from start to finish. 
 
@@ -212,7 +212,7 @@ You can:
 - Export the results to a CSV file.
 - Filter the view.
 
-## Recommended actions
+### Recommended actions
 
 On the **Actions** tab, you can see all the playbook actions that are recommended for remediation after the investigation has completed. 
 
