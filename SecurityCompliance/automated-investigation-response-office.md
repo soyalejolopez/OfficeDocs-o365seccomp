@@ -23,7 +23,7 @@ Automated Investigation and Response (AIR) (coming soon to [Office 365 Threat In
 
 [Alerts](alert-policies.md#viewing-alerts) represent triggers for Security Operations team workflows for incident response. Prioritizing the right set of alerts for investigation while making sure no threats are unaddressed is challenging. When investigations into alerts are performed manually, Security Operations teams must hunt and correlate entities (e.g. content, devices and users) at risk from threats. Such tasks and workflows are very time consuming and involve multiple tools and systems. 
 
-With AIR, investigation and response are automated into key security and threat management alerts that trigger your [security response playbooks](#security-playbooks) automatically. 
+With AIR, investigation and response are automated into key security and threat management alerts that trigger your security response playbooks automatically. 
 
 ## Security playbooks
 
@@ -50,6 +50,8 @@ Phase 1 will include the following playbooks:
 - Manual investigations (using Explorer)
 
 Several more playbooks are planned for Phase 2.
+
+### Playbooks include investigation and recommendations
 
 Each playbook includes: 
 - a root investigation, 
@@ -83,7 +85,7 @@ Next, several hunting steps are executed:
 
 During the hunting phase, risks and threats are assigned to various hunting steps.  
 
-Remediation is the final phase of the playbook. During this phase, remediation steps are carried out, based on the results from the investigation and hunting phases.  
+Remediation is the final phase of the playbook. During this phase, remediation steps are taken, based on theinvestigation and hunting phases.  
 
 ## Getting started
 
