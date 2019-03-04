@@ -63,7 +63,8 @@ When a user in your organization submits an email message and reports it to Micr
 During the root investigation phase, various aspects of the email are assessed. These include:
 - A determination about what type of threat it might be,
 - Who sent it,
-- Whether other instances of the email were removed by the [ZAP feature](zero-hour-auto-purge.md),
+- Where the email was sent from (sending infrastructure),
+- Whether other instances of the email were delivered or blocked,
 - An assessment from our analysts,
 - Whether the email is associated with any known campaigns,
 - and more.
@@ -73,10 +74,10 @@ After the root investigation is complete, the playbook provides a list of recomm
 Next, several hunting steps are executed:
 
 - Similar email messages in other email clusters are searched.
-- The signal is shared with other platforms, such as [WDATP](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection).
-- A determination on whether any users have clicked-through on the suspicious email message.
-- A check is done to see if [Office 365 ATP Safe Links](atp-safe-links.md) may have missed any instance of the email which was submitted.
-- A check is done to see if the user has been compromised.  
+- The signal is shared with other platforms, such as [Windows Defender ATP](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection).
+- A determination on whether any users have clicked through on the suspicious email message.
+- A check is done across Office 365 [EOP](eop/exchange-online-protection-eop.md) and [ATP](office-365-atp.md) to see if there are any other similar messages reported by users.
+- A check is done to see if the user has been compromised. This check leverages signals across [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security) and [Azure Active Directory](https://docs.microsoft.com/azure/active-directory), correlating any related events or alerts. 
 
 During the hunting phase, risks and threats are assigned to various hunting steps.  
 
