@@ -240,12 +240,14 @@ To learn more about feature availability, visit the [Microsoft 365 Roadmap](http
 
 ## Related topics
 
-[Office 365 ATP Safe Links](atp-safe-links.md)
+[ATP Safe Links](atp-safe-links.md)
+
+[Find and investigate malicious email that was delivered](investigate-malicious-email-that-was-delivered.md)
 
 [Permissions in the Office 365 Security &amp; Compliance Center](permissions-in-the-security-and-compliance-center.md)
 
 [Reports and insights in the Office 365 Security &amp; Compliance Center](reports-and-insights-in-security-and-compliance.md)
   
-[Use Explorer in the Security &amp; Compliance Center](use-explorer-in-security-and-compliance.md)
+[Threat Explorer](use-explorer-in-security-and-compliance.md)
 
 [Zero-hour auto purge - protection against spam and malware](zero-hour-auto-purge.md)
