@@ -63,12 +63,13 @@ Each high-level step includes many sub-steps that are executed to provide a deep
 When a user in your organization submits an email message and reports it to Microsoft by using the [Report Message add-in for Outlook or Outlook Web Access](enable-the-report-message-add-in.md). This triggers a system-based informational alert that automatically launches the investigation playbook.
 
 During the root investigation phase, various aspects of the email are assessed. These include:
-- A determination about what type of threat it might be
-- Who sent it
-- Where the email was sent from (sending infrastructure)
-- Whether other instances of the email were delivered or blocked
-- An assessment from our analysts
-- Whether the email is associated with any known campaigns
+- A determination about what type of threat it might be;
+- Who sent it;
+- Where the email was sent from (sending infrastructure);
+- Whether other instances of the email were delivered or blocked;
+- An assessment from our analysts;
+- Whether the email is associated with any known campaigns;
+- and more.
 
 After the root investigation is complete, the playbook provides a list of recommended actions to take.
   
