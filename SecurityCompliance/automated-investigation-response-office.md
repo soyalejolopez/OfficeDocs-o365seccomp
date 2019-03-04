@@ -21,15 +21,17 @@ Automated Investigation and Response (AIR) (coming soon to [Office 365 Threat In
 
 ## Alerts
 
-Alerts represent triggers for Security Operations team workflows for incident response. Prioritizing the right set of alerts for investigation while making sure no threats are unaddressed is challenging. When investigations into alerts are performed manually, Security Operations teams must hunt and correlate entities (e.g. content, devices and users) at risk from threats manually. Such tasks and workflows are very time consuming and involve multiple tools and systems. With AIR in Office 365, investigation and response are automated into key security and threat management alerts that automatically trigger security response playbooks. 
+Alerts represent triggers for Security Operations team workflows for incident response. Prioritizing the right set of alerts for investigation while making sure no threats are unaddressed is challenging. When investigations into alerts are performed manually, Security Operations teams must hunt and correlate entities (e.g. content, devices and users) at risk from threats manually. Such tasks and workflows are very time consuming and involve multiple tools and systems. 
+
+With AIR in Office 365, investigation and response are automated into security and threat management alerts. Those alerts automatically trigger your security response playbooks. 
 
 ## Security playbooks
 
 Security playbooks are back-end policies that are at the heart of automation in Microsoft Threat Protection. The security playbooks provided in AIR are based on common real-world security scenarios. 
 
-A Security playbook is launched automatically when an alert is triggered within your organization. Once the alert triggers, the associated playbook is run automatically. The playbook runs an investigation, looking at all the associated metadata (including email messages, users, subjects, senders, etc.) and, based on its findings, recommends a set of actions that your organization's security team can take to control and mitigate the threat. 
+A security playbook is launched automatically when an alert is triggered within your organization. Once the alert triggers, the associated playbook is run automatically. The playbook runs an investigation, looking at all the associated metadata (including email messages, users, subjects, senders, etc.) and, based on its findings, recommends a set of actions that your organization's security team can take to control and mitigate the threat. 
 
-The security playbooks are designed based on input from Security Operations anad Incident Response teams to include those who help defend Microsoft assets, to tackle the most frequent threats that organizations face in Office 365.
+The security playbooks are designed based on input from Security Operations anad Incident Response teams, including those who help defend Microsoft assets, to tackle the most frequent threats that organizations face in Office 365.
 
 ### Security playbooks are rolling out in phases
 
@@ -75,7 +77,7 @@ Next, several hunting steps are executed:
 
 - Similar email messages in other email clusters are searched.
 - The signal is shared with other platforms, such as [Windows Defender ATP](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection).
-- A determination on whether any users have clicked through on the suspicious email message.
+- A determination is made on whether any users have clicked through on the suspicious email message.
 - A check is done across Office 365 [EOP](eop/exchange-online-protection-eop.md) and [ATP](office-365-atp.md) to see if there are any other similar messages reported by users.
 - A check is done to see if the user has been compromised. This check leverages signals across [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security) and [Azure Active Directory](https://docs.microsoft.com/azure/active-directory), correlating any related events or alerts. 
 
@@ -103,7 +105,7 @@ The main investigation page shows an overview view of your organization's invest
 
 ![Main investigation page for AIR](media/air-maininvestigationpage.png) 
   
-Here, you have several options:
+You can:
 - Navigate directly to an investigation (click an Investigation ID).
 - Apply filters to the Investigation State, Status, Time, or a combination of all, to get a filtered list.
 - Export the data to a CSV file.
@@ -122,7 +124,7 @@ When you open a specific investigation, you see the investigation graph page. Th
 
 ![AIR investigation graph page](media/air-investigationgraphpage.png)
 
-Here, you have several options:
+You can:
 - Get a visual overview of the current investigation.
 - View a summary of the investigation timings.
 - Click a node in the visualization to view details for that node.
@@ -134,7 +136,7 @@ When you click the Alerts node or Alerts tab for an investigation, you go to a p
 
 ![AIR alerts page](media/air-investigationalertspage.png)
 
-Here, you have several options:
+You can:
 - Get a visual overview of the current triggering alert and any associated alerts.
 - Click an alert in the list to open a fly-out page that shows full alert details.
 
@@ -153,7 +155,7 @@ As an example, consider the following image. The first cluster of three email me
 
 ![AIR email investigation page](media/air-investigationemailpage.png)
 
-Here, you have several options:
+You can:
 - Get a visual overview of the current clustering results and threats found.
 - Click a cluster entity or a threat list to open a fly-out page that shows the full alert details.
 
@@ -167,7 +169,7 @@ For example, in the following image, AIR has identified indicators of compromise
 
 ![AIR investigation users page](media/air-investigationuserspage.png)
 
-Here, you have several options:
+You can:
 - Get a visual overview of identified user results and risks found.
 - Click a user to open a fly-out page that shows the full alert details.
 
@@ -179,7 +181,7 @@ When you click the Machines node or Machines tab, you go to a view that shows al
 
 As part of the investigation, AIR correlates email threats to devices. For example, an investigation passes a file hash across to [Windows Defender ATP](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection) to investigate. This allows for automated investigation of relevant machines for your users and helps to ensure that threats are addressed both in the cloud and across your devices. 
 
-Here, you have several options:
+You can:
 - Get a visual overview of the current machines and threats found.
 - Click a machine to open a view that into the related [Windows Defender ATP investigations](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/automated-investigations-windows-defender-advanced-threat-protection).
 
@@ -191,7 +193,7 @@ Here, you can see the investigated entities. You can see details of the types of
 
 ![AIR investigation entities page](media/air-investigationentitiespage.png)
 
-Here, you have several options:
+You can:
 - Get a visual overview of the investigation entities and threats found.
 - Click an entity to open a fly-out page that shows the related entity detail.
 
@@ -203,7 +205,7 @@ When you click the Log tab, you go to a view that shows all the play book steps 
 
 ![AIR investigation log page](media/air-investigationlogpage.png)
 
-Here, you have several options:
+You can:
 - Get see a visual overview of the play book steps taken.
 - Export the results to a CSV file.
 - Filter the view.
@@ -216,7 +218,7 @@ The actions capture a complete list of all the action steps Microsoft recommend 
 
 ![AIR investigations action page](media/air-investigationactionspage.png)
 
-Here, you have several options:
+You can:
 - Get a visual overview of the playbook-recommended actions.
 - Select a single action or multiple actions.
 - Approve recommended actions. (These are started immediately with comments.)
