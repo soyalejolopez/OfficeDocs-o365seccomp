@@ -99,14 +99,14 @@ To access your investigations, as an Office 365 global administrator or security
 
 Your AIR widgets will appear across the top of the [Security Dashboard](security-dashboard.md).
 
-### The main investigation page
+### The main investigations page
 
-The main investigation page shows an overview view of your organization's investigations and their current states.
+The main investigations page shows an overview view of your organization's investigations and their current states.
 
 ![Main investigation page for AIR](media/air-maininvestigationpage.png) 
   
 You can:
-- Navigate directly to an investigation (click an Investigation ID).
+- Navigate directly to an investigation (select an **Investigation ID**).
 - Apply filters to the Investigation State, Status, Time, or a combination of all, to get a filtered list.
 - Export the data to a CSV file.
 
@@ -127,26 +127,26 @@ When you open a specific investigation, you see the investigation graph page. Th
 You can:
 - Get a visual overview of the current investigation.
 - View a summary of the investigation timings.
-- Click a node in the visualization to view details for that node.
-- Click a tab across the top to view details for that tab.
+- Select a node in the visualization to view details for that node.
+- Select a tab across the top to view details for that tab.
 
 ### The investigation alerts page
 
-When you click the Alerts node or Alerts tab for an investigation, you go to a page that shows ALL alerts relevant to the investigation. Details include the alert that triggered the investigation as well as other alerts, such as risky sign-in, mass download, etc., that are correlated to an investigation. From this page, a security analyst can also view additional details on the alerts themselves.
+When you select the **Alerts** node or tab for an investigation, you go to a page that shows ALL alerts relevant to the investigation. Details include the alert that triggered the investigation as well as other alerts, such as risky sign-in, mass download, etc., that are correlated to an investigation. From this page, a security analyst can also view additional details on the alerts themselves.
 
 ![AIR alerts page](media/air-investigationalertspage.png)
 
 You can:
 - Get a visual overview of the current triggering alert and any associated alerts.
-- Click an alert in the list to open a fly-out page that shows full alert details.
+- Select an alert in the list to open a fly-out page that shows full alert details.
 
 ### The investigation email messages page
 
-When you click the Email node or Email tab for an investigation, you go to a page that shows all the email clusters identified as part of the investigation. 
+When you select the **Email** node tab for an investigation, you go to a page that shows all the email clusters identified as part of the investigation. 
 
 Given the sheer volume of email that users in an organization send and receive, the process of 
-- clustering email messages based on similar attributes from a message header, body, URL and attachment, 
-- separating malicious email from the good email, and 
+- clustering email messages based on similar attributes from a message header, body, URL and attachment; 
+- separating malicious email from the good email; and 
 - taking action on malicious email messages 
 
 can take many hours. AIR now automates this process, saving your organization's security team time and effort. 
@@ -163,7 +163,7 @@ You can:
 
 ### The investigation users page
 
-When you click the Users node or Users tab, you go to a view that shows all the users identified as part of the investigation. 
+When you select the **Users** node or tab, you go to a view that shows all the users identified as part of the investigation. 
 
 For example, in the following image, AIR has identified indicators of compromise and anomalies based on a new inbox rule that was created. Additional details (evidence) of the investigation are available through detailed views within this tab.
 
@@ -171,11 +171,11 @@ For example, in the following image, AIR has identified indicators of compromise
 
 You can:
 - Get a visual overview of identified user results and risks found.
-- Click a user to open a fly-out page that shows the full alert details.
+- Select a user to open a fly-out page that shows the full alert details.
 
 ### The investigation machines page
 
-When you click the Machines node or Machines tab, you go to a view that shows all the machines identified as part of the investigation. 
+When you select the **Machines** node or tab, you go to a view that shows all the machines identified as part of the investigation. 
 
 ![AIR investigation machine page](media/air-investigationmachinepage.png)
 
@@ -183,11 +183,11 @@ As part of the investigation, AIR correlates email threats to devices. For examp
 
 You can:
 - Get a visual overview of the current machines and threats found.
-- Click a machine to open a view that into the related [Windows Defender ATP investigations](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/automated-investigations-windows-defender-advanced-threat-protection).
+- Select a machine to open a view that into the related [Windows Defender ATP investigations](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/automated-investigations-windows-defender-advanced-threat-protection).
 
 ### Investigation entities page
 
-When you click the Entities tab, you go to a view that shows all the machines identified as part of the investigation. 
+When you select the **Entities** tab, you go to a view that shows all the machines identified as part of the investigation. 
 
 Here, you can see the investigated entities. You can see details of the types of entities, such as email messages, clusters, IP addresses, users, and more. You can also see how many entities were analyzed, and the threats that were associated with each. 
 
@@ -195,13 +195,13 @@ Here, you can see the investigated entities. You can see details of the types of
 
 You can:
 - Get a visual overview of the investigation entities and threats found.
-- Click an entity to open a fly-out page that shows the related entity detail.
+- Select an entity to open a fly-out page that shows the related entity detail.
 
 ![AIR investigation entities details](media/air-investigationsentitiespagedetails.png)
 
 ### Investigation log page
 
-When you click the Log tab, you go to a view that shows all the play book steps that have occurred during the investigation. The log captures a complete inventory of all actions completed by Office 365 Threat Intelligence capabilities as part of AIR. It provides a clear view of all the steps taken, including the Action itself, a description and the duration of the actual from start to finish. 
+When you select the **Log** tab, you go to a view that shows all the play book steps that have occurred during the investigation. The log captures a complete inventory of all actions completed by Office 365 Threat Intelligence capabilities as part of AIR. It provides a clear view of all the steps taken, including the Action itself, a description and the duration of the actual from start to finish. 
 
 ![AIR investigation log page](media/air-investigationlogpage.png)
 
@@ -212,9 +212,9 @@ You can:
 
 ### Investigation actions page
 
-When you click the Actions node or Action tab, you go to a view that shows all the play book actions that are recommended for remediation after the investigation has completed. 
+When you select the **Action** node or tab, you go to a view that shows all the play book actions that are recommended for remediation after the investigation has completed. 
 
-The actions capture a complete list of all the action steps Microsoft recommend you take at the end of a investigation. You can take remediation actions here by selecting one or more actions. Clicking Approve will allow remediations to begin running. (Appropriate permissions might be required. for example, Security Reader can view actions but not approve them.)  
+Actions capture a complete list of all the steps Microsoft recommends you take at the end of a investigation. You can take remediation actions here by selecting one or more actions. Clicking **Approve** will allow remediations to begin running. (Appropriate permissions might be required. For example, a Security Reader can view actions but not approve them.)  
 
 ![AIR investigations action page](media/air-investigationactionspage.png)
 
