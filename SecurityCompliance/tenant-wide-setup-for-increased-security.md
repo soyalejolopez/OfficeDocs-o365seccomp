@@ -8,6 +8,10 @@ ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
+ms.collection:
+- Ent_O365
+- Strat_O365_IP
+- M365-security-compliance
 search.appverid: MET150
 ms.assetid: 8d274fe3-db51-4107-ba64-865e7155b355
 description: "Walks you through recommended configuration for tenant-wide settings that affect the security of your Office 365 environment. Your security needs might require more or less security. Use these recommendations as a starting point."
