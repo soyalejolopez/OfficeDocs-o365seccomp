@@ -788,17 +788,17 @@ A DLP policy is 85% confident that it's detected this type of sensitive informat
 
 ### Format
 
-The string "redis.cache.windows.net" followed by the characters and strings outlined in the pattern below, including the string "password|pwd".
+The string "redis.cache.windows.<!--no-hyperlink-->net" followed by the characters and strings outlined in the pattern below, including the string "password|pwd".
 
 ### Pattern
 
-- The string "redis.cache.windows.net"
+- The string "redis.cache.windows.<!--no-hyperlink-->net"
 - Any combination of between 1-200 ????? characters
 - The string "password|pwd"
 - 0-2 whitespace characters
 - An equal sign (=)
 - 0-2 whitespace characters
-- Any combination of 43 lower- or uppercase letters, digits, forward slash (/), or plus sign (+)
+- Any combination of 43 characters that are lower- or uppercase letters, digits, forward slash (/), or plus sign (+)
 - An equal sign (=)
 
 ### Checksum
@@ -843,7 +843,7 @@ A DLP policy is 85% confident that it's detected this type of sensitive informat
 
 ### Format
 
-The string "EndPoint" followed by the characters and strings outlined in the pattern below, including the strings "servicebus.windows.net" and "SharedAccesKey".
+The string "sig" followed by the characters and strings outlined in the pattern below.
 
 ### Pattern
 
@@ -851,7 +851,7 @@ The string "EndPoint" followed by the characters and strings outlined in the pat
 - 0-2 whitespace characters
 - An equal sign (=)
 - 0-2 whitespace characters
-- Any combination of between 43 and 53 lower- or uppercase letters, digits, or the percent sign (%)
+- Any combination of between 43-53 characters that are lower- or uppercase letters, digits, or the percent sign (%)
 - The string "%3d"
 - Any character that is not a lower- or uppercase letter, digit, or percent sign (%)
 
@@ -877,7 +877,7 @@ A DLP policy is 85% confident that it's detected this type of sensitive informat
 
 ### Format
 
-The string "EndPoint" followed by the characters and strings outlined in the pattern below, including the strings "servicebus.windows.net" and "SharedAccesKey".
+The string "EndPoint" followed by the characters and strings outlined in the pattern below, including the strings "servicebus.windows.<!--no-hyperlink-->net" and "SharedAccesKey".
 
 ### Pattern
 
@@ -885,14 +885,14 @@ The string "EndPoint" followed by the characters and strings outlined in the pat
 - 0-2 whitespace characters
 - An equal sign (=)
 - 0-2 whitespace characters
-- Any combination of between 1-200 ????? characters
-- The string "servicebus.windows.net"
-- Any combination of between 1-200 ????? characters
+- Any combination of between 1-200 characters that are ???????
+- The string "servicebus.windows.<!--no-hyperlink-->net"
+- Any combination of between 1-200 characters that are ???????
 - The string "SharedAccessKey"
 - 0-2 whitespace characters
 - An equal sign (=)
 - 0-2 whitespace characters
-- Any combination of 43 lower- or uppercase letters, digits, forward slash (/), or plus sign (+)
+- Any combination of 43 characters that are lower- or uppercase letters, digits, forward slash (/), or plus sign (+)
 - An equal sign (=)
 
 ### Checksum
@@ -945,12 +945,12 @@ The string "DefaultEndpointsProtocol" followed by the characters and strings out
 - 0-2 whitespace characters
 - An equal sign (=)
 - 0-2 whitespace characters
-- Any combination of between 1-200 ????? characters
+- Any combination of between 1-200 characters that are ???????
 - The string "AccountKey"
 - 0-2 whitespace characters
 - An equal sign (=)
 - 0-2 whitespace characters
-- Any combination of 86 lower- or uppercase letters, digits, forward slash (/), or plus sign (+)
+- Any combination of 86 characters that are lower- or uppercase letters, digits, forward slash (/), or plus sign (+)
 - Two equal signs (=)
 
 ### Checksum
@@ -961,7 +961,8 @@ No
 
 A DLP policy is 85% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:
 - The regular expression CEP_Regex_AzureStorageAccountKey finds content that matches the pattern.
-- The regular expression CEP_AzureEmulatorStorageAccountFilter and/or the regular expression CEP_CommonExampleKeywords do **not** find content that matches their patterns.
+- The regular expression CEP_AzureEmulatorStorageAccountFilter does **not** find content that matches the pattern.
+- The regular expression CEP_CommonExampleKeywords does **not** find content that matches the pattern.
 
 ```
 <!--Azure Storage Account Key-->
@@ -1007,7 +1008,7 @@ Any combination of 86 lower- or uppercase letters, digits, the forward slash (/)
 ### Pattern
 
 - 0-1 of the greater than symbol (>), apostrophe ('), equal sign (=), quotation mark ("), or number sign (#)
-- Any combination of 86 lower- or uppercase letters, digits, the forward slash (/), or plus sign (+)
+- Any combination of 86 characters that are lower- or uppercase letters, digits, the forward slash (/), or plus sign (+)
 - Two equal signs (=)
 
 
@@ -5060,11 +5061,11 @@ A DLP policy is 85% confident that it's detected this type of sensitive informat
 
 - Password or pwd followed by 0-2 spaces, an equal sign (=), 0-2 spaces, and an asterisk (*)
 --OR--
-- Password or pwd followed by 
-    - An equal sign (=)
+- Password or pwd followed by:
+    - Equal sign (=)
     - Less than symbol (<)
     - Any combination of 1-200 characters that are upper- or lowercase letters, digits, an asterisk (*), hyphen (-), underline (_), or whitespace character
-    - A greater than symbol (>)
+    - Greater than symbol (>)
 
 #### CEP_CommonExampleKeywords
 
