@@ -58,7 +58,7 @@ Each playbook includes:
 
 Each high-level step includes many sub-steps that are executed to provide a deep, detailed, and exhaustive response to threats.
 
-## Example: User-reported phish message playbook
+## Example: User-reported phish message
 
 When a user in your organization submits an email message and reports it to Microsoft by using the [Report Message add-in for Outlook or Outlook Web Access](enable-the-report-message-add-in.md). This triggers a system-based informational alert that automatically launches the investigation playbook.
 
@@ -187,7 +187,7 @@ You can:
 - Get a visual overview of the current machines and threats found.
 - Select a machine to open a view that into the related [Windows Defender ATP investigations](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/automated-investigations-windows-defender-advanced-threat-protection).
 
-### Entity investigation
+## Entity investigation
 
 On the **Entities** tab, you can see all the machines identified as part of the investigation. 
 
@@ -201,20 +201,20 @@ You can:
 
 ![AIR investigation entities details](media/air-investigationsentitiespagedetails.png)
 
-### Log investigation
+## Playbook log
 
-On the **Log** tab, you can see all the play book steps that have occurred during the investigation. The log captures a complete inventory of all actions completed by Office 365 Threat Intelligence capabilities as part of AIR. It provides a clear view of all the steps taken, including the Action itself, a description and the duration of the actual from start to finish. 
+On the **Log** tab, you can see all the playbook steps that have occurred during the investigation. The log captures a complete inventory of all actions completed by Office 365 Threat Intelligence capabilities as part of AIR. It provides a clear view of all the steps taken, including the Action itself, a description and the duration of the actual from start to finish. 
 
 ![AIR investigation log page](media/air-investigationlogpage.png)
 
 You can:
-- Get see a visual overview of the play book steps taken.
+- Get see a visual overview of the playbook steps taken.
 - Export the results to a CSV file.
 - Filter the view.
 
-### Actions
+## Actions
 
-On the **Actions** tab, you can see all the play book actions that are recommended for remediation after the investigation has completed. 
+On the **Actions** tab, you can see all the playbook actions that are recommended for remediation after the investigation has completed. 
 
 Actions capture a complete list of all the steps Microsoft recommends you take at the end of a investigation. You can take remediation actions here by selecting one or more actions. Clicking **Approve** will allow remediation to begin. (Appropriate permissions might be required. For example, a Security Reader can view actions but not approve them.)  
 
