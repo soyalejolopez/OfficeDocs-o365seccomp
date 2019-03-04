@@ -10,6 +10,7 @@ localization_priority: None
 search.appverid:
 - MET150
 ms.collection:
+- Strat_O365_Enterprise
 - M365-security-compliance
 - Strat_O365_Enterprise
 description: "Summary: Understand data resiliency in Microsoft Office 365."
