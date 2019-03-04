@@ -29,7 +29,7 @@ To view alerts, in the Office 365 Security & Compliance Center, choose **Alerts*
 
 ![Alerts that link to investigations](media/air-alerts-page-details.png) 
 
-Select an alert to view its details, and from there, use the **View investigation** link to go to the corresponding investigation.
+Select an alert to view its details, and from there, use the **View investigation** link to go to the corresponding [investigation](#investigation-graph).
 
 ## Security playbooks
 
