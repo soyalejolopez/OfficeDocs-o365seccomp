@@ -105,7 +105,7 @@ The main investigation page shows an overview view of your organization's invest
   
 On this page, you have several options:
 - Navigate directly to an investigation (click an Investigation ID).
-- Apply filters to the Investigation State, Status, Time, or a combination of all, to get a filtered list of your choosing.
+- Apply filters to the Investigation State, Status, Time, or a combination of all, to get a filtered list.
 - Export the data to a CSV file.
 
 ### Navigating from alerts to investigations
