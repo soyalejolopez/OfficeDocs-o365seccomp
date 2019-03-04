@@ -103,7 +103,7 @@ The main investigation page shows an overview view of your organization's invest
 
 ![Main investigation page for AIR](media/air-maininvestigationpage.png) 
   
-On this page, you have several options:
+Here, you have several options:
 - Navigate directly to an investigation (click an Investigation ID).
 - Apply filters to the Investigation State, Status, Time, or a combination of all, to get a filtered list.
 - Export the data to a CSV file.
@@ -122,7 +122,7 @@ When you open a specific investigation, you see the investigation graph page. Th
 
 ![AIR investigation graph page](media/air-investigationgraphpage.png)
 
-On this page, you have several options:
+Here, you have several options:
 - Get a visual overview of the current investigation.
 - View a summary of the investigation timings.
 - Click a node in the visualization to view details for that node.
@@ -134,7 +134,7 @@ When you click the Alerts node or Alerts tab for an investigation, you go to a p
 
 ![AIR alerts page](media/air-investigationalertspage.png)
 
-On this page, you have several options:
+Here, you have several options:
 - Get a visual overview of the current triggering alert and any associated alerts.
 - Click an alert in the list to open a fly-out page that shows full alert details.
 
@@ -153,7 +153,7 @@ As an example, consider the following image. The first cluster of three email me
 
 ![AIR email investigation page](media/air-investigationemailpage.png)
 
-On this page, you have several options:
+Here, you have several options:
 - Get a visual overview of the current clustering results and threats found.
 - Click a cluster entity or a threat list to open a fly-out page that shows the full alert details.
 
@@ -167,7 +167,7 @@ For example, in the following image, AIR has identified indicators of compromise
 
 ![AIR investigation users page](media/air-investigationuserspage.png)
 
-On this page, you have several options:
+Here, you have several options:
 - Get a visual overview of identified user results and risks found.
 - Click a user to open a fly-out page that shows the full alert details.
 
@@ -179,7 +179,7 @@ When you click the Machines node or Machines tab, you go to a view that shows al
 
 As part of the investigation, AIR correlates email threats to devices. For example, an investigation passes a file hash across to [Windows Defender ATP](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection) to investigate. This allows for automated investigation of relevant machines for your users and helps to ensure that threats are addressed both in the cloud and across your devices. 
 
-On this page, you have several options:
+Here, you have several options:
 - Get a visual overview of the current machines and threats found.
 - Click a machine to open a view that into the related [Windows Defender ATP investigations](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/automated-investigations-windows-defender-advanced-threat-protection).
 
@@ -187,11 +187,11 @@ On this page, you have several options:
 
 When you click the Entities tab, you go to a view that shows all the machines identified as part of the investigation. 
 
-On this page, you can see the investigated entities. You can see details of the types of entities, such as email messages, clusters, IP addresses, users, and more. You can also see how many entities were analyzed, and the threats that were associated with each. 
+Here, you can see the investigated entities. You can see details of the types of entities, such as email messages, clusters, IP addresses, users, and more. You can also see how many entities were analyzed, and the threats that were associated with each. 
 
 ![AIR investigation entities page](media/air-investigationentitiespage.png)
 
-On this page, you have several options:
+Here, you have several options:
 - Get a visual overview of the investigation entities and threats found.
 - Click an entity to open a fly-out page that shows the related entity detail.
 
@@ -203,7 +203,7 @@ When you click the Log tab, you go to a view that shows all the play book steps 
 
 ![AIR investigation log page](media/air-investigationlogpage.png)
 
-On this page, you have several options:
+Here, you have several options:
 - Get see a visual overview of the play book steps taken.
 - Export the results to a CSV file.
 - Filter the view.
@@ -216,7 +216,7 @@ The actions capture a complete list of all the action steps Microsoft recommend 
 
 ![AIR investigations action page](media/air-investigationactionspage.png)
 
-On this page, you have several options:
+Here, you have several options:
 - Get a visual overview of the playbook-recommended actions.
 - Select a single action or multiple actions.
 - Approve recommended actions. (These are started immediately with comments.)
