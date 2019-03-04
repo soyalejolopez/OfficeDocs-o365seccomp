@@ -39,24 +39,26 @@ As part of AIR, security playbooks are rolling out in phases
 
 - **Phase 2 (June 2019)**: Security administrators will have the option to allow security playbooks to take action automatically, without administrative interaction.
 
-### Five playbooks will be offered
+Phase 1 will include the following playbooks:
 
-At initial release, three playbooks will be available. Two more will follow soon after.
+- User-reported phish message
+- URL click verdict change and ATP Safe Links block override
+- Malware ZAP
+- Phish ZAP
+- Manual investigations (using Explorer)
 
-|Initial release  |Following soon |
-|---------|---------|
-|User-submitted message<br>URL verdict change<br>Manual investigation |Zapped malware<br>Zapped phish<br/> |
+Several more playbooks are planned for Phase 2.
 
 Each playbook includes: 
 - a root investigation, 
 - steps to hunt down other potential threats, and 
-- threat remediation.
+- recommended threat remediation.
 
 Each high-level step includes many sub-steps that are executed to provide a deep, detailed, and exhaustive response to threats.
 
-### Example: User-submitted message playbook
+### Example: User-reported phish message playbook
 
-Suppose that a user submits an email message by using the [Report Message add-in for Outlook](enable-the-report-message-add-in.md). This triggers the **User-submitted message** playbook.
+When a user in your organization submits an email message and reports it to Microsoft by using the [Report Message add-in for Outlook or Outlook Web Access](enable-the-report-message-add-in.md). This triggers a system-based informational alert that automatically launches the investigation playbook.
 
 During the root investigation phase, various aspects of the email are assessed. These include:
 - A determination about what type of threat it might be,
