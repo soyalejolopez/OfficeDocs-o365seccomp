@@ -567,23 +567,15 @@ A DLP policy is 85% confident that it's detected this type of sensitive informat
 
 ### Format
 
-The string "Server", "server", or "data source" followed by the characters and strings outlined in the pattern below, including the string "cloudapp.azure.com" or "cloudapp.azure.net" or "database.windows.net", and the string "Password" or "password" or "pwd".
+The string "DocumentDb" followed by the characters and strings outlined in the pattern below.
 
 ### Pattern
 
 - The string "Server", "server", or "data source"
-- 0-2 whitespace characters
-- An equal sign (=)
-- 0-2 whitespace characters
-- Any combination of between 1-200 ????? characters
-- The string "cloudapp.azure.com", "cloudapp.azure.net", or "database.windows.net"
-- Any combination of between 1-300 ????? characters
-- The string "Password", "password", or "pwd"
-- 0-2 whitespace characters
-- An equal sign (=)
-- 0-2 whitespace characters
-- One or more characters that is not a semicolon (;), quotation mark ("), or apostrophe (')
-- A semicolon (;), quotation mark ("), or apostrophe (')
+- Any combination of between 3-200 ????? characters
+- A greater than symbol (>), an equal sign (=), a quotation mark ("), or an apostrophe (')
+- Any combination of 86 lower- or uppercase letters, digits, forward slash (/), or plus sign (+)
+- Two equal signs (=)
 
 ### Checksum
 
@@ -592,18 +584,18 @@ No
 ### Definition
 
 A DLP policy is 85% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:
-- The regular expression CEP_Regex_AzureConnectionString finds content that matches the pattern.
+- The regular expression CEP_Regex_AzureDocumentDBAuthKey finds content that matches the pattern.
 - The regular expression CEP_CommonExampleKeywords does **not** find content that matches the pattern.
 
 ```
-<!--Azure IAAS Database Connection String and Azure SQL Connection String-->
-<Entity id="ce1a126d-186f-4700-8c0c-486157b953fd" patternsProximity="300" recommendedConfidence="85">
+<!-- Azure Document DB Auth Key -->
+<Entity id="0f587d92-eb28-44a9-bd1c-90f2892b47aa" patternsProximity="300" recommendedConfidence="85">
   <Pattern confidenceLevel="85">
-        <IdMatch idRef="CEP_Regex_AzureConnectionString" />
+        <IdMatch idRef="CEP_Regex_AzureDocumentDBAuthKey" />
         <Any minMatches="0" maxMatches="0">
             <Match idRef="CEP_CommonExampleKeywords" />
-        </Any>
-    </Pattern>
+          </Any>
+  </Pattern>
 </Entity>
 ```
 
@@ -627,7 +619,7 @@ A DLP policy is 85% confident that it's detected this type of sensitive informat
 
 ### Format
 
-The string "Server", "server", or "data source" followed by the characters and strings outlined in the pattern below, including the string "cloudapp.azure.com" or "cloudapp.azure.net" or "database.windows.net", and the string "Password" or "password" or "pwd".
+The string "Server", "server", or "data source" followed by the characters and strings outlined in the pattern below, including the string "cloudapp.azure.<!--no-hyperlink-->com" or "cloudapp.azure.<!--no-hyperlink-->net" or "database.windows.<!--no-hyperlink-->net", and the string "Password" or "password" or "pwd".
 
 ### Pattern
 
@@ -636,7 +628,7 @@ The string "Server", "server", or "data source" followed by the characters and s
 - An equal sign (=)
 - 0-2 whitespace characters
 - Any combination of between 1-200 ????? characters
-- The string "cloudapp.azure.com", "cloudapp.azure.net", or "database.windows.net"
+- The string "cloudapp.azure.<!--no-hyperlink-->com", "cloudapp.azure.<!--no-hyperlink-->net", or "database.windows.<!--no-hyperlink-->net"
 - Any combination of between 1-300 ????? characters
 - The string "Password", "password", or "pwd"
 - 0-2 whitespace characters
@@ -5010,7 +5002,72 @@ A DLP policy is 85% confident that it's detected this type of sensitive informat
 ### Keywords
 
 None
-   
+
+## SQL Server Connection String
+
+### Format
+
+The string "User Id", "User ID", "uid", or "UserId" followed by the characters and strings outlined in the pattern below.
+
+### Pattern
+
+- The string "User Id", "User ID", "uid", or "UserId"
+- Any combination of between 3-200 ????? characters
+- A greater than symbol (>), an equal sign (=), a quotation mark ("), or an apostrophe (')
+- Any combination of 86 lower- or uppercase letters, digits, forward slash (/), or plus sign (+)
+- Two equal signs (=)
+
+### Checksum
+
+No
+
+### Definition
+
+A DLP policy is 85% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:
+- The regular expression CEP_Regex_AzureDocumentDBAuthKey finds content that matches the pattern.
+- The regular expression CEP_CommonExampleKeywords does **not** find content that matches the pattern.
+
+```
+<!---SQL Server Connection String>
+<Entity id="e76b6205-d3cb-46f2-bd63-c90153f2f97d" patternsProximity="300" recommendedConfidence="85">
+  <Pattern confidenceLevel="85">
+        <IdMatch idRef="CEP_Regex_SQLServerConnectionString" />
+        <Any minMatches="0" maxMatches="0">
+            <Match idRef="CEP_GlobalFilter" />
+            <Match idRef="CEP_PasswordPlaceHolder" />
+            <Match idRef="CEP_CommonExampleKeywords" />
+        </Any>
+    </Pattern>
+</Entity>
+```
+```
+<!-- Azure Document DB Auth Key -->
+<Entity id="0f587d92-eb28-44a9-bd1c-90f2892b47aa" patternsProximity="300" recommendedConfidence="85">
+  <Pattern confidenceLevel="85">
+        <IdMatch idRef="CEP_Regex_AzureDocumentDBAuthKey" />
+        <Any minMatches="0" maxMatches="0">
+            <Match idRef="CEP_CommonExampleKeywords" />
+          </Any>
+  </Pattern>
+</Entity>
+```
+
+### Keywords
+
+#### CEP_CommonExampleKeywords
+
+(Note that technically, this sensitive information type identifies these keywords by using a regular expression, not a keyword list.)
+
+- contoso
+- fabrikam
+- northwind
+- sandbox
+- onebox
+- localhost
+- 127.0.0.1
+- testacs.<!--no-hyperlink-->com
+- s-int.<!--no-hyperlink-->net
+  
 ## Sweden National ID
 
 ### Format
