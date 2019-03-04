@@ -5012,7 +5012,11 @@ The string "User Id", "User ID", "uid", or "UserId" followed by the characters a
 ### Pattern
 
 - The string "User Id", "User ID", "uid", or "UserId"
-- Any combination of between 3-200 ????? characters
+- Any combination of between 1-200 ????? characters
+- The string "Password" or "pwd" where "pwd" is not preceded by a lowercase letter
+- An equal sign (=)
+- Any combination of 7-128 characters that are not a dollar sign ($), percentage symbol (5), greater than symbol (>), at symbol (@), quotation mark ("), semicolon (;), left brace ([), or left bracket ({)
+- 
 - A greater than symbol (>), an equal sign (=), a quotation mark ("), or an apostrophe (')
 - Any combination of 86 lower- or uppercase letters, digits, forward slash (/), or plus sign (+)
 - Two equal signs (=)
@@ -5025,6 +5029,8 @@ No
 
 A DLP policy is 85% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:
 - The regular expression CEP_Regex_AzureDocumentDBAuthKey finds content that matches the pattern.
+- A keyword from CEP_GlobalFilter is **not** found.
+- The regular expression CEP_PasswordPlaceHolder does **not** find content that matches the pattern.
 - The regular expression CEP_CommonExampleKeywords does **not** find content that matches the pattern.
 
 ```
@@ -5040,19 +5046,21 @@ A DLP policy is 85% confident that it's detected this type of sensitive informat
     </Pattern>
 </Entity>
 ```
-```
-<!-- Azure Document DB Auth Key -->
-<Entity id="0f587d92-eb28-44a9-bd1c-90f2892b47aa" patternsProximity="300" recommendedConfidence="85">
-  <Pattern confidenceLevel="85">
-        <IdMatch idRef="CEP_Regex_AzureDocumentDBAuthKey" />
-        <Any minMatches="0" maxMatches="0">
-            <Match idRef="CEP_CommonExampleKeywords" />
-          </Any>
-  </Pattern>
-</Entity>
-```
 
 ### Keywords
+
+#### CEP_GlobalFilter
+
+- some-password
+- somepassword
+- secretPassword
+- sample
+
+#### CEP_PasswordPlaceHolder
+
+(Note that technically, this sensitive information type identifies these keywords by using a regular expression, not a keyword list.)
+
+- 
 
 #### CEP_CommonExampleKeywords
 
@@ -5067,7 +5075,7 @@ A DLP policy is 85% confident that it's detected this type of sensitive informat
 - 127.0.0.1
 - testacs.<!--no-hyperlink-->com
 - s-int.<!--no-hyperlink-->net
-  
+
 ## Sweden National ID
 
 ### Format
