@@ -132,7 +132,7 @@ You can:
 
 ### The investigation alerts page
 
-On the **Alerts** tab for an investigation, you go to a page that shows ALL alerts relevant to the investigation. Details include the alert that triggered the investigation as well as other alerts, such as risky sign-in, mass download, etc., that are correlated to an investigation. From this page, a security analyst can also view additional details on the alerts themselves.
+On the **Alerts** tab for an investigation, you can see ALL alerts relevant to the investigation. Details include the alert that triggered the investigation as well as other alerts, such as risky sign-in, mass download, etc., that are correlated to an investigation. From this page, a security analyst can also view additional details on the alerts themselves.
 
 ![AIR alerts page](media/air-investigationalertspage.png)
 
@@ -142,7 +142,7 @@ You can:
 
 ### The investigation email messages page
 
-On the **Email** tab for an investigation, you go to a page that shows all the email clusters identified as part of the investigation. 
+On the **Email** tab for an investigation, you can see all the email clusters identified as part of the investigation. 
 
 Given the sheer volume of email that users in an organization send and receive, the process of 
 - clustering email messages based on similar attributes from a message header, body, URL and attachment; 
