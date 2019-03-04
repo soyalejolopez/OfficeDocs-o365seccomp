@@ -19,11 +19,11 @@ description: "Learn about Automated Investigation and Response capabilities in O
 
 Automated Investigation and Response (AIR) (coming soon to [Office 365 Threat Intelligence](office-365-ti.md)) enables you to run automated investigation and remediation to well-known threats that exist today. Read this article to get an overview of AIR and how it can help your organization mitigate threats more effectively and efficiently. Tolearn more about when AIR will be available, see the [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap).
 
-With AIR in Office 365, investigation and response are automated into security and threat management [alerts](#alerts). Those alerts automatically trigger your [security response playbooks](#security-playbooks). 
-
 ## Alerts
 
 [Alerts](alert-policies.md#viewing-alerts) represent triggers for Security Operations team workflows for incident response. Prioritizing the right set of alerts for investigation while making sure no threats are unaddressed is challenging. When investigations into alerts are performed manually, Security Operations teams must hunt and correlate entities (e.g. content, devices and users) at risk from threats. Such tasks and workflows are very time consuming and involve multiple tools and systems. 
+
+With AIR, investigation and response are automated into key security and threat management alerts that trigger your [security response playbooks](#security-playbooks) automatically. 
 
 ## Security playbooks
 
