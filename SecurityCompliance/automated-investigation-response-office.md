@@ -58,7 +58,7 @@ Each playbook includes:
 
 Each high-level step includes many sub-steps that are executed to provide a deep, detailed, and exhaustive response to threats.
 
-### Example: User-reported phish message playbook
+## Example: User-reported phish message playbook
 
 When a user in your organization submits an email message and reports it to Microsoft by using the [Report Message add-in for Outlook or Outlook Web Access](enable-the-report-message-add-in.md). This triggers a system-based informational alert that automatically launches the investigation playbook.
 
@@ -99,26 +99,28 @@ To access your investigations, as an Office 365 global administrator or security
 
 Your AIR widgets will appear across the top of the [Security Dashboard](security-dashboard.md).
 
-### The main investigations page
+Select a widget to get started.
 
-The main investigations page shows an overview view of your organization's investigations and their current states.
+## Automated investigations
+
+The automated investigations page shows your organization's investigations and their current states.
 
 ![Main investigation page for AIR](media/air-maininvestigationpage.png) 
   
 You can:
 - Navigate directly to an investigation (select an **Investigation ID**).
-- Apply filters to the Investigation State, Status, Time, or a combination of all, to get a filtered list.
+- Apply filters. Choose from **Investigation Type**, **Time range**, **Status**, or a combination of these.
 - Export the data to a CSV file.
 
-### Navigating from alerts to investigations
+## Moving from an alert to an investigations
 
 To view alerts, in the Office 365 Security & Compliance Center, choose **Alerts** > **View alerts**.
 
 ![Alerts that link to investigations](media/air-alerts-page-details.png) 
 
-Select an alert to view its details, and from there, navigate to the corresponding investigation.
+Select an alert to view its details, and from there, use the **View investigation** link to go to the corresponding investigation.
 
-### The investigation graph page
+## Investigation graph
 
 When you open a specific investigation, you see the investigation graph page. This page shows all the different entities: email messages, users (and their activities), and devices that were automatically investigated as part of the alert that was triggered.
 
@@ -130,9 +132,9 @@ You can:
 - Select a node in the visualization to view details for that node.
 - Select a tab across the top to view details for that tab.
 
-### The investigation alerts page
+## Alert investigation
 
-On the **Alerts** tab for an investigation, you can see ALL alerts relevant to the investigation. Details include the alert that triggered the investigation as well as other alerts, such as risky sign-in, mass download, etc., that are correlated to an investigation. From this page, a security analyst can also view additional details on the alerts themselves.
+On the **Alerts** tab for an investigation, you can see all of the alerts relevant to the investigation. Details include the alert that triggered the investigation and other alerts, such as risky sign-in, mass download, etc., that are correlated to the investigation. From this page, a security analyst can also view additional details on individual alerts.
 
 ![AIR alerts page](media/air-investigationalertspage.png)
 
@@ -140,7 +142,7 @@ You can:
 - Get a visual overview of the current triggering alert and any associated alerts.
 - Select an alert in the list to open a fly-out page that shows full alert details.
 
-### The investigation email messages page
+## Email investigation
 
 On the **Email** tab for an investigation, you can see all the email clusters identified as part of the investigation. 
 
@@ -161,7 +163,7 @@ You can:
 
 ![AIR investigation email with flyout details](media/air-investigationemailpageflyoutdetails.png)
 
-### The investigation users page
+## User investigation
 
 On the **Users** tab, you can see all the users identified as part of the investigation. 
 
@@ -173,7 +175,7 @@ You can:
 - Get a visual overview of identified user results and risks found.
 - Select a user to open a fly-out page that shows the full alert details.
 
-### The investigation machines page
+## Machine investigation
 
 On the **Machines** tab, you can see all the machines identified as part of the investigation. 
 
@@ -185,7 +187,7 @@ You can:
 - Get a visual overview of the current machines and threats found.
 - Select a machine to open a view that into the related [Windows Defender ATP investigations](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/automated-investigations-windows-defender-advanced-threat-protection).
 
-### Investigation entities page
+### Entity investigation
 
 On the **Entities** tab, you can see all the machines identified as part of the investigation. 
 
@@ -199,7 +201,7 @@ You can:
 
 ![AIR investigation entities details](media/air-investigationsentitiespagedetails.png)
 
-### Investigation log page
+### Log investigation
 
 On the **Log** tab, you can see all the play book steps that have occurred during the investigation. The log captures a complete inventory of all actions completed by Office 365 Threat Intelligence capabilities as part of AIR. It provides a clear view of all the steps taken, including the Action itself, a description and the duration of the actual from start to finish. 
 
@@ -210,9 +212,9 @@ You can:
 - Export the results to a CSV file.
 - Filter the view.
 
-### Investigation actions page
+### Actions
 
-On the **Action** tab, you can see all the play book actions that are recommended for remediation after the investigation has completed. 
+On the **Actions** tab, you can see all the play book actions that are recommended for remediation after the investigation has completed. 
 
 Actions capture a complete list of all the steps Microsoft recommends you take at the end of a investigation. You can take remediation actions here by selecting one or more actions. Clicking **Approve** will allow remediations to begin running. (Appropriate permissions might be required. For example, a Security Reader can view actions but not approve them.)  
 
