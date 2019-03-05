@@ -76,7 +76,7 @@ Keep the following things in mind about default mailbox auditing for your organi
 
 - When default mailbox auditing is enabled for your organization (when the *AuditDisabled* property is set to **False**), this organizational setting will override the mailbox auditing setting for a specific mailbox. For example, if the *AuditEnabled* property for a mailbox is set to **False**, but default mailbox auditing is enabled for your organization, the default mailbox actions (describe in the previous section) will be audited for that mailbox. 
 
- ## Enable or disable mailbox auditing for specific users
+## Enable or disable mailbox auditing for specific users
 
 When default mailbox auditing is enabled for your organization, all mailboxes are audited for the mailbox actions listed in the previous section. However, there may be situations where an organization only wants some mailboxes to be audited. You can do this by using the **Set-MailboxAuditBypassAssociation** cmdlet in Exchange Online PowerShell to exclude mailboxes from being audited. The following sections show how to use this cmdlet to exclude a specific user or how to exclude a most of the users in your organization.
 
@@ -124,7 +124,9 @@ Here are some examples of using the **Get-Mailbox** and **Get-Recipient** cmdlet
 You can use other user mailbox properties in a filter to include or exclude mailboxes. For details, see [Filterable Properties for the -Filter Parameter](http://technet.microsoft.com/library/b02b0005-2fb6-4bc2-8815-305259fa5432.aspx).
 
 
-Turn off default mailbox auditing for your organization
+## Turn off default mailbox auditing for your organization
+
+
 
 
 - Using Set-OrganizationConfig -AuditDisabled $true (and how to renable at a later time)
