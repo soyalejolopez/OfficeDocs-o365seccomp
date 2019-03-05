@@ -19,21 +19,52 @@ description: "Mailbox audit logging is turned on by default in Office 365. This 
 
 # Manage mailbox auditing in Office 365
   
-Starting in January of 2019, mailbox audit logging is turned on by default for all Office 365 organizations. This means that certain actions performed by mailbox owners, delegates, and administrator are automatically logged, and that mailbox audit records will be available when you search for them in the Office 365 audit log. Before mailbox auditing was turned on by default, you had to enable mailbox auditing for every user mailbox in your organization.
+Starting in January of 2019, mailbox audit logging is turned on by default for all Office 365 organizations. This means that certain actions performed by mailbox owners, delegates, and administrator are automatically logged, and that mailbox audit records will be available when you search for them in the Office 365 audit log. Before mailbox auditing was turned on by default, you had to enable mailbox auditing for every user mailbox in your organization. Here are some benefits of "on-by-default" mailbox auditing:
 
-By default, mailbox auditing in Office 365 isn't turned on. That means mailbox auditing events won't appear in the results when you search the Office 365 audit log for mailbox activity. But after you turn on mailbox audit logging for a user mailbox, you can search the audit log for mailbox activity. Additionally, when mailbox audit logging is turned on, some actions performed by administrators, delegates, and owners are logged by default. To log (and then search for) additional actions, see Step 3.
+- When you create a new mailbox, auditing will be enabled by default. You won't have explicitly enable it for new users. 
 
-Intro
-(info about the change to default mailbox auditing for Office 365 orgs and benefit)
+- You won't have to add new mailbox actions when they are released. Microsoft will add new mailbox actions to be audited by default. This means you don't have to add (or remove) actions to the list of mailbox actions performed by owners, delegates, or admins. This lets Microsoft help you audit the most important mailbox actions.
 
-Mailbox actions that are logged by default
+- Ensure that you're auditing the same actions for all mailboxes so you have a consistent mailbox auditing policy across your organization.
 
-The following table lists the mailbox actions that are logged by default for each logon type.
+## Mailbox actions logged by default
+
+The following table lists the mailbox actions that are logged by default for each logon type (Admin, Delegate, and Owner).
 
 
-- Similar to table here: https://docs.microsoft.com/en-us/office365/securitycompliance/enable-mailbox-auditing#mailbox-auditing-actions ) 
+|Admin actions|Delegate actions|Owner actions|
+|:---------|:---------|:---------|
+|Create    |Create       | HardDelete        |
+|HardDelete    |HareDelete        |MoveToDeletedItems       |
+|MoveToDeletedItems    |MoveToDeletedItems         |SoftDelete         |
+|SendAs    |SendAs      |    Update     |
+|SendOnBehalf    |SendOnBehalf       |UpdateCalendarDelegation        |
+|SoftDelete     |SoftDelete      | UpdateFolderPermissions        |
+|Update    |Update       |UpdateInboxRules         |
+|UpdateCalendarDelegation    | UpdateFolderPermissions        |         |
+|UpdateFolderPermissions     | UpdateInboxRules        |         |
+|UpdateInboxRules     |         |         |
+||||
 
-Verifying default mailbox auditing for your organization
+
+
+## Verify that default mailbox auditing is turned on in your organization
+
+To verify that default mailbox auditing is enabled for your organization, run the following command in  [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell):
+
+```
+Get-OrganizationConfig | FL AuditDisabled
+``` 
+
+A value of **False** indicates that default mailbox auditing is enabled for your organization. 
+
+Keep the following things in mind about default mailbox auditing for your organization: 
+
+- When default mailbox auditing is enabled for your organization (when the *AuditDisabled* property is set to **False**), the organizational setting will override the mailbox auditing setting for a specific mailbox. For example, if the *AuditEnabled* property for a mailbox is set to **False** but default mailbox auditing is enabled for your organization, the default mailbox actions (describe in the previous section) for the mailbox will be audited. 
+
+
+
+
 - Using Get-OrganizationConfig | FL AuditDisabled to verify that your org has been switched over
 
 Enabling mailbox auditing for a subset of users
