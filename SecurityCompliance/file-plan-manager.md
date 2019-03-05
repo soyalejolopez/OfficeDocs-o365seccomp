@@ -22,10 +22,6 @@ File plan manager provides advanced management capabilities for retention labels
 
 ![File plan page](media/file-plan-page.png)
 
-## Important: This feature is currently available only as part of the Office 365 Preview program
-
-You will see this feature in your tenant only if your organization has enrolled in the Office 365 Preview program.
-
 ## Accessing file plan manager
 
 There are two requirements to access file plan manager, they are:
