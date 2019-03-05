@@ -5015,7 +5015,7 @@ The string "User Id", "User ID", "uid", or "UserId" followed by the characters a
 ### Pattern
 
 - The string "User Id", "User ID", "uid", or "UserId"
-- Any combination of between 1-200 ????? characters
+- Any combination of between 1-200 lower- or uppercase letters, digits, symbols, special characters, or spaces
 - The string "Password" or "pwd" where "pwd" is not preceded by a lowercase letter
 - An equal sign (=)
 - Any character that is not a dollar sign ($), percent symbol (%), greater than symbol (>), at symbol (@), quotation mark ("), semicolon (;), left brace ([), or left bracket ({)
