@@ -571,8 +571,8 @@ The string "DocumentDb" followed by the characters and strings outlined in the p
 
 ### Pattern
 
-- The string "Server", "server", or "data source"
-- Any combination of between 3-200 ????? characters
+- The string "DocumentDb"
+- Any combination of between 3-200 lower- or uppercase letters, digits, symbols, special characters, or spaces
 - A greater than symbol (>), an equal sign (=), a quotation mark ("), or an apostrophe (')
 - Any combination of 86 lower- or uppercase letters, digits, forward slash (/), or plus sign (+)
 - Two equal signs (=)
@@ -627,9 +627,9 @@ The string "Server", "server", or "data source" followed by the characters and s
 - 0-2 whitespace characters
 - An equal sign (=)
 - 0-2 whitespace characters
-- Any combination of between 1-200 ????? characters
+- Any combination of between 1-200 lower- or uppercase letters, digits, symbols, special characters, or spaces
 - The string "cloudapp.azure.<!--no-hyperlink-->com", "cloudapp.azure.<!--no-hyperlink-->net", or "database.windows.<!--no-hyperlink-->net"
-- Any combination of between 1-300 ????? characters
+- Any combination of between 1-300 lower- or uppercase letters, digits, symbols, special characters, or spaces
 - The string "Password", "password", or "pwd"
 - 0-2 whitespace characters
 - An equal sign (=)
