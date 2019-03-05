@@ -687,9 +687,9 @@ The string "HostName" followed by the characters and strings outlined in the pat
 - 0-2 whitespace characters
 - An equal sign (=)
 - 0-2 whitespace characters
-- Any combination of between 1-200 ????? characters
+- Any combination of between 1-200 lower- or uppercase letters, digits, symbols, special characters, or spaces
 - The string "azure-devices.net"
-- Any combination of between 1-200 ????? characters
+- Any combination of between 1-200 lower- or uppercase letters, digits, symbols, special characters, or spaces
 - The string "SharedAccessKey"
 - 0-2 whitespace characters
 - An equal sign (=)
@@ -743,7 +743,9 @@ The string "userpwd=" followed by an alphanumeric string.
 
 ### Pattern
 
-The string "userpwd=" followed by any combination of up to 60 lowercase letters or digits.
+- The string "userpwd="
+- Any combination of 60 lowercase letters or digits
+- A quotation mark (")
 
 ### Checksum
 
@@ -788,12 +790,12 @@ A DLP policy is 85% confident that it's detected this type of sensitive informat
 
 ### Format
 
-The string "redis.cache.windows.<!--no-hyperlink-->net" followed by the characters and strings outlined in the pattern below, including the string "password|pwd".
+The string "redis.cache.windows.<!--no-hyperlink-->net" followed by the characters and strings outlined in the pattern below, including the string "password" or "pwd".
 
 ### Pattern
 
 - The string "redis.cache.windows.<!--no-hyperlink-->net"
-- Any combination of between 1-200 ????? characters
+- Any combination of between 1-200 lower- or uppercase letters, digits, symbols, special characters, or spaces
 - The string "password" or "pwd"
 - 0-2 whitespace characters
 - An equal sign (=)
@@ -885,9 +887,9 @@ The string "EndPoint" followed by the characters and strings outlined in the pat
 - 0-2 whitespace characters
 - An equal sign (=)
 - 0-2 whitespace characters
-- Any combination of between 1-200 characters that are ???????
+- Any combination of between 1-200 lower- or uppercase letters, digits, symbols, special characters, or spaces
 - The string "servicebus.windows.<!--no-hyperlink-->net"
-- Any combination of between 1-200 characters that are ???????
+- Any combination of between 1-200 lower- or uppercase letters, digits, symbols, special characters, or spaces
 - The string "SharedAccessKey"
 - 0-2 whitespace characters
 - An equal sign (=)
@@ -945,7 +947,7 @@ The string "DefaultEndpointsProtocol" followed by the characters and strings out
 - 0-2 whitespace characters
 - An equal sign (=)
 - 0-2 whitespace characters
-- Any combination of between 1-200 characters that are ???????
+- Any combination of between 1-200 lower- or uppercase letters, digits, symbols, special characters, or spaces
 - The string "AccountKey"
 - 0-2 whitespace characters
 - An equal sign (=)
