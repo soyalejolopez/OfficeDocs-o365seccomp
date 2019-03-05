@@ -46,11 +46,25 @@ The following table lists the mailbox actions that are logged by default for eac
 |UpdateInboxRules     |         |         |
 ||||
 
+The following tables describes each of the mailbox actions that are logged by default:
 
+|Mailbox action|Description|
+|:---------|:---------|
+|**Create** <br/> |An item is created in the Calendar, Contacts, Notes, or Tasks folder in the mailbox; for example, a new meeting request is created. Note that creating, sending, or receiving a message isn't audited. Also, creating a mailbox folder is not audited.  <br/> |
+|**HardDelete** <br/> |A message was purged from the Recoverable Items folder.  <br/> |
+|**MoveToDeletedItems** <br/> |A message was deleted and moved to the Deleted Items folder.  <br/> |
+|**SendAs** <br/> |A message was sent using the SendAs permission. This means another user sent the message as though it came from the mailbox owner.  <br/> |
+|**SendOnBehalf** <br/> |A message was sent using the SendOnBehalf permission. This means another user sent the message on behalf of the mailbox owner. The message indicates to the recipient who the message was sent on behalf of and who actually sent the message.  <br/> |
+|**SoftDelete** <br/> |A message was permanently deleted or deleted from the Deleted Items folder. Soft-deleted items are moved to the Recoverable Items folder.  <br/> |
+|**Update** <br/> |A message or its properties was changed.  <br/> |
+|**UpdateCalendarDelegation** <br/> |A calendar delegation was assigned to a mailbox. Calendar delegation gives someone else in the same organization permissions to manage the mailbox owner's calendar.  <br/> |
+|**UpdateFolderPermissions** <br/> |A folder permission was changed. Folder permissions control which users in your organization can access folders in a mailbox and the messages located in those folders.  <br/> |
+|**UpdateInboxRules** <br/> |An inbox rule has been added, removed, or changed. Inbox rules are used to process messages in the user's Inbox based on the specified conditions and take actions when the conditions of a rule are met, such as moving a message to a specified folder or deleting a message.  <br/> |
+|||
 
-## Verify that default mailbox auditing is turned on in your organization
+## Verify that default mailbox auditing is turned on
 
-To verify that default mailbox auditing is enabled for your organization, run the following command in  [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell):
+To verify that default mailbox auditing is turned on for your organization, run the following command in  [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell):
 
 ```
 Get-OrganizationConfig | FL AuditDisabled
@@ -60,22 +74,59 @@ A value of **False** indicates that default mailbox auditing is enabled for your
 
 Keep the following things in mind about default mailbox auditing for your organization: 
 
-- When default mailbox auditing is enabled for your organization (when the *AuditDisabled* property is set to **False**), the organizational setting will override the mailbox auditing setting for a specific mailbox. For example, if the *AuditEnabled* property for a mailbox is set to **False** but default mailbox auditing is enabled for your organization, the default mailbox actions (describe in the previous section) for the mailbox will be audited. 
+- When default mailbox auditing is enabled for your organization (when the *AuditDisabled* property is set to **False**), this organizational setting will override the mailbox auditing setting for a specific mailbox. For example, if the *AuditEnabled* property for a mailbox is set to **False**, but default mailbox auditing is enabled for your organization, the default mailbox actions (describe in the previous section) will be audited for that mailbox. 
+
+ ## Enable or disable mailbox auditing for specific users
+
+When default mailbox auditing is enabled for your organization, all mailboxes are audited for the mailbox actions listed in the previous section. However, there may be situations where an organization only wants some mailboxes to be audited. You can do this by using the **Set-MailboxAuditBypassAssociation** cmdlet in Exchange Online PowerShell to exclude mailboxes from being audited. The following sections show how to use this cmdlet to exclude a specific user or how to exclude a most of the users in your organization.
+
+### Exclude a specific user
+
+Run the following command in Exchange Online PowerShell to disable mailbox auditing for a specific user when default mailbox audit logging is enabled for your organization.
+
+```
+Set-MailboxAuditBypassAssociation -Identity <username> -AuditByPassEnabled $true
+```
+
+To verify that auditing is bypassed for the specified user, run the following command:
+
+```
+Get-MailboxAuditBypassAssociation -Identity <username> | FL AuditByPassEnabled
+```
+
+A value of **True** indicates that mailbox auditing is disabled for the specified user. 
 
 
+### Exclude most users
+
+Your organization may have reasons to disable default mailbox auditing for most users in the organization, but you still what to audit a small number of users. In this scenario, you have to leave default mailbox auditing enabled for your organization, and then use the **Set-MailboxAuditBypassAssociation** cmdlet to disable mailbox auditing for everyone except those users that you need to audit. 
+
+The easiest way to do this is to use (or define) a mailbox property for the users that you don't want to exclude from default mailbox auditing. Then you run the **Set-MailboxAuditBypassAssociation** cmdlet and bypass auditing for all users except the ones that are assigned the specific mailbox property. For example, let say you want to disable mailbox auditing for all users except those in the Accounting department. After you ensure that the Department property for users in the Accounting department is populated with the value *Accounting*, you can run the following command in Exchange Online PowerShell:
+
+```
+Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'Department -ne "Accounting"' | Set-MailboxAuditBypassAssociation -AuditByPassEnabled $true
+```
+
+Here are some examples of using the **Get-Mailbox** and **Get-Recipient** cmdlets to return a subset of mailboxes based on common user or mailbox properties. These examples assume that relevant mailbox properties (such as  _CustomAttributeN_ or  _Department_) have been populated.
+    
+  `
+  Get-Mailbox -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'CustomAttribute15 -ne "AuditEnabled"'
+  `
+
+  `
+  Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'PostalCode -ne "98052"'
+  `
+
+  `
+  Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'StateOrProvince -ne "WA"'
+  `
+
+You can use other user mailbox properties in a filter to include or exclude mailboxes. For details, see [Filterable Properties for the -Filter Parameter](http://technet.microsoft.com/library/b02b0005-2fb6-4bc2-8815-305259fa5432.aspx).
 
 
-- Using Get-OrganizationConfig | FL AuditDisabled to verify that your org has been switched over
+Turn off default mailbox auditing for your organization
 
-Enabling mailbox auditing for a subset of users
 
-- Set-MailboxAuditBypassAssociation for all users except the ones they want audited
-
-Disabling mailbox auditing for specific users
-
-- Using Set-MailboxAuditBypassAssociation
-
-Disabling default auditing for your entire organization
 - Using Set-OrganizationConfig -AuditDisabled $true (and how to renable at a later time)
 
 
@@ -91,52 +142,9 @@ Disabling default auditing for your entire organization
     
 - An administrator who has been assigned the Full Access permission to a user's mailbox is considered a delegate user.
   
-## Step 1: Connect to Exchange Online PowerShell
 
-1. On your local computer, open Windows PowerShell and run the following command.
-   
-    ```
-    $UserCredential = Get-Credential
-    ```
+  
 
-2. In the **Windows PowerShell Credential Request** dialog box, type user name and password for an Office 365 global admin account, and then click **OK**.
-    
-3. Run the following command:
-    
-    ```
-    $Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ -Credential $UserCredential -Authentication Basic -AllowRedirection
-    ```
-
-3. Run the following command.
-
-    ```
-    Import-PSSession $Session
-    ```
-   
-4. To verify that you're connected to your Exchange Online organization, run the following command to get a list of all the mailboxes in your organization.
-    
-    ```
-    Get-Mailbox
-    ```
-  
-For more information or if you have problems connecting to your Exchange Online organization, see [Connect to Exchange Online using remote PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=517283).
-  
-## Step 2: Enable mailbox audit logging
-
-After you connect to your Exchange Online organization, use PowerShell to enable mailbox audit logging for a mailbox. Alternatively, you can enable mailbox auditing for all mailboxes in your organization.
-  
-This example enables mailbox audit logging for Pilar Pinilla's mailbox.
-  
-```
-Set-Mailbox -Identity "Pilar Pinilla" -AuditEnabled $true
-```
-
-This example enables mailbox audit logging for all user mailboxes in your organization.
-  
-```
-Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -eq "UserMailbox"} | Set-Mailbox -AuditEnabled $true
-```
-  
 ## Step 3: Specify owner actions to audit
 
 When you enable auditing for a mailbox, some actions performed by the mailbox owner are audited by default. You have to specify other owner actions to audit. See the table in the [Mailbox auditing actions](#mailbox-auditing-actions) section for a list and description of owner actions that are logged by default and the other actions that can be audited. 
