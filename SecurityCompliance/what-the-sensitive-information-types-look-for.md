@@ -794,7 +794,7 @@ The string "redis.cache.windows.<!--no-hyperlink-->net" followed by the characte
 
 - The string "redis.cache.windows.<!--no-hyperlink-->net"
 - Any combination of between 1-200 ????? characters
-- The string "password|pwd"
+- The string "password" or "pwd"
 - 0-2 whitespace characters
 - An equal sign (=)
 - 0-2 whitespace characters
