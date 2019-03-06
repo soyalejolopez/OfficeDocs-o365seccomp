@@ -19,10 +19,8 @@ description: ""
 
 # Document metadata fields
 
-(please add intro and define each of the column labels)
 
-
-|**Field name** </br>|**Searchable and viewable in working set grid** |**File metadata panel** |**Exports** |
+|**Field name** </br>|**Searchable and viewable in working set** |**File metadata panel** |**Exports** |
 |:-------------------------- |:---------------------------------------- |:------------------------|:------------------|
 |Case tags                  | Yes                                             |                         | Yes         |
 |Compliance labels          |                                                 |                         | Yes         |
