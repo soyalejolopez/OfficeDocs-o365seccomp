@@ -48,4 +48,4 @@ Once a custodian is released from the case, they will be sent the release notice
 ## Compliance Portal
 In addition to the email notifications, each custodian will also have access to a unique Compliance Portal. Through the portal, each custodian will be able to view, access, and acknowledge their active hold notifications. 
 
-![Custodian Compliance Portal](../media/CustodianPortal.jpg)
+![Custodian Compliance Portal](../media/CustodianPortal.png)
