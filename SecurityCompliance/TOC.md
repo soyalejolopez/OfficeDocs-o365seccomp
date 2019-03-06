@@ -166,7 +166,7 @@
 #### [Encryption in Microsoft Dynamics 365](office-365-encryption-in-microsoft-dynamics-365.md)
 #### [Encryption in Azure](office-365-azure-encryption.md)
 
-## [Safe Links, Safe Attachments, and Advanced Threat Protection](office-365-atp.md)
+## [Advanced Threat Protection (Safe Links and Safe Attachments)](office-365-atp.md)
 ### [ATP Safe Links](atp-safe-links.md)
 #### [Set up ATP Safe Links policies](set-up-atp-safe-links-policies.md)
 #### [Set up a custom "do not rewrite" URLs list](set-up-a-custom-do-not-rewrite-urls-list-with-atp.md)
