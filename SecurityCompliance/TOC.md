@@ -178,7 +178,6 @@
 ### [ATP for SharePoint, OneDrive, and Microsoft Teams](atp-for-spo-odb-and-teams.md)
 #### [Turn on ATP for SharePoint, OneDrive, and Microsoft Teams](turn-on-atp-for-spo-odb-and-teams.md)
 #### [View information about malicious files](malicious-files-detected-in-spo-odb-or-teams.md)
-### [View ATP reports](view-reports-for-atp.md)
 
 ## [Threat Intelligence capabilities](office-365-ti.md)
 ### [Get started with Threat Intelligence](get-started-with-ti.md)
@@ -186,8 +185,6 @@
 ### [Attack Simulator in Office 365](attack-simulator.md)
 ### [SIEM integration with Threat Intelligence](siem-integration-with-office-365-ti.md)
 ### [Keep users safe with Threat Intelligence](keep-users-safe-with-office-365-ti.md)
-### [Threat Trackers](threat-trackers.md)
-### [Use Explorer in the Security & Compliance Center](use-explorer-in-security-and-compliance.md)
 
 ## [Monitor and manage data access with Office 365 Cloud App Security](office-365-cas-overview.md)
 ### [See what's new in Cloud App Security](new-in-office-365-cas.md)
@@ -380,6 +377,9 @@
 # Monitor security and compliance
 ## [Alert policies](alert-policies.md)
 ## [Smart reports and insights in the Security & Compliance Center](reports-and-insights-in-security-and-compliance.md)
+### [Threat Trackers](threat-trackers.md)
+### [Use Explorer in the Security & Compliance Center](use-explorer-in-security-and-compliance.md)
+### [View ATP reports](view-reports-for-atp.md)
 ### [View email security reports in the Security & Compliance Center](view-email-security-reports.md)
 ### [Walkthrough - From a detailed report to an insight](from-a-detailed-report-to-an-insight.md)
 ### [Walkthrough - From an insight to a detailed report](from-an-insight-to-a-detailed-report.md)
@@ -389,9 +389,9 @@
 ### [Set up and download a custom report](set-up-and-download-a-custom-report.md)
 ### [Download existing reports](download-existing-reports.md)
 ## [Enable or disable safety tips in Office 365](enable-or-disable-safety-tips.md)
-## [Enable the Report Message add-in](enable-the-report-message-add-in.md)
 
 # Mail flow
+## [Enable the Report Message add-in](enable-the-report-message-add-in.md)
 ## [Message trace in the Security & Compliance Center](message-trace-scc.md)
 ## [Mail flow insights in the Security & Compliance Center](mail-flow-insights.md)
 ### [Auto-forwarded messages report](mfi-auto-forwarded-messages-report.md)
