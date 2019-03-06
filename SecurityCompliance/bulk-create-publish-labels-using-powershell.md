@@ -6,7 +6,8 @@ ms.date: 1/17/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
-ms.collection: M365-security-compliance
+ms.collection: 
+- M365-security-compliance
 ms.topic: article
 localization_priority: Priority
 search.appverid: 
