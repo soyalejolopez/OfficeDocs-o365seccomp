@@ -189,7 +189,7 @@
 ### [Threat Trackers](threat-trackers.md)
 ### [Use Explorer in the Security & Compliance Center](use-explorer-in-security-and-compliance.md)
 
-## [Monitor and manage Office 365 data access with Cloud App Security](office-365-cas-overview.md)
+## [Monitor and manage data access with Office 365 Cloud App Security](office-365-cas-overview.md)
 ### [See what's new in Cloud App Security](new-in-office-365-cas.md)
 #### [Updates during 2018](new-in-office-365-cas-2018.md)
 #### [Updates during 2017](new-in-office-365-cas-2017.md)
