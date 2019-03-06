@@ -113,8 +113,11 @@ description: ""
 |Similarity percent         |                                                 |                         | Yes         |
 |Themes list                | Yes (themesList)                                |                         | Yes         |
 |Word count                 | Yes (wordCount)                                 |                         | Yes         |
+<<<<<<< HEAD
 |Relevance score (issue)    | Yes (relevanceScore_issueNum)                   |                         | Yes         |
 |Read percentile (issue)    | Yes (readPercentile_issueNum)                   |                         | Yes         |
 |Relevance tag (issue)      | Yes (relevanceTag_issueNum)                     |                         | Yes         |
+=======
+>>>>>>> 103d69016a1ec8766c366a4a8a8740b35c66710a
 
   \* For these fields, if there are embedded values within the documents, search will prioritize those values; otherwise, it will try to surface values from O365.
