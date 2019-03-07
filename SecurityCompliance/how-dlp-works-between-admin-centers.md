@@ -5,8 +5,10 @@ author: stephow-msft
 manager: laurawi
 ms.date: 8/4/2017
 ms.audience: Admin
-ms.topic: overview
+ms.topic: conceptual
 ms.service: O365-seccomp
+ms.collection: 
+- M365-security-compliance
 localization_priority: Normal
 search.appverid: 
 - MOE150

@@ -7,11 +7,11 @@ ms.audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Priority
-ms.collection: Strat_O365_IP
+ms.collection: 
+- M365-security-compliance
 search.appverid: 
 - MOE150
 - MET150
-ms.assetid: 82c382a5-b6db-44fd-995d-b333b3c7fc30
 description: "Learn how to create and import a custom sensitive information type for DLP in the Office 365 Security & Compliance Center."
 ---
 
