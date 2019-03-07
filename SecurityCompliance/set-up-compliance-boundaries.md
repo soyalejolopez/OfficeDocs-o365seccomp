@@ -192,7 +192,7 @@ Use the **Region** parameter for **New-ComplianceSecurityFilter** or **Set-Compl
    
 Similarly, you can use the following values for the **Region** parameter values to control which data center that Content Searches will run in when searching SharePoint and OneDrive locations. Note that the following table also shows which data center exports will be routed through. 
   
-|**Parameter value**|**Data center routing locations for export﻿**|
+|**Parameter value**|**Data center routing locations for export**|
 |:-----|:-----|
 |NAM  <br/> |US  <br/> |
 |EUR  <br/> |Europe  <br/> |
