@@ -13,7 +13,7 @@ ms.collection:
 search.appverid: 
 - MOE150
 - MET150
-description: "When you create a label that retains content in Office 365, you can choose to trigger a disposition review at the end of the retention period."
+description: "When you create a retention label that retains content in Office 365, you can choose to trigger a disposition review at the end of the retention period."
 ---
 
 # Overview of disposition reviews
@@ -36,7 +36,7 @@ When you create a retention label in Office 365, you can choose to trigger a dis
     
 - For each document, the reviewer can:
     
-  - Apply a different label.
+  - Apply a different retention label.
     
   - Extend its retention period.
     
@@ -51,7 +51,7 @@ A disposition review can include content in Exchange mailboxes, SharePoint sites
   
 ![Disposition page](media/b7436fb2-1f35-4146-8ca2-32c9d10f7e09.png)
   
-## Setting up the disposition review by creating a label
+## Setting up the disposition review by creating a retention label
 
 This is the basic workflow for setting up a disposition review. Note that this flow shows a retention label being published and then manually applied by a user; alternatively, a retention label that triggers a disposition review can be auto-applied to content.
   
@@ -67,7 +67,7 @@ For more information about retention labels, see [Overview of retention labels](
 
 When a reviewer is notified by email that content is ready to review, they can go to the **Disposition** page in the Security &amp; Compliance Center and select one or more items. The reviewer can then: 
   
-- Apply a different label.
+- Apply a different retention label.
     
 - Extend the retention period.
     
@@ -103,13 +103,13 @@ This means that:
 
 On the **Dispositions** page of the Security &amp; Compliance Center, you can view both pending and completed dispositions: 
   
-- **Pending** dispositions have reached the end of their retention period and require a disposition review. After reviewing each item, decide if you want to apply a different label to it, extend its retention period, or permanently delete it. You can select multiple items or select all by using the select box in the column header next to **Author**.
+- **Pending** dispositions have reached the end of their retention period and require a disposition review. After reviewing each item, decide if you want to apply a different retention label to it, extend its retention period, or permanently delete it. You can select multiple items or select all by using the select box in the column header next to **Author**.
     
-- **Completed** dispositions were approved for deletion during a disposition review and are now in the process of being permanently deleted. Items that had a different label applied or their retention period extended as part of a review won't appear here. 
+- **Completed** dispositions were approved for deletion during a disposition review and are now in the process of being permanently deleted. Items that had a different retention label applied or their retention period extended as part of a review won't appear here. 
     
 ### Filter the disposition views
 
-You can filter these views by label or time range. For pending dispositions, the time range is based on the expiration date. For completed dispositions, the time range is based on the deletion date.
+You can filter these views by retention label or time range. For pending dispositions, the time range is based on the expiration date. For completed dispositions, the time range is based on the deletion date.
   
 ![Filter options on Disposition page](media/8682a9f5-a77d-45ae-b902-8418a3ebbea1.png)
   
