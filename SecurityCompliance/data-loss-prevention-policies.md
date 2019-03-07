@@ -5,15 +5,15 @@ author: stephow-MSFT
 manager: laurawi
 ms.date: 6/29/2018
 ms.audience: Admin
-ms.topic: overview
+ms.topic: conceptual
 f1_keywords:
 - 'ms.o365.cc.DLPLandingPage'
 ms.service: O365-seccomp
 localization_priority: Normal
-ms.collection: Strat_O365_IP
+ms.collection: 
+- M365-security-compliance
 search.appverid: 
 - MET150
-ms.assetid: 1966b2a7-d1e2-4d92-ab61-42efbb137f5e
 description: "With a data loss prevention (DLP) policy in the Office 365 Security &amp; Compliance Center, you can identify, monitor, and automatically protect sensitive information across Office 365."
 ---
 

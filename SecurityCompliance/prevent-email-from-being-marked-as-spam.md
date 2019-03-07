@@ -5,14 +5,14 @@ author: stephow-MSFT
 manager: laurawi
 ms.date: 6/7/2018
 ms.audience: Admin
-ms.topic: overview
+ms.topic: article
 ms.service: O365-seccomp
+ms.collection: 
+- M365-security-compliance
 localization_priority: Priority
-ms.collection: Strat_O365_IP
 search.appverid: 
 - MOE150
 - MET150
-ms.assetid: 34823bbc-a3e3-4949-ba42-97c73997eeed
 description: "Learn how to prevent False Positives and keep real email out of junk in Office 365."
 ---
 
