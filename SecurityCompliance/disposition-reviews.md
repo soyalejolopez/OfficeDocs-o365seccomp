@@ -32,9 +32,9 @@ When you create a retention label in Office 365, you can choose to trigger a dis
   
 - The people you choose receive an email notification that they have content to review. These reviewers can be individual users, distribution or security groups, or Office 365 groups. Note that notifications are sent on a weekly basis.
     
-- The reviewers go to the **Disposition** page in the Security &amp; Compliance Center to review the content. 
+- The reviewers go to the **Disposition** page in the Security &amp; Compliance Center to review the content. The reviewers can see how many items for each retention label are awaiting disposition, and then select a retention label to see all content with that label.
     
-- For each document, the reviewer can:
+- For each document or email, the reviewer can:
     
   - Apply a different retention label.
     
@@ -49,8 +49,8 @@ When you create a retention label in Office 365, you can choose to trigger a dis
   
 A disposition review can include content in Exchange mailboxes, SharePoint sites, OneDrive accounts, and Office 365 groups. Content awaiting a disposition review in those locations is deleted only after a reviewer chooses to permanently delete the content.
   
-![Disposition page](media/b7436fb2-1f35-4146-8ca2-32c9d10f7e09.png)
-  
+![Dispositions page in Security and Compliance Center](media/Retention_Dispositions_v2_page.png)
+
 ## Setting up the disposition review by creating a retention label
 
 This is the basic workflow for setting up a disposition review. Note that this flow shows a retention label being published and then manually applied by a user; alternatively, a retention label that triggers a disposition review can be auto-applied to content.
@@ -65,21 +65,29 @@ For more information about retention labels, see [Overview of retention labels](
   
 ## Disposing content
 
-When a reviewer is notified by email that content is ready to review, they can go to the **Disposition** page in the Security &amp; Compliance Center and select one or more items. The reviewer can then: 
+When a reviewer is notified by email that content is ready to review, they can go to the **Disposition** page in the Security &amp; Compliance Center. The reviewers can see how many items for each retention label are awaiting disposition, and then select a retention label to see all content with that label.
+
+After you select a retention label, the next page shows all pending dispositions for that label.
+
+![Pending disposition page](media/Retention_Pending_disposition_page.png)
+
+ The reviewer can then: 
   
 - Apply a different retention label.
     
 - Extend the retention period.
     
 - Permanently delete the item.
+
+Note that a reviewer can select multiple items and dispose them at the same time.
+
+![Options for disposing an item](media/Retention_Disposition_options_v2.png)
     
-A reviewer can use the link shown below to view the document in its original location, if the reviewer has permissions for that location. During a disposition review, the content never moves from its original location, and it's never deleted until the reviewer chooses to do so.
+A reviewer can also use the link to view the document in its original location, if the reviewer has permissions for that location. During a disposition review, the content never moves from its original location, and it's never deleted until the reviewer chooses to do so.
   
 Note that the email notifications are sent automatically to reviewers on a weekly basis. Therefore, when content reaches the end of its retention period, it may take up to seven days for reviewers to receive the email notification that content is awaiting disposition.
   
 Also note that all disposition actions are audited. To ensure this, you must turn on auditing at least one day prior to the first disposition action - for more information, see [Search the audit log in the Office 365 Security &amp; Compliance Center](search-the-audit-log-in-security-and-compliance.md). 
-  
-![Disposition options for a document](media/771630fd-a9b0-47cf-983b-fe85eb4cdafd.png)
   
 ## Permissions for disposition
 
@@ -99,19 +107,21 @@ This means that:
 
 - Items in an Exchange mailbox will be permanently deleted **within 14 days** of disposition. (Note that 14 days is the default setting but it can be configured up to 30 days.)
     
-## View pending and completed dispositions
+## View pending dispositions and disposed items
 
-On the **Dispositions** page of the Security &amp; Compliance Center, you can view both pending and completed dispositions: 
+On the **Pending disposition** page, you can view both pending and completed dispositions for a specific retention label: 
   
-- **Pending** dispositions have reached the end of their retention period and require a disposition review. After reviewing each item, decide if you want to apply a different retention label to it, extend its retention period, or permanently delete it. You can select multiple items or select all by using the select box in the column header next to **Author**.
+- The **Pending disposition** shows items that have reached the end of their retention period and require a disposition review. After reviewing each item, decide if you want to apply a different retention label to it, extend its retention period, or permanently delete it. You can select multiple items.
     
-- **Completed** dispositions were approved for deletion during a disposition review and are now in the process of being permanently deleted. Items that had a different retention label applied or their retention period extended as part of a review won't appear here. 
+- The **Disposed items** tab shows dispositions were approved for deletion during a disposition review and are now in the process of being permanently deleted. Items that had a different retention label applied or their retention period extended as part of a review won't appear here.
+
+![Tabs to view pending dispositions or disposed items](media/Retention_Disposition_tabs.png)
     
 ### Filter the disposition views
 
-You can filter these views by retention label or time range. For pending dispositions, the time range is based on the expiration date. For completed dispositions, the time range is based on the deletion date.
+You can filter these views by retention label or time range. For pending dispositions, the time range is based on the expiration date. For disposed items, the time range is based on the deletion date.
   
-![Filter options on Disposition page](media/8682a9f5-a77d-45ae-b902-8418a3ebbea1.png)
+NEED NEW IMAGE SHOWING FILTER CONTROL
   
 ### Export the disposition items
 
