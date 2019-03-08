@@ -42,9 +42,7 @@ Get-OrganizationConfig | FL AuditDisabled
 
 A value of **False** indicates that default mailbox auditing is enabled for your organization. 
 
-Keep the following things in mind about default mailbox auditing for your organization: 
-
-- When default mailbox auditing is enabled for your organization (when the *AuditDisabled* property is set to **False**), the organizational setting will override the mailbox auditing setting for a specific mailbox. For example, if the *AuditEnabled* property for a mailbox is set to **False**, but default mailbox auditing is enabled for your organization, the default mailbox actions (describe in the previous section) will be audited for that mailbox. 
+When default mailbox auditing is enabled for your organization (when the *AuditDisabled* property is set to **False**), the organizational setting will override the mailbox auditing setting for a specific mailbox. For example, if the *AuditEnabled* property for a mailbox is set to **False**, but default mailbox auditing is enabled for your organization, the default mailbox actions (describe in the previous section) will be audited for that mailbox. So if you explicitly disabled mailbox auditing for a specific mailbox, you will have to manually exclude that mailbox from default mailbox auditing. See the 
 
 
 ## Mailbox actions logged by default
@@ -55,7 +53,7 @@ The following table lists the mailbox actions that are currently logged by defau
 |Admin actions|Delegate actions|Owner actions|
 |:---------|:---------|:---------|
 |Create    |Create       | HardDelete        |
-|HardDelete    |HareDelete        |MoveToDeletedItems       |
+|HardDelete    |HardDelete        |MoveToDeletedItems       |
 |MoveToDeletedItems    |MoveToDeletedItems         |SoftDelete         |
 |SendAs    |SendAs      |    Update     |
 |SendOnBehalf    |SendOnBehalf       |UpdateCalendarDelegation        |
@@ -112,14 +110,13 @@ With the release of default mailbox auditing, a new mailbox property named *Defa
 Get-Mailbox <username> | FL DefaultAuditSet
 ```
 
-A value of `Admin, Delegate, Owner` indicates that the default mailbox actions for all three logon types are being audit. Alternatively, a value of `Owner` would indicate that the only the default mailbox actions for the mailbox owner are being audited. The value of `Owner` also means that a customized set of mailbox actions (configured by an administrator in your organization) is being audited for Admin and Delegate access to the mailbox. If there are no values displayed for the *DefaultAuditSet* property (also called a *null* value) then the mailbox actions for all three logon types have been customized.
+A value of `Admin, Delegate, Owner` indicates that the default mailbox actions for all three logon types are being audit; this is the default state after default mailbox auditing was initially provisioned in your organization. Alternatively, a value of `Owner` indicates that the only the default mailbox actions for the mailbox owner are being audited; a value of `Delegate` or `Admin` indicates that only the default mailbox actions for delegates or admins, respectively, are being audited. If all three values aren't displayed, then the default an administrator has changed the default mailbox actions for one or more of the logon types. If there are no values displayed for the *DefaultAuditSet* property (also called a *null* value) then the mailbox actions for all three logon types have been changed.
 
-See the [Change or restore mailbox actions logged by default](#change-or-restore-mailbox-actions-logged-by-default) section in this article for information about customizing the mailbox actions that are audited.
-
+See the [Change or restore mailbox actions logged by default](#change-or-restore-mailbox-actions-logged-by-default) section in this article for information about changing the mailbox actions that are audited.
 
 ## Enable or disable mailbox auditing for specific users
 
-When default mailbox auditing is enabled for your organization, all mailboxes are audited for the mailbox actions listed in the previous section. However, there may be situations where an organization only wants some mailboxes to be audited. You can do this by using the **Set-MailboxAuditBypassAssociation** cmdlet in Exchange Online PowerShell to exclude mailboxes from being audited. The following sections show how to use this cmdlet to exclude a specific user or how to exclude a most of the users in your organization.
+When default mailbox auditing is enabled for your organization, all mailboxes are audited for the mailbox actions listed in the previous section. However, there may be situations where an organization only wants some mailboxes to be audited. You can do this by using the **Set-MailboxAuditBypassAssociation** cmdlet in Exchange Online PowerShell to exclude mailboxes from being audited. The following sections show how to use this cmdlet to exclude a specific user or exclude a most of the users in your organization.
 
 ### Exclude a specific user
 
@@ -166,11 +163,45 @@ You can use other user mailbox properties in a filter to include or exclude mail
 
 ## Change or restore mailbox actions logged by default
 
-As previously explained, one of the key benefits of default mailbox auditing is that you don't have to manage the mailboxes actions that are audited. Microsoft does this for you, and will automatically add new mailbox actions to be audited when they are released. However, your organization may have reasons to audit mailbox actions that are different than the set of default ones. This section shows you how to change the mailbox actions that are audited for each of the logon type, and how to revert back to the Microsoft-managed mailbox actions.
+As previously explained, one of the key benefits of default mailbox auditing is that you don't have to manage the mailboxes actions that are audited. Microsoft does this for you, and will automatically add new mailbox actions to be audited by default when they are released. However, your organization may have reasons to audit mailbox actions that are different than the set of default ones. This section shows you how to change the mailbox actions that are audited for each of the logon type, and how to revert back to the Microsoft-managed mailbox actions.
+
+> [!IMPORTANT]
+> If you make any change to the mailbox actions that are logged by default (as described in the next section) for one or more mailboxes, then any new mailbox actions released by Microsoft in the future will not audited for the mailboxes. You will have to explicitly add the new mailbox action to the list of actions that are audited for a logon type.
 
 ### Change the mailbox actions to audit
 
+You can use the **Set-Mailbox** cmdlet with the *AuditAdmin*, *AuditDelegate*, or *AuditOwner* parameters to change the mailbox actions that are audited, depending on the logon type. Because these auditing-related parameters are multi-value parameters (meaning they can have more than one value), there are two different methods to change them.
 
+- You can specify multiple mailbox actions that overwrite the existing actions by using the following syntax: `action1,action2,...actionN`.
+
+- You can add or remove one or more mailbox action without affecting any existing entries by using the following syntax: `@{Add="action1","value2"}` or `@{Remove="action1","action2"}`.
+
+Regardless of which method you use to change the mailbox actions that are audited, the mailbox actions audited by default (for the logon type that you changed) will no longer be managed by Microsoft. 
+
+Here are some examples of using one of these methods to change the mailbox actions to audit for each of the different logon types. 
+
+This example changes the admin mailbox actions by overwriting the default actions with SoftDelete and HardDelete. 
+
+```
+Set-Mailbox <username> -AuditAdmin HardDelete,SoftDelete
+```
+
+This example adds the MailboxLogin owner action. 
+
+```
+Set-Mailbox <username> -AuditOwner @{Add="MailboxLogin"}
+```
+
+This example removes the MoveToDeletedItems delegate action.
+
+```
+Set-Mailbox <username> -AuditDelegate @{Remove="MoveToDeletedItems"}
+```
+
+
+#### Checking the DefaultAuditSet property
+
+After the first time you change the default mailbox actions for a logon type, the *DefaultAuditSet* property on the mailbox will be automatically updated to reflect this change. For example, if you run `Get-Mailbox <username> | FL DefaultAuditSet` after adding a mailbox owner action, the command will only return a value of `Admin, Delegate`. This indicates that the default mailbox actions for the owner have been changed This also means that any new mailbox owner actions released by Microsoft will not be automatically added to this mailbox.
 
 
 ### Restore the default mailbox actions 
