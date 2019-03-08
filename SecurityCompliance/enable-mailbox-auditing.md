@@ -203,9 +203,17 @@ Set-Mailbox <username> -AuditDelegate @{Remove="MoveToDeletedItems"}
 
 After the first time you change the default mailbox actions for a logon type, the *DefaultAuditSet* property on the mailbox will be automatically updated to reflect this change. For example, if you run `Get-Mailbox <username> | FL DefaultAuditSet` after adding a mailbox owner action, the command will only return a value of `Admin, Delegate`. This indicates that the default mailbox actions for the owner have been changed This also means that any new mailbox owner actions released by Microsoft will not be automatically added to this mailbox.
 
-
 ### Restore the default mailbox actions 
 
+If you make changes to the mailbox actions that are audited for a logon type, you can restore the default mailbox actions that are audited by running the `Set-Mailbox -DefaultAuditSet` command. When you do this, then new mailbox actions released by Microsoft (after you reverted back) will be audited for the specified mailbox.
+
+To restore the default mailbox actions for all logon types, run the following command:
+
+```
+Set-Mailbox <username> -DefaultAuditSet Admin,Delegate,Owner
+```
+
+You can use this command to restore the default mailbox actions for any of the logon types (by using the Admin, Delegate, or Owner values for the DefaultAuditSet parameter.)
 
 ## Turn off default mailbox auditing for your organization
 
@@ -308,7 +316,7 @@ The following table lists the actions that can be logged by mailbox audit loggin
 |**SendOnBehalf** <br/> |A message was sent using the SendOnBehalf permission. This means another user sent the message on behalf of the mailbox owner. The message indicates to the recipient who the message was sent on behalf of and who actually sent the message.  <br/> |Yes\*  <br/> |Yes\*  <br/> |No  <br/> |
 |**SoftDelete** <br/> |A message was permanently deleted or deleted from the Deleted Items folder. Soft-deleted items are moved to the Recoverable Items folder.  <br/> |Yes\*  <br/> |Yes\*  <br/> |Yes\*  <br/> |
 |**Update** <br/> |A message or its properties was changed.  <br/> |Yes\*  <br/> |Yes\*  <br/> |Yes\*  <br/> |
-|**UpdateCalendarDelegation** <br/> |A calendar delegation was assigned to a mailbox. Calendar delegation gives someone else in the same organization permissions to manage the mailbox owner's calendar.  <br/> |Yes\*  <br/> |No  <br/> |Yes\*  <br/> |
+|**UpdateCalendarDelegation** <br/> |A calendar delegation was assigned to a mailbox. Calendar delegation gives someone else in the sa-mailboxme organization permissions to manage the mailbox owner's calendar.  <br/> |Yes\*  <br/> |No  <br/> |Yes\*  <br/> |
 |**UpdateFolderPermissions** <br/> |A folder permission was changed. Folder permissions control which users in your organization can access folders in a mailbox and the messages located in those folders.  <br/> |Yes\*  <br/> |Yes\*  <br/> |Yes\*  <br/> |
 |**UpdateInboxRules** <br/> |An inbox rule has been added, removed, or changed. Inbox rules are used to process messages in the user's Inbox based on the specified conditions and take actions when the conditions of a rule are met, such as moving a message to a specified folder or deleting a message.  <br/> |Yes\*  <br/> |Yes\*  <br/> |Yes\*  <br/> |
    
@@ -317,7 +325,7 @@ The following table lists the actions that can be logged by mailbox audit loggin
   
 If you no longer require certain types of mailbox actions to be audited, you should modify the mailbox's audit logging configuration to disable those actions. Existing log entries aren't purged until the retention age limit for audit log entries is reached. For more information about the retention age for audit log entries, see the "Before you begin" section in [Search the audit log in the Office 365 Security & Compliance Center](search-the-audit-log-in-security-and-compliance.md#before-you-begin).
   
-## [More info](#tab/)
+## More info
   
 - Use the Office 365 audit log to search for mailbox activity that have been logged. You can search for activity for a specific user mailbox. The following screenshot shows a list of mailbox activities that you can search for in the Office 365 audit log. Note that these activities are the same actions that are described in the "Mailbox auditing actions" section in this topic.
     
