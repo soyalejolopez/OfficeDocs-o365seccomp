@@ -13,7 +13,7 @@ search.appverid:
 - MET150
 ms.assetid: e9eecdde-dcc2-4283-a820-98d1e740e4f
 ms.collection:
-- M365-security-compliance1
+- M365-security-compliance
 description: "Learn about hosted quarantine for Exchange Online and Exchange Online Protection."
 ---
 
