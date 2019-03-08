@@ -19,18 +19,20 @@ description: "Mailbox audit logging is turned on by default in Office 365. This 
 
 # Manage default mailbox auditing
   
-Starting in January of 2019, mailbox audit logging is turned on by default for all Microsoft 365 organizations. This means that certain actions performed by mailbox owners, delegates, and administrator are automatically logged, and that mailbox audit records will be available when you search for them in the audit log. Before mailbox auditing was turned on by default, you had to enable mailbox auditing for every user mailbox in your organization. Here are some benefits of "on-by-default" mailbox auditing:
+Starting in January of 2019, mailbox audit logging is being turned on by default for all Microsoft 365 organizations. This means that certain actions performed by mailbox owners, delegates, and administrators are automatically logged, and that the corresponding mailbox audit records will be available when you search for them in the audit log. Before mailbox auditing was turned on by default, you had to manually enable it for every user mailbox in your organization. 
 
-- Auditing will be enabled by default when you create a new mailbox. You won't have explicitly enable it for new users. 
+Here are some benefits of "on-by-default" mailbox auditing:
 
-- You won't have manage the mailbox actions that are audited. A set of mailbox actions are audited by default for each type of logon. Types of logon include Admin, Delegate, and Owner.
+- Auditing will be enabled by default when you create a new mailbox. You won't have manually enable it for new users. 
 
-- New mailbox actions will be audited by default. When Microsoft releases new mailbox actions (particularly those that will help protect your organization and help you with forensic investigations) they will automatically be added to the list of mailbox actions audited by default. This means you don't have to add (or remove) actions to the list of mailbox actions performed by owners, delegates, or admins. 
+- You won't have manage the mailbox actions that are audited. A defined set of mailbox actions are audited by default for each type of logon. These logon types are Owner, Delegate, and Admin.
+
+- New mailbox actions released by Microsoft will be audited by default. When Microsoft releases new mailbox actions (particularly those that will help protect your organization and help with forensic investigations), they will automatically be added to the list of mailbox actions audited by default. This means you don't have to add new actions to the list of mailbox actions performed by owners, delegates, or admins. 
 
 - Ensure that you're auditing the same actions for all mailboxes so you have a consistent mailbox auditing policy across your organization.
 
 > [!TIP]
-> Maybe the most important thing to keep in mind is that with this new release, you don't have to do anything to manage mailbox auditing. It just works. However, if you want to learn more, change the behavior from the default settings, or turn it off altogether, this article can help you with that.
+> The important thing to keep in mind is that with this new release, you don't have to do anything to manage mailbox auditing. It just works. However, if you want to learn more, change the behavior from the default settings, or turn it off altogether, this article can help you with that.
 
 ## Verify that default mailbox auditing is turned on
 
@@ -110,9 +112,9 @@ With the release of default mailbox auditing, a new mailbox property named *Defa
 Get-Mailbox <username> | FL DefaultAuditSet
 ```
 
-A value of `Admin, Delegate, Owner` indicates that the default mailbox actions for all three logon types are being audit; this is the default state after default mailbox auditing was initially provisioned in your organization. Alternatively, a value of `Owner` indicates that the only the default mailbox actions for the mailbox owner are being audited; a value of `Delegate` or `Admin` indicates that only the default mailbox actions for delegates or admins, respectively, are being audited. If all three values aren't displayed, then the default an administrator has changed the default mailbox actions for one or more of the logon types. If there are no values displayed for the *DefaultAuditSet* property (also called a *null* value) then the mailbox actions for all three logon types have been changed.
+A value of `Admin, Delegate, Owner` indicates that the default mailbox actions for all three logon types are being audited. Note that this is the default state after default mailbox auditing was initially provisioned in your organization. Alternatively, a value of `Owner` indicates that the only the default mailbox actions for the mailbox owner are being audited; a value of `Delegate` or `Admin` indicates that only the default mailbox actions for delegates or admins, respectively, are being audited. If there are no values displayed for the *DefaultAuditSet* property (also called a *null* value) then the mailbox actions for all three logon types have been changed.
 
-See the [Change or restore mailbox actions logged by default](#change-or-restore-mailbox-actions-logged-by-default) section in this article for information about changing the mailbox actions that are audited.
+See the [Change or restore mailbox actions logged by default](#change-or-restore-mailbox-actions-logged-by-default) section in this article for more information about changing the mailbox actions that are audited.
 
 ## Enable or disable mailbox auditing for specific users
 
@@ -163,10 +165,10 @@ You can use other user mailbox properties in a filter to include or exclude mail
 
 ## Change or restore mailbox actions logged by default
 
-As previously explained, one of the key benefits of default mailbox auditing is that you don't have to manage the mailboxes actions that are audited. Microsoft does this for you, and will automatically add new mailbox actions to be audited by default when they are released. However, your organization may have reasons to audit mailbox actions that are different than the set of default ones. This section shows you how to change the mailbox actions that are audited for each of the logon type, and how to revert back to the Microsoft-managed mailbox actions.
+As previously explained, one of the key benefits of default mailbox auditing is that you don't have to manage the mailboxes actions that are audited. Microsoft does this for you, and will automatically add new mailbox actions to be audited when they are released. However, your organization may have reasons to audit a set of mailbox actions that are different than the default ones. This section shows you how to change the mailbox actions that are audited for each of the logon type, and how to revert back to the Microsoft-managed default actions.
 
 > [!IMPORTANT]
-> If you make any change to the mailbox actions that are logged by default (as described in the next section) for one or more mailboxes, then any new mailbox actions released by Microsoft in the future will not audited for the mailboxes. You will have to explicitly add the new mailbox action to the list of actions that are audited for a logon type.
+> If you make any change to the mailbox actions that are logged by default (as described in the next section) for one or more mailboxes, then any new mailbox actions released by Microsoft in the future will not be audited for those mailboxes. You'll have to explicitly add new mailbox action to the list of actions that are audited for a logon type.
 
 ### Change the mailbox actions to audit
 
@@ -203,9 +205,9 @@ Set-Mailbox <username> -AuditDelegate @{Remove="MoveToDeletedItems"}
 
 After the first time you change the default mailbox actions for a logon type, the *DefaultAuditSet* property on the mailbox will be automatically updated to reflect this change. For example, if you run `Get-Mailbox <username> | FL DefaultAuditSet` after adding a mailbox owner action, the command will only return a value of `Admin, Delegate`. This indicates that the default mailbox actions for the owner have been changed This also means that any new mailbox owner actions released by Microsoft will not be automatically added to this mailbox.
 
-### Restore the default mailbox actions 
+### Restore the default mailbox actions
 
-If you make changes to the mailbox actions that are audited for a logon type, you can restore the default mailbox actions that are audited by running the `Set-Mailbox -DefaultAuditSet` command. When you do this, then new mailbox actions released by Microsoft (after you reverted back) will be audited for the specified mailbox.
+If you made changes to the mailbox actions that are audited for a logon type, you can restore the default mailbox actions that are audited by running the `Set-Mailbox -DefaultAuditSet` command. When you do this, then new mailbox actions released by Microsoft (after you reverted back) will be audited for the specified mailbox.
 
 To restore the default mailbox actions for all logon types, run the following command:
 
@@ -213,7 +215,7 @@ To restore the default mailbox actions for all logon types, run the following co
 Set-Mailbox <username> -DefaultAuditSet Admin,Delegate,Owner
 ```
 
-You can use this command to restore the default mailbox actions for any of the logon types (by using the Admin, Delegate, or Owner values for the DefaultAuditSet parameter.)
+You can use this command to restore the default mailbox actions for any of the logon types (by using the **Admin**, **Delegate**, or **Owner** values for the *DefaultAuditSet* parameter.) Also note that when you run `Set-Mailbox -DefaultAuditSet`, the AuditAdmin, AuditDelegate, or AuditOwner property on the mailbox will be updated with the list of mailbox actions that are audited by default. In other words, the previous set of mailbox actions will be replaced with the default mailbox actions. 
 
 ## Turn off default mailbox auditing for your organization
 
@@ -237,7 +239,6 @@ To turn mailbox auditing back on for your organization, simply run the following
 Set-OrganizationConfig -AuditDisabled $false
 ```
 
-
 ## Key points about default mailbox auditing
 
 Here's a summary of key points to keep in mind about default mailbox audit logging:
@@ -245,12 +246,8 @@ Here's a summary of key points to keep in mind about default mailbox audit loggi
 - 
 
 
+- Existing log entries aren't purged until the retention age limit for audit log entries is reached. For more information about the retention age for audit log entries, see the "Before you begin" section in [Search the audit log in the Office 365 Security & Compliance Center](search-the-audit-log-in-security-and-compliance.md#before-you-begin).
 
-
-## Before you begin
-  
-- You have to use Exchange Online PowerShell to enable mailbox audit logging. You can't use the Office 365 Security &amp; Compliance Center or the Exchange admin center.
-    
 - You can't enable mailbox audit logging for the mailbox that's associated with an Office 365 Group or a team in Microsoft Teams.
     
 - An administrator who has been assigned the Full Access permission to a user's mailbox is considered a delegate user.
@@ -258,46 +255,20 @@ Here's a summary of key points to keep in mind about default mailbox audit loggi
 
   
 
-## Step 3: Specify owner actions to audit
-
-When you enable auditing for a mailbox, some actions performed by the mailbox owner are audited by default. You have to specify other owner actions to audit. See the table in the [Mailbox auditing actions](#mailbox-auditing-actions) section for a list and description of owner actions that are logged by default and the other actions that can be audited. 
-  
-This example adds the **MailboxLogin** and **HardDelete** owner actions to mailbox auditing for Pilar Pinilla's mailbox. This example assumes that mailbox auditing has already been enabled for this mailbox. 
-
-```
-Set-Mailbox "Pilar Pinilla" -AuditOwner @{Add="MailboxLogin","HardDelete"}
-```
-
-This example enables mailbox audit logging for Don Hall's mailbox and specifies that only the **MailboxLogin** action performed by the mailbox owner will be logged. Note that this example overwrites the default UpdateFolderPermissions action. 
-  
-```
-Set-Mailbox "Don Hall" -AuditEnabled $true -AuditOwner MailboxLogin
-```
-   
-This example adds the **MailboxLogin**, **HardDelete**, and **SoftDelete** owner actions to all mailboxes in the organization. This example assumes that mailbox auditing has already been enabled for all mailboxes. 
   
 ```
 Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -eq "UserMailbox"} | Set-Mailbox -AuditOwner @{Add="MailboxLogin","HardDelete","SoftDelete"}
 ```
-  
-## How do you know this worked?
 
-To verify that you have successfully enabled mailbox audit logging for a mailbox, use the **Get-Mailbox** cmdlet to retrieve the auditing settings for that mailbox. 
-  
-This example retrieves the auditing settings for Pilar Pinilla.
-
-```
-Get-Mailbox "Pilar Pinilla"| FL Audit*
-```
-   
-This example retrieves the auditing settings for all user mailboxes in your organization.
-
-```
-Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -eq "UserMailbox"} | FL Name,Audit*
-```
-   
-A value of **True** for the **AuditEnabled** property verifies that mailbox audit logging is enabled. 
+- Mailboxes are considered to be accessed by an administrator only in the following scenarios:
     
+  - In-Place eDiscovery in Exchange Online or Content Search in Office 365 is used to search a mailbox.
+    
+  - [Microsoft Exchange Server MAPI Editor](https://go.microsoft.com/fwlink/p/?linkId=204086) is used to access the mailbox.     
+
+
+- You can also export a mailbox audit log and specify the entries to include for one or more users. Each entry in the report and the audit log includes information about who performed the action and when, the action performed , and whether the action was successful. For more information, see [Export mailbox audit logs](https://go.microsoft.com/fwlink/p/?LinkID=404104).
+
 ## Mailbox auditing actions
   
 The following table lists the actions that can be logged by mailbox audit logging. The table includes which action can be logged for the different user logon types. In the table, a **No** indicates that an action can't be logged for that logon type. An asterisk ( **\*** ) indicates that the action is logged by default. Note that an administrator who has been assigned the Full Access permission to a user's mailbox is considered a delegate user. 
@@ -354,32 +325,11 @@ If you no longer require certain types of mailbox actions to be audited, you sho
     
     For information about the Office 365 audit log, see [Search the audit log in the Office 365 Security &amp; Compliance Center](search-the-audit-log-in-security-and-compliance.md).
     
-- Mailboxes are considered to be accessed by an administrator only in the following scenarios:
+-
     
-  - In-Place eDiscovery in Exchange Online or Content Search in Office 365 is used to search a mailbox.
-    
-  - [Microsoft Exchange Server MAPI Editor](https://go.microsoft.com/fwlink/p/?linkId=204086) is used to access the mailbox. 
-    
-- When you enable audit logging for a mailbox, you can also specify which user actions (for example, accessing, moving, or deleting a message) will be logged for each logon type (admin, delegate, or owner).
-    
-- To disable mailbox audit logging, run the following command:
 
-  ```
-  Set-Mailbox -Identity <identity of mailbox> -AuditEnabled $false
-   ```
 
-- The actions that are audited for each type of user aren't displayed when you run the **Get-Mailbox** cmdlet. But you can run the following commands to display all the audited actions for a specific user logon type. 
 
     ```
-    Get-Mailbox <identity of mailbox> | Select-Object -ExpandProperty AuditAdmin
-    ```
 
-    ```
-    Get-Mailbox <identity of mailbox> | Select-Object -ExpandProperty AuditDelegate
-    ```
 
-    ```
-    Get-Mailbox <identity of mailbox> | Select-Object -ExpandProperty AuditOwner
-    ```
-
-- You can also export a mailbox audit log and specify the entries to include for one or more users. Each entry in the report and the audit log includes information about who performed the action and when, the action performed , and whether the action was successful. For more information, see [Export mailbox audit logs](https://go.microsoft.com/fwlink/p/?LinkID=404104).
