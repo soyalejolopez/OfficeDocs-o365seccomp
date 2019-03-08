@@ -93,7 +93,7 @@ To get access to the **Disposition** page, reviewers must be members of the **Di
   
 For more information, see [Give users access to the Office 365 Security &amp; Compliance Center](grant-access-to-the-security-and-compliance-center.md)
   
-## How long until disposed content is permanently deleted!
+## How long until disposed content is permanently deleted
 
 Content awaiting a disposition review is deleted only after a reviewer chooses to permanently delete the content. When the reviewer chooses this option, the content in the SharePoint site or OneDrive account becomes eligible for the standard cleanup process described in this section: [How a retention policy works with content in place](retention-policies.md#how-a-retention-policy-works-with-content-in-place).
   
@@ -113,14 +113,14 @@ On the **Pending disposition** page, you can view both pending and completed dis
     
 - The **Disposed items** tab shows dispositions were approved for deletion during a disposition review and are now in the process of being permanently deleted. Items that had a different retention label applied or their retention period extended as part of a review won't appear here.
 
-
+![Disposition tabs](media/Retention_Disposition_tabs.png)
     
 ### Filter the disposition views
 
 You can filter these views by retention label or time range. For pending dispositions, the time range is based on the expiration date. For disposed items, the time range is based on the deletion date.
   
-NEED NEW IMAGE SHOWING FILTER CONTROL
-  
+![Disposition filter options](media/Retention_filter_options.png)
+
 ### Export the disposition items
 
 In addition, you can export the items in either view as a .csv file that you can open in Excel.
