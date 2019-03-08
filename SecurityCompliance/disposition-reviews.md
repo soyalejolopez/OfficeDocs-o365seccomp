@@ -69,9 +69,7 @@ When a reviewer is notified by email that content is ready to review, they can g
 
 After you select a retention label, the next page shows all pending dispositions for that label.
 
-![Pending disposition page](media/Retention_Pending_disposition_page.png)
-
- The reviewer can then: 
+The reviewer can then: 
   
 - Apply a different retention label.
     
@@ -80,8 +78,6 @@ After you select a retention label, the next page shows all pending dispositions
 - Permanently delete the item.
 
 Note that a reviewer can select multiple items and dispose them at the same time.
-
-![Options for disposing an item](media/Retention_Disposition_options_v2.png)
     
 A reviewer can also use the link to view the document in its original location, if the reviewer has permissions for that location. During a disposition review, the content never moves from its original location, and it's never deleted until the reviewer chooses to do so.
   
