@@ -68,13 +68,15 @@ The important values that indicate skipped filtering and the causes of skipped f
 
 ## Best practices to stay protected
 
-- Periodically run [Office 365 Secure Store](office-365-secure-score.md) to assess your Office 365 organization's security settings.
+- Periodically run [Office 365 Secure Score](office-365-secure-score.md) to assess your Office 365 organization's security settings.
 
-- Periodically review the [Spoof intelligence report](learn-about-spoof-intelligence.md), and [configure the anti-spoofing policy](learn-about-spoof-intelligence.md#configuring-the-anti-spoofing-policy) to **quarantine** suspicious messages instead of delivering them to the user's Junk Email folder.
+- Periodically review the [Spoof intelligence report](learn-about-spoof-intelligence.md) and [enable anti-spoofing protection in the anti-phishing policy](learn-about-spoof-intelligence.md#configuring-the-anti-spoofing-policy) to **quarantine** suspicious messages instead of delivering them to the user's Junk Email folder.
 
 - Periodically review the [Threat Protection Status report](view-reports-for-atp.md#threat-protection-status-report).
 
-- A setting that inadvertently allows phishing messages is often a response to legitimate messages that are blocked by the Office 365 spam and/or phish filters (false positives). The best way to deal with false positives that involve senders in your domain is to fully and completely configure the SPF, DKIM, and DMARC records in DNS for _all_ of your email domains in Office 365:
+- A setting that inadvertently allows phishing messages is often a response to legitimate messages that are blocked by the Office 365 spam and/or phish filters (false positives).
+
+- The best way to deal with false positives that involve senders in your domain is to fully and completely configure the SPF, DKIM, and DMARC records in DNS for _all_ of your email domains in Office 365:
 
   - Verify that your SPF record identifies _all_ sources of email for senders in your domain (don't forget third-party services!).
 
@@ -94,7 +96,7 @@ The important values that indicate skipped filtering and the causes of skipped f
 
 - Multi factor authentication (MFA) is a really good way to prevent compromised accounts. You should strongly consider enabling MFA for all of your users. For a phased approach, start by enabling MFA for your most sensitive users (admins, executives, etc.) before you enable MFA for everyone. For instructions, see [Set up multi-factor authentication](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication).
 
-- Forwarding rules to external recipients are often used by attackers to extract data. Use the **Review mailbox forwarding rules** information in [Office 365 Secure Store](office-365-secure-score.md) to find and even prevent forwarding rules to external recipients. For more information, see [Mitigating Client External Forwarding Rules with Secure Score](https://blogs.technet.microsoft.com/office365security/mitigating-client-external-forwarding-rules-with-secure-score/).
+- Forwarding rules to external recipients are often used by attackers to extract data. Use the **Review mailbox forwarding rules** information in [Office 365 Secure Score](office-365-secure-score.md) to find and even prevent forwarding rules to external recipients. For more information, see [Mitigating Client External Forwarding Rules with Secure Score](https://blogs.technet.microsoft.com/office365security/mitigating-client-external-forwarding-rules-with-secure-score/).
 
 - The [Bulk Compliant Level (BCL) value](bulk-complaint-level-values.md) that's assigned to messages and configured in spam filter policies attempts to distinguish legitimate bulk email messages from unsolicited bulk email that closely resembles spam (a lower value = good messages; a higher value = bad messages). If you had the **Bulk email** threshold in your spam filter policies set to a high value (7 to 9), lower it significantly (3 to 5) so more bulk email messages are blocked. For more information, see [Configure your spam filter policies](configure-your-spam-filter-policies.md).
 
