@@ -68,13 +68,13 @@ Reports can show insights and recommendations where you can click the red warnin
   
 ## Permissions for DLP reports
 
-You need the following permissions to view DLP reports:
+To view DLP reports in the Security & Compliance Center, you have to be assigned the:
 
-- **To view reports in the Security & Compliance Center**, you have to be assigned the Security Reader role in the Exchange admin center. By default, this role is assigned to the Organization Management and Security Reader role groups in the Exchange admin center.
+- **Security Reader** role in the Exchange admin center. By default, this role is assigned to the Organization Management and Security Reader role groups in the Exchange admin center.
 
-- **To view DLP reports in the Security & Compliance Center**, you have to be assigned the View-Only DLP Compliance Management role in the Security & Compliance Center. By default, this role is assigned to the Compliance Administrator, Organization Management, Security Administrator, and Security Reader role groups in the Security & Compliance Center.
+- **View-Only DLP Compliance Management** role in the Security & Compliance Center. By default, this role is assigned to the Compliance Administrator, Organization Management, Security Administrator, and Security Reader role groups in the Security & Compliance Center.
 
-- **To view DLP reports in the Exchange admin center**, you have to be assigned the View-Only Recipients role in the Exchange admin center. By default, this role is assigned to the Compliance Management, Organization Management, and View-Only Organization Management role groups in the Exchange admin center.
+- **View-Only Recipients** role in the Exchange admin center. By default, this role is assigned to the Compliance Management, Organization Management, and View-Only Organization Management role groups in the Exchange admin center.
 
 ## Find the cmdlets for the DLP reports
 
