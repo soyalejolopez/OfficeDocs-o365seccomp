@@ -1,5 +1,5 @@
 ---
-title: "Manage default mailbox auditing"
+title: "Manage mailbox auditing"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,10 +14,10 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: aaca8987-5b62-458b-9882-c28476a66918
-description: "Mailbox audit logging is turned on by default in Office 365. This means that certain actions performed by mailbox owners, delegates, and administrators are automatically logged in the Office 365 audit log, where you can search for activities performed on the mailbox."
+description: "Mailbox audit logging is turned on by default in Microsoft 365. This means that certain actions performed by mailbox owners, delegates, and administrators are automatically logged in the audit log, where you can search for activities performed on the mailbox."
 ---
 
-# Manage default mailbox auditing
+# Manage mailbox auditing
   
 Starting in January of 2019, mailbox audit logging is being turned on by default for all Microsoft 365 organizations. This means that certain actions performed by mailbox owners, delegates, and administrators are automatically logged, and that the corresponding mailbox audit records will be available when you search for them in the audit log. Before mailbox auditing was turned on by default, you had to manually enable it for every user mailbox in your organization. 
 
@@ -32,7 +32,7 @@ Here are some benefits of "on-by-default" mailbox auditing:
 - Ensure that you're auditing the same actions for all mailboxes so you have a consistent mailbox auditing policy across your organization.
 
 > [!TIP]
-> The important thing to keep in mind is that with this new release, you don't have to do anything to manage mailbox auditing. It just works. However, if you want to learn more, change the behavior from the default settings, or turn it off altogether, this article can help you with that.
+> The important thing to remember is that with this new release, you don't have to do anything to manage mailbox auditing. However, if you want to learn more, change the behavior from the default settings, or turn it off altogether, this article can help you with that.
 
 ## Verify that default mailbox auditing is turned on
 
@@ -66,7 +66,7 @@ The following table lists the mailbox actions that are currently logged by defau
 |UpdateInboxRules     |         |         |
 ||||
 
-The following tables describes each of these mailbox actions:
+Here are description for each of these mailbox actions. 
 
 |Mailbox action|Description|
 |:---------|:---------|
@@ -81,6 +81,8 @@ The following tables describes each of these mailbox actions:
 |**UpdateFolderPermissions** <br/> |A folder permission was changed. Folder permissions control which users in your organization can access folders in a mailbox and the messages located in those folders.  <br/> |
 |**UpdateInboxRules** <br/> |An inbox rule has been added, removed, or changed. Inbox rules are used to process messages in the user's Inbox based on the specified conditions and take actions when the conditions of a rule are met, such as moving a message to a specified folder or deleting a message.  <br/> |
 |||
+
+For a complete list of mailbox actions, including actions that are available but aren't included in the set of default actions, see the [Mailbox auditing actions](#mailbox-auditing-actions) section in this article.
 
 ### Display a list of mailbox actions logged by default
 
@@ -239,7 +241,35 @@ To turn mailbox auditing back on for your organization, simply run the following
 Set-OrganizationConfig -AuditDisabled $false
 ```
 
-## Key points about default mailbox auditing
+
+## Mailbox auditing actions
+  
+The following table lists the actions that can be logged by mailbox audit logging. The table includes which action can be logged for the different user logon types. In the table, a **No** indicates that an action can't be logged for that logon type. An asterisk ( **\*** ) indicates that the action is logged by default. Note that an administrator who has been assigned the Full Access permission to a user's mailbox is considered a delegate user. 
+  
+|**Action**|**Description**|**Admin**|**Delegate**|**Owner**|
+|:-----|:-----|:-----|:-----|:-----|
+|**Copy** <br/> |A message was copied to another folder.  <br/> |Yes  <br/> |No  <br/> |No  <br/> |
+|**Create** <br/> |An item is created in the Calendar, Contacts, Notes, or Tasks folder in the mailbox; for example, a new meeting request is created. Note that creating, sending, or receiving a message isn't audited. Also, creating a mailbox folder is not audited.  <br/> |Yes\*  <br/> |Yes\*  <br/> |Yes  <br/> |
+|**FolderBind** <br/> |A mailbox folder was accessed. This action is also logged when the admin or delegate opens the mailbox.  <br/> |Yes  <br/> |Yes\*\*  <br/> |No  <br/> |
+|**HardDelete** <br/> |A message was purged from the Recoverable Items folder.  <br/> |Yes\*  <br/> |Yes\*  <br/> |Yes\*  <br/> |
+|**MailboxLogin** <br/> |The user signed in to their mailbox.  <br/> |No  <br/> |No  <br/> |Yes  <br/> |
+|**MessageBind** <br/> |A message was viewed in the preview pane or opened.  <br/> |Yes  <br/> |No  <br/> |No  <br/> |
+|**Move** <br/> |A message was moved to another folder.  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
+|**MoveToDeletedItems** <br/> |A message was deleted and moved to the Deleted Items folder.  <br/> |Yes\*  <br/> |Yes\*  <br/> |Yes\*  <br/> |
+|**SendAs** <br/> |A message was sent using the SendAs permission. This means another user sent the message as though it came from the mailbox owner.  <br/> |Yes\*  <br/> |Yes\*  <br/> |No  <br/> |
+|**SendOnBehalf** <br/> |A message was sent using the SendOnBehalf permission. This means another user sent the message on behalf of the mailbox owner. The message indicates to the recipient who the message was sent on behalf of and who actually sent the message.  <br/> |Yes\*  <br/> |Yes\*  <br/> |No  <br/> |
+|**SoftDelete** <br/> |A message was permanently deleted or deleted from the Deleted Items folder. Soft-deleted items are moved to the Recoverable Items folder.  <br/> |Yes\*  <br/> |Yes\*  <br/> |Yes\*  <br/> |
+|**Update** <br/> |A message or its properties was changed.  <br/> |Yes\*  <br/> |Yes\*  <br/> |Yes\*  <br/> |
+|**UpdateCalendarDelegation** <br/> |A calendar delegation was assigned to a mailbox. Calendar delegation gives someone else in the sa-mailboxme organization permissions to manage the mailbox owner's calendar.  <br/> |Yes\*  <br/> |No  <br/> |Yes\*  <br/> |
+|**UpdateFolderPermissions** <br/> |A folder permission was changed. Folder permissions control which users in your organization can access folders in a mailbox and the messages located in those folders.  <br/> |Yes\*  <br/> |Yes\*  <br/> |Yes\*  <br/> |
+|**UpdateInboxRules** <br/> |An inbox rule has been added, removed, or changed. Inbox rules are used to process messages in the user's Inbox based on the specified conditions and take actions when the conditions of a rule are met, such as moving a message to a specified folder or deleting a message.  <br/> |Yes\*  <br/> |Yes\*  <br/> |Yes\*  <br/> |
+   
+> [!NOTE]
+> <sup>\*</sup> Audited by default. <br/><br/>  <sup>\*\*</sup> Entries for folder bind actions performed by delegates are consolidated. One log entry is generated for individual folder access within a time span of 24 hours.
+  
+If you no longer require certain types of mailbox actions to be audited, you should modify the mailbox's audit logging configuration to disable those actions. Existing log entries aren't purged until the retention age limit for audit log entries is reached. For more information about the retention age for audit log entries, see the "Before you begin" section in [Search the audit log in the Office 365 Security & Compliance Center](search-the-audit-log-in-security-and-compliance.md#before-you-begin).
+  
+## Key points
 
 Here's a summary of key points to keep in mind about default mailbox audit logging:
 
@@ -269,34 +299,6 @@ Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -eq "UserMailbox
 
 - You can also export a mailbox audit log and specify the entries to include for one or more users. Each entry in the report and the audit log includes information about who performed the action and when, the action performed , and whether the action was successful. For more information, see [Export mailbox audit logs](https://go.microsoft.com/fwlink/p/?LinkID=404104).
 
-## Mailbox auditing actions
-  
-The following table lists the actions that can be logged by mailbox audit logging. The table includes which action can be logged for the different user logon types. In the table, a **No** indicates that an action can't be logged for that logon type. An asterisk ( **\*** ) indicates that the action is logged by default. Note that an administrator who has been assigned the Full Access permission to a user's mailbox is considered a delegate user. 
-  
-|**Action**|**Description**|**Admin**|**Delegate**|**Owner**|
-|:-----|:-----|:-----|:-----|:-----|
-|**Copy** <br/> |A message was copied to another folder.  <br/> |Yes  <br/> |No  <br/> |No  <br/> |
-|**Create** <br/> |An item is created in the Calendar, Contacts, Notes, or Tasks folder in the mailbox; for example, a new meeting request is created. Note that creating, sending, or receiving a message isn't audited. Also, creating a mailbox folder is not audited.  <br/> |Yes\*  <br/> |Yes\*  <br/> |Yes  <br/> |
-|**FolderBind** <br/> |A mailbox folder was accessed. This action is also logged when the admin or delegate opens the mailbox.  <br/> |Yes  <br/> |Yes\*\*  <br/> |No  <br/> |
-|**HardDelete** <br/> |A message was purged from the Recoverable Items folder.  <br/> |Yes\*  <br/> |Yes\*  <br/> |Yes\*  <br/> |
-|**MailboxLogin** <br/> |The user signed in to their mailbox.  <br/> |No  <br/> |No  <br/> |Yes  <br/> |
-|**MessageBind** <br/> |A message was viewed in the preview pane or opened.  <br/> |Yes  <br/> |No  <br/> |No  <br/> |
-|**Move** <br/> |A message was moved to another folder.  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
-|**MoveToDeletedItems** <br/> |A message was deleted and moved to the Deleted Items folder.  <br/> |Yes\*  <br/> |Yes\*  <br/> |Yes\*  <br/> |
-|**SendAs** <br/> |A message was sent using the SendAs permission. This means another user sent the message as though it came from the mailbox owner.  <br/> |Yes\*  <br/> |Yes\*  <br/> |No  <br/> |
-|**SendOnBehalf** <br/> |A message was sent using the SendOnBehalf permission. This means another user sent the message on behalf of the mailbox owner. The message indicates to the recipient who the message was sent on behalf of and who actually sent the message.  <br/> |Yes\*  <br/> |Yes\*  <br/> |No  <br/> |
-|**SoftDelete** <br/> |A message was permanently deleted or deleted from the Deleted Items folder. Soft-deleted items are moved to the Recoverable Items folder.  <br/> |Yes\*  <br/> |Yes\*  <br/> |Yes\*  <br/> |
-|**Update** <br/> |A message or its properties was changed.  <br/> |Yes\*  <br/> |Yes\*  <br/> |Yes\*  <br/> |
-|**UpdateCalendarDelegation** <br/> |A calendar delegation was assigned to a mailbox. Calendar delegation gives someone else in the sa-mailboxme organization permissions to manage the mailbox owner's calendar.  <br/> |Yes\*  <br/> |No  <br/> |Yes\*  <br/> |
-|**UpdateFolderPermissions** <br/> |A folder permission was changed. Folder permissions control which users in your organization can access folders in a mailbox and the messages located in those folders.  <br/> |Yes\*  <br/> |Yes\*  <br/> |Yes\*  <br/> |
-|**UpdateInboxRules** <br/> |An inbox rule has been added, removed, or changed. Inbox rules are used to process messages in the user's Inbox based on the specified conditions and take actions when the conditions of a rule are met, such as moving a message to a specified folder or deleting a message.  <br/> |Yes\*  <br/> |Yes\*  <br/> |Yes\*  <br/> |
-   
-> [!NOTE]
-> <sup>\*</sup> Audited by default. <br/><br/>  <sup>\*\*</sup> Entries for folder bind actions performed by delegates are consolidated. One log entry is generated for individual folder access within a time span of 24 hours.
-  
-If you no longer require certain types of mailbox actions to be audited, you should modify the mailbox's audit logging configuration to disable those actions. Existing log entries aren't purged until the retention age limit for audit log entries is reached. For more information about the retention age for audit log entries, see the "Before you begin" section in [Search the audit log in the Office 365 Security & Compliance Center](search-the-audit-log-in-security-and-compliance.md#before-you-begin).
-  
-## More info
   
 - Use the Office 365 audit log to search for mailbox activity that have been logged. You can search for activity for a specific user mailbox. The following screenshot shows a list of mailbox activities that you can search for in the Office 365 audit log. Note that these activities are the same actions that are described in the "Mailbox auditing actions" section in this topic.
     
