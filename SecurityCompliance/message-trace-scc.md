@@ -5,13 +5,15 @@ author: chrisda
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 3e64f99d-ac33-4aba-91c5-9cb4ca476803
 description: "Admins can use message trace in the Security & Compliance Center to find out what happened to messages."
 ---
 
 # Message trace in the Security & Compliance Center
+
+## Overview
 
 Message trace in the Security & Compliance Center follows email messages as they travel through your Exchange Online organization. You can determine if a message was received, rejected, deferred, or delivered by the service. It also shows what actions were taken on the message before it reached its final status.
 
@@ -49,7 +51,8 @@ The default values are **All senders** and **All recipients**, but you can use t
 
 - **To these people**: Click in this field to select one or more recipients in your organization.
 
-You can also type the email addresses of external senders and recipients. Wildcards are supported (`*@contoso.com` or `scot?@contoso.com`), but you can't use multiple wildcard entries in the same field at the same time.
+> [!NOTE]You can also type the email addresses of external senders and recipients. Wildcards are supported (`*@contoso.com` or `scot?@contoso.com`), but you can't use multiple wildcard entries in the same field at the same time.
+> [!NOTE] You can paste multiple senders or recipients list separated with semicolon (`;`). Spaces (`\s`), carriage return (`\r`) or next lines (`\n`) symbols are allowed.
 
 ### Time range
 
