@@ -31,7 +31,7 @@ The SIEM server or other similar system should poll the **audit.general** worklo
 |Value|Member name|Description|
 |:-----|:-----|:-----|
 |28|ThreatIntelligence|Phishing and malware events from Exchange Online Protection and Office 365 Advanced Threat Protection.|
-|41|ThreatIntelligenceUrl|Safe links time-of-block and block override events from Office 365 Advanced Threat Protection.|
+|41|ThreatIntelligenceUrl|ATP Safe Links time-of-block and block override events from Office 365 Advanced Threat Protection.|
 |47|ThreatIntelligenceAtpContent|Phishing and malware events for files in SharePoint Online, OneDrive for Business, and Microsoft Teams from Office 365 Advanced Threat Protection.|
 
 > [!IMPORTANT]
