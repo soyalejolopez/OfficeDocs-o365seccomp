@@ -26,7 +26,7 @@ Do you know which of your Office 365 users are under attack, or worse - compromi
 [Office 365 Threat Investigation and Response](office-365-ti.md) is a suite of capabilities included in your Office 365 E5 subscription. Office 365 Threat Investigation and Response capabilities have helped Microsoft IT reduce average time to resolution for social engineering incidents by 80%, and increased case throughput by 37% per month compared to the previous 2 quarters! 
 
 > [!IMPORTANT]
-> Office 365 Advanced Threat Protection and Threat Intelligence are now a part of Office 365 Advanced Threat Protection Plan 2, with additional threat protection capabilities. To learn more, see [Office 365 Advanced Threat Protection plans and pricing](https://products.office.com/exchange/advance-threat-protection) and the [Office 365 Advanced Threat Protection Service Description](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description).
+> Office 365 Advanced Threat Protection and Threat Investigation and Response (formerly known as Office 365 Threat Intelligence) are now a part of Office 365 Advanced Threat Protection Plan 2, with additional threat protection capabilities. To learn more, see [Office 365 Advanced Threat Protection plans and pricing](https://products.office.com/exchange/advance-threat-protection) and the [Office 365 Advanced Threat Protection Service Description](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description).
   
 We've recently added new capabilities to help improve how you can detect and recover from threats! Here's a quick walk through of how the updated Threat investigation and response capabilities can make you even more efficient.
   
@@ -55,7 +55,7 @@ If you don't already have these Office 365 Threat Investigation and Response cap
 Office 365 Threat Investigation and Response capabilities are powered with data from the Microsoft Intelligent Security Graph. The graph acquires the latest threat signal from over 1 billion Windows devices, 450 billion monthly Azure logins, and 400 billion monthly email messages in Office 365. This unrivaled threat signal is what gives the broad visibility into a customer tenant that is crucial for admins and security analysts to have a complete view of the threats impacting their organization. 
   
    
-## Why Threat Intelligence?
+## Why use Office 365 Threat Investigation and Response capabilities?
 
 Gartner estimates that in 2017 alone over $90B was spent on cybersecurity. Sid Deshpande, principal research analyst at Gartner, is quoted as saying that "the industry's shift to detection and response … sends a clear message that prevention is futile unless it is tied into a detection and response capability." Threat investigtion and response is a critical part of every enterprise's portfolio of services, and can be consumed as standalone service or as part of Office 365 E5.
   
