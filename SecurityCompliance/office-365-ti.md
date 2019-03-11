@@ -3,7 +3,7 @@ title: "Office 365 Threat Investigation and Response"
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 02/08/2019
+ms.date: 03/09/2019
 ms.audience: Admin
 ms.topic: overview
 ms.service: O365-seccomp
@@ -69,5 +69,4 @@ Use the following resources to learn more about threat investigation and respons
 [Office 365 Advanced Threat Protection](office-365-atp.md)
   
 [Permissions in the Office 365 Security &amp; Compliance Center](permissions-in-the-security-and-compliance-center.md)
-  
-
+ 

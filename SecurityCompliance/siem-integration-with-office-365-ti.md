@@ -37,4 +37,3 @@ The SIEM server or other similar system should poll the **audit.general** worklo
   
 [Permissions in the Office 365 Security &amp; Compliance Center](permissions-in-the-security-and-compliance-center.md)
   
-
