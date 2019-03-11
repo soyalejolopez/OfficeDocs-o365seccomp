@@ -679,7 +679,7 @@ A DLP policy is 85% confident that it's detected this type of sensitive informat
 
 ### Format
 
-The string "HostName" followed by the characters and strings outlined in the pattern below, including the strings "azure-devices.net" and "SharedAccessKey".
+The string "HostName" followed by the characters and strings outlined in the pattern below, including the strings "azure-devices.<!--no-hyperlink-->net" and "SharedAccessKey".
 
 ### Pattern
 
@@ -688,7 +688,7 @@ The string "HostName" followed by the characters and strings outlined in the pat
 - An equal sign (=)
 - 0-2 whitespace characters
 - Any combination of between 1-200 lower- or uppercase letters, digits, symbols, special characters, or spaces
-- The string "azure-devices.net"
+- The string "azure-devices.<!--no-hyperlink-->net"
 - Any combination of between 1-200 lower- or uppercase letters, digits, symbols, special characters, or spaces
 - The string "SharedAccessKey"
 - 0-2 whitespace characters
