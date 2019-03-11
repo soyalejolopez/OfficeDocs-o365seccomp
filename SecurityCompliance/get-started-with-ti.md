@@ -85,7 +85,6 @@ Office 365 Threat Invesigation and Response capabilities are included in Office 
     
 6. Assign roles to people in your organization who will be working with the Office 365 Advanced Threat Protection. See [Give users access to the Office 365 Security &amp; Compliance Center](grant-access-to-the-security-and-compliance-center.md), and refer to the following table:
     
-|||
 |:-----|:-----|
 |**To do this activity...** <br/> |**You must have one of these roles** <br/> |
 |Use the Threat dashboard (or the new [Security dashboard](security-dashboard.md))  <br/> View information about recent or current threats  <br/> |Office 365 Global Administrator  <br/> Security Administrator (assigned in the Security &amp; Compliance Center)  <br/> Security Reader (assigned in the Security &amp; Compliance Center)  <br/> |
