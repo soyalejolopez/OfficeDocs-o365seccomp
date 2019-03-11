@@ -124,6 +124,8 @@ You can use the Content Search feature in the Security &amp; Compliance Center t
 You can also use the  `SensitiveType` property to search for the name of a custom sensitive information type that you (or another administrator) created for your organization. Note that you can use the **Publisher** column on the **Sensitive information types** page in the Security &amp; Compliance Center (or the **Publisher** property in PowerShell) to differentiate between built-in and custom sensitive information types. For more information, see [Create a custom sensitive information type](create-a-custom-sensitive-information-type.md).
   
 For more information about creating queries using the  `SensitiveType` property, see [Form a query to find sensitive data stored on sites](form-a-query-to-find-sensitive-data-stored-on-sites.md).
+
+Note that you cannot currently use sensitive data types and the SensitiveType keyword to perform Content Searches against data stored at rest in Exchange Online mailboxes. For additional information, see [Search for and find personal data](search-for-and-find-personal-data.md).
   
 ## Search operators
 
