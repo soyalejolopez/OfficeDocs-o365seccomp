@@ -46,6 +46,5 @@ In addition to condition cards, you can use a KQL-like query language in the Key
 ## Filter
 
 In addition to queries that you can save, you can overlay additional conditions on the fly to your query results using filters. Filters differ from queries in a few significant ways:
-- Filters apply to the query you have in effect at the moment.
 - Filters are transient (i.e. they do not persist over different sessions), whereas queries are saved to the working set.
-- Filters are always additive.
+- Filters are always additive; filters will apply on top of the query you have in effect at the moment, whereas applying a query will replace the query in effect.
