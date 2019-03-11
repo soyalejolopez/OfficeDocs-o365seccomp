@@ -13,6 +13,7 @@ search.appverid:
 - MET150
 ms.assetid: dc4f704c-6fcc-4cab-9a02-95a824e4fb57
 description: "Landing page for Plan Security and Compliance"
+ms.collection: M365-security-compliance 
 ---
 
 # Plan for security &amp; compliance in Office 365
