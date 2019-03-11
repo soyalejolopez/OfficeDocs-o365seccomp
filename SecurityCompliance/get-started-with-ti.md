@@ -3,7 +3,7 @@ title: "Get started with Office 365 Threat Investigation and Response"
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 02/13/2019
+ms.date: 03/10/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -32,7 +32,7 @@ Threat investigation and response provides a collection of tools that help drive
   
 ## Get acquainted with the Threat dashboard, Explorer, and Incidents
 
-These threat investigation and response capabiltiies surface in the Security &amp; Compliance Center, as a set of tools and response workflows, including the [Threat dashboard](get-started-with-ti.md#dashboard), [Threat Explorer](get-started-with-ti.md#explorer), [Incidents](get-started-with-ti.md#incidents), [Attack Simulator](attack-simulator.md), and [Automated Investigations & Response](get-started-with-XXX).
+These threat investigation and response capabiltiies surface in the Security &amp; Compliance Center, as a set of tools and response workflows, including the [Threat dashboard](get-started-with-ti.md#dashboard), [Threat Explorer](get-started-with-ti.md#explorer), [Incidents](get-started-with-ti.md#incidents), [Attack Simulator](attack-simulator.md), and Automated Investigations & Response.
   
 ### Threat dashboard
 
