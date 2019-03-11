@@ -87,7 +87,7 @@ Office 365 Threat Invesigation and Response capabilities are included in Office 
     
 |:-----|:-----|
 |**To do this activity...** <br/> |**You must have one of these roles** <br/> |
-|Use the Threat dashboard (or the new [Security dashboard](security-dashboard.md))  <br/> View information about recent or current threats  <br/> |Office 365 Global Administrator  <br/> Security Administrator (assigned in the Security &amp; Compliance Center)  <br/> Security Reader (assigned in the Security &amp; Compliance Center)  <br/> |
+|Use the Threat dashboard (or the new [Security dashboard](security-dashboard.md))<br/> View information about recent or current threats  <br/> |Office 365 Global Administrator  <br/> Security Administrator (assigned in the Security &amp; Compliance Center)  <br/> Security Reader (assigned in the Security &amp; Compliance Center)  <br/> |
 |Use Threat Explorer (also referred to as Explorer)  <br/> Analyze threats  <br/> |Office 365 Global Administrator  <br/> Security Administrator (assigned in the Security &amp; Compliance Center)  <br/> Security Reader (assigned in the Security &amp; Compliance Center)  <br/> |
 |View Incidents (also referred to as Investigations) <br/> Add email messages to an incident  <br/> |Office 365 Global Administrator  <br/> Security Administrator (assigned in the Security &amp; Compliance Center)  <br/> Security Reader (assigned in the Security &amp; Compliance Center)  <br/> |
 |Trigger email actions in an incident  <br/> Find and delete suspicious email messages  <br/> |Office 365 Global Administrator or Security Administrator  <br/> One of the roles above and Search and Purge (assigned in the Security &amp; Compliance Center)  <br/> |
