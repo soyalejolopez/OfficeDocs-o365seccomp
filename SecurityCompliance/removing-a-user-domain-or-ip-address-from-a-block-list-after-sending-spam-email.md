@@ -3,7 +3,7 @@ title: "Removing a user from the restricted users portal after sending spam emai
 ms.author: tracyp
 author: MSFTTracyP
 manager: laurawi
-ms.date: 11/01/2018
+ms.date: 03/12/2019
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -16,14 +16,14 @@ search.appverid:
 ms.assetid: 712cfcc1-31e8-4e51-8561-b64258a8f1e5
 ms.collection:
 - M365-security-compliance
-description: "If a user continuously sends email messages from Office 365 that is classified as spam, they will be restricted from sending any more messages."
+description: "If a user continuously sends emails from Office 365 that are classified as spam, they will be restricted from sending any more messages."
 ---
 
 # Removing a user from the restricted users portal after sending spam email
 
-If a user continuously sends email messages from Office 365 that is classified as spam, they will be restricted from sending any more messages outbound. The user will be listed in the service as a bad outbound sender and will receive a Non-Delivery Report (NDR) that states:
+If a user continuously sends emails from Office 365 that are classified as spam, they will be restricted from sending any more messages outbound. The user will be listed in the service as a bad outbound sender and will receive a Non-Delivery Report (NDR) that states:
 
-- Your message couldn't be delivered because you weren't recognized as a valid sender. The most common reason for this is that your email address is suspected of sending spam and it's no longer allowed to send messages outside of your organization. Contact your email admin for assistance.  Remote Server returned '550 5.1.8 Access denied, bad outbound sender'
+- Your message couldn't be delivered because you weren't recognized as a valid sender. The most common reason for this is that your email address is suspected of sending spam and it's no longer allowed to send messages outside of your organization. Contact your email admin for assistance. Remote Server returned '550 5.1.8 Access denied, bad outbound sender'
 
 ## What do you need to know before you begin?
 <a name="sectionSection0"> </a>
@@ -45,14 +45,14 @@ You complete this task in the Office 365 Security & Compliance Center (SCC). [Go
 
 2. This page will contain the list of users that have been blocked from sending mail to outside of your organization.  Find the user you wish to remove restrictions on and then click on **Unblock**.
 
-3. A flyout will go into the details pertaining to the account restricted from sending. You should go through the recommendations to ensure you are taking the proper actions in case the account is actually compromised. Click **Next** when done.
+3. A fly-out will go into the details about the account whose sending is restricted. You should go through the recommendations to ensure you're taking the proper actions in case the account is actually compromised. Click **Next** when done.
 
-4. The next screen provides recommendation to prevent future compromise. Enabling multi-factor authentication (MFA) and changing the passwords are a good defense against future compromise. Click **Unblock user** when done.
+4. The next screen has recommendations to help prevent future compromise. Enabling multi-factor authentication (MFA) and changing the passwords are a good defense. Click **Unblock user** when done.
 
 5. Click **Yes** to confirm the change.
 
     > [!NOTE]
-    > It may take up to 30 minutes before any restrictions are removed. 
+    > It may take up to 30 minutes before restrictions are removed. 
 
 ## Making sure admins are alerted when this happens
 
