@@ -66,7 +66,7 @@ Below the chart, view more details about specific messages. When you select an i
 
 ![Threat Explorer with flyout opened](media/ThreatExplorerMalwareItemSelectedFlyout.png)
 
-## Email \> Phish
+## Email > Phish
 
  This view shows email messages identified as phishing attempts.  
 
@@ -80,7 +80,7 @@ For example, you can choose Protection status in the list, and then see what act
 
 Below the chart, view more details about specific messages. When you select an item in the list, a fly-out pane opens, where you can learn more about the item you selected. 
 
-## Email \> User-reported
+## Email > User-reported
 
 This view shows email that users have reported as junk, not junk, or phishing email.  
 
@@ -90,7 +90,7 @@ View information by report type (the user's determination that the email was jun
 
 Below the chart, view more details about specific email messages, such as subject line, the sender's IP address, the user that reported the message as junk, not junk, or phish, and more. 
 
-## Email \> All mail
+## Email > All mail
 
 This views shows an all-up view of email activity, including email identified as malicious due to phishing or malware, as well all non-malicious mail (normal email, spam, and bulk mail). 
 
