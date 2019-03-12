@@ -14,14 +14,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: aaca8987-5b62-458b-9882-c28476a66918
-description: "Mailbox audit logging is turned on by default in Microsoft 365 (also called default mailbox auditing or mailbox auditing on-by-default). This means that certain actions performed by mailbox owners, delegates, and administrators are automatically logged in a mailbox audit log, where you can search for activities performed on the mailbox."
+description: "Mailbox audit logging is turned on by default in Microsoft 365 (also called default mailbox auditing or mailbox auditing on by default). This means that certain actions performed by mailbox owners, delegates, and administrators are automatically logged in a mailbox audit log, where you can search for activities performed on the mailbox."
 ---
 
 # Manage mailbox auditing
   
 Starting in January of 2019, mailbox audit logging is being turned on by default for all Microsoft 365 organizations. This means that certain actions performed by mailbox owners, delegates, and administrators are automatically logged, and that the corresponding mailbox audit records will be available when you search for them in the audit log. Before mailbox auditing was turned on by default, you had to manually enable it for every user mailbox in your organization. 
 
-Here are some benefits of mailbox auditing on-by-default:
+Here are some benefits of mailbox auditing on by default:
 
 - Auditing will be enabled by default when you create a new mailbox. You won't have to manually enable it for new users. 
 
@@ -32,23 +32,23 @@ Here are some benefits of mailbox auditing on-by-default:
 - Ensure that you're auditing the same actions for all mailboxes so you have a consistent mailbox auditing policy across your organization.
 
 > [!TIP]
-> The important thing to remember is that with mailbox auditing on-by-default, you don't have to do anything to manage mailbox auditing. However, if you want to learn more, change the behavior from the default settings, or turn it off altogether, this article can help you with that.
+> The important thing to remember is that with mailbox auditing on by default, you don't have to do anything to manage mailbox auditing. However, if you want to learn more, change the behavior from the default settings, or turn it off altogether, this article can help you with that.
 
-## Verify mailbox auditing on-by-default is turned on
+## Verify mailbox auditing on by default is turned on
 
-To verify that mailbox auditing on-by-default is turned on for your organization, run the following command in  [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell):
+To verify that mailbox auditing on by default is turned on for your organization, run the following command in  [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell):
 
 ```
 Get-OrganizationConfig | FL AuditDisabled
 ``` 
 
-A value of **False** indicates that mailbox auditing on-by-default is enabled for your organization. 
+A value of **False** indicates that mailbox auditing on by default is enabled for your organization. 
 
-When mailbox auditing on-by-default is enabled for your organization (when the *AuditDisabled* property is set to **False**), the organizational setting will override the mailbox auditing setting for a specific mailbox. For example, if the *AuditEnabled* property for a mailbox is set to **False**, but mailbox auditing on-by-default is enabled for your organization, the default mailbox actions (describe in the previous section) will be audited for that mailbox. So if mailbox auditing was explicitly disabled for a specific mailbox, you will have to manually exclude that mailbox from mailbox auditing on-by-default. See the [Enable or disable mailbox auditing for specific users](#enable-or-disable-mailbox-auditing-for-specific-users) section in this article.
+When mailbox auditing on by default is enabled for your organization (when the *AuditDisabled* property is set to **False**), the organizational setting will override the mailbox auditing setting for a specific mailbox. For example, if the *AuditEnabled* property for a mailbox is set to **False**, but mailbox auditing on by default is enabled for your organization, the default mailbox actions (describe in the previous section) will be audited for that mailbox. So if mailbox auditing was explicitly disabled for a specific mailbox, you will have to manually exclude that mailbox from mailbox auditing on by default. See the [Enable or disable mailbox auditing for specific users](#enable-or-disable-mailbox-auditing-for-specific-users) section in this article.
 
 ## Supported mailbox types
 
-The following table shows the mailbox types that are currently supported by mailbox auditing on-by-default:
+The following table shows the mailbox types that are currently supported by mailbox auditing on by default:
 
 |Mailbox type|Supported|Not supported|
 |:---------|:---------:|:---------:|
@@ -58,10 +58,6 @@ The following table shows the mailbox types that are currently supported by mail
 |Office 365 Group mailboxes    |      |![Check mark](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)        |
 |Public folder mailboxes    |       |![Check mark](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)  |
 ||||
-
-
-
-
 
 ## Mailbox actions logged by default
 
@@ -117,17 +113,17 @@ Here are descriptions for each of these mailbox actions.
 For a complete list of mailbox actions, including actions that are available but aren't included in the set of default actions, see the [Mailbox auditing actions](#mailbox-auditing-actions) section in this article.
 
 > [!IMPORTANT]
-> If you have explicitly configured the mailbox actions to audit for any logon type prior to mailbox auditing on-by-default being turned on for organization, then the existing configuration for the mailbox will take precedence and won't be overwritten by the default mailbox actions described in this section. If at any time you want to revert to the default mailbox actions, you can do that by running the Set-Mailbox -DefaultAuditSet command. See the [Restore the default mailbox actions](#restore-the-default-mailbox-actions) section in this article.
+> If you have explicitly configured the mailbox actions to audit for any logon type prior to mailbox auditing on by default being turned on for organization, then the existing configuration for the mailbox will take precedence and won't be overwritten by the default mailbox actions described in this section. If at any time you want to revert to the default mailbox actions, you can do that by running the Set-Mailbox -DefaultAuditSet command. See the [Restore the default mailbox actions](#restore-the-default-mailbox-actions) section in this article.
 
 ### Verify that default mailbox actions are being logged for each logon type
 
-With the release of mailbox auditing on-by-default, a new mailbox property named *DefaultAuditSet* has been added. This property indicates whether or not the default mailbox actions (managed by Microsoft) are being audited for each logon type for the specified mailbox. You can run the following command to display the values of this property:
+With the release of mailbox auditing on by default, a new mailbox property named *DefaultAuditSet* has been added. This property indicates whether or not the default mailbox actions (managed by Microsoft) are being audited for each logon type for the specified mailbox. You can run the following command to display the values of this property:
 
 ```
 Get-Mailbox <username> | FL DefaultAuditSet
 ```
 
-A value of `Admin, Delegate, Owner` indicates that the default mailbox actions for all three logon types are being audited and that an administrator in your organization *has not* changed the actions for any logon type. Note this is the default state after mailbox auditing on-by-default is initially provisioned in your organization. 
+A value of `Admin, Delegate, Owner` indicates that the default mailbox actions for all three logon types are being audited and that an administrator in your organization *has not* changed the actions for any logon type. Note this is the default state after mailbox auditing on by default is initially provisioned in your organization. 
 
 If an administrator in your organization has changed the mailbox actions that are audited for a logon type (by using the **Set-Mailbox** cmdlet with the *AuditAdmin*, *AuditDelegate*, or *AuditOwner* parameters), then the value for the DefaultAuditSet property will be different that the default. For example, a value of `Owner` indicates that the only the default mailbox actions for the mailbox owner are being audited, and that the actions for `Delegate` and  `Admin` have been changed. If there are no values displayed for the DefaultAuditSet property (also called a *null* value) then the mailbox actions for all three logon types have been changed.
 
@@ -155,10 +151,9 @@ Get-Mailbox <username> | Select-Object -ExpandProperty AuditDelegate
 Get-Mailbox <username> | Select-Object -ExpandProperty AuditAdmin
 ```
 
-
 ## Change or restore mailbox actions logged by default
 
-As previously explained, one of the key benefits of mailbox auditing on-by-default is that you don't have to manage the mailboxes actions that are audited. Microsoft does this for you and will automatically add new mailbox actions to be audited by default when they are released. However, your organization may have reasons to audit a set of mailbox actions that are different than the default ones. This section shows you how to change the mailbox actions that are audited for each of the logon type, and how to revert back to the Microsoft-managed default actions.
+As previously explained, one of the key benefits of mailbox auditing on by default is that you don't have to manage the mailboxes actions that are audited. Microsoft does this for you and will automatically add new mailbox actions to be audited by default when they are released. However, your organization may have reasons to audit a set of mailbox actions that are different than the default ones. This section shows you how to change the mailbox actions that are audited for each of the logon type, and how to revert back to the Microsoft-managed default actions.
 
 > [!IMPORTANT]
 > If you make any change to the mailbox actions for a user that are logged by default (as described in the next section), then any new mailbox actions released by Microsoft will not be audited for those mailboxes. You'll have to explicitly add new mailbox action to the list of actions that are audited for a logon type.
@@ -193,7 +188,6 @@ This example removes the MoveToDeletedItems delegate action.
 Set-Mailbox <username> -AuditDelegate @{Remove="MoveToDeletedItems"}
 ```
 
-
 #### Checking the DefaultAuditSet property
 
 After you change the default mailbox actions for a logon type, the *DefaultAuditSet* property on the mailbox will be automatically updated to reflect this change. For example, if you run `Get-Mailbox <username> | FL DefaultAuditSet` after the first time you add or remove a mailbox owner action, the command will only return a value of `Admin, Delegate`. This indicates that the default mailbox actions for the owner have been changed This also means that any new mailbox owner actions released by Microsoft will not be automatically added to this mailbox. The same is true for changing the mailbox actions for the admin or delegate logon type.
@@ -216,15 +210,15 @@ Set-Mailbox <username> -DefaultAuditSet Admin,Delegate,Owner
 
 You can use this command to restore the default mailbox actions for any of the logon types (by using the **Admin**, **Delegate**, or **Owner** values for the *DefaultAuditSet* parameter.)
 
-## Turn off mailbox auditing on-by-default for your organization
+## Turn off mailbox auditing on by default for your organization
 
-If for some reason your organization decides that it doesn't want to audit mailbox actions, you can turn off mailbox auditing on-by-default for your entire organization by running the following command in Exchange Online PowerShell:
+If for some reason your organization decides that it doesn't want to audit mailbox actions, you can turn off mailbox auditing on by default for your entire organization by running the following command in Exchange Online PowerShell:
 
 ```
 Set-OrganizationConfig -AuditDisabled $true
 ```
 
-When mailbox auditing on-by-default is turned off (the *AuditDisabled* property is set to **True**) for the organization, the following things occur:
+When mailbox auditing on by default is turned off (the *AuditDisabled* property is set to **True**) for the organization, the following things occur:
 
 - No mailbox actions will be audited (started from the time when auditing is disabled for the organization), even if the *AuditEnabled* property on a mailbox is set to **True**.
 
@@ -239,16 +233,12 @@ To turn mailbox auditing back on for your organization, simply run the following
 ```
 Set-OrganizationConfig -AuditDisabled $false
 ```
-## Enable or disable mailbox auditing for specific users
 
-When mailbox auditing on-by-default is enabled for your organization, all mailboxes are audited for the mailbox actions listed in the previous section. However, there may be situations where an organization only wants some mailboxes to be audited. You can do this by using the **Set-MailboxAuditBypassAssociation** cmdlet in Exchange Online PowerShell to exclude mailboxes from being audited, include actions performed by the mailbox owner. The following sections show how to use this cmdlet to exclude a specific user or exclude a most of the users in your organization.
+## Bypass mailbox audit logging
 
-> [!NOTE]
-> If a mailbox audit logging bypass was enabled for an existing mailbox prior to mailbox auditing on-by-default being turned on for your organization, then on-by-default auditing will not be enabled for that mailbox. You would have to remove the audit logging bypass to enable auditing for that mailbox. 
+Currently, you can't disable mailbox auditing for specific mailboxes when mailbox auditing on by default is enabled for your organization. For example, setting the *AuditEnabled* mailbox property to **False** is ignored.  However, you can still use the **Set-MailboxAuditBypassAssociation** cmdlet to prevent mailbox actions performed by specific users from being logged. When you set a mailbox audit logging bypass, it prevents the actions of a specific user from being audited, regardless of which mailbox those actions are being performed on. If bypass mailbox auditing for a specific user, then the owner actions performed by that user won't be logged. And if that same user is assigned permissions to another users mailbox, then the delegate actions performed by the first user also won't be logged.
 
-### Exclude a specific user
-
-Run the following command in Exchange Online PowerShell to disable mailbox auditing for a specific user when default mailbox audit logging is enabled for your organization.
+To bypass mailbox audit logging for a specific user, run the following command in Exchange Online PowerShell:
 
 ```
 Set-MailboxAuditBypassAssociation -Identity <username> -AuditByPassEnabled $true
@@ -260,34 +250,7 @@ To verify that auditing is bypassed for the specified user, run the following co
 Get-MailboxAuditBypassAssociation -Identity <username> | FL AuditByPassEnabled
 ```
 
-A value of **True** indicates that mailbox auditing is disabled for the specified user. 
-
-### Exclude most users
-
-Your organization may have reasons to disable mailbox auditing for most users in the organization, but you still what to audit a small number of users. In this scenario, you have to leave mailbox auditing on-by-default enabled for your organization, and then use the **Set-MailboxAuditBypassAssociation** cmdlet to disable mailbox auditing for everyone except those users that you need to audit. 
-
-The easiest way to do this is to use (or define) a mailbox property for the users that you don't want to exclude from mailbox auditing. Then you run the **Set-MailboxAuditBypassAssociation** cmdlet and bypass auditing for all users except the ones that are assigned the specific mailbox property. For example, let say you want to disable mailbox auditing for all users except those in the Accounting department. After you ensure that the Department property for users in the Accounting department is populated with the value *Accounting*, you can run the following command in Exchange Online PowerShell:
-
-```
-Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'Department -ne "Accounting"' | Set-MailboxAuditBypassAssociation -AuditByPassEnabled $true
-```
-
-Here are some examples of using the **Get-Mailbox** and **Get-Recipient** cmdlets to return a subset of mailboxes based on common user or mailbox properties. These examples assume that relevant mailbox properties (such as  _CustomAttributeN_ or  _Department_) have been populated.
-    
-  `
-  Get-Mailbox -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'CustomAttribute15 -ne "AuditEnabled"'
-  `
-
-  `
-  Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'PostalCode -ne "98052"'
-  `
-
-  `
-  Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'StateOrProvince -ne "WA"'
-  `
-
-You can use other user mailbox properties in a filter to include or exclude mailboxes. For details, see [Filterable Properties for the -Filter Parameter](http://technet.microsoft.com/library/b02b0005-2fb6-4bc2-8815-305259fa5432.aspx).
-
+A value of **True** indicates that mailbox audit logging is bypass for that user.
 
 ## Mailbox auditing actions
   
