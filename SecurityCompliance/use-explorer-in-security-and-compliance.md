@@ -19,7 +19,15 @@ description: "Learn about Explorer (also called Threat Explorer) in the Security
 
 # Use Threat Explorer in the Security &amp; Compliance Center
 
-If your organization has [Office 365 Advanced Threat Protection Plan 2](office-365-ti.md), and you have the necessary permissions, you can use Threat Explorer to identify and analyze threats. For example, you can identify and delete malicious email that was delivered, or see malware that was caught by Office 365 security features. Threat Explorer (also referred to as Explorer) is a powerful near real-time tool to help Security Operations teams investigate and respond to threats in the Security &amp; Compliance Center.
+If your organization has [Office 365 Advanced Threat Protection Plan 2](office-365-ti.md), and you have the necessary permissions, you can use Threat Explorer (also referred to as Explorer) to identify and analyze threats. Here are a few things you can do with Explorer:
+
+- See what kinds of malware were detected, and by which threat protection technologies (anti-malware protection, ATP Safe Attachments, etc.)
+
+- View data about phishing links (URLs)
+
+For example, you can identify and delete malicious email that was delivered, or see malware that was caught by Office 365 security features. 
+
+Threat Explorer  is a powerful near real-time tool to help Security Operations teams investigate and respond to threats in the Security &amp; Compliance Center.
   
 ![Go to Threat management \> Explorer](media/cab32fa2-66f1-4ad5-bc1d-2bac4dbeb48c.png)
   
@@ -37,14 +45,11 @@ Explorer displays information about suspected malware and phish in email and fil
   
 ![Threat Explorer](media/ThreatExplorerFirstOpened.png)
   
-Use the **View** menu to change what information is displayed.
+Use the **View** menu to change what information is displayed. Tooltips help you determine which view to use.
   
-![The View menu for Explorer](media/2bb34f58-555f-4967-ba55-740334ef1f8e.png)
-  
-Explorer has several filtering and querying capabilities that enable you to drill into details, such as top targeted users, top malware families, detection technology and more. Each kind of report offers a variety of ways to view and explore data.
+![Threat Explorer View menu](media/ThreatExplorerViewMenu.png)
 
-> [!IMPORTANT]
-> Do not use wildcard characters, such as an asterisk (*) or a question mark (?), with Explorer. When you search on the Subject field for email messages, Explorer will perform partial matching and yield results similar to a wildcard search.
+Once you have selected a view, you can   
 
 ## Email \> Malware
 
@@ -118,6 +123,13 @@ Selecting one or more items activates the **Actions** menu, which offers several
 ![Selecting an item activates the Actions menu](media/95f127a4-1b2a-4a76-88b9-096e3ba27d1b.png)
   
 The ability to filter in a click and navigate to specific details can save you a lot of time in investigating threats.
+
+## Queries and filters
+
+You can use several filtering and querying capabilities with Explorer that enable you to drill into details, such as top targeted users, top malware families, detection technology and more. Each kind of report offers a variety of ways to view and explore data.
+
+> [!IMPORTANT]
+> Do not use wildcard characters, such as an asterisk (*) or a question mark (?), with Explorer. When you search on the Subject field for email messages, Explorer will perform partial matching and yield results similar to a wildcard search.
   
 ## How do I get Explorer?
 
