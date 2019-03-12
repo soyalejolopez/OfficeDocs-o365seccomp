@@ -23,11 +23,11 @@ If your organization has [Office 365 Advanced Threat Protection Plan 2](office-3
 
 - See what kinds of malware were detected, and by which threat protection technologies (anti-malware protection, ATP Safe Attachments, etc.)
 
-- View data about phishing links (URLs)
+- View data about phishing links (URLs), and what actions were taken (URLs blocked, allowed, or visited despite warnings)
 
-For example, you can identify and delete malicious email that was delivered, or see malware that was caught by Office 365 security features. 
+- Review email messages that were reported by using the [Report Message add-in for Outlook and Outlook on the web](enable-the-report-message-add-in.md), and identify any trends (such as a larger than usual number of messages reported as Phish) 
 
-Threat Explorer  is a powerful near real-time tool to help Security Operations teams investigate and respond to threats in the Security &amp; Compliance Center.
+These are just a few examples of what you can do with Threat Explorer. Threat Explorer is a powerful near real-time tool to help Security Operations teams investigate and respond to threats in the Security &amp; Compliance Center.
   
 ![Go to Threat management \> Explorer](media/cab32fa2-66f1-4ad5-bc1d-2bac4dbeb48c.png)
   
