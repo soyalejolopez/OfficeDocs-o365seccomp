@@ -19,7 +19,13 @@ description: "Learn about Explorer (also called Threat Explorer) in the Security
 
 # Use Threat Explorer in the Security &amp; Compliance Center
 
-If your organization has [Office 365 Advanced Threat Protection Plan 2](office-365-ti.md), and you have the necessary permissions, you can use Threat Explorer (also referred to as Explorer) to identify and analyze threats. Here are a few things you can do with Explorer:
+If your organization has [Office 365 Advanced Threat Protection Plan 2](office-365-ti.md), and you have the necessary permissions, you can use Threat Explorer (also referred to as Explorer) to identify and analyze threats. 
+
+![Go to Threat management \> Explorer](media/cab32fa2-66f1-4ad5-bc1d-2bac4dbeb48c.png)
+  
+To use Threat Explorer, in the Security &amp; Compliance Center, go to **Threat management** \> **Explorer**.
+
+Here are a few things you can do with Explorer:
 
 - See what kinds of malware were detected, and by which threat protection technologies (anti-malware protection, ATP Safe Attachments, etc.)
 
@@ -27,14 +33,7 @@ If your organization has [Office 365 Advanced Threat Protection Plan 2](office-3
 
 - Review email messages that were reported by using the [Report Message add-in for Outlook and Outlook on the web](enable-the-report-message-add-in.md), and identify any trends (such as a larger than usual number of messages reported as Phish) 
 
-These are just a few examples of what you can do with Threat Explorer. Threat Explorer is a powerful near real-time tool to help Security Operations teams investigate and respond to threats in the Security &amp; Compliance Center.
-  
-![Go to Threat management \> Explorer](media/cab32fa2-66f1-4ad5-bc1d-2bac4dbeb48c.png)
-  
-To use Threat Explorer, in the Security &amp; Compliance Center, go to **Threat management** \> **Explorer**.
-
-> [!IMPORTANT]
-> Office 365 Threat Intelligence is now part of Office 365 Advanced Threat Protection Plan 2, along with additional threat protection capabilities. To learn more, see [Office 365 Advanced Threat Protection plans and pricing](https://products.office.com/exchange/advance-threat-protection) and the [Office 365 Advanced Threat Protection Service Description](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description).
+Threat Explorer is a powerful near real-time tool to help Security Operations teams investigate and respond to threats in the Security &amp; Compliance Center.
       
 ## Explorer overview
 
@@ -49,27 +48,37 @@ Use the **View** menu to change what information is displayed. Tooltips help you
   
 ![Threat Explorer View menu](media/ThreatExplorerViewMenu.png)
 
-Once you have selected a view, you can   
+Once you have selected a view, you can apply filters and set up queries to conduct further analysis. The following sections provide a brief overview of the various views available in Explorer.  
 
-## Email \> Malware
+## Email > Malware
 
-This view shows email messages identified as containing malware.  
+To view this report, in Explorer, choose **View** > **Email** > **Malware**. This view shows information about email messages that were identified as containing malware.  
 
-View information in the chart by malware family, sender domain, sender IP, protection status (actions taken by your threat protection features and policies in Office 365), and detection technology (how the malware was detected).  
+![View data about email identified as phishing attempts](media/ExplorerEmailMalwareMenu.png) 
 
-![View data about detected malware](media/d11dc568-b091-4159-b261-df13d76b520b.png)         
+Click **Sender** to open your list of viewing options. Use this list to view data by sender, recipients, sender domain, subject, detection technology, protection status, and more. 
 
-Below the chart, view details about top malware families, top targeted users, and more details about specific messages. 
+For example, to see what actions were taken on detected email messages, choose **Protection status** in the list. Select an option, and then click the Refresh button to apply that filter to your report.
+
+![Threat Protection Status options for Threat Explorer](media/ThreatExplorerProtectionStatusOptions.png)
+
+Below the chart, view more details about specific messages. When you select an item in the list, a fly-out pane opens, where you can learn more about the item you selected. 
+
+![Threat Explorer with flyout opened](media/ThreatExplorerMalwareItemSelectedFlyout.png)
 
 ## Email \> Phish
 
-This view shows email messages identified as phishing attempts.  
+ This view shows email messages identified as phishing attempts.  
 
-View information by sender domain, sender IP, and protection status (actions taken by your threat protection features and policies in Office 365). 
+![View data about email identified as phishing attempts](media/ExplorerEmailMalwareMenu.png) 
 
-![View data about email identified as phishing attempts](media/2e3f97fa-2b99-47f9-afd6-216d10633c50.png) 
+Click Sender to open your list of viewing options. You can use this list to view data by sender, recipients, sender domain, subject, detection technology, protection status, and more. 
 
-Below the chart, view more details about specific messages. 
+For example, you can choose Protection status in the list, and then see what actions were taken on email messages that were detected as containing malware.
+
+![Threat Protection Status options for Threat Explorer](media/ThreatExplorerProtectionStatusOptions.png)
+
+Below the chart, view more details about specific messages. When you select an item in the list, a fly-out pane opens, where you can learn more about the item you selected. 
 
 ## Email \> User-reported
 
