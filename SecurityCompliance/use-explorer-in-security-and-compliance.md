@@ -33,9 +33,9 @@ To use Threat Explorer, in the Security &amp; Compliance Center, go to **Threat 
 Explorer displays information about suspected malware and phish in email and files in Office 365, as well as other security threats and risks to your organization. When you first open Explorer, the default view shows email malware detections for the past 7 days. Explorer can also show security protection features in Office 365, including [Safe Links](atp-safe-links.md) and [Safe Attachments](atp-safe-attachments.md) and can be modified to show data for the past 30 days. 
 
 > [!NOTE]
-> If you have a trial subcription for Office 365 Advanced Threat Protection Plan 2 or Office 365 E5, you will only see detections and email data for the past 7 days.
+> If you have a trial subscription for Office 365 Advanced Threat Protection Plan 2 or Office 365 E5, you will only see detections and email data for the past 7 days.
   
-![Explorer shows info about top malware and targeted users](media/8e8c1582-d6f4-4521-8591-686a1cb01f7e.png)
+![Threat Explorer](media/ThreatExplorerFirstOpened.png)
   
 Use the **View** menu to change what information is displayed.
   
