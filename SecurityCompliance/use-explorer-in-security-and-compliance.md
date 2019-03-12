@@ -54,7 +54,7 @@ Once you have selected a view, you can apply filters and set up queries to condu
 
 To view this report, in Explorer, choose **View** > **Email** > **Malware**. This view shows information about email messages that were identified as containing malware.  
 
-![View data about email identified as phishing attempts](media/ExplorerEmailMalwareMenu.png) 
+![View data about email identified as malware](media/ExplorerEmailMalwareMenu.png) 
 
 Click **Sender** to open your list of viewing options. Use this list to view data by sender, recipients, sender domain, subject, detection technology, protection status, and more. 
 
@@ -68,9 +68,9 @@ Below the chart, view more details about specific messages. When you select an i
 
 ## Email > Phish
 
- This view shows email messages identified as phishing attempts.  
+To view this report, in Explorer, choose **View** > **Email** > **Phish**. This view shows email messages identified as phishing attempts.  
 
-![View data about email identified as phishing attempts](media/ExplorerEmailMalwareMenu.png) 
+![View data about email identified as phishing attempts](media/ThreatExplorerEmailPhish.png) 
 
 Click Sender to open your list of viewing options. You can use this list to view data by sender, recipients, sender domain, subject, detection technology, protection status, and more. 
 
