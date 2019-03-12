@@ -103,7 +103,7 @@ To apply a filter, choose **Sender**, select an item in the list, and then click
 
 Below the chart, view more details about specific email messages, such as subject line, recipient, sender, status, and so on. 
 
-## Content \> Malware
+## Content > Malware
 
 This view shows files that were identified as malicious by Office 365 Advanced Threat Protection in SharePoint Online, OneDrive for Business, and Microsoft Teams.
 
@@ -121,7 +121,7 @@ New to Explorer is the ability to click to filter. When you click an item in the
   
 Clicking **ATP Detonation** in this chart results in a view like this: 
   
-![Explorer filtered to display only ATO Detonation results](media/7241d7dd-27bc-467d-9db8-6e806c49df14.png)
+![Explorer filtered to display only ATP Detonation results](media/7241d7dd-27bc-467d-9db8-6e806c49df14.png)
   
 In this view, we are now looking at data for files that were detonated by [Office 365 ATP Safe Attachments](atp-safe-attachments.md). Below the chart, we can see details about specific email messages that had attachments that were detected by ATP Safe Attachments.
   
