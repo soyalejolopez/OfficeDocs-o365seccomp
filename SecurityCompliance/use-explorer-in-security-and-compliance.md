@@ -3,7 +3,7 @@ title: "Use Threat Explorer in the Security &amp; Compliance Center"
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 03/10/2019
+ms.date: 03/12/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -23,18 +23,21 @@ If your organization has [Office 365 Advanced Threat Protection Plan 2](office-3
   
 ![Go to Threat management \> Explorer](media/cab32fa2-66f1-4ad5-bc1d-2bac4dbeb48c.png)
   
-To use Explorer, in the Security &amp; Compliance Center, go to **Threat management** \> **Explorer**.
+To use Threat Explorer, in the Security &amp; Compliance Center, go to **Threat management** \> **Explorer**.
 
 > [!IMPORTANT]
-> Office 365 Threat Intelligence is now part of Office 365 Advanced Threat Protection Plan 2, with additional threat protection capabilities. To learn more, see [Office 365 Advanced Threat Protection plans and pricing](https://products.office.com/exchange/advance-threat-protection) and the [Office 365 Advanced Threat Protection Service Description](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description).
+> Office 365 Threat Intelligence is now part of Office 365 Advanced Threat Protection Plan 2, along with additional threat protection capabilities. To learn more, see [Office 365 Advanced Threat Protection plans and pricing](https://products.office.com/exchange/advance-threat-protection) and the [Office 365 Advanced Threat Protection Service Description](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description).
       
 ## Explorer overview
 
-Explorer displays information about suspected malware and phish in email and files in Office 365, as well as other security threats and risks to your organization. When you first open Explorer, the default view shows email malware detections for the past 7 days. Explorer can also show security protection features in Office 365, including [Safe Links](atp-safe-links.md) and [Safe Attachments](atp-safe-attachments.md) and can be modified to show data for the past 30 days. If you have a trial subcription for Office 365 Advanced Threat Protection Plan 2 or Office 365 E5, you will only see detections and email data for the past 7 days.
+Explorer displays information about suspected malware and phish in email and files in Office 365, as well as other security threats and risks to your organization. When you first open Explorer, the default view shows email malware detections for the past 7 days. Explorer can also show security protection features in Office 365, including [Safe Links](atp-safe-links.md) and [Safe Attachments](atp-safe-attachments.md) and can be modified to show data for the past 30 days. 
+
+> [!NOTE]
+> If you have a trial subcription for Office 365 Advanced Threat Protection Plan 2 or Office 365 E5, you will only see detections and email data for the past 7 days.
   
 ![Explorer shows info about top malware and targeted users](media/8e8c1582-d6f4-4521-8591-686a1cb01f7e.png)
   
-Use the View menu to change what information is displayed.
+Use the **View** menu to change what information is displayed.
   
 ![The View menu for Explorer](media/2bb34f58-555f-4967-ba55-740334ef1f8e.png)
   
@@ -96,7 +99,7 @@ View information by malware family, detection technology (how the malware was de
 
 Below the chart, view more details about specific files, such as attachment filename, workload, file size, who last modified the file, and more. 
   
-## (New!) Click-to-filter capabilities
+## Click-to-filter capabilities
 
 New to Explorer is the ability to click to filter. When you click an item in the legend, that item becomes a filter for the report. For example, suppose we are looking at the Malware view in Explorer:
   
@@ -120,14 +123,23 @@ The ability to filter in a click and navigate to specific details can save you a
 
 Explorer is included in [Office 365 Advanced Threat Protection Plan 2](office-365-ti.md). 
 
-You must have appropriate permissions, such as those granted to a security administrator or security reader, in order to view and use Explorer. To learn more, see [Permissions in the Office 365 Security &amp; Compliance Center](permissions-in-the-security-and-compliance-center.md).
-  
-## Related topics
+To view and use Explorer, you must have appropriate permissions, such as those granted to a security administrator or security reader, in order to view and use Explorer. 
 
-[Reports and insights in the Office 365 Security &amp; Compliance Center](reports-and-insights-in-security-and-compliance.md)
-  
-[Find and investigate malicious email that was delivered (Office 365 Threat Invesitgation and Response)](investigate-malicious-email-that-was-delivered.md)
-  
-[Anti-spam and anti-malware protection in Office 365](anti-spam-and-anti-malware-protection.md)
+- For the Security &amp; Compliance Center, you must have one of the following roles assigned:
+    - Organization Management
+    - Security Administrator (this can be assigned in the Azure Active Directory admin center ([https://aad.portal.azure.com](https://aad.portal.azure.com)))
+    - Security Reader
+
+- For Exchange Online, you must have one of the following roles assigned in either the Exchange admin center ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) or with PowerShell cmdlets (See [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)):
+    - Organization Management
+    - View-only Organization Management
+    - View-Only Recipients role
+    - Compliance Management
+
+To learn more, see the following resources:
+
+- [Permissions in the Office 365 Security &amp; Compliance Center](permissions-in-the-security-and-compliance-center.md)
+
+- [Feature permissions in Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/feature-permissions)
   
 
