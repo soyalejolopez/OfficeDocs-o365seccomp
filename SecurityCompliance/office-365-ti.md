@@ -53,6 +53,10 @@ Use the following resources to learn more about threat investigation and respons
 - [Get started with Threat Investigation and Response](get-started-with-ti.md) (this includes information about required roles) 
     
 - [Learn about Threat Trackers - New and Noteworthy](threat-trackers.md)
+
+- [Automated Investigation and Response (AIR) with Office 365 Threat Intelligence](automated-investigation-response-office.md)
+
+- [Use Threat Explorer in the Security &amp; Compliance Center](use-explorer-in-security-and-compliance.md)
     
 - [Find and investigate malicious email that was delivered](investigate-malicious-email-that-was-delivered.md)
     
