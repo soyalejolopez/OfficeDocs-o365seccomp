@@ -164,7 +164,7 @@ You can use the **Set-Mailbox** cmdlet with the *AuditAdmin*, *AuditDelegate*, o
 
 - You can specify multiple mailbox actions that overwrite the existing actions by using the following syntax: `action1,action2,...actionN`.
 
-- You can add or remove one or more mailbox action without affecting any existing entries by using the following syntax: `@{Add="action1","value2"}` or `@{Remove="action1","action2"}`.
+- You can add or remove one or more mailbox action without affecting any existing records by using the following syntax: `@{Add="action1","value2"}` or `@{Remove="action1","action2"}`.
 
 Regardless of which method you use to change the mailbox actions that are audited, the mailbox actions audited by default (for the logon type that you changed) will no longer be managed by Microsoft. 
 
@@ -226,7 +226,7 @@ When mailbox auditing on by default is turned off (the *AuditDisabled* property 
 
 - Any mailbox audit bypass association settings (configured by using the **Set-MailboxAuditBypassAssociation** cmdlet) will be ignored.
 
-- Existing mailbox audit log entries be retained until the age limit for an entrie expires.
+- Existing mailbox audit log records be retained until the age limit for an entrie expires.
 
 To turn mailbox auditing back on for your organization, simply run the following command in Exchange Online PowerShell:
 
@@ -275,5 +275,25 @@ The following table summarizes the actions that are audited for each user logon 
 |**UpdateInboxRules** <br/> |An inbox rule has been added, removed, or changed. Inbox rules are used to process messages in the user's Inbox based on the specified conditions and take actions when the conditions of a rule are met, such as moving a message to a specified folder or deleting a message.  <br/> |Yes\*  <br/> |Yes\*  <br/> |Yes\*  <br/> |
    
 > [!NOTE]
-> <sup>\*</sup> Audited by default when default mailbox auditing is enabled for the logon type. <br/><br/>  <sup>\*\*</sup> Entries for folder bind actions performed by delegates are consolidated. One log entry is generated for individual folder access within a time span of 24 hours. <br/><br/> <sup>\*\*\* </sup> The MessageBind action has been deprecated, and it is no longer available to add to the list of mailbox actions for the admin logon type. 
+> <sup>\*</sup> Audited by default when default mailbox auditing is enabled for the logon type. <br/><br/>  <sup>\*\*</sup> records for folder bind actions performed by delegates are consolidated. One log record is generated for individual folder access within a time span of 24 hours. <br/><br/> <sup>\*\*\* </sup> The MessageBind action has been deprecated, and it is no longer available to add to the list of mailbox actions for the admin logon type. 
 
+## More information
+
+- By default, mailbox audit log records are retained for 90 days and then deleted. You can change the age limit for audit log records by using the **Set-Mailbox -AuditLogAgeLimit** command in Exchange Online PowerShell. Note that increasing the default age limit for mailbox auditing records doesn't affect the 90-day age limit for audit log records in the Microsoft 365 audit log. For example, if you increase the age limit for mailbox audit log records to 365 days, a mailbox audit record will still be searchable in the Microsoft 365 audit log for only 90 days after the corresponding event occurred. In this case, you would have to search the user's mailbox audit log for records older than 90 days. For more information about searching mailbox audit logs, see [Search-MailboxAuditLog](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/search-mailboxauditlog).
+
+- Mailbox audit log records are stored in a subfolder (named *Audits*) in the Recoverable Items folder in each user's mailbox. Keep the following things in mind about mailbox audit records and the Recoverable Items folder.
+   
+    - Mailbox audit records count against the storage quota of the Recoverable Items folder, which is 30GB by default. Note that the storage quota for the Recoverable Items folder is automatically increased from to 100 GB when a hold is placed on a mailbox or the mailbox is assigned to a retention policy in the Compliance Center.
+
+    - Mailbox audit records also counts against the folder limit for the Recoverable Items folder [folder limit for the Recoverable Items folder](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#mailbox-folder-limits). The maximum number of items (audit records in this case) that can be stored in the Audits subfolder is 3 million. 
+  
+    - Mailbox auditing on by default should not impact these two limits (storage quota and folder limit for the Recoverable Items folder). For example, Microsoft estimates that total size of all audit records generated each day will be about 500 KB per mailbox. This means that total size of all mailbox records are generated over a 90-day period (which is the default audit log age limit) will be about 350 MB (.35 GB). If you increased the audit log age limit to 365 days, the total size would be increased to about 1.4 GB.
+
+    - You can run the following command in Exchange Online PowerShell to display the size and number of items in the Audits subfolder in the Recoverable Items folder: 
+       ```
+       Get-MailboxFolderStatistics <username> -FolderScope RecoverableItems | Where-Object {$_.Name -eq 'Audits'} | FL FolderPath,FolderSize,ItemsInFolder
+       ```
+
+     - You can't directly access an audit log record in the Recoverable Items folder; instead, you use the **Search-MailboxAuditLog** cmdlet or search the Microsoft 365 audit log to find and view mailbox audit records.
+
+- If a mailbox is placed on hold or assigned to a retention policy in the Compliance Center, audit log records are still retained only for the duration defined by the *AuditLogAgeLimit* property for the mailbox (which is set to 90 days by default). To retain audit log records longer for mailboxes on hold, you have to increase the retention period by increasing the value for the *AuditLogAgeLimit* property.
