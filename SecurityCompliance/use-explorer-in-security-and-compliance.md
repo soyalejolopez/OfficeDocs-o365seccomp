@@ -72,13 +72,15 @@ To view this report, in Explorer, choose **View** > **Email** > **Phish**. This 
 
 ![View data about email identified as phishing attempts](media/ThreatExplorerEmailPhish.png) 
 
-Click Sender to open your list of viewing options. You can use this list to view data by sender, recipients, sender domain, subject, detection technology, protection status, and more. 
+Click **Sender** to open your list of viewing options. You can use this list to view data by sender, recipients, sender domain, sender IP, URL domain, click verdict, and more. 
 
-For example, you can choose Protection status in the list, and then see what actions were taken on email messages that were detected as containing malware.
+For example, you can choose **Click verdict** in the list, and then see what actions were taken when people clicked on links that were identified as phishing attempts. Select one or more options, and then click the Refresh button.
 
-![Threat Protection Status options for Threat Explorer](media/ThreatExplorerProtectionStatusOptions.png)
+![Click verdict options for the Phish report](media/ThreatExplorerEmailPhishClickVerdictOptions.png)
 
-Below the chart, view more details about specific messages. When you select an item in the list, a fly-out pane opens, where you can learn more about the item you selected. 
+Below the chart, view more details about specific messages, URL clicks, URLs, and email origin. 
+
+When you select an item in the list, a fly-out pane opens, where you can learn more about the item you selected. 
 
 ## Email > User-reported
 
