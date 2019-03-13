@@ -25,13 +25,15 @@ If your organization has [Office 365 Advanced Threat Protection Plan 2](office-3
   
 To use Threat Explorer, in the Security &amp; Compliance Center, go to **Threat management** \> **Explorer**.
 
-Here are a few things you can do with Explorer:
+Here are a few things you can do with Explorer (there are many more possibilities):
 
 - See what kinds of malware were detected, and by which threat protection technologies (anti-malware protection, ATP Safe Attachments, etc.)
 
 - View data about phishing links (URLs), and what actions were taken (URLs blocked, allowed, or visited despite warnings)
 
 - Review email messages that were reported by using the [Report Message add-in for Outlook and Outlook on the web](enable-the-report-message-add-in.md), and identify any trends (such as a larger than usual number of messages reported as Phish) 
+
+- View information about malicious files detected in your organization's SharePoint, OneDrive, and Teams libraries
 
 Threat Explorer is a powerful near real-time tool to help Security Operations teams investigate and respond to threats in the Security &amp; Compliance Center.
       
