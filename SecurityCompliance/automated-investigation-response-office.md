@@ -3,7 +3,7 @@ title: "Automated Investigation and Response (AIR) with Office 365 Threat Intell
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 03/04/2019
+ms.date: 03/13/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -231,17 +231,3 @@ Currently, AIR is in preview. When released, AIR will be included in the followi
 - Office 365 Advanced Threat Protection Plan 2
 
 To learn more about feature availability, visit the [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap).
-
-## Related topics
-
-[ATP Safe Links](atp-safe-links.md)
-
-[Find and investigate malicious email that was delivered](investigate-malicious-email-that-was-delivered.md)
-
-[Permissions in the Office 365 Security &amp; Compliance Center](permissions-in-the-security-and-compliance-center.md)
-
-[Reports and insights in the Office 365 Security &amp; Compliance Center](reports-and-insights-in-security-and-compliance.md)
-  
-[Threat Explorer](use-explorer-in-security-and-compliance.md)
-
-[Zero-hour auto purge - protection against spam and malware](zero-hour-auto-purge.md)
