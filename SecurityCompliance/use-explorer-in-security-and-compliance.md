@@ -37,12 +37,16 @@ Threat Explorer is a powerful near real-time tool to help Security Operations te
       
 ## Explorer overview
 
-Explorer displays information about suspected malware and phish in email and files in Office 365, as well as other security threats and risks to your organization. When you first open Explorer, the default view shows email malware detections for the past 7 days. Explorer can also show security protection features in Office 365, including [Safe Links](atp-safe-links.md) and [Safe Attachments](atp-safe-attachments.md) and can be modified to show data for the past 30 days. 
+Explorer displays information about suspected malware and phish in email and files in Office 365, as well as other security threats and risks to your organization. 
+
+When you first open Explorer, the default view shows email malware detections for the past 7 days. 
+
+![Threat Explorer](media/ThreatExplorerFirstOpened.png)
+
+Explorer can also show security protection features in Office 365, including [Safe Links](atp-safe-links.md) and [Safe Attachments](atp-safe-attachments.md) and can be modified to show data for the past 30 days. 
 
 > [!NOTE]
 > If you have a trial subscription for Office 365 Advanced Threat Protection Plan 2 or Office 365 E5, you will only see detections and email data for the past 7 days.
-  
-![Threat Explorer](media/ThreatExplorerFirstOpened.png)
   
 Use the **View** menu to change what information is displayed. Tooltips help you determine which view to use.
   
@@ -90,17 +94,23 @@ When you select an item in the list, such as a URL that was detected, a fly-out 
 
 To view this report, in Explorer, choose **View** > **Email** > **User-reported**. This view shows email that users have reported as junk, not junk, or phishing email. 
 
- 
+![Email messages reported by users](media/ThreatExplorerEmailUserReportedViewOptions.png) 
 
-View information by report type (the user's determination that the email was junk, not junk, or phish), and by delivery reason (reasons why email went to a specific location, such as a spam filter policy, a mail flow rule, a blocked-senders list, a safe-senders list, etc.).  
+Click **Sender** to open your list of viewing options. Use this list to view information by sender, recipients, report type (the user's determination that the email was junk, not junk, or phish), and more. 
 
-![View data about email users reported as junk, not junk, or phishing](media/255acd04-0d07-4b29-82af-5060a60c20ab.png)  
+For example, to view information about email messages that were reported as phishing attempts, click **Sender** > **Report type**, select **Phish**, and then click the Refresh button.
+
+![Phish selected for Report Type filter](media/ThreatExplorerEmailUserReportedPhishSelected.png)
 
 Below the chart, view more details about specific email messages, such as subject line, the sender's IP address, the user that reported the message as junk, not junk, or phish, and more. 
 
-## Email > All mail
+![Messages that were reported as phishing attempts](media/ThreatExplorerEmailPhishUserReportedPhishDetails.png)
 
-This views shows an all-up view of email activity, including email identified as malicious due to phishing or malware, as well all non-malicious mail (normal email, spam, and bulk mail). 
+Select an item in the list to view additional details.
+
+## Email > All email
+
+To view this report, in Explorer, choose **View** > **Email** > **All mail**. This views shows an all-up view of email activity, including email identified as malicious due to phishing or malware, as well all non-malicious mail (normal email, spam, and bulk mail). 
 
 > [!NOTE]
 > If you get an error that reads **Too much data to display**, add a filter and, if necessary, narrow the date range you're viewing. 
@@ -113,7 +123,7 @@ Below the chart, view more details about specific email messages, such as subjec
 
 ## Content > Malware
 
-This view shows files that were identified as malicious by Office 365 Advanced Threat Protection in SharePoint Online, OneDrive for Business, and Microsoft Teams.
+To view this report, in Explorer, choose **View** > **Content** > **Malware**. This view shows files that were identified as malicious by [Office 365 Advanced Threat Protection in SharePoint Online, OneDrive for Business, and Microsoft Teams](atp-for-spo-odb-and-teams.md).
 
 View information by malware family, detection technology (how the malware was detected), and workload (OneDrive, SharePoint, or Teams). 
 
@@ -143,10 +153,10 @@ The ability to filter in a click and navigate to specific details can save you a
 
 ## Queries and filters
 
-You can use several filtering and querying capabilities with Explorer that enable you to drill into details, such as top targeted users, top malware families, detection technology and more. Each kind of report offers a variety of ways to view and explore data.
+New to Explorer are several new filters and query capabilities that enable you to drill into details, such as top targeted users, top malware families, detection technology and more. Each kind of report offers a variety of ways to view and explore data.
 
 > [!IMPORTANT]
-> Do not use wildcard characters, such as an asterisk (*) or a question mark (?), with Explorer. When you search on the Subject field for email messages, Explorer will perform partial matching and yield results similar to a wildcard search.
+> Do not use wildcard characters, such as an asterisk (*) or a question mark (?), in the query bar for Explorer. When you search on the Subject field for email messages, Explorer will perform partial matching and yield results similar to a wildcard search.
   
 ## How do I get Explorer?
 
