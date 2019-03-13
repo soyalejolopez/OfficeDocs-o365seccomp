@@ -72,19 +72,25 @@ To view this report, in Explorer, choose **View** > **Email** > **Phish**. This 
 
 ![View data about email identified as phishing attempts](media/ThreatExplorerEmailPhish.png) 
 
-Click **Sender** to open your list of viewing options. You can use this list to view data by sender, recipients, sender domain, sender IP, URL domain, click verdict, and more. 
+Click **Sender** to open your list of viewing options. Use this list to view data by sender, recipients, sender domain, sender IP, URL domain, click verdict, and more. 
 
-For example, you can choose **Click verdict** in the list, and then see what actions were taken when people clicked on links that were identified as phishing attempts. Select one or more options, and then click the Refresh button.
+For example, to see what actions were taken when people clicked on URLs that were identified as phishing attempts, choose **Click verdict** in the list, select one or more options, and then click the Refresh button.
 
 ![Click verdict options for the Phish report](media/ThreatExplorerEmailPhishClickVerdictOptions.png)
 
 Below the chart, view more details about specific messages, URL clicks, URLs, and email origin. 
 
-When you select an item in the list, a fly-out pane opens, where you can learn more about the item you selected. 
+![URLs detected as phish in email messages](media/ThreatExplorerEmailPhishURLs.png)
+
+When you select an item in the list, such as a URL that was detected, a fly-out pane opens, where you can learn more about the item you selected. 
+
+![Details about a detected URL](media/ThreatExplorerEmailPhishURLDetails.png)
 
 ## Email > User-reported
 
-This view shows email that users have reported as junk, not junk, or phishing email.  
+To view this report, in Explorer, choose **View** > **Email** > **User-reported**. This view shows email that users have reported as junk, not junk, or phishing email. 
+
+ 
 
 View information by report type (the user's determination that the email was junk, not junk, or phish), and by delivery reason (reasons why email went to a specific location, such as a spam filter policy, a mail flow rule, a blocked-senders list, a safe-senders list, etc.).  
 
