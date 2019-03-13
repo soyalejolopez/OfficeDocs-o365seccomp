@@ -183,6 +183,7 @@
 ## [Threat investigation and response](office-365-ti.md)
 ### [Get started](get-started-with-ti.md)
 ### [Threat Trackers](threat-trackers.md)
+### [Automated Investigation and Response](automated-investigation-response-office.md)
 ### [Use Explorer in the Security & Compliance Center](use-explorer-in-security-and-compliance.md)
 ### [View ATP reports](view-reports-for-atp.md)
 ### [Attack Simulator in Office 365](attack-simulator.md)
