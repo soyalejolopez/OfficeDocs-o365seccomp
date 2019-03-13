@@ -149,9 +149,9 @@ The dashboard **Home** page has several sections to help you quickly take action
 - See a list of the reviewers and review teams for the selected policy
 - See which communication platforms have content under supervision for the policy.
 
-#### Supervise tab
+#### Review tab
 
-The **Supervise** tab is where reviewers can take action and resolve items identified by the selected policy. Here you can:
+The **Review** tab is where reviewers can take action and resolve items identified by the selected policy. Here you can:
 
 - Filter by pending, compliant, non-compliant, and questionable items
 - Tag a single item as compliant, non-compliant, or questionable. You can also record a comment with the item to help clarify the tagging action taken.
