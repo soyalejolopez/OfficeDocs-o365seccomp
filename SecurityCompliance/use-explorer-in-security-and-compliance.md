@@ -19,6 +19,8 @@ description: "Learn about Explorer (also called Threat Explorer) in the Security
 
 # Use Threat Explorer in the Security &amp; Compliance Center
 
+## Explorer overview
+
 If your organization has [Office 365 Advanced Threat Protection Plan 2](office-365-ti.md), and you have the necessary permissions, you can use Threat Explorer (also referred to as Explorer) to identify and analyze threats. 
 
 ![Go to Threat management \> Explorer](media/cab32fa2-66f1-4ad5-bc1d-2bac4dbeb48c.png)
@@ -35,11 +37,7 @@ Here are a few things you can do with Explorer (there are many more possibilitie
 
 - View information about malicious files detected in your organization's SharePoint, OneDrive, and Teams libraries
 
-Threat Explorer is a powerful near real-time tool to help Security Operations teams investigate and respond to threats in the Security &amp; Compliance Center.
-      
-## Explorer overview
-
-Explorer displays information about suspected malware and phish in email and files in Office 365, as well as other security threats and risks to your organization. 
+Threat Explorer is a powerful, near real-time tool to help Security Operations teams investigate and respond to threats in the Security &amp; Compliance Center. Explorer displays information about suspected malware and phish in email and files in Office 365, as well as other security threats and risks to your organization. 
 
 When you first open Explorer, the default view shows email malware detections for the past 7 days. 
 
