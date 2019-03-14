@@ -1,6 +1,6 @@
 ---
-title: "Collect data for an investigation"
-ms.author: esclee
+title: "Search for data"
+ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: 
@@ -17,7 +17,7 @@ ms.assetid:
 description: ""
 ---
 
-# Collect data for an investigation
+# Search for data
 
 Once you have identified custodians and data sources that are of interest for your case, it's time to identify the set of documents to delve into. You can use the Search tool in Advanced eDiscovery (Preview) to identify these from custodial and non-custodial locations in Office 365.
 
