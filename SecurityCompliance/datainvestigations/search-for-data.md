@@ -19,9 +19,9 @@ description: ""
 
 # Search for data
 
-Once you have identified custodians and data sources that are of interest for your case, it's time to identify the set of documents to delve into. You can use the Search tool in Advanced eDiscovery (Preview) to identify these from custodial and non-custodial locations in Office 365.
+In **Search** tab, you can search for misplaced, confidential or sensitive data across O365 in the live system using keywords and various condition cards. 
 
-After you run a search, you will be able to view statistics on the retrieved items such as the locations that had the most items that matched the search query. You can also preview a subset of the results. When you've identified the set of documents that want to further examine, you can add the search results to a working set to collect and process.
+After you run a search, you will be able to view statistics on the retrieved items such as the locations that had the most items that matched the search query. You can also preview a subset of the results. When you've identified the set of documents that want to further investigate, you can collect the search results as **Evidence** to further process and analyze. 
 
 ## Create a search
 
@@ -43,6 +43,10 @@ For more information about search statistics, see [Search statistics](search-sta
 
 Once preview is completed, the **Preview** button will be active. Click it to preview a sampled subset of the results.
 
-## Adding search results to a working set
+## Collecting search results to evidence
 
-When you are ready to collect and process the entire results of a search, you can do so by adding it to a working set. For details, see [Add data to a working set](add-data-to-working-set.md). 
+When you are ready to investigate and remediate the search results, you can do so by adding it to evidence. When you add data to **Evidence** it extracts and re-indexes files, metadata, and text in a quarantined environment. For time-sensitive incidents, this allows you to quickly contain the environment by deleting data at original locations, and investigate re-created evidence afterwards in a quarantined environment. This also allows lightning fast search results and advanced analysis such as themes detection, email thread identification and near duplicate detection to facilitate your investigation. You can also add data from Non-Office 365 data sources to live side by side with the data you collect from Office 365.
+
+To add data to **Evidence**, start by selecting a search, in the search results fly out, click the *+ Add results to evidence* button.
+
+Adding data to evidence is a long running process, you can either track the progress in the Jobs tab or in the *Evidence status* column in the *Searches* tab.  The process includes gathering items from Office 365 and finally Ingestion & Indexing.  Once working set processing is completed, you can navigate to the working set by clicking on the *Working Sets* tab and then clicking on the working set.  You can then move on to searching, reviewing, tagging and exporting any relevant data.
