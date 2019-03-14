@@ -1,5 +1,5 @@
 ---
-title: "Run analytics to assist evidence review"
+title: "Run analytics to investigate faster"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -17,7 +17,7 @@ ms.assetid:
 description: ""
 ---
 
-# Run analytics to assist evidence review
+# Run analytics to investigate faster
 
 When an evidence collection is large, it can be difficult to review them all. Often times, it includes multiple copies of the same or similar emails or documents. Data investigations (Preview) provides a number of analytics tools to reduce the volume of documents that needs to be reviewed without any loss in information. To learn more about these capabilities, see:
 
