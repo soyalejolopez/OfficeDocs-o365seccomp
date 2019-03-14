@@ -1,5 +1,5 @@
 ---
-title: "Add search results to an incident"
+title: "Add search results to evidence"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -17,7 +17,7 @@ ms.assetid:
 description: ""
 ---
 
-# Add search results to an incident
+# Add search results to evidence
 
 After you've identified and culled with searches against Exchange, SharePoint and OneDrive for business, you can add the results to a working set. Working sets represent a static set of documents that we will index for lightning fast search results, analyze for email thread identification, near duplicate detection and themes.  You can also add data from Non-Office 365 data sources to live side by side with the data you collect from Office 365.
 
