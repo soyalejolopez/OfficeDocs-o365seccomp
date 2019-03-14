@@ -49,7 +49,7 @@ Network upload is currently available in the United States, Canada, Brazil, the 
   
 Using network upload to import PST files is free.
   
-This also means that after PST files are deleted from the Azure storage area, they're no longer displayed in the list of files for a completed import job in the Office 365 admin center. Although an import job might still be listed on the **Import data to Office 365** page, the list of PST files might be empty when you view the details of older import jobs. 
+This also means that after PST files are deleted from the Azure storage area, they're no longer displayed in the list of files for a completed import job in the Microsoft 365 admin center. Although an import job might still be listed on the **Import data to Office 365** page, the list of PST files might be empty when you view the details of older import jobs. 
   
  **What version of the PST file format is supported for importing to Office 365?**
   

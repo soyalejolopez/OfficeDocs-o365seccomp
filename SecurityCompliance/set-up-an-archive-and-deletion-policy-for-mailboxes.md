@@ -96,9 +96,9 @@ To create new retention tags, you'll use the Exchange admin center (EAC) in your
   
 1. In the Security &amp; Compliance Center, click the app launcher  in the upper left corner, and then click the **Admin** tile . 
     
-2. In the left navigation pane of the Office 365 admin center, click **Admin centers**, and then click **Exchange**.
+2. In the left navigation pane of the Microsoft 365 admin center, click **Admin centers**, and then click **Exchange**.
     
-    ![Screenshot shows the Office 365 admin center with the Admin centers option expanded and Exchange selected.](media/47399df2-0bc4-42e2-b183-07750a46bc68.png)
+    ![Screenshot shows the Microsoft 365 admin center with the Admin centers option expanded and Exchange selected.](media/47399df2-0bc4-42e2-b183-07750a46bc68.png)
   
 3. In the EAC, go to **Compliance management** \> **Retention tags**
     

@@ -475,7 +475,7 @@ The following sections list the Microsoft partners—and the third-party data so
 
 Here are the steps for creating and configuring a third-party data mailbox for importing data to Office 365. As previous explained, items are imported to this mailbox if the partner connector can't map the user ID of the item to an Office 365 user account.
   
- **Complete these tasks in the Office 365 admin center**
+ **Complete these tasks in the Microsoft 365 admin center**
   
 1. Create a new user account in Office 365 and assign it an Exchange Online Plan 2 license; see [Add users to Office 365](https://go.microsoft.com/fwlink/p/?LinkId=692098). A Plan 2 license is required to place the mailbox on Litigation Hold or enable an archive mailbox that has an unlimited storage quota.
     
