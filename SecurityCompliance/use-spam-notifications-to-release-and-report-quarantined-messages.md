@@ -3,7 +3,7 @@ title: "Use user spam notifications to release and report quarantined messages i
 ms.author: tracyp
 author: MSFTTracyP
 manager: laurawi
-ms.date: 5/12/2018
+ms.date: 03/14/2019
 ms.audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
