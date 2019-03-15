@@ -25,7 +25,15 @@ After you run a search, you will be able to view statistics on the retrieved ite
 
 ## Create a search
 
-Clicking **New search** on the **Searches** tab will start a wizard that guides you through creating a search. For detailed information on how to create a search, see [Create a search to collect data](create-search-to-collect-data.md).
+1. Clicking **New search** on the **Searches** tab will start a wizard that guides you through creating a search. 
+
+2. Each search with a case should have a unique name. You can optionally provide a description for your search.
+
+3. Define your search criteria. You can define the conditions for your search using the pre-built condition cards or using Keyword Query Language (KQL). For more information, see [Build search queries](building-search-queries.md).
+
+4. Once you have defined your conditions, you need to choose which locations you want to search. One way to do it is scoping it by selecting people of interest if you added any. If you know whom you want to scope down your search but haven't added them to people of interest, you can do so following instructions in [Add people of interest to investigation](add-people-of-interest-to-investigation.md).
+
+5. In some cases, you may wish to search across tenant or data sources across that are not mapped to a person. In this case, you can specify the locations you would like to search, or choose to search all content locations for a specific Office 365 service (such as searching all Exchange mailboxes or all SharePoint and OneDrive for Business sites).
 
 After a search is created, a flyout page with details is displayed. Note that the **Statistics** and **Preview** buttons are initially grayed out because the search has not completed yet. You can keep track of the progress of the search on the **Searches** tab.
 
@@ -49,4 +57,4 @@ When you are ready to investigate and remediate the search results, you can do s
 
 To add data to **Evidence**, start by selecting a search, in the search results fly out, click the *+ Add results to evidence* button.
 
-Adding data to evidence is a long running process, you can either track the progress in the Jobs tab or in the *Evidence status* column in the *Searches* tab.  The process includes gathering items from Office 365 and finally Ingestion & Indexing.  Once working set processing is completed, you can navigate to the working set by clicking on the *Working Sets* tab and then clicking on the working set.  You can then move on to searching, reviewing, tagging and exporting any relevant data.
+Adding data to evidence is a long running process, you can either track the progress in the Jobs tab or in the *Evidence status* column in the *Searches* tab.  The process includes gathering items from Office 365 and finally Ingestion & Indexing.  Once evidence processing is completed, you can navigate to the working set by clicking on the *Working Sets* tab and then clicking on the working set.  You can then move on to searching, reviewing, tagging and exporting any relevant data.
