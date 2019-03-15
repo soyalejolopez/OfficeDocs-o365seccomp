@@ -19,28 +19,23 @@ description: ""
 
 # Close or delete a data investigation
 
-When the legal case or investigation supported by an eDiscovery case is completed, you can close the case. Here's what happens when you close a case:
+## Close a data investigation
 
-- If the case contains any content locations on hold, those holds will be turned off. This might result in content being permanently deleted or purged, either by the user or by an automated process, such as a deletion policy.
+ After you completed the investigation and took appropriate remedial actions, you may want to preserve the evidence that you collected, but close the case so that you can easily track reference back in the future. Once you close the investigation, it is still listed on the Data investigations page in the Security & Compliance Center. The details, holds, searches, and members of a closed case are retained. At a later date, you can re-open closed investigations.
 
-- Closing a case only turns off the holds that are associated with that case. If other holds are place on a content location (such as a Litigation Hold. a Preservation Policy, or a hold from a different eDiscovery case) those holds will still be maintained.
+To close an investigation:
 
-- The case is still listed on the eDiscovery page in the Security & Compliance Center. The details, holds, searches, and members of a closed case are retained.
+1. On the **Settings** tab, click **Investigation information**.
 
-- You can edit a case after it's closed. For example, you can add or removing members, create searches, export search results, and prepare search result for analysis in Advanced eDiscovery. The primary difference between active and closed cases is that holds are turned off when a case is closed.
+2. Click  **Close investigation**. 
 
-To close a case:
 
-1. From the **Advanced eDiscovery (Preview)** page, go to your case.
+## Delete a data investigation
 
-2. Go to **Settings** and select **Case Information**. 
+Sometimes, you may want to destroy the evidence because it contains sensitive or confidential data that you don't want to keep. To avoid further data spillage, you should consider deleting the investigation.
 
-3. Click **Close Case**. 
+To delete an investigation:
 
-To delete a case:
+1. On the **Settings** tab, click **Investigation information**.
 
-1. From the **Advanced eDiscovery (Preview)** page, go to your case.
-
-2. Go to **Settings** and select **Case Information**. 
-
-3. Click **Delete Case**. 
+2. Click  **Delete case**. 
