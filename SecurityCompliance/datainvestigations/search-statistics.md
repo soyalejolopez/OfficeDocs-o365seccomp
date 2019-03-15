@@ -21,7 +21,7 @@ description: ""
 
 One way you can validate your search results is to look at the statistics around your results to make sure they align with your expectations. When a search completes, high-level statistics are shown on the search details flyout:
 - Number and volume of items retrieved by the search
-- Number and volume of partially indexed/unindexed items that were found in the search locations
+- Number and volume of partially indexed/unindexed items that are not searchable and found in the search locations
 - Number of mailboxes and locations searched.
 In order to view more detailed statistics, click on "Statistics" from the search details flyout.
 

@@ -1,5 +1,5 @@
 ---
-title: "Use the Relevance module to analyze data in an incident"
+title: "Use the Relevance module to analyze data in evidence"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -17,9 +17,9 @@ ms.assetid:
 description: ""
 ---
 
-# Use the Relevance module to analyze data in an incident
+# Use the Relevance module to analyze data in evidence
 
-In Advanced eDiscovery (Preview), the Relevance module includes the Relevance training and review of files related to a case. The Relevance workflow is shown and described as follows:
+In Data investigations (Preview), the Relevance module includes the Relevance training and review of files related to an investigation. The Relevance workflow is shown and described as follows:
   
 ![Relevance workflow](../media/44c67dd2-7a20-40a9-b0ed-784364845c77.gif)
   
@@ -31,7 +31,7 @@ In Advanced eDiscovery (Preview), the Relevance module includes the Relevance tr
     
 - **Cycles of training and tracking**
     
-  - **Tag**: Advanced eDiscovery (Preview) learns Relevance criteria specific to each issue based on the expert's iterative review and tagging of individual files.
+  - **Tag**: Data investigations (Preview) learns Relevance criteria specific to each issue based on the expert's iterative review and tagging of individual files.
     
   - **Track**: Calculate and display interim results of the Relevance training while monitoring statistical validity of the process. 
     
@@ -39,7 +39,7 @@ In Advanced eDiscovery (Preview), the Relevance module includes the Relevance tr
     
 - **Decide**: The results of the analysis applied to the entire case is displayed after Batch calculation, and data used to make document review decisions is displayed.
     
-- **Test**: Results can be tested to verify the validity and effectiveness of the Advanced eDiscovery (Preview) processing.
+- **Test**: Results can be tested to verify the validity and effectiveness of the Data investigations (Preview) processing.
 
 - **Search**: Once the Relevance workflow is complete, you can use the output such as read percentile of a document for your issue when you run a query within your working set.
     
@@ -59,7 +59,7 @@ Following is an overview of guidelines for Relevance training and review:
      
   - Ignore text applied to Relevance will be removed in the displayed file content in the text view in Relevance. If the values for Ignore text were defined after Relevance training already started, the new ignored text will be applied to sample files created from the point in which it was defined. The Ignore Text feature should be used cautiously, as its use may reduce the performance of file analysis
     
-  - Use the **Skip tagging** option only when necessary. Advanced eDiscovery (Preview) does not train based on skipped files. In assessment, if it's hard to tell whether a file is relevant, it is better to tag as Relevant (R) or Not relevant (NR) whenever possible rather than selecting **Skip**. When Advanced eDiscovery (Preview) evaluates training, it can then be seen how well these types of files were processed.
+  - Use the **Skip tagging** option only when necessary. Data investigations (Preview) does not train based on skipped files. In assessment, if it's hard to tell whether a file is relevant, it is better to tag as Relevant (R) or Not relevant (NR) whenever possible rather than selecting **Skip**. When Data investigations (Preview) evaluates training, it can then be seen how well these types of files were processed.
     
   - Even files with a very small amount of extracted text should be tagged in training as R/NR, rather than as "Skip", when possible. 
     
@@ -81,7 +81,7 @@ Following is an overview of guidelines for Relevance training and review:
     
 ## Steps in Relevance training
 
-In the **Relevance \> Track** tab, Advanced eDiscovery provides recommendations on how to proceed in the processing, with the following next steps. The implications are described below when each of the following steps is recommended in the Relevance training process. 
+In the **Relevance \> Track** tab, Data investigations provides recommendations on how to proceed in the processing, with the following next steps. The implications are described below when each of the following steps is recommended in the Relevance training process. 
   
 - Tagging / Continue tagging: File review and Relevance tagging performed by an expert for each file and issue within a sample.
     
@@ -91,11 +91,11 @@ In the **Relevance \> Track** tab, Advanced eDiscovery provides recommendations 
     
   - Implication: More assessment is required or recommended.
     
-- Training / Continue training: Process during which Advanced eDiscovery learns from the expert who is tagging the file samples and acquires the ability to identify Relevance criteria pertinent to each issue within the context of each case.
+- Training / Continue training: Process during which Data investigations learns from the expert who is tagging the file samples and acquires the ability to identify Relevance criteria pertinent to each issue within the context of each case.
     
   - Implication: The issue needs more training; the next sample should be created and tagged. 
     
-- Batch calculation: Relevance process in which Advanced eDiscovery takes the knowledge acquired during the training stage and applies it to the entire file population. All files in the pertinent file group are assessed for relevance and assigned a Relevance score.
+- Batch calculation: Relevance process in which Data investigations takes the knowledge acquired during the training stage and applies it to the entire file population. All files in the pertinent file group are assessed for relevance and assigned a Relevance score.
     
   - Implication: The issue has stabilized, and Batch calculation can be performed.
     
@@ -103,7 +103,7 @@ In the **Relevance \> Track** tab, Advanced eDiscovery provides recommendations 
     
   - Implication: A new load has been added, and Catch-up is required to continue working.
     
-- Tag inconsistencies: Process identifies, via an Advanced eDiscovery algorithm, inconsistencies in the file tagging process that may negatively impact the analysis.
+- Tag inconsistencies: Process identifies, via an Data investigations algorithm, inconsistencies in the file tagging process that may negatively impact the analysis.
     
   - Implication: The next sample will include files that have been tagged in previous samples, and their tagging must be redone.
     
@@ -115,9 +115,9 @@ In the **Relevance \> Track** tab, Advanced eDiscovery provides recommendations 
     
   - Implication: No Relevance training is required at this point.
     
-Although Advanced eDiscovery guides you through the process, with recommended Next steps at different stages, it also allows you to navigate between tabs and pages, and to make choices to address situations that may be pertinent to your individual case, issue, or document review process. 
+Although Data investigations guides you through the process, with recommended Next steps at different stages, it also allows you to navigate between tabs and pages, and to make choices to address situations that may be pertinent to your individual case, issue, or document review process. 
   
-It is possible to accept or override Advanced eDiscovery Next step processing choices. If you want to perform a step other than the recommended Next step, click the **Next step** listed in the expanded issue display in the dialog, click the **Modify** button next to the Next step, and select another Next step option. 
+It is possible to accept or override Data investigations Next step processing choices. If you want to perform a step other than the recommended Next step, click the **Next step** listed in the expanded issue display in the dialog, click the **Modify** button next to the Next step, and select another Next step option. 
   
 > [!NOTE]
 > Some options may remain disabled after unlocking as they are not supported for use at that point in the process. 

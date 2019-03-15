@@ -28,8 +28,11 @@ When an evidence collection is large, it can be difficult to review them all. Of
 To analyze data in evidence:
 
 1. Configure analytics settings for your investigation. For more information, see [Configure search and analytics settings](configure-search-analytics-settings.md).
+
 2. Open the evidence.
+
 3. Go to "Manage evidence".
+
 4. Click "Analyze".
 
 You can check the progress of analysis in the Jobs tab in your investigation.
@@ -41,7 +44,9 @@ You can check the progress of analysis in the Jobs tab in your investigation.
 To view a analytics report for your evidence:
 
 1. Open your evidence.
+
 2. Go to "Manage evidence".
+
 3. Click "Report".
 
 The report has four components from analysis:

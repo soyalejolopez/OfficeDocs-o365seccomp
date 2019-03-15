@@ -1,6 +1,6 @@
 ---
 title: "Add or remove members from a data investigation"
-ms.author: markjjo
+ms.author: sepa
 author: markjjo
 manager: laurawi
 ms.date: 

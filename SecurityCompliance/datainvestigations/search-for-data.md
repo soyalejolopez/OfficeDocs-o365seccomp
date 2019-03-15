@@ -1,6 +1,6 @@
 ---
-title: "Search for data"
-ms.author: markjjo
+title: "Create a search to collect data"
+ms.author: sepa
 author: markjjo
 manager: laurawi
 ms.date: 
@@ -17,7 +17,7 @@ ms.assetid:
 description: ""
 ---
 
-# Search for data
+# Create a search to collect data
 
 In **Search** tab, you can search for misplaced, confidential or sensitive data across O365 in the live system using keywords and various condition cards. 
 

@@ -1,6 +1,6 @@
 ---
 title: "Overview of Data Investigations in Microsoft 365"
-ms.author: markjjo
+ms.author: sepa
 author: markjjo
 manager: laurawi
 ms.date: 
@@ -19,20 +19,26 @@ description: "This article describes the new Data Investigations tool in Microso
 
 # Overview of Data Investigations in Microsoft 365
 
-A data spill is transfer of confidential or sensitive information to unauthorized people or systems. When a data spill occurs, it's critical to quickly contain the environment, assess the impact and remediate the spill. Using Data investigations, you can search for sensitive, malicious or misplaced data across Office 365, investigate to find out what happened and take appropriate remedial actions.  
+A data spill is when a document containing confidential, sensitive or malicious information is released into an untrusted environment. When a data spill is detected, it's important to quickly contain the environment, assess the size and locations of the spillage, examine user activities around it, and then delete the spilled data from the system. Using Data investigations, you can search for sensitive, malicious or misplaced data across Office 365, investigate to find out what happened and take appropriate remedial actions.  
 
-## Data investigations (Preview) 
+## Data investigations capabilities (Preview) 
 
-## Searching for data
+## Search for sensitive, malicious or misplaced data
 
-Use the **Searches** tab to create searches to discover Office 365 for data that you want to remediate. You can create and run query-based searches (using keywords and conditions such as date range and sensitive data types) to identify a set email messages and documents, collect them as evidence to review and analyze. Additionally, you can use the search tool to preview sample documents and view search statistics that may help refine and improve the search results. Once you're satisfied that the search results contain the all the data relevant to the investigation, you add the search results to the **evidence** for further review, assess impact and take remedial actions. For more information, see [Collect data for a case in Advanced eDiscovery (Preview)](collecting-data-for-ediscovery.md).
+Use the **Searches** tab to create searches to discover Office 365 for data that you want to remediate. You can create and run query-based searches (using keywords and conditions such as date range and sensitive data types) to identify a set email messages and documents, collect them as evidence to review and analyze. Additionally, you can use the search tool to preview sample documents and view search statistics that may help refine and improve the search results. Once you're satisfied that the search results contain the all the data relevant to the investigation, you add the search results to the **evidence** for further review, assess impact and take remedial actions. For more information, see [Create a search to collect data](create-search-to-collect-data.md).
 
-## Investigating evidence
+## Review and investigate evidence
 
-Use the **Evidence** tab to investigate the data that you've collected from the live system. **Evidence** is a snapshot of search results that you collected. When you add search results to evidence, a process is triggered that extracts files from containers, metadata, and text. When this process is complete, the system builds a new index of all the data and adds to **Evidence**. For time-sensitive incidents, this allows you to quickly contain the environment by deleting data at original locations, and investigate re-created evidence afterwards in a quarantined environment. Once evidence is collected, you can run additional queries to filter the data. When creating queries, using Author/Sender/Recipient condition cards, you can quickly examine who are involved in the spill and if there have been any external shares. You also run analytics on the evidence you collected. Afterwards, you can see general themes of the data and also organize data by email threads, exact duplicates and near duplicates to facilitate your investigation. You can review data in extracted text view or in the native file format, and tag them with investigation result. For more information, see:
+Use the **Evidence** tab to investigate the data that you've collected from the live system. **Evidence** is a snapshot of search results that you collected. When you add search results to evidence, a process is triggered to extract files, metadata, and text. When this process is complete, the system builds a new index of all the data and adds to **Evidence**. For any time-sensitive incidents, this allows you to quickly contain the environment by deleting data at original locations while investigating re-created evidence in a quarantined environment. Once evidence is collected, you can run additional queries to narrow the data by time range, file types, data owners, and many other condition cards. Using Author/Sender/Recipient condition cards, you can quickly examine who are involved in the spill and if there have been any external shares. 
 
-  - [Review case data in Advanced eDiscovery (Preview)](reviewing-data-in-working-set.md)
+You can also run advanced analytics on the evidence that you collected. After you run analysis, you can see general themes of the data and also organize data by email threads, exact duplicates and near duplicates to facilitate your investigation. You can review data in extracted text view or in the native file format, and tag them with investigation result. For more information, see:
+
+  - [Review data in evidence](review-data-evidence.md)
   - [Run analytics to investigate faster](run-analytics-to-investigate-faster.md)
+
+
+## Remediate in evidence
+New features and content coming
 
 ## Managing people of interest
 
