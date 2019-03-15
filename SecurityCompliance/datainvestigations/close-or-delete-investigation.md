@@ -19,7 +19,7 @@ description: ""
 
 # Close or delete a data investigation
 
-fter you delete documents in the source content locations (mailboxes or sites), you will still have copies of these documents that you added to evidence as part of your investigation. To avoid further data spillage, you should consider deleting the investigation.
+After you delete documents in the source content locations (mailboxes or sites), you will still have copies of these documents that you added to evidence as part of your investigation. To avoid further data spillage, you should consider deleting the investigation.
 
 To delete an investigation:
 

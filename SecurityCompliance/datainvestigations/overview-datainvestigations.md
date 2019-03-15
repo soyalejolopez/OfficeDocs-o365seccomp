@@ -1,6 +1,6 @@
 ---
 title: "Overview of Data Investigations in Microsoft 365"
-ms.author: sepa
+ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: 

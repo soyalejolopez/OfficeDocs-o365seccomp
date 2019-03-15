@@ -1,6 +1,6 @@
 ---
 title: "Create a search to collect data"
-ms.author: sepa
+ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: 

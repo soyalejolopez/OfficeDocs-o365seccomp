@@ -1,6 +1,6 @@
 ---
 title: "Create a new case in Data investigations (Preview)"
-ms.author: sepa
+ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: 
