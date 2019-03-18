@@ -31,9 +31,9 @@ Here are a few things you can do with Explorer (there are many more possibilitie
 
 - [See what kinds of malware were detected in email](#see-malware-detected-in-email-by-technology), and by threat protection technology (anti-malware protection, ATP Safe Attachments, etc.)
 
-- View data about phishing links (URLs), and what the click verdicts were (URLs blocked, allowed, or visited despite warnings)
+- [View data about phishing links (URLs)](#view-data-about-phishing-urls-and-click-verdict), and what the click verdicts were (URLs blocked, allowed, or visited despite warnings)
 
-- Review email messages that were reported by using the [Report Message add-in for Outlook and Outlook on the web](enable-the-report-message-add-in.md), and identify any trends (such as a larger than usual number of messages reported as Phish) 
+- [Review email messages that were reported as Junk, Not Junk, or Phishing](#review-email-messages-reported-by-users), and identify any trends (such as a larger than usual number of messages reported as Phish) 
 
 
 ## See malware detected in email by technology
@@ -64,7 +64,7 @@ Select a URL to view more detailed information.
 
 ## Review email messages reported by users
 
-Suppose you want to see email messages that users in your organization have reported as Junk, Not Junk, or Phishing. To do this, use the [Email > User-reported](threat-explorer-views.md#email--user-reported) view of Explorer.
+Suppose you want to see email messages that users in your organization have reported as Junk, Not Junk, or Phishing by using the [Report Message add-in for Outlook and Outlook on the web](enable-the-report-message-add-in.md). To do this, use the [Email > User-reported](threat-explorer-views.md#email--user-reported) view of Explorer.
 
 1. In the Office 365 Security & Compliance Center ([https://protection.office.com](https://protection.office.com)), choose **Threat management** > **Explorer**.
 2. In the **View** menu, choose **Email** > **User-reported**.<br/>![View menu for Explorer](media/ExplorerViewMenuEmailUserReported.png)<br/>
