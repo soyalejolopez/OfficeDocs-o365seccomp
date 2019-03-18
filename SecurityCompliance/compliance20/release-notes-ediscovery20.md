@@ -25,9 +25,9 @@ The Public Preview program for Advanced eDiscovery is the way to get early acces
 
 **Microsoft Forms**
 
-- A form created by a user can still receive responses even after the user who created the Form is deleted. However, the corresponding data for those responses (that occurred after the custodian mailbox was deleted) will not be searchable when using the Search tool in Advanced eDiscovery (Preview) to search custodian mailboxes.
+- The data corresponding to a form created before January 31, 2019 will not be searchable when using the Search tool in Advanced eDiscovery (Preview) to search custodian mailboxes. Forms created after this date will be available to search.
 
-- The data corresponding to a form created before January 31, 2019 will not be searchable when using the Search tool in Advanced eDiscovery (Preview) to search custodian mailboxes. Forms created after this dates will be available to search.
+- A form created by a user can still receive responses even after the user who created the Form is deleted. However, the corresponding data for those responses (that occurred after the custodian mailbox was deleted) will not be searchable when using the Search tool in Advanced eDiscovery (Preview) to search custodian mailboxes.
  
 **Microsoft Sway**
 
