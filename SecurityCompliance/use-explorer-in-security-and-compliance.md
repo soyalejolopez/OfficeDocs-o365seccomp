@@ -49,7 +49,7 @@ The report refreshes to show the results malware detected in email, using the te
 
 ## View data about phishing URLs and click verdict
 
-Suppose You can use Explorer to see detected phishing attempts through URLs in email against your organization, and which URLs were allowed, blocked, and overridden. This is done by using the [Email > Phish](threat-explorer-views.md#email--phish) view.
+Suppose you want to see phishing attempts through URLs in email, including a list of URLs that were allowed, blocked, and overridden. To do this, use the [Email > Phish](threat-explorer-views.md#email--phish) view of Explorer.
 
 1. In the Office 365 Security & Compliance Center ([https://protection.office.com](https://protection.office.com)), choose **Threat management** > **Explorer**.
 2. In the **View** menu, choose **Email** > **Phish**.<br/>![View menu for Explorer](media/ExplorerViewEmailPhishMenu.png)<br/>
