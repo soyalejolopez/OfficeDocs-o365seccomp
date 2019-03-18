@@ -38,7 +38,12 @@ Here are a few things you can do with Explorer (there are many more possibilitie
 
 ## See detected malware by technology
 
-You can use Explorer to see 
+You can use Explorer to see what malware was detected and by what technology in Office 365. This is done by using the [Email > Malware](threat-explorer-views.md#email--malware) view.
+
+1. In the Office 365 Security & Compliance Center ([https://protection.office.com](https://protection.office.com)), choose **Threat management** > **Explorer**.
+2. In the View menu, choose **Email** > **Malware**.<br/>![View menu for Explorer](media/ExplorerViewEmailMalwareMenu.png)<br/>
+3. Click **Sender**, and then choose **Basic** > **Detection technology**.<br/>Your detection technologies are now available as filters for the report.<br/>![Malware detection technologies](media/ExplorerEmailMalwareDetectionTech.png)<br/> 
+4. Select a technology, and then click the Refresh button to apply that filter.<br/>![Selected detection technology](media/ExplorerEmailMalwareDetectionTechATP.png)<br/> 
 
 
 
@@ -60,11 +65,11 @@ See the following articles to do even more with Explorer:
 
 - [Check out the Threat Explorer views](threat-explorer-views.md)
 
-## How do I get Explorer?
+## How to get Explorer
 
 Explorer is included in [Office 365 Advanced Threat Protection Plan 2](office-365-ti.md). 
 
-To view and use Explorer, you must have appropriate permissions, such as those granted to a security administrator or security reader, in order to view and use Explorer. 
+To view and use Explorer, you must have appropriate permissions, such as those granted to a security administrator or security reader. 
 
 - For the Security &amp; Compliance Center, you must have one of the following roles assigned:
     - Organization Management
@@ -85,4 +90,8 @@ To learn more, see the following resources:
   
 ## Related topics
 
+[Automated Investigation and Response (AIR)](automated-investigation-response-office.md)
+
 [Threat Explorer views](threat-explorer-views.md)
+
+[View reports for Office 365 Advanced Threat Protection](view-reports-for-atp.md)
