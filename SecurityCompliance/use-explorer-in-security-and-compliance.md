@@ -60,7 +60,7 @@ The report refreshes to show detected phishing URLs in email that were blocked, 
 
 ![Explorer URLs that were blocked](media/ExplorerPhishClickVerdictURLs.png) 
 
-Select a URL to view more information.
+Select a URL to view more detailed information.
 
 ## Review email messages reported by users
 
