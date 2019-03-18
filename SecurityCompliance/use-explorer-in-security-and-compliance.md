@@ -29,7 +29,7 @@ To use Threat Explorer, in the Security &amp; Compliance Center, go to **Threat 
 
 Here are a few things you can do with Explorer (there are many more possibilities):
 
-- See what kinds of malware were detected, and by which threat protection technologies (anti-malware protection, ATP Safe Attachments, etc.)
+- [See what kinds of malware were detected](#see-detected-malware-by-technology), and by which threat protection technologies (anti-malware protection, ATP Safe Attachments, etc.)
 
 - View data about phishing links (URLs), and what actions were taken (URLs blocked, allowed, or visited despite warnings)
 
@@ -47,9 +47,9 @@ You can use Explorer to see what malware was detected and by what technology in 
 
 The report refreshes to show the results of your applied filter. Use this view to conduct further analysis.
 
-## View data about phishing URLs and actions taken
+## View data about phishing URLs and click verdict
 
-You can use Explorer to see detected phishing attempts against your organization, and . This is done by using the [Email > Phish](threat-explorer-views.md#email--phish) view.
+You can use Explorer to see detected phishing attempts against your organization, and which URLs were allowed or blocked. This is done by using the [Email > Phish](threat-explorer-views.md#email--phish) view.
 
 1. In the Office 365 Security & Compliance Center ([https://protection.office.com](https://protection.office.com)), choose **Threat management** > **Explorer**.
 2. In the View menu, choose **Email** > **Phish**.<br/>![View menu for Explorer](media/ExplorerViewEmailPhishMenu.png)<br/>
