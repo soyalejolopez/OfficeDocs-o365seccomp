@@ -3,7 +3,7 @@ title: "Use Threat Explorer in the Security &amp; Compliance Center"
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 03/12/2019
+ms.date: 03/18/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -73,15 +73,15 @@ Suppose you want to see email messages that users in your organization have repo
 
 The report refreshes to show data about email messages that people in your organization have reported as a phishing attempt. You can use this information to conduct further analysis, and if necessary, adjust your ATP anti-phishing policies.
 
-## There's more...
+## There's more!
 
-See the following articles to do even more with Explorer:
+You have many reporting options available with Explorer. Here are a few more examples:
 
 - [Find and investigate malicious email that was delivered](investigate-malicious-email-that-was-delivered.md)
 
 - [View malicious files detected in SharePoint Online, OneDrive, and Microsoft Teams](malicious-files-detected-in-spo-odb-or-teams.md)
 
-- [Check out the Threat Explorer views](threat-explorer-views.md)
+- [Get an overview of the views in Threat Explorer](threat-explorer-views.md)
 
 ## How to get Explorer
 
