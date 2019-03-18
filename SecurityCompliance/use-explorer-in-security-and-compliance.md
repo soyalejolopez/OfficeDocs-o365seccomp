@@ -50,9 +50,6 @@ CONTENT
 CONTENT
 
 
-
-  
-  
 ## How do I get Explorer?
 
 Explorer is included in [Office 365 Advanced Threat Protection Plan 2](office-365-ti.md). 
@@ -76,4 +73,6 @@ To learn more, see the following resources:
 
 - [Feature permissions in Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/feature-permissions)
   
+## Related topics
 
+[Threat Explorer views](threat-explorer-views.md)
