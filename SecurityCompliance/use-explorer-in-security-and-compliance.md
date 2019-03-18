@@ -49,7 +49,10 @@ The report refreshes to show the results of your applied filter. Use this view t
 
 ## View data about phishing URLs and actions taken
 
-CONTENT
+Yuo can use Explorer to see detected phishing attempts against your organization. This is done by using the [Email > Phish](threat-explorer-views.md#email--phish) view.
+
+1. In the Office 365 Security & Compliance Center ([https://protection.office.com](https://protection.office.com)), choose **Threat management** > **Explorer**.
+2. In the View menu, choose **Email** > **Phish**.<br/>![View menu for Explorer](media/ExplorerViewEmailPhishMenu.png)<br/>
 
 ## Review email messages reported by users
 
