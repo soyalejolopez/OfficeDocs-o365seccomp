@@ -54,10 +54,9 @@ Suppose you want to see phishing attempts through URLs in email, including a lis
 1. In the Office 365 Security & Compliance Center ([https://protection.office.com](https://protection.office.com)), choose **Threat management** > **Explorer**.
 2. In the **View** menu, choose **Email** > **Phish**.<br/>![View menu for Explorer](media/ExplorerViewEmailPhishMenu.png)<br/>
 3. Click **Sender**, and then choose **URLs** > **Click vedict**.
-4. Select an option, and then click the Refresh button to apply that filter.<br/>![URLs and click verdicts](media/ThreatExplorerEmailPhishClickVerdictOptions.png)<br/>
+4. Select an option, such as **Blocked**, and then click the **Refresh** button to apply that filter.<br/>![URLs and click verdicts](media/ThreatExplorerEmailPhishClickVerdictOptions.png)<br/>
 
-The report refreshes to show 
-
+The report refreshes to show detected phishing URLs in email that were blocked, along with email delivery status. From here, you can conduct further analysis. 
 
 ## Review email messages reported by users
 
