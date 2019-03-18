@@ -38,22 +38,26 @@ Here are a few things you can do with Explorer (there are many more possibilitie
 
 ## See malware detected in email by technology
 
-You can use Explorer to see what malware was detected and by what technology in Office 365. This is done by using the [Email > Malware](threat-explorer-views.md#email--malware) view.
+Suppose you want to see malware that was detected in email, and by what technology in Office 365. To do this, use the [Email > Malware](threat-explorer-views.md#email--malware) view of Explorer.
 
 1. In the Office 365 Security & Compliance Center ([https://protection.office.com](https://protection.office.com)), choose **Threat management** > **Explorer**.
 2. In the **View** menu, choose **Email** > **Malware**.<br/>![View menu for Explorer](media/ExplorerViewEmailMalwareMenu.png)<br/>
 3. Click **Sender**, and then choose **Basic** > **Detection technology**.<br/>Your detection technologies are now available as filters for the report.<br/>![Malware detection technologies](media/ExplorerEmailMalwareDetectionTech.png)<br/> 
-4. Select a technology, and then click the Refresh button to apply that filter.<br/>![Selected detection technology](media/ExplorerEmailMalwareDetectionTechATP.png)<br/> 
+4. Select an option, and then click the Refresh button to apply that filter.<br/>![Selected detection technology](media/ExplorerEmailMalwareDetectionTechATP.png)<br/> 
 
-The report refreshes to show the results of your applied filter. Use this view to conduct further analysis.
+The report refreshes to show the results malware detected in email, using the technology option you selected. From here, you can conduct further analysis.
 
 ## View data about phishing URLs and click verdict
 
-You can use Explorer to see detected phishing attempts through URLs in email against your organization, and which URLs were allowed, blocked, and overridden. This is done by using the [Email > Phish](threat-explorer-views.md#email--phish) view.
+Suppose You can use Explorer to see detected phishing attempts through URLs in email against your organization, and which URLs were allowed, blocked, and overridden. This is done by using the [Email > Phish](threat-explorer-views.md#email--phish) view.
 
 1. In the Office 365 Security & Compliance Center ([https://protection.office.com](https://protection.office.com)), choose **Threat management** > **Explorer**.
 2. In the **View** menu, choose **Email** > **Phish**.<br/>![View menu for Explorer](media/ExplorerViewEmailPhishMenu.png)<br/>
 3. Click **Sender**, and then choose **URLs** > **Click vedict**.
+4. Select an option, and then click the Refresh button to apply that filter.<br/>![URLs and click verdicts](media/ThreatExplorerEmailPhishClickVerdictOptions.png)<br/>
+
+The report refreshes to show 
+
 
 ## Review email messages reported by users
 
