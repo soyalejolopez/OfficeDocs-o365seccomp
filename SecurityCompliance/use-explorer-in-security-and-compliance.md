@@ -45,7 +45,7 @@ You can use Explorer to see what malware was detected and by what technology in 
 3. Click **Sender**, and then choose **Basic** > **Detection technology**.<br/>Your detection technologies are now available as filters for the report.<br/>![Malware detection technologies](media/ExplorerEmailMalwareDetectionTech.png)<br/> 
 4. Select a technology, and then click the Refresh button to apply that filter.<br/>![Selected detection technology](media/ExplorerEmailMalwareDetectionTechATP.png)<br/> 
 
-
+The report refreshes to show the results of your applied filter. Use this view to conduct further analysis.
 
 ## View data about phishing URLs and actions taken
 
