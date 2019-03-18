@@ -167,9 +167,9 @@ Foreach ($domain in $Domains) {
 
 ```
 
-Now, you can review and collect the information from the Office 365 admin center of your target organization so that you can quickly verify your domains when the time comes:
+Now, you can review and collect the information from the Microsoft 365 admin center of your target organization so that you can quickly verify your domains when the time comes:
   
-1. Sign in to the Office 365 admin center at [https://portal.office.com](https://portal.office.com).
+1. Sign in to the Microsoft 365 admin center at [https://portal.office.com](https://portal.office.com).
     
 2. Click **Domains**.
     
@@ -238,7 +238,7 @@ Remove-MsolDomain -DomainName $Domain.Name -Force
 
 ## Step 5: Verify domains for the target organization
 
-1. Sign in to the Office 365 admin center at [https://portal.office.com](https://portal.office.com).
+1. Sign in to the admin center at [https://portal.office.com](https://portal.office.com).
     
 2. Click **Domains**.
     
@@ -921,6 +921,6 @@ if($HostedContentFilterPolicyCount -gt 0){
 
 ## Step 8: Revert your DNS settings to stop mail queuing
 
-If you chose to set your MX records to an invalid address to cause the senders to queue mail during your transition, you'll need to set them back to the correct value as specified in the [Office 365 admin center](https://portal.office.com). For more information about configuring DNS, see [Create DNS records for Office 365](https://go.microsoft.com/fwlink/p/?LinkId=304219).
+If you chose to set your MX records to an invalid address to cause the senders to queue mail during your transition, you'll need to set them back to the correct value as specified in the [admin center](https://admin.microsoft.com). For more information about configuring DNS, see [Create DNS records for Office 365](https://go.microsoft.com/fwlink/p/?LinkId=304219).
   
 
