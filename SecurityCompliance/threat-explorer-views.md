@@ -1,78 +1,22 @@
 ---
-title: "Use Threat Explorer in the Security &amp; Compliance Center"
+title: "Threat Explorer views"
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 03/12/2019
+ms.date: 03/18/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
-- MET150
-- MOE150
-ms.assetid: 82ac9922-939c-41be-9c8a-7c75b0a4e27d
 ms.collection: 
 - M365-security-compliance
-description: "Learn about Explorer (also called Threat Explorer) in the Security &amp; Compliance Center."
+description: "Learn about the various kinds of views available in Explorer (also called Threat Explorer) as part of Office 365 Advanced Threat Protection Plan 2."
 ---
 
-# Use Threat Explorer in the Security &amp; Compliance Center
+# Threat Explorer views
 
-## Explorer overview
-
-If your organization has [Office 365 Advanced Threat Protection Plan 2](office-365-ti.md), and you have the necessary permissions, you can use Threat Explorer (also referred to as Explorer) to identify and analyze threats. 
-
-![Go to Threat management \> Explorer](media/cab32fa2-66f1-4ad5-bc1d-2bac4dbeb48c.png)
-  
-To use Threat Explorer, in the Security &amp; Compliance Center, go to **Threat management** \> **Explorer**.
-
-Here are a few things you can do with Explorer (there are many more possibilities):
-
-- See what kinds of malware were detected, and by which threat protection technologies (anti-malware protection, ATP Safe Attachments, etc.)
-
-- View data about phishing links (URLs), and what actions were taken (URLs blocked, allowed, or visited despite warnings)
-
-- Review email messages that were reported by using the [Report Message add-in for Outlook and Outlook on the web](enable-the-report-message-add-in.md), and identify any trends (such as a larger than usual number of messages reported as Phish) 
-
-- View information about malicious files detected in your organization's SharePoint, OneDrive, and Teams libraries
-
-### Click-to-filter capabilities
-
-With Explorer, you can apply a filter in a click. Click an item in the legend, and that item becomes a filter for the report. For example, suppose we are looking at the Malware view in Explorer:
-  
-![Go to Threat management \> Explorer](media/cab32fa2-66f1-4ad5-bc1d-2bac4dbeb48c.png)
-  
-Clicking **ATP Detonation** in this chart results in a view like this: 
-  
-![Explorer filtered to display only ATP Detonation results](media/7241d7dd-27bc-467d-9db8-6e806c49df14.png)
-  
-In this view, we are now looking at data for files that were detonated by [Office 365 ATP Safe Attachments](atp-safe-attachments.md). Below the chart, we can see details about specific email messages that had attachments that were detected by ATP Safe Attachments.
-  
-![Specific details about email messages with detected attachments](media/c91fb05c-d1d4-4085-acc6-f7008a415c2a.png)
-  
-Selecting one or more items activates the **Actions** menu, which offers several choices from which to choose for the selected item(s). 
-  
-![Selecting an item activates the Actions menu](media/95f127a4-1b2a-4a76-88b9-096e3ba27d1b.png)
-  
-The ability to filter in a click and navigate to specific details can save you a lot of time in investigating threats.
-
-### Queries and filters
-
-Explorer has several powerful filters and querying capabilities that enable you to drill into details, such as top targeted users, top malware families, detection technology and more. Each kind of report offers a variety of ways to view and explore data.
-
-> [!IMPORTANT]
-> Do not use wildcard characters, such as an asterisk (*) or a question mark (?), in the query bar for Explorer. When you search on the Subject field for email messages, Explorer will perform partial matching and yield results similar to a wildcard search.
-
-## See detected malware by technology
-
-CONTENT
-
-## See phishing URLs
-
-## Views in Explorer
-
-Threat Explorer is a powerful, near real-time tool to help Security Operations teams investigate and respond to threats in the Security &amp; Compliance Center. Explorer displays information about suspected malware and phish in email and files in Office 365, as well as other security threats and risks to your organization. 
+[Threat Explorer](use-explorer-in-security-and-compliance.md) is a powerful, near real-time tool to help Security Operations teams investigate and respond to threats in the Security &amp; Compliance Center. Explorer displays information about suspected malware and phish in email and files in Office 365, as well as other security threats and risks to your organization. 
 
 When you first open Explorer, the default view shows email malware detections for the past 7 days. 
 
@@ -89,7 +33,7 @@ Use the **View** menu to change what information is displayed. Tooltips help you
 
 Once you have selected a view, you can apply filters and set up queries to conduct further analysis. The following sections provide a brief overview of the various views available in Explorer.  
 
-### Email > Malware
+## Email > Malware
 
 To view this report, in Explorer, choose **View** > **Email** > **Malware**. This view shows information about email messages that were identified as containing malware.  
 
@@ -105,7 +49,7 @@ Below the chart, view more details about specific messages. When you select an i
 
 ![Threat Explorer with flyout opened](media/ThreatExplorerMalwareItemSelectedFlyout.png)
 
-### Email > Phish
+## Email > Phish
 
 To view this report, in Explorer, choose **View** > **Email** > **Phish**. This view shows email messages identified as phishing attempts.  
 
@@ -125,7 +69,7 @@ When you select an item in the list, such as a URL that was detected, a fly-out 
 
 ![Details about a detected URL](media/ThreatExplorerEmailPhishURLDetails.png)
 
-### Email > User-reported
+## Email > User-reported
 
 To view this report, in Explorer, choose **View** > **Email** > **User-reported**. This view shows email that users have reported as junk, not junk, or phishing email. 
 
@@ -143,7 +87,7 @@ Below the chart, view more details about specific email messages, such as subjec
 
 Select an item in the list to view additional details.
 
-### Email > All email
+## Email > All email
 
 To view this report, in Explorer, choose **View** > **Email** > **All mail**. This views shows an all-up view of email activity, including email identified as malicious due to phishing or malware, as well all non-malicious mail (normal email, spam, and bulk mail). 
 
@@ -156,7 +100,7 @@ To apply a filter, choose **Sender**, select an item in the list, and then click
 
 Below the chart, view more details about specific email messages, such as subject line, recipient, sender, status, and so on. 
 
-### Content > Malware
+## Content > Malware
 
 To view this report, in Explorer, choose **View** > **Content** > **Malware**. This view shows files that were identified as malicious by [Office 365 Advanced Threat Protection in SharePoint Online, OneDrive for Business, and Microsoft Teams](atp-for-spo-odb-and-teams.md).
 
@@ -166,28 +110,29 @@ View information by malware family, detection technology (how the malware was de
 
 Below the chart, view more details about specific files, such as attachment filename, workload, file size, who last modified the file, and more. 
   
+## Click-to-filter capabilities
+
+With Explorer, you can apply a filter in a click. Click an item in the legend, and that item becomes a filter for the report. For example, suppose we are looking at the Malware view in Explorer:
   
-## How do I get Explorer?
-
-Explorer is included in [Office 365 Advanced Threat Protection Plan 2](office-365-ti.md). 
-
-To view and use Explorer, you must have appropriate permissions, such as those granted to a security administrator or security reader, in order to view and use Explorer. 
-
-- For the Security &amp; Compliance Center, you must have one of the following roles assigned:
-    - Organization Management
-    - Security Administrator (this can be assigned in the Azure Active Directory admin center ([https://aad.portal.azure.com](https://aad.portal.azure.com)))
-    - Security Reader
-
-- For Exchange Online, you must have one of the following roles assigned in either the Exchange admin center ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) or with PowerShell cmdlets (See [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)):
-    - Organization Management
-    - View-only Organization Management
-    - View-Only Recipients role
-    - Compliance Management
-
-To learn more, see the following resources:
-
-- [Permissions in the Office 365 Security &amp; Compliance Center](permissions-in-the-security-and-compliance-center.md)
-
-- [Feature permissions in Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/feature-permissions)
+![Go to Threat management \> Explorer](media/cab32fa2-66f1-4ad5-bc1d-2bac4dbeb48c.png)
   
+Clicking **ATP Detonation** in this chart results in a view like this: 
+  
+![Explorer filtered to display only ATP Detonation results](media/7241d7dd-27bc-467d-9db8-6e806c49df14.png)
+  
+In this view, we are now looking at data for files that were detonated by [Office 365 ATP Safe Attachments](atp-safe-attachments.md). Below the chart, we can see details about specific email messages that had attachments that were detected by ATP Safe Attachments.
+  
+![Specific details about email messages with detected attachments](media/c91fb05c-d1d4-4085-acc6-f7008a415c2a.png)
+  
+Selecting one or more items activates the **Actions** menu, which offers several choices from which to choose for the selected item(s). 
+  
+![Selecting an item activates the Actions menu](media/95f127a4-1b2a-4a76-88b9-096e3ba27d1b.png)
+  
+The ability to filter in a click and navigate to specific details can save you a lot of time in investigating threats.
 
+## Queries and filters
+
+Explorer has several powerful filters and querying capabilities that enable you to drill into details, such as top targeted users, top malware families, detection technology and more. Each kind of report offers a variety of ways to view and explore data.
+
+> [!IMPORTANT]
+> Do not use wildcard characters, such as an asterisk (*) or a question mark (?), in the query bar for Explorer. When you search on the Subject field for email messages, Explorer will perform partial matching and yield results similar to a wildcard search.

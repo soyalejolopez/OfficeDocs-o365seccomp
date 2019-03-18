@@ -3,7 +3,7 @@ title: "Office 365 threat investigation and response"
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 03/13/2019
+ms.date: 03/18/2019
 ms.audience: Admin
 ms.topic: overview
 ms.service: O365-seccomp
@@ -19,7 +19,7 @@ description: "Find out how threat intelligence capabilities in Office 365 Advanc
 
 # Office 365 threat investigation and response
 
-Threat investigation and response capabilities in Office 365 Advanced Threat Protection help security analysts and administrators protect their organization's Office 365 users by:
+Threat investigation and response capabilities in Office 365 Advanced Threat Protection Plan 2 help security analysts and administrators protect their organization's Office 365 users by:
   
 1. Making it easy to identify, monitor and understand attacks
     
@@ -65,6 +65,8 @@ Use the following resources to learn more about threat investigation and respons
 - [Integrate Threat Investigation and Response with Windows Defender Advanced Threat Protection](integrate-office-365-ti-with-wdatp.md)
     
 ## Related topics
+
+[Threat Explorer views](threat-explorer-views.md)
 
 [Protect against threats in Office 365](protect-against-threats.md)
   
