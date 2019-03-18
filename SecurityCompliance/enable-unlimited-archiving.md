@@ -107,7 +107,7 @@ Keep the following things in mind after you enable auto-expanding archiving:
     
 - After you turn on auto-expanding archiving, it can't be turned off.
     
-- Auto-expanding archiving is supported for cloud-based archive mailboxes in an Exchange hybrid deployment for users who have an on-premises primary mailbox. However, after auto-expanding archiving is enabled for a cloud-based archive mailbox, you can't off-board that archive mailbox back to the on-premises Exchange organization.
+- Auto-expanding archiving is supported for cloud-based archive mailboxes in an Exchange hybrid deployment for users who have an on-premises primary mailbox. However, after auto-expanding archiving is enabled for a cloud-based archive mailbox, you can't off-board that archive mailbox back to the on-premises Exchange organization. Note that auto-expanding archiving isn't supported for on-premises mailboxes in Exchange Server 2010.
     
 - For a list of Outlook clients that users can use to access items in the additional storage area in their archive mailbox, see the "Outlook requirements for accessing items in an auto-expanded archive" section in [Overview of unlimited archiving in Office 365](unlimited-archiving.md#outlook-requirements-for-accessing-items-in-an-auto-expanded-archive).
     
@@ -115,7 +115,5 @@ Keep the following things in mind after you enable auto-expanding archiving:
 
 - Administrators can't adjust the storage quota.
 
-- Auto-expanding archiving is not supported when the user(s) mailboxes are residing on Exchange Server 2010.
-
 > [!IMPORTANT]
-> Auto-expanding archive is only supported for mailboxes used for individual users or shared mailboxes with a growth rate that does not exceed 1 GB per day. Using journaling, transport rules, or auto-forwarding rules to copy messages to Exchange Online Archiving for the purposes of archiving is not permitted. A user's archive mailbox is intended for just that user. Microsoft reserves the right to deny unlimited archiving in instances where a user's archive mailbox is used to store archive data for other users.
+> Auto-expanding archiving is only supported for mailboxes used for individual users or shared mailboxes with a growth rate that doesn't exceed 1 GB per day. Using journaling, transport rules, or auto-forwarding rules to copy messages to an archive mailbox for the purposes of archiving is not permitted. A user's archive mailbox is intended for just that user. Microsoft reserves the right to deny unlimited archiving in instances where a user's archive mailbox is used to store archive data for other users.
