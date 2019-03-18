@@ -33,7 +33,6 @@ This article describes a few things you can do with Explorer (there are many mor
 
 - [Review email messages that were reported as Junk, Not Junk, or Phishing](#review-email-messages-reported-by-users), and identify any trends (such as a larger than usual number of messages reported as Phish) 
 
-
 ## See malware detected in email by technology
 
 Suppose you want to see malware that was detected in email, and by what technology in Office 365. To do this, use the [Email > Malware](threat-explorer-views.md#email--malware) view of Explorer.
@@ -73,7 +72,7 @@ The report refreshes to show data about email messages that people in your organ
 
 ## There's more!
 
-You have many reporting options available with Explorer. Here are a few more examples:
+In addition to the three scenarios outlined in this article, you have many reporting scenarios available with Explorer. Here are a few more examples:
 
 - [Find and investigate malicious email that was delivered](investigate-malicious-email-that-was-delivered.md)
 
