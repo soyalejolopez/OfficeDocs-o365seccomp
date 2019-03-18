@@ -57,8 +57,8 @@ The following table shows the mailbox types that are currently supported by mail
 |:---------|:---------:|:---------:|
 |User mailboxes    |![Check mark](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)       |         |
 |Shared mailboxes    |![Check mark](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)        |       |
-|Resource mailboxes    |![Check mark](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)         |         |
-|Office 365 Group mailboxes    |      |![Check mark](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)        |
+|Office 365 Group mailboxes    |![Check mark](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)         |         |
+|Resource mailboxes    |      |![Check mark](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)        |
 |Public folder mailboxes    |       |![Check mark](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)  |
 ||||
 
@@ -295,8 +295,9 @@ The following table summarizes the actions that are audited for each user logon 
     - Mailbox audit records count against the storage quota of the Recoverable Items folder, which is 30GB by default (the Warning quota is 20 GB). Note that the storage quota for the Recoverable Items folder is automatically increased from to 100 GB (90 MB Warning quota) when a hold is placed on a mailbox or the mailbox is assigned to a retention policy in the Compliance Center.
 
     - Mailbox audit records also counts against the [folder limit for the Recoverable Items folder](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#mailbox-folder-limits). The maximum number of items (which are audit records in this case) that can be stored in the Audits subfolder is 3 million items. 
-  
-    - Mailbox auditing on by default should not impact the previous two limits (storage quota and folder limit for the Recoverable Items folder). For example, Microsoft estimates that the total size of all audit records generated each day will be about 500 KB per mailbox. This means tthehat total size of all mailbox records that are generated over a 90-day period (which is the default audit log age limit) will be about 350 MB (.35 GB). If you increased the audit log age limit to 365 days, the total size would increase to about 1.4 GB.
+
+      > [!NOTE]
+      > It's unlikely that mailbox auditing on by default will impact the storage quota and the folder limit for the Recoverable Items folder. 
 
     - You can run the following command in Exchange Online PowerShell to display the size and number of items in the Audits subfolder in the Recoverable Items folder: 
        ```
