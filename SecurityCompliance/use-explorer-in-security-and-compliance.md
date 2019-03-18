@@ -50,15 +50,15 @@ CONTENT
 
 CONTENT
 
-## Do more with Explorer
+## There's more...
 
 See the following articles to do even more with Explorer:
 
-- [Find and investigate malicious email that was delivered (Office 365 Threat investigation and response)](investigate-malicious-email-that-was-delivered.md)
+- [Find and investigate malicious email that was delivered](investigate-malicious-email-that-was-delivered.md)
 
-- [View information about malicious files](malicious-files-detected-in-spo-odb-or-teams.md) detected in your organization's SharePoint, OneDrive, and Teams libraries
+- [View malicious files detected in SharePoint Online, OneDrive, and Microsoft Teams](malicious-files-detected-in-spo-odb-or-teams.md)
 
-- [Check out the Threat Explorer views], including (threat-explorer-views.md)
+- [Check out the Threat Explorer views](threat-explorer-views.md)
 
 ## How do I get Explorer?
 
