@@ -297,7 +297,7 @@ The following table summarizes the actions that are audited for each user logon 
     - Mailbox audit records also counts against the [folder limit for the Recoverable Items folder](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#mailbox-folder-limits). The maximum number of items (which are audit records in this case) that can be stored in the Audits subfolder is 3 million items. 
 
       > [!NOTE]
-      > It's unlikely that mailbox auditing on by default will impact the storage quota and the folder limit for the Recoverable Items folder. 
+      > It's unlikely that mailbox auditing on by default will impact the storage quota or the folder limit for the Recoverable Items folder. 
 
     - You can run the following command in Exchange Online PowerShell to display the size and number of items in the Audits subfolder in the Recoverable Items folder: 
        ```
