@@ -1,5 +1,5 @@
 ---
-title: "Create a search to collect data"
+title: "Search for data in an investigation"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -17,9 +17,9 @@ ms.assetid:
 description: ""
 ---
 
-# Create a search to collect data
+# Search for data in an investigation
 
-In **Search** tab, you can search for misplaced, confidential or sensitive data across O365 in the live system using keywords and various condition cards. 
+In **Search** tab, you can search for misplaced, confidential or sensitive data across Office 365 in the live system using keywords and various condition cards. 
 
 After you run a search, you will be able to view statistics on the retrieved items such as the locations that had the most items that matched the search query. You can also preview a subset of the results. When you've identified the set of documents that want to further investigate, you can collect the search results as **Evidence** to further process and analyze. 
 
