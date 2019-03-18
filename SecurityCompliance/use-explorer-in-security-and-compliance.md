@@ -31,7 +31,7 @@ Here are a few things you can do with Explorer (there are many more possibilitie
 
 - [See what kinds of malware were detected](#see-detected-malware-by-technology), and by which threat protection technologies (anti-malware protection, ATP Safe Attachments, etc.)
 
-- View data about phishing links (URLs), and what actions were taken (URLs blocked, allowed, or visited despite warnings)
+- View data about phishing links (URLs), and what the click verdicts were (URLs blocked, allowed, or visited despite warnings)
 
 - Review email messages that were reported by using the [Report Message add-in for Outlook and Outlook on the web](enable-the-report-message-add-in.md), and identify any trends (such as a larger than usual number of messages reported as Phish) 
 
