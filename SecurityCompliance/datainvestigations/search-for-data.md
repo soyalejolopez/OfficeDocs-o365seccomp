@@ -29,7 +29,7 @@ After you run a search, you will be able to view statistics on the retrieved ite
 
 2. Each search with a case should have a unique name. You can optionally provide a description for your search.
 
-3. Define your search criteria. You can define the conditions for your search using the pre-built condition cards or using Keyword Query Language (KQL). For more information, see [Build search queries](building-search-queries.md).
+3. Define your search criteria. You can define the conditions for your search using the pre-built condition cards or using Keyword Query Language (KQL). For more information, see [Build search queries](build-search-queries.md).
 
 4. Once you have defined your conditions, you need to choose which locations you want to search. One way to do it is scoping it by selecting people of interest if you added any. If you know whom you want to scope down your search but haven't added them to people of interest, you can do so following instructions in [Add people of interest to investigation](add-people-of-interest-to-investigation.md).
 

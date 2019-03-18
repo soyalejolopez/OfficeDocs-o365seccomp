@@ -105,8 +105,7 @@ To do this, click the search that you want to investigate. On the flyout page, c
 
 ## Step 3: Review and investigate 
 
-In the investigation, go to **Evidence** tab and click on the evidence collection that you created in the previous step. After the processing job is completed and the search results are added to the evidence, you can review individual documents in their native format, text format, or a near-native format. You can create additional queries to further narrow the list of documents, and tag documents to indicate findings from your investigation. For more information, see:
-  - [Review data in evidence](review-data-evidence.md)
+In the investigation, go to **Evidence** tab and click on the evidence collection that you created in the previous step. After the processing job is completed and the search results are added to the evidence, you can review individual documents in their native format, text format, or a near-native format. You can create additional queries to further narrow the list of documents, and tag documents to indicate findings from your investigation. For more information, see [Review data in evidence](review-data-in-evidence.md)
 
 To group documents and get more assistance for your review, click **Manage evidence**. In the **Analytics** tile, click **Analyze**. This will run advanced analytics such as duplicate detection, email threading, and theme analysis. For more information, see:
 
