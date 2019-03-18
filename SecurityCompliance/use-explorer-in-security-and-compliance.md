@@ -71,7 +71,7 @@ Suppose you want to see email messages that users in your organization have repo
 3. Click **Sender**, and then choose **Basic** > **Report type**.
 4. Select an option, such as **Phish**, and then click the **Refresh** button. <br/>![User-reported phish](media/EmailUserReportedReportType.png)<br/> 
 
-The report refreshes to show data about email messages that people in your organization have reported as a phishing attempt. You can use this information to conduct further analysis, and if necessary, adjust your ATP anti-phishing policies.
+The report refreshes to show data about email messages that people in your organization have reported as a phishing attempt. You can use this information to conduct further analysis, and if necessary, adjust your [ATP anti-phishing policies](set-up-anti-phishing-policies.md).
 
 ## There's more!
 
