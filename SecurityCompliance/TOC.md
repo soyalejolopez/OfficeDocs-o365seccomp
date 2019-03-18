@@ -368,55 +368,47 @@
 #### [Run reports](run-reports-in-advanced-ediscovery.md)
 
 # [Manage data investigations](datainvestigations/overview-datainvestigations.md)
-## [Release notes](compliance20/data-investigations-release-notes.md)
+## [Release notes](datainvestigations/data-investigations-release-notes.md)
+## [Manage a data spillage incident](datainvestigations/manage-data-spillage-incidents.md)
 ## [Create a new investigation](datainvestigations/create-new-investigation.md)
 
-## [Work with people of interest](datainvestigations/overview-people-of-interest.md)
-### [Add people of interest to an investigation](datainvestigations/add-people-of-interest-to-investigation.md)
-### [Manage people of interest](datainvestigations/manage-people-of-interest.md)
-### [View the audit activity of people of interest](datainvestigations/view-people-of-interest-activity.md)
-
-## [Manage holds in an investigation](datainvestigations/manage-holds.md)
+## [Manage people of interest in an investigation](datainvestigations/manage-people-of-interest.md)
+### [View the audit activity of people in an investigation](datainvestigations/view-people-of-interest-activity.md)
+### [Index the data of people in an investigation](datainvestigations/index-data-people-of-interest.md)
  
-## [Process data for an investigation](datainvestigations/process-data-for-investigation.md)
-### [Advanced indexing of data](datainvestigations/index-data-people-of-interest.md)
-### [Error remediation when processing data](datainvestigations/error-remediation.md)
-
-## [Collect data for an investigation](datainvestigations/collect-data-for-investigation.md)
-### [Create a search to collect data](datainvestigations/create-search-to-collect-data.md)
+## [Search for data in an investigation](datainvestigations/search-for-data.md)
 ### [Build search queries](datainvestigations/build-search-queries.md)
 ### [Search statistics](datainvestigations/search-statistics.md)
-### [Add search results to an incident](datainvestigations/add-data-to-incident.md)
 
-## [Review incident data](datainvestigations/review-data-in-incident.md)
-### [Manage incidents](datainvestigations/manage-incidents.md)
-### [Manage load sets](datainvestigations/manage-load-sets.md)
-### [Load non-Office 365 data into a working set](datainvestigations/load-non-office365-data.md)
-### [Query the data in an incident](datainvestigations/incident-search.md)
-### [View documents in an incident](datainvestigations/view-documents-in-incident.md)
-### [Tag documents in an incident](datainvestigations/tag-documents.md)
-
-## [Analyze case data](datainvestigations/analyze-data-in-incident.md)
-### [Near duplicate detection](datainvestigations/near-duplicates.md)
+## [Run analytics to investigate faster](datainvestigations/run-analytics-to-investigate-faster.md)
 ### [Email threading](datainvestigations/email-threading.md)
+### [Near duplicate detection](datainvestigations/near-duplicates.md)
 ### [Themes](datainvestigations/themes.md)
+
+## [Review the data in evidence](datainvestigations/review-data-in-evidence.md)
+### [Query the data](datainvestigations/evidence-query.md)
+### [Tag documents](datainvestigations/tag-documents.md)
+### [Annotate and redact documents](datainvestigations/annotate-and-redact-documents.md)
+### [Load non-Office 365 data](datainvestigations/load-non-office365-data.md)
 ### [Use the Relevance module to analyze data](datainvestigations/use-relevance-module.md)
+### [Error remediation when processing data](datainvestigations/error-remediation.md)
 
 ## [Export data from an investigation](datainvestigations/export-data.md)
-### [Export documents from an incident](datainvestigations/export-documents-from-incident.md)
+### [Export documents from evidence](datainvestigations/export-documents-from-incident.md)
 ### [Download export jobs](datainvestigations/download-export-jobs.md)
 
-## [Manage jobs](datainvestigations/manage-jobs.md)
-
 ## [Configure settings for data investigations](datainvestigations/configure-settings-datainvestigations.md)
-### [Close or delete an investigation](datainvestigations/close-or-delete-investigation.md)
 ### [Add or remove members from an investigation](datainvestigations/add-remove-members.md)
 ### [Configure search and analytics settings](datainvestigations/configure-search-analytics-settings.md)
+### [Close or delete an investigation](datainvestigations/close-or-delete-investigation.md)
 
 ## Data Investigations reference
 ### [Limits in Data Investigations](datainvestigations/limits-datainvestigations.md)
 ### [Supported file types](datainvestigations/supported-filetypes-datainvestigations.md)
+### [Manage evidence (datainvestigations/manage-incidients.md)]
 ### [Document metadata fields](datainvestigations/document-metadata-fields.md)
+### [Manage jobs](datainvestigations/manage-jobs.md)
+### [Manage load sets](datainvestigations/manage-load-sets.md)
 
 # [Search the audit log](search-the-audit-log-in-security-and-compliance.md)
 ## [Turn audit log search on or off](turn-audit-log-search-on-or-off.md)

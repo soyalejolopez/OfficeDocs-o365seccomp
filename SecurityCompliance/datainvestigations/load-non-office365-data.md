@@ -1,5 +1,5 @@
 ---
-title: "Load non-Office 365 data into an incident"
+title: "Load non-Office 365 data into evidence"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -17,7 +17,7 @@ ms.assetid:
 description: ""
 ---
 
-# Load non-Office 365 data into an incident
+# Load non-Office 365 data into evidence
 
 Not all documents that you may need to analyze with Office 365 Advanced eDiscovery will live in Office 365. With the Non-Office 365 content import feature in Advanced eDiscovery you can upload documents that don't live in Office 365 into a working set so it is analyzed with Advanced eDiscovery. This procedure shows you how to bring your non-Office 365 documents into Advanced eDiscovery for analysis.
 
