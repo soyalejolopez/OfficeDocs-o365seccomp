@@ -35,11 +35,12 @@ Here are a few things you can do with Explorer (there are many more possibilitie
 
 - Review email messages that were reported by using the [Report Message add-in for Outlook and Outlook on the web](enable-the-report-message-add-in.md), and identify any trends (such as a larger than usual number of messages reported as Phish) 
 
-- [View information about malicious files](malicious-files-detected-in-spo-odb-or-teams.md) detected in your organization's SharePoint, OneDrive, and Teams libraries
 
 ## See detected malware by technology
 
-CONTENT
+You can use Explorer to see 
+
+
 
 ## View data about phishing URLs and actions taken
 
@@ -49,6 +50,15 @@ CONTENT
 
 CONTENT
 
+## Do more with Explorer
+
+See the following articles to do even more with Explorer:
+
+- [Find and investigate malicious email that was delivered (Office 365 Threat investigation and response)](investigate-malicious-email-that-was-delivered.md)
+
+- [View information about malicious files](malicious-files-detected-in-spo-odb-or-teams.md) detected in your organization's SharePoint, OneDrive, and Teams libraries
+
+- [Check out the Threat Explorer views], including (threat-explorer-views.md)
 
 ## How do I get Explorer?
 
