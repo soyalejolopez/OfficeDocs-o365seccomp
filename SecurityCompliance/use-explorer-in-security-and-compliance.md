@@ -56,11 +56,15 @@ Suppose you want to see phishing attempts through URLs in email, including a lis
 3. Click **Sender**, and then choose **URLs** > **Click vedict**.
 4. Select an option, such as **Blocked**, and then click the **Refresh** button to apply that filter.<br/>![URLs and click verdicts](media/ThreatExplorerEmailPhishClickVerdictOptions.png)<br/>
 
-The report refreshes to show detected phishing URLs in email that were blocked, along with email delivery status. From here, you can conduct further analysis. 
+The report refreshes to show detected phishing URLs in email that were blocked, along with email delivery status. From here, you can conduct further analysis. For example, below  the chart, you can see the top URLs that were blocked in your organization's email. 
+
+![Explorer URLs that were blocked](media/ExplorerPhishClickVerdictURLs.png) 
+
+Select a URL to view more information.
 
 ## Review email messages reported by users
 
-CONTENT
+Suppose you want to see email messages that users in your organization have reported as Junk, Not Junk, or Phishing.
 
 ## There's more...
 
