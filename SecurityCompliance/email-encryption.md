@@ -6,12 +6,14 @@ manager: laurawi
 ms.date: 10/30/2018
 ms.audience: Admin
 ms.topic: overview
-ms.service: O365-seccomp
+ms.service: o365-administration
 localization_priority: Normal
 search.appverid: 
 - MOE150
 - MET150
 ms.assetid: c0d87cbe-6d65-4c03-88ad-5216ea5564e8
+ms.collection:
+- M365-security-compliance
 description: "Compare encryption options in Office 365 including Office Message Encryption (OME), S/MIME, Information Rights Management (IRM), and learn about Transport Layer Security (TLS)."
 ---
 

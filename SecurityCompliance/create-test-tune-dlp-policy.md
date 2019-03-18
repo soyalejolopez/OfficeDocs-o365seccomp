@@ -1,7 +1,7 @@
 ---
 title: "Create, test, and tune a DLP policy"
-ms.author: stephow
-author: stephow-MSFT
+ms.author: deniseb
+author: denisebmsft
 manager: laurawi
 ms.audience: Admin
 ms.topic: article
@@ -9,8 +9,8 @@ f1_keywords:
 - 'ms.o365.cc.NewPolicyFromTemplate'
 ms.service: O365-seccomp
 localization_priority: Normal
-ms.collection:
-- Strat_O365_IP
+ms.collection: 
+- M365-security-compliance
 search.appverid: 
 - MET150
 ms.assetid: 59414438-99f5-488b-975c-5023f2254369
