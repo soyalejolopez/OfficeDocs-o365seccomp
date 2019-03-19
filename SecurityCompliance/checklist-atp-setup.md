@@ -21,7 +21,7 @@ description: "Here's a quick-start guide you can use to make sure Office 365 Adv
 Here's a quick-start guide you can use to make sure Office 365 Advanced Threat Protection (ATP) is set up and configured for your organization. If you're new to threat protection in Office 365, or you're just not sure where to begin, use the following guidance as a starting point. 
 
 > [!NOTE]
-> Initial recommended settings are included; however, you can adjust your settings to meet your specific organization's needs. Allow approximately 30 minutes for your policies or changes to work their way through your datacenter.
+> **Initial recommended settings are included; however, you can adjust your settings to meet your specific organization's needs**. Allow approximately 30 minutes for your policies or changes to work their way through your datacenter.
 
 ## Prerequisites
 
@@ -92,7 +92,7 @@ To learn more, see [Set up Office 365 ATP Safe Links policies](set-up-atp-safe-l
 1. In the [Office 365 Security & Compliance Center](https://protection.office.com), choose **Threat management** > **Policy** > **ATP anti-phishing**.
 2. Click **Default policy**.
 3. In the **Impersonation** section, click **Edit**, and then specify the following settings:
-    -  On the **Add users to protect** tab, turn protection on, and then add users, such as your organization's board members, your CEO, CFO, and other senior leaders. You can type an individual email address, or click to display a list.
+    -  On the **Add users to protect** tab, turn protection on. Then add users, such as your organization's board members, your CEO, CFO, and other senior leaders. (You can type an individual email address, or click to display a list.)
     - On the **Add domains to protect** tab, turn on **Automatically include the domains I own**. If you have custom domains, add those as well.
     - On the **Actions** tab, select **Move message to the recipients' Junk Email folders** for both impersonated user and impersonated domain, and turn on safety tips.
     - On the **Mailbox intelligence** tab, make sure mailbox intelligence is turned on.
@@ -103,7 +103,7 @@ To learn more, see [Set up Office 365 ATP Safe Links policies](set-up-atp-safe-l
     - On the **Review your settings** tab, after you have reviewed your settings, click **Save**. (If you didn't make any changes, click **Cancel**.)
 5. Close the default policy settings page.
 
-To learn more, see [Set up Office 365 ATP anti-phishing and anti-phishing policies](set-up-anti-phishing-policies.md).
+To learn more about your anti-phishing policy options, see [Set up Office 365 ATP anti-phishing and anti-phishing policies](set-up-anti-phishing-policies.md).
 
 ## 4 - Anti-spam
 
