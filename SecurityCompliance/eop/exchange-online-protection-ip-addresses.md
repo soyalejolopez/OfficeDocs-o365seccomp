@@ -3,7 +3,7 @@ title: "Exchange Online Protection IP addresses"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 12/12/2018
+ms.date: 03/19/2019
 ms.audience: ITPro
 ms.topic: reference
 ms.service: O365-seccomp
@@ -14,6 +14,11 @@ description: "The following Microsoft data center IP addresses are used by Micro
 ---
 
 # Exchange Online Protection IP addresses
+
+The information on this page has been moved to the [Office 365 URLs and IP address ranges page](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#exchange-online).
+
+
+<!--
 
 The following Microsoft data center IP addresses are used by Microsoft Exchange Online Protection (EOP) when sending email, receiving email, or for Exchange Online Protection portal and administrative services. In order to send and receive messages from EOP or use the administrative services, make sure your network allows connections from these IP addresses.
  
@@ -53,3 +58,4 @@ The following Microsoft data center IP addresses are used by Microsoft Exchange 
  
 For information about IP addresses used by Microsoft Office 365, see [Office 365 URLs and IP address ranges](https://go.microsoft.com/fwlink/p/?LinkId=324165).
 
+--> 
