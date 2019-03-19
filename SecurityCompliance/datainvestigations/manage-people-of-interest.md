@@ -1,5 +1,5 @@
 ---
-title: "Manage people of interest in a Data Investigations case"
+title: "Manage people of interest"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -16,102 +16,74 @@ ms.assetid:
 
 description: ""
 ---
-# Manage people of interest in a Data Investigations case
+# Manage people of interest to an investigation
 
-The Custodians tab contains a sortable list of all the custodians in the case. After you add custodians to a case, details about each custodian will automatically be collected from Azure Active Directory.
+Data investigations often involve people of interest. Usually they are people who own the misplaced, sensitive or malicious data that you're investigating or looking to remediate. In **Data investigations (Preview)**, you can add them to discover their data sources to use in scoping your search or view additional information such as contact, location and activity logs. 
 
-## Viewing custodian details
 
-The flyout page that contains custodian details appears after you add a custodian to a case and select them from the list on the **Custodians** tab. From here, you can view all the details related to that custodian. The flyout page contains the following fields:
+## Add people of interest
+
+In **People of interest** tab, you can add people of interest and discover their data sources such as Exchange mailboxes or OneDrive for Business site that you can use to scope your search. When scoped down by people of interest, searches are more performant and accurate because the tool re-processes any unindexed data such as images or unsupported file types. You can also see their contact information, location information and activity logs that you can use to initiate communications or further investigate their activities. 
+
+To add people of interest to an investigation:
+
+1. From the **Data investigations (Preview)** page, go to your investigation.
+ 
+2. After you have selected a investigation, go to the **People of interest** tab and click **+ Add people of interest**. 
+ 
+3. Choose people that you want to add to the investigation. You can start by typing to search and select the users from your organization's Azure Active Directory.
+ 
+4. After you have finalized the list of people of interest, click **Next** to map their data sources. 
+
+5. [Optional] For each person, select **Exchange** to add person's primary Exchange mailbox, and **OneDrive** to add person's primary OneDrive for Business site.
+
+6. [Optional] Click **Next** to add any additional data sources that you want to associate with your people of interest.
+
+7. [Optional] Select **Update** to assign content locations, like mailboxes, sites, and Teams to a person. 
+
+8. [Optional] In the flyout:
+   
+    -  **Exchange Mailboxes** - Click **Choose users, groups, or Teams** and then click **Choose users, groups, or teams** again. To add more mailboxes, use the search box to find user mailboxes and distribution groups. You can also add mailboxes used to store an Office 365 Group or a Microsoft Team information. Select the user, group, team check box, click **Choose**, and then click **Done**.
+
+        > [!NOTE]
+        > When you click Choose users, groups, or teams to specify mailboxes, the mailbox picker that's displayed is empty. This is by design to enhance performance. To add people to this list, type a name (a minimum of 3 characters) in the search box.
+     
+     - **SharePoint Sites** - Click **Choose sites** and then click **Choose sites** again to specify additional SharePoint and OneDrive for Business sites that you wwant to add to a person. You can also add the URL for the SharePoint site for an Office 365 Group or a Microsoft Team. Type the URL for each site that you want to assign. Click **Choose**, and then click **Done**.
+     - **Microsoft Teams** – Click **Choose Teams** and then click **Choose Teams** again to view a list of Microsoft Team groups that the person is a member of today. Select the Teams that you want to add to the person. Once selected, the system will automatically identify & select the associated SharePoint site and Group Mailbox associated to that Microsoft Team. Click **Choose**, and then click **Done**.
+        
+      > [!NOTE]
+      > To add additional Microsoft Teams, you will need to separately add the mailbox and SharePoint site as shown above.
+
+After you have finished mapping data sources to people of interest, you can see the summary of total mailboxes, sites, and Teams that you just added. If you map any additional data sources to people of interest and scope your search by people of interest, the mapping of document to people of interest persist throughout the investigation, making it easier to organize evidence or generate report by people of interest. 
+
+## View additional people of interest information
+
+In **People of interest** tab, click on a person that you adeed. In a flyout, you'll see:
 
 - Contact information
 
-  - **Display Name**: The name displayed in the address book for the custodian. This is usually the combination of the custodian’s first name, middle initial and last name.
-  - **Mail/SMTP**: The SMTP address for the custodian, for example, jeff@contoso.onmicrosoft.com.  
-  - **Title**: The custodian’s job title.
-  - **Department**: The name for the department in which the custodian works.
-  - **Manager**: The custodian’s manager. The designated manager will receive any Escalation communications for this custodian.
+  - **Display Name**: The peron's name displayed in the address book. This is usually the combination of first name, middle initial and last name.
+  - **Mail/SMTP**: The SMTP address of the person, for example, jeff@contoso.onmicrosoft.com.  
+  - **Title**: Job title.
+  - **Department**: The name of the department in which the person works.
+  - **Manager**: The person's manager. Manager receives any escalation communications for this person.
   
 - Location information
 
-  - **City**: The city in which the custodian is located.
-  - **State**: The state or province in the custodian’s address.
-  - **Country/Region**: The country/region in which the custodian’s is located; for example, “US” or “UK”.
-  - **Office**: The office location in the custodian’s place of business.
-
-- Case information
-
-  - **Hold status**: Indicates if the custodian has been placed on hold. 
-  - **Communication status**: Indicates if the custodian has been issued a hold notice. If the custodian has been issued a notice, then this will be marked as *Published*. If the custodian has not been issued a notice, then this status will be *Un-Published*. 
-  - **Status**: The status of the custodian within the case. This will be *Active* if the custodian is still on hold for the case. If a custodian is removed from a case, their status will change to *Released*. 
+  - **City**: The city in which the person is located.
+  - **State**: The state or province in which the person is located.
+  - **Country/Region**: The country/region in which the person is located; for example, “US” or “UK”.
+  - **Office**: The office location of the person.
 
 - Processing status
 
-  - **Indexing status**: Indicates the status of the deep indexing job.  
-  - **Indexing Last Updated Time**: Indicates the datestamp of when the deep indexing job was last triggered.
-  - **Data sources**: Shows the count of mailboxes, sites, and Teams that have been selected for the custodian.
+  - **Indexing status**: Status of deep indexing the data sources
+  - **Indexing Last Updated Time**: Timestamp of when the deep indexing job was last triggered.
+  - **Data sources**: Shows the count of mailboxes, sites, and Teams mapped to the person
 
-## Updating a custodian
+- Update index
+    - You can re-index this person's data sources. 
 
-As your case progresses, you may discover that there may be additional data sources relevant to a specific custodian & your case. In other scenarios, you may want to remove certain data sources that have been reviewed and deemed as not relevant.
+- View activity 
 
-To update a custodian and the selected data sources:
-
-1. Select an existing case from the **eDiscovery > Advanced eDiscovery (Preview)**.
-  
-2. In the case, click the **Custodians** tab.
-  
-3. Select the custodian(s) from the list and click **Edit sources**.
-  
-4. Update selections for Exchange and OneDrive locations by clicking **Choose data sources**.
-  
-5. Add or remove Teams, SharePoint, or Exchange mailboxes mapped the user by clicking to **Select additional data sources**. For more information about how you to map data sources to a custodian, see [Add custodians to a case](add-custodians-to-case.md).
-  
-6. To update the custodian hold status, click **Place custodial holds**, and enable or disable the hold for custodians.
-
-> [!TIP]
-> You can select multiple custodians to perform bulk actions, like re-indexing, releasing, or editing a set of custodians.
-
-## Resolving custodian processing errors
-
-In most Legal workflows, after custodians are added for a specific investigation, a subset of the users’ data will be searched. Due to large file sizes or possible corruption, some items within the custodians’ data sources may be partially indexed. Using the Advanced eDiscovery (Preview) deep indexing capability, these partially indexed items can be automatically remediated by re-crawling and re-indexing these items on demand. 
-
-When a custodian is added to a case, their data will automatically be "deep indexed”, allowing users to leave these partially indexed items in place instead of having to download, remediate and re-run searches outside of Office 365. During the lifecycle of a case, a user may remediate items or add new data sources for a given custodian. This may require the Custodian Index to be updated. 
-
-To trigger a re-indexing process to address partially indexed items:
-
-1. Go to **eDiscovery > Advanced eDiscovery (Preview)** and select an existing case.
-
-2. In the case, click to **Custodians tab**. 
-
-3. Select the custodian(s) that needs to be re-indexed, and then click **Update index** on the flyout page.
-
-4. Check the status of the custodian index by clicking the link in the **Indexing job Status** column on the **Custodians** tab.  
-
-5. The status for the re-indexing process can also be tracked on the **Jobs** tab.
-
-For more information about re-indexing and remediating partially indexed items, see [Fix processing errors](processing-data-for-case.md).
-
-## Releasing a custodian from a case
-
-A custodian is released in situations where a case is closed, a custodian is no longer under obligation to preserve content for a case, or when a custodian is deemed to no longer be relevant to a particular case. 
-
-If you release a custodian after a hold notice was published, a release notice will be sent to the custodian. In addition, any custodial holds attributed to the released custodians will also be removed.
-
-If the custodian was placed on a silent hold, where they were not issued any legal hold notifications, then any custodial holds attributed to the released custodians will be removed.  
-
-To release a custodian: 
-
-1.	Go to the **Custodians** tab.
-
-2.	Select the custodian from the list and click **Release custodians** on the flyout page.
-
-    The status of the custodian on the **Custodians** tab is set to **Released** and the **Hold status** on the flyout page is changed to **Inactive**. 
-
-> [!TIP]
-> A custodian might be simultaneously be involved in several legal hold matters. When a custodian is released from a case, the holds and notifications across other matters will not be impacted.
-
-## Related information
-
- - [Error remediation when processing data](error-remediation.md) 
-- [Work with communications](managing-custodian-communications.md)
+    - You can view and search user's activity logs. For more information, see [View people of interest activity](view-people-of-interest-activity.md) 
