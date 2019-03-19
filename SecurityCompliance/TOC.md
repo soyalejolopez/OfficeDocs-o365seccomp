@@ -106,7 +106,7 @@
 ### [Configure your spam filter policies](configure-your-spam-filter-policies.md)
 ### [Configure the connection filter policy](configure-the-connection-filter-policy.md)
 ### [Configure the outbound spam policy](configure-the-outbound-spam-policy.md)
-### [Remove a user, domain, or IP address from a block list](removing-a-user-domain-or-ip-address-from-a-block-list-after-sending-spam-email.md)
+### [Removing a user from the Restricted Users portal after sending spam email](removing-user-from-restricted-users-portal-after-spam.md)
 ### [Spam confidence levels](spam-confidence-levels.md)
 #### [Use mail flow rules to set the spam confidence level (SCL) in messages](use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md)
 #### [Submit spam, non-spam, and phishing scam messages to Microsoft for analysis](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md)
@@ -369,7 +369,7 @@
 
 # [Search the audit log](search-the-audit-log-in-security-and-compliance.md)
 ## [Turn audit log search on or off](turn-audit-log-search-on-or-off.md)
-## [Enable mailbox auditing](enable-mailbox-auditing.md)
+## [Manage mailbox auditing](enable-mailbox-auditing.md)
 ## [Detailed properties in the audit log](detailed-properties-in-the-office-365-audit-log.md)
 ## [Use the audit log to troubleshoot common scenarios](auditing-troubleshooting-scenarios.md)
 ## [Use sharing auditing in the audit log](use-sharing-auditing.md)
