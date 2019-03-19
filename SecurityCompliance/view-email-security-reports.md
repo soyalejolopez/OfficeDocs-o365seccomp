@@ -3,7 +3,7 @@ title: "View email security reports in the Security &amp; Compliance Center"
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 02/21/2019
+ms.date: 03/19/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -63,9 +63,9 @@ And, you can use the View data by menu to change the view to see counts of encry
 
 ![Encryption report view data by menu](media/encryptionreport-viewdataby.png)
 
-With the flexibility of the new Encryption report, you can view trends and take appropriate actions. For example, if you see a high number of email messages encrypted by users, you might want to add an encryption policy to automate encryption for certain use cases. And, if you have a number of encryption templates available but no one is using them, you might explore whether users need training for that feature. 
+With the flexibility of the new Encryption report, you can view trends and take appropriate actions. For example, if you see a high number of email messages encrypted by users, you might want to add an encryption policy to automate encryption for certain use cases. (To get help with that, see [Define mail flow rules to encrypt email messages in Office 365](define-mail-flow-rules-to-encrypt-email.md).) As another example, if you have a number of encryption templates available but no one is using them, you might explore whether users need training for that feature. 
 
-This report enables your organization's security and compliance team to monitor how message encryption is being used, and whether further actions are needed.
+Use this report enables your organization's security and compliance team to monitor how message encryption is being used, and whether further actions are needed.
 
 ## Threat Protection Status report
 
@@ -199,7 +199,7 @@ To view this report, in the [Security &amp; Compliance Center](https://protectio
   
 ## What permissions are needed to view these reports?
 
-In order to view and use the reports described in this article, **you must have an appropriate role assigned for both the Security &amp; Compliance Center and the Exchange Admin Center**.
+In order to view and use the reports described in this article, **you must have an appropriate role assigned for both the Security &amp; Compliance Center and the Exchange admin center**.
 
 - For the Security &amp; Compliance Center, you must have one of the following roles assigned:
     - Organization Management

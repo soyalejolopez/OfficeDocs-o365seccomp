@@ -3,7 +3,7 @@ title: "Attack Simulator in Office 365"
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 02/13/2019
+ms.date: 03/05/2019
 ms.audience: ITPro
 ms.topic: overview
 ms.service: O365-seccomp
@@ -19,10 +19,10 @@ description: "As an Office 365 global administrator, you can use Attack Simulato
 
 # Attack Simulator in Office 365
 
-**Summary** If you are an Office 365 global administrator and your organization has [Office 365 Threat Intelligence](office-365-ti.md), you can use Attack Simulator to run realistic attack scenarios in your organization. This can help you identify and find vulnerable users before a real attack impacts your bottom line. Read this article to learn more.
+**Summary** If you are an Office 365 global administrator and your organization has [Office 365 Threat Investigation and Response capabilties](office-365-ti.md), you can use Attack Simulator to run realistic attack scenarios in your organization. This can help you identify and find vulnerable users before a real attack impacts your bottom line. Read this article to learn more.
 
 > [!IMPORTANT]
-> Beginning in February 2019 and rolling out over the next several months, Office 365 Threat Intelligence is becoming Office 365 Advanced Threat Protection Plan 2, with additional threat protection capabilities. To learn more, see [Office 365 Advanced Threat Protection plans and pricing](https://products.office.com/exchange/advance-threat-protection) and the [Office 365 Advanced Threat Protection Service Description](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description).
+> Office 365 Advanced Threat Protection and Threat Investigation and Response (formerly known as Threat Intelligence) are now part of Office 365 Advanced Threat Protection Plan 2, with additional threat protection capabilities. To learn more, see [Office 365 Advanced Threat Protection plans and pricing](https://products.office.com/exchange/advance-threat-protection) and the [Office 365 Advanced Threat Protection Service Description](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description).
   
 ## The Attacks
 
@@ -45,13 +45,13 @@ To access Attack Simulator, in the Security &amp; Compliance Center, choose **Th
 
 Make sure that you and your organization meet the following requirements for Attack Simulator:
       
-- Your organization's email is hosted in Exchange Online. (Attack Simulator is not available for on-premises email servers.)
+- **Your organization's email is hosted in Exchange Online**. (Attack Simulator is not available for on-premises email servers.)
     
-- You are an Office 365 global administrator
+- **You are an Office 365 global administrator**
     
-- Your organization is using [Multi-factor authentication for Office 365 users](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication?view=o365-worldwide)
+- **[Multi-factor authentication](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication?view=o365-worldwide) (MFA) is turned on, for at least the Office 365 global administrator account**. (Ideally, MFA is turned on for all users in your organization.)
  
-- Your organization has [Office 365 Threat Intelligence](office-365-ti.md), with Attack Simulator visible in the Security &amp; Compliance Center (go to **Threat management** \> **Attack simulator**)<br/>![Threat management - Attack Simulator](media/ThreatMgmt-AttackSimulator.png)
+- **Your organization has [Office 365 Threat Intelligence](office-365-ti.md)**, with Attack Simulator visible in the Security &amp; Compliance Center (go to **Threat management** \> **Attack simulator**)<br/>![Threat management - Attack Simulator](media/ThreatMgmt-AttackSimulator.png)
 
     
 ## Display name spear-phishing attack
@@ -125,10 +125,18 @@ A brute-force password attack against an organization is typically used after a 
 ## New features in Attack Simulator
 
 New features are being added to Attack Simulator. These include:
+
 - **Advanced reporting capabilities**. You'll be able to see data such as the fastest (or slowest) time to open an attack simulation email message, the fastest (or slowest) time to click a link in the message, and more.
+
 - **Email template editor**. You can create a custom, reusable email template that you can use for future attack simulations.
 
 Visit the [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap) to see what's in development, what's rolling out, and what's already launched.
+
+## See also
+
+[Office 365 Advanced Threat Protection Service Desription](https://docs.microsoft.com/en-us/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)
+
+[Office 365 Advanced Threat Protection](office-365-atp.md)
 
 
 

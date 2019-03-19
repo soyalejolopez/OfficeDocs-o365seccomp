@@ -17,13 +17,13 @@ ms.assetid:
 description: "This article describes using the new Data investigations (Preview) tool in the Office 365 Security & Compliance Center to manage a data spillage incident."
 ---
 
-# Manage a data spillage incident in Microsoft 365 
+# Manage a data spillage incident in Microsoft 365
 
-Data spillage is when a confidential document is released into an untrusted environment. When a data spillage incident is detected, it's important to quickly assess the size and locations of the spillage, examine user activities around it, and then permanently purge the spilled data from the system.
+Data spillage is when a document containing confidential, sensitive or malicious information is released into an untrusted environment. When a data spillage incident is detected, it's important to quickly contain the environment, assess the size and locations of the spillage, examine user activities around it, and then delete the spilled data from the system. Using Data investigations, you can search for sensitive, malicious or misplaced data across Office 365, investigate to find out what happened and take appropriate remedial actions.  
 
 ## Scope of this article
 
-This article provides a list of instructions on how to permanently remove items from Office 365 mailboxes so they are no longer accessible or recoverable by users or admins. 
+This article provides a list of instructions on how to permanently delete items from Office 365 mailboxes so they are no longer accessible or recoverable by users or admins. 
 
 > [!NOTE]
 > When you delete items located in a SharePoint or OneDrive for Business site, they are retained for 93 days from the time you delete them from their original location.
@@ -38,9 +38,9 @@ Here's the workflow for using Data Investigations (Preview) to manage a data spi
 
 1.	Create a data investigation.
 
-2.	Search for the spilled data.
+2.	Search for sensitive, malicious or misplaced data and collect them as evidence.
 
-3.	Review and investigate the incident.
+3.	Review and investigate the evidence.
 
 4.	Permanently delete the spilled data.
 
@@ -90,30 +90,33 @@ To create a data investigation:
  
 ## Step 2: Search for the spilled data 
  
-If you know which users you want to search for spilled data, you can add them as people of interest to map their data sources to the investigation and quickly search their mailbox and OneDrive account. To add people of interest to the investigation, click **People of interest**, and then click **Add people of interest**. 
+If you know which users you want to search for spilled data, you can add them as people of interest to map their data sources to the investigation and quickly search their mailbox and OneDrive account. To add people of interest to the investigation, click **People of interest**, and then click **Add people of interest**. For more information, see:
 
-On the **Searches** tab, you can create searches to find the spilled data. You will use the same search query that you used to find the spilled data to delete those same messages in [Step 4](##step-4:-permanently-delete-the-spilled-data). For more information about creating searches, see [Create a search to collect data](create-search-to-collect-data.md).
+- [Add people of interest to investigation](add-people-of-interest-to-investigation.md)
 
-After you run the search, you can preview samples of search results and view search statistics to evaluate the effectiveness of your search query. Once you identify the items that you want to delete from Office 365, you can click the **Incidents** tab, and then create an incident and add search results that contain those items. 
+On the **Searches** tab, you can create searches to find the spilled data. You will use the same search query that you used to find the spilled data to delete those same messages in [Step 4](##step-4:-permanently-delete-the-spilled-data). For more information about creating searches, see [Create a search to collect data](search-for-data.md).
 
-To do this, click the search that you want to investigate. On the flyout page, click **Add results to incident** and follow the instructions. Then in the incident, you can review individual documents, investigate who had access to documents, and export the documents. To simply delete the documents instead of reviewing them, go to [Step 4](##step-4:-permanently-delete-the-spilled-data). 
+After you run the search, you can preview samples of search results and view search statistics to evaluate the effectiveness of your search query. Once you identify the items that you want to delete from Office 365, you can click the **Evidence** tab, and then create an evidence and add search results that contain those items. 
+
+To do this, click the search that you want to investigate. On the flyout page, click **Add results to evidence** and follow the instructions. Then in the evidence, you can review individual documents, investigate who had access to documents, and export the documents. To simply delete the documents instead of reviewing them, go to [Step 4](##step-4:-permanently-delete-the-spilled-data). 
 
 > [!IMPORTANT]
 > The keywords that you use in the search query may contain the actual spilled data that you're searching for. For example, if you searching for documents containing a social security number and you use it as a keyword in the search query, you must delete the query afterwards to avoid further spillage. You can delete search or delete the entire investigation in [Step 5](##step-5:-close-or-delete-investigation). 
 
 ## Step 3: Review and investigate 
 
-In the investigation, go to **Incidents** tab and click on the incident that you created in the previous step. After the processing job is completed and the search results are added to the incident, you can review individual documents in their native format, text format, or a near-native format. You can create additional queries to further narrow the list of documents, and tag documents to indicate findings from your investigation.
+In the investigation, go to **Evidence** tab and click on the evidence collection that you created in the previous step. After the processing job is completed and the search results are added to the evidence, you can review individual documents in their native format, text format, or a near-native format. You can create additional queries to further narrow the list of documents, and tag documents to indicate findings from your investigation. For more information, see [Review data in evidence](review-data-in-evidence.md)
 
-To group documents and get more assistance for your review, click **Manage incident**. In the **Analytics** tile, click **Analyze**. This will run advanced analytics such as duplicate detection, email threading, and theme analysis. For more information, see:
+To group documents and get more assistance for your review, click **Manage evidence**. In the **Analytics** tile, click **Analyze**. This will run advanced analytics such as duplicate detection, email threading, and theme analysis. For more information, see:
 
+- [Run analytics to investigate faster](run-analytics-to-investigate-faster.md)
 - [Near duplicate detection](near-duplicates.md)
 - [Email threading](email-threading.md)
 - [Themes](themes.md)
 
-To determine which users are involved in the data spillage, you can create a new query in the incident and then use the Sender/Author and Recipients conditions. This will create a list of all senders, recipients and authors found in collected data that was added to the incident. Be sure to examine the list to determine if there are any external users in the list. For more information, see [Search conditions](../keyword-queries-and-search-conditions.md#search-conditions).
+To determine which users are involved in the data spillage, you can create a new query in the evidence and then use the Sender/Author and Recipients conditions. This will create a list of all senders, recipients and authors found in collected data that was added to the evidence. Be sure to examine the list to determine if there are any external users in the list. For more information, see [Search conditions](../keyword-queries-and-search-conditions.md#search-conditions).
 
-## Step 4: Permanently delete the spilled data
+## Step 4: Delete the spilled data
 
 ### Deleting mailbox items
 
@@ -132,7 +135,7 @@ Alternatively, you can delete an entire site collection that might contained spi
 
 ## Step 5: Close or delete the investigation
 
-After you delete documents in the source content locations (mailboxes or sites), you will still have copies of these documents that you added to incidents as part of your investigation. To avoid further data spillage, you should consider deleting the investigation.
+After you delete documents in the source content locations (mailboxes or sites), you will still have copies of these documents that you added to evidence as part of your investigation. To avoid further data spillage, you should consider deleting the investigation.
 
 To delete an investigation:
 

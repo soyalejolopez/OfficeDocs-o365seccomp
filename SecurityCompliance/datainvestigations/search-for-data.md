@@ -1,5 +1,5 @@
 ---
-title: "Create a search to collect data"
+title: "Search for data in an investigation"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -17,9 +17,9 @@ ms.assetid:
 description: ""
 ---
 
-# Create a search to collect data
+# Search for data in an investigation
 
-In **Search** tab, you can search for misplaced, confidential or sensitive data across O365 in the live system using keywords and various condition cards. 
+In **Search** tab, you can search for misplaced, confidential or sensitive data across Office 365 in the live system using keywords and various condition cards. 
 
 After you run a search, you will be able to view statistics on the retrieved items such as the locations that had the most items that matched the search query. You can also preview a subset of the results. When you've identified the set of documents that want to further investigate, you can collect the search results as **Evidence** to further process and analyze. 
 
@@ -29,7 +29,7 @@ After you run a search, you will be able to view statistics on the retrieved ite
 
 2. Each search with a case should have a unique name. You can optionally provide a description for your search.
 
-3. Define your search criteria. You can define the conditions for your search using the pre-built condition cards or using Keyword Query Language (KQL). For more information, see [Build search queries](building-search-queries.md).
+3. Define your search criteria. You can define the conditions for your search using the pre-built condition cards or using Keyword Query Language (KQL). For more information, see [Build search queries](build-search-queries.md).
 
 4. Once you have defined your conditions, you need to choose which locations you want to search. One way to do it is scoping it by selecting people of interest if you added any. If you know whom you want to scope down your search but haven't added them to people of interest, you can do so following instructions in [Add people of interest to investigation](add-people-of-interest-to-investigation.md).
 
