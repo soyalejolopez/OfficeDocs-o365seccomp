@@ -1,5 +1,5 @@
 ---
-title: "Create activity alerts in the Office 365 Security &amp; Compliance Center"
+title: "Create activity alerts in the Office 365"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,23 +14,23 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 72bbad69-035b-4d33-b8f4-549a2743e97d
-description: "Add and manage activity alerts in the Security &amp; Compliance Center so that Office 365 will send you email notifications when users perform specific activities in Office 365."
+description: "Add and manage activity alerts in the security and compliance center so that Office 365 will send you email notifications when users perform specific activities in Office 365."
 ---
 
-# Create activity alerts in the Office 365 Security &amp; Compliance Center
+# Create activity alerts in the Office 365
 
 You can create an activity alert that will send you an email notification when users perform specific activities in Office 365. Activity alerts are similar to searching for events in the Office 365 audit log, except that you'll be sent an email message when an event for an activity that you've created an alert for happens. 
   
  **Why use activity alerts instead of searching the audit log?** There might be certain kinds of activity or activity performed by specific users that you really want to know about. Instead of having to remember to search the audit log for those activities, you can use activity alerts to have Office 365 send you an email message when users perform those activities. For example, you can create an activity alert to notify you when a user deletes files in SharePoint or you can create an alert to notify you when a user permanently deletes messages from their mailbox. The email notification sent to you includes information about which activity was performed and the user who performed it. 
 
 > [!NOTE]
-> We recommend that you start using alert policies in the Security & Compliance Center instead of creating new activity alerts. Alert policies provide addition functionality such as the ability to create an alert policy that triggers an alert when any user performs a specified activity, and displaying alerts on the **View alerts** page in the Security & Compliance Center. For more information, see [Alert policies in the Office 365 Security &amp; Compliance Center](alert-policies.md).
+> We recommend that you start using alert policies in the security and compliance center instead of creating new activity alerts. Alert policies provide addition functionality such as the ability to create an alert policy that triggers an alert when any user performs a specified activity, and displaying alerts on the **View alerts** page in the security and compliance center. For more information, see [Alert policies in the Office 365 Security &amp; Compliance Center](alert-policies.md).
   
 ## Before you begin
 
 - You must be assigned the Organization Configuration role in the Security &amp; Compliance Center to manage activity alerts. By default, this role is assigned to the Compliance Administrator and Organization Management role groups. For more information about adding members to role groups, see [Give users access to the Office 365 Security &amp; Compliance Center](grant-access-to-the-security-and-compliance-center.md).
     
-- You (or another admin) must first turn on audit logging for your organization before you can start using activity alerts. To do this, just click **Start recording user and admin activity** on the **Activity alerts** page. (If you don't see this link, auditing has already been turned on for your organization.) You can also turn on auditing on the **Audit log search** page in the Security &amp; Compliance Center (go to **Search &amp; investigation** \> **Audit log search**). You only have to do this once for your organization.
+- You (or another admin) must first turn on audit logging for your organization before you can start using activity alerts. To do this, just click **Start recording user and admin activity** on the **Activity alerts** page. (If you don't see this link, auditing has already been turned on for your organization.) You can also turn on auditing on the **Audit log search** page in the Security &amp; Compliance Center (go to **Search** \> **Audit log search**). You only have to do this once for your organization.
   
 - You can create alerts for the same activities that you can search for in the Office 365 audit log. See the [More information](#more-information) section for a list of common scenarios (and the specific activity to monitor) that you can create alerts for. 
     
@@ -38,7 +38,7 @@ You can create an activity alert that will send you an email notification when u
     
 ## Create an activity alert
 
-1. Go to [https://protection.office.com/#/managealerts](https://protection.office.com/#/managealerts).
+1. Go to [https://compliance.microsoft.com/#/managealerts](https://compliance.microsoft.com/#/managealerts).
     
 2. Sign in to Office 365 using your work or school account.
     
@@ -59,7 +59,7 @@ You can create an activity alert that will send you an email notification when u
 
     d. **Send this alert when** - Click **Send this alert when** and then configure these two fields:
     
-    - **Activities** - Click the drop-down list to display the activities that you can create an alert for. This is the same activities list that's displayed when you search the Office 365 audit log. You can select one or more specific activities or you can click the activity group name to select all activities in the group. For a description of these activities, see the "Audited activities" section in [Search the audit log in the Office 365 Security & Compliance Center](search-the-audit-log-in-security-and-compliance.md#audited-activities). When a user performs any of the activities that you've added to the alert, an email notification is sent. 
+    - **Activities** - Click the drop-down list to display the activities that you can create an alert for. This is the same activities list that's displayed when you search the Office 365 audit log. You can select one or more specific activities or you can click the activity group name to select all activities in the group. For a description of these activities, see the "Audited activities" section in [Search the audit log](search-the-audit-log-in-security-and-compliance.md#audited-activities). When a user performs any of the activities that you've added to the alert, an email notification is sent. 
     
      - **Users** - Click this box and then select one or more users. If the users in this box perform the activities that you added to the **Activities** box, an alert will be sent. Leave the **Users** box blank to send an alert when any user in your organization performs the activities specified by the alert. 
 
@@ -77,7 +77,7 @@ You can create an activity alert that will send you an email notification when u
 
 You can turn off an activity alert so that an email notification isn't sent. After you turn off the activity alert, it's still displayed in the list of activity alerts for your organization, and you can still view its properties.
   
-1. Go to [https://protection.office.com/#/managealerts](https://protection.office.com/#/managealerts).
+1. Go to [https://compliance.microsoft.com/#/managealerts](https://compliance.microsoft.com/#/managealerts).
     
 2. Sign in to Office 365 using your work or school account.
     
@@ -95,7 +95,7 @@ To turn an activity alert back on, just repeat these steps and click the **Off**
     
     ![Example of an email notifcation sent for an activity alert](media/a5f91611-fae6-4fe9-82f5-58521a2e2541.png)
   
-- Here's are some common document and email activities that you can create an activity alerts for. The tables describes the activity, the name of the activity to create an alert for, and the name of the activity group that the activity is listed under in the **Activities** drop-down list. To see a complete list of the activities that you can create activity alerts for, see the "Audited activities" section in [Search the audit log in the Office 365 Security & Compliance Center](search-the-audit-log-in-security-and-compliance.md#audited-activities).
+- Here's are some common document and email activities that you can create an activity alerts for. The tables describes the activity, the name of the activity to create an alert for, and the name of the activity group that the activity is listed under in the **Activities** drop-down list. To see a complete list of the activities that you can create activity alerts for, see the "Audited activities" section in [Search the audit log](search-the-audit-log-in-security-and-compliance.md#audited-activities).
     
     > [!TIP]
     > You might want to create an activity alert for just one activity that's performed by any user. Or you might want to create an activity alert that track multiple activities performed by one or mores users. 

@@ -1,5 +1,5 @@
 ---
-title: "Export Content Search results from the Office 365 Security & Compliance Center"
+title: "Export Content Search results"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -17,10 +17,10 @@ search.appverid:
 - MED150
 - MET150
 ms.assetid: ed48d448-3714-4c42-85f5-10f75f6a4278
-description: "Export the search results from a Content Search in the Office 365 Security & Compliance Center to a local computer. Email results are exported as PST files. Content from SharePoint and OneDrive for Business sites are exported as native Office documents. "
+description: "Export the search results from a Content Search in the Security & Compliance Center to a local computer. Email results are exported as PST files. Content from SharePoint and OneDrive for Business sites are exported as native Office documents. "
 ---
 
-# Export Content Search results from the Office 365 Security & Compliance Center
+# Export Content Search results
 
 After a Content Search is successfully run, you can export the search results to a local computer. When you export email results, they're downloaded to your computer as PST files. When you export content from SharePoint and OneDrive for Business sites, copies of native Office documents are exported. There are additional documents and reports that are included with the exported search results.
   
@@ -75,11 +75,11 @@ Exporting the results of a Content Search involves preparing the results, and th
 
 The first step is to prepare the search results for exporting. When you prepare results, they are uploaded to an Azure storage location in the Microsoft cloud. Note that content from mailboxes and sites is uploaded at a maximum rate of 2 GB per hour.
   
-1. Go to [https://protection.office.com](https://protection.office.com).
+1. Go to [https://compliance.microsoft.com](https://compliance.microsoft.com).
     
 2. Sign in to Office 365 using your work or school account.
     
-3. In the left pane of the Security &amp; Compliance Center, click **Search &amp; investigation** \> **Content search**.
+3. In the left pane of the Security &amp; Compliance Center, click **Search** \> **Content search**.
     
 4. On the **Content search** page, select a search. 
     

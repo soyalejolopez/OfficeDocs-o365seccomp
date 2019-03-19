@@ -69,11 +69,11 @@ Content Search is a new eDiscovery search tool with new and improved scaling and
 ## Create a search
 <a name="create"> </a>
 
-1. Go to [https://protection.office.com](https://protection.office.com).
+1. Go to [https://compliance.microsoft.com](https://compliance.microsoft.com).
     
 2. Sign in to Office 365 using your work or school account.
     
-3. In the left pane of the Security &amp; Compliance Center, click **Search &amp; investigation** \> **Content search**.
+3. In the left pane of the Security &amp; Compliance Center, click **Search** \> **Content search**.
     
 4. Click **New**![Add icon](media/O365-MDM-CreatePolicy-AddIcon.gif).
     

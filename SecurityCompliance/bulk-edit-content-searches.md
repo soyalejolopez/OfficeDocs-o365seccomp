@@ -21,7 +21,7 @@ For more information about using the Search Statistics tool, see [View keyword s
   
 ## Use the Bulk Search Editor to change queries
 
-1. In the Security &amp; Compliance Center, go to **Search &amp; investigation** \> **Content search**.
+1. In the Security &amp; Compliance Center, go to **Search** \> **Content search**.
     
 2. In the list of searches, select one or more searches, and then click **Bulk Search Editor** ![Bulk Search Editor button](media/1ddb3d18-2f00-4a7b-98a6-817ca5ec7014.png).
     
