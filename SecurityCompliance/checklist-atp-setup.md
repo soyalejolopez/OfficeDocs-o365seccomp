@@ -20,7 +20,7 @@ description: "Here's a quick-start guide you can use to make sure Office 365 Adv
 
 Here's a quick-start guide you can use as a checklist to make sure Office 365 Advanced Threat Protection (ATP) is set up for your organization. If you're new to threat protection in Office 365, or you're just not sure where to begin, use the following guidance as a starting point. 
 
-> [!NOTE]
+> [!IMPORTANT]
 > **Initial recommended settings are included for each kind of policy; however, many options are available, and you can adjust your settings to meet your specific organization's needs**. Allow approximately 30 minutes for your policies or changes to work their way through your datacenter.
 
 ## Prerequisites
@@ -130,7 +130,7 @@ To learn more, see [Zero-hour auto purge - protection against spam and malware](
 
 In order to view data in threat protection reports, such as the [Security Dashboard](security-dashboard.md) and [Explorer](use-explorer-in-security-and-compliance.md), audit logging must be turned on for your organization.
 
-To learn more, see [Turn Office 365 audit log search on or off](turn-audit-log-search-on-or-off.md).
+See [Turn Office 365 audit log search on or off](turn-audit-log-search-on-or-off.md).
 
 ## Post-setup tasks
 
@@ -148,6 +148,6 @@ To learn more, see [Turn Office 365 audit log search on or off](turn-audit-log-s
 
 ### Periodically review and revise your ATP policies
 
-- [Keep your Office 365 users safe with Office 365 Threat Intelligence](keep-users-safe-with-office-365-ti.md) 
+- [Keep your Office 365 users safe with Office 365 threat investigation and response](keep-users-safe-with-office-365-ti.md) 
 
 - [Use the smart reports and insights in the Office 365 Security &amp; Compliance Center](reports-and-insights-in-security-and-compliance.md) 
