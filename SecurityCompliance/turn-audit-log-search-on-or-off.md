@@ -40,7 +40,7 @@ You can use the Security &amp; Compliance Center or PowerShell to turn on audit 
   
 ### Use the Security &amp; Compliance Center to turn on audit log search
 
-1. In the Security &amp; Compliance Center, go to **Search &amp; investigation** \> **Audit log search**.
+1. In the Security &amp; Compliance Center, go to **Search** \> **Audit log search**.
     
 2. Click **Start recording user and admin activities**.
     
@@ -86,7 +86,7 @@ You have to use remote PowerShell connected to your Exchange Online organization
 
         The value of  `False` for the  _UnifiedAuditLogIngestionEnabled_ property indicates that audit log search is turned off. 
     
-    - In the Security &amp; Compliance Center, go to **Search &amp; investigation** \> **Audit log search**, and then click **Search**.
+    - In the Security &amp; Compliance Center, go to **Search** \> **Audit log search**, and then click **Search**.
     
       A message is displayed saying that audit log search isn't turned on. 
     
