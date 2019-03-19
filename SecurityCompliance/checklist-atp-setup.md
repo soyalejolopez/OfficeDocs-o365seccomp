@@ -16,12 +16,12 @@ ms.collection:
 description: "Here's a quick-start guide you can use to make sure Office 365 Advanced Threat Protection (ATP) is set up and configured for your organization."
 ---
 
-# Checklist: Set up Office 365 Advanced Threat Protection
+# Quick Start Guide: Set up Office 365 Advanced Threat Protection
 
-Here's a quick-start guide you can use to make sure Office 365 Advanced Threat Protection (ATP) is set up and configured for your organization. If you're new to threat protection in Office 365, or you're just not sure where to begin, use the following guidance as a starting point. 
+Here's a quick-start guide you can use as a checklist to make sure Office 365 Advanced Threat Protection (ATP) is set up for your organization. If you're new to threat protection in Office 365, or you're just not sure where to begin, use the following guidance as a starting point. 
 
 > [!NOTE]
-> **Initial recommended settings are included; however, you can adjust your settings to meet your specific organization's needs**. Allow approximately 30 minutes for your policies or changes to work their way through your datacenter.
+> **Initial recommended settings are included for each kind of policy; however, many options are available, and you can adjust your settings to meet your specific organization's needs**. Allow approximately 30 minutes for your policies or changes to work their way through your datacenter.
 
 ## Prerequisites
 
@@ -150,4 +150,4 @@ To learn more, see [Turn Office 365 audit log search on or off](turn-audit-log-s
 
 - [Keep your Office 365 users safe with Office 365 Threat Intelligence](keep-users-safe-with-office-365-ti.md) 
 
-- [Smart reports and insights in the Office 365 Security &amp; Compliance Center](reports-and-insights-in-security-and-compliance.md) 
+- [Use the smart reports and insights in the Office 365 Security &amp; Compliance Center](reports-and-insights-in-security-and-compliance.md) 
