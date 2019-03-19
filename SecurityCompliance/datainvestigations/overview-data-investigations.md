@@ -37,9 +37,6 @@ You can also run advanced analytics on the evidence that you collected. After yo
   - [Run analytics to investigate faster](run-analytics-to-investigate-faster.md)
 
 
-## Remediate in evidence
-New features and content coming
-
 ## Managing people of interest
 
 Use the **People of interest** tab to add and manage the people that you've identified as persons of interest during your investigation. When you add people of interest, their data sources, such as their mailboxes and OneDrive account, are identified and mapped. Then, you can scope your searches by them. When scoped down by people of interest, searches are more performant and accurate because the tool re-processes any unindexed data such as images or unsupported file types. In this tab, you can also view and search their activity log to investigate further. You can add more people of interest throughout your investigation. For more information, see [Work with people of interest in Data investigations (Preview)](managing-people-of-interest.md).
