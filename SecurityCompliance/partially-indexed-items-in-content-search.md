@@ -94,7 +94,7 @@ If an item is partially indexed but it doesn't meet the search query criteria, i
   
 Similarly, if you choose to include partially indexed items when you export the results of a search, partially indexed items that were excluded from the search results won't be exported.
   
-One exception to this rule is when you create a query-based hold that's associated with an eDiscovery case. If you create a query-based hold, all partially indexed items are placed on hold. This includes partially indexed items that don't match the search query criteria and partially indexed items that might fall outside of a date range condition. For more information about creating query-based holds, see Step 4 in  [eDiscovery cases in the Office 365 Security & Compliance Center](ediscovery-cases.md#step-4-place-content-locations-on-hold).
+One exception to this rule is when you create a query-based hold that's associated with an eDiscovery case. If you create a query-based hold, all partially indexed items are placed on hold. This includes partially indexed items that don't match the search query criteria and partially indexed items that might fall outside of a date range condition. For more information about creating query-based holds, see Step 4 in  [eDiscovery cases](ediscovery-cases.md#step-4-place-content-locations-on-hold).
   
 ## Indexing limits for messages in Content Search
 

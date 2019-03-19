@@ -1,5 +1,5 @@
 ---
-title: "Search the audit log in the Office 365 Security &amp; Compliance Center"
+title: "Search the audit log in the Security &amp; Compliance Center"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -17,7 +17,7 @@ ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: "Use the Office 365 Security & Compliance Center to search the unified audit log to view user and administrator activity in your Office 365 organization. "
 ---
 
-# Search the audit log in the Office 365 Security & Compliance Center
+# Search the audit log in the Security & Compliance Center
 
 Need to find if a user viewed a specific document or purged an item from their mailbox? If so, you can use the Office 365 Security &amp; Compliance Center to search the unified audit log to view user and administrator activity in your Office 365 organization. Why a unified audit log? Because you can search for the following types of user and admin activity in Office 365:
   
@@ -36,7 +36,7 @@ Need to find if a user viewed a specific document or purged an item from their m
     
 - User and admin activity in Sway
     
-- eDiscovery activities in the Office 365 Security & Compliance Center
+- eDiscovery activities in the security and compliance center
     
 - User and admin activity in Power BI
     
@@ -140,14 +140,14 @@ Here's the process for searching the audit log in Office 365.
   
 ### Step 1: Run an audit log search
 
-1. Go to [https://protection.office.com](https://protection.office.com).
+1. Go to [https://compliance.microsoft.com](https://compliance.microsoft.com).
     
     > [!TIP]
     > Use a private browsing session (not a regular session) to access the Office 365 Security &amp; Compliance Center because this will prevent the credential that you are currently logged on with from being used. To open an InPrivate Browsing session in Internet Explorer or Microsoft Edge, just press CTRL+SHIFT+P. To open a private browsing session in Google Chrome (called an incognito window), press CTRL+SHIFT+N. 
   
 2. Sign in to Office 365 using your work or school account.
     
-3. In the left pane of the Security &amp; Compliance Center, click **Search &amp; investigation**, and then click **Audit log search**.
+3. In the left pane of the Security &amp; Compliance Center, click **Search**, and then click **Audit log search**.
     
     The **Audit log search** page is displayed. 
     
@@ -281,7 +281,7 @@ You can export the results of an audit log search to a comma separated value (CS
 
 ## Audited activities
 
-The tables in this section describe the activities that are audited in Office 365. You can search for these events by searching the audit log in the Security & Compliance Center.
+The tables in this section describe the activities that are audited in Office 365. You can search for these events by searching the audit log in the security and compliance center.
   
 These tables group related activities or the activities from a specific Office 365 service. The tables include the friendly name that's displayed in the **Activities** drop-down list and the name of the corresponding operation that appears in the detailed information of an audit record and in the CSV file when you export the search results. For descriptions of the detailed information, see [Detailed properties in the Office 365 audit log](detailed-properties-in-the-office-365-audit-log.md).
   
@@ -467,7 +467,7 @@ The following table lists the activities that can be logged by mailbox audit log
   
 ### Retention policy and label activities
 
-The following table describes the activities related to retention policies and retention labels in the Security & Compliance Center. For more information, see:
+The following table describes the activities related to retention policies and retention labels in the security and compliance center. For more information, see:
 
 - [Overview of retention policies](retention-policies.md)
 - [Overview of retention labels](labels.md)
@@ -481,7 +481,7 @@ The following table describes the activities related to retention policies and r
 | Deleted retention configuration for a retention policy<br/> | RemoveRetentionComplianceRule<br/>| Administrator deletes the configuration settings of a retention policy. Most likely, this activity is logged when an administrator deletes a retention policy or runs the **Remove-RetentionComplianceRule** cmdlet.<br/> |
 | Deleted retention label <br/> |RemoveComplianceTag<br/>  | Administrator deletes a retention label.<br/>|
 | Deleted retention policy<br/> |RemoveRetentionCompliancePolicy<br/> |Administrator deletes a retention policy. <br/>  |
-| Enable regulatory compliance features<br/> |SetRestrictiveRetentionUI<br/> |Administrator enables regulatory compliance features by running the **Set-RegulatoryComplianceUI** cmdlet. After this cmdlet is run, administrators can lock a retention policy and specify a retention label as a regulatory record by using the Security & Compliance Center UI. Until an organization uses the **Set-RegulatoryComplianceUI** cmdlet to enable these features, locking a retention policy and creating an regulatory retention label can only be accomplished by using PowerShell. <br/>|
+| Enable regulatory compliance features<br/> |SetRestrictiveRetentionUI<br/> |Administrator enables regulatory compliance features by running the **Set-RegulatoryComplianceUI** cmdlet. After this cmdlet is run, administrators can lock a retention policy and specify a retention label as a regulatory record by using the security and compliance center UI. Until an organization uses the **Set-RegulatoryComplianceUI** cmdlet to enable these features, locking a retention policy and creating an regulatory retention label can only be accomplished by using PowerShell. <br/>|
 | Updated retention configuration for a retention policy<br/> | SetRetentionComplianceRule<br/>| Administrator changes the retention settings for an existing retention policy. Retention settings include how long items are retained, and what happens to items when the retention period expires (such as deleting items, retaining items, or retaining and then deleting them). This activity also corresponds to running the [Set-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/set-retentioncompliancerule) cmdlet. <br/>|
 | Updated retention label <br/> |SetComplianceTag<br/>  | Administrator updates an existing retention label.<br/>|
 | Updated retention policy<br/> |SetRetentionCompliancePolicy <br/>|Administrator updates an existing a retention policy. Updates that trigger this event include adding or excluding content locations that the retention policy is applied to.<br/>|
@@ -587,7 +587,7 @@ The following table lists Azure AD directory and domain related activities that 
    
 ### eDiscovery activities
   
-Content Search and eDiscovery-related activities that are performed in Office 365 Security & Compliance Center or by running the corresponding Windows PowerShell cmdlets are logged in the Office 365 audit log. This includes the following activities:
+Content Search and eDiscovery-related activities that are performed in the security and compliance center or by running the corresponding PowerShell cmdlets are logged in the audit log. This includes the following activities:
   
 - Creating and managing eDiscovery cases
     
@@ -686,7 +686,7 @@ The following table lists the user and admin activities in Yammer that are logge
    
 ### Microsoft Flow activities
 
-You can search the audit log for activities in Microsoft Flow. These activities include creating, editing and deleting flows, and changing flow permissions. For information about auditing for Flow activities, see the blog  [Microsoft Flow audit events now available in Office 365 Security & Compliance Center](https://flow.microsoft.com/blog/security-and-compliance-center).
+You can search the audit log for activities in Microsoft Flow. These activities include creating, editing and deleting flows, and changing flow permissions. For information about auditing for Flow activities, see the blog  [Microsoft Flow audit events now available in Security & Compliance Center](https://flow.microsoft.com/blog/security-and-compliance-center).
 
 ### Microsoft PowerApps
 
@@ -747,7 +747,7 @@ Also note that the duration of the retention period for audit records is based o
 
 Yes. The Office 365 Management Activity API is used to fetch the audit logs programmatically.  To get started, see [Get started with Office 365 Management APIs](https://docs.microsoft.com/office/office-365-management-api/get-started-with-office-365-management-apis).
 
-**Are there other ways to get auditing logs other than using the Office 365 Security & Compliance Center or the Office 365 Management Activity API?**
+**Are there other ways to get auditing logs other than using the security and compliance center or the Office 365 Management Activity API?**
 
 No. These are the only two ways to get data from the Office 365 auditing service. 
 

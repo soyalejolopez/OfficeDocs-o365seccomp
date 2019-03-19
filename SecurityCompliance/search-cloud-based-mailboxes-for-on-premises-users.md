@@ -71,7 +71,7 @@ After this feature is deployed in your Office 365 organization, the following ch
 
 After the feature has been enabled, you can use Content Search in the Security &amp; Compliance Center to search for Teams chat data in the cloud-based mailboxes for on-premises users. 
   
-1. In the Security &amp; Compliance Center, go to **Search &amp; investigation** \> **Content search**
+1. In the Security &amp; Compliance Center, go to **Search** \> **Content search**
     
 2. On the **Search** page, click ![Add icon](media/8ee52980-254b-440b-99a2-18d068de62d3.gif) **New search**.
     
