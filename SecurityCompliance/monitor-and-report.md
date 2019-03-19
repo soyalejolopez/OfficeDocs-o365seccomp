@@ -1,5 +1,5 @@
 ---
-title: Microsoft Secure Score
+title: Monitor and report security status
 description: Describes Microsoft 365 Secure Score, how details are calculated, and what security admins can expect using it.
 keywords: security, malware, Microsoft 365, M365, secure score, security center, improvement actions
 ms.prod: w10
@@ -36,7 +36,7 @@ Switch to Group by topic, to rearrange the cards and group them into the followi
 * **Configuration and health** – cards that cover the configuration and deployment of security controls, including device onboarding states to management services
 * **Other** – all other cards not categorized under other topics
 
-## Monitor and report identities in Microsoft 365 security
+## Monitor and report identities
 
 You can monitor the identities in your organization and keep track of suspicious or risky behaviors. In the Identities category of Monitoring & reports, you can track:
 
@@ -44,9 +44,11 @@ You can monitor the identities in your organization and keep track of suspicious
 * How many users are reported at risk by conditional access policies
 * The number of global admins in your org
 
+![Identities category of monitoring & reports page](./media/security-docs/identities.png)
+
 For users with specific detections, you can explore the specific alert and investigate in Windows Defender security center. Detections include anomalies such as users who sign in from unfamiliar locations. For a complete set of risk events, see [Azure Active Directory risk events](https://docs.microsoft.com/azure/active-directory/reports-monitoring/concept-risk-events).
 
-## Monitor and report data in Microsoft 365 security
+## Monitor and report data
 
 The Data category helps track user activity that could lead to unauthorized data disclosure. These are the rework of existing Office 365 DLP policy reports plus a 3rd party DLP policy match report. You can see:
 
@@ -55,7 +57,9 @@ The Data category helps track user activity that could lead to unauthorized data
 * How many DLP policies overrides or false positives are reported
 * How many DLP policy matches happened in 3rd party cloud services via Microsoft Cloud App Security
 
-## Monitor devices in Microsoft 365 security
+![Data category of monitoring & reports page](./media/security-docs/data.png)
+
+## Monitor devices
 
 Keep your devices secure, up-to-date, and spot potential threats in the Microsoft 365 security center.
 
@@ -69,11 +73,15 @@ Each Windows Defender ATP alert has a corresponding severity—high, medium, low
 
 Use the **Device alert severity** card to focus specifically on alerts that are more severe and might require immediate response. From this card, you can view more information on the Windows Defender Security Center portal.
 
+![Device alerts severity card](./media/security-docs/device-alerts-severity.png)
+
 #### Understand sources of alerts
 
 Windows Defender ATP leverages data from a broad range of security sensors and intelligence sources to generate alerts. For example, it can use detection information from Windows Defender Antivirus and third-party antimalware, as well as your own custom threat intelligence provided through the web service API.
 
 The **Device alert detection** sources card shows the distribution of alerts by source. This card can help you track activity related to certain sources, particularly your custom sources. You can also use this to focus on alerts coming from sensors that are not configured to automatically block malicious activity or components.
+
+![Device alert detection sources card](./media/security-docs/device-alert-detection-sources.png)
 
 From this card, you can view more information on the Windows Defender Security Center portal.
 
@@ -82,6 +90,8 @@ From this card, you can view more information on the Windows Defender Security C
 Windows Defender ATP sorts each alert into a category representing a certain stage in the attack chain or a type of threat component. For example, detected threat activity might be categorized into “lateral movement” to indicate that the activity involved an attempt to reach other devices on the network and has likely occurred after attackers have gained an initial foothold. When detected, a threat component might either be classified broadly as “malware” or more specifically as “ransomware”, “credential stealing” or other types of malicious or unwanted software.
 
 The **Device threat categories** card shows the distribution of alerts into these categories. You can use this information to identify threat activity, such as attempts at credential theft, which can have more significant impact compared to attempts at social engineering, for example. You can also use this to monitor for potentially destructive threats like ransomware.
+
+![Device alert detection sources card](./media/security-docs/device-threat-categories.png)
 
 #### Monitor active alerts
 

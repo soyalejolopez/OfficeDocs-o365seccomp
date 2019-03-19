@@ -19,6 +19,8 @@ ms.topic: article
 
 Hunting provides security teams a view into possible threats in your organization across email and data, devices, and identities. Within Windows Defender ATP, Office 365 ATP, and Azure ATP portals you can look for compromised accounts, file less malware, suspicious emails, and more.
 
+![Hunting page](./media/security-docs/hunt.png)
+
 Learn more:
 
 * [Devices](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-atp/advanced-hunting-windows-defender-advanced-threat-protection) in Windows Defender Advanced Threat Protection
