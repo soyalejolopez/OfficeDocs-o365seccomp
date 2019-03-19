@@ -114,7 +114,7 @@ To learn more about your anti-phishing policy options, see [Set up Office 365 AT
     - In the **Allow lists** section, review (and if necessary, edit) your allowed senders and domains.
 4. Click **Save**.
 
-To learn more, see [Configure the anti-spam policies](configure-the-anti-spam-policies.md).
+To learn more about your anti-spam policy options, see [Configure the anti-spam policies](configure-the-anti-spam-policies.md).
 
 ## 5 - Service-wide settings
 
@@ -128,7 +128,7 @@ To learn more, see [Zero-hour auto purge - protection against spam and malware](
 
 ### Audit logging
 
-In order to view data in threat protection reports, such as the Security Dashboard and Explorer, audit logging must be turned on for your organization.
+In order to view data in threat protection reports, such as the [Security Dashboard](security-dashboard.md) and [Explorer](use-explorer-in-security-and-compliance.md), audit logging must be turned on for your organization.
 
 To learn more, see [Turn Office 365 audit log search on or off](turn-audit-log-search-on-or-off.md).
 
