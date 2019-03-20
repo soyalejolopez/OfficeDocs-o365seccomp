@@ -3,7 +3,7 @@ title: "Get ready for Microsoft 365 security and compliance"
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 03/14/2019
+ms.date: 03/20/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -32,9 +32,9 @@ Once the Microsoft 365 security center is enabled for your tenant, you will be a
 
 ## Microsoft 365 compliance center
 
-Your new Microsoft 365 compliance center provides you with visibility into Microsoft Compliance Manager, which reflects your overall compliance posture and gives you recommended actions to help you configure settings to meet complex compliance obligations. You’ll have easy access to sensitivity and retention labels and policies, data loss prevention (DLP), data governance, eDiscovery, data subject requests (DSRs), case management, and Cloud App Security. Additionally, you can gain actionable insights and leverage intelligent automation to reduce your compliance risks and safeguard your digital estate. 
+Your new [Microsoft 365 compliance center](microsoft-365-compliance-center.md) provides you with visibility into Microsoft Compliance Manager, which reflects your overall compliance posture and gives you recommended actions to help you configure settings to meet complex compliance obligations. You’ll have easy access to sensitivity and retention labels and policies, data loss prevention (DLP), data governance, eDiscovery, data subject requests (DSRs), case management, and Cloud App Security. Additionally, you can gain actionable insights and leverage intelligent automation to reduce your compliance risks and safeguard your digital estate. 
 
-![Microsoft 365 compliance center](media/m365-compliance-center.png)
+[![Microsoft 365 compliance center](media/m365-compliance-center.png) "Microsoft 365 compliance center"]([Welcome to your all-new Microsoft 365 compliance center](microsoft-365-compliance-center.md))
 
 When you use the Microsoft 365 compliance center for the first time, you'll see information across the top of the screen to help you get started. You'll see how to navigate easily to the compliance features you're most interested in exploring.
 
