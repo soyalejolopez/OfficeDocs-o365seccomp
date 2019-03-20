@@ -51,7 +51,7 @@ You create and manage DLP policies on the Data loss prevention page in the Offic
 
 A DLP policy contains a few basic things:
   
-- Where to protect the content - **locations** such as Exchange Online, SharePoint Online, and OneDrive for Business sites. 
+- Where to protect the content - **locations** such as Exchange Online, SharePoint Online, and OneDrive for Business sites, as well as Microsoft Teams chats and channels. 
     
 - When and how to protect the content by enforcing **rules** comprised of: 
     
