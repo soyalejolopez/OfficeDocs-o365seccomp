@@ -13,7 +13,7 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 9701a024-c52e-43f0-b545-9a53478aec04
-description: "Use the Search Statistics feature to display and compare statistics for multiple Content Searches in Office 365 Security &amp; Compliance Center. You can also configure the keyword list when you create or edit a search query to get enhanced statistics that show how many items matched each keyword or keyword phrase."
+description: "Use the Search Statistics feature to display and compare statistics for multiple Content Searches in Security & Compliance Center. You can also configure the keyword list when you create or edit a search query to get enhanced statistics that show how many items matched each keyword or keyword phrase."
 ---
 
 # View keyword statistics for Content Search results
@@ -28,7 +28,7 @@ You can also download the search statistics and keyword statistics to a CSV file
 
 To display statistics for Content Searches:
   
-1. In the Office 365 Security &amp; Compliance Center, go to **Search** \> **Content search**.
+1. In the Security & Compliance Center, go to **Search** \> **Content search**.
     
 2. In the list of searches, select one or more searches, and then click **Search statistics**![Search Statistics button](media/9bf56d43-25bf-4f53-a4be-f4d55102310c.png).
     
@@ -100,7 +100,7 @@ As previous explained, the **Queries** page shows the search query and the numbe
 
 To create a keyword list and view keyword statistics for a Content Search:
   
-1. In the Office 365 Security &amp; Compliance Center, go to **Search** \> **Content search**.
+1. In the Security & Compliance Center, go to **Search** \> **Content search**.
     
 2. In the list of Content Searches, click and a search, and then click **Edit** ![Edit icon](media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif).
     
