@@ -3,7 +3,7 @@ title: "Find and investigate malicious email that was delivered (Office 365 Thre
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 03/18/2019
+ms.date: 03/19/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -14,21 +14,21 @@ search.appverid:
 ms.assetid: 8f54cd33-4af7-4d1b-b800-68f8818e5b2a
 ms.collection: 
 - M365-security-compliance
-description: "Learn how to use Threat investigation and response to find and investigate malicious email."
+description: "Learn how to use threat investigation and response capabilities to find and investigate malicious email."
 ---
 
-# Find and investigate malicious email that was delivered (Office 365 Threat investigation and response)
+# Find and investigate malicious email that was delivered (Office 365 Advanced Threat Protection Plan 2)
 
-[Office 365 Threat investigation and response capabilities](office-365-ti.md) enable you to investigate activities that put your users at risk and take action to protect your organization. For example, if you are part of your organization's security team, you can find and investigate suspicious email messages that were delivered to your users. You can do this by using [Threat Explorer](get-started-with-ti.md#threat-explorer).
+[Office 365 Advanced Threat Protection Plan 2](office-365-ti.md) enables you to investigate activities that put your users at risk and take action to protect your organization. For example, if you are part of your organization's security team, you can find and investigate suspicious email messages that were delivered to your users. You can do this by using [Threat Explorer](get-started-with-ti.md#threat-explorer).
   
 > [!IMPORTANT]
-> Office 365 Threat Intelligence is now Office 365 Advanced Threat Protection Plan 2, with additional threat protection capabilities. To learn more, see [Office 365 Advanced Threat Protection plans and pricing](https://products.office.com/exchange/advance-threat-protection) and the [Office 365 Advanced Threat Protection Service Description](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description).
+> Office 365 Threat Intelligence is now Office 365 Advanced Threat Protection Plan 2, along with additional threat protection capabilities. To learn more, see [Office 365 Advanced Threat Protection plans and pricing](https://products.office.com/exchange/advance-threat-protection) and the [Office 365 Advanced Threat Protection Service Description](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description).
   
 ## Before you begin...
 
 Make sure that the following requirements are met:
   
-- Your organization has [Office 365 Advanced Threat Protection Plan 2](office-365-ti.md) and [licenses are assigned to users](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users).
+- Your organization has [Office 365 Advanced Threat Protection Plan 2](office-365-ti.md) and [Assign licenses to users in Office 365 for business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
     
 - [Office 365 audit logging](turn-audit-log-search-on-or-off.md) is turned on for your organization. 
     
@@ -65,7 +65,7 @@ Malicious attackers may be sending mail to your users to try and phish their cre
   
 ## Related topics
 
-[Office 365 Threat investigation and response](office-365-ti.md)
+[Office 365 Advanced Threat Protection Plan 2](office-365-ti.md)
   
 [Protect against threats in Office 365](protect-against-threats.md)
   
