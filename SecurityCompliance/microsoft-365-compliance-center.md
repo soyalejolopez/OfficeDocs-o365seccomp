@@ -3,7 +3,7 @@ title: "Welcome to your all-new new Microsoft 365 compliance center"
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 02/28/2019
+ms.date: 03/20/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -63,11 +63,11 @@ In addition to links in widgets, you'll find a navigation pane on the left side 
 
 ## How do I get this?
 
-To visit the Microsoft 365 compliance center, as a global administrator or compliance administrator, go to [https://compliance.microsoft.com](https://compliance.microsoft.com) and sign in. 
+- If you don't have the new Microsoft 365 compliance center already, you will have it soon. The [new Microsoft 365 compliance center](microsoft-security-and-compliance.md#microsoft-365-compliance-center) is rolling out now!
 
-If you don't have the new Microsoft 365 compliance center already, you will have it soon. The [new Microsoft 365 compliance center](microsoft-security-and-compliance.md#microsoft-365-compliance-center) is rolling out now!
+- To visit the Microsoft 365 compliance center, as a global administrator or compliance administrator, go to [https://compliance.microsoft.com](https://compliance.microsoft.com) and sign in. 
 
-To learn more about requirements, see [Required licenses and permissions](microsoft-security-and-compliance.md#required-licenses-and-permissions).
+- To learn more about requirements, see [Required licenses and permissions](microsoft-security-and-compliance.md#required-licenses-and-permissions).
 
 ## Next steps
 
