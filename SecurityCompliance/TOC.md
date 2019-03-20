@@ -3,8 +3,9 @@
 ## [Configure your Office 365 tenant for increased security](tenant-wide-setup-for-increased-security.md)
 ## [Go to the Security & Compliance Center](go-to-the-securitycompliance-center.md)
 ## [Get ready for the new Microsoft 365 security center and Microsoft 365 compliance center](microsoft-security-and-compliance.md)
+## [Microsoft 365 security center](overview-security-center.md)
+### [Microsoft Secure Score](microsoft-secure-score.md)
 ## [Office 365 Secure Score](office-365-secure-score.md)
-## [Microsoft Secure Score](microsoft-secure-score.md)
 ## [Permissions in the Security & Compliance Center](permissions-in-the-security-and-compliance-center.md)
 ## [Give users access to the Security & Compliance Center](grant-access-to-the-security-and-compliance-center.md)
 ## [Security Dashboard overview](security-dashboard.md)
@@ -12,6 +13,17 @@
 ## [Plan for security and compliance in Office 365](plan-for-security-and-compliance.md)
 # Protect access to data and services
 ## [Protect access to data and services in Office 365](protect-access-to-data-and-services.md)
+
+# Protect against threats
+## [Hunting in Microsoft 365](hunting.md)
+## [Learn about the latest malware campaigns](latest-malware-campaigns.md)
+
+# Monitor Security and Compliance
+## [Microsoft 365 security center monitoring and reporting](monitoring-and-reporting.md)
+### [Monitor and report identities in Microsoft 365 security](monitor-and-report-identities.md)
+### [Monitor data in Microsoft 365 security](monitor-data.md)
+### [Monitor devices in Microsoft 365 security](monitor-devices.md)
+### [Monitor apps in Microsoft 365 security](monitor-apps.md)
 
 # Protect information
 ## [Sensitivity labels](sensitivity-labels.md)
