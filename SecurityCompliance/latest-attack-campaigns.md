@@ -1,7 +1,7 @@
 ---
-title: Protect against threats in Microsoft 365 security center
-description: Describes Microsoft 365 Secure Score, how details are calculated, and what security admins can expect using it.
-keywords: security, malware, Microsoft 365, M365, secure score, security center, improvement actions
+title: Understand the latest attack campaigns and techniques with threat analytic
+description: Describes threat analytics interactive reports
+keywords: security, malware, Microsoft 365, M365, security center, threat analytics, Windows Defender ATP, cyber, security posture, emerging threats
 ms.prod: w10
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium

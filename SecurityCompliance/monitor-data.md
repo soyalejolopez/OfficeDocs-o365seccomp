@@ -1,7 +1,7 @@
 ---
-title: Monitor and report security status
-description: Describes Microsoft 365 Secure Score, how details are calculated, and what security admins can expect using it.
-keywords: security, malware, Microsoft 365, M365, secure score, security center, improvement actions
+title: Monitor and report data in Microsoft 365 security
+description: Describes how you can track user activity that could lead to unauthorized data disclosure.
+keywords: security, malware, Microsoft 365, M365, security center, monitor, report, data
 ms.prod: w10
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
@@ -13,9 +13,11 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ---
 
-# Monitor and report data
+# Monitor and report data in Microsoft 365 security
 
-The Data category helps track user activity that could lead to unauthorized data disclosure. These are the rework of existing Office 365 DLP policy reports plus a 3rd party DLP policy match report. You can see:
+The **Data** category helps track user activity that could lead to unauthorized data disclosure. These are the rework of existing Office 365 DLP policy reports plus a 3rd party DLP policy match report.
+
+You can see:
 
 * Users who share the most files from cloud apps
 * How many DLP policy matches occurred

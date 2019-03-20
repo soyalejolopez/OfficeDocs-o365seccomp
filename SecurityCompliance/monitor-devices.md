@@ -1,7 +1,7 @@
 ---
-title: Monitor and report security status
-description: Describes Microsoft 365 Secure Score, how details are calculated, and what security admins can expect using it.
-keywords: security, malware, Microsoft 365, M365, secure score, security center, improvement actions
+title: Monitor devices in Microsoft 365 security
+description: Describes how you can keep your devices secure, up-to-date, and spot potential threats in your organization
+keywords: security, malware, Microsoft 365, M365, security center, monitor, report, devices
 ms.prod: w10
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
@@ -13,7 +13,7 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ---
 
-# Monitor devices
+# Monitor devices in Microsoft 365 security
 
 Keep your devices secure, up-to-date, and spot potential threats in the Microsoft 365 security center.
 
@@ -49,7 +49,7 @@ The **Device threat categories** card shows the distribution of alerts into thes
 
 ### Monitor active alerts
 
-The **Device alert status card** indicates the number of alerts that have not been resolved and might require attention. From this card, you can view more information on the Windows Defender Security Center portal.
+The **Device alert status** card indicates the number of alerts that have not been resolved and might require attention. From this card, you can view more information on the Windows Defender Security Center portal.
 
 ![Device alert status card](./media/security-docs/device-alert-status.png)
 
@@ -72,16 +72,16 @@ In addition to classifying whether an alert is true or false during resolution, 
 
 The **Device alert determination** card shows the determination provided for each alert, specifically:
 
-* APT** – advanced persistent threat, indicating that the detected activity or threat component is part of a sophisticated breach designed to gain a foothold in the affected network  
+* **APT** – advanced persistent threat, indicating that the detected activity or threat component is part of a sophisticated breach designed to gain a foothold in the affected network  
 * **Malware** – malicious file or code
 * **Security personnel** – normal activity performed by security staff
 * **Security testing** – activity or components designed to simulate actual threats and expected to trigger security sensors and generate alerts
 * **Unwanted software** – apps and other software that are not considered malicious, but otherwise violate policy or acceptable use standards
 * **Others** – any other determination that does not fall under the provided types
 
-![Device alert determination card](./media/security-docs/device-alert-determination.png)
-
 From this card, you can view more information in Windows Defender security center.
+
+![Device alert determination card](./media/security-docs/device-alert-determination.png)
 
 ### Understand which devices are at risk
 
@@ -108,13 +108,13 @@ Intune enrolled device data includes:
 
 ![Device compliance card](./media/security-docs/device-compliance.png)
 
-#### Discover devices with malware detections
+### Discover devices with malware detections
 
 **Device malware detections** provides the number of Intune enrolled devices with malware that have not been fully resolved due to pending actions—a restart, a full scan or manual user actions—or if the remediation action did not complete successfully.
 
 ![Device malware detections card](./media/security-docs/device-malware-detections.png)
 
-#### Understand the types of malware detected
+### Understand the types of malware detected
 
 **Types of malware on devices** shows different kinds of malware that have been detected on devices enrolled in Intune. You can investigate each type in Microsoft 365 security center.
 
@@ -148,7 +148,7 @@ The **Attack surface reduction rules** card provides an overview of the deployme
 
 The top bar on the card shows the total number of devices that are in the following deployment modes:
 
-* **Block mode** – devices with at least one rule configured to block detected activity 
+* **Block mode** – devices with at least one rule configured to block detected activity
 * **Audit mode** – devices with no rules set to block detected activity, but has at least one rule set to audit detected activity  
 * **Off** – devices with all ASR rules turned off
 
@@ -192,4 +192,4 @@ The table lists all the file names detected by your attack surface reduction rul
 
 To get a list of the selected files with their full paths for exclusion, select **Get exclusion paths**.
 
-For more information about exclusions and detailed instructions about how to add them, read [Troubleshoot attack surface reduction rules](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-exploit-guard/troubleshoot-asr).
+For more information about exclusions and detailed instructions about how to add them, read [troubleshoot attack surface reduction rules](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-exploit-guard/troubleshoot-asr).

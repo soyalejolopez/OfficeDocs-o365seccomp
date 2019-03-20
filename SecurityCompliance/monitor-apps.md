@@ -1,7 +1,7 @@
 ---
-title: Monitor and report security status
-description: Describes Microsoft 365 Secure Score, how details are calculated, and what security admins can expect using it.
-keywords: security, malware, Microsoft 365, M365, secure score, security center, improvement actions
+title: Monitor and report app status in Microsoft 365 security
+description: Describes how you can gain more insight into cloud app use in your organization
+keywords: security, malware, Microsoft 365, M365, security center, monitor, report, apps
 ms.prod: w10
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
@@ -19,7 +19,7 @@ These reports provide more insight into how cloud apps are being used in your or
 
 ## Monitor email accounts at risk
 
-Email protection shows email accounts at risk. You can click an account to investigate further in Windows Defender security center.
+**Email protection** shows email accounts at risk. You can click an account to investigate further in Windows Defender Security Center.
 
 ![Email protection card](./media/security-docs/email-protection.png)
 
@@ -51,7 +51,7 @@ The risk factors start from general information, such as the app publisher, to s
 
 ## Monitor health for infrastructure workloads
 
-Infrastructure health shows health status alerts for infrastructure workloads in Azure Security Center.
+**Infrastructure health** shows health status alerts for infrastructure workloads in Azure Security Center.
 
 Azure Security Center provides unified security management and advanced threat protection across on-premises and cloud workloads. You can collect, search, and analyze security data from a variety of sources, including firewalls and other partner solutions.
 

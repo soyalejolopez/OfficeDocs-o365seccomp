@@ -1,7 +1,7 @@
 ---
 title: Overview of the Microsoft 365 security center
-description: Describes Microsoft 365 Secure Score, how details are calculated, and what security admins can expect using it.
-keywords: security, malware, Microsoft 365, M365, secure score, security center, improvement actions
+description: Describes the new home for monitoring and managing security across your Microsoft identities, data, devices, and apps.
+keywords: security, malware, Microsoft 365, M365, security center, monitor, report, identities, data, devices, apps
 ms.prod: w10
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
@@ -27,30 +27,28 @@ Visit the Microsoft 365 security center at security.microsoft.com.
 
 ## Let's take a closer look
 
-The Home page shows many of the common cards that security teams need. The composition of cards and data is dependent on the user role. Because the Microsoft 365 security center uses role-based access control, different roles will see cards that are more meaningful to their day to day jobs.  
+The **Home** page shows many of the common cards that security teams need. The composition of cards and data is dependent on the user role. Because the Microsoft 365 security center uses role-based access control, different roles will see cards that are more meaningful to their day to day jobs.  
 
 This at-a-glance information helps you keep up with the latest activities in your organization. The Microsoft 365 security center brings together signals from a variety of sources to present a holistic view of your Microsoft 365 environment.
 
 ![Microsoft 365 security homepage](./media/security-docs/home.jpg)
 
-The Microsoft 365 security center pages include:
+The Microsoft 365 security center includes:
 
 * **Home** – Get at-a-glance view of the overall security health of your organization.
 * **Alerts** – Have greater visibility into all the alerts across your Microsoft 356 environment, including alerts from Microsoft Cloud App Security, Office 365 ATP, Azure AD, and Windows Defender ATP. Available to E3 and E5 customers.  
 * **Monitoring & reports** – Get the detail and information you need to better protect your users, devices, apps, and more. 
 * **Secure score** – Improve your overall security posture with Microsoft Secure Score. This page provides an all up summary of the different security features and capabilities you’ve enabled and includes recommendations for areas to improve.
 * **Hunting** – Proactively search for malware, suspicious files, and activities in your Microsoft 365 organization.
-* **Classification** – Help protect data loss by adding labels to classify documents, email messages, documents, sites, and more. When a label is applied (automatically or by the user), the content or site is protected based on the settings you choose. For example, you can create labels that encrypt files, add content marking, and control user access to specific sites. Learn more about sensitivity labels.
-* **Policies** - Set up policies to manage devices, protect against threats, and receive alerts about various activities in your org. Learn more about these policies.
+* **Classification** – Help protect data loss by adding labels to classify documents, email messages, documents, sites, and more. When a label is applied (automatically or by the user), the content or site is protected based on the settings you choose. For example, you can create labels that encrypt files, add content marking, and control user access to specific sites.
+* **Policies** - Set up policies to manage devices, protect against threats, and receive alerts about various activities in your org.
 * **Permissions** - Manage who in your organization has access to Microsoft 365 security center to view content and perform tasks. You can also assign Microsoft 365 permissions in the Azure AD Portal.
 
 ## Learn more
 
-Explore these new and improved tools for monitoring, reviewing, and responding to your security needs.
+Explore these topics about monitoring, reviewing, and responding to your security needs:
 
-* [Review and improve your security posture holistically with Microsoft Secure Score](microsoft-secure-score.md)
-* [Monitor and report the status of your identities, data, devices, apps, and infrastructure](monitoring-and-reporting.md)
-* [Proactively hunt for intrusion attempts and breach activity affecting your email, data, devices, and accounts](hunting.md)
-* [Understand the latest attack campaigns and techniques with threat analytics](latest-attack-campaigns.md)
-* Classification
-* Policies
+* Review and improve your security posture holistically with [Microsoft Secure Score](microsoft-secure-score.md)
+* [Monitor and report](monitoring-and-reporting.md) the status of your identities, data, devices, apps, and infrastructure
+* [Proactively hunt](hunting.md) for intrusion attempts and breach activity affecting your email, data, devices, and accounts
+* [Understand the latest attack campaigns](latest-attack-campaigns.md) and techniques with threat analytics
