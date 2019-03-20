@@ -23,7 +23,7 @@ To comply with business standards and industry regulations, organizations need t
   
 With a DLP policy, you can:
   
-- **Identify sensitive information across many locations, such as Exchange Online, SharePoint Online, and OneDrive for Business.**
+- **Identify sensitive information across many locations, such as Exchange Online, SharePoint Online, OneDrive for Business, and Microsoft Teams.**
     
     For example, you can identify any document containing a credit card number that's stored in any OneDrive for Business site, or you can monitor just the OneDrive sites of specific people.
     
@@ -31,9 +31,9 @@ With a DLP policy, you can:
     
     For example, you can identify any document or email containing a health record that's shared with people outside your organization, and then automatically block access to that document or block the email from being sent.
     
-- **Monitor and protect sensitive information in the desktop versions of Excel 2016, PowerPoint 2016, and Word 2016.**
+- **Monitor and protect sensitive information in the desktop versions of Excel, PowerPoint, and Word.**
     
-    Just like in Exchange Online, SharePoint Online, and OneDrive for Business, these Office 2016 desktop programs include the same capabilities to identify sensitive information and apply DLP policies. DLP provides continuous monitoring when people share content in these Office 2016 programs.
+    Just like in Exchange Online, SharePoint Online, and OneDrive for Business, these Office desktop programs include the same capabilities to identify sensitive information and apply DLP policies. DLP provides continuous monitoring when people share content in these Office 2016 programs.
     
 - **Help users learn how to stay compliant without interrupting their workflow.**
     
@@ -67,7 +67,7 @@ For example, you might have a DLP policy that helps you detect the presence of i
   
 ### Locations
 
-A DLP policy can find and protect sensitive information across Office 365, whether that information is located in Exchange Online, SharePoint Online, or OneDrive for Business. You can easily choose to protect all SharePoint sites or OneDrive accounts, just specific sites or accounts, or all mailboxes. Note that it's not yet possible to select just the mailboxes of specific users.
+A DLP policy can find and protect sensitive information across Office 365, whether that information is located in Exchange Online, SharePoint Online, OneDrive for Business, or Microsoft Teams. You can easily choose to protect all SharePoint sites or OneDrive accounts, just specific sites or accounts, or all mailboxes. Note that it's not yet possible to select just the mailboxes of specific users.
   
 ![Options for locations where a DLP policy can be applied](media/ee50a61a-e867-4571-a150-3eec8d83650f.png)
   
@@ -147,7 +147,7 @@ In addition to sending an email notification, a user notification displays a pol
     
 - For the document on a SharePoint Online or OneDrive for Business site.
     
-- In Excel 2016, PowerPoint 2016, and Word 2016, when the document is stored on a site included in a DLP policy.
+- In Excel, PowerPoint, and Word, when the document is stored on a site included in a DLP policy.
     
 The email notification and policy tip explain why content conflicts with a DLP policy. If you choose, the email notification and policy tip can allow users to override a rule by reporting a false positive or providing a business justification. This can help you educate users about your DLP policies and enforce them without preventing people from doing their work. Information about overrides and false positives is also logged for reporting (see below about the DLP reports) and included in the incident reports (next section), so that the compliance officer can regularly review this information.
   
@@ -429,7 +429,7 @@ After you create a DLP policy in the Security &amp; Compliance Center, it's stor
     
 - SharePoint Online sites
     
-- Office 2016 desktop programs (Excel 2016, PowerPoint 2016, and Word 2016)
+- Office desktop programs (Excel, PowerPoint, and Word)
     
 After the policy's synced to the right locations, it starts to evaluate content and enforce actions.
   
@@ -455,7 +455,7 @@ When a message is being composed in Outlook, the user can see policy tips as the
   
 ### Policy evaluation in the Office 2016 desktop programs
 
-Excel 2016, PowerPoint 2016, and Word 2016 include the same capability to identify sensitive information and apply DLP policies as SharePoint Online and OneDrive for Business. These Office 2016 programs sync their DLP policies directly from the central policy store, and then continuously evaluate the content against the DLP policies when people work with documents opened from a site that's included in a DLP policy.
+Excel, PowerPoint, and Word include the same capability to identify sensitive information and apply DLP policies as SharePoint Online and OneDrive for Business. These Office 2016 programs sync their DLP policies directly from the central policy store, and then continuously evaluate the content against the DLP policies when people work with documents opened from a site that's included in a DLP policy.
   
 DLP policy evaluation in Office 2016 is designed not to affect the performance of the programs or the productivity of people working on content. If they're working on a large document, or the user's computer is busy, it might take a few seconds for a policy tip to appear.
   
