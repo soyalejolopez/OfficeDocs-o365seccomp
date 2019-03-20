@@ -171,6 +171,8 @@ The chart at the top of the page shows detections over time stacking detections 
 
 In the **Attack surface reduction rules** report page, go to the **Configuration** tab to review rule settings for individual devices. Select a device to get detailed information about whether each rule is in block mode, audit mode, or turned off entirely.
 
+![Configuration tab](./media/security-docs/configuration-tab.png)
+
 Microsoft Intune provides management functionality for your ASR rules. If you want to update your settings, select **Get started** under **Configure devices** in the tab to open device management on Intune.
 
 ### Exclude files from ASR rules
@@ -180,6 +182,8 @@ By excluding files from detections, you can prevent unwanted false positive dete
 While file exclusions for attack surface reduction rules are managed on Microsoft Intune, Microsoft 365 security center provides an analysis tool to help you understand the files that are triggering detections. It also helps collect the names of the files you might want to exclude.
 
 To start analyzing detections and collecting files for exclusion, go to the **Add exclusions** tab in the **Attack surface reduction rules** report page.
+
+![Add exclusions tab](./media/security-docs/add-exclusions-tab.png)
 
 The table lists all the file names detected by your attack surface reduction rules. Once you select a file or multiple files, you can review the impact of adding those files to your exceptions:
 
