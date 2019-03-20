@@ -101,12 +101,12 @@
 ### [Watch videos from the Microsoft Data Governance team](https://go.microsoft.com/fwlink/?linkid=867039)
 
 # [Protect against threats](protect-against-threats.md)
+## [Quick Start Guide: Set up Office 365 Advanced Threat Protection](checklist-atp-setup.md)
 ## [Anti-spam and anti-malware protection](anti-spam-and-anti-malware-protection.md)
 ### [Overview of EOP](videos-for-getting-started-with-protecting-your-email.md)
 ### [Office 365 email anti-spam protection](anti-spam-protection.md)
 ### [How to prevent real email from being marked as spam in Office 365](prevent-email-from-being-marked-as-spam.md)
 ### [How to reduce spam email in Office 365](reduce-spam-email.md)
-### [Prevent email from being marked as spam in EOP and Office 365](prevent-email-from-being-marked-as-spam-0.md)
 ### [Controlling outbound spam in Office 365](outbound-spam-controls.md)
 ### [Block email spam with the Office 365 spam filter to prevent false negative issues](reduce-spam-email.md)
 ### [Zero-hour auto purge - protection against spam and malware](zero-hour-auto-purge.md)
