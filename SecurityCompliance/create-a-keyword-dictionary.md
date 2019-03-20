@@ -34,16 +34,27 @@ The keywords for your dictionary could come from a variety of sources, most comm
 Use the following steps to create and import keywords for a custom dictionary:
 
 1. Connect to the [Security & Compliance center](https://protection.office.com).
+
 2. Navigate to **Classifications > Sensitive info types**.
+
 3. Select **Create** and enter a **Name** and **Description** for your sensitive info type, then select **Next**
+
 4. Select **Add an element**, then select **Dictionary (Large keywords)** in the **Detect content containing** drop-down list.
+
 5. Select **Add a dictionary**
+
 6. Under the Search control, select **You can create new keyword dictionaries here**.
+
 7. Enter a **Name** for your custom dictionary.
+
 8. Select **Import**, and select either **From text** or **From csv** depending on your keyword file type.
+
 9. In the file dialog, select the keyword file from your local PC or network file share, then select **Open**.
+
 10. Select **Save**, then select your custom dictionary from the **Keyword dictionaries** list.
+
 11. Select **Add**, then select **Next**.
+
 12. Review and finalize your sensitive info type selections, then select **Finish**.
     
 ## Create a keyword dictionary from a file using PowerShell
