@@ -12,17 +12,6 @@
 ## [Use your free Azure Active Directory subscription](use-your-free-azure-ad-subscription-in-office-365.md)
 ## [Plan for security and compliance in Office 365](plan-for-security-and-compliance.md)
 
-# Protect against threats
-## [Hunting in Microsoft 365](hunting.md)
-## [Learn about the latest malware campaigns](latest-malware-campaigns.md)
-
-# Monitor security and compliance
-## [Microsoft 365 security center monitoring and reporting](monitoring-and-reporting.md)
-### [Monitor and report identities in Microsoft 365 security](monitor-and-report-identities.md)
-### [Monitor data in Microsoft 365 security](monitor-data.md)
-### [Monitor devices in Microsoft 365 security](monitor-devices.md)
-### [Monitor apps in Microsoft 365 security](monitor-apps.md)
-
 # Protect access to data and services
 ## [Protect access to data and services in Office 365](protect-access-to-data-and-services.md)
 
@@ -101,6 +90,8 @@
 ### [Watch videos from the Microsoft Data Governance team](https://go.microsoft.com/fwlink/?linkid=867039)
 
 # [Protect against threats](protect-against-threats.md)
+## [Hunt in Microsoft 365](hunting.md)
+## [Understand latest attack campaigns with threat analytics](latest-attack-campaigns.md)
 ## [Quick Start Guide: Set up Office 365 Advanced Threat Protection](checklist-atp-setup.md)
 ## [Anti-spam and anti-malware protection](anti-spam-and-anti-malware-protection.md)
 ### [Overview of EOP](videos-for-getting-started-with-protecting-your-email.md)
@@ -389,6 +380,11 @@
 ## [Search for eDiscovery activities in the audit log](search-for-ediscovery-activities-in-the-audit-log.md)
 
 # Monitor security and compliance
+## [Microsoft 365 security center monitoring and reporting](monitoring-and-reporting.md)
+### [Monitor and report identities in Microsoft 365 security](monitor-and-report-identities.md)
+### [Monitor data in Microsoft 365 security](monitor-data.md)
+### [Monitor devices in Microsoft 365 security](monitor-devices.md)
+### [Monitor apps in Microsoft 365 security](monitor-apps.md)
 ## [Alert policies](alert-policies.md)
 ## [Smart reports and insights in the Security & Compliance Center](reports-and-insights-in-security-and-compliance.md)
 ### [View email security reports in the Security & Compliance Center](view-email-security-reports.md)

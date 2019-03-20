@@ -48,8 +48,9 @@ The Microsoft 365 security center pages include:
 
 Explore these new and improved tools for monitoring, reviewing, and responding to your security needs.
 
-* Review and improve your security posture holistically with Microsoft Secure Score
-* Monitor and report the status of your identities, data, devices, apps, and infrastructure
-* Proactively hunt for intrusion attempts and breach activity affecting your email, data, devices, and accounts
+* [Review and improve your security posture holistically with Microsoft Secure Score](microsoft-secure-score.md)
+* [Monitor and report the status of your identities, data, devices, apps, and infrastructure](monitoring-and-reporting.md)
+* [Proactively hunt for intrusion attempts and breach activity affecting your email, data, devices, and accounts](hunting.md)
+* [Understand the latest attack campaigns and techniques with threat analytics](latest-attack-campaigns.md)
 * Classification
 * Policies
