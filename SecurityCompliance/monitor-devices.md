@@ -87,6 +87,8 @@ From this card, you can view more information in Windows Defender security cente
 
 **Device protection** shows the risk level for devices. The risk level is based on factors such as the type and severity of alerts on the device.
 
+![Device protection card](./media/security-docs/device-protection.png)
+
 ## Monitor and report status of Intune-managed devices
 
 The following monitoring and reports contain data from devices enrolled in Intune. Data from unenrolled devices is not included. Only Global Administrators can view these cards.
@@ -102,31 +104,45 @@ Intune enrolled device data includes:
 
 ### Monitor device compliance
 
-**Device compliance** shows how many devices that are enrolled in Intune comply with configuration policies.  
+**Device compliance** shows how many devices that are enrolled in Intune comply with configuration policies.
+
+![Device compliance card](./media/security-docs/device-compliance.png)
 
 #### Discover devices with malware detections
 
 **Device malware detections** provides the number of Intune enrolled devices with malware that have not been fully resolved due to pending actions—a restart, a full scan or manual user actions—or if the remediation action did not complete successfully.
 
+![Device malware detections card](./media/security-docs/device-malware-detections.png)
+
 #### Understand the types of malware detected
 
 **Types of malware on devices** shows different kinds of malware that have been detected on devices enrolled in Intune. You can investigate each type in Microsoft 365 security center.
+
+![Types of malware on devices card](./media/security-docs/types-of-malware-on-devices.png)
 
 ### Understand the specific malware detected on your devices
 
 **Malware on devices** provides a list of the specific malware detected on your devices.
 
+![Malware on devices card](./media/security-docs/malware-on-devices.png)
+
 ### Understand which devices have the most malware
 
 **Devices with malware detections** shows which devices have the most malware detections. In Microsoft 365 security center, you can investigate whether malware is active, who uses the device, and its management status in Intune.
+
+![Devices with malware detections card](./media/security-docs/devices-with-malware-detections.png)
 
 ### Understand which users have devices with the most malware
 
 **Users with malware detections** shows users with devices that had the most malware detections. In Microsoft 365 security center, you can see how many devices are assigned to each user and more information about each device and the type of malware.
 
+![Users with malware detection card](./media/security-docs/users-with-malware-detections.png)
+
 ## Monitor and manage ASR rule deployment and detections
 
 [Attack Surface Reduction (ASR) rules](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-exploit-guard/attack-surface-reduction-exploit-guard) help prevent actions and apps that are typically used by exploit-seeking malware to infect machines. These rules control when and how executables can run. For example, you can prevent JavaScript or VBScript from launching a downloaded executable, block Win32 API calls from Office macros, or block processes that run from USB drives.
+
+![Attack surface reductions card](./media/security-docs/attack-surface-reduction-rules.png)
 
 The **Attack surface reduction rules** card provides an overview of the deployment of rules across your devices.
 
@@ -141,6 +157,8 @@ The lower part of this card shows settings by rule across your devices. Each bar
 ### View ASR detections
 
 To view detailed information about ASR rule detections in your network, select **View detections** on the **Attack surface reduction rules** card. The **Detections** tab in the detailed report page will open.
+
+![Detections tab](./media/security-docs/detections-tab.png)
 
 The chart at the top of the page shows detections over time stacking detections that were either blocked or audited. The table at the bottom lists the most recent detections. Use the following information on the table to understand the nature of the detections:
 
