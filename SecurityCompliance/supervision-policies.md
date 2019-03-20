@@ -94,7 +94,7 @@ To learn more about sensitive information details and the patterns included in t
 
 #### Custom keyword dictionaries
 
-Configuring custom keyword dictionaries (or lexicons) can provide simple management of keywords specific to your organization or industry and can support up to 100,000 terms per dictionary. If needed, you can apply multiple custom keyword dictionaries to a single policy or have a single keyword dictionary per policy. These dictionaries are assigned in a supervision policy and can be sourced from a file (such as a .csv or .txt list), or from a list you can [enter directly in a PowerShell cmdlet](create-a-keyword-dictionary.md).
+Configuring custom keyword dictionaries (or lexicons) can provide simple management of keywords specific to your organization or industry and can support up to 100,000 terms per dictionary. If needed, you can apply multiple custom keyword dictionaries to a single policy or have a single keyword dictionary per policy. These dictionaries are assigned in a supervision policy and can be sourced from a file (such as a .csv or .txt list), or from a list you can [import in the Compliance center](create-a-keyword-dictionary.md).
 
 #### Conditional settings
 
