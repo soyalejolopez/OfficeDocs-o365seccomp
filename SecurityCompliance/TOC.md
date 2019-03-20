@@ -367,7 +367,7 @@
 #### [Use Advanced eDiscovery utilities](use-advanced-ediscovery-utilities.md)
 #### [Run reports](run-reports-in-advanced-ediscovery.md)
 
-# [Manage data investigations](datainvestigations/overview-datainvestigations.md)
+# [Manage data investigations](datainvestigations/overview-data-investigations.md)
 ## [Release notes](datainvestigations/data-investigations-release-notes.md)
 ## [Manage a data spillage incident](datainvestigations/manage-data-spillage-incidents.md)
 ## [Create a new investigation](datainvestigations/create-new-investigation.md)

@@ -24,11 +24,11 @@ Here's a list of the jobs that are tracked on the **Jobs** tab of an investigati
 - Re-indexing data of people of interest
 - Estimating search results
 - Preparing search preview
-- Adding data to an incident
-- Adding data to another incident
-- Adding non-Office 365 data to an incident
+- Adding data to an evidence set
+- Adding data to another evidence set
+- Adding non-Office 365 data to an evidence set
 - Preparing for error resolution
-- Adding remediated data to an incident
+- Adding remediated data to an evidence set
 - Comparing load sets
 - Tagging documents
 - Running analytics
