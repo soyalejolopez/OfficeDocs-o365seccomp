@@ -57,26 +57,20 @@ Follow these steps to set up and use supervision in your Office 365 organization
 
 ## Step 1 - Set up groups for Supervision (optional)
 
- When you create a supervision policy, you'll determine who will have their communications reviewed and who will perform those reviews. In the policy, you'll use email addresses to identify individuals or groups of people. To simplify your setup, create groups for people who will have their communication reviewed and groups for people who will review those communications. If you're using groups, you might need several—for example, if you want to monitor communications between two distinct groups of people, or if you want to specify a group that isn't going to be supervised. See [Example distribution groups](configure-supervision-policies.md#GroupExample) for details about how this works.
-  
-To supervise communications between or within groups in your organization, set up distribution groups in the Exchange admin center (go to **recipients** \> **groups**). For more information about setting up distribution groups, see [Manage distribution groups](http://go.microsoft.com/fwlink/?LinkId=613635)
-  
-> [!NOTE]
-> You can also use dynamic distribution groups or security groups for supervision if you prefer. To help you decide if these better fit your organization needs, see [Manage mail-enabled security groups](http://go.microsoft.com/fwlink/?LinkId=627033), and [Manage dynamic distribution groups](http://go.microsoft.com/fwlink/?LinkId=627058).
-  
-<a name="GroupExample"> </a>
+ When you create a supervision policy, you'll determine who will have their communications reviewed and who will perform those reviews. In the policy, you'll use email addresses to identify individuals or groups of people. To simplify your setup, you can create groups for people who will have their communication reviewed and groups for people who will review those communications. If you're using groups, you might need several—for example, if you want to monitor communications between two distinct groups of people or if you want to specify a group that isn't going to be supervised.
 
-### Example distribution groups
+Use the following chart to help you configure groups in your organization for supervision policies:
 
-This example includes a distribution group that has been set up for a financial organization called Contoso Financial International.
-  
-In Contoso Financial International, a sampling of communications between brokers in the United States must be supervised. However, compliance officers within that group do not require supervision. For this example, we can create the following groups:
-  
-|**Set up this distribution group**|**Group address (alias)**|**Description**|
+| **Policy Member** | **Supported Groups** | **Unsupported Groups** |
 |:-----|:-----|:-----|
-|All US brokers | US_Brokers@Contoso.com | This group includes email addresses for all US-based brokers who work for Contoso. |
-| All US compliance officers | US_Compliance@Contoso.com  | This group includes email addresses for all US-based compliance officers who work for Contoso. Because this group is a subset of all US-based brokers, you can use this alias to exempt compliance officers from a supervision policy. |
+|Supervised users | Distribution groups <br> Office 365 groups | Dynamic distribution groups |
+| Reviewers | Mail-enabled security groups  | Distribution groups <br> Dynamic distribution groups |
   
+For more information about setting up groups, see:
+- [Create and manage distribution groups](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-distribution-groups/manage-distribution-groups)
+- [Manage mail-enabled security groups](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-mail-enabled-security-groups)
+- [Overview of Office 365 Groups](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups?view=o365-worldwide)
+
 <a name="MakeAvailable"> </a>
 
 ## Step 2 - Make supervision available in your organization (required)
@@ -113,43 +107,26 @@ For more information about role groups and permissions, see [Permissions in the 
 
 <a name="sensitiveinfo"> </a>
   
-## Step 3 - Create custom sensitive information types or custom keyword dictionaries (optional)
+## Step 3 - Create custom sensitive information types and custom keyword dictionaries (optional)
 
 In order to pick from existing custom sensitive information types or custom keyword dictionaries in the supervision policy wizard, you first need to create these items if needed.
 
+### Create custom keyword dictionary/lexicon (optional)
+
+Using a text editor (like Notepad), create a new file that includes the keyword terms you'd like to monitor in a supervision policy. Make sure each term is on a separate line and save the file in the **Unicode/UTF-16 (Little Endian)** format.
+
 ### Create custom sensitive information types
 
-1. Create a new sensitive information type in the Office 365 Security & Compliance Center. Navigate to **Classifications** \> **Sensitive info types** and follow the steps in the **New sensitive info type wizard**. Here you will:
+1. Create a new sensitive information type and add your custom dictionary in the Office 365 Security & Compliance Center. Navigate to **Classifications** \> **Sensitive info types** and follow the steps in the **New sensitive info type wizard**. Here you will:
 
     - Define a name and description for the sensitive info type
     - Define the proximity, confidence level, and primary pattern elements
+    - Import your custom dictionary as a requirement for the matching element
     - Review your selections and create the sensitive info type
 
-    For more detailed information, see [Create a custom sensitive information type](create-a-custom-sensitive-information-type.md).
-
-### Create custom keyword dictionary/lexicon
-
-1. Using a text editor (like Notepad), create a new file that includes the keyword terms you'd like to monitor in a supervision policy. Make sure each term is on a separate line and save the file in the **Unicode/UTF-16 (Little Endian)** format.
-2. Import the keyword file into your Office 365 tenant using PowerShell. To connect to Office 365 with PowerShell, see [Connect to Office 365 Security & Compliance Center PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).
-
-    After you've connected to Office 365 with PowerShell, run the following commands to import your keyword dictionary:
-
-    ```
-    $fileData = Get-Content "your keyword path and file name" -Encoding Byte -ReadCount 0
-
-    New-DlpKeywordDictionary -Name "Name for your keyword dictionary" -Description "optional description for your keyword dictionary" -FileData $fileData
-    ```
-    For more detailed information, see [Create a keyword dictionary](create-a-keyword-dictionary.md).
-
-3. Create a new sensitive information type in the Office 365 Security & Compliance Center. Navigate to **Classifications** \> **Sensitive info types** and follow the steps in the **New sensitive info type wizard**. Here you will:
-
-    - Define a name and description for the sensitive info type
-    - Add your custom dictionary as a requirement for the matching element
-    - Review your selections and create the sensitive info type
+    For more detailed information, see [Create a custom sensitive information type](create-a-custom-sensitive-information-type.md) and [Create a keyword dictionary](create-a-keyword-dictionary.md)
 
     After the custom dictionary/lexicon is created, you can view the configured keywords using the [Get-DlpKeywordDictionary](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/get-dlpkeyworddictionary) cmdlet or add and remove terms using the [Set-DlpKeywordDictionary](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/set-dlpkeyworddictionary) cmdlet.
-
-    For more detailed information, see [Create a custom sensitive information type](create-a-custom-sensitive-information-type.md).
 
 <a name="setupsuper"> </a>
 
