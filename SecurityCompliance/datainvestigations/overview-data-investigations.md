@@ -1,5 +1,5 @@
 ---
-title: "Overview of Data Investigations in Microsoft 365"
+title: "Overview of Data Investigations (Preview) in Microsoft 365"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,33 +14,32 @@ search.appverid:
 - MET150
 ms.assetid: 
 
-description: "This article describes the new Data Investigations tool in Microsoft 365."
+description: "This article describes the new Data Investigations (Preview) tool in Microsoft 365."
 ---
 
-# Overview of Data Investigations in Microsoft 365
+# Overview of Data Investigations (Preview) in Microsoft 365
 
-A data spill is when a document containing confidential, sensitive or malicious information is released into an untrusted environment. When a data spill is detected, it's important to quickly contain the environment, assess the size and locations of the spillage, examine user activities around it, and then delete the spilled data from the system. Using Data investigations, you can search for sensitive, malicious or misplaced data across Office 365, investigate to find out what happened and take appropriate remedial actions.  
+A data spill occurs when a document containing confidential, sensitive, or malicious content is released into an untrusted environment. When a data spill is detected, it's important to quickly contain the environment, assess the size and locations of the spillage, examine user activities around it, and then delete the spilled data from the system. Using the new Data Investigations (Preview) tool, you can search for sensitive, malicious, or misplaced data across Office 365, investigate what happened, and take the appropriate actions to remediate the spillage.  
 
-This article describes the capabilities in the new Data Investigations tool.
+This article describes using the capabilities in the new Data Investigations (Preview) tool to address a data spillage scenario.
 
-## Search for sensitive, malicious or misplaced data
+## Search for sensitive, malicious, or misplaced data
 
-Use the **Searches** tab to create searches to discover Office 365 for data that you want to remediate. You can create and run query-based searches (using keywords and conditions such as date range and sensitive data types) to identify a set email messages and documents, collect them as evidence to review and analyze. Additionally, you can use the search tool to preview sample documents and view search statistics that may help refine and improve the search results. Once you're satisfied that the search results contain the all the data relevant to the investigation, you add the search results to the **evidence** for further review, assess impact and take remedial actions. For more information, see [Search for data in an investigation](search-for-data.md).
+Use the **Searches** tab to create eDiscovery searches to find the Office 365 for data that you want to remediate. You can create and run query-based searches (using keywords and conditions, such as date ranges and sensitive data types) to identify a set email messages and documents that might contain spilled data, and then collect them as evidence to review and analyze. Additionally, you can use the search tool to preview sample documents and view search statistics that can  help you refine and improve the search results. Once you're satisfied that the search results contain the all the data relevant to the investigation, you add the search results to evidence set to further review, impact assessment, and to take remedial actions as necessary. For more information, see [Search for data in an investigation](search-for-data.md).
 
 ## Review and investigate evidence
 
-Use the **Evidence** tab to investigate the data that you've collected from the live system. The data in the and evidence set is a snapshot of search results that you collected. When you add search results to evidence, a process is triggered to extract files, metadata, and text. When this process is complete, the system builds a new index of all the data and adds to **Evidence**. For any time-sensitive incidents, this allows you to quickly contain the environment by deleting data at original locations while investigating re-created evidence in a quarantined environment. Once evidence is collected, you can run additional queries to narrow the data by time range, file types, data owners, and many other condition cards. Using Author/Sender/Recipient condition cards, you can quickly examine who are involved in the spill and if there have been any external shares. 
+Use the **Evidence** tab to investigate the data that you've collected from the live system; in this case Office 365. The data in the evidence set is a snapshot of search results that you collected. When you add search results as evidence a process is triggered to extract files, metadata, and text. When this process is complete, the system builds a new index of all the data and adds it to an evidence set. For any time-sensitive investigations, this allows you to quickly contain the environment by deleting data located in the original content locations (in the live system) while investigating the evidence that you collected in a quarantined environment. After evidence is collected, you can run additional queries to narrow the data by time range, file types, data owners, and other types of conditions. For example, by using the Author, Sender, and Recipient conditions you can quickly identify those who were are involved in the data spill and if any of the spilled data was shared with people outside of your organization.
 
-You can also run advanced analytics on the evidence that you collected. After you run analysis, you can see general themes of the data and also organize data by email threads, exact duplicates and near duplicates to facilitate your investigation. You can review data in extracted text view or in the native file format, and tag them with investigation result. For more information, see:
+You can also run advanced analytics on the evidence you collect. This can provide you with general themes, and organize evidence by email threads, exact duplicates, and near duplicates to facilitate your investigation. You can also review documents in extracted text view or in the native file format, and tag them with investigation results. For more information, see:
 
   - [Review data in evidence](review-data-in-evidence.md)
-
   - [Run analytics to investigate faster](run-analytics-to-investigate-faster.md)
 
 
 ## Managing people of interest
 
-Use the **People of interest** tab to add and manage the people that you've identified as persons of interest during your investigation. When you add people of interest, their data sources, such as their mailboxes and OneDrive account, are identified and mapped. Then, you can scope your searches by them. When scoped down by people of interest, searches are more efficient and accurate because the tool re-processes any unindexed data such as images or unsupported file types. On **People of interest** tab, you can also view and search their activity log to investigate further. You can add more people of interest throughout your investigation. For more information, see [Work with people of interest in Data investigations (Preview)](manage-people-of-interest.md).
+Use the **People of interest** tab to add and manage the people that you've identified as persons of interest during your investigation of the evidence. When you add people of interest, their data sources, such as their mailbox and OneDrive account, are identified and mapped. Then you can scope additional searches by searching only the content locations of those people. When scoped down by people of interest, searches are more efficient and accurate because the tool re-processes any unindexed data such as images or unsupported file types. On the **People of interest** tab, you can also view and search the audit log activity of those people to further help you investigation. You can add more people of interest throughout the investigation. For more information, see [Work with people of interest in Data investigations (Preview)](manage-people-of-interest.md).
 
 ## Indexing the data of people of interest
 
