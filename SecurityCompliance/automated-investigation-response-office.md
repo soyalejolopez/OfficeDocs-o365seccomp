@@ -3,7 +3,7 @@ title: "Automated Investigation and Response (AIR) with Office 365 Threat Intell
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 03/13/2019
+ms.date: 03/21/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -17,7 +17,7 @@ description: "Learn about Automated Investigation and Response capabilities in O
 
 # Automated Investigation and Response (AIR) with Office 365 Threat Intelligence
 
-Automated Investigation and Response (AIR) (coming soon to [Office 365 Threat Intelligence](office-365-ti.md)) enables you to run automated investigation and remediation to well-known threats that exist today. Read this article to get an overview of AIR and how it can help your organization mitigate threats more effectively and efficiently. Tolearn more about when AIR will be available, see the [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap).
+Automated Investigation and Response (AIR) (coming soon to [Office 365 Threat investigation and response capabilities](office-365-ti.md)) enables you to run automated investigation and remediation to well-known threats that exist today. Read this article to get an overview of AIR and how it can help your organization mitigate threats more effectively and efficiently. Tolearn more about when AIR will be available, see the [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap).
 
 ## Alerts
 
@@ -44,7 +44,6 @@ As part of AIR, security playbooks are rolling out in phases
 - **Phase 2 (June 2019)**: Security administrators will have the option to allow security playbooks to take action automatically, without administrative interaction.
 
 Phase 1 will include the following playbooks:
-
 - User-reported phish message
 - URL click verdict change and ATP Safe Links block override
 - Malware ZAP
