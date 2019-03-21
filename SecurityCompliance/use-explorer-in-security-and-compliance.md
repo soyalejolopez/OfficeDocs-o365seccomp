@@ -3,7 +3,7 @@ title: "Use Threat Explorer in the Security &amp; Compliance Center"
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 03/18/2019
+ms.date: 03/21/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -30,7 +30,7 @@ To use Explorer, in the Security &amp; Compliance Center, go to **Threat managem
       
 ## Explorer overview
 
-If your organization has [Office 365 Advanced Threat Protection Plan 2](office-365-ti.md), and you have the necessary permissions, you can use Threat Explorer (also referred to as Explorer) to identify and analyze threats. (In the Security &amp; Compliance Center, go to **Threat management** \> **Explorer**.)
+If your organization has [Office 365 Threat investigation and response capabilities](office-365-ti.md) (this is included in ATP Plan 2), and you have the necessary permissions, you can use Threat Explorer (also referred to as Explorer) to identify and analyze threats. (In the Security &amp; Compliance Center, go to **Threat management** \> **Explorer**.)
 
 ![Go to Threat management \> Explorer](media/cab32fa2-66f1-4ad5-bc1d-2bac4dbeb48c.png)
 
