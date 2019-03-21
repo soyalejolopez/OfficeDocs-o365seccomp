@@ -67,7 +67,6 @@ If needed, add parameters to the query to reduce false positives:
 </tbody>
 </table>
 
-Coming soon — You'll be able to create and modify sensitive information types in a new user interface in the security center or compliance center. You can dynamically see matching results and tune sensitive information types to meet your needs.
 
 ## Search for sensitive information types using Content Search
 
