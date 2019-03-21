@@ -25,7 +25,7 @@ This article describes using the capabilities in the new Data Investigations (Pr
 
 ## Search for sensitive, malicious, or misplaced data
 
-Use the **Searches** tab to create eDiscovery searches to find the Office 365 for data that you want to remediate. You can create and run query-based searches (using keywords and conditions, such as date ranges and sensitive data types) to identify a set email messages and documents that might contain spilled data, and then collect them as evidence to review and analyze. Additionally, you can use the search tool to preview sample documents and view search statistics that can  help you refine and improve the search results. Once you're satisfied that the search results contain the all the data relevant to the investigation, you add the search results to evidence set to further review, impact assessment, and to take remedial actions as necessary. For more information, see [Search for data in an investigation](search-for-data.md).
+Use the **Searches** tab to create searches to discover Office 365 for data that you want to remediate. You can create and run query-based searches to identify a set email messages and documents, collect them as evidence to review and analyze. Additionally, you can use the search tool to preview sample documents and view search statistics that may help refine and improve the search results. Once you're satisfied that the search results contain the all the data relevant to the investigation, you add the search results to the **evidence** for further review, assess impact and take remedial actions. For more information, see [Create a search to collect data](create-search-to-collect-data.md).
 
 ## Review and investigate evidence
 
