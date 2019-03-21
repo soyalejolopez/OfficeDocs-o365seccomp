@@ -90,4 +90,4 @@ You have to use remote PowerShell connected to your Exchange Online organization
     
       A message is displayed saying that audit log search isn't turned on. 
     
-      ![A message is dispayed if auditing is turned off](media/dca53da6-1cbe-4fa3-9860-f0d674de9538.png)
+      ![A message is displayed if auditing is turned off](media/dca53da6-1cbe-4fa3-9860-f0d674de9538.png)
