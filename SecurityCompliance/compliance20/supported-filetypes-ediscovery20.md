@@ -8,7 +8,7 @@ ms.audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
-ms.collection: M365-security-compliance 
+ms.collection: M365-security-compliance
 search.appverid: 
 - MOE150
 - MET150
@@ -18,7 +18,7 @@ description: ""
 ---
 
 # Supported file types in Advanced eDiscovery (Preview)
-
+Microsoft 365 eDiscovery supports many file types to many different levels.  The list below is not exhaustive and we continue to  add new file types as we complete our final validations.
 
 | Mime Type | File Class (i.e. Image, Archive, Email, Office Doc, etc.) | Native Viewer | Text | Annotate Viewer | Container Extraction | Possible Extensions |
 | :- | :- | :- | :- | :- | :- | :- |

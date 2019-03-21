@@ -70,6 +70,9 @@ Microsoft Azure Storage Tools installed on a computer that has access to the non
 
 ![Non-Office 365 Import - AzCopy](../media/504e2dbe-f36f-4f36-9b08-04aea85d8250.png)
 
+> [!NOTE]
+> If the supplied AzCopy command fails, refer to [Troubleshooting AzCopy in Advanced eDiscovery](troubleshooting-azcopy.md)
+
 6. Finally, return back to the Security & Compliance and click the **Next: Process files** button.  This will initiate processing, text extraction and indexing of the uploaded files.  You can track the progress of processing here or in the **Jobs** tab.  Once completed, the new files will be available in the working set.  Once processing is complete, you can dismiss the wizard.
 
 ![Non-Office 365 Import - Process files](../media/218b1545-416a-4a9f-9b25-3b70e8508f67.png)
