@@ -24,17 +24,17 @@ You can create an activity alert that will send you an email notification when u
  **Why use activity alerts instead of searching the audit log?** There might be certain kinds of activity or activity performed by specific users that you really want to know about. Instead of having to remember to search the audit log for those activities, you can use activity alerts to have Office 365 send you an email message when users perform those activities. For example, you can create an activity alert to notify you when a user deletes files in SharePoint or you can create an alert to notify you when a user permanently deletes messages from their mailbox. The email notification sent to you includes information about which activity was performed and the user who performed it. 
 
 > [!NOTE]
-> We recommend that you start using alert policies in the security and compliance center instead of creating new activity alerts. Alert policies provide addition functionality such as the ability to create an alert policy that triggers an alert when any user performs a specified activity, and displaying alerts on the **View alerts** page in the security and compliance center. For more information, see [Alert policies in the Office 365 Security &amp; Compliance Center](alert-policies.md).
+> We recommend that you start using alert policies in the security and compliance center instead of creating new activity alerts. Alert policies provide addition functionality such as the ability to create an alert policy that triggers an alert when any user performs a specified activity, and displaying alerts on the **View alerts** page in the security and compliance center. For more information, see [Alert policies](alert-policies.md).
   
 ## Before you begin
 
-- You must be assigned the Organization Configuration role in the Security &amp; Compliance Center to manage activity alerts. By default, this role is assigned to the Compliance Administrator and Organization Management role groups. For more information about adding members to role groups, see [Give users access to the Office 365 Security &amp; Compliance Center](grant-access-to-the-security-and-compliance-center.md).
+- You must be assigned the Organization Configuration role in the Security & Compliance Center to manage activity alerts. By default, this role is assigned to the Compliance Administrator and Organization Management role groups. For more information about adding members to role groups, see [Give users access to the Security & Compliance Center](grant-access-to-the-security-and-compliance-center.md).
     
-- You (or another admin) must first turn on audit logging for your organization before you can start using activity alerts. To do this, just click **Start recording user and admin activity** on the **Activity alerts** page. (If you don't see this link, auditing has already been turned on for your organization.) You can also turn on auditing on the **Audit log search** page in the Security &amp; Compliance Center (go to **Search** \> **Audit log search**). You only have to do this once for your organization.
+- You (or another admin) must first turn on audit logging for your organization before you can start using activity alerts. To do this, just click **Start recording user and admin activity** on the **Activity alerts** page. (If you don't see this link, auditing has already been turned on for your organization.) You can also turn on auditing on the **Audit log search** page in the Security & Compliance Center (go to **Search** \> **Audit log search**). You only have to do this once for your organization.
   
 - You can create alerts for the same activities that you can search for in the Office 365 audit log. See the [More information](#more-information) section for a list of common scenarios (and the specific activity to monitor) that you can create alerts for. 
     
-- You can use the **Activity alerts** page in the Security &amp; Compliance Center to create alerts only for activity performed by users who are listed in your organization's address book. You can't use this page to create alerts for activity performed by external users who aren't listed in the address book. 
+- You can use the **Activity alerts** page in the Security & Compliance Center to create alerts only for activity performed by users who are listed in your organization's address book. You can't use this page to create alerts for activity performed by external users who aren't listed in the address book. 
     
 ## Create an activity alert
 
@@ -69,7 +69,7 @@ You can create an activity alert that will send you an email notification when u
     
     The new alert is displayed in the list on the **Activity alerts** page. 
     
-    ![A list of alerts is displayed on the Activity alerts page in the Security &amp; Compliance Center](media/02b774f2-1719-41de-bbc9-5e5b7576f335.png)
+    ![A list of alerts is displayed on the Activity alerts page](media/02b774f2-1719-41de-bbc9-5e5b7576f335.png)
   
     The status of the alert is set to **On**. Note that the recipients who will received an email notification when an alert is sent are also listed. 
   
@@ -91,7 +91,7 @@ To turn an activity alert back on, just repeat these steps and click the **Off**
   
 ## More information
 
-- Here's an example of the email notification that is sent to the users that are specified in the Sent this alert to field (and listed under **Recipients** on the **Activity alerts** page ) in the Security &amp; Compliance Center. 
+- Here's an example of the email notification that is sent to the users that are specified in the Sent this alert to field (and listed under **Recipients** on the **Activity alerts** page ) in the Security & Compliance Center. 
     
     ![Example of an email notifcation sent for an activity alert](media/a5f91611-fae6-4fe9-82f5-58521a2e2541.png)
   
@@ -117,11 +117,8 @@ To turn an activity alert back on, just repeat these steps and click the **Off**
     |Permanently deletes (purges) an email message from their mailbox.  <br/> |Purged messages from mailbox  <br/> | Exchange mailbox activities  <br/> |
     |Sends an email message from a shared mailbox.  <br/> |Sent message using Send As permissions  <br/> And  <br/> Sent message using Send On Behalf permissions  <br/> | Exchange mailbox activities  <br/> |
    
-- You can also use the **New-ActivityAlert** and **Set-ActivityAlert** cmdlets in Security &amp; Compliance Center PowerShell to create and edit activity alerts. Keep the following things in mind if you use these cmdlets to create or edit activity alerts: 
+- You can also use the **New-ActivityAlert** and **Set-ActivityAlert** cmdlets in Security & Compliance Center PowerShell to create and edit activity alerts. Keep the following things in mind if you use these cmdlets to create or edit activity alerts: 
     
   - If you use a cmdlet to add an activity to the alert that isn't listed in the **Activities** drop-down list, a message is displayed in on the property page for the alert that says, "This alert has custom operations not listed in the picker." 
     
-  - A good reason to use the cmdlets to create or edit an activity alert is to send email notifications to someone outside of your organization. This external user will be listed in the list of recipients for the alert. But if you remove this external user from the alert, that user can't be re-added to the alert by using **Edit alert** page in the Security &amp; Compliance Center. You'll have to re-add the external user using the **Set-ActivityAlert** cmdlet, or use the **New-ActivityAlert** cmdlet to add the same (or different) external user to a new alert. 
-    
-  
-
+  - A good reason to use the cmdlets to create or edit an activity alert is to send email notifications to someone outside of your organization. This external user will be listed in the list of recipients for the alert. But if you remove this external user from the alert, that user can't be re-added to the alert by using the **Edit alert** page. You'll have to re-add the external user using the **Set-ActivityAlert** cmdlet, or use the **New-ActivityAlert** cmdlet to add the same (or different) external user to a new alert. 

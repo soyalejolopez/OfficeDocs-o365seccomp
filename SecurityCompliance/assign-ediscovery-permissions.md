@@ -1,5 +1,5 @@
 ---
-title: "Assign eDiscovery permissions in the Office 365 Security & Compliance Center"
+title: "Assign eDiscovery permissions in the Security & Compliance Center"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -17,9 +17,9 @@ ms.assetid: 5b9a067b-9d2e-4aa5-bb33-99d8c0d0b5d7
 description: "Assign the permissions required to perform eDiscovery-related tasks using the Security & Compliance Center."
 ---
 
-# Assign eDiscovery permissions in the Office 365 Security & Compliance Center
+# Assign eDiscovery permissions in the Security & Compliance Center
 
-If you want people to use any of the eDiscovery-related tools in the Office 365 Security & Compliance Center, you have to assign them the appropriate permissions. The easiest way to do this is to add the person the appropriate role group on the **Permissions** page in the Security & Compliance Center. This topic describes the permissions required to perform eDiscovery-and Content Search-related tasks using the Security & Compliance Center. 
+If you want people to use any of the eDiscovery-related tools in the Security & Compliance Center in Office 365, you have to assign them the appropriate permissions. The easiest way to do this is to add the person the appropriate role group on the **Permissions** page in the Security & Compliance Center. This topic describes the permissions required to perform eDiscovery-and Content Search-related tasks using the Security & Compliance Center. 
   
 The primary eDiscovery-related role group in Security & Compliance Center is called **eDiscovery Manager**. There are two subgroups within this role group. 
   
@@ -107,7 +107,7 @@ This role lets users place content in mailboxes, public folders, sites, Skype fo
 
 For more information about holds, see:
 
-- [eDiscovery cases in the Office 365 Security & Compliance Center](ediscovery-cases.md) 
+- [eDiscovery cases](ediscovery-cases.md) 
 - [Overview of retention policies](retention-policies.md)
 
 ### Preview
@@ -120,7 +120,7 @@ This role lets users access case data in Office 365 Advanced eDiscovery. The pri
 
 ### RMS Decrypt
 
-This role lets users decrypt RMS-encrypted email messages when exporting search results or preparing search results for analysis in Advanced eDiscovery. For more information about decrypting search results during export, see [Export search results from the Office 365 Security & Compliance Center](export-search-results.md).
+This role lets users decrypt RMS-encrypted email messages when exporting search results or preparing search results for analysis in Advanced eDiscovery. For more information about decrypting search results during export, see [Export Content search results](export-search-results.md).
 
 ### Search And Purge
 

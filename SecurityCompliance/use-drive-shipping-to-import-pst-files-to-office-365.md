@@ -48,7 +48,7 @@ For frequently asked questions about using drive shipping to import PST files to
 
 - You have to be assigned the Mailbox Import Export role in Exchange Online to import PST files to Office 365 mailboxes. By default, this role isn't assigned to any role group in Exchange Online. You can add the Mailbox Import Export role to the Organization Management role group. Or you can create a new role group, assign the Mailbox Import Export role, and then add yourself as a member. For more information, see the "Add a role to a role group" or the "Create a role group" sections in [Manage role groups](https://go.microsoft.com/fwlink/p/?LinkId=730688).
     
-    Additionally, to create import jobs in the Office 365 Security &amp; Compliance Center, one of the following must be true:
+    Additionally, to create import jobs in the Security & Compliance Center, one of the following must be true:
     
   - You have to be assigned the Mail Recipients role in Exchange Online. By default, this role is assigned to the Organization Management and Recipient Management roles groups.
     
@@ -106,14 +106,14 @@ For frequently asked questions about using drive shipping to import PST files to
 The first step is to download the secure storage key and the tool and that you will use in Step 2 to copy PST files to the hard drive.
   
 > [!IMPORTANT]
-> You have to use Azure Import/Export tool version 1 (WAimportExportV1) to successfully import PST files by using the drive shipping method. Version 2 of the Azure Import/Export tool isn't supported and using it will result in incorrectly preparing the hard drive for the import job. Be sure to download the Azure Import/Export tool from the Security &amp; Compliance Center by following the procedures in this step. 
+> You have to use Azure Import/Export tool version 1 (WAimportExportV1) to successfully import PST files by using the drive shipping method. Version 2 of the Azure Import/Export tool isn't supported and using it will result in incorrectly preparing the hard drive for the import job. Be sure to download the Azure Import/Export tool from the Security & Compliance Center by following the procedures in this step. 
   
 1. Go to [https://compliance.microsoft.com/](https://compliance.microsoft.com/) and sign in using the credentials for an administrator account in your Office 365 organization. 
     
-2. In the left pane of the Security &amp; Compliance Center, click **Data governance** \> **Import**.
+2. In the left pane of the Security & Compliance Center, click **Data governance** \> **Import**.
     
     > [!NOTE]
-    > As previously stated, you have to be assigned the appropriate permissions to access the **Import** page in the Security &amp; Compliance Center. 
+    > As previously stated, you have to be assigned the appropriate permissions to access the **Import** page in the Security & Compliance Center. 
   
 3. On the **Import** page, click ![Add Icon](media/ITPro-EAC-AddIcon.gif) **New import job**.
     
@@ -137,7 +137,7 @@ The first step is to download the secure storage key and the tool and that you w
     
 7. Click **Cancel** to close the wizard. 
     
-    You'll come back to the **Import** page in the Security &amp; Compliance Center when you create the import job in Step 4. 
+    You'll come back to the **Import** page in the Security & Compliance Center when you create the import job in Step 4. 
 
 ## Step 2: Copy the PST files to the hard drive
 
@@ -240,12 +240,12 @@ The next step is to create the PST Import job in the Import service in Office 36
   
 1. Go to [https://compliance.microsoft.com](https://compliance.microsoft.com) and sign in using the credentials for an administrator account in your Office 365 organization. 
     
-2. In the left pane of the Security &amp; Compliance Center, click **Data governance** and then click **Import**.
+2. In the left pane of the Security & Compliance Center, click **Data governance** and then click **Import**.
     
 3. On the **Import** page, click ![Add Icon](media/ITPro-EAC-AddIcon.gif) **New import job**.
     
     > [!NOTE]
-    > As previously stated, you have to be assigned the appropriate permissions to access the **Import** page in the Security &amp; Compliance Center. 
+    > As previously stated, you have to be assigned the appropriate permissions to access the **Import** page in the Security & Compliance Center. 
   
 4. Type a name for the PST import job, and then click **Next**. Use lowercase letters, numbers, hyphens, and underscores. You can't use uppercase letters or include spaces in the name.
     
@@ -394,7 +394,7 @@ To install the Azure Storage Explorer and connect to your Azure storage area:
     
 1. Go to [https://compliance.microsoft.com/](https://compliance.microsoft.com/) and sign in using the credentials for an administrator account in your Office 365 organization. 
     
-2. In the left pane of the Security &amp; Compliance Center, click **Data governance** \> **Import**.
+2. In the left pane of the Security & Compliance Center, click **Data governance** \> **Import**.
     
 3. On the **Import** page, click ![Add Icon](media/ITPro-EAC-AddIcon.gif) **New import job**.
     
