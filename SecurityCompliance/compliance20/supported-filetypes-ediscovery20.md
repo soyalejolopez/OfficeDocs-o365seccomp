@@ -18,9 +18,10 @@ description: ""
 ---
 
 # Supported file types in Advanced eDiscovery (Preview)
-Microsoft 365 eDiscovery supports many file types to many different levels.  The list below is not exhaustive and we continue to  add new file types as we complete our final validations.
 
-| Mime Type | File Class (i.e. Image, Archive, Email, Office Doc, etc.) | Native Viewer | Text | Annotate Viewer | Container Extraction | Possible Extensions |
+Advance eDiscovery (Preview) supports many file types to many different levels, which are described in the following table. This list isn't finalized, and we'll add new file types as we continue our validation testing. The table also indicates if a file type can be viewed in the available viewers in Advance eDiscovery (Preview).
+
+| Mime Type | File class | Native viewer | Text viewer | Annotate viewer | Container extraction | Extensions |
 | :- | :- | :- | :- | :- | :- | :- |
 | application/msword | Document | Yes | Yes | Yes | No | .doc; .dat |
 | application/pdf | Document | Yes | Yes | Yes | No | .pdf |
@@ -63,3 +64,4 @@ Microsoft 365 eDiscovery supports many file types to many different levels.  The
 | text/html | Document | Yes | Yes | Yes | No | .html;.shtml; .htm |
 | text/plain | Document | Yes | Yes | Yes | No | .txt; .css;.con; .pl; .csv; .dat |
 | text/vcard-contact | Document | Yes | Yes | Yes | No | .vcf |
+||||||||
