@@ -3,7 +3,7 @@ title: "Secure SharePoint Online sites and files"
 ms.author: bcarter
 author: brendacarter
 manager: laurawi
-ms.date: 12/15/2017
+ms.date: 
 ms.audience: ITPro
 ms.topic: conceptual
 ms.service: O365-seccomp
