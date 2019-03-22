@@ -42,9 +42,7 @@ For more information about these tiers and capabilities recommended for each tie
     
 ## Capability overview
 
-Recommendations for SharePoint Online team sites draw on a variety of Office 365 capabilities. For highly confidential sites, Azure Information Protection is recommended. This is included in Enterprise Mobility + Security (EMS). 
-  
-The following illustration shows the recommended configurations for four SharePoint Online team sites.
+Recommendations for SharePoint Online team sites draw on a variety of Microsoft 365 capabilities. The following illustration shows the recommended configurations for four SharePoint Online team sites.
 
 ![Recommended configuration for SharePoint sites](media/SharePoint site configurations.png)
 
@@ -124,7 +122,7 @@ The following table summarizes the configuration for each of the team sites desc
    
 For the steps to deploy the four different types of SharePoint Online team sites in this solution, see [Deploy SharePoint Online sites for three tiers of protection](deploy-sharepoint-online-sites-for-three-tiers-of-protection.md). For the steps to create a dev/test environment, see [Secure SharePoint Online sites in a dev/test environment](secure-sharepoint-online-sites-in-a-dev-test-environment.md). 
   
-## Office 365 classification and labels
+## Office 365 retention labels
 
 Using retention labels is recommended for environments with sensitive data. After you configure and publish retention labels:
   
