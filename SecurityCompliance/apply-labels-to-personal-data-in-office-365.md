@@ -3,7 +3,7 @@ title: "Apply labels to personal data in Office 365"
 ms.author: bcarter
 author: brendacarter
 manager: laurawi
-ms.date: 2/7/2018
+ms.date: 
 ms.audience: ITPro
 ms.topic: overview
 ms.collection: 
@@ -36,17 +36,17 @@ Sensitivity labels can be applied to mail in Exchange Online and these labels wo
 
 ![Office 365 labels and Azure Information Protection labels](Media/Apply-labels-to-personal-data-in-Office-365-image1.png)
 
+
 In the illustration:
 
--   Use Office 365 labels for personal data and for highly regulated & trade secret files in SharePoint Online and OneDrive for Business.
+-   Use retention labels for personal data and for highly regulated & trade secret files in SharePoint Online and OneDrive for Business.
 
--   Use Azure Information Protection (AIP) labels for highly regulated & trade secret files, Exchange Online email, files in other SaaS services, files in on-premises datacenters, and files in other cloud providers.
+-   Use sensitivity labels for highly regulated & trade secret files, Exchange Online email, files in other SaaS services, files in on-premises datacenters, and files in other cloud providers.
 
--   Coming soon: both types of labels will converge into a unified classification and labeling experience.
 
-## Use Office labels and sensitive information types across Microsoft 365 for information protection
+## Use retention labels and sensitive information types across Microsoft 365 for information protection
 
-The following illustration shows how Office labels and sensitive information types can be used in label policies, data loss prevention policies, and with Cloud App Security policies.
+The following illustration shows how retention labels and sensitive information types can be used in label policies, data loss prevention policies, and with Cloud App Security policies.
 
 ![Office labels and sensitive information types](Media/Apply-labels-to-personal-data-in-Office-365-image2.png)
 
@@ -63,7 +63,7 @@ For accessibility, the following table provides the same examples in the illustr
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">Office labels. Examples: Personal, Public, Customer data, HR data, Confidential, Highly confidential</td>
+<td align="left">Retention labels. Examples: Personal, Public, Customer data, HR data, Confidential, Highly confidential</td>
 <td align="left"><p>Auto apply this label . . .</p>
 <p>Customer data</p>
 <p>. . . to documents that match these sensitive information types . . .</p>
@@ -177,8 +177,8 @@ Create labels and policies in the Security & Compliance Center.
 <p>See <a href="https://support.office.com/en-ie/article/Give-users-access-to-the-Office-365-Security-Compliance-Center-2cfce2c8-20c5-47f9-afc4-24b059c1bd76">Give users access to the Office 365 Security &amp; Compliance Center</a>.</p></td>
 </tr>
 <tr class="even">
-<td align="left"><p>Create Office labels.</p></td>
-<td align="left">Go to Classifications in Security and Compliance Center, choose Labels, and create the labels for your environment.</td>
+<td align="left"><p>Create retention labels.</p></td>
+<td align="left">Go to Classifications in Security and Compliance Center, choose Retention labels, and create the labels for your environment.</td>
 </tr>
 <tr class="odd">
 <td align="left"><p>Create auto-apply policies for labels.</p></td>
