@@ -46,6 +46,8 @@ Recommendations for SharePoint Online team sites draw on a variety of Microsoft 
 
 ![Recommended configuration for SharePoint sites](media/SharePoint site configurations.png)
 
+![Recommended configuration for SharePoint sites](media/SharePoint site configurations.png)
+
 As illustrated:
   
 - Baseline protection includes two options for SharePoint Online team sites — a public site and private site. Public sites can be discovered and accessed by anybody in the organization. Private sites can only be discovered and accessed by members of the site. Both of these site configurations allow for sharing outside the group. 
