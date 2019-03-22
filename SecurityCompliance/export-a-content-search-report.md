@@ -18,18 +18,18 @@ search.appverid:
 - MBS150
 - MET150
 ms.assetid: 5c8c1db6-d8ac-4dbb-8a7a-f65d452169b9
-description: "Instead of exporting the actual results of a Content Search in the Office 365 Security &amp; Compliance Center, you can just export a search results report. The report contains a summary of the search results and a document with detailed information about each item that would be exported."
+description: "Instead of exporting the actual results of a Content Search in the Security & Compliance Center in Office 365, you can just export a search results report. The report contains a summary of the search results and a document with detailed information about each item that would be exported."
 ---
 
 # Export a Content Search report
 
-Instead of exporting the full set of search results from a Content Search in the Office 365 Security &amp; Compliance Center (and from a Content Search that's associated with an eDiscovery case), you can just export the same reports that are generated when you export search results.
+Instead of exporting the full set of search results from a Content Search in the Security & Compliance Center (and from a Content Search that's associated with an eDiscovery case), you can just export the same reports that are generated when you export search results.
   
 When you export a report, it's downloaded to a folder that has the same name as the Content Search, but that's appended with  *_ReportsOnly*  . For example, if the Content Search is named  *ContosoCase0815*  , then the report is downloaded to a folder named  *ContosoCase0815_ReportsOnly*  . For a list of documents that are included in the report, see [What's included in the report](#whats-included-in-the-report).
 
 ## Before you begin
 
-- To export a Content Search report, you have to be assigned the Compliance Search management role in the Office 365 Security &amp; Compliance Center. This role is assigned to the built-in eDiscovery Manager and Organization Management role groups. It isn't assigned by default to the Organization Management role group. For more information, see [Assign eDiscovery permissions in the Office 365 Security &amp; Compliance Center](assign-ediscovery-permissions.md).
+- To export a Content Search report, you have to be assigned the Compliance Search management role in the Security & Compliance Center. This role is assigned to the built-in eDiscovery Manager and Organization Management role groups. It isn't assigned by default to the Organization Management role group. For more information, see [Assign eDiscovery permissions](assign-ediscovery-permissions.md).
     
 - When you export a report, the data is temporarily stored in a unique Windows Azure storage area in the Microsoft cloud before it's downloaded to your local computer. Be sure your organization can connect to the endpoint in Azure, which is **\*.blob.core.windows.net** (the wildcard represents a unique identifier for your export). The search results data is deleted from the Azure storage area two weeks after it's created. 
     
@@ -65,7 +65,7 @@ The first step is to prepare the report for downloading to your computer exporti
     
 2. Sign in to Office 365 using your work or school account.
     
-3. In the left pane of the Security &amp; Compliance Center, click **Search** \> **Content search**.
+3. In the left pane of the Security & Compliance Center, click **Search** \> **Content search**.
     
 4. On the **Content search** page, select a search. 
     

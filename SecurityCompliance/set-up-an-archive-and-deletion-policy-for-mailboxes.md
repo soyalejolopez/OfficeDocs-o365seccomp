@@ -59,7 +59,7 @@ The first step is to enable the archive mailbox for each user in your organizati
 2. Sign in to Office 365 using your global administrator account.
     
     
-3. In the Security &amp; Compliance Center, go to **Data governance** \> **Archive**.
+3. In the Security & Compliance Center, go to **Data governance** \> **Archive**.
     
     A list of the mailboxes in your organization is displayed and whether the corresponding archive mailbox is enabled or disabled. 
     
@@ -80,7 +80,7 @@ The first step is to enable the archive mailbox for each user in your organizati
     
     ![The list of mailboxes with the archive mailbox enabled](media/61a7cb97-1bed-4808-aa5f-b6b761cfa8de.png)
   
-8. Leave the Security &amp; Compliance Center open. You'll use it in the next step.
+8. Leave the Security & Compliance Center open. You'll use it in the next step.
     
 ## Step 2: Create new retention tags for the archive and deletion policies
 
@@ -94,7 +94,7 @@ In this step, you'll create the three custom retention tags that were previously
     
 To create new retention tags, you'll use the Exchange admin center (EAC) in your Exchange Online organization.
   
-1. In the Security &amp; Compliance Center, click the app launcher  in the upper left corner, and then click the **Admin** tile . 
+1. In the Security & Compliance Center, click the app launcher  in the upper left corner, and then click the **Admin** tile . 
     
 2. In the left navigation pane of the Microsoft 365 admin center, click **Admin centers**, and then click **Exchange**.
     

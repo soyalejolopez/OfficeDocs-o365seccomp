@@ -11,16 +11,16 @@ ms.collection: M365-security-compliance
 localization_priority: Normal
 search.appverid: MOE150
 ms.assetid: e3cbc79c-5e97-43d3-8371-9fbc398cd92e
-description: "Use Content Search in the Office 365 Security &amp; Compliance Center to perform targeted collections. A targeted collection means that you're confident that items responsive to a case or privileged items are located in a specific mailbox or site folder. Use the script in this article to obtain the folder ID or path for the specific mailbox or site folders that you want to search."
+description: "Use Content Search in the Security & Compliance Center to perform targeted collections. A targeted collection means that you're confident that items responsive to a case or privileged items are located in a specific mailbox or site folder. Use the script in this article to obtain the folder ID or path for the specific mailbox or site folders that you want to search."
 ---
 
 # Use Content Search in Office 365 for targeted collections
 
-The Content Search feature in the Office 365 Security &amp; Compliance Center doesn't provide a direct way in the UI to search specific folders in Exchange mailboxes or SharePoint and OneDrive for Business sites. However, it's possible to search specific folders (called a *targeted collection*) by specifying the folder ID or path in the actual search query syntax. Using Content Search to perform a targeted collection is useful when you're confident that items responsive to a case or privileged items are located in a specific mailbox or site folder. You can use the script in this article to obtain the folder ID for mailbox folders or the path for folders on a SharePoint and OneDrive for Business site. Then you can use the folder ID or path in a search query to return items located in the folder.
+The Content Search feature in the Security & Compliance Center doesn't provide a direct way in the UI to search specific folders in Exchange mailboxes or SharePoint and OneDrive for Business sites. However, it's possible to search specific folders (called a *targeted collection*) by specifying the folder ID or path in the actual search query syntax. Using Content Search to perform a targeted collection is useful when you're confident that items responsive to a case or privileged items are located in a specific mailbox or site folder. You can use the script in this article to obtain the folder ID for mailbox folders or the path for folders on a SharePoint and OneDrive for Business site. Then you can use the folder ID or path in a search query to return items located in the folder.
   
 ## Before you begin
 
-- You have to be a member of the eDiscovery Manager role group in the Security &amp; Compliance Center to run the script in Step 1. For more information, see [Assign eDiscovery permissions in the Office‍ 365 Security &amp; Compliance Center](assign-ediscovery-permissions.md).
+- You have to be a member of the eDiscovery Manager role group in the Security & Compliance Center to run the script in Step 1. For more information, see [Assign eDiscovery permissions in the Office‍ 365 Security & Compliance Center](assign-ediscovery-permissions.md).
     
     Additionally, you have to be assigned the Mail Recipients role in your Exchange Online organization. This is required to run the **Get-MailboxFolderStatistics** cmdlet, which is included in the script in Step 1. By default, the Mail Recipients role is assigned to the Organization Management and Recipient Management role groups in Exchange Online. For more information about assigning permissions in Exchange Online, see [Manage role group members](https://go.microsoft.com/fwlink/p/?linkid=692102). You could also create a custom role group, assign the Mail Recipients role to it, and then add the members who need to run the script in Step 1. For more information, see [Manage role groups](https://go.microsoft.com/fwlink/p/?linkid=730688).
     
@@ -48,7 +48,7 @@ The script that you run in this first step will return a list of mailbox folders
     
   - **OneDrive for Business** - https://contoso-my.sharepoint.com/personal/stacig_contoso_onmicrosoft_com 
     
-- **Your user credentials** - The script will use your credentials to connect to Exchange Online and the Security &amp; Compliance Center with remote PowerShell. As previously explained, you have to assigned the appropriate permissions to successfully run this script.
+- **Your user credentials** - The script will use your credentials to connect to Exchange Online and the Security & Compliance Center with remote PowerShell. As previously explained, you have to assigned the appropriate permissions to successfully run this script.
     
 To display a list of mailbox folders or site documentlink (path) names:
   
@@ -58,7 +58,7 @@ To display a list of mailbox folders or site documentlink (path) names:
   #########################################################################################################
   # This PowerShell script will prompt you for:								#
   #    * Admin credentials for a user who can run the Get-MailboxFolderStatistics cmdlet in Exchange	#
-  #      Online and who is an eDiscovery Manager in the Security &amp; Compliance Center.			#
+  #      Online and who is an eDiscovery Manager in the Security & Compliance Center.			#
   # The script will then:											#
   #    * If an email address is supplied: list the folders for the target mailbox.			#
   #    * If a SharePoint or OneDrive for Business site is supplied: list the documentlinks (folder paths) #
@@ -75,7 +75,7 @@ To display a list of mailbox folders or site documentlink (path) names:
   #########################################################################################################
   # Collect the target email address or SharePoint Url
   $addressOrSite = Read-Host "Enter an email address or a URL for a SharePoint or OneDrive for Business site"
-  # Authenticate with Exchange Online and the Security &amp; Compliance Center (Exchange Online Protection - EOP)
+  # Authenticate with Exchange Online and the Security & Compliance Center (Exchange Online Protection - EOP)
   if (!$credentials)
   {
       $credentials = Get-Credential
@@ -117,7 +117,7 @@ To display a list of mailbox folders or site documentlink (path) names:
       $searchActionName = "SPFoldersSearch_Preview"
       # List the folders for the SharePoint or OneDrive for Business Site
       $siteUrl = $addressOrSite
-      # Authenticate with the Security &amp; Compliance Center
+      # Authenticate with the Security & Compliance Center
       if (!$SccSession)
       {
           $SccSession = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://ps.compliance.protection.outlook.com/powershell-liveid -Credential $credentials -Authentication Basic -AllowRedirection
@@ -195,7 +195,7 @@ The example in Step 2 shows the query used to search the Purges subfolder in the
   
 ### Script output for site folders
 
-If you're getting documentlinks from SharePoint or OneDrive for Business sites, the script connects to the Security &amp; Compliance Center using remote PowerShell, creates a new Content Search that searches the site for folders, and then displays a list of the folders located in the specified site. The script displays the name of each folder and adds the prefix of **path** (which is the name of the site property) to the folder URL. Because the **path** property is a searchable property, you'll use  `path:<path>` in a search query in Step 2 to search that folder. 
+If you're getting documentlinks from SharePoint or OneDrive for Business sites, the script connects to the Security & Compliance Center using remote PowerShell, creates a new Content Search that searches the site for folders, and then displays a list of the folders located in the specified site. The script displays the name of each folder and adds the prefix of **path** (which is the name of the site property) to the folder URL. Because the **path** property is a searchable property, you'll use  `path:<path>` in a search query in Step 2 to search that folder. 
   
 Here's an example of the output returned by the script for site folders.
   
@@ -203,13 +203,13 @@ Here's an example of the output returned by the script for site folders.
   
 ## Step 2: Use a folder ID or documentlink to perform a targeted collection
 
-After you've run the script to collect a list of folder IDs or documentlinks for a specific user, the next step to go to the Security &amp; Compliance Center and create a new Content Search to search a specific folder. You'll use the  `folderid:<folderid>` or  `documentlink:<path>` property in the search query that you configure in the Content Search keyword box (or as the value for the  *ContentMatchQuery*  parameter if you use the **New-ComplianceSearch** cmdlet). You can combine the  `folderid` or  `documentlink` property with other search parameters or search conditions. If you only include the  `folderid` or  `documentlink` property in the query, the search will return all items located in the specified folder. 
+After you've run the script to collect a list of folder IDs or documentlinks for a specific user, the next step to go to the Security & Compliance Center and create a new Content Search to search a specific folder. You'll use the  `folderid:<folderid>` or  `documentlink:<path>` property in the search query that you configure in the Content Search keyword box (or as the value for the  *ContentMatchQuery*  parameter if you use the **New-ComplianceSearch** cmdlet). You can combine the  `folderid` or  `documentlink` property with other search parameters or search conditions. If you only include the  `folderid` or  `documentlink` property in the query, the search will return all items located in the specified folder. 
   
 1. Go to [https://compliance.microsoft.com](https://compliance.microsoft.com).
     
 2. Sign in to Office 365 using the account and credentials that you used to run the script in Step 1.
     
-3. In the left pane of the Security &amp; Compliance Center, click **Search** \> **Content search**, and then click **New search** ![Add icon](media/O365-MDM-CreatePolicy-AddIcon.gif).
+3. In the left pane of the Security & Compliance Center, click **Search** \> **Content search**, and then click **New search** ![Add icon](media/O365-MDM-CreatePolicy-AddIcon.gif).
     
 4. On the **New search** page, type a name for the Content Search. This name has to be unique in your organization. 
     
