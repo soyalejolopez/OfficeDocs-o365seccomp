@@ -17,15 +17,11 @@ description: "Admins can learn to identify the reasons why and how a phishing me
 
 Although Microsoft Office 365 comes with a variety of anti-phishing features that are enabled by default, it's possible that some phishing messages could still get through to your mailboxes. This topic describes what you can do to discover why a phishing message got through, and what you can do to adjust the anti-phishing settings in your Exchange Online organization _without accidentally making things worse_.
 
-## First things first: deal with any compromised accounts and block the phishing message that got through
+## First things first: deal with any compromised accounts and make sure you block any more phishing messages from getting through
 
 If a recipient's account was compromised as a result of the phishing message, follow the steps in [Responding to a compromised email account in Office 365](responding-to-a-compromised-email-account.md).
 
-If your subscription includes ATP, you can use [Office 365 Threat Intelligence](office-365-ti.md) to identify other users who also received the phishing message.
-
-In the standard versions of Office 365 and Exchange Online Protection, you can block specific senders or sender domains. For more information, see [Create organization-wide safe sender or blocked sender lists in Office 365](create-organization-wide-safe-sender-or-blocked-sender-lists-in-office-365.md). You should also [report the phishing message to Microsoft](#report-the-phishing-message-to-microsoft) so we can add the message source and/or characteristics to our filters.
-
-If your subscription includes Advanced Threat Protection (ATP), you have additional options to block phishing messages:
+If your subscription includes Advanced Threat Protection (ATP), you can use [Office 365 Threat Intelligence](office-365-ti.md) to identify other users who also received the phishing message. You have additional options to block phishing messages:
 
 - [ATP Safe Links](set-up-atp-safe-links-policies.md)
 
@@ -34,8 +30,6 @@ If your subscription includes Advanced Threat Protection (ATP), you have additio
 - [ATP anti-phishing policies](set-up-anti-phishing-policies.md). Note that you can temporarily increase the **Advanced phishing thresholds** in the policy from **Standard** to **Aggressive**, **More aggressive**, or **Most aggressive**.
 
 Verify these settings are turned on.
-
-zzSpecifics here? Is there anything customers do wrong other than not turning these features on?
 
 ## Report the phishing message to Microsoft
 
@@ -74,9 +68,9 @@ The important values that indicate skipped filtering and the causes of skipped f
 
 - Periodically review the [Threat Protection Status report](view-reports-for-atp.md#threat-protection-status-report).
 
-- A setting that inadvertently allows phishing messages is often a response to legitimate messages that are blocked by the Office 365 spam and/or phish filters (false positives).
+- Some customers inadvertently allow phishing messages through by putting their own domain or domains in the Allow sender or Allow domain list in anti-spam policies. You should use extreme caution because doing this will allow some legitimate messages through, but it will also allow malicious messages that would normally be blocked by the Office 365 spam and/or phish filters.
 
-- The best way to deal with false positives that involve senders in your domain is to fully and completely configure the SPF, DKIM, and DMARC records in DNS for _all_ of your email domains in Office 365:
+- The best way to deal with legitimate messages that are blocked by Office 365 (false positives) that involve senders in your domain is to fully and completely configure the SPF, DKIM, and DMARC records in DNS for _all_ of your email domains in Office 365:
 
   - Verify that your SPF record identifies _all_ sources of email for senders in your domain (don't forget third-party services!).
 
@@ -97,7 +91,5 @@ The important values that indicate skipped filtering and the causes of skipped f
 - Multi factor authentication (MFA) is a really good way to prevent compromised accounts. You should strongly consider enabling MFA for all of your users. For a phased approach, start by enabling MFA for your most sensitive users (admins, executives, etc.) before you enable MFA for everyone. For instructions, see [Set up multi-factor authentication](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication).
 
 - Forwarding rules to external recipients are often used by attackers to extract data. Use the **Review mailbox forwarding rules** information in [Office 365 Secure Score](office-365-secure-score.md) to find and even prevent forwarding rules to external recipients. For more information, see [Mitigating Client External Forwarding Rules with Secure Score](https://blogs.technet.microsoft.com/office365security/mitigating-client-external-forwarding-rules-with-secure-score/).
-
-- The [Bulk Compliant Level (BCL) value](bulk-complaint-level-values.md) that's assigned to messages and configured in spam filter policies attempts to distinguish legitimate bulk email messages from unsolicited bulk email that closely resembles spam (a lower value = good messages; a higher value = bad messages). If you had the **Bulk email** threshold in your spam filter policies set to a high value (7 to 9), lower it significantly (3 to 5) so more bulk email messages are blocked. For more information, see [Configure your spam filter policies](configure-your-spam-filter-policies.md).
 
 - zzOne-button ATP setup?
