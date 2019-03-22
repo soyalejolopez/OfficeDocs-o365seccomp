@@ -44,13 +44,13 @@ Each of the following process flows outline the architecture of privileged acces
 
 ### Step 1: Configuring a privileged access policy
 
-When configuring a privileged access policy using either the Microsoft 365 Admin Center or Exchange Management PowerShell, you create and define the policy and the privileged access feature processes the policy attributes in the Office 365 substrate and logs the activity in the Office 365 Security and Compliance Center. The policy is now enabled and ready to handle incoming requests for approvals.
+When configuring a privileged access policy using either the [Microsoft 365 admin center](https://admin.microsoft.com) or Exchange Management PowerShell, you create and define the policy and the privileged access feature processes the policy attributes in the Office 365 substrate and logs the activity in the Office 365 Security and Compliance Center. The policy is now enabled and ready to handle incoming requests for approvals.
 
 ![Step 1 - Policy creation](media/pam-step1-policy-creation.jpg)
 
 ### Step 2: Access request
 
-Using the Microsoft 365 Admin Center or Exchange Management PowerShell, users can request access to elevated or privileged tasks. The privileged access feature sends the request to the Office 365 substrate for processing against the configured privilege access policy and records the Activity in the Office 365 Security and Compliance Center logs.
+Using the [Microsoft 365 admin center](https://admin.microsoft.com) or Exchange Management PowerShell, users can request access to elevated or privileged tasks. The privileged access feature sends the request to the Office 365 substrate for processing against the configured privilege access policy and records the Activity in the Office 365 Security and Compliance Center logs.
 
 ![Step 2 - Access request](media/pam-step2-access-request.jpg)
 
