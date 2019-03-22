@@ -15,8 +15,7 @@ ms.topic: article
 
 # Overview of the Microsoft 365 security center
 
-**Important** <br>
-Some information relates to prereleased product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+[!include[Prerelease�information](prerelease.md)]
 
 Managing the security of your business to protect against an ever-evolving threat landscape brings many challenges. You might have too many security solutions with various places to configure lots of controls and don’t know which controls are the most effective and which will introduce new challenges for your workforce. It can be difficult for security teams to find the right balance of security and productivity.
 

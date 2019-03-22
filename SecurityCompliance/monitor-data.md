@@ -15,8 +15,7 @@ ms.topic: article
 
 # Monitor and report data in Microsoft 365 security
 
-**Important** <br>
-Some information relates to prereleased product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+[!include[Prerelease�information](prerelease.md)]
 
 The **Data** category helps track user activity that could lead to unauthorized data disclosure. These are the rework of existing Office 365 DLP policy reports plus a 3rd party DLP policy match report.
 

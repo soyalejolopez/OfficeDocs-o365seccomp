@@ -13,7 +13,7 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ---
 
-# Microsoft Secure Score (Preview)
+# Microsoft Secure Score
 
 [!include[Prerelease�information](prerelease.md)]
 
