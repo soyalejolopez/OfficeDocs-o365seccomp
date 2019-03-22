@@ -44,9 +44,7 @@ For more information about these tiers and capabilities recommended for each tie
 
 Recommendations for SharePoint Online team sites draw on a variety of Microsoft 365 capabilities. The following illustration shows the recommended configurations for four SharePoint Online team sites.
 
-![Recommended configuration for SharePoint sites](media/SharePoint site configurations.png)
-
-![Recommended configuration for SharePoint sites](media/SharePoint site configurations.png)
+![Recommended configuration for SharePoint sites](media/SharePoint-site-configurations.png)
 
 As illustrated:
   
