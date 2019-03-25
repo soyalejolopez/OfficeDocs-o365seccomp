@@ -1,5 +1,5 @@
 ---
-title: "Create a new case in Data investigations (Preview)"
+title: "Create a new case in Data Investigations (Preview)"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -17,7 +17,7 @@ ms.assetid:
 description: ""
 ---
 
-# Create a new case in Data investigations (Preview)	
+# Create a new case in Data Investigations (Preview)	
 
 1. Go to [https://protection.office.com](https://protection.office.com).
     
@@ -25,7 +25,7 @@ description: ""
     
 3. In the Security & Compliance Center, click **Data investigations**.
  
-4. On the **Data investigations (Preview)** page, click **Create an investigation**.
+4. On the **Data Investigations (Preview)** page, click **Create an investigation**.
     
 5. On the **New investigation** flyout page, give the investigation a name (required), and then type an optional investigation number and description. Note that the investigation name must be unique in your organization.
 
@@ -33,11 +33,11 @@ description: ""
 
     - Click **Yes** to create the investigation, and display the **Settings** page in the new investigation. This allows you to add members to the investigation.
     
-    - Click **No** to just create the investigation and display it in the list of investigations on the **Data investigations (Preview)** page. If you choose this option, you will be added as the only member of the investigation and the default search and analytics settings will be used. You can add members or change settings any time after the investigation is created.
+    - Click **No** to just create the investigation and display it in the list of investigations on the **Data Investigations (Preview)** page. If you choose this option, you will be added as the only member of the investigation and the default search and analytics settings will be used. You can add members or change settings any time after the investigation is created.
 
 7. Click **Save** to create the investigation.
 
-    The new investigation is displayed in the list of investigations on the **Data investigations (Preview)** page. 
+    The new investigation is displayed in the list of investigations on the **Data Investigations (Preview)** page. 
 
 8. To open a investigation, click the name of the investigation. 
 

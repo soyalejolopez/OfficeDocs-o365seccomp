@@ -19,7 +19,7 @@ description: ""
 
 # Run analytics to investigate faster
 
-When an evidence collection is large, it can be difficult to review them all. Often times, it includes multiple copies of the same or similar emails or documents. Data investigations (Preview) provides a number of analytics tools to reduce the volume of documents that needs to be reviewed without any loss in information. To learn more about these capabilities, see:
+When an evidence collection is large, it can be difficult to review them all. Often times, it includes multiple copies of the same or similar emails or documents. Data Investigations (Preview) provides a number of analytics tools to reduce the volume of documents that needs to be reviewed without any loss in information. To learn more about these capabilities, see:
 
 - [Near duplicate detection](near-duplicates.md)
 - [Email threading](email-threading.md)
