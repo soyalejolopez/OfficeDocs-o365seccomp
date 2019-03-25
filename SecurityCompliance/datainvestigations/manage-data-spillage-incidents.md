@@ -90,16 +90,16 @@ To create an investigation in the Data Investigations (Preview) tool:
  
 ## Step 2: Search for the spilled data 
  
-If you know which users you want to search for spilled data, you can add them as people of interest to map their data sources to the investigation and quickly search their mailbox and OneDrive account. To add people of interest to the investigation, click **People of interest**, and then click **Add people of interest**. For more information, see [Add people of interest to investigation](add-people-of-interest-to-investigation.md)
+If you know which users you want to search for spilled data, you can add them as people of interest to map their data sources to the investigation and quickly search their mailbox and OneDrive account. To add people of interest to the investigation, click **People of interest**, and then click **Add people of interest**. For more information, see [Manage people of interest](manage-people-of-interest.md).
 
-On the **Searches** tab, you can create searches to find the spilled data. You will use the same search query that you used to find the spilled data to delete those same messages in [Step 4](##step-4:-permanently-delete-the-spilled-data). For more information about creating searches, see [Search for data in an investigation](search-for-data.md).
+On the **Searches** tab, you can create searches to find the spilled data. You will use the same search query that you used to find the spilled data to delete those same messages in [Step 4](#step-4-delete-the-spilled-data). For more information about creating searches, see [Search for data in an investigation](search-for-data.md).
 
 After you run the search, you can preview samples of search results and view search statistics to evaluate the effectiveness of your search query. Once you identify the items that you want to delete from Office 365, you can click the **Evidence** tab, and then create an evidence set and add search results that contain those items. 
 
-To do this, click the search that you want to investigate. On the flyout page, click **Add results to evidence** and follow the instructions. Then in the evidence, you can review individual documents, investigate who had access to documents, and export the documents. To simply delete the documents instead of reviewing them, go to [Step 4](##step-4:-permanently-delete-the-spilled-data). 
+To do this, click the search that you want to investigate. On the flyout page, click **Add results to evidence** and follow the instructions. Then in the evidence, you can review individual documents, investigate who had access to documents, and export the documents. To simply delete the documents instead of reviewing them, go to [Step 4](#step-4-delete-the-spilled-data). 
 
 > [!IMPORTANT]
-> The keywords that you use in the search query may contain the actual spilled data that you're searching for. For example, if you search for documents containing a social security number and you use it as a keyword in the search query, you must delete the query afterwards to avoid further spillage. You can delete search or delete the entire investigation in [Step 5](##step-5:-close-or-delete-investigation). 
+> The keywords that you use in the search query may contain the actual spilled data that you're searching for. For example, if you search for documents containing a social security number and you use it as a keyword in the search query, you must delete the query afterwards to avoid further spillage. You can delete the search or delete the entire investigation in [Step 5](#step-5-close-or-delete-the-investigation). 
 
 ## Step 3: Review and investigate 
 
