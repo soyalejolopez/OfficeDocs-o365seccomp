@@ -68,7 +68,7 @@ An alert policy consists of the following settings and conditions.
     
   - Data governance
     
-Office 365 ATP P2  - Data loss prevention
+  - Data loss prevention
 
   - Mail flow
     
