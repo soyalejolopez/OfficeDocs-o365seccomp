@@ -73,7 +73,7 @@ Each playbook includes:
 
 Each high-level step includes many sub-steps that are executed to provide a deep, detailed, and exhaustive response to threats.
 
-## Example: User-reported phish message launches an investigation playbook
+## Example: A user-reported phish message launches an investigation playbook
 
 When a user in your organization submits an email message and reports it to Microsoft by using the [Report Message add-in for Outlook or Outlook Web Access](enable-the-report-message-add-in.md), the report is also sent to your system and is visible in Explorer in the User-reported view. This user-reported message now triggers a system-based informational alert, which automatically launches the investigation playbook.
 
@@ -100,9 +100,17 @@ During the hunting phase, risks and threats are assigned to various hunting step
 
 Remediation is the final phase of the playbook. During this phase, remediation steps are taken, based on the investigation and hunting phases. 
 
-## Example: Trigger an investigation from a view in Threat Explorer
+## Example: A security administrator triggers an investigation from Threat Explorer
 
-In addition to automatic investigations that can be triggered by an alert, your organization's security operations team can trigger an investigation from a view in Threat Explorer.
+In addition to automatic investigations that are triggered by an alert, your organization's security operations team can trigger an automatic investigation from a view in Threat Explorer.
+
+For example, suppose that you are viewing data in Explorer about user-reported messages. You can select an item in the list of results, and then click **Investigate**.
+
+![User-reported messages in Explorer with Investigate button](media/Explorer-UserReported-Investigate.png)
+
+As another example, suppose you are using the Email > Malware view in Explorer, and there are several email messages detected as containing malware. You can select the **Email** tab, select one or more email messages, and then, on the **Actions** menu, select **Investigate**. 
+
+![Starting an investigation for malware in Explorer](media/Explorer-Malware-Email-ActionsInvestigate.png)
 
 ## Getting started
 
