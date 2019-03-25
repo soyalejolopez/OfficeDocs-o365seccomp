@@ -1,5 +1,5 @@
 ---
-title: "Create a new case in Data Investigations (Preview)"
+title: "Create a new investigation in Data Investigations (Preview)"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -17,17 +17,17 @@ ms.assetid:
 description: ""
 ---
 
-# Create a new case in Data Investigations (Preview)	
+# Create a new investigation in Data Investigations (Preview)
 
-1. Go to [https://protection.office.com](https://protection.office.com).
+1. Go to [https://compliance.microsoft.com](https://compliance.microsoft.com).
     
-2. Sign in to Office 365 using your work or school account.
+2. Sign in using your work or school account.
     
-3. In the Security & Compliance Center, click **Data investigations**.
+3. In the compliance center, click **Data Investigations**.
  
-4. On the **Data Investigations (Preview)** page, click **Create an investigation**.
+4. On the **Data Investigations (Preview)** page, click **Create new investigation**.
     
-5. On the **New investigation** flyout page, give the investigation a name (required), and then type an optional investigation number and description. Note that the investigation name must be unique in your organization.
+5. On the **New data investigation** flyout page, give the investigation a name (required), and then type an optional investigation number and description. Note that the investigation name must be unique in your organization.
 
 6. Under **Do you want to configure additional settings after creating this investigation?**, do one of the following:
 
@@ -41,6 +41,6 @@ description: ""
 
 8. To open a investigation, click the name of the investigation. 
 
-    The **Home** tab for the investigation is displayed. For example, here's a new investigation named *Contoso Investigation*.
+    The **Home** tab for the investigation is displayed. For example, here's a new investigation named *Critical: Tax document and finance data leakage*.
 
-    ![The Home tab for a new investigation in Data investigations](../media/newAeDcase.png)
+    ![The Home tab for a new investigation in Data Investigations](../media/NewDataInvestigations.png)
