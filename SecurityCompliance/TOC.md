@@ -379,10 +379,6 @@
 ## [Release notes](datainvestigations/data-investigations-release-notes.md)
 ## [Manage a data spillage incident](datainvestigations/manage-data-spillage-incidents.md)
 ## [Create a new investigation](datainvestigations/create-new-investigation.md)
-
-## [Manage people of interest in an investigation](datainvestigations/manage-people-of-interest.md)
-### [View the audit activity of people in an investigation](datainvestigations/view-people-of-interest-activity.md)
-### [Index the data of people in an investigation](datainvestigations/index-data-people-of-interest.md)
  
 ## [Search for data in an investigation](datainvestigations/search-for-data.md)
 ### [Build search queries](datainvestigations/build-search-queries.md)
@@ -400,6 +396,10 @@
 ### [Load non-Office 365 data](datainvestigations/load-non-office365-data.md)
 ### [Use the Relevance module to analyze data](datainvestigations/use-relevance-module.md)
 ### [Error remediation when processing data](datainvestigations/error-remediation.md)
+
+## [Manage people of interest in an investigation](datainvestigations/manage-people-of-interest.md)
+### [Index the data of people in an investigation](datainvestigations/index-data-people-of-interest.md)
+### [View the audit activity of people in an investigation](datainvestigations/view-people-of-interest-activity.md)
 
 ## [Export data from an investigation](datainvestigations/export-data.md)
 ### [Export documents from evidence](datainvestigations/export-documents-from-incident.md)
