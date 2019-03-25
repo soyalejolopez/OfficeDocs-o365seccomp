@@ -102,15 +102,17 @@ Remediation is the final phase of the playbook. During this phase, remediation s
 
 ## Example: A security administrator triggers an investigation from Threat Explorer
 
-In addition to automatic investigations that are triggered by an alert, your organization's security operations team can trigger an automatic investigation from a view in Threat Explorer.
+In addition to automatic investigations that are triggered by an alert, your organization's security operations team can trigger an automatic investigation from a view in [Threat Explorer](use-explorer-in-security-and-compliance.md).
 
 For example, suppose that you are viewing data in Explorer about user-reported messages. You can select an item in the list of results, and then click **Investigate**.
 
 ![User-reported messages in Explorer with Investigate button](media/Explorer-UserReported-Investigate.png)
 
-As another example, suppose you are using the Email > Malware view in Explorer, and there are several email messages detected as containing malware. You can select the **Email** tab, select one or more email messages, and then, on the **Actions** menu, select **Investigate**. 
+As another example, suppose you are viewing data about email messages detected as containing malware, and there are several email messages detected as containing malware. You can select the **Email** tab, select one or more email messages, and then, on the **Actions** menu, select **Investigate**. 
 
 ![Starting an investigation for malware in Explorer](media/Explorer-Malware-Email-ActionsInvestigate.png)
+
+Similar to playbooks triggered by an alert, automatic investigations that are triggered from a view in Explorer include a root investigation, steps to identify and correlate threats, and recommended actions to mitigate those threats.
 
 ## Get started
 
@@ -191,12 +193,12 @@ Given the sheer volume of email that users in an organization send and receive, 
 can take many hours. AIR now automates this process, saving your organization's security team time and effort. 
 
 Two different types of email clusters may be identified during the email analysis step: similarity clusters, and indicator clusters. 
-- Similarity clusters are email messages containing similar sender and content attributes. These clusters are evaluated for malicious content based on the original detection findings. Email clusters that contain enough malicious detections will be considered malicious.
-- Indicator clusters are email messages containing the same indicator entity (file hash or URL) from the original email. When the original file/URL entity is identified as malicious, AIR will apply the indicator verdict to the entire cluster of email messages containing that entity. As a file identified as malware will mean that the cluster of email messages containing that file will be treated as malware email messages.
+- Similarity clusters are email messages that contain similar sender and content attributes. These clusters are evaluated for malicious content based on the original detection findings. Email clusters that contain enough malicious detections will be considered malicious.
+- Indicator clusters are email messages that contain the same indicator entity (file hash or URL) from the original email. When the original file/URL entity is identified as malicious, AIR will apply the indicator verdict to the entire cluster of email messages containing that entity. As a file identified as malware will mean that the cluster of email messages containing that file will be treated as malware email messages.
 
 The goal of clustering is to find other related email messages that are sent by the same sender as part of an attack or a campaign.
 
-The **Email** tab will also show email items related to the investigation, such as the user-reported email details, the original email reported, the email(s) zapped due to malware/phish, etc.
+The **Email** tab will also show email items related to the investigation, such as the user-reported email details, the original email reported, the email message(s) zapped due to malware/phish, etc.
 
 The email count identified on the email tab currently represents the sum total of all email messages shown on the **Email** tab. Since email messages will be present in multiple clusters, the actual total count of email messages identified (and affected by remediation actions) will be the count of unique email messages present across all of the clusters and original recipients' email messages. 
 
@@ -283,7 +285,7 @@ You can:
 
 ## How to get AIR
 
-Currently, Office 365 AIR is in preview. Office 365 AIR will be included in the following subscriptions:
+Currently, Office 365 AIR features are in preview. When generally available, Office 365 AIR features will be included in the following subscriptions:
 
 - Microsoft 365 Enterprise E5
 - Office 365 Enterprise E5
