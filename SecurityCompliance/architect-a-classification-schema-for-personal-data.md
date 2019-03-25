@@ -37,7 +37,7 @@ Choose one of the following options.
 
 -   These work with DLP rules (so do retention labels).
 
--   In the future these will work with Cloud App Security so you can detect sensitive information in other SaaS apps.
+-   Sensitive information types work with Cloud App Security so you can detect sensitive information in other SaaS apps.
 
 ### Option 2: Use sensitive information types + retention labels
 
