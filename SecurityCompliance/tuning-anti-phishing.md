@@ -29,7 +29,7 @@ If your subscription includes Advanced Threat Protection (ATP), you can use [Off
 
 - [ATP anti-phishing policies](set-up-anti-phishing-policies.md). Note that you can temporarily increase the **Advanced phishing thresholds** in the policy from **Standard** to **Aggressive**, **More aggressive**, or **Most aggressive**.
 
-Verify these settings are turned on.
+Verify these ATP features are turned on.
 
 ## Report the phishing message to Microsoft
 
@@ -43,7 +43,7 @@ For more information, see [Submit spam, non-spam, and phishing scam messages to 
 
 You can examine the headers of the phishing message to see if there's anything that you can do yourself to prevent more phishing messages from coming through. In other words, examining the messages headers can help you identify any settings in your organization that were responsible for allowing the phishing messages in.
 
-Specifically, you you should check the **X-Forefront-Antispam-Report** header field in the message headers for indications of skipped spam or phish filtering in the Spam Filtering Verdict (SFV) or IP Filter Verdict (IPV) values.
+Specifically, you should check the **X-Forefront-Antispam-Report** header field in the message headers for indications of skipped spam or phish filtering in the Spam Filtering Verdict (SFV) or IP Filter Verdict (IPV) values.
 
 In Outlook, you can view the message headers in an open message by clicking **File** \> **Properties**. The message headers are shown in the **Internet headers** field. For ease of reading, you can click anywhere in the **Internet headers** field, press Ctrl+A, and then Ctrl+C to copy everything to the clipboard.
 
@@ -60,21 +60,23 @@ The important values that indicate skipped filtering and the causes of skipped f
 |`SFV:SKI`|Similar to `SFV:SKN`, the message skipped filtering for another reason such as being intra-organizational email within your organization. <br/><br/> Messages with this result are likely not the result of a dangerous or misconfigured setting in your organization. The message was from a spoofed sender, but it looks completely legitimate to the phishing filters.<br/><br/> The best thing to do with these messages is [report the phishing message to Microsoft](#report-the-phishing-message-to-microsoft) and (if necessary) follow the steps in [Responding to a compromised email account in Office 365](responding-to-a-compromised-email-account.md).|
 |`SFV:SKQ`|The message was released from the quarantine and was sent to the intended recipients. <br/><br/> Admins and users need to be careful releasing messages from quarantine. You don't want to accidentally release phishing messages. <br/><br/> For more information, see [Find and release quarantined messages as an administrator](find-and-release-quarantined-messages-as-an-administrator.md) and [Find and release quarantined messages as a user in Office 365](find-and-release-quarantined-messages-as-a-user.md).|
 
+For a complete list of all available anti-spam and anti-phish message headers, see [Anti-spam message headers](https://docs.microsoft.com/office365/SecurityCompliance/anti-spam-message-headers).
+
 ## Best practices to stay protected
 
-- Periodically run [Office 365 Secure Score](office-365-secure-score.md) to assess your Office 365 organization's security settings.
+- On a monthly basis, run [Office 365 Secure Score](office-365-secure-score.md) to assess your Office 365 organization's security settings.
 
 - Periodically review the [Spoof intelligence report](learn-about-spoof-intelligence.md) and [enable anti-spoofing protection in the anti-phishing policy](learn-about-spoof-intelligence.md#configuring-the-anti-spoofing-policy) to **quarantine** suspicious messages instead of delivering them to the user's Junk Email folder.
 
 - Periodically review the [Threat Protection Status report](view-reports-for-atp.md#threat-protection-status-report).
 
-- Some customers inadvertently allow phishing messages through by putting their own domain or domains in the Allow sender or Allow domain list in anti-spam policies. You should use extreme caution because doing this will allow some legitimate messages through, but it will also allow malicious messages that would normally be blocked by the Office 365 spam and/or phish filters.
+- Some customers inadvertently allow phishing messages through by putting their own domains in the Allow sender or Allow domain list in anti-spam policies. If you choose to do this, you must use extreme caution. Although this configuration will allow some legitimate messages through, it will also allow malicious messages that would normally be blocked by the Office 365 spam and/or phish filters.
 
-- The best way to deal with legitimate messages that are blocked by Office 365 (false positives) that involve senders in your domain is to fully and completely configure the SPF, DKIM, and DMARC records in DNS for _all_ of your email domains in Office 365:
+  The best way to deal with legitimate messages that are blocked by Office 365 (false positives) that involve senders in your domain is to fully and completely configure the SPF, DKIM, and DMARC records in DNS for _all_ of your email domains in Office 365:
 
   - Verify that your SPF record identifies _all_ sources of email for senders in your domain (don't forget third-party services!).
 
-  zzAnything else specific here?
+  - Use hard fail (-) to ensure that unauthorized senders are rejected by email systems that are configured to do so. You can use [spoof intelligence](https://docs.microsoft.com/office365/securitycompliance/learn-about-spoof-intelligence) to help identify senders that are using your domain so that you can include authorized third-party senders in your SPF record.
 
   For configuration instructions, see:
   
@@ -84,7 +86,7 @@ The important values that indicate skipped filtering and the causes of skipped f
 
   - [Use DMARC to validate email in Office 365](use-dmarc-to-validate-email.md)
 
-- Whenever possible, we recommend that you deliver email for your domain directly to Office 365. In other words, point your domain's MX record to Office 365.
+- Whenever possible, we recommend that you deliver email for your domain directly to Office 365. In other words, point your domain's MX record to Office 365. Exchange Online Protection (EOP) is able to provide the best protection for your cloud users when their mail is delivered directly to Office 365. If you must use a third-party email hygiene system in front of EOP, ensure you have followed the guidance [here](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-mail-flow-using-third-party-cloud).
 
   zzIf not, mention connector intelligence here?
 
