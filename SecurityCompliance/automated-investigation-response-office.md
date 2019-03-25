@@ -30,7 +30,7 @@ In the initial release of AIR in April 2019, alerts generated from following sin
 3. Email messages containing malware removed after delivery*
 4. Email messages containing phish URLs removed after delivery*
 
-*Note: These alerts have been assigned an "Informational" severity in the respective alert policies within the Security and Compliance Center with email notifications turned off. These can be turned on through the Alert policy configuration.
+*Note: These alerts have been assigned an "Informational" severity in the respective alert policies within the Security & Compliance Center with email notifications turned off. These can be turned on through the Alert policy configuration.
 
 To view alerts, in the Office 365 Security & Compliance Center, choose **Alerts** > **View alerts**. Select an alert to view its details, and from there, use the **View investigation** link to go to the corresponding [investigation](#investigation-graph). Note that informational alerts are hidden in the alert view by default. To see them, you need to change the alert filtering to include informational alerts.
 
