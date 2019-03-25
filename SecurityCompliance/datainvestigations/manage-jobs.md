@@ -1,5 +1,5 @@
 ---
-title: "Manage jobs in a data investigation"
+title: "Manage jobs in Data Investigations"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -17,7 +17,7 @@ ms.assetid:
 description: ""
 ---
 
-# Manage jobs in a data investigation
+# Manage jobs in Data Investigations
 
 Here's a list of the jobs that are tracked on the **Jobs** tab of an investigation in Data Investigations.
 
