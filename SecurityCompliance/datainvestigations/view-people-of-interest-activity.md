@@ -18,18 +18,18 @@ description: ""
 ---
 # View the audit activity of people of interest
 
-Need to find if a user viewed a specific document or purged an item from their mailbox? Data investigations (Preview) is now integrated with the existing audit log search tool in the Security & Compliance Center. Using this embedded experience, you can use the Data investigations (Preview) People of interest Management tool to facilitate your investigation by easily accessing and searching the activity for people of interest within your investigation.
+Need to find if a user viewed a specific document or purged an item from their mailbox? Data Investigations (Preview) is now integrated with the existing audit log search tool in the Security & Compliance Center. Using this embedded experience, you can use the Data Investigations (Preview) People of interest Management tool to facilitate your investigation by easily accessing and searching the activity for people of interest within your investigation.
 
 ## Before you begin
 
-You have to be assigned the View-Only Audit Logs or Audit Logs role in Exchange Online to search the Office 365 audit log. By default, these roles are assigned to the Compliance Management and Organization Management role groups on the Permissions page in the Exchange admin center. To give a user the ability to search the Data investigations (Preview) audit log with the minimum level of privileges, you can create a custom role group in Exchange Online, add the View-Only Audit Logs or Audit Logs role, and then add the user as a member of the new role group. For more information, see Manage role groups in Exchange Online.
+You have to be assigned the View-Only Audit Logs or Audit Logs role in Exchange Online to search the Office 365 audit log. By default, these roles are assigned to the Compliance Management and Organization Management role groups on the Permissions page in the Exchange admin center. To give a user the ability to search the Data Investigations (Preview) audit log with the minimum level of privileges, you can create a custom role group in Exchange Online, add the View-Only Audit Logs or Audit Logs role, and then add the user as a member of the new role group. For more information, see Manage role groups in Exchange Online.
 
 > [!IMPORTANT]
 > If you assign a user the View-Only Audit Logs or Audit Logs role on the Permissions page in the Security & Compliance Center, they won't be able to search the Office 365 audit log. You have to assign the permissions in Exchange Online. This is because the underlying cmdlet used to search the audit log is an Exchange Online cmdlet.
 
-## Step 1: Create an Data investigations (Preview) audit log search
+## Step 1: Create an Data Investigations (Preview) audit log search
 
-   1. Select an existing investigation from the **Security & Compliance Center > Data investigations (Preview)**.
+   1. Select an existing investigation from the **Security & Compliance Center > Data Investigations (Preview)**.
    
    2. Navigate to the **People of interest** tab and select a person.
    
@@ -96,4 +96,4 @@ You can export the results of an audit log search to a comma separated value (CS
 
 3. After you select an export option, a message is displayed at the bottom of the window that prompts you to open the CSV file, save it to the Downloads folder, or save it to a specific folder
 
-For more information about viewing, filtering, or exporting audit log search results, see [Search the audit log in the Office 365 Security & Compliance Center](../search-the-audit-log-in-security-and-compliance.md).
+For more information about viewing, filtering, or exporting audit log search results, see [Search the audit log in the Office 365](../search-the-audit-log-in-security-and-compliance.md).

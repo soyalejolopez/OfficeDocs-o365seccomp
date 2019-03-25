@@ -21,7 +21,7 @@ description: ""
 
 You can add or remove members to manage who can access the investigation. To see and access data investigations, members must be part of Data Investigator role group or a custom role group with Data Investigation Management role assigned. Data investigator who created the investigation is automatically added as a member.
 
-1. From the **Data investigations (Preview)** page, go to your investigation.
+1. From the **Data Investigations (Preview)** page, go to your investigation.
 
 2. Go to **Settings** and select "Access & Permissions".
  

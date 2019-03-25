@@ -100,7 +100,7 @@ Note that these annotations are on data collected as evidence, not at its origin
 
 ## More information
 
-The following table lists the limits for evidence in Data investigations (Preview).  Any items that exceed the single file maximums will show up as processing errors.
+The following table lists the limits for evidence in Data Investigations (Preview).  Any items that exceed the single file maximums will show up as processing errors.
     
   |**Description of limit**|**Limit**|
   |:-----|:-----|

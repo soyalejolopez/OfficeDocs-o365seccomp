@@ -19,16 +19,16 @@ description: ""
 
 # Error remediation when processing data for an investigation
 
-Error remediation allows investigators the ability to rectify data issues which prevent Data investigations (Preview) from properly processing the content. For example, files that are password protected cannot be processed since the files are locked or encrypted. Using error remediation, investigators can download files with such errors, remove the password protection and upload the remediated files.
+Error remediation allows investigators the ability to rectify data issues which prevent Data Investigations (Preview) from properly processing the content. For example, files that are password protected cannot be processed since the files are locked or encrypted. Using error remediation, investigators can download files with such errors, remove the password protection and upload the remediated files.
 
-Use the following workflow to remediate files with errors in Data investigations (Preview) cases.
+Use the following workflow to remediate files with errors in Data Investigations (Preview) cases.
 
 ## Creating an error remediation session to remediate files with processing errors
 
 >[!NOTE]
 >If the the error remediation wizard is closed at any time during the following procedure, you can return to the error remediation session from the **Processing** tab by selecting **Error remediations** in the **View** drop down menu.
 
-1. On the **Processing** tab in an Data investigations (Preview) case, select **Errors** in the **View** drop down menu.
+1. On the **Processing** tab in an Data Investigations (Preview) case, select **Errors** in the **View** drop down menu.
 
 2. Select the errors you want to remediate by clicking the radio button next to either the error type or file type.  In the following example, we're remediating a password protected file.
 
@@ -65,7 +65,7 @@ Use the following workflow to remediate files with errors in Data investigations
     > [!NOTE]
     > IT is important that you retain the directory structure and file names of the remediated files in tact.  All naming conventions used in the downloaded files and folders make it possible to associate the remdiated files back to the original.
 
-8. Now, return to Data investigations (Preview) and click **Next: Upload files**.  This will move to the next step where you can now upload the files.
+8. Now, return to Data Investigations (Preview) and click **Next: Upload files**.  This will move to the next step where you can now upload the files.
 
     ![Upload Files](../media/af3d8617-1bab-4ecd-8de0-22e53acba240.png)
 
@@ -75,7 +75,7 @@ Use the following workflow to remediate files with errors in Data investigations
 
     ![ff2ff691-629f-4065-9b37-5333f937daf6.png](../media/ff2ff691-629f-4065-9b37-5333f937daf6.png)
 
-11. Finally, return to Data investigations (Preview) and click **Next: Process files**.
+11. Finally, return to Data Investigations (Preview) and click **Next: Process files**.
 
 12. When processing is complete.  You can return to the working set and see the remediated file.
 
@@ -96,4 +96,4 @@ When remediated files are uploaded, the original metadata is preserved with the 
 - WordCount
 - WorkingsetId
 
-For a definition of all document metadata fields in Data investigations (Preview), see [Document metadata fields](document-metadata-fields.md).
+For a definition of all document metadata fields in Data Investigations (Preview), see [Document metadata fields](document-metadata-fields.md).

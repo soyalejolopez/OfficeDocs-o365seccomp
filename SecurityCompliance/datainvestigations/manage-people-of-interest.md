@@ -1,5 +1,5 @@
 ---
-title: "Manage people of interest"
+title: "Manage people of interest in Data Investigations (Preview)"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -16,9 +16,9 @@ ms.assetid:
 
 description: ""
 ---
-# Manage people of interest to an investigation
+# Manage people of interest in Data Investigations (Preview)
 
-Data investigations often involve people of interest. Usually they are people who own the misplaced, sensitive or malicious data that you're investigating or looking to remediate. In **Data investigations (Preview)**, you can add them to discover their data sources to use in scoping your search or view additional information such as contact, location and activity logs. 
+Data investigations often involve people of interest. Usually they are people who own the misplaced, sensitive or malicious data that you're investigating or looking to remediate. In **Data Investigations (Preview)**, you can add them to discover their data sources to use in scoping your search or view additional information such as contact, location and activity logs. 
 
 
 ## Add people of interest
@@ -27,7 +27,7 @@ In **People of interest** tab, you can add people of interest and discover their
 
 To add people of interest to an investigation:
 
-1. From the **Data investigations (Preview)** page, go to your investigation.
+1. From the **Data Investigations (Preview)** page, go to your investigation.
  
 2. After you have selected a investigation, go to the **People of interest** tab and click **+ Add people of interest**. 
  
