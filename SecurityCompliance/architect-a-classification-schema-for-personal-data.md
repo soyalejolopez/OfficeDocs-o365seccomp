@@ -35,7 +35,7 @@ Choose one of the following options.
 
 -   These are simpler to use if your organization doesn’t already have or plan to implement a broader data governance plan using labels.
 
--   These work with DLP rules (so do Office labels).
+-   These work with DLP rules (so do retention labels).
 
 -   In the future these will work with Cloud App Security so you can detect sensitive information in other SaaS apps.
 
