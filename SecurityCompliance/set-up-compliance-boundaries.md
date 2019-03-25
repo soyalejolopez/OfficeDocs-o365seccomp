@@ -175,7 +175,7 @@ Keep the following limitations in mind when managing eDiscovery cases and invest
 
 ## Searching and exporting content in Multi-Geo environments
 
-Search permissions filters also let you control where content is routed for export and which datacenter can be searched when searching SharePoint sites and OneDrive accounts in a [SharePoint Multi-Geo environment](https://go.microsoft.com/fwlink/?linkid=860840):
+Search permissions filters also let you control where content is routed for export and which datacenter can be searched when searching Exchange Online Mailboxes, SharePoint sites and OneDrive accounts in a [SharePoint Multi-Geo environment](https://go.microsoft.com/fwlink/?linkid=860840):
   
 - Export search results from a specific data center. This means that you can specify the data center location that search results will be exported from.
     
