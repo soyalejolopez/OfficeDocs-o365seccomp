@@ -32,11 +32,11 @@ In the initial release of AIR in April 2019, alerts generated from following sin
 3. Email messages containing malware removed after delivery*
 4. Email messages containing phish URLs removed after delivery*
 
-*Note: These alerts have been assigned an "Informational" severity in the respective alert policies within the Security & Compliance Center with email notifications turned off. These can be turned on through the Alert policy configuration.
+***Note**: These alerts have been assigned an "Informational" severity in the respective alert policies within the Security & Compliance Center with email notifications turned off. These can be turned on through the Alert policy configuration.
 
 To view alerts, in the Office 365 Security & Compliance Center, choose **Alerts** > **View alerts**. Select an alert to view its details, and from there, use the **View investigation** link to go to the corresponding [investigation](#investigation-graph). Note that informational alerts are hidden in the alert view by default. To see them, you need to change the alert filtering to include informational alerts.
 
-If your organization manages your security alerts through a alert management system, service management system, or Security Information and Event Management (SIEM) system, you can send Office 365 alerts to that system via either email notification or via the Office 365 Management Activity API. The investigation alert notifications via email or API will include links to access the alerts in the Office 365 Security & Compliance Center, enabling the assigned security administrator to navigate quickly to the investigation.
+If your organization manages your security alerts through a alert management system, service management system, or Security Information and Event Management (SIEM) system, you can send Office 365 alerts to that system via either email notification or via the [Office 365 Management Activity API](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference). The investigation alert notifications via email or API will include links to access the alerts in the Office 365 Security & Compliance Center, enabling the assigned security administrator to navigate quickly to the investigation.
 
 ![Alerts that link to investigations](media/air-alerts-page-details.png) 
 
@@ -73,7 +73,7 @@ Each playbook includes:
 
 Each high-level step includes many sub-steps that are executed to provide a deep, detailed, and exhaustive response to threats.
 
-## Example: User-reported phish message
+## Example: User-reported phish message launches an investigation playbook
 
 When a user in your organization submits an email message and reports it to Microsoft by using the [Report Message add-in for Outlook or Outlook Web Access](enable-the-report-message-add-in.md), the report is also sent to your system and is visible in Explorer in the User-reported view. This user-reported message now triggers a system-based informational alert, which automatically launches the investigation playbook.
 
@@ -100,11 +100,15 @@ During the hunting phase, risks and threats are assigned to various hunting step
 
 Remediation is the final phase of the playbook. During this phase, remediation steps are taken, based on the investigation and hunting phases. 
 
+## Example: Trigger an investigation from a view in Threat Explorer
+
+In addition to automatic investigations that can be triggered by an alert, your organization's security operations team can trigger an investigation from a view in Threat Explorer.
+
 ## Getting started
 
 To access your investigations, as an Office 365 global administrator, security administrator, or security reader, go to the Office 365 Security & Compliance Center ([https://protection.office.com](https://protection.office.com)) and sign in. Then, do one of the following:
 
-- In the left navigation, go to **Alerts** > **View alerts**, open one of the investigation related alerts, then click the 'View investigation' link at the bottom of the alert flyout. 
+- In the left navigation, go to **Alerts** > **View alerts**, open one of the investigation related alerts, then click the **View investigation** link at the bottom of the alert flyout. 
 
     or
 
@@ -118,7 +122,7 @@ To access your investigations, as an Office 365 global administrator, security a
 
 Your AIR widgets will appear across the top of the [Security Dashboard](security-dashboard.md). Select a widget to get started.
 
-You may also access an invesitgation directly from the related Alerts.
+You may also access an investigation directly from the related Alerts.
 
 ### Automated investigations
 
