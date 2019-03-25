@@ -31,7 +31,7 @@ After you run a search, you will be able to view statistics on the retrieved ite
 
 3. Define your search criteria. You can define the conditions for your search using the pre-built condition cards or using Keyword Query Language (KQL). For more information, see [Build search queries](build-search-queries.md).
 
-4. Once you have defined your conditions, you need to choose which locations you want to search. One way to do it is scoping it by selecting people of interest if you added any. If you know whom you want to scope down your search but haven't added them to people of interest, you can do so following instructions in [Add people of interest to investigation](add-people-of-interest-to-investigation.md).
+4. After you've defined your conditions, you need to choose which locations you want to search. One way to do it is scoping it by selecting people of interest if you added any. If you know whom you want to scope down your search but haven't added them to people of interest, you can do so following instructions in [Manage people of interest](manage-people-of-interest.md#add-people-of-interest).
 
 5. In some cases, you may wish to search across tenant or data sources across that are not mapped to a person. In this case, you can specify the locations you would like to search, or choose to search all content locations for a specific Office 365 service (such as searching all Exchange mailboxes or all SharePoint and OneDrive for Business sites).
 

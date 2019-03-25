@@ -37,7 +37,7 @@ To analyze data in evidence:
 
 You can check the progress of analysis in the Jobs tab in your investigation.
 
- Once analysis is completed, you can see a list of exact duplicates or near-duplicates of the document that you're reviewing located on the panel to the right. To select all duplicates of the document you're viewing, you can easily do so using this panel. To learn more about other features on this panel, see [Review data in evidence](review-data-in-evidence.md) You can also run additional queries within your evidence using the outputs of the analysis such as themes (for more information see [Query within your evidence](working-set-search.md)).
+ After analysis is completed, you can see a list of exact duplicates or near-duplicates of the document that you're reviewing located on the panel to the right. To select all duplicates of the document you're viewing, you can easily do so using this panel. To learn more about other features on this panel, see [Review data in evidence](review-data-in-evidence.md) You can also run additional queries within your evidence using the outputs of the analysis such as themes; for more information, see [Query the data in evidence](evidence-query.md).
 
 ## Analytics report
 

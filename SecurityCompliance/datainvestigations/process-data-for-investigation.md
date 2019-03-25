@@ -27,5 +27,5 @@ The **Processing** tab in Data Investigations (Preview) provides transparency in
 
 See the following articles for more details.
 
-- [Advanced indexing of custodian data](indexing-custodian-data.md)
+- [Advanced indexing of data for an investigation](index-data-people-of-interest.md)
 - [Error remediation when processing data](error-remediation.md)

@@ -23,9 +23,12 @@ Content in the live system can be partially indexed for a number of reasons incl
 
 To learn more about processing support in Office 365 and partially indexed items, see:
 
-- [Supported file types in Data investigations](supported-filetypes-ediscovery20.md)
+- [Supported file types in Data Investigations](supported-filetypes-datainvestigations.md)
+
 - [Partially indexed items in Content Search in Office 365](https://docs.microsoft.com/en-us/office365/securitycompliance/partially-indexed-items-in-content-search)
+
 - [File formats indexed by Exchange Search](https://docs.microsoft.com/en-us/exchange/file-formats-indexed-by-exchange-search-exchange-2013-help)
+
 - [Default crawled file name extensions and parsed file types in SharePoint Server](https://docs.microsoft.com/en-us/SharePoint/technical-reference/default-crawled-file-name-extensions-and-parsed-file-types)
 
 ## Viewing Advanced indexing results
