@@ -112,7 +112,7 @@ As another example, suppose you are using the Email > Malware view in Explorer, 
 
 ![Starting an investigation for malware in Explorer](media/Explorer-Malware-Email-ActionsInvestigate.png)
 
-## Getting started
+## Get started
 
 To access your investigations, as an Office 365 global administrator, security administrator, or security reader, go to the Office 365 Security & Compliance Center ([https://protection.office.com](https://protection.office.com)) and sign in. Then, do one of the following:
 
@@ -144,18 +144,18 @@ You can:
 - Export the data to a CSV file.
 
 The investigation status indicates the progress of the analysis and actions. As the investigation runs, the status will change to indicate whether threats were found, as well as indicate whether actions have been approved. 
-- Starting:  The investigation is queued to begin soon
-- Running:  The investigation has started and is conducting its' analysis
-- No Threats Found:  The investigation has completed its' analysis and no threats were found
-- Terminated By System:  The investigation was not closed and expired after 7 days
-- Pending Action:  The investigation found threats with actions recommended
-- Threats Found:  The investigation found threats, but the threats do not have actions available within AIR
-- Remediated:  The investgation finished and was fully remediated (all actions were approved)
-- Partially Remediated:  The investigation finished and some of the recommended actions were approved
-- Terminated By User:  An admin terminated the investigation
-- Failed:  An error occurred during the investigation that prevented it from reaching a conclusion on threats
-- Queued By Throttling:  The investigation is waiting for analysis due to system processing limitations (to protect service performance)
-- Terminated By Throttling:  The investigation could not be completed in sufficient time due to investigation volume and system processing limitations. You can re-trigger the investigation by selecting the email in Explorer and selecting the Investigate action.
+- **Starting**: The investigation is queued to begin soon
+- **Running**: The investigation has started and is conducting its' analysis
+- **No Threats Found**: The investigation has completed its' analysis and no threats were found
+- **Terminated By System**: The investigation was not closed and expired after 7 days
+- **Pending Action**: The investigation found threats with actions recommended
+- **Threats Found**: The investigation found threats, but the threats do not have actions available within AIR
+- **Remediated**: The investgation finished and was fully remediated (all actions were approved)
+- **Partially Remediated**: The investigation finished and some of the recommended actions were approved
+- **Terminated By User**: An admin terminated the investigation
+- **Failed**: An error occurred during the investigation that prevented it from reaching a conclusion on threats
+- **Queued By Throttling**: The investigation is waiting for analysis due to system processing limitations (to protect service performance)
+- **Terminated By Throttling**: The investigation could not be completed in sufficient time due to investigation volume and system processing limitations. You can re-trigger the investigation by selecting the email in Explorer and selecting the Investigate action.
 
 ### Investigation graph
 
