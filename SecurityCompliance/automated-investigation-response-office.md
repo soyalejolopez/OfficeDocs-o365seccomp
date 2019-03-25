@@ -91,7 +91,7 @@ Next, several threat investigation and hunting steps are executed:
 - Similar email messages in other email clusters are searched.
 - The signal is shared with other platforms, such as [Windows Defender ATP](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection).
 - A determination is made on whether any users have clicked through any malicious links in suspicious email messages.
-- A check is done across Office 365 Exchange Online Protection ([EOP])(eop/exchange-online-protection-eop.md) and Office 365 Advanced Therat Protection ([ATP])(office-365-atp.md) to see if there are any other similar messages reported by users.
+- A check is done across Office 365 Exchange Online Protection ([EOP](eop/exchange-online-protection-eop.md)) and Office 365 Advanced Threat Protection ([ATP](office-365-atp.md)) to see if there are any other similar messages reported by users.
 - A check is done to see if a user has been compromised. This check leverages signals across [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security) and [Azure Active Directory](https://docs.microsoft.com/azure/active-directory), correlating any related user activity anomalies. 
 
 During the hunting phase, risks and threats are assigned to various hunting steps.  
@@ -100,7 +100,7 @@ Remediation is the final phase of the playbook. During this phase, remediation s
 
 ## Getting started
 
-To access your investigations, as an Office 365 global administrator, security administrator, or security reader, Go to the Office 365 Security & Compliance Center ([https://protection.office.com](https://protection.office.com)) and sign in. Then, do one of the following:
+To access your investigations, as an Office 365 global administrator, security administrator, or security reader, go to the Office 365 Security & Compliance Center ([https://protection.office.com](https://protection.office.com)) and sign in. Then, do one of the following:
 
 - In the left navigation, go to **Alerts** > **View alerts**, open one of the investigation related alerts, then click the 'View investigation' link at the bottom of the alert flyout.  
 
