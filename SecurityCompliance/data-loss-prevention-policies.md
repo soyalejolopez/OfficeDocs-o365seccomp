@@ -3,7 +3,7 @@ title: "Overview of data loss prevention policies"
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 3/20/2019
+ms.date: 3/25/2019
 ms.audience: ITPro
 ms.topic: conceptual
 f1_keywords:
@@ -465,9 +465,11 @@ DLP policy evaluation in Office is designed not to affect the performance of the
 
 ### Policy evaluation in Microsoft Teams
  
-When you create a DLP policy that includes Microsoft Teams as a location, the policy's synced from the Office 365 Security &amp; Compliance Center to user accounts and Microsoft Teams channels and chats. Depending on how DLP policies are configured, when someone attempts to share sensitive information in a Microsoft Teams chat or channel, the message can be blocked or revoked. Documents that contain sensitive information and that are shared with guests (external users) won't open for those users.
+When you create a DLP policy that includes Microsoft Teams as a location, the policy's synced from the Office 365 Security &amp; Compliance Center to user accounts and Microsoft Teams channels and chats. Depending on how DLP policies are configured, when someone attempts to share sensitive information in a Microsoft Teams chat or channel, the message can be blocked or revoked. And, documents that contain sensitive information and that are shared with guests (external users) won't open for those users.
 
-Protection can occur retroactively with passive processing (this results in revoked messages), or in real-time processing with interception (this results in blocked messages). Policy tips notify senders about why their messages were blocked or revoked. For example, a sender might be told that their message contains personally identifiable information (PII) that is not allowed to be shared, or that a document that contains PII cannot be shared with people outside their organization.
+For example, suppose that someone attempts to share sensitive information in a Teams chat or channel with external users. Suppose there's a DLP policy defined to prevent this. With protection in place, messages containing sensitive information sent to external users are deleted. This happens within seconds, and it happens automatically, according to how the DLP policy is configured.
+
+Policy tips notify senders about why their messages were blocked or revoked. For example, a sender might be told that their message contains personally identifiable information (PII) that is not allowed to be shared, or that a document that contains PII cannot be shared with people outside their organization.
  
 ## Permissions
 
