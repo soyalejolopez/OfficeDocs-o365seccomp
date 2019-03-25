@@ -3,7 +3,7 @@ title: "Automated Investigation and Response (AIR) with Office 365"
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 03/22/2019
+ms.date: 03/25/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -34,7 +34,7 @@ In the initial release of AIR in April 2019, alerts generated from following sin
 
 To view alerts, in the Office 365 Security & Compliance Center, choose **Alerts** > **View alerts**. Select an alert to view its details, and from there, use the **View investigation** link to go to the corresponding [investigation](#investigation-graph).  Note that informational alerts are hidden in the alert view by default.  To see them, you need to change the alert filtering to include informational alerts.
 
-If your organization manages your security alerts through a alert management system, service management system, or Security Information and Event Management (SIEM) system, you can send Office 365 alerts to that system via either email notification or via the Office 365 Management Activity API.  The investigation alert notifications via email or API will include links to access the alerts in the Office 365 Security and Compliance Console (SCC) - letting the assigned security administrator to quickly navigate to the investigation.   
+If your organization manages your security alerts through a alert management system, service management system, or Security Information and Event Management (SIEM) system, you can send Office 365 alerts to that system via either email notification or via the Office 365 Management Activity API.  The investigation alert notifications via email or API will include links to access the alerts in the Office 365 Security & Compliance Center, enabling the assigned security administrator to navigate quickly to the investigation.
 
 ![Alerts that link to investigations](media/air-alerts-page-details.png) 
 
