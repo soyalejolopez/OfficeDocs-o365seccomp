@@ -262,6 +262,13 @@ Importing an information management policy enables you to apply it to multiple c
     
 Your imported policy can now be applied to one or many content types at the site or list level. 
   
-[Information management policies enable your organization to control how long to retain content, to audit what people do with content, and to add barcodes or labels to documents. A policy can help enforce compliance with legal and governmental regulations or internal business processes. As an administrator, you can set up a policy to control how to track documents and how long to retain documents.You can create an information management policy can at three different locations in the site hierarchy, from the broadest to the narrowest:Create a policy to use on multiple content types within a site collection.Create a policy for a site content type.Create a policy for a list or library.For more information, see Introduction to information management policies.](create-info-mgmt-policies.md#__top)
+Information management policies enable your organization to control how long to retain content, to audit what people do with content, and to add barcodes or labels to documents. A policy can help enforce compliance with legal and governmental regulations or internal business processes. As an administrator, you can set up a policy to control how to track documents and how long to retain documents.
+
+You can create an information management policy can at three different locations in the site hierarchy, from the broadest to the narrowest:
+- Create a policy to use on multiple content types within a site collection.
+- Create a policy for a site content type.
+- Create a policy for a list or library.
+
+For more information, see [Introduction to information management policies](intro-to-info-mgmt-policies.md).
   
 
