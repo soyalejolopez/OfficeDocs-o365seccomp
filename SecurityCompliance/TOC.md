@@ -96,7 +96,7 @@
 ## [Understand latest attack campaigns with threat analytics](latest-attack-campaigns.md)
 ## [Quick Start Guide: Set up Office 365 Advanced Threat Protection](checklist-atp-setup.md)
 ## [Anti-spam and anti-malware protection](anti-spam-and-anti-malware-protection.md)
-### [Overview of EOP](videos-for-getting-started-with-protecting-your-email.md)
+### [What is EOP?](eop/what-is-eop.md)
 ### [Office 365 email anti-spam protection](anti-spam-protection.md)
 ### [How to prevent real email from being marked as spam in Office 365](prevent-email-from-being-marked-as-spam.md)
 ### [How to reduce spam email in Office 365](reduce-spam-email.md)
