@@ -190,7 +190,7 @@ If **Content Type** appears as the source, click **Change Source**, and then cli
 
 If information management policies have already been created for your site as site collection policies, you can apply one of the policies to a content type. By doing this, you can apply the same policy to multiple content types in a site collection that do not share the same parent content type.
   
- If you want to apply policies to multiple content types in a site collection, and you have a Managed Metadata Service configured, you can use Content Type Publishing to publish out information management polices to multiple site collections. See the section [Apply a policy to content types across site collections](create-info-mgmt-policies.md#__apply_a_policy) for more information. 
+ If you want to apply policies to multiple content types in a site collection, and you have a Managed Metadata Service configured, you can use Content Type Publishing to publish out information management polices to multiple site collections. See the section [Apply a policy across site collections](#apply-a-policy-across-site-collections) for more information. 
   
 1. Navigate to the list or library that contains the content type to which you want to apply a policy.
     
