@@ -84,7 +84,7 @@ Download module PowerPoint: [Module 1 – Microsoft Cybersecurity Briefing](http
 
 Learn how to increase visibility and control over your hybrid enterprise estate with integrated guidance, automated policy enforcement, and monitoring in this seven part series.
 
-Download module PowerPoint: [Module 2 – Security Management](https://github.com/MicrosoftDocs/OfficeDocs-O365SecComp/raw/live/SecurityCompliance/media/ciso-workshop-2-security-management.pptx)
+Download module PowerPoint: [Module 2 – Security Management](https://github.com/MicrosoftDocs/OfficeDocs-O365SecComp/raw/live/SecurityCompliance/media/ciso-workshop-2-security-management.pdf)
 
 ### Introduction - Security Management
 
