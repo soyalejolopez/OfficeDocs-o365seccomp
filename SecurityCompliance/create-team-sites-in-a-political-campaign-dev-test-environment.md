@@ -358,7 +358,7 @@ Next, configure a DLP policy that blocks users when they share a document on a S
     
 20. In the **Review your settings** pane, click **Create**, and then click **Close**.
     
-Use the instructions in [Activate Azure RMS with the Office 365 admin center](https://docs.microsoft.com/information-protection/deploy-use/activate-office365).
+Use the instructions in [Activate Azure RMS with the Microsoft 365 admin center](https://docs.microsoft.com/information-protection/deploy-use/activate-office365).
   
 Next, configure Azure Information Protection with a new scoped policy and sub-label for protection and permissions with the following steps:
   

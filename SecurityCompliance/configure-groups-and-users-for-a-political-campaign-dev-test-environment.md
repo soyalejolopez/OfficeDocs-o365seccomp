@@ -45,7 +45,7 @@ Next, sign up for the EMS E5 trial subscription and add it to the same organizat
     
 Next, enable the EMS E5 license for your global administrator account.
   
-1. On the **Office 365 Admin center** tab in your browser, in the left navigation, click **Users > Active users**.
+1. On the **Microsoft 365 admin center** tab in your browser, in the left navigation, click **Users > Active users**.
     
 2. Click your global administrator account, and then click **Edit** for **Product licenses**.
     

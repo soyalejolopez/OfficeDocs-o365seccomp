@@ -59,7 +59,7 @@ After approval is granted, the requesting user can execute the intended task and
 
 3. Select the **mail-enabled security group** group type and then complete the **Name**, **Group email address**, and **Description** fields for the new group.
 
-4. Save the group. It may take a few minutes for the group to be fully configured and to appear in the Office 365 Admin Center.
+4. Save the group. It may take a few minutes for the group to be fully configured and to appear in the Microsoft 365 admin center.
 
 5. Select the new approver's group and select **edit** to add users to the group.
 

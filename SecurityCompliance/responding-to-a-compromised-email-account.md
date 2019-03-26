@@ -67,7 +67,7 @@ You must perform all the following steps to regain access to your account the so
 > It is highly recommended that you enable Multi-Factor Authentication (MFA) in order to prevent compromise, especially for accounts with administrative privileges.  You can learn more [here](https://support.office.com/en-us/article/Set-up-multi-factor-authentication-for-Office-365-users-8f0454b2-f51a-4d9c-bcde-2c48e41621c6).
 
 ### Step 2 Remove suspicious email forwarding addresses
-1. Open the **Office 365 Admin Center > Active Users**.
+1. Open the **Microsoft 365 admin center > Active Users**.
 2. Find the user account in question and expand **Mail Settings**.
 3. For **Email forwarding**, click **Edit**.
 4. Remove any suspicious forwarding addresses.
@@ -86,11 +86,11 @@ If the suspected compromised mailbox was used illicitly to send spam email, it i
 > [!IMPORTANT]
 > You can block the suspected compromised account from signing-in until you believe it is safe to re-enable access.
 
-1. Go to the Office 365 admin center.
-2. In the Office 365 admin center, select **Users**.
+1. Go to the Microsoft 365 admin center.
+2. In the Microsoft 365 admin center, select **Users**.
 3. Select the employee that you want to block, and then choose **Edit** next to **Sign-in status** in the user pane
 4. On the **Sign-in status** pane, choose **Sign-in blocked** and then **Save**. 
-5. In the Office 365 admin center, in the lower-left navigation pane, expand **Admin Centers** and select **Exchange**.
+5. In the Microsoft 365 admin center, in the lower-left navigation pane, expand **Admin Centers** and select **Exchange**.
 6. In the Exchange admin center, navigate to **Recipients > Mailboxes**.
 7. Select the user, and on the user properties page, under **Mobile Devices**, click **Disable Exchange ActivcSync** and **Disable OWA for Devices** and answer **yes** to both.
 8. Under **Email Connectivity**, **Disable** and answer **yes**. 
@@ -99,7 +99,7 @@ If the suspected compromised mailbox was used illicitly to send spam email, it i
 > [!NOTE]
 > Administrative role group membership can be restored after the account has been secured.
 
-1. Sign in to the Office 365 Admin Center with a global administrator account and open **Active Users**.
+1. Sign in to the Microsoft 365 admin center with a global administrator account and open **Active Users**.
 2. Find the suspected compromised account and manually check to see if there are any administrative roles assigned to the account.
 3. Open the **Security & Compliance Center**.
 4. Click **Permissions**.

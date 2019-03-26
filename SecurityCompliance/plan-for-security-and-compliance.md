@@ -66,13 +66,13 @@ Use these recommended configurations as a starting point for enterprise scale or
     
 - [Contoso in the Microsoft Cloud](http://aka.ms/cloudarchcontoso)
     
-## Office 365 admin centers and dashboards
+## Microsoft 365 admin centers and dashboards
 
 Configure your security and compliance settings in these admin centers and dashboards to protect your Office 365 environment
   
 |**Subscription**|**Management URL**|**Dashboards and admin centers**|
 |:-----|:-----|:-----|
-|Office 365  <br/> |`https://portal.office.com`  <br/> | Office 365 admin center  <br/>  Security &amp; Compliance Center  <br/>  Exchange admin center  <br/>  SharePoint admin center and OneDrive for Business admin center  <br/> |
+|Office 365  <br/> |`https://portal.office.com`  <br/> | Microsoft 365 admin center  <br/>  Security &amp; Compliance Center  <br/>  Exchange admin center  <br/>  SharePoint admin center and OneDrive for Business admin center  <br/> |
 |Enterprise Mobility + Security  <br/> |`https://portal.azure.com`  <br/> | Azure Active Directory  <br/>  Microsoft Mobile Application Management  <br/>  Microsoft Intune  <br/> |
 |Enterprise Mobility + Security  <br/> |`https://portal.cloudappsecurity.com`  <br/> | Cloud App Security  <br/> |
    

@@ -79,7 +79,7 @@ Office 365 Threat Invesigation and Response capabilities are included in Office 
     - If you see **Office 365 Enterprise E5**, then your organization has Office 365 Advanced Threat Protection Plan 2 (which includes threat investigation and response capabilities). 
     - If you see a different subscription, such as **Office 365 Enterprise E3** or **Office 365 Enterprise E1**, consider adding Office 365 Advanced Threat Protection Plan 2. (To do that, choose **+ Add subscription**.)
     
-3. In the Office 365 admin center, choose **Users** \> **Active users**.
+3. In the Microsoft 365 admin center, choose **Users** \> **Active users**.
     
 5. Assign Office 365 Advanced Threat Protection Plan 2 licenses to all active users. (Only users who have a license for this will show up in reports, such as Explorer.)
     

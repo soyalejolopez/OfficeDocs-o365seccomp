@@ -49,7 +49,7 @@ Next, sign up for the EMS trial subscription and add it to the same organization
     
 Next, enable the Enterprise Mobility + Security E5 license for your global administrator account.
   
-1. On the **Office 365 Admin center** tab in your browser, in the left navigation, click **Users > Active users**.
+1. On the **Microsoft 365 admin center** tab in your browser, in the left navigation, click **Users > Active users**.
     
 2. Click your global administrator account, and then click **Edit** for **Product licenses**.
     
@@ -528,7 +528,7 @@ Next, configure a DLP policy that blocks users when they share a document on a S
     
 20. In the **Review your settings** pane, click **Create**, and then click **Close**.
     
-Next, follow the instructions in [Activate Azure RMS with the Office 365 admin center](https://docs.microsoft.com/information-protection/deploy-use/activate-office365).
+Next, follow the instructions in [Activate Azure RMS with the Microsoft 365 admin center](https://docs.microsoft.com/information-protection/deploy-use/activate-office365).
   
 Next, configure Azure Information Protection with a new policy and sub-label scoped for the C-Suite group for protection and permissions with the following steps:
   
