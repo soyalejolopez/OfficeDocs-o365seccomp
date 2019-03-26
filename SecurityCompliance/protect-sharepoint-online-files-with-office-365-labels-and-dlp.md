@@ -55,7 +55,7 @@ To create the labels, you can use the Microsoft 365 admin center or Microsoft Po
   
 ### Create Office 365 labels with the Microsoft 365 admin center
 
-1. Sign in to the Office 365 portal with an account that has the Security Administrator or Company Administrator role. For help, see [Where to sign in to Office 365](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4).
+1. Sign in to the admin center with an account that has the Security Administrator or Company Administrator role. For help, see [Where to sign in to Office 365](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4).
     
 2. From the **Microsoft Office Home** tab, click the **Admin** tile.
     
