@@ -47,7 +47,7 @@ Once the Microsoft 365 compliance center is enabled for your tenant, you will be
 
 ### Rolling out now!
 
-The new Microsoft 365 security center and the new Microsoft 365 compliance center are rolling out beginning late January and through March 2019. You should have access to the new Microsoft 365 security center and Microsoft 365 compliance center within this timeframe.
+The new Microsoft 365 security center and the new Microsoft 365 compliance center began rolling out earlier this year. If you don't have this already, you should have access to the new Microsoft 365 security center and Microsoft 365 compliance center very soon.
 
 ### Easy access!
 
