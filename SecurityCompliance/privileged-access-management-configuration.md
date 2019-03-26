@@ -53,7 +53,7 @@ After approval is granted, the requesting user can execute the intended task and
 
 ## Step 1 - Create an approver's group
 
-1. Sign into the [Microsoft 365 Admin Center](https://portal.office.com) using credentials for an admin account in your organization.
+1. Sign into the [Microsoft 365 Admin Center](https://admin.microsoft.com) using credentials for an admin account in your organization.
 
 2. In the Admin Center, go to **Groups** > **Add a group**.
 
@@ -71,7 +71,7 @@ After approval is granted, the requesting user can execute the intended task and
 
 ### Using the Microsoft 365 Admin Center
 
-1. Sign into the [Microsoft 365 Admin Center](https://portal.office.com) using credentials for an admin account in your organization.
+1. Sign into the [Microsoft 365 Admin Center](https://admin.microsoft.com) using credentials for an admin account in your organization.
 
 2. In the Admin Center, go to **Settings > Security & Privacy** > **Privileged access**.
 
@@ -103,7 +103,7 @@ You can create and configure up to 30 privileged access policies for your Office
 
 ### Using the Microsoft 365 Admin Center
 
-1. Sign into the [Microsoft 365 Admin Center](https://portal.office.com) using credentials for an admin account in your organization.
+1. Sign into the [Microsoft 365 Admin Center](https://admin.microsoft.com) using credentials for an admin account in your organization.
 
 2. In the Admin Center, go to **Settings** > **Security & Privacy** > **Privileged access**.
 
@@ -147,7 +147,7 @@ Requests for privileged access are valid for up to 24 hours after the request is
 
 #### Using the Microsoft 365 Admin Center
 
-1. Sign into the [Microsoft 365 Admin Center](https://portal.office.com) using your credentials.
+1. Sign into the [Microsoft 365 Admin Center](https://admin.microsoft.com) using your credentials.
 
 2. In the Admin Center, go to **Settings** > **Security & Privacy** > **Privileged access**.
 
@@ -182,7 +182,7 @@ After an approval request is created, elevation request status can be reviewed i
 
 #### Using the Microsoft 365 Admin Center
 
-1. Sign into the [Microsoft 365 Admin Center](https://portal.office.com) using your credentials.
+1. Sign into the [Microsoft 365 Admin Center](https://admin.microsoft.com) using your credentials.
 
 2. In the Admin Center, go to **Settings** > **Security & Privacy** > **Privileged access**.
 
@@ -206,7 +206,7 @@ When an approval request is created, members of the relevant approver group will
 
 #### Using the Microsoft 365 Admin Center
 
-1. Sign into the [Microsoft 365 Admin Center](https://portal.office.com) using your credentials.
+1. Sign into the [Microsoft 365 Admin Center](https://admin.microsoft.com) using your credentials.
 
 2. In the Admin Center, go to **Settings** > **Security & Privacy** > **Privileged access**.
 
@@ -243,7 +243,7 @@ You can delete a privileged access policy if it is no longer needed in your orga
 
 ### Using the Microsoft 365 Admin Center
 
-1. Sign into the [Microsoft 365 Admin Center](https://portal.office.com) using credentials for an admin account in your organization.
+1. Sign into the [Microsoft 365 Admin Center](https://admin.microsoft.com) using credentials for an admin account in your organization.
 
 2. In the Admin Center, go to **Settings** > **Security & Privacy** > **Privileged access**.
 
@@ -269,7 +269,7 @@ If needed, you can disable privileged access management for your organization. D
 
 ### Using the Microsoft 365 Admin Center
 
-1. Sign into the [Microsoft 365 Admin Center](https://portal.office.com) using credentials for an admin account in your organization.
+1. Sign into the [Microsoft 365 Admin Center](https://admin.microsoft.com) using credentials for an admin account in your organization.
 
 2. In the Admin Center, go to **Settings** > **Security & Privacy** > **Privileged access**.
 

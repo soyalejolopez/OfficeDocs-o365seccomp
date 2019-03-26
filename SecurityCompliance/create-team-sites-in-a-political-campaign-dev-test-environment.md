@@ -80,7 +80,7 @@ In this phase, you create and configure SharePoint Online team sites for your po
 
 To create a baseline public SharePoint Online team site, do the following:
   
-1. If needed, use a browser on your local computer and sign in to the Office 365 portal ([https://portal.office.com](https://portal.office.com)) using your global administrator account.
+1. If needed, use a browser on your local computer and sign in to the Office 365 portal ([https://admin.microsoft.com](https://admin.microsoft.com)) using your global administrator account.
     
 2. In the list of tiles, click **SharePoint**.
     
@@ -110,7 +110,7 @@ Next, configure the documents folder of the Campaign wide team site for the Inte
 
 To create a baseline private SharePoint Online team site for a project within the campaign, do the following:
   
-1. If needed, use a browser on your local computer and sign in to the Office 365 portal ([https://portal.office.com](https://portal.office.com)) using your global administrator account.
+1. If needed, use a browser on your local computer and sign in to the Office 365 portal ([https://admin.microsoft.com](https://admin.microsoft.com)) using your global administrator account.
     
 2. In the list of tiles, click **SharePoint**.
     
@@ -140,7 +140,7 @@ Next, configure the documents folder of the Campaign project 1 team site for the
 
 To create a sensitive-level isolated SharePoint Online team site for campaign marketing resources, do the following:
   
-1. Using a browser on your local computer, sign in to the Office 365 portal ([https://portal.office.com](https://portal.office.com)) using your global administrator account.
+1. Using a browser on your local computer, sign in to the Office 365 portal ([https://admin.microsoft.com](https://admin.microsoft.com)) using your global administrator account.
     
 2. In the list of tiles, click **SharePoint**.
     
@@ -252,7 +252,7 @@ Next, configure a data loss prevention (DLP) policy that notifies users when the
 
 To create an isolated SharePoint Online team site at the highly confidential level for campaign strategy resources, do the following:
   
-1. If needed, use a browser on your local computer and sign in to the Office 365 portal ([https://portal.office.com](https://portal.office.com)) using your global administrator account.
+1. If needed, use a browser on your local computer and sign in to the Office 365 portal ([https://admin.microsoft.com](https://admin.microsoft.com)) using your global administrator account.
     
 2. In the list of tiles, click **SharePoint**.
     
@@ -316,7 +316,7 @@ Next, configure the documents folder of the Campaign strategy team site for the 
     
 Next, configure a DLP policy that blocks users when they share a document on a SharePoint Online team site with the Highly Confidential label outside the organization. This DLP policy will apply to resources in the Campaign strategy site.
   
-1. If needed, use a browser on your local computer and sign in to the Office 365 portal ([https://portal.office.com](https://portal.office.com)) with an account that has the Security Administrator or Company Administrator role.
+1. If needed, use a browser on your local computer and sign in to the Office 365 portal ([https://admin.microsoft.com](https://admin.microsoft.com)) with an account that has the Security Administrator or Company Administrator role.
     
 2. From the **Microsoft Office Home** tab in your browser, click the **Security &amp; Compliance** tile.
     
