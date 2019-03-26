@@ -3,7 +3,7 @@ title: "Welcome to your all-new new Microsoft 365 compliance center"
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 03/20/2019
+ms.date: 03/26/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-administration
