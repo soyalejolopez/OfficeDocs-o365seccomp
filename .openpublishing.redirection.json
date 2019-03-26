@@ -121,7 +121,7 @@
         "redirect_document_id": true
     },
     {
-        "source_path": "/securitycompliance/videos-for-getting-started-with-protecting-your-email.md",
+        "source_path": "securitycompliance/videos-for-getting-started-with-protecting-your-email.md",
         "redirect_url": "https://docs.microsoft.com/office365/securitycompliance/what-is-eop", 
         "redirect_document_id": true
     }                                                                                                                            
