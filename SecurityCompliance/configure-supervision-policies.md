@@ -66,7 +66,7 @@ Use the following chart to help you configure groups in your organization for su
 |Supervised users | Distribution groups <br> Office 365 groups | Dynamic distribution groups |
 | Reviewers | Mail-enabled security groups  | Distribution groups <br> Dynamic distribution groups |
   
-To manage supervised users in large enterprise organizations, you may need to monitor all users across a very large group. You can use PowerShell to configure a distribution group for a global supervision policy for the assigned group.
+To manage supervised users in large enterprise organizations, you may need to monitor all users across a very large group. You can use PowerShell to configure a distribution group for a global supervision policy for the assigned group. This can help you to monitor thousands of users with a single policy and keep the supervision policy updated as new employees join your organization.
 
 1. Create a dedicated [distribution group](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/new-distributiongroup?view=exchange-ps) for your global supervision policy with the following properties. Make sure that this distribution group isn't used for other purposes or other Office 365 services.
 
@@ -77,7 +77,7 @@ To manage supervised users in large enterprise organizations, you may need to mo
     ```
     New-DistributionGroup -Name <your group name> -Alias <your group alias> -MemberDepartRestriction 'Closed' -MemberJoinRestriction 'Closed' -ModerationEnabled $true
     ```
-2. Select an unused [Exchange custom attribute](https://docs.microsoft.com/Exchange/recipients/mailbox-custom-attributes?view=exchserver-2019&viewFallbackFrom=exchonline-ww) for users to use for tracking which users have been added to the supervision policy in your organization.
+2. Select an unused [Exchange custom attribute](https://docs.microsoft.com/Exchange/recipients/mailbox-custom-attributes?view=exchserver-2019&viewFallbackFrom=exchonline-ww) to use for tracking which users have been added to the supervision policy in your organization.
 
 3. Run the following PowerShell script on a recurring schedule to add users to the supervision policy:
 
