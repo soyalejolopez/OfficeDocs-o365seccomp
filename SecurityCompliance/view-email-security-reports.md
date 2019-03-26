@@ -27,7 +27,7 @@ Your email security reports include the following:
 
 - [Encryption report](#encryption-report) (NEW!)
   
-- [Threat Protection Status report](view-email-security-reports.md#tps) 
+- [Threat Protection Status report](#threat-protection-status-report) 
     
 - [Malware Detections report](view-email-security-reports.md#maldet)
     
