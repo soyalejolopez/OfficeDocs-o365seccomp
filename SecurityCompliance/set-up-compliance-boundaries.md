@@ -96,7 +96,6 @@ Using the Contoso compliance boundaries scenario, four role groups need to be cr
 
   
 ## Step 4: Create a search permissions filter to enforce the compliance boundary
-<a name="step4"> </a>
 
 After you've created role groups for each agency, the next step is to create the search permissions filters that associate each role group to its specific agency and defines the compliance boundary itself. You need to create one search permissions filter for each agency. For more information about creating security permissions filters, see [Configure permissions filtering for Content Search](permissions-filtering-for-content-search.md).
   
@@ -179,7 +178,7 @@ Search permissions filters also let you control where content is routed for expo
   
 - Export search results from a specific datacenter. This means that you can specify the datacenter location that search results will be exported from.
     
-- Route searches of mailboxes, SharePoint sites, and OneDrive accounts to a satellite data center. This means you can specify the datacenter location where searches will be run.
+- Route searches of SharePoint sites and OneDrive accounts to a satellite data center. This means you can specify the datacenter location where searches will be run.
     
 Use the **Region** parameter for **New-ComplianceSecurityFilter** or **Set-ComplianceSecurityFilter** cmdlets to create or change which datacenter the export will be routed through.
   
@@ -190,7 +189,7 @@ Use the **Region** parameter for **New-ComplianceSecurityFilter** or **Set-Compl
 |APC  <br/> |Asia Pacific  <br/> |
 |CAN <br/> |Canada
    
-Similarly, you can use the following values for the **Region** parameter values to control which datacenter that Content Searches will run in when searching Exchange, SharePoint, and OneDrive locations. Note that the following table also shows which datacenter exports will be routed through. 
+Similarly, you can use the following values for the **Region** parameter values to control which datacenter that Content Searches will run in when searching SharePoint sites and OneDrive locations. Note that the following table also shows which datacenter exports will be routed through. 
   
 |**Parameter value**|**Datacenter routing locations for export**|
 |:-----|:-----|
