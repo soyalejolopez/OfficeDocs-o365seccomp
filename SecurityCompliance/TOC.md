@@ -497,7 +497,6 @@
 ## [Feature permissions in EOP](eop/feature-permissions-in-eop.md)
 ## [Exchange admin center in Exchange Online Protection](exchange-admin-center-in-exchange-online-protection-eop.md)
 ## [Set up your EOP service](eop/set-up-your-eop-service.md)
-### [Videos for getting started with EOP](eop/videos-for-getting-started-with-eop.md)
 ### [Best practices for configuring EOP](eop/best-practices-for-configuring-eop.md)
 ### [Sample script for applying EOP settings to multiple tenants](eop/sample-script-for-applying-eop-settings-to-multiple-tenants.md)
 ### [Move domains and settings from one EOP organization to another EOP organization](eop/move-domains-and-settings-from-one-eop-organization-to-another-eop-organization.md)
