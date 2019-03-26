@@ -29,7 +29,7 @@ Your email security reports include the following:
 - [Malware Detections report](#malware-detections-report)    
 - [Top Malware report](#top-malware-report)
 - [Top Senders and Recipients report](#top-senders-and-recipients-report)
-- [Spoof Mail report](#spoof-mail-report)
+- [Spoof Detections report](#spoof-detections-report)
 - [Spam Detections report](#spam-detections-report)
 - [Sent and received email report](#sent-and-received-email-report)
 - [User-reported messages report](#user-reported-messages-report)
