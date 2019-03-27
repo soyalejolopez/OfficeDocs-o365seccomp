@@ -35,15 +35,15 @@ The **Assess** section on the home page shows you at a glance how your organizat
 
 From here, you can go to the Microsoft Compliance Score card, which leads you to [Compliance Manager](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md), where you can review or edit your configurations and potentially improve your overall compliance score.
 
-You'll see additional widgets, such as one showing your organization's cloud app compliance, and another showing data about users with shared files, with links to [Cloud App Security](https://docs.microsoft.com/cloud-app-security/) or other tools where you can explore data.
+You'll see additional cards, such as one showing your organization's cloud app compliance, and another showing data about users with shared files, with links to [Cloud App Security](https://docs.microsoft.com/cloud-app-security/) or other tools where you can explore data.
 
 ## The Protect section
 
-The **Protect** section on the home page contains widgets that provide you with high-level information about data loss prevention (DLP), third-party apps in use, shared files, shadow IT apps, and so on. 
+The **Protect** section on the home page contains cards that provide you with high-level information about data loss prevention (DLP), third-party apps in use, shared files, shadow IT apps, and so on. 
 
 ![Protect section in the Microsoft 365 compliance center](media/m365-compliance-center-protect.png)
 
-Each widget has a link to a report where you can learn more.
+Each card has a link to a report where you can learn more.
 
 ## The Respond section
 
@@ -51,13 +51,13 @@ The **Respond** section on the home page surfaces alerts that you'll want to rev
 
 ![Respond section in the Microsoft 365 compliance center](media/m365-compliance-center-respond.png)
 
-Widgets, such as the Active alerts widget, include a link to a report where you can view more detailed information, such as Severity, Status, Category, and more.
+cards, such as the Active alerts card, include a link to a report where you can view more detailed information, such as Severity, Status, Category, and more.
 
 ![Active alerts details](media/m365-compliance-center-alerts-details.png) 
 
 ## Navigation to more compliance features and capabilities
 
-In addition to links in widgets, you'll find a navigation pane on the left side of the screen that gives you easy access to your alerts, reports, policies, compliance solutions, and more. 
+In addition to links in cards, you'll find a navigation pane on the left side of the screen that gives you easy access to your alerts, reports, policies, compliance solutions, and more. 
 
 ![Navigation in the Microsoft 365 compliance center](media/m365-compliance-center-leftnav.png)
 
