@@ -420,4 +420,4 @@ Here's a high-level process to search for items that the data subject might have
 
   - Search all Exchange public folders
     
-  - After you run the search and it completes, you can export and download the search results (as described in [Step 4](manage-gdpr-data-subject-requests-with-the-dsr-case-tool.md#step4)). Use the following settings to export partially indexed items. 
+  - After you run the search and it completes, you can export and download the search results (as described in [Step 4](#step-4-export-the-data)). Use the following settings to export partially indexed items. 
