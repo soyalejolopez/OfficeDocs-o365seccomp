@@ -27,7 +27,7 @@ When you go to your Microsoft 365 compliance center for the first time, you'll b
 
 The welcome banner gives you some pointers on how to get started, with next steps and an invitation for you to give us feedback.
 
-## Assess
+## The Assess section
 
 The **Assess** section on the home page shows you at a glance how your organization is doing with respect to data protection and compliance.
 
@@ -37,7 +37,7 @@ From here, you can go to [Compliance Manager](meet-data-protection-and-regulator
 
 You'll see additional widgets, such as one showing your organization's cloud app compliance, and another showing data about users with shared files, with links to [Cloud App Security](https://docs.microsoft.com/cloud-app-security/) or other tools where you can explore data.
 
-## Protect
+## The Protect section
 
 The **Protect** section contains widgets that provide you with high-level information about data loss prevention (DLP), third-party apps in use, shared files, shadow IT apps, and so on. 
 
@@ -45,7 +45,7 @@ The **Protect** section contains widgets that provide you with high-level inform
 
 Each widget has a link to a report where you can learn more.
 
-## Respond
+## The Respond section
 
 The **Respond** section surfaces alerts that you'll want to review and potentially take action.
 
@@ -60,6 +60,8 @@ Widgets, such as the Active alerts widget, include a link to a report where you 
 In addition to links in widgets, you'll find a navigation pane on the left side of the screen that gives you easy access to your alerts, reports, policies, compliance solutions, and more. 
 
 ![Navigation in the Microsoft 365 compliance center](media/m365-compliance-center-leftnav.png)
+
+
 
 ## How do I get this?
 
