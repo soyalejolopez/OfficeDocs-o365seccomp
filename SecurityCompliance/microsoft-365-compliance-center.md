@@ -65,7 +65,7 @@ In addition to links in cards on the home page, you'll find a navigation pane on
 - Visit **Monitoring & reports** to view data about [label usage and retention](sensitivity-labels.md), [DLP policy matches and overrides](view-the-dlp-reports.md), [shared files](https://docs.microsoft.com/cloud-app-security/file-filters), [third-party apps in use](https://docs.microsoft.com/cloud-app-security/discovered-apps), and more. 
 - Expand the **Classification** section to access your [labels](labels.md), [label policies](sensitivity-labels.md#what-label-policies-can-do), [sensitive information types](what-the-sensitive-information-types-look-for.md), and [label analytics](view-label-activity-for-documents.md).
 - Go to **Policies** to view [alerts](alerts.md) and to access your [DLP](data-loss-prevention-policies.md) and [retention](retention-policies.md) policies. 
-- Use the links in the Solutions section to access your organization's compliance solutions. These include [eDiscovery](ediscovery.md), [Supervision](supervision-policies.md), Data investigations, and Data subject requests.
+- Use the links in the **Solutions** section to access your organization's compliance solutions. These include [eDiscovery](ediscovery.md), [Supervision](supervision-policies.md), [Data investigations](compliance20/data-investigations-release-notes.md), and [Data subject requests](manage-gdpr-data-subject-requests-with-the-dsr-case-tool.md).
 
 ## How do I get this?
 
