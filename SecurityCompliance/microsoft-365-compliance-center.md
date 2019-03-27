@@ -61,7 +61,8 @@ In addition to links in cards on the home page, you'll find a navigation pane on
 
 ![Navigation in the Microsoft 365 compliance center](media/m365-compliance-center-leftnav.png)
 
-- 
+- View and resolve [alerts](alerts.md)
+- View 
 
 ## How do I get this?
 
