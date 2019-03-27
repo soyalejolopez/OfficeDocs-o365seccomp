@@ -51,13 +51,13 @@ The **Respond** section on the home page surfaces alerts and pending disposition
 
 ![Respond section in the Microsoft 365 compliance center](media/m365-compliance-center-respond.png)
 
-Cards, such as the Active alerts card, include a link to a report where you can view more detailed information, such as Severity, Status, Category, and more.
+Cards, such as the Active alerts card, include a link to a page where you can view more detailed information, such as Severity, Status, Category, and more.
 
 ![Active alerts details](media/m365-compliance-center-alerts-details.png) 
 
 ## Navigation to more compliance features and capabilities
 
-In addition to links in cards, you'll find a navigation pane on the left side of the screen that gives you easy access to your alerts, reports, policies, compliance solutions, and more. 
+In addition to links in cards on the home page, you'll find a navigation pane on the left side of the screen that gives you easy access to your alerts, reports, policies, compliance solutions, and more. 
 
 ![Navigation in the Microsoft 365 compliance center](media/m365-compliance-center-leftnav.png)
 
@@ -65,7 +65,7 @@ In addition to links in cards, you'll find a navigation pane on the left side of
 
 ## How do I get this?
 
-- If you don't have the new Microsoft 365 compliance center already, you will have it soon. The [new Microsoft 365 compliance center](microsoft-security-and-compliance.md#microsoft-365-compliance-center) is rolling out now!
+- If you don't have the new Microsoft 365 compliance center already, you will have it soon. The [new Microsoft 365 compliance center](microsoft-security-and-compliance.md#microsoft-365-compliance-center) will be generally available by the end of March 2019!
 
 - To visit the Microsoft 365 compliance center, as a global administrator or compliance administrator, go to [https://compliance.microsoft.com](https://compliance.microsoft.com) and sign in. 
 
@@ -73,10 +73,10 @@ In addition to links in cards, you'll find a navigation pane on the left side of
 
 ## Next steps
 
-- **Review your Microsoft Compliance Score**, and use Compliance Manager to improve your score. To learn more about Compliance Manager, see [Use Compliance Manager to help meet data protection and regulatory requirements when using Microsoft cloud services](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md).
+- **Review your Microsoft Compliance Score**, and use Compliance Manager to improve your score. To learn more, see [Use Compliance Manager to help meet data protection and regulatory requirements when using Microsoft cloud services](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md).
 
-- **Review your organization's Data Loss Prevention policies**, and if necessary, make adjustments. To learn more about DLP, see [Overview of data loss prevention policies](data-loss-prevention-policies.md). 
+- **Review your organization's Data Loss Prevention policies** and make required adjustments as necessary. To learn more about, see [Overview of data loss prevention policies](data-loss-prevention-policies.md). 
 
-- **Get acquainted with and set up Microsoft Cloud App Security**. To get help with this, see [Quickstart: Get started with Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/getting-started-with-cloud-app-security).  
+- **Get acquainted with and set up Microsoft Cloud App Security**. See [Quickstart: Get started with Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/getting-started-with-cloud-app-security).  
 
 - **Visit your Microsoft 365 compliance center often**, and make sure to review any alerts or potential risks that might arise. Go to [https://compliance.microsoft.com](https://compliance.microsoft.com) and sign in.
