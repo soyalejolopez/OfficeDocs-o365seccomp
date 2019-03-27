@@ -62,9 +62,13 @@ In addition to links in cards on the home page, you'll find a navigation pane on
 ![Navigation in the Microsoft 365 compliance center](media/m365-compliance-center-leftnav.png)
 
 - Go to **Alerts** to view and resolve [alerts](alerts.md)
+
 - Visit **Monitoring & reports** to view data about [label usage and retention](sensitivity-labels.md), [DLP policy matches and overrides](view-the-dlp-reports.md), [shared files](https://docs.microsoft.com/cloud-app-security/file-filters), [third-party apps in use](https://docs.microsoft.com/cloud-app-security/discovered-apps), and more. 
+
 - Expand the **Classification** section to access your [labels](labels.md), [label policies](sensitivity-labels.md#what-label-policies-can-do), [sensitive information types](what-the-sensitive-information-types-look-for.md), and [label analytics](view-label-activity-for-documents.md).
+
 - Go to **Policies** to view [alerts](alerts.md) and to access your [DLP](data-loss-prevention-policies.md) and [retention](retention-policies.md) policies. 
+
 - Use the links in the **Solutions** section to access your organization's compliance solutions. These include [eDiscovery](ediscovery.md), [Supervision](supervision-policies.md), [Data investigations](compliance20/data-investigations-release-notes.md), and [Data subject requests](manage-gdpr-data-subject-requests-with-the-dsr-case-tool.md).
 
 ## How do I get this?
@@ -77,7 +81,13 @@ In addition to links in cards on the home page, you'll find a navigation pane on
 
 ## Frequently asked questions
 
-### Why 
+### Why am I taken to the former Security & Compliance Center to perform some tasks, such as defining certain policies?
+
+We are still developing the Microsoft 365 compliance center, and we'll be adding more functionality and solutions over the coming months. In the meantime, there are some tasks that must be performed in the Security & Compliance Center. In those cases, you'll be directed automatically to the location where you can perform the task at hand, such as creating or editing a supervision policy.
+
+### Why don't I see the new Microsoft 365 compliance center yet?
+
+First, make sure you have the appropriate [licenses and permissions](microsoft-security-and-compliance.md#required-licenses-and-permissions). Then, sign in at [https://compliance.microsoft.com](https://compliance.microsoft.com). If you don't see the new compliance center yet, you will have it very soon.
 
 ## Next steps
 
