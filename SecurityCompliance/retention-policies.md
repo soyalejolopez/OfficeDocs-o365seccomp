@@ -247,7 +247,7 @@ We're still working on retention in Teams, and additional features are coming. I
     
 In a Team, files that are shared in chat are stored in the OneDrive account of the user who shared the file. Files that are uploaded into channels are stored in the SharePoint site for the Team. Therefore, to retain or delete files in a Team, you need to create a retention policy that applies to the SharePoint and OneDrive locations. If you want to apply a policy to the files of just a specific team, you can choose the SharePoint site for the Team and the OneDrive accounts of users in the Team.
   
-A retention policy that applies to Teams can use [Preservation Lock](retention-policies.md#locking).
+A retention policy that applies to Teams can use [Preservation Lock](#locking-a-retention-policy).
   
 ![Teams locations for chat and channel messages](media/127345da-e802-4b3a-afc7-6e354dc3f409.png)
   
