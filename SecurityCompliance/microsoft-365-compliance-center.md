@@ -19,7 +19,7 @@ If you're interested in your organization's compliance posture, you're going to 
 
 [![Microsoft 365 compliance center](media/m365-compliance-center.png)](https://compliance.microsoft.com)
 
-## Welcome!
+## Welcome to Microsoft 365 compliance
 
 When you go to your Microsoft 365 compliance center for the first time, you'll be greeted with the following welcome message:
 
@@ -39,7 +39,7 @@ You'll see additional widgets, such as one showing your organization's cloud app
 
 ## The Protect section
 
-The **Protect** section contains widgets that provide you with high-level information about data loss prevention (DLP), third-party apps in use, shared files, shadow IT apps, and so on. 
+The **Protect** section on the home page contains widgets that provide you with high-level information about data loss prevention (DLP), third-party apps in use, shared files, shadow IT apps, and so on. 
 
 ![Protect section in the Microsoft 365 compliance center](media/m365-compliance-center-protect.png)
 
@@ -47,7 +47,7 @@ Each widget has a link to a report where you can learn more.
 
 ## The Respond section
 
-The **Respond** section surfaces alerts that you'll want to review and potentially take action.
+The **Respond** section on the home page surfaces alerts that you'll want to review and potentially take action.
 
 ![Respond section in the Microsoft 365 compliance center](media/m365-compliance-center-respond.png)
 
@@ -55,13 +55,13 @@ Widgets, such as the Active alerts widget, include a link to a report where you 
 
 ![Active alerts details](media/m365-compliance-center-alerts-details.png) 
 
-## Navigate
+## Navigation to more compliance features and capabilities
 
 In addition to links in widgets, you'll find a navigation pane on the left side of the screen that gives you easy access to your alerts, reports, policies, compliance solutions, and more. 
 
 ![Navigation in the Microsoft 365 compliance center](media/m365-compliance-center-leftnav.png)
 
-
+- 
 
 ## How do I get this?
 
