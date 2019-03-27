@@ -380,7 +380,7 @@ Certain regulations require that an organization must be able to delete user his
   
 - [Search for a user](#search-for-a-user)
 
-- [Export a report of account data history](#export-report-of-account-data-history)
+- [Export a report of account data history](#export-a-report-of-account-data-history)
 
 - [Reassign action items](#reassign-action-items)
 
