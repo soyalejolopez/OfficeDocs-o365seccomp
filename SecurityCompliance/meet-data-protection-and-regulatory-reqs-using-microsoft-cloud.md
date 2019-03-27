@@ -556,7 +556,7 @@ Similarly, information from shared customer managed controls within the same Ass
     
 5. This section contains customer managed controls, which are also organized by control family. Click a control family to expand it and display individual controls.
     
-6. Displays the total number of controls in the control family, and how many of those controls have been assessed. A key capability of Compliance Manager is tracking your organization's progress on assessing the customer managed controls. For more information, see the [Understanding the Compliance Score](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md#compliancescore) section. 
+6. Displays the total number of controls in the control family, and how many of those controls have been assessed. A key capability of Compliance Manager is tracking your organization's progress on assessing the customer managed controls. For more information, see the [Understanding the Compliance Score](#understanding-the-compliance-score) section. 
 
 ## Managing the assessment process
 
