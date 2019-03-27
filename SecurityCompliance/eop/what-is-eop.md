@@ -1,5 +1,5 @@
 ---
-title: "Videos for getting started with protecting your email"
+title: "What is Exchange Online Protection (EOP)?"
 ms.author: tracyp
 author: msfttracyp
 ms.reviewer: andypunt
