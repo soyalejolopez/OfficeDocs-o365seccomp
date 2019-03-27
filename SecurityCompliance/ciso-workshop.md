@@ -5,7 +5,7 @@ author: robmazz
 manager: laurawi
 ms.audience: Admin
 ms.topic: tutorial
-ms.service: o365-administration
+ms.service: o365-seccomp
 localization_priority: Normal
 ms.collection: Strat_O365_IP
 description: "Learn more about security principles, established best practices, and emerging best practices for modernizing your organization."

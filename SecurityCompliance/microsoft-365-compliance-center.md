@@ -6,7 +6,7 @@ manager: laurawi
 ms.date: 03/27/2019
 ms.audience: ITPro
 ms.topic: article
-ms.service: o365-administration
+ms.service: o365-seccomp
 localization_priority: Normal
 description: "Learn about the new Microsoft 365 compliance center, including what it contains, how to get it, and your next steps."
 ---
@@ -39,7 +39,7 @@ You'll see additional cards, such as one showing your organization's cloud app c
 
 ## The Protect section
 
-The **Protect** section on the home page contains cards that provide you with high-level information about data loss prevention (DLP), third-party apps in use, shared files, shadow IT apps, and so on. 
+The **Protect** section on the home page contains cards that provide you with high-level information about labels, data loss prevention (DLP), third-party apps in use, shared files, shadow IT apps, and so on. 
 
 ![Protect section in the Microsoft 365 compliance center](media/m365-compliance-center-protect.png)
 
@@ -51,7 +51,7 @@ The **Respond** section on the home page surfaces alerts that you'll want to rev
 
 ![Respond section in the Microsoft 365 compliance center](media/m365-compliance-center-respond.png)
 
-cards, such as the Active alerts card, include a link to a report where you can view more detailed information, such as Severity, Status, Category, and more.
+Cards, such as the Active alerts card, include a link to a report where you can view more detailed information, such as Severity, Status, Category, and more.
 
 ![Active alerts details](media/m365-compliance-center-alerts-details.png) 
 
