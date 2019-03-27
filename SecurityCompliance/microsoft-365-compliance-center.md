@@ -25,11 +25,11 @@ When you go to your Microsoft 365 compliance center for the first time, you'll b
 
 ![Microsoft 365 compliance center intro](media/m365-compliancecenter-welcomesteps.png)
 
-This section gives you some pointers on how to get started, with next steps and an invitation for you to give us feedback.
+The welcome banner gives you some pointers on how to get started, with next steps and an invitation for you to give us feedback.
 
 ## Assess
 
-The **Assess** section shows you at a glance how your organization is doing with respect to data protection and compliance.
+The **Assess** section on the home page shows you at a glance how your organization is doing with respect to data protection and compliance.
 
 ![Assess section in Microsoft 365 compliance center](media/m365-compliance-center-assess.png)
 
