@@ -43,11 +43,11 @@ The **Protect** section on the home page contains cards that provide you with hi
 
 ![Protect section in the Microsoft 365 compliance center](media/m365-compliance-center-protect.png)
 
-Each card has a link to a report where you can learn more.
+Each card has a link to a report or additional information where you can learn more.
 
 ## The Respond section
 
-The **Respond** section on the home page surfaces alerts that you'll want to review and potentially take action.
+The **Respond** section on the home page surfaces alerts and pending dispositions that you'll want to review and potentially act upon.
 
 ![Respond section in the Microsoft 365 compliance center](media/m365-compliance-center-respond.png)
 
