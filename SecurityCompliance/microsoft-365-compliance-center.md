@@ -55,14 +55,14 @@ Cards, such as the Active alerts card, include a link to a page where you can vi
 
 ![Active alerts details](media/m365-compliance-center-alerts-details.png) 
 
-## Navigation to more compliance features and capabilities
+## Easy navigation to more compliance features and capabilities
 
 In addition to links in cards on the home page, you'll find a navigation pane on the left side of the screen that gives you easy access to your alerts, reports, policies, compliance solutions, and more. 
 
 ![Navigation in the Microsoft 365 compliance center](media/m365-compliance-center-leftnav.png)
 
-- View and resolve [alerts](alerts.md)
-- View 
+- Go to **Alerts** to view and resolve [alerts](alerts.md)
+- Visit **Monitoring & reports** to view data about [label usage and retention](sensitivity-labels.md), [data loss prevention policy matches and overrides](view-the-dlp-reports.md), [shared files](https://docs.microsoft.com/cloud-app-security/file-filters), [third-party apps in use](https://docs.microsoft.com/cloud-app-security/discovered-apps), and more. 
 
 ## How do I get this?
 
