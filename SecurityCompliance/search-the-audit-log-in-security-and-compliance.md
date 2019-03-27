@@ -19,6 +19,8 @@ description: "Use the Office 365 Security & Compliance Center to search the unif
 
 # Search the audit log in the Office 365 Security & Compliance Center
 
+## Introduction
+
 Need to find if a user viewed a specific document or purged an item from their mailbox? If so, you can use the Office 365 Security &amp; Compliance Center to search the unified audit log to view user and administrator activity in your Office 365 organization. Why a unified audit log? Because you can search for the following types of user and admin activity in Office 365:
   
 - User activity in SharePoint Online and OneDrive for Business
@@ -697,7 +699,7 @@ For more information about the auditing and reporting features available in Offi
 
 **What are different Office 365 services that are currently audited?**
 
-The most used Office 365 services like Exchange Online, SharePoint Online, OneDrive for Business, Azure Active Directory, Microsoft Teams, Dynamics 365, Advanced Threat Protection, and Power BI are audited. See the [beginning of this article ](search-the-audit-log-in-security-and-compliance.md) for a list of services that are audited.
+The most used Office 365 services like Exchange Online, SharePoint Online, OneDrive for Business, Azure Active Directory, Microsoft Teams, Dynamics 365, Advanced Threat Protection, and Power BI are audited. See the [beginning of this article](search-the-audit-log-in-security-and-compliance.md) for a list of services that are audited.
 
 **What activities are audited by auditing service in Office 365?**
 
@@ -743,15 +745,3 @@ No. We currently have auditing pipeline deployments in the NA (North America), E
 **Is auditing data encrypted?**
 
 Auditing data is stored in Exchange mailboxes (data at rest) in the same region where the auditing pipeline is deployed. This data is not encrypted. However, data in transit is always encrypted. 
-
-
-
-
-
-
-
-
-
-
-
-
