@@ -1,9 +1,9 @@
 ---
-title: "Get ready for Microsoft 365 security and compliance"
+title: "The new Microsoft 365 security center and Microsoft 365 compliance center are now generally available"
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 03/26/2019
+ms.date: 03/27/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -13,7 +13,7 @@ localization_priority: Normal
 description: "Get ready for the all-new Microsoft 365 security center and compliance center"
 ---
 
-# Get ready for the new Microsoft 365 security center and Microsoft 365 compliance center
+# The new Microsoft 365 security center and Microsoft 365 compliance center are now generally available
 
 **We are pleased to announce the all-new [Microsoft 365 security center](#microsoft-365-security-center) and [Microsoft 365 compliance center](#microsoft-365-compliance-center)**. Read this article to get an overview of what's coming, [what to expect](#what-to-expect), and [required licenses and permissions needed](#required-licenses-and-permissions).
 
