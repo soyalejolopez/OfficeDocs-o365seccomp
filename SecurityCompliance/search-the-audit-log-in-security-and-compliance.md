@@ -291,12 +291,11 @@ Click one of the following links to go to a specific table.
 |:-----|:-----|:-----|
 |[File and page activities](#file-and-page-activities)<br/> |[Folder activities](#folder-activities)<br/> |[Sharing and access request activities](#sharing-and-access-request-activities)<br/> |
 |[Synchronization activities](#synchronization-activities)<br/> |[Site administration activities](#site-administration-activities)<br/> |[Exchange mailbox activities](#exchange-mailbox-activities)<br/> |
-|[Retention policy and label activities](#retention-policy-and-label-activities) <br/>|[Sway activities](#sway-activities) <br/> |[User administration activities](#user-administration-activities) <br/> 
-|[Azure AD group administration activities](#azure-ad-group-administration-activities) <br/> |[Application administration activities](#application-administration-activities) <br/> |[Role administration activities](#role-administration-activities) <br/> |
-|[Directory administration activities](#directory-administration-activities) <br/> |[eDiscovery activities](#ediscovery-activities) <br/> |[Power BI activities](#power-bi-activities) <br/> |
-|[Microsoft Workplace Analytics](#microsoft-workplace-analytics-activities)<br/>|[Microsoft Teams activities](#microsoft-teams-activities) <br/> |[Yammer activities](#yammer-activities) <br/> |
-[Microsoft Flow](#microsoft-flow) <br/> |[Microsoft PowerApps](#microsoft-powerapps)<br/>|[Microsoft Stream](#microsoft-stream) <br/>|
-|[Exchange admin activities](#exchange-admin-audit-log)<br/>
+|[Sway activities](#sway-activities) <br/> |[User administration activities](#user-administration-activities) <br/> |[Azure AD group administration activities](#azure-ad-group-administration-activities) <br/> 
+|[Application administration activities](#application-administration-activities) <br/> |[Role administration activities](#role-administration-activities) <br/> |[Directory administration activities](#directory-administration-activities) <br/>| 
+|[eDiscovery activities](#ediscovery-activities) <br/> |[Power BI activities](#power-bi-activities) <br/> |[Microsoft Workplace Analytics](#microsoft-workplace-analytics-activities)<br/>|
+|[Microsoft Teams activities](#microsoft-teams-activities) <br/> |[Yammer activities](#yammer-activities) <br/> |[Microsoft Flow](#microsoft-flow) <br/> |
+|[Microsoft PowerApps](#microsoft-powerapps)<br/>|[Microsoft Stream](#microsoft-stream) <br/>|[Exchange admin activities](#exchange-admin-audit-log)<br/>
 ||||
    
   
@@ -463,28 +462,6 @@ The following table lists the activities that can be logged by mailbox audit log
 |Updated message  <br/> |Update  <br/> |A message or its properties was changed.  <br/> |
 |User signed in to mailbox  <br/> |MailboxLogin  <br/> |The user signed in to their mailbox.  <br/> |
 |(none)  <br/> |UpdateInboxRules  <br/> |An inbox rule has been added, removed, or changed. Inbox rules are used to process messages in the user's Inbox based on the specified conditions and take actions when the conditions of a rule are met, such as moving a message to a specified folder or deleting a message.  <br/> To return entries for inbox rule activities, you have to select **Show results for all activities** in the **Activities** list. Use the date range boxes and the **Users** list to narrow the search results.  <br/> |
-||||
-  
-### Retention policy and label activities
-
-The following table describes the activities related to retention policies and retention labels in the Security & Compliance Center. For more information, see:
-
-- [Overview of retention policies](retention-policies.md)
-- [Overview of retention labels](labels.md)
-<br/>
-
-|**Activity**|**Operation**|**Description**|
-|:-----|:-----|:-----|
-| Created retention configuration for a retention policy<br/> |NewRetentionComplianceRule<br/> |Administrator configures the retention settings for a new retention policy. Retention settings include how long items are retained, and what happens to items when the retention period expires (such as deleting items, retaining items, or retaining and then deleting them). This activity also corresponds to running the [New-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-retentioncompliancerule) cmdlet.<br/>|
-| Created retention label <br/> |NewComplianceTag<br/>  |Administrator creates a new retention label.<br/> |
-| Created retention policy<br/> |NewRetentionCompliancePolicy<br/> |Administrator creates a new retention policy.<br/>  |
-| Deleted retention configuration for a retention policy<br/> | RemoveRetentionComplianceRule<br/>| Administrator deletes the configuration settings of a retention policy. Most likely, this activity is logged when an administrator deletes a retention policy or runs the **Remove-RetentionComplianceRule** cmdlet.<br/> |
-| Deleted retention label <br/> |RemoveComplianceTag<br/>  | Administrator deletes a retention label.<br/>|
-| Deleted retention policy<br/> |RemoveRetentionCompliancePolicy<br/> |Administrator deletes a retention policy. <br/>  |
-| Enable regulatory compliance features<br/> |SetRestrictiveRetentionUI<br/> |Administrator enables regulatory compliance features by running the **Set-RegulatoryComplianceUI** cmdlet. After this cmdlet is run, administrators can lock a retention policy and specify a retention label as a regulatory record by using the Security & Compliance Center UI. Until an organization uses the **Set-RegulatoryComplianceUI** cmdlet to enable these features, locking a retention policy and creating an regulatory retention label can only be accomplished by using PowerShell. <br/>|
-| Updated retention configuration for a retention policy<br/> | SetRetentionComplianceRule<br/>| Administrator changes the retention settings for an existing retention policy. Retention settings include how long items are retained, and what happens to items when the retention period expires (such as deleting items, retaining items, or retaining and then deleting them). This activity also corresponds to running the [Set-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/set-retentioncompliancerule) cmdlet. <br/>|
-| Updated retention label <br/> |SetComplianceTag<br/>  | Administrator updates an existing retention label.<br/>|
-| Updated retention policy<br/> |SetRetentionCompliancePolicy <br/>|Administrator updates an existing a retention policy. Updates that trigger this event include adding or excluding content locations that the retention policy is applied to.<br/>|
 ||||
 
 ### Sway activities
