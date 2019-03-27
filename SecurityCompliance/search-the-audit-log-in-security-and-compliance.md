@@ -19,6 +19,8 @@ description: "Use the Office 365 Security & Compliance Center to search the unif
 
 # Search the audit log in the Office 365 Security & Compliance Center
 
+## Introduction
+
 Need to find if a user viewed a specific document or purged an item from their mailbox? If so, you can use the Office 365 Security &amp; Compliance Center to search the unified audit log to view user and administrator activity in your Office 365 organization. Why a unified audit log? Because you can search for the following types of user and admin activity in Office 365:
   
 - User activity in SharePoint Online and OneDrive for Business
@@ -720,7 +722,7 @@ For more information about the auditing and reporting features available in Offi
 
 **What are different Office 365 Services that are currently audited?**
 
-The most used Office 365 Services like Exchange Online, SharePoint, OneDrive, Azure Active Directory, Microsoft Teams, CRM, Advanced Threat Protection, and Data Loss Prevention are audited. See the [Intro](#search-the-audit-log-in-the-office-365-security-amp-compliance-center) section in this article for a complete list.
+The most used Office 365 Services like Exchange Online, SharePoint, OneDrive, Azure Active Directory, Microsoft Teams, CRM, Advanced Threat Protection, and Data Loss Prevention are audited. See the [Introduction](#introduction) section in this article for a complete list.
 
 **What activities are audited by auditing service in Office 365?**
 
