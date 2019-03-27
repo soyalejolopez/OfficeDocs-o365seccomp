@@ -62,7 +62,9 @@ In addition to links in cards on the home page, you'll find a navigation pane on
 ![Navigation in the Microsoft 365 compliance center](media/m365-compliance-center-leftnav.png)
 
 - Go to **Alerts** to view and resolve [alerts](alerts.md)
-- Visit **Monitoring & reports** to view data about [label usage and retention](sensitivity-labels.md), [data loss prevention policy matches and overrides](view-the-dlp-reports.md), [shared files](https://docs.microsoft.com/cloud-app-security/file-filters), [third-party apps in use](https://docs.microsoft.com/cloud-app-security/discovered-apps), and more. 
+- Visit **Monitoring & reports** to view data about [label usage and retention](sensitivity-labels.md), [DLP policy matches and overrides](view-the-dlp-reports.md), [shared files](https://docs.microsoft.com/cloud-app-security/file-filters), [third-party apps in use](https://docs.microsoft.com/cloud-app-security/discovered-apps), and more. 
+- Expand the **Classification** section to access your [labels](labels.md), [label policies](sensitivity-labels.md#what-label-policies-can-do), [sensitive information types](what-the-sensitive-information-types-look-for.md), and [label analytics](view-label-activity-for-documents.md).
+- Go to **Policies** to view [alerts](alerts.md) and to access your [DLP](data-loss-prevention-policies.md) and [retention](retention-policies.md) policies. 
 
 ## How do I get this?
 
