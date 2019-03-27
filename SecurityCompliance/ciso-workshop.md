@@ -26,7 +26,7 @@ The CISO workshop video and PowerPoint content is designed to be modular so you 
 
 This module covers overviews on critical security hygiene, Microsoft cybersecurity reference architecture, cybersecurity resilience, Internet of Things (IoT), and operational tech.
 
-Download module PowerPoint: [Module 1 – Microsoft Cybersecurity Briefing](media/ciso-workshop-1-cybersecurity-briefing.pdf)
+Download module PDF: [Module 1 – Microsoft Cybersecurity Briefing](media/ciso-workshop-1-cybersecurity-briefing.pdf)
 
 ### Part 1 – Course Introduction and Overview
 
@@ -84,7 +84,7 @@ Download module PowerPoint: [Module 1 – Microsoft Cybersecurity Briefing](medi
 
 Learn how to increase visibility and control over your hybrid enterprise estate with integrated guidance, automated policy enforcement, and monitoring in this seven part series.
 
-Download module PowerPoint: [Module 2 – Security Management](media/ciso-workshop-2-security-management.pdf)
+Download module PDF: [Module 2 – Security Management](media/ciso-workshop-2-security-management.pdf)
 
 ### Introduction - Security Management
 
@@ -122,7 +122,7 @@ Download module PowerPoint: [Module 2 – Security Management](media/ciso-worksh
 
 Because most modern attacks involve compromising user identities, learn how to build a new identity security perimeter to protect assets outside your corporate network.
 
-Download module PowerPoint: [Module 3 – Identity and Access Management](media/ciso-workshop-3-identity-protection.pdf)
+Download module PDF: [Module 3 – Identity and Access Management](media/ciso-workshop-3-identity-protection.pdf)
 
 ### Introduction – Identity and Access Management
 
@@ -152,7 +152,7 @@ Download module PowerPoint: [Module 3 – Identity and Access Management](media/
 
 Explore our key learnings about threat protection, security evolution, strategies, and security road maps.
 
-Download module PowerPoint: [Module 4a – Threat Protection Strategy](media/ciso-workshop-4a-threat-protection.pdf)
+Download module PDF: [Module 4a – Threat Protection Strategy](media/ciso-workshop-4a-threat-protection.pdf)
 
 ### Introduction – Threat Protection Strategy (Identify-Protect)
 
@@ -210,7 +210,7 @@ Download module PowerPoint: [Module 4a – Threat Protection Strategy](media/cis
 
 This module reviews the evolution and trajectory of our Security Operations Centers (SOC), powered by the trillions of signals in our intelligent security graph.
 
-Download module PowerPoint: [Module 4b – Threat Protection Strategy](media/ciso-workshop-4b-threat-protection-strategy.pdf)
+Download module PDF: [Module 4b – Threat Protection Strategy](media/ciso-workshop-4b-threat-protection-strategy.pdf)
 
 ### Introduction – Threat Protection Strategy (Detect-Respond-Recover)
 
@@ -260,7 +260,7 @@ Download module PowerPoint: [Module 4b – Threat Protection Strategy](media/cis
 
 Learn how to protect sensitive information wherever it goes with automatic classification, persistent encryption across devices, and continuous monitoring of data across mobile devices, cloud services, and other corporate assets.
 
-Download module PowerPoint: [Module 5 – Information Protection](media/ciso-workshop-5-information-protection-strategy.pdf)
+Download module PDF: [Module 5 – Information Protection](media/ciso-workshop-5-information-protection-strategy.pdf)
 
 ### Introduction – Information Protection
 
