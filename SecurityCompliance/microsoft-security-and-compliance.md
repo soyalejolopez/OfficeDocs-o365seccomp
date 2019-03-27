@@ -15,7 +15,7 @@ description: "Get ready for the all-new Microsoft 365 security center and compli
 
 # The new Microsoft 365 security center and Microsoft 365 compliance center are now generally available
 
-**We are pleased to announce the all-new [Microsoft 365 security center](#microsoft-365-security-center) and [Microsoft 365 compliance center](#microsoft-365-compliance-center)**. Read this article to get an overview of what's coming, [what to expect](#what-to-expect), and [required licenses and permissions needed](#required-licenses-and-permissions).
+**We are pleased to announce the all-new [Microsoft 365 security center](#microsoft-365-security-center) and [Microsoft 365 compliance center](#microsoft-365-compliance-center)**, which are now generally available. Read this article to get an overview of what's new, [what to expect](#what-to-expect), and [required licenses and permissions needed](#required-licenses-and-permissions).
 
 ## Microsoft 365 security center
 
@@ -25,7 +25,7 @@ Your new Microsoft 365 security center includes a dashboard to help you manage a
 
 When you use the Microsoft 365 security center for the first time, you'll see information across the top of the screen to help you get started. You'll also see how to navigate easily to the security features you're most interested in exploring.
 
-Once the Microsoft 365 security center is enabled for your tenant, you will be able to access it at [https://security.microsoft.com](https://security.microsoft.com). 
+You will be able to access the Microsoft 365 security center at [https://security.microsoft.com](https://security.microsoft.com). 
 
 > [!NOTE]
 > You must be assigned a valid Azure Active Directory role to access the Microsoft 365 security center. To learn more, see the [Required licenses and permissions](#required-licenses-and-permissions) section (in this article).
