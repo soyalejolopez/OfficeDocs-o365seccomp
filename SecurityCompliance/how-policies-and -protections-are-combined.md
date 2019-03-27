@@ -39,14 +39,18 @@ In addition, these policies apply to _organizations with ATP_.
 |7     | Domain Impersonation         | DIMP         | Set up Office 365 ATP anti-phishing and anti-phishing policies        |
 |8     | User Impersonation        | UIMP         | Set up Office 365 ATP anti-phishing and anti-phishing policies         |
 
-As an example, if you have two policies:
+As an example, if you have two policies with their respective priorities:
 
 |Policy  |Priority  |User/Domain Impersonation  |Anti-spoofing  |
 |---------|---------|---------|---------|
 |A     | 1        | On        |Off         |
 |B     | 2        | Off        | On        |
 
-If a message comes in identified as both _user impersonation_ and _spoofing_ (see anti-spoofing in the table above), and the same set of users scoped to policy A is scoped to policy B, then the message is flagged and treated as a _spoof_, but no action is applied since Anti-spoofing is turned off, and because **spoof runs at a higher priority (4) than User Impersonation (8)**.
+If a message comes in identified as both _user impersonation_ and _spoofing_ (see anti-spoofing in the table above), and the same set of users scoped to policy A is scoped to policy B, then the message is flagged and treated as a _spoof_. However, no action is applied because though spoof runs at a higher priority (4) than User Impersonation (8), Anti-spoofing is turned off.
+
+Keep in mind, administrators can create a prioritized list of policies (see the priority field above), but only one policy will run and apply its actions. That means a user in both policy A and B will have the higher priority policy (A is #1) run, and the message will not filter through any further policies. If the anti-spoofiing is off, no actions will be run.
+
+Because there is a potential to have many groups of users in many policies, it may behoove administrators to consider using fewer policies with more capabilities. It is also important to be certain that all users are covered by a comprehensive policy.
 
 To make other types of phishing policy apply, you will need to adjust the settings of who the various policies apply to.
 
