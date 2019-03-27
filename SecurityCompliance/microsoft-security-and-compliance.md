@@ -23,7 +23,7 @@ Your new [Microsoft 365 security center](overview-security-center.md) includes a
 
 [![New Microsoft 365 security center](media/m365-security-center.png)](overview-security-center.md)
 
-When you use the Microsoft 365 security center for the first time, you'll see information across the top of the screen to help you get started. You'll also see how to navigate easily to the security features you're most interested in exploring.
+When you use the Microsoft 365 security center for the first time, you'll see information across the top of the screen to help you get started. You'll also see how to navigate easily to the security features you're most interested in exploring. To learn more, see [Overview of the Microsoft 365 security center](overview-security-center.md).
 
 You will be able to access the Microsoft 365 security center at [https://security.microsoft.com](https://security.microsoft.com). 
 
