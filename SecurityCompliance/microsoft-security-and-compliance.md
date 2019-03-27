@@ -38,16 +38,16 @@ Your new Microsoft 365 compliance center provides you with visibility into Micro
 
 When you use the Microsoft 365 compliance center for the first time, you'll see information across the top of the screen to help you get started. You'll see how to navigate easily to the compliance features you're most interested in exploring.
 
-Once the Microsoft 365 compliance center is enabled for your tenant, you will be to access it at [https://compliance.microsoft.com](https://compliance.microsoft.com).  
+You will be to access the Microsoft 365 compliance center at [https://compliance.microsoft.com](https://compliance.microsoft.com).  
 
 > [!NOTE]
 > You must be assigned a valid Azure Active Directory role to access the Microsoft 365 compliance center. To learn more, see the [Required licenses and permissions](#required-licenses-and-permissions) section (in this article).
 
 ## What to expect
 
-### Rolling out now!
+### General availability!
 
-The new Microsoft 365 security center and the new Microsoft 365 compliance center began rolling out earlier this year. If you don't have this already, you should have access to the new Microsoft 365 security center and Microsoft 365 compliance center very soon.
+The new Microsoft 365 security center and the new Microsoft 365 compliance center are now generally available at the end of March 2019. If you don't have this already, you should have access to the new Microsoft 365 security center and Microsoft 365 compliance center very soon.
 
 ### Easy access!
 
@@ -73,20 +73,20 @@ To get the new Microsoft 365 security center and Microsoft 365 compliance center
 
 ### Roles and permissions
 
-Users must be assigned the Global Administrator, Compliance Administrator, Security Administrator, or Security Reader role in Azure Active Directory to access the new Microsoft 365 security center or Microsoft 365 compliance center.
+Users must be assigned the Global Administrator, Compliance Administrator, Compliance Data Administrator, Security Administrator, Security Operator, or Security Reader role in Azure Active Directory to access the new Microsoft 365 security center or Microsoft 365 compliance center.
 
 - Global Administrators can access both the security center and the compliance center
 
-- Compliance Administrators can access the compliance center
+- Compliance Administrators and Compliance Data Administrators can access the compliance center
 
-- Security Administrators or Security Readers can access the security center
+- Security Administrators, Security Operators, and Security Readers can access the security center
 
 > [!NOTE]
 > Additional roles, including Security Operator and Compliance Data Administrator, are coming soon.
 
 The following table summarizes who can access various portals across Azure, Office 365, and Windows:
 
-|Portal  |Global<br/>Administrator  |Security <br/>Administrator<br>or<br>Security<br>Reader |Compliance<br/>Administrator  |
+|Portal<br/>  |Global<br/>Administrator  |Security Administrator<br/><br/>Security Operator<br/><br/>Security Reader<br/> |Compliance Administrator<br/><br/>Compliance Data Administrator <br/> |
 |---------|---------|---------|---------|
 |[Office 365 Security & Compliance Center](https://protection.office.com) |Yes |Yes  |Yes |
 |[Microsoft 365 security center](https://security.microsoft.com) |Yes  | Yes  | No        |
