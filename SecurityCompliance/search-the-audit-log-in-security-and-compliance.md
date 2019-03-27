@@ -19,6 +19,8 @@ description: "Use the Office 365 Security & Compliance Center to search the unif
 
 # Search the audit log in the Office 365 Security & Compliance Center
 
+## Introduction
+
 Need to find if a user viewed a specific document or purged an item from their mailbox? If so, you can use the Office 365 Security &amp; Compliance Center to search the unified audit log to view user and administrator activity in your Office 365 organization. Why a unified audit log? Because you can search for the following types of user and admin activity in Office 365:
   
 - User activity in SharePoint Online and OneDrive for Business
@@ -295,7 +297,7 @@ Click one of the following links to go to a specific table.
 |[Azure AD group administration activities](#azure-ad-group-administration-activities) <br/> |[Application administration activities](#application-administration-activities) <br/> |[Role administration activities](#role-administration-activities) <br/> |
 |[Directory administration activities](#directory-administration-activities) <br/> |[eDiscovery activities](#ediscovery-activities) <br/> |[Power BI activities](#power-bi-activities) <br/> |
 |[Microsoft Workplace Analytics](#microsoft-workplace-analytics-activities)<br/>|[Microsoft Teams activities](#microsoft-teams-activities) <br/> |[Yammer activities](#yammer-activities) <br/> |
-[Microsoft Flow](#microsoft-flow) <br/> |[Microsoft PowerApps](#microsoft-powerapps)<br/>|[Microsoft Stream](#microsoft-stream) <br/>|
+[Microsoft Flow activities](#microsoft-flow-activities) <br/> |[Microsoft PowerApps](#microsoft-powerapps)<br/>|[Microsoft Stream activities](#microsoft-stream-activities) <br/>|
 |[Exchange admin activities](#exchange-admin-audit-log)<br/>
 ||||
    
@@ -720,7 +722,7 @@ For more information about the auditing and reporting features available in Offi
 
 **What are different Office 365 Services that are currently audited?**
 
-The most used Office 365 Services like Exchange Online, SharePoint, OneDrive, Azure Active Directory, Microsoft Teams, CRM, Advanced Threat Protection, and Data Loss Prevention are audited. See the [Intro](#search-the-audit-log-in-the-office-365-security-amp-compliance-center) section in this article for a complete list.
+The most used Office 365 Services like Exchange Online, SharePoint, OneDrive, Azure Active Directory, Microsoft Teams, CRM, Advanced Threat Protection, and Data Loss Prevention are audited. See the [Introduction](#introduction) section in this article for a complete list.
 
 **What activities are audited by auditing service in Office 365?**
 
