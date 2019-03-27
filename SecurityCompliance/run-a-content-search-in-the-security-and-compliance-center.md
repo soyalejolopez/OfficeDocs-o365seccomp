@@ -256,19 +256,19 @@ Here's more information about Content Searches.
   
 [Limits and performance](#limits-and-performance)
   
-[Unindexed items](run-a-content-search-in-the-security-and-compliance-center.md#unindexeditems)
+[Unindexed items](#unindexed-items) 
+ 
+[Microsoft Teams and Office 365 Groups](#microsoft-teams-and-office-365-groups)
   
-[Microsoft Teams and Office 365 Groups](run-a-content-search-in-the-security-and-compliance-center.md#teams)
+[OneDrive for Business](#onedrive-for-business)
   
-[OneDrive for Business](run-a-content-search-in-the-security-and-compliance-center.md#onedrive)
+[Search queries](#search-queries)
   
-[Search queries](run-a-content-search-in-the-security-and-compliance-center.md#queries)
+[Searching inactive mailboxes](#searching-inactive-mailboxes)
   
-[Searching inactive mailboxes](run-a-content-search-in-the-security-and-compliance-center.md#inactivemailboxes)
+[Miscellaneous](#miscellaneous)
   
-[Miscellaneous](run-a-content-search-in-the-security-and-compliance-center.md#misc)
-  
-[(Return to top)](run-a-content-search-in-the-security-and-compliance-center.md#top)
+[Return to top](#before-you-begin)
   
 ### Limits and performance
   
