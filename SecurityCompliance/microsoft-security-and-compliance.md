@@ -85,7 +85,7 @@ Users must be assigned the Global Administrator, Compliance Administrator, Compl
 
 The following table summarizes who can access various portals across Azure, Office 365, and Windows:
 
-|Portal<br/>  |Global<br/>Administrator  |Security Administrator<br/><br/>Security Operator<br/><br/>Security Reader<br/> |Compliance Administrator<br/><br/>Compliance Data Administrator <br/> |
+|Portal |Global Administrator |Security Administrator<br/>Security Operator<br/>Security Reader|Compliance Administrator<br/>Compliance Data Administrator |
 |---------|---------|---------|---------|
 |[Office 365 Security & Compliance Center](https://protection.office.com) |Yes |Yes  |Yes |
 |[Microsoft 365 security center](https://security.microsoft.com) |Yes  | Yes  | No        |
