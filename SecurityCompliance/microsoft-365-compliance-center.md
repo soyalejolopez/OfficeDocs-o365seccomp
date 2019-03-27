@@ -33,7 +33,7 @@ The **Assess** section on the home page shows you at a glance how your organizat
 
 ![Assess section in Microsoft 365 compliance center](media/m365-compliance-center-assess.png)
 
-From here, you can go to [Compliance Manager](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md) to review or edit your configurations and potentially improve your overall score.
+From here, you can go to the Microsoft Compliance Score card, which leads you to [Compliance Manager](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md), where you can review or edit your configurations and potentially improve your overall compliance score.
 
 You'll see additional widgets, such as one showing your organization's cloud app compliance, and another showing data about users with shared files, with links to [Cloud App Security](https://docs.microsoft.com/cloud-app-security/) or other tools where you can explore data.
 
