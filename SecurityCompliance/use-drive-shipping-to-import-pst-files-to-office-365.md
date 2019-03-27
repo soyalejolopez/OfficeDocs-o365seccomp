@@ -99,7 +99,7 @@ For frequently asked questions about using drive shipping to import PST files to
     
   - Specify the **TRUE** value in the  `IsArchive` parameter. 
     
-    See [Step 3: Create the PST Import mapping file](use-drive-shipping-to-import-pst-files-to-office-365.md#step3) for more information. 
+    See [Step 3: Create the PST Import mapping file](#step-3-create-the-pst-import-mapping-file) for more information. 
 
 ## Step 1: Download the secure storage key and PST Import tool
 
@@ -304,7 +304,7 @@ The next step is to create the PST Import job in the Import service in Office 36
 The next step is to ship the hard drive to Microsoft, and then provide the tracking number for the shipment and return shipment information for the drive shipping job. After the drive is received by Microsoft, it will take between 7 and 10 business days for data center personnel to upload your PST files to the Azure storage area for your organization.
   
 > [!NOTE]
-> If you don't provide the tracking number and return shipment information within 14 days of creating the import job, the import job will be expired. If this happens, you'll have to create a new drive shipping import job (see [Step 4: Create a PST Import job in Office 365](use-drive-shipping-to-import-pst-files-to-office-365.md#step4)) and re-submit the drive file and the PST import mapping file. 
+> If you don't provide the tracking number and return shipment information within 14 days of creating the import job, the import job will be expired. If this happens, you'll have to create a new drive shipping import job (see [Step 4: Create a PST Import job in Office 365](#step-4-create-a-pst-import-job-in-office-365)) and re-submit the drive file and the PST import mapping file. 
   
 ### Ship the hard drive
 
