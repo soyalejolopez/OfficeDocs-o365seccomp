@@ -59,17 +59,11 @@ Cards, such as the Active alerts card, include a link to a page where you can vi
 
 In addition to links in cards on the home page, you'll find a navigation pane on the left side of the screen that gives you easy access to your alerts, reports, policies, compliance solutions, and more. 
 
-![Navigation in the Microsoft 365 compliance center](media/m365-compliance-center-leftnav.png)
 
-- Go to **Alerts** to view and resolve [alerts](alerts.md)
+|  |  |
+|---------|---------|
+|![Navigation in the Microsoft 365 compliance center](media/m365-compliance-center-leftnav.png)  | Go to **Alerts** to view and resolve [alerts](alerts.md)<br/><br/>Visit **Monitoring & reports** to view data about [label usage and retention](sensitivity-labels.md), [DLP policy matches and overrides](view-the-dlp-reports.md), [shared files](https://docs.microsoft.com/cloud-app-security/file-filters), [third-party apps in use](https://docs.microsoft.com/cloud-app-security/discovered-apps), and more.<br/><br/>Expand the **Classification** section to access your [labels](labels.md), [label policies](sensitivity-labels.md#what-label-policies-can-do), [sensitive information types](what-the-sensitive-information-types-look-for.md), and [label analytics](view-label-activity-for-documents.md).<br/><br/>Go to **Policies** to view [alerts](alerts.md) and to access your [DLP](data-loss-prevention-policies.md) and [retention](retention-policies.md) policies.<br/><br/> Use the links in the **Solutions** section to access your organization's compliance solutions. These include [eDiscovery](ediscovery.md), [Supervision](supervision-policies.md), [Data investigations](compliance20/data-investigations-release-notes.md), and [Data subject requests](manage-gdpr-data-subject-requests-with-the-dsr-case-tool.md).        |
 
-- Visit **Monitoring & reports** to view data about [label usage and retention](sensitivity-labels.md), [DLP policy matches and overrides](view-the-dlp-reports.md), [shared files](https://docs.microsoft.com/cloud-app-security/file-filters), [third-party apps in use](https://docs.microsoft.com/cloud-app-security/discovered-apps), and more. 
-
-- Expand the **Classification** section to access your [labels](labels.md), [label policies](sensitivity-labels.md#what-label-policies-can-do), [sensitive information types](what-the-sensitive-information-types-look-for.md), and [label analytics](view-label-activity-for-documents.md).
-
-- Go to **Policies** to view [alerts](alerts.md) and to access your [DLP](data-loss-prevention-policies.md) and [retention](retention-policies.md) policies. 
-
-- Use the links in the **Solutions** section to access your organization's compliance solutions. These include [eDiscovery](ediscovery.md), [Supervision](supervision-policies.md), [Data investigations](compliance20/data-investigations-release-notes.md), and [Data subject requests](manage-gdpr-data-subject-requests-with-the-dsr-case-tool.md).
 
 ## How do I get this?
 
