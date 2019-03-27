@@ -15,13 +15,13 @@ description: "Get ready for the all-new Microsoft 365 security center and compli
 
 # The new Microsoft 365 security center and Microsoft 365 compliance center are now generally available
 
-**We are pleased to announce the all-new [Microsoft 365 security center](#microsoft-365-security-center) and [Microsoft 365 compliance center](#microsoft-365-compliance-center)**, which are now generally available. Read this article to get an overview of what's new, [what to expect](#what-to-expect), and [required licenses and permissions needed](#required-licenses-and-permissions).
+**We are pleased to announce that the all-new [Microsoft 365 security center](#microsoft-365-security-center) and [Microsoft 365 compliance center](#microsoft-365-compliance-center)**, are now generally available. Read this article to get an overview of what's new, [what to expect](#what-to-expect), and [required licenses and permissions](#required-licenses-and-permissions).
 
 ## Microsoft 365 security center
 
 Your new Microsoft 365 security center includes a dashboard to help you manage and monitor security across your identities, data, devices, apps, and infrastructure. You will also have easy access to your all-new Microsoft Secure Score, new device threat reports, new identity threat reports, and your Cloud App Security reports. 
 
-![New Microsoft 365 security center](media/m365-security-center.png)
+[![New Microsoft 365 security center](media/m365-security-center.png)](overview-security-center.md)
 
 When you use the Microsoft 365 security center for the first time, you'll see information across the top of the screen to help you get started. You'll also see how to navigate easily to the security features you're most interested in exploring.
 
@@ -34,7 +34,7 @@ You will be able to access the Microsoft 365 security center at [https://securit
 
 Your new Microsoft 365 compliance center provides you with visibility into Microsoft Compliance Manager, which reflects your overall compliance posture and gives you recommended actions to help you configure settings to meet complex compliance obligations. You’ll have easy access to sensitivity and retention labels and policies, data loss prevention (DLP), data governance, eDiscovery, data subject requests (DSRs), case management, and Cloud App Security. Additionally, you can gain actionable insights and leverage intelligent automation to reduce your compliance risks and safeguard your digital estate. 
 
-![Microsoft 365 compliance center](media/m365-compliance-center.png)
+[![Microsoft 365 compliance center](media/m365-compliance-center.png)](microsoft-365-compliance-center.md)
 
 When you use the Microsoft 365 compliance center for the first time, you'll see information across the top of the screen to help you get started. You'll see how to navigate easily to the compliance features you're most interested in exploring.
 
