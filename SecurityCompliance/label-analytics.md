@@ -1,0 +1,72 @@
+---
+title: "View label usage with label analytics"
+ms.author: stephow
+author: stephow-MSFT
+manager: laurawi
+ms.date: 
+ms.audience: Admin
+ms.topic: article
+ms.service: O365-seccomp
+localization_priority: Priority
+ms.collection: 
+- M365-security-compliance
+search.appverid: 
+- MOE150
+- MET150
+description: "After you create your retention labels and sensitivity labels, you’ll want to see how they’re being used across your tenant. With label analytics in the Microsoft 365 compliance center and Microsoft 365 security center, you can quickly see which labels are used the most and where they’re being applied."
+---
+
+# View label usage with label analytics
+
+Across your organization, you probably have different types of content that require different actions taken on them in order to comply with industry regulations and internal policies. For example, you might have:
+
+For example, with label analytics, you can view the:
+
+- Total number of retention labels and sensitivity labels applied to content.
+- Top labels and the count of how many times each label was applied.
+- Locations where labels are applied and the count for each location.
+- Count for how many files and folders had their retention label changed or removed.
+
+For label usage, label analytics shows you a summary of the all-time data in your tenant; it’s not filtered to a specific date range.
+
+You can find label analytics in the [Microsoft 365 compliance center](https://compliance.microsoft.com/labelanalytics) or [Microsoft 365 security center](https://security.microsoft.com/labelanalytics) > **Classification** > **Label analytics**.
+
+IMAGE
+
+## Sensitivity label usage
+
+The data on sensitivity label usage is pulled from the reports for Azure Information Protection – for more information, see [Central reporting for Azure Information Protection](https://docs.microsoft.com/en-us/azure/information-protection/reports-aip).
+
+Note that the Azure Information Protection reports have [prerequisites](https://docs.microsoft.com/en-us/azure/information-protection/reports-aip#prerequisites-for-azure-information-protection-analytics) that also apply to label analytics on sensitivity labels in the Microsoft 365 compliance center and Microsoft 365 security center. For example, you need an Azure subscription that includes the Log Analytics because these reports are a result of sending information protection audit events from Azure Information Protection clients and scanner to a centralized location based on Azure Log Analytics service.
+
+For sensitivity label usage:
+
+- There is no latency in the data. This is a real-time report.
+- To see the count for each top label, point to the bar graph and read the tool tip that appears.
+- The report shows where sensitivity labels are applied per app (whereas retention labels are shown per location).
+
+IMAGE
+
+## Retention label usage
+
+This report shows a quick view of what the top labels are and where they’re applied. For more detailed information on how content in SharePoint and OneDrive is labeled, see [View label activity for documents](view-label-activity-for-documents.md).
+
+For retention label usage:
+
+- Data is aggregated weekly, so it may take up to seven days for data to appear in the report.
+- To see the count for each top label, point to the bar graph and read the tool tip that appears.
+- The report shows where retention labels are applied per location (whereas sensitivity labels are shown per app).
+
+IMAGE
+
+## Permissions
+
+To view label analytics, you must be assigned one of the following roles in Azure Active Directory:
+
+- Global administrator
+- Compliance administrator
+- Security administrator
+- Security reader
+
+Please note that the user should also be added as a reader to the Azure Monitoring worksapce that holds the data.
+
