@@ -18,8 +18,13 @@ description: "Summary: This article describes how you use DomainKeys Identified 
 # Use DKIM to validate outbound email sent from your custom domain in Office 365
 
  **Summary:** This article describes how you use DomainKeys Identified Mail (DKIM) with Office 365 to ensure that destination email systems trust messages sent outbound from your custom domain. 
-  
-You should use DKIM in addition to SPF and DMARC to help prevent spoofers from sending messages that look like they are coming from your domain. DKIM lets you add a digital signature to email messages in the message header. Sounds complicated, but it's really not. When you configure DKIM, you authorize your domain to associate, or sign, its name to an email message by using cryptographic authentication. Email systems that receive email from your domain can use this digital signature to help determine if incoming email that they receive is legitimate.
+ 
+> [!NOTE]
+> Microsoft 365 supports use of either 1024- or 2048-bit DKIM. If you're using 1024- and want to implement 2048-bit DKIM stay tuned for the steps to rotate your DKIM signing configuration in this article.
+
+You should use DKIM in addition to SPF and DMARC to help prevent spoofers from sending messages that look like they're coming from your domain.
+
+DKIM lets you add a digital signature to email messages in the message header. Sounds complicated, but it's really not. When you configure DKIM, you authorize your domain to associate, or sign, its name to an email message by using cryptographic authentication. Email systems that receive email from your domain can use this digital signature to help determine if incoming email that they receive is legitimate.
   
 Basically, you use a private key to encrypt the header in your domain's outgoing email. You publish a public key to your domain's DNS records that receiving servers can then use to decode the signature. They use the public key to verify that the messages are really coming from you and not coming from someone spoofing your domain.
   
@@ -63,8 +68,11 @@ SPF adds information to a message envelope but DKIM actually encrypts a signatur
 In this example, if you had only published an SPF TXT record for your domain, the recipient's mail server could have marked your email as spam and generated a false positive result. The addition of DKIM in this scenario reduces false positive spam reporting. Because DKIM relies on public key cryptography to authenticate and not just IP addresses, DKIM is considered a much stronger form of authentication than SPF. We recommend using both SPF and DKIM, as well as DMARC in your deployment.
   
 The nitty gritty: DKIM uses a private key to insert an encrypted signature into the message headers. The signing domain, or outbound domain, is inserted as the value of the **d=** field in the header. The verifying domain, or recipient's domain, then use the **d=** field to look up the public key from DNS and authenticate the message. If the message is verified, the DKIM check passes. 
+
+> [!IMPORTANT]
+> Microsoft will support 2048-bit DKIM encryption keys by default for all Office 365 customers by the end of 2019. Steps in this article tell you how to manually rotate your 1024-bit key to 2048-bit if you would like to schedule the maintenance early.
   
-## What you need to do to manually set up DKIM in Office 365
+## What you need to do to manually set up DKIM in Microsoft 365
 <a name="SetUpDKIMO365"> </a>
 
 To configure DKIM, you will complete these steps:
@@ -76,9 +84,12 @@ To configure DKIM, you will complete these steps:
 ### Publish two CNAME records for your custom domain in DNS
 <a name="Publish2CNAME"> </a>
 
+> [!IMPORTANT]
+> The Microsoft 365 service (sometimes referred to as Office 365 in the documentation) currently supports both 1024- and 2048-bit DKIM (though by the end of 2019, 2048-bit will be the only bitness supported). If you haven't configured DKIM yet, please keep reading until you reach the section about manually rotating your DKIM key to 2048-bit, for details. If you've already configured DKIM and you want to use 2048-bit encryption, you must run this PowerShell code while logged in as the tenant admin: `Rotate-DkimSigningConfig -KeySize 2048 -Identity {Guid of the existing Signing Config}`. See details in the associated section.
+
 For each domain for which you want to add a DKIM signature in DNS, you need to publish two CNAME records. A CNAME record is used by DNS to specify that the canonical name of a domain is an alias for another domain name. The CNAME records should be created on the publicly available DNS servers for your customized domains. The CNAME records in your DNS will point to already created A records that exist in DNS on the Microsoft DNS servers for Office 365.
   
- Office 365 performs automatic key rotation using the two records that you establish. If you have provisioned custom domains in addition to the initial domain in Office 365, you must publish two CNAME records for each additional domain. So, if you have two domains, you must publish two additional CNAME records, and so on.
+ Microsoft 365 performs automatic key rotation using the two records that you establish. If you have provisioned custom domains in addition to the initial domain in Office 365, you must publish two CNAME records for each additional domain. So, if you have two domains, you must publish two additional CNAME records, and so on.
   
 Use the following format for the CNAME records.
 
@@ -128,7 +139,7 @@ Points to address or value:	**selector2-cohowinery-com**._domainkey.cohovineyard
 TTL:				3600
 ```
 
-### Enable DKIM signing for your custom domain in Office 365
+### Enable DKIM signing for your custom domain in Microsoft 365
 <a name="EnableDKIMinO365"> </a>
 
 Once you have published the CNAME records in DNS, you are ready to enable DKIM signing through Office 365. You can do this either through the Microsoft 365 admin center or by using PowerShell.
@@ -163,7 +174,25 @@ Once you have published the CNAME records in DNS, you are ready to enable DKIM s
     New-DkimSigningConfig -DomainName contoso.com -Enabled $true
     ```
 
-#### To Confirm DKIM signing is configured properly for Office 365
+
+#### Manually upgrade your 1024-bit key to 2048-bit DKIM encryption keys
+
+Because both of these encryption methods are supported, and both are secure, the choice between them is down to your specific security needs. There are two common situations for administrators, and they are:
+
+1. **You already have a DKIM configuration**: To use a 2048-bit key, connect to the service as a tenant admin via PowerShell and execute the following cmdlet: Rotate-DkimSigningConfig -KeySize 2048 -Identity {Guid of the existing Signing Config}
+2. **You don't have a DKIM configuration yet**: Connect as a tenant admin via PowerShell and execute the cmdlet: New-DkimSigningConfig -DomainName {Domain for which config is to be created} -KeySize 2048 -Enabled $True
+
+You will see the new 2048-bit key take effect on the RotateOnDate, and will continue to send emails with the existing 1024-bit key in the interim. After four days, you can test again with the 2048-bit key once the DNS rotation takes effect to the second selector.
+
+If your Mail Transfer Agent or DNS don't currently support the longer 2048-bit key (at this time) you can reverse the action and resume using a 1024-bit key by running the Rotate-DkimSigningConfig for a key size of 1024. You can resume use of 2048-bit encryption when any issues have been addressed.
+
+Be sure that your change has taken place by running this final cmdlet:
+
+`Get-DkimSigningConfig | fl`
+
+You will see Effective Date starts at RotateOnDate, and can test by sending and receiving emails. After four days, you can test again once the rotation takes effect to the second selector.
+
+#### Confirm DKIM signing is configured right for Microsoft 365
 
 Wait a few minutes before you follow these steps to confirm that you have properly configured DKIM. This allows time for the DKIM information about the domain to be spread throughout the network.
   
