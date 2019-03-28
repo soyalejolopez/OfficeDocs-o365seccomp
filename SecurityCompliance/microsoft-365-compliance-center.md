@@ -29,7 +29,7 @@ The welcome banner gives you some pointers on how to get started, with next step
 
 ## The Assess section
 
-The **Assess** section on the home page shows you at a glance how your organization is doing with respect to data protection and compliance.
+The **Assess** section on the home page shows you at a glance how your organization is doing with respect to [data protection and compliance](protect-access-to-data-and-services.md).
 
 ![Assess section in Microsoft 365 compliance center](media/m365-compliance-center-assess.png)
 
