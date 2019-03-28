@@ -29,7 +29,7 @@ ms.author: robmazz
                     </div>
                     <div class="cardText">
                         <h3>Get started</h3>
-                <p>Learn about the security and compliance capabilities and features of Office 365 and how to get started with Information Protection, Secure Score, and the Office 365 Security & Compliance Center.</p>
+                <p>Learn about the security and compliance capabilities and features of Office 365 and how to get started with Information Protection, Secure Score, and the Security & Compliance Center.</p>
                     </div>
                 </div>
             </div>
@@ -143,7 +143,7 @@ ms.author: robmazz
                     </div>
                     <div class="cardText">
                         <h3>Manage legal investigations</h3>
-                <p>Organizations have many reasons to respond to a legal case involving certain executives or other employees in your organization. Learn how to use the eDiscovery case tools in the Office 365 Security & Compliance Center.</p>
+                <p>Organizations have many reasons to respond to a legal case involving certain executives or other employees in your organization. Learn how to use the eDiscovery case tools in the Security & Compliance Center.</p>
                     </div>
                 </div>
             </div>
