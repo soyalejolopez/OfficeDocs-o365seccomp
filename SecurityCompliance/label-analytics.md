@@ -60,7 +60,9 @@ For retention label usage:
 
 ## View all content with a specific retention label
 
-From the retention label usage report, you can quickly explore all content with that label applied. First, choose **View Details** at the bottom of the report.
+From the retention label usage report, you can quickly explore all content with that label applied. (Note that we're currently working on this feature, so that it will take fewer steps to view all the labeled content.)
+
+First, choose **View Details** at the bottom of the report.
 
 ![View Details option at bottom of retention label usage report](media/retention-label-usage-view-details.png)
 
