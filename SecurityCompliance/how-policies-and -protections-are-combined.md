@@ -19,7 +19,7 @@ description: "What policies apply, and what actions to take, when email is marke
 
 Potentially, your incoming mail may be flagged by multiple forms of protection (for example both EOP *and* ATP), and multiple detection scans (such as spam *and* phishing). This is possible because there are ATP Anti-phishing policies for ATP customers, and EOP Anti-phishing policies for EOP customers. This also means the message may navigate multiple detection scans for malware, phishing, and user-impersonation, for example. Given all this activity, there may be some confusion as to which policy applies.
 
-In general, the policy applied to a message is identified in the **X-Forefront-Antispam-Report** header in the **CAT (Category)** property. If you have multiple Anti-phishing policies, the one at the highest priority will apply.
+In general, a policy applied to a message is identified in the **X-Forefront-Antispam-Report** header in the **CAT (Category)** property. If you have multiple Anti-phishing policies, the one at the highest priority will apply.
 
 The Policies below apply to _all organizations_.
 
