@@ -27,11 +27,9 @@ For example, with label analytics, you can view the:
 - Locations where labels are applied and the count for each location.
 - Count for how many files and folders had their retention label changed or removed.
 
-For label usage, label analytics shows you a summary of the all-time data in your tenant; it’s not filtered to a specific date range.
-
 You can find label analytics in the [Microsoft 365 compliance center](https://compliance.microsoft.com/labelanalytics) or [Microsoft 365 security center](https://security.microsoft.com/labelanalytics) > **Classification** > **Label analytics**.
 
-IMAGE
+![Label analytics page](media/label-analytics-page.png)
 
 ## Sensitivity label usage
 
@@ -45,7 +43,7 @@ For sensitivity label usage:
 - To see the count for each top label, point to the bar graph and read the tool tip that appears.
 - The report shows where sensitivity labels are applied per app (whereas retention labels are shown per location).
 
-IMAGE
+![Sensitivity label usage report](media/sensitivity-label-usage-report.png)
 
 ## Retention label usage
 
@@ -56,8 +54,9 @@ For retention label usage:
 - Data is aggregated weekly, so it may take up to seven days for data to appear in the report.
 - To see the count for each top label, point to the bar graph and read the tool tip that appears.
 - The report shows where retention labels are applied per location (whereas sensitivity labels are shown per app).
+- For retention labels, this is a summary of the all-time data in your tenant; it’s not filtered to a specific date range. By contrast, the [Label Activity Explorer](view-label-activity-for-documents.md) shows data from only the past 30 days.
 
-IMAGE
+![Retention label usage report](media/retention-label-usage-report.png)
 
 ## Permissions
 
@@ -68,5 +67,5 @@ To view label analytics, you must be assigned one of the following roles in Azur
 - Security administrator
 - Security reader
 
-Please note that the user should also be added as a reader to the Azure Monitoring worksapce that holds the data.
+Please note that the user should also be added as a reader to the Azure Monitoring worksapce that holds the data - for more information, see [Permissions required for Azure Information Protection analytics](https://docs.microsoft.com/en-us/azure/information-protection/reports-aip#permissions-required-for-azure-information-protection-analytics).
 
