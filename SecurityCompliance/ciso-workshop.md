@@ -24,9 +24,10 @@ The CISO workshop video and PowerPoint content is designed to be modular so you 
 
 ## Module 1 – Microsoft Cybersecurity Briefing
 
-This module covers overviews on critical security hygiene, Microsoft cybersecurity reference architecture, cybersecurity resilience, Internet of Things (IoT), and operational tech.
+This module covers overviews on critical security hygiene, Microsoft cybersecurity reference architecture, cybersecurity resilience, Internet of Things (IoT), and operational tech. You can also download either a PDF or PowerPoint module summary to supplement the module video lessons.
 
-Download module PDF: [Module 1 – Microsoft Cybersecurity Briefing](media/ciso-workshop-1-cybersecurity-briefing.pdf)
+Download PDF summary: [Module 1 – Microsoft Cybersecurity Briefing](media/ciso-workshop-1-cybersecurity-briefing.pdf)
+Download PowerPoint summary: [Module 1 – Microsoft Cybersecurity Briefing](https://docs.microsoft.com/office365/securitycompliance/media/ciso-workshop-1-cybersecurity-briefing.pptx)
 
 ### Part 1 – Course Introduction and Overview
 
