@@ -3,7 +3,7 @@ title: "Welcome to your all-new new Microsoft 365 compliance center"
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 03/27/2019
+ms.date: 03/28/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-seccomp
@@ -15,7 +15,9 @@ description: "Learn about the new Microsoft 365 compliance center, including wha
 
 ## Overview
 
-If you're interested in your organization's compliance posture, you're going to love the new [Microsoft 365 compliance center](https://compliance.microsoft.com). The Microsoft 365 compliance center provides easy access to the data and tools you need to manage to your organization's compliance needs. Read this article to get acquainted with the Microsoft 365 compliance center, how to get it, and your next steps.
+If you're interested in your organization's compliance posture, you're going to love the new [Microsoft 365 compliance center](https://compliance.microsoft.com). The Microsoft 365 compliance center provides easy access to the data and tools you need to manage to your organization's compliance needs. 
+
+Read this article to get acquainted with the Microsoft 365 compliance center, [how to get it](#how-do-i-get-this), [frequently asked questions](#frequently-asked-questions), and your [next steps](#next-steps).
 
 [![Microsoft 365 compliance center](media/m365-compliance-center.png)](https://compliance.microsoft.com)
 
