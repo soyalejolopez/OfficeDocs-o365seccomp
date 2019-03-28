@@ -47,11 +47,11 @@ Each card has a link to a report or additional information where you can learn m
 
 ## The Respond section
 
-The **Respond** section on the home page surfaces a[alerts](alerts.md) and [pending dispositions](disposition-reviews.md) that you'll want to review and potentially act upon.
+The **Respond** section on the home page surfaces [alerts](alerts.md) and [pending dispositions](disposition-reviews.md) that you'll want to review and potentially act upon.
 
 ![Respond section in the Microsoft 365 compliance center](media/m365-compliance-center-respond.png)
 
-Cards, such as the Active [alerts](alerts.md) card, include a link to a page where you can view more detailed information, such as Severity, Status, Category, and more.
+Cards, such as the [Active alerts](alerts.md) card, include a link to a page where you can view more detailed information, such as Severity, Status, Category, and more.
 
 ![Active alerts details](media/m365-compliance-center-alerts-details.png) 
 
