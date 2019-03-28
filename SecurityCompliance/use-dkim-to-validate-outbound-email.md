@@ -180,7 +180,9 @@ Once you have published the CNAME records in DNS, you are ready to enable DKIM s
 Because both of these encryption methods are supported, and both are secure, the choice between them is down to your specific security needs. There are two common situations for administrators, and they are:
 
 1. **You already have a DKIM configuration**: To use a 2048-bit key, connect to the service as a tenant admin via PowerShell and execute the following cmdlet: Rotate-DkimSigningConfig -KeySize 2048 -Identity {Guid of the existing Signing Config}
-2. **You don't have a DKIM configuration yet**: Connect as a tenant admin via PowerShell and execute the cmdlet: New-DkimSigningConfig -DomainName {Domain for which config is to be created} -Organization {Organization Domain} -KeySize 2048 -Enabled $True
+2. **You don't have a DKIM configuration yet**: Connect as a tenant admin via PowerShell and execute the cmdlet: New-DkimSigningConfig -DomainName {Domain for which config is to be created} -KeySize 2048 -Enabled $True
+
+You will see the new 2048-bit key take effect on the RotateOnDate, and will continue to send emails with the existing 1024-bit key in the interim. After four days, you can test again with the 2048-bit key once the DNS rotation takes effect to the second selector.
 
 If your Mail Transfer Agent or DNS don't currently support the longer 2048-bit key (at this time) you can reverse the action and resume using a 1024-bit key by running the Rotate-DkimSigningConfig for a key size of 1024. You can resume use of 2048-bit encryption when any issues have been addressed.
 
