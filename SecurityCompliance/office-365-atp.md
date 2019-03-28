@@ -36,7 +36,7 @@ Office 365 Advanced Threat Protection (ATP) safeguards your organization against
 
 Office 365 ATP provides numerous tools to set an appropriate level of protection for your organization. 
 
-Your organization's security team must define policies for each ATP tool in the Office 365 Security & Compliance Center. Go to **Threat management** > **Policy** to access policy options. 
+Your organization's security team must define policies for each ATP tool in the Security & Compliance Center. Go to **Threat management** > **Policy** to access policy options. 
 
 The policies that are defined for your organization determine the behavior and protection level for predefined threats. Policy options are extremely flexible. For example, your organization's security team can set fine-grained threat protection at the user, organization, recipient, and domain level. It is important to review your policies regularly because new threats and challenges emerge daily.  
 
@@ -76,9 +76,9 @@ To access ATP features in the Security & Compliance Center, you must be assigned
 
 For more information, see:
 
-- [Permissions in the Office 365 Security & Compliance Center](permissions-in-the-security-and-compliance-center.md) 
+- [Permissions in the Security & Compliance Center](permissions-in-the-security-and-compliance-center.md) 
 
-- [Give users access to the Office 365 Security & Compliance Center](grant-access-to-the-security-and-compliance-center.md)
+- [Give users access to the Security & Compliance Center](grant-access-to-the-security-and-compliance-center.md)
 
 ## Get Office 365 ATP
 
