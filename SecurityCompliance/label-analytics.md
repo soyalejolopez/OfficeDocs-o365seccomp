@@ -58,6 +58,29 @@ For retention label usage:
 
 ![Retention label usage report](media/retention-label-usage-report.png)
 
+## View all content with a specific retention label
+
+From the retention label usage report, you can quickly explore all content with that label applied. First, choose **View Details** at the bottom of the report.
+
+![View Details option at bottom of retention label usage report](media/retention-label-usage-view-details.png)
+
+Then choose a retention label > **Explore items** in the right pane.
+
+![Explore items option in right pane](media/retention-label-usage-explore-items.png)
+
+For that label, you can choose the **Activity** tab to view a count of items with that label by location.
+
+![Activity tab for a retention label](media/retention-label-usage-activity-tab.png)
+
+You can also choose the **Items with this label** tab. Then you can drill into specific locations:
+
+- For Exchange Online, you see a list of mailboxes with the count of labeled items in each mailbox.
+- For SharePoint Online and OneDrive for Business, you see a list of site collections and OneDrive accounts with the count of labeled items in each location.
+
+When you choose a mailbox or site collection, you can view a list of items with that retention label in that location.
+
+![Items with this label tab showing all items with that retention label](media/retention-label-usage-content-explorer.png)
+
 ## Permissions
 
 To view label analytics, you must be assigned one of the following roles in Azure Active Directory:
