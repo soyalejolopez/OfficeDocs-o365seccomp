@@ -21,6 +21,7 @@
 ## [Sensitivity labels](sensitivity-labels.md)
 ### [Restrict access to content by using encryption in sensitivity labels](encryption-sensitivity-labels.md)
 ### [Apply a sensitivity label to content automatically](apply_sensitivity_label_automatically.md)
+### [View label usage with label analytics](label-analytics.md)
 ## [Prevent data loss (DLP)](data-loss-prevention-policies.md)
 ### [Watch an extended overview of DLP](https://channel9.msdn.com/events/ignite/microsoft-ignite-orlando-2017/brk3111)
 ## Set up DLP
@@ -86,8 +87,9 @@
 ### [Restore an inactive mailbox](restore-an-inactive-mailbox.md)
 ### [Delete an inactive mailbox](delete-an-inactive-mailbox.md)
 ## Monitor data governance
-### [View the data governance reports](view-the-data-governance-reports.md)
 ### [View label activity for documents](view-label-activity-for-documents.md)
+### [View label usage with label analytics](label-analytics.md)
+### [View the data governance reports](view-the-data-governance-reports.md)
 ## More information about data governance
 ### [Watch videos from the Microsoft Data Governance team](https://go.microsoft.com/fwlink/?linkid=867039)
 
