@@ -19,43 +19,63 @@ description: ""
 
 # Search for data in an investigation
 
-In **Search** tab, you can search for misplaced, confidential or sensitive data across Office 365 in the live system using keywords and various condition cards. 
+On the **Search** tab in a data investigation, you can search for misplaced, confidential, or sensitive data in content locations in Office 365 using keywords and conditions. 
 
-After you run a search, you will be able to view statistics on the retrieved items such as the locations that had the most items that matched the search query. You can also preview a subset of the results. When you've identified the set of documents that want to further investigate, you can collect the search results as **Evidence** to further process and analyze. 
+After you run a search, you can view statistics on the items returned by the search, such as the content locations that had the most items that matched the search query. You can also preview a subset of the results. After you've identified the set of documents that want to further investigate, you can add the results of the search to an evidence set to further process and analyze.
 
 ## Create a search
 
-1. Clicking **New search** on the **Searches** tab will start a wizard that guides you through creating a search. 
+1. In an investigation, click the **Searches** tab, and then click **New search**. 
 
-2. Each search with a case should have a unique name. You can optionally provide a description for your search.
+    A wizard is displayed that will guide you through the process of creating a search.
 
-3. Define your search criteria. You can define the conditions for your search using the pre-built condition cards or using Keyword Query Language (KQL). For more information, see [Build search queries](build-search-queries.md).
+2. Enter a search name and an optional description for the search.
 
-4. After you've defined your conditions, you need to choose which locations you want to search. One way to do it is scoping it by selecting people of interest if you added any. If you know whom you want to scope down your search but haven't added them to people of interest, you can do so following instructions in [Manage people of interest](manage-people-of-interest.md#add-people-of-interest).
+3. Define your search criteria. You can add conditions for the search by using the pre-built condition cards or by using search property names in the keyword query. For more information, see [Build search queries](build-search-queries.md).
 
-5. In some cases, you may wish to search across tenant or data sources across that are not mapped to a person. In this case, you can specify the locations you would like to search, or choose to search all content locations for a specific Office 365 service (such as searching all Exchange mailboxes or all SharePoint and OneDrive for Business sites).
+4. Choose the content locations (data sources) to search. You can scope the search by selecting the content locations of specific people of interest (if you added any to the investigation). If you have added people of interest to the investigation, you can add them by following the steps in [Manage people of interest](manage-people-of-interest.md#add-people-of-interest).
+ 
+    In some cases, you may first need to search all content locations in your organization; alternatively, you may need to search locations that aren't owned by a specific person. In this scenarios, you can choose to search your entire organization, or all locations for a specific Office 365 services (such as Exchange, SharePoint, OneDrive of Business, or Teams.
 
-After a search is created, a flyout page with details is displayed. Note that the **Statistics** and **Preview** buttons are initially grayed out because the search has not completed yet. You can keep track of the progress of the search on the **Searches** tab.
+5. Save and run the search.
 
-## View search results and statistics
+After the search is created, a flyout page is displayed with details the search. Note that the **Statistics** and **Preview** buttons are initially grayed out because the search hasn't completed. You can keep track of the progress of by monitoring the **Status** column on the **Searches** tab.
 
-There are two components of a content search: Statistics (Estimates) and Preview. As each of these components complete, you will see the status displayed in the corresponding columns on the **Searches** tab change from from **Submitted** to **In progress** to **Completed**.
+## View statistics and search results
 
-Once the search estimate is completed, click the search to display the flyout page, which will display some high-level statistics about the results of the search. At this point, the **Statistics** button will be active. You can click it to see search statistics, such as:
+After you create and start a data investigation search, the tool uses the search criteria (the search query and content locations) that you defined and searches an index in the live service for items that match your search criteria. There are three components of a search that are returned when the search is complete: 
 
-- Summary
-- Top locations
-- Queries
-- Refiners
+- **Estimate** - Because the search only searches an index (rather than the actual content locations), the results of a search are an estimate (based on what was found in the index that matched the search results). A summary of the estimate is displayed on the search flyout page under **Status**. Note that the status for the estimate process for a search is displayed on the **Searches** tab in the **Estimate status** column. When the search estimate is complete, this status is set to **Successful**.
 
-For more information about search statistics, see [Search statistics](search-statistics.md).
+- **Statistics** - Statistics provide more detailed information about the search results. This includes the following:
 
-Once preview is completed, the **Preview** button will be active. Click it to preview a sampled subset of the results.
+    - Summary - Statistics similar to the search estimate results displayed on the flyout page.
+    - Top locations - Statistics about the number of items that match the search query in each content location that was searched. 
+    - Queries - Detailed statistics about the search query, including the number of items that match each condition in a search query.
 
-## Collecting search results to evidence
+    Click **Statistics** on the flyout page to view these statistics. Note that this button is inactive until the value of the **Estimate status** on the **Searches** tab is set to **Successful**. For more information about search statistics, see [Search statistics](search-statistics.md).
 
-When you are ready to investigate and remediate the search results, you can do so by adding it to evidence. When you add data to **Evidence** it extracts and re-indexes files, metadata, and text in a quarantined environment. For time-sensitive incidents, this allows you to quickly contain the environment by deleting data at original locations, and investigate re-created evidence afterwards in a quarantined environment. This also allows lightning fast search results and advanced analysis such as themes detection, email thread identification and near duplicate detection to facilitate your investigation. You can also add data from Non-Office 365 data sources to live side by side with the data you collect from Office 365.
+- **Preview** - When the search is complete, you can view the actual items from a sample subset of the search results returned by the search. YOu can view in the native view of the item type, any you can also view metadata about the item. This is a good way to quickly determine if your search results are what you expected or if you need to edit the search and re-run it. Click  **Preview** on the flyout page to view items from the search results. Note that this button is inactive until the value of the **Preview status** on the **Searches** tab is set to **Successful**.
+ 
+> [!NOTE]
+> The status values for the **Estimate status** and **Preview status** columns on the **Searches** tab are **Submitted**, **In progress**, and **Successful**. If there is an error with the search, the status of **Failed** is displayed.
 
-To add data to **Evidence**, start by selecting a search, in the search results fly out, click the *+ Add results to evidence* button.
+## Adding search results to evidence
 
-Adding data to evidence is a long running process, you can either track the progress in the Jobs tab or in the *Evidence status* column in the *Searches* tab.  The process includes gathering items from Office 365 and finally Ingestion & Indexing.  Once evidence processing is completed, you can navigate to the working set by clicking on the *Working Sets* tab and then clicking on the working set.  You can then move on to searching, reviewing, tagging and exporting any relevant data.
+When you're satisfied with the results of a search and you're ready to analyze and remediate those search results, you can add them to an evidence set in the investigation. When you add items to an evidence set on the **Evidence** tab, the following two things occur:
+
+- All items in the search results are copied from the data source in the live service, and copied to a secure Azure storage location in the Microsoft cloud.
+
+- All items (including the content and metadata) are re-indexed so that all data in the evidence set is fully searchable during your investigation. Re-indexing the data results in thorough and very fast searches when you search the data in the evidence set during your investigation.
+
+One advantage of copying the live data to an evidence set in Azure is that for time-sensitive or critical incidents, you can quickly contain the damage by immediately deleting suspicious content in the original data source in the live service and then investigating the incident by analyzing the evidence that was copied to the quarantined environment of the Azure storage location. 
+
+Copying the original data to the evidence set also facilitates your investigation by providing you with advanced analytics tools such as themes detection, near-duplicate detection, and email thread identification.
+
+If necessary, you can also add data from non-Office 365 data sources to an evidence set so that it's stored along with the data you collect from Office 365.
+
+To add data to an an evidenced set, select a search on the **Searches** tab, and then clicking **Add results to evidence** on the flyout page. Note that you can add data to an existing evidence set or create a new evidence set on the fly.
+
+### Tracking the progress of adding search results to evidence
+
+Adding data to an evidence set is a long-running process. The process includes collecting the items the original data source from Office 365 ( for example, from mailboxes and sites), copying them to the Azure storage location (this copying process is also called *ingestion*), and then re-indexing the items. You can either track the progress on the **Jobs** tab or on the **Searches** tab in the **Added data to evidence** column. After the processing of evidence processing is completed, you can go to the **Evidence** tab, click the evidence set, and then start your investigation by searching, reviewing, tagging, and exporting the relevant data as necessary.
