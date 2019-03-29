@@ -80,7 +80,7 @@ In addition to the three scenarios outlined in this article, you have many repor
 
 - [Get an overview of the views in Threat Explorer](threat-explorer-views.md)
 
-## How to get Explorer
+## Required licenses and permissions
 
 Explorer is included in [Office 365 Advanced Threat Protection Plan 2](office-365-ti.md). 
 
