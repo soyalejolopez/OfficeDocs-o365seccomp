@@ -58,6 +58,8 @@ Here's a list of Azure Active Directory user attributes that you can use for com
 - Department
     
 - Office
+
+- C (Two letter Country Code)
     
 Although more user attributes are available, particularly for Exchange mailboxes, the attributes listed above are the only ones currently supported by OneDrive.
   
