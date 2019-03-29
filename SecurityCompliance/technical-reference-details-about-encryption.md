@@ -3,7 +3,7 @@ title: "Technical reference details about encryption in Office 365"
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 1/15/2019
+ms.date: 03/29/2019
 ms.audience: ITPro
 ms.topic: reference
 ms.service: O365-seccomp
