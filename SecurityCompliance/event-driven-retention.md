@@ -72,7 +72,7 @@ Here's the high-level workflow for event-driven retention. More detailed steps f
   
 ### Step 1: Create a label whose retention period is based on an event
 
-In the Microsoft 365 compliance center, Microsoft 365 security center, or Security &amp; Compliance Center, in the left navigation, choose **Classifications** > **Labels** > **Retention labels** tab > **Create a label**.
+In the Microsoft 365 compliance center, Microsoft 365 security center, or Office 365 Security &amp; Compliance Center, in the left navigation, choose **Classifications** > **Labels** > **Retention labels** tab > **Create a label**.
   
 When you create the label, turn on retention, and then choose the option shown below to retain or delete the content based on an event. This means that the retention settings won't go into effect until Step 5, when you create an event on the **Events** page. 
   
