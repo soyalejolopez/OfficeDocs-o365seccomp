@@ -19,7 +19,7 @@ description: "Learn about Explorer (also called Threat Explorer) in the Security
 
 # Use Threat Explorer in the Security &amp; Compliance Center
 
-If your organization has [Office 365 Advanced Threat Protection Plan 2](office-365-ti.md), and you have the necessary permissions, you can use Threat Explorer (also referred to as Explorer) to identify and analyze threats. 
+If your organization has [Office 365 Advanced Threat Protection Plan 2](office-365-ti.md) (ATP), and you have the necessary permissions, you can use Threat Explorer (also referred to as Explorer) to identify and analyze threats. 
 
 ![Go to Threat management \> Explorer](media/cab32fa2-66f1-4ad5-bc1d-2bac4dbeb48c.png)
 
@@ -29,7 +29,7 @@ Here are some of the ways you can use Explorer:
 - Start automated investigation and response from a view in Explorer
 - Identify and delete malicious email that was delivered
 
-Explorer is a powerful near real-time tool to help Security Operations teams investigate and respond to threats in the Security &amp; Compliance Center.
+Explorer is a powerful, near real-time tool to help Security Operations teams investigate and respond to threats in the Security &amp; Compliance Center.
   
 To use Explorer, in the Security &amp; Compliance Center, go to **Threat management** \> **Explorer**.
 
