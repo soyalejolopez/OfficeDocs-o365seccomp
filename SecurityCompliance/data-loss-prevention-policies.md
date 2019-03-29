@@ -3,7 +3,7 @@ title: "Overview of data loss prevention policies"
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 3/25/2019
+ms.date: 3/29/2019
 ms.audience: ITPro
 ms.topic: conceptual
 f1_keywords:
@@ -469,7 +469,7 @@ When you create a DLP policy that includes Microsoft Teams as a location, the po
 
 For example, suppose that someone attempts to share sensitive information in a Teams chat or channel with external users. Suppose there's a DLP policy defined to prevent this. With protection in place, messages containing sensitive information sent to external users are deleted. This happens within seconds, and it happens automatically, according to how the DLP policy is configured.
 
-Policy tips notify senders about why their messages were blocked or revoked. For example, a sender might be told that their message contains personally identifiable information (PII) that is not allowed to be shared with anyone, or that a document that contains PII cannot be shared with people outside their organization.
+Policy tips notify senders about why their messages were blocked or revoked. For example, a sender might be told that their message contains personally identifiable information (PII) that is not allowed to be shared with anyone, or that a document that contains PII cannot be shared with people outside their organization. The sender can then edit their message to be compliant with DLP policies.
  
 ## Permissions
 
