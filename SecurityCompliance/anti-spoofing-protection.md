@@ -541,18 +541,8 @@ Remember, this should only be applied to domains that undergo indirect routing w
 ### Information for individual users
 
 Individual users are limited in how they can interact with the anti-spoofing safety tip. However, there are several things you can do to resolve common scenarios.
-  
-### Common scenario #1 - Mailbox forwarding
-
-If you use another email service and forward your email to Office 365 or Outlook.com, your email may be marked as spoofing and receive a red safety tip. Office 365 and Outlook.com plan to address this automatically when the forwarder is one of Outlook.com, Office 365, Gmail, or any other service that uses the [ARC protocol](https://arc-spec.org). However, until that fix is deployed, users should use the Connected Accounts feature to import their messages directly, rather than using the forwarding option.
-  
-To set up connected accounts in Office 365, select the Gear icon in the top right corner of the Office 365 web interface \> Mail \> Mail \> Accounts \> Connected accounts.
-  
-![Office 365 - Connected accounts option](media/e8e841ca-8861-4d83-8506-2a0858c51010.jpg)
-  
-In Outlook.com, the process is the Gear icon \> Options \> Mail \> Accounts \> Connected accounts.
-  
-### Common scenario #2 - Discussion lists
+ 
+### Common scenario #1 - Discussion lists
 
 Discussion lists are known to have problems with anti-spoofing due to the way they forward the message and modify its contents yet retain the original From: address.
   
