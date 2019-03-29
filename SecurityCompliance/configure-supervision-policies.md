@@ -29,31 +29,29 @@ If you don't have an existing Enterprise E5 plan and want to try supervision, yo
   
 Follow these steps to set up and use supervision in your Office 365 organization:
   
-- **Step 1 (optional)** - [Set up groups for Supervision](configure-supervision-policies.md#exampledist)
+- **Step 1 (optional)** - [Set up groups for Supervision (optional)](#step-1---set-up-groups-for-supervision-optional)
 
     Before you start using supervision, determine who will have their communications reviewed and who will perform those reviews. If you want to get started with just a few users to see how supervision works, you can skip setting up groups for now.
 
-- **Step 2 (required)** - [Make supervision available in your organization](configure-supervision-policies.md#MakeAvailable)
+- **Step 2 (required)** - [Make supervision available in your organization (required)](#step-2---make-supervision-available-in-your-organization-required)
 
     Add yourself to the Supervisory Review role group so you can set up policies. Anyone who has this role assigned can access the **Supervision** page in the Compliance Center. If email to be reviewed is hosted on Exchange Online, each reviewer must also have [remote PowerShell access to Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/disable-access-to-exchange-online-powershell).
 
-- **Step 3 (optional)** - [Configure custom sensitive information types or custom keyword dictionaries/lexicons](configure-supervision-policies.md#sensitiveinfo)
+- **Step 3 (optional)** - [Create custom sensitive information types and custom keyword dictionaries](#step-3---create-custom-sensitive-information-types-and-custom-keyword-dictionaries-optional)
 
     If you need to use a custom sensitive info type or a custom keyword dictionary for your supervision policy, you'll need to create it before starting the supervision wizard.
 
-- **Step 4 (required)** - [Set up a supervision policy](configure-supervision-policies.md#setupsuper)
+- **Step 4 (required)** - [Set up a supervision policy](#step-4---set-up-a-supervision-policy-required)
 
     You'll create supervision policies in the Compliance Center. These policies define which communications are subject to review in your organization and specifies who should perform reviews. Communications include email and Microsoft Teams communications, as well as 3rd-party platform communications (such as Facebook, Twitter, etc.)
 
-- **Step 5 - (optional)** [Test your new supervision policy](configure-supervision-policies.md#TestPolicy)
+- **Step 5 - (optional)** [Test your supervision policy](#step-5---test-your-supervision-policy-optional)
 
     Testing your supervision policy to make sure it is functioning as desired is an important part of ensuring that your compliance strategy is meeting your standards.
 
-- **Step 6 - (optional)** [Configure Outlook for reviewers who do not want to use Office 365 supervision dashboard or Outlook on the web (formerly known as Outlook Web App) to review supervised communications](configure-supervision-policies.md#UseOutlook)
+- **Step 6 - (optional)** [Configure Outlook for reviewers who do not want to use Office 365 supervision dashboard or Outlook on the web (formerly known as Outlook Web App) to review supervised communications](#step-6---configure-outlook-for-reviewers-optional)
 
     Outlook can be configured to give reviewers access to the supervision functionality within the Outlook client so they can assess and categorize each item.
-
-<a name="exampledist"> </a>
 
 ## Step 1 - Set up groups for Supervision (optional)
 
@@ -99,8 +97,6 @@ For more information about setting up groups, see:
 - [Manage mail-enabled security groups](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-mail-enabled-security-groups)
 - [Overview of Office 365 Groups](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups?view=o365-worldwide)
 
-<a name="MakeAvailable"> </a>
-
 ## Step 2 - Make supervision available in your organization (required)
 
 To make **Supervision** available as a menu option in the Compliance Center, you must be assigned the Supervisory Review Administrator role.
@@ -133,8 +129,6 @@ For more information about role groups and permissions, see [Permissions in the 
 
 1. Follow the guidance in [Enable or disable access to Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/disable-access-to-exchange-online-powershell).
 
-<a name="sensitiveinfo"> </a>
-  
 ## Step 3 - Create custom sensitive information types and custom keyword dictionaries (optional)
 
 In order to pick from existing custom sensitive information types or custom keyword dictionaries in the supervision policy wizard, you first need to create these items if needed.
@@ -156,8 +150,6 @@ Using a text editor (like Notepad), create a new file that includes the keyword 
 
     After the custom dictionary/lexicon is created, you can view the configured keywords using the [Get-DlpKeywordDictionary](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/get-dlpkeyworddictionary) cmdlet or add and remove terms using the [Set-DlpKeywordDictionary](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/set-dlpkeyworddictionary) cmdlet.
 
-<a name="setupsuper"> </a>
-
 ## Step 4 - Set up a supervision policy (required)
   
 1. Sign into [https://protection.office.com](https://protection.office.com) using credentials for an admin account in your Office 365 organization.
@@ -174,8 +166,6 @@ Using a text editor (like Notepad), create a new file that includes the keyword 
     - Choose the reviewers for the policy. Reviewers can be individual users or [mail-enabled security groups](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-mail-enabled-security-groups#create-a-mail-enabled-security-group).
     - Review your policy selections and create the policy.
 
-<a name="TestPolicy"> </a>
-
 ## Step 5 - Test your supervision policy (optional)
 
 After you create a supervision policy, it's a good idea to test to make sure that the conditions you defined are being properly enforced by the policy. You may also want to [test your data loss prevention (DLP) policies](create-test-tune-dlp-policy.md) if your supervision policies include sensitive information types. Follow the steps below to test your supervision policy:
@@ -187,8 +177,6 @@ After you create a supervision policy, it's a good idea to test to make sure tha
     > Emails subject to defined policies are processed in near real-time and can be tested immediately after the policy is configured. Chats in Microsoft Teams can take up to 24 hours to fully process in a policy. 
 
 3. Log into your Office 365 tenant as a reviewer designated in the supervision policy. Navigate to **Supervision** > *Your Custom Policy* > **Open** to view the report for the policy.
-
-<a name="UseOutlook"> </a>
 
 ## Step 6 - Configure Outlook for reviewers (optional)
 
