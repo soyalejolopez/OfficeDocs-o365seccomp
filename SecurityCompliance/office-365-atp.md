@@ -3,7 +3,7 @@ title: "Office 365 Advanced Threat Protection"
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 03/19/2019
+ms.date: 03/28/2019
 ms.audience: Admin
 ms.topic: hub-page
 ms.service: O365-seccomp
@@ -19,7 +19,7 @@ description: "Office 365 Advanced Threat Protection includes safe attachments, s
 # Office 365 Advanced Threat Protection
 
 > [!IMPORTANT]
-> This article is intended for Office 365 Enterprise customers. If you are using Outlook.com, Office 365 Home, or Office 365 Personal, and you're looking for information about Safe Links in Outlook, see [Advanced Outlook.com security](https://support.office.com/article/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2).
+> This article is intended for Office 365 Enterprise and Microsoft 365 Enterprise customers. If you are using Outlook.com, Office 365 Home, or Office 365 Personal, and you're looking for information about Safe Links in Outlook, see [Advanced Outlook.com security](https://support.office.com/article/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2).
 
 ## Overview
 
@@ -30,7 +30,6 @@ Office 365 Advanced Threat Protection (ATP) safeguards your organization against
 - [Reports](#view-atp-reports): View real-time reports to monitor ATP performance in your organization. 
 
 - [Threat investigation and response capabilities](#use-threat-investigation-and-response-capabilities): Use leading-edge tools to investigate, understand, simulate, and prevent threats. 
- 
 
 ## Configure ATP policies
 
