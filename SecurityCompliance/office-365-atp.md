@@ -65,11 +65,11 @@ Office 365 ATP Plan 2 includes best-of-class [threat investigation and response 
 
 - [Attack Simulator](attack-simulator.md) allows you to run realistic attack scenarios in your organization to identify vulnerabilites. Simulations of current types of attacks are available, including a [display name spear-phishing attack](attack-simulator.md#display-name-spear-phishing-attack), a [password-spray attack](attack-simulator.md#password-spray-attack), a [brute-force password attack](attack-simulator.md#brute-force-password-attack), and more.
     
-## Automated investigation and response
+## Save time with automated investigation and response
 
-(**NEW!**) Office 365 ATP Plan 2 will now include [automated investigation and response (AIR)](automated-investigation-response-office.md) capabilities. If you don't have these capabilities yet, you'll have them soon with ATP Plan 2.
+(**NEW!**) When you are investigating a potential cyber attack, time is of the essence. The sooner you can identify and mitigate threats, the better off your organization will be. Office 365 ATP Plan 2 will now include [automated investigation and response (AIR)](automated-investigation-response-office.md) capabilities. (If you don't have these capabilities yet, you'll have them soon with ATP Plan 2.)
 
-AIR includes a set of security playbooks that can be launched automatically, when an alert is triggered, or manually, from a view in Threat Explorer. AIR can save your security operations team a lot of time and effort in effectively mitigating threats. To learn more, see [Automated Investigation and Response (AIR) with Office 365](automated-investigation-response-office.md).
+AIR includes a set of security playbooks that can be launched automatically, such as when an alert is triggered, or manually, such as from a view in Threat Explorer. AIR can save your security operations team time and effort in mitigating threats, effectively and efficiently. To learn more, see [Automated Investigation and Response (AIR) with Office 365](automated-investigation-response-office.md).
 
 ## Permissions required to use ATP features
 
