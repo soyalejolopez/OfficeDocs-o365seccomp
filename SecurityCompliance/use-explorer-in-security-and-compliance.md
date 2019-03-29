@@ -68,7 +68,7 @@ The report refreshes to show data about email messages that people in your organ
 
 ## Start automated investigation and response
 
-(NEW!) [Automated investigation and response](automated-investigation-response-office.md), recently added to ATP Plan 2, can save your security operations team a lot of time and effort in investigating and mitigating cyber attacks. In addition to configuring alerts that can trigger a security playbook, you can start an automated investigation and response process from a view in Explorer.
+(NEW!) [Automated investigation and response](automated-investigation-response-office.md), recently added to ATP Plan 2, can save your security operations team a lot of time and effort in investigating and mitigating cyber attacks. In addition to configuring alerts that can trigger a security playbook, you can start an automated investigation and response process from a view in Explorer. 
 
 
 
@@ -99,16 +99,9 @@ To view and use Explorer, you must have appropriate permissions, such as those g
     - View-Only Recipients role
     - Compliance Management
 
-To learn more, see the following resources:
+To learn more about roles and permissions, see the following resources:
 
 - [Permissions in the Office 365 Security &amp; Compliance Center](permissions-in-the-security-and-compliance-center.md)
 
 - [Feature permissions in Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/feature-permissions)
   
-## Related topics
-
-- [Automated Investigation and Response (AIR)](automated-investigation-response-office.md)
-
-- [Threat Explorer views](threat-explorer-views.md)
-
-- [View reports for Office 365 Advanced Threat Protection](view-reports-for-atp.md)
