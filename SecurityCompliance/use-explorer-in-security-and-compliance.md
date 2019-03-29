@@ -68,6 +68,10 @@ The report refreshes to show data about email messages that people in your organ
 
 ## Start automated investigation and response
 
+(NEW!) [Automated investigation and response](automated-investigation-response-office.md), recently added to ATP Plan 2, can save your security operations team a lot of time and effort in investigating and mitigating cyber attacks. In addition to configuring alerts that can trigger a security playbook, you can start an automated investigation and response process from a view in Explorer.
+
+
+
 ## There's more!
 
 In addition to the scenarios outlined in this article, you have many more reporting scenarios available with Explorer. Here are a few examples:
