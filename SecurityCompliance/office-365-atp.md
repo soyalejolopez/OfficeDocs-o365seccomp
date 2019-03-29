@@ -37,7 +37,7 @@ Office 365 Advanced Threat Protection (ATP) safeguards your organization against
 
 Office 365 ATP provides numerous tools to set an appropriate level of protection for your organization. 
 
-Your organization's security team must define policies for each ATP tool in the Office 365 Security & Compliance Center. Go to **Threat management** > **Policy** to access policy options. 
+Your organization's security team must define policies for each ATP tool in the Office 365 Security & Compliance Center. Go to **Threat management** > **Policy** to access policy options. (To get some help with this, see [Quick Start Guide: Set up Office 365 Advanced Threat Protection](checklist-atp-setup.md).)
 
 The policies that are defined for your organization determine the behavior and protection level for predefined threats. Policy options are extremely flexible. For example, your organization's security team can set fine-grained threat protection at the user, organization, recipient, and domain level. It is important to review your policies regularly because new threats and challenges emerge daily.  
 
@@ -53,7 +53,7 @@ The policies that are defined for your organization determine the behavior and p
 
 Office 365 ATP includes an advanced [reporting dashboard](view-reports-for-atp.md) to monitor your ATP performance. You can access it at **Reports > Dashboard** in the Security & Compliance Center. 
 
-Reports update in real-time, providing you with the latest insights. These reports also provide recommendations and alert you to imminent threats. Predefined reports include the [Threat Protection Status report](view-reports-for-atp.md#threat-protection-status-report), [ATP File Types report](view-reports-for-atp.md#atp-file-types-report), [ATP Message Disposition report](view-reports-for-atp.md#atp-message-disposition-report) and more. 
+Reports update in real-time, providing you with the latest insights. These reports also provide recommendations and alert you to imminent threats. Predefined reports include [Threat Explorer](use-explorer-in-security-and-compliance.md), the [Threat Protection Status report](view-reports-for-atp.md#threat-protection-status-report), the [ATP File Types report](view-reports-for-atp.md#atp-file-types-report), the [ATP Message Disposition report](view-reports-for-atp.md#atp-message-disposition-report) and more. 
 
 ## Use threat investigation and response capabilities
 
