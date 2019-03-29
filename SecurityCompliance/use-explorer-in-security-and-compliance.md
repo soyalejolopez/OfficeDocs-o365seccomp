@@ -19,29 +19,17 @@ description: "Learn about Explorer (also called Threat Explorer) in the Security
 
 # Use Threat Explorer in the Security &amp; Compliance Center
 
-If your organization has [Office 365 Advanced Threat Protection Plan 2](office-365-ti.md) (ATP), and you have the necessary permissions, you can use Threat Explorer (also referred to as Explorer) to identify and analyze threats. 
+If your organization has [Office 365 Advanced Threat Protection Plan 2](office-365-ti.md) (ATP), and you have the necessary permissions, you can use Threat Explorer (also referred to as Explorer) to identify and analyze threats. (To use Explorer, in the Security &amp; Compliance Center, go to **Threat management** \> **Explorer**.)
 
 ![Go to Threat management \> Explorer](media/cab32fa2-66f1-4ad5-bc1d-2bac4dbeb48c.png)
+
+Explorer is a powerful, near real-time tool to help Security Operations teams investigate and respond to threats in the Security &amp; Compliance Center.
 
 Here are some of the ways you can use Explorer:
 - [See malware that was caught by Office 365 security features](#see-malware-detected-in-email-by-technology). 
 - View data about phishing URLs and click verdict
 - Start automated investigation and response from a view in Explorer
 - Identify and delete malicious email that was delivered
-
-Explorer is a powerful, near real-time tool to help Security Operations teams investigate and respond to threats in the Security &amp; Compliance Center.
-  
-To use Explorer, in the Security &amp; Compliance Center, go to **Threat management** \> **Explorer**.
-
-> [!IMPORTANT]
-> Office 365 Threat Intelligence is now Office 365 Advanced Threat Protection Plan 2, along with additional threat protection capabilities. To learn more, see [Office 365 Advanced Threat Protection plans and pricing](https://products.office.com/exchange/advance-threat-protection) and the [Office 365 Advanced Threat Protection Service Description](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description).
-      
-## Open Explorer
-
-If your organization has [Office 365 Threat investigation and response capabilities](office-365-ti.md) (as part of ATP Plan 2), and you have the necessary permissions, you can use Explorer to identify and analyze threats. In the Security &amp; Compliance Center, go to **Threat management** \> **Explorer**.
-
-![Go to Threat management \> Explorer](media/cab32fa2-66f1-4ad5-bc1d-2bac4dbeb48c.png)
-
 
 ## See malware detected in email by technology
 
