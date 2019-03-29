@@ -616,7 +616,7 @@ Once you've gotten started with an SPF record with a fallback policy of ?all, yo
   
 ### What if you are the owner of a mailing list?
 
-See the section [Common scenario #2 - Discussion lists](#common-scenario-2---discussion-lists).
+See the section [Common scenario #1 - Discussion lists](#common-scenario-1---discussion-lists).
   
 ### What if you are an infrastructure provider such as an Internet Service Provider (ISP), Email Service Provider (ESP), or cloud hosting service?
 
