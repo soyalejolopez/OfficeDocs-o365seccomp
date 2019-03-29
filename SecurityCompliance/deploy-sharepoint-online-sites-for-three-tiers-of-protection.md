@@ -3,7 +3,7 @@ title: "Deploy SharePoint Online sites for three tiers of protection"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 12/14/2018
+ms.date: 03/29/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -139,7 +139,7 @@ Next, you create the SharePoint Online team site with these steps.
     
 Next, from the new SharePoint Online team site, configure permissions with these steps.
   
-1. Determine the User Principal Name (UPN) of the IT administrator or other person who will be responsible for responding to and addressing requests for access to the site (belindan@contoso.com is an example of a UPN). Write that UPN here: ![](./media/Common-Images/TableLine.png).
+1. Determine the User Principal Name (UPN) of the IT administrator or other person who will be responsible for responding to and addressing requests for access to the site (belindan@contoso.com is an example of a UPN). 
     
 2. In the tool bar, click the settings icon, and then click **Site permissions**.
     
@@ -259,8 +259,7 @@ The members of the site, through group membership in one of the access groups, c
   
 ## Next step
 
-[Protect SharePoint Online files with Azure Information Protection](protect-sharepoint-online-files-with-azure-information-protection.md)
-
+[Protect SharePoint Online files with Office 365 labels and DLP](protect-sharepoint-online-files-with-office-365-labels-and-dlp.md)
 
 ## See also
 
@@ -269,7 +268,3 @@ The members of the site, through group membership in one of the access groups, c
 [Microsoft Security Guidance for Political Campaigns, Nonprofits, and Other Agile Organizations](microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md)
   
 [Cloud adoption and hybrid solutions](https://docs.microsoft.com/office365/enterprise/cloud-adoption-and-hybrid-solutions)
-
-
-
-
