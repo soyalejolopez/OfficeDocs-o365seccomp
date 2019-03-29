@@ -31,6 +31,8 @@ Office 365 Advanced Threat Protection (ATP) safeguards your organization against
 
 - [Threat investigation and response capabilities](#use-threat-investigation-and-response-capabilities): Use leading-edge tools to investigate, understand, simulate, and prevent threats. 
 
+- Automated investigation and response capabilities
+
 ## Configure ATP policies
 
 Office 365 ATP provides numerous tools to set an appropriate level of protection for your organization. 
@@ -63,6 +65,12 @@ Office 365 ATP Plan 2 includes best-of-class [threat investigation and response 
 
 - [Attack Simulator](attack-simulator.md) allows you to run realistic attack scenarios in your organization to identify vulnerabilites. Simulations of current types of attacks are available, including a [display name spear-phishing attack](attack-simulator.md#display-name-spear-phishing-attack), a [password-spray attack](attack-simulator.md#password-spray-attack), a [brute-force password attack](attack-simulator.md#brute-force-password-attack), and more.
     
+## Automated investigation and response
+
+(NEW!) Office 365 ATP Plan 2 will now include [automated investigation and response (AIR)](automated-investigation-response-office.md) capabilities. If you don't have these capabilities yet, you'll have them soon with ATP Plan 2.
+
+AIR includes a set of security playbooks that can be launched automatically, when an alert is triggered, or manually, from a view in Threat Explorer. AIR can save your security operations team a lot of time and effort in effectively mitigating threats. To learn more, see [Automated Investigation and Response (AIR) with Office 365](automated-investigation-response-office.md).
+
 ## Permissions required to use ATP features
 
 To access ATP features in the Security & Compliance Center, you must be assigned an appropriate role. The following table includes some examples:
@@ -81,7 +89,7 @@ For more information, see:
 
 ## Get Office 365 ATP
 
-Office 365 ATP is included in Office 365 Enterprise E5, Office 365 Education A5, and Microsoft 365 Business. If your subscription does not include Office 365 ATP, you can potentially purchase ATP as an add-on. To learn more, see the following resources:
+Office 365 ATP Plan 2 is included in Office 365 Enterprise E5, Office 365 Education A5, and Microsoft 365 Business. If your subscription does not include Office 365 ATP, you can potentially purchase ATP as an add-on. To learn more, see the following resources:
 
 - See [Office 365 Advanced Threat Protection (ATP) availability](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#office-365-advanced-threat-protection-atp-availability) for a list of subscriptions that include ATP plans.
 
