@@ -70,7 +70,7 @@ The report refreshes to show data about email messages that people in your organ
 
 ## There's more!
 
-In addition to the three scenarios outlined in this article, you have many reporting scenarios available with Explorer. Here are a few more examples:
+In addition to the scenarios outlined in this article, you have many more reporting scenarios available with Explorer. Here are a few examples:
 
 - [Find and investigate malicious email that was delivered](investigate-malicious-email-that-was-delivered.md)
 
