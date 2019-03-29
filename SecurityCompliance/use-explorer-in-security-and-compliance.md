@@ -23,10 +23,10 @@ If your organization has [Office 365 Advanced Threat Protection Plan 2](office-3
 
 ![Go to Threat management \> Explorer](media/cab32fa2-66f1-4ad5-bc1d-2bac4dbeb48c.png)
 
-Explorer is a powerful, near real-time tool to help Security Operations teams investigate and respond to threats in the Security &amp; Compliance Center. Here are some of the ways you can use Explorer:
-- [See malware that was caught by Office 365 security features](#see-malware-detected-in-email-by-technology)
+Explorer is a powerful, near real-time tool to help Security Operations teams investigate and respond to threats in the Security &amp; Compliance Center. Here are some of the things you can do:
+- [See malware that was detected by Office 365 security features](#see-malware-detected-in-email-by-technology)
 - [View data about phishing URLs and click verdict](#view-data-about-phishing-urls-and-click-verdict)
-- [Start automated investigation and response from a view in Explorer](#start-automated-investigation-and-response)
+- [Start an automated investigation and response process from a view in Explorer](#start-automated-investigation-and-response)
 - ... [and more](#theres-more)!
 
 ## See malware detected in email by technology
