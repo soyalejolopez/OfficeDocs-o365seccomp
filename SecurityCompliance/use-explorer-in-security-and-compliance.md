@@ -3,7 +3,7 @@ title: "Use Threat Explorer in the Security &amp; Compliance Center"
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 03/21/2019
+ms.date: 03/28/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -19,28 +19,29 @@ description: "Learn about Explorer (also called Threat Explorer) in the Security
 
 # Use Threat Explorer in the Security &amp; Compliance Center
 
-If your organization has [Office 365 Advanced Threat Protection Plan 2](office-365-ti.md), and you have the necessary permissions, you can use Threat Explorer to identify and analyze threats. For example, you can identify and delete malicious email that was delivered, or see malware that was caught by Office 365 security features. Threat Explorer (also referred to as Explorer) is a powerful near real-time tool to help Security Operations teams investigate and respond to threats in the Security &amp; Compliance Center.
-  
+If your organization has [Office 365 Advanced Threat Protection Plan 2](office-365-ti.md), and you have the necessary permissions, you can use Threat Explorer (also referred to as Explorer) to identify and analyze threats. 
+
 ![Go to Threat management \> Explorer](media/cab32fa2-66f1-4ad5-bc1d-2bac4dbeb48c.png)
+
+Here are some of the ways you can use Explorer:
+- [See malware that was caught by Office 365 security features](#see-malware-detected-in-email-by-technology). 
+- View data about phishing URLs and click verdict
+- Start automated investigation and response from a view in Explorer
+- Identify and delete malicious email that was delivered
+
+Explorer is a powerful near real-time tool to help Security Operations teams investigate and respond to threats in the Security &amp; Compliance Center.
   
 To use Explorer, in the Security &amp; Compliance Center, go to **Threat management** \> **Explorer**.
 
 > [!IMPORTANT]
 > Office 365 Threat Intelligence is now Office 365 Advanced Threat Protection Plan 2, along with additional threat protection capabilities. To learn more, see [Office 365 Advanced Threat Protection plans and pricing](https://products.office.com/exchange/advance-threat-protection) and the [Office 365 Advanced Threat Protection Service Description](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description).
       
-## Explorer overview
+## Open Explorer
 
-If your organization has [Office 365 Threat investigation and response capabilities](office-365-ti.md) (this is included in ATP Plan 2), and you have the necessary permissions, you can use Threat Explorer (also referred to as Explorer) to identify and analyze threats. (In the Security &amp; Compliance Center, go to **Threat management** \> **Explorer**.)
+If your organization has [Office 365 Threat investigation and response capabilities](office-365-ti.md) (as part of ATP Plan 2), and you have the necessary permissions, you can use Explorer to identify and analyze threats. In the Security &amp; Compliance Center, go to **Threat management** \> **Explorer**.
 
 ![Go to Threat management \> Explorer](media/cab32fa2-66f1-4ad5-bc1d-2bac4dbeb48c.png)
 
-This article describes a few things you can do with Explorer (there are many more possibilities):
-
-- [See what kinds of malware were detected in email](#see-malware-detected-in-email-by-technology), and by threat protection technology (anti-malware protection, ATP Safe Attachments, etc.)
-
-- [View data about phishing links (URLs)](#view-data-about-phishing-urls-and-click-verdict), and what the click verdicts were (URLs blocked, allowed, or visited despite warnings)
-
-- [Review email messages that were reported as Junk, Not Junk, or Phishing](#review-email-messages-reported-by-users), and identify any trends (such as a larger than usual number of messages reported as Phish) 
 
 ## See malware detected in email by technology
 
@@ -78,6 +79,8 @@ Suppose you want to see email messages that users in your organization have repo
 4. Select an option, such as **Phish**, and then click the **Refresh** button. <br/>![User-reported phish](media/EmailUserReportedReportType.png)<br/> 
 
 The report refreshes to show data about email messages that people in your organization have reported as a phishing attempt. You can use this information to conduct further analysis, and if necessary, adjust your [ATP anti-phishing policies](set-up-anti-phishing-policies.md).
+
+## Start automated investigation and response
 
 ## There's more!
 
