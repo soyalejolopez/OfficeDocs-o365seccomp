@@ -27,7 +27,7 @@ Explorer is a powerful, near real-time tool to help Security Operations teams in
 - [See malware that was detected by Office 365 security features](#see-malware-detected-in-email-by-technology)
 - [View data about phishing URLs and click verdict](#view-data-about-phishing-urls-and-click-verdict)
 - [Start an automated investigation and response process from a view in Explorer](#start-automated-investigation-and-response)
-- ... [and more](#theres-more)!
+- ... [and more](#more-ways-to-use-explorer)!
 
 ## See malware detected in email by technology
 
@@ -70,16 +70,13 @@ The report refreshes to show data about email messages that people in your organ
 
 (NEW!) [Automated investigation and response](automated-investigation-response-office.md), recently added to ATP Plan 2, can save your security operations team a lot of time and effort in investigating and mitigating cyber attacks. In addition to configuring alerts that can trigger a security playbook, you can start an automated investigation and response process from a view in Explorer. 
 
-for details on how this works, see [Example: A security administrator triggers an investigation from Threat Explorer](automated-investigation-response-office.md#example-a-security-administrator-triggers-an-investigation-from-threat-explorer).
+For details on this, see [Example: A security administrator triggers an investigation from Threat Explorer](automated-investigation-response-office.md#example-a-security-administrator-triggers-an-investigation-from-threat-explorer).
 
-## There's more!
+## More ways to use Explorer
 
-In addition to the scenarios outlined in this article, you have many more reporting scenarios available with Explorer. Here are a few examples:
-
+In addition to the scenarios outlined in this article, you have many more reporting options available with Explorer. 
 - [Find and investigate malicious email that was delivered](investigate-malicious-email-that-was-delivered.md)
-
 - [View malicious files detected in SharePoint Online, OneDrive, and Microsoft Teams](malicious-files-detected-in-spo-odb-or-teams.md)
-
 - [Get an overview of the views in Threat Explorer](threat-explorer-views.md)
 
 ## Required licenses and permissions
