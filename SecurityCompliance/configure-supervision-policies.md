@@ -29,7 +29,7 @@ If you don't have an existing Enterprise E5 plan and want to try supervision, yo
   
 Follow these steps to set up and use supervision in your Office 365 organization:
   
-- **Step 1 (optional)** - [Set up groups for Supervision](configure-supervision-policies.md#exampledist)
+- **Step 1 (optional)** - [Set up groups for Supervision (optional)](#step-1---set-up-groups-for-supervision-optional)
 
     Before you start using supervision, determine who will have their communications reviewed and who will perform those reviews. If you want to get started with just a few users to see how supervision works, you can skip setting up groups for now.
 
