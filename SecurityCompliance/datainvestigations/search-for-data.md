@@ -39,7 +39,7 @@ After you run a search, you can view statistics on the items returned by the sea
 
 5. Save and run the search.
 
-After the search is created, a flyout page is displayed with details the search. Note that the **Statistics** and **Preview** buttons are initially grayed out because the search hasn't completed. You can keep track of the progress of by monitoring the **Status** column on the **Searches** tab.
+After the search is created, a flyout page is displayed with details about the search. Note that the **Statistics** and **Preview** buttons are initially grayed out because the search hasn't completed. You can keep track of the progress of by monitoring the **Status** column on the **Searches** tab.
 
 ## View statistics and search results
 
@@ -60,7 +60,7 @@ After you create and start a data investigation search, the tool uses the search
 > [!NOTE]
 > The status values for the **Estimate status** and **Preview status** columns on the **Searches** tab are **Submitted**, **In progress**, and **Successful**. If there is an error with the search, the status of **Failed** is displayed.
 
-## Adding search results to evidence
+## Add search results to evidence
 
 When you're satisfied with the results of a search and you're ready to analyze and remediate those search results, you can add them to an evidence set in the investigation. When you add items to an evidence set on the **Evidence** tab, the following two things occur:
 
