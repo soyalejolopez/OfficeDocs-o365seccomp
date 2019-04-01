@@ -425,10 +425,8 @@
 ## Data Investigations reference
 ### [Limits in Data Investigations](datainvestigations/limits-datainvestigations.md)
 ### [Supported file types](datainvestigations/supported-filetypes-datainvestigations.md)
-### [Manage evidence (datainvestigations/manage-incidients.md)]
 ### [Document metadata fields](datainvestigations/document-metadata-fields.md)
 ### [Manage jobs](datainvestigations/manage-jobs.md)
-### [Manage load sets](datainvestigations/manage-load-sets.md)
 
 # [Search the audit log](search-the-audit-log-in-security-and-compliance.md)
 ## [Turn audit log search on or off](turn-audit-log-search-on-or-off.md)
