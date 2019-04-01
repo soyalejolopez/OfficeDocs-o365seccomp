@@ -128,7 +128,7 @@ Now you're ready to use the AzCopy.exe tool to upload PST files to Office 365. T
     ```
  
     > [!IMPORTANT] 
-    > You must specify a directory as the source location in the previous command; you can't specify an individual PST file. Note that all PST files in the source directory will be uploaded.
+    > You must specify a directory as the source location in the previous command; you can't specify an individual PST file. All PST files in the source directory will be uploaded.
  
     The following table describes the AzCopy.exe parameters and their required values. The information you obtained in the previous step is used in the values for these parameters.
     
