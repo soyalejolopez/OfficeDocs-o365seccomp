@@ -19,45 +19,49 @@ description: ""
 
 # Run analytics to investigate faster
 
-When an evidence collection is large, it can be difficult to review them all. Often times, it includes multiple copies of the same or similar emails or documents. Data Investigations (Preview) provides a number of analytics tools to reduce the volume of documents that needs to be reviewed without any loss in information. To learn more about these capabilities, see:
+When an evidence collection is large, it can be difficult to review them all. A set of evidence often includes multiple copies of the same or similar email messages or documents. Data Investigations (Preview) provides a number of analytics tools that can help you reduce the volume of documents that need to be reviewed without any loss in information. To learn more about these capabilities, see:
 
 - [Near duplicate detection](near-duplicates.md)
+
 - [Email threading](email-threading.md)
+
 - [Themes](themes.md)
 
-To analyze data in evidence:
+To analyze data in an evidence set:
 
-1. Configure analytics settings for your investigation. For more information, see [Configure search and analytics settings](configure-search-analytics-settings.md).
+1. Configure the analytics settings for your investigation. For more information, see [Configure search and analytics settings](configure-search-analytics-settings.md).
 
-2. Open the evidence.
+2. Open the evidence set.
 
-3. Go to "Manage evidence".
+3. Click **Manage evidence**.
 
-4. Click "Analyze".
+4. Under **Analytics**, click **Analyze**.
 
-You can check the progress of analysis in the Jobs tab in your investigation.
+You can check the progress of analysis on the **Jobs** tab in your investigation. The job type that's triggered is named **Running analytics**.
 
- After analysis is completed, you can see a list of exact duplicates or near-duplicates of the document that you're reviewing located on the panel to the right. To select all duplicates of the document you're viewing, you can easily do so using this panel. To learn more about other features on this panel, see [Review data in evidence](review-data-in-evidence.md) You can also run additional queries within your evidence using the outputs of the analysis such as themes; for more information, see [Query the data in evidence](evidence-query.md).
+ After analysis is completed, you can see a list of exact duplicates or near-duplicates of the document that you're reviewing located in the panel on the right. To select all duplicates of the document you're viewing, you can easily do so using this panel. To learn more about other features on this panel, see [Review data in evidence](review-data-in-evidence.md). 
+
+You can also run additional queries within your evidence using the outputs of the analysis such as themes. For more information, see [Query the data in evidence](evidence-query.md).
 
 ## Analytics report
 
-To view a analytics report for your evidence:
+To view an analytics report for your evidence:
 
-1. Open your evidence.
+1. Open the evidence set.
 
-2. Go to "Manage evidence".
+2. Click **Manage evidence**.
 
-3. Click "Report".
+3. Under **Analytics**, click **View report**.
 
 The report has four components from analysis:
 
-- **Breakdown** - Number of raw emails, attachments, and documents found in the evidence.
+- **Breakdown** - The number of raw emails, attachments, and documents found in the evidence set.
 
-- **Emails** - Number of emails that are inclusives, inclusive minuses, inclusive copies, or none of the above.
-        Inclusives: The last email in the email thread that contains all previous history and requires review.
-        Inclusive minuses: The email in the thread that contains one or more different attachments that requires review. 
-        Inclusive copies: The email that is a copy of another inclusive or inclusive minus email (subject and body).
+- **Emails** - The number of eamil messages that are inclusives, inclusive minuses, inclusive copies, or none of the above.
+   - Inclusives: The last message in the email thread that contains all previous history and requires review.
+   - Inclusive minuses: The message in the thread that contains one or more different attachments that requires review.
+   - Inclusive copies: The message that is a copy of another inclusive or inclusive minus message (subject and body).
 
-- **Attachments** - Number of email attachments that are unique or duplicates of a different email attachment within the evidence.
+- **Attachments** - The number of email attachments that are unique or duplicates of a different email attachment within the same evidence same.
 
-- **Documents (excluding email attachments)** - Number of unique documents that require review (e.g. The most representative document of the near-duplicate set, or an exact duplicate of another document).
+- **Documents (excluding email attachments)** - The number of unique documents that require review, for example, the most representative document of the near-duplicate set or an exact duplicate of another document).

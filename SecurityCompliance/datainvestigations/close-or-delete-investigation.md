@@ -17,9 +17,9 @@ ms.assetid:
 description: ""
 ---
 
-# Close or delete a data investigation
+# Close or delete an investigation
 
-## Close a data investigation
+## Close an investigation
 
  After you completed the investigation and took appropriate remedial actions, you may want to preserve the evidence that you collected, but close the case so that you can easily track reference back in the future. Once you close the investigation, it is still listed on the Data investigations page in the Security & Compliance Center. The details, holds, searches, and members of a closed case are retained. At a later date, you can re-open closed investigations.
 
@@ -30,12 +30,12 @@ To close an investigation:
 2. Click  **Close investigation**. 
 
 
-## Delete a data investigation
+## Delete an investigation
 
-Sometimes, you may want to destroy the evidence because it contains sensitive or confidential data that you don't want to keep. To avoid further data spillage, you should consider deleting the investigation.
+Sometimes you may want to destroy the evidence because it contains sensitive or confidential data that you don't want to keep. To avoid further data spillage, you should consider deleting the investigation.
 
 To delete an investigation:
 
 1. On the **Settings** tab, click **Investigation information**.
 
-2. Click  **Delete case**. 
+2. Click  **Delete investigation**. 
