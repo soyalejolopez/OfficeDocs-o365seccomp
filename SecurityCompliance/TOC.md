@@ -396,18 +396,18 @@
 ### [Build search queries](datainvestigations/build-search-queries.md)
 ### [Search statistics](datainvestigations/search-statistics.md)
 
-## [Run analytics to investigate faster](datainvestigations/run-analytics-to-investigate-faster.md)
-### [Email threading](datainvestigations/email-threading.md)
-### [Near duplicate detection](datainvestigations/near-duplicates.md)
-### [Themes](datainvestigations/themes.md)
-
 ## [Review the data in evidence](datainvestigations/review-data-in-evidence.md)
 ### [Query the data](datainvestigations/evidence-query.md)
 ### [Tag documents](datainvestigations/tag-documents.md)
 ### [Annotate and redact documents](datainvestigations/annotate-and-redact-documents.md)
 ### [Load non-Office 365 data](datainvestigations/load-non-office365-data.md)
-### [Use the Relevance module to analyze data](datainvestigations/use-relevance-module.md)
 ### [Error remediation when processing data](datainvestigations/error-remediation.md)
+
+## [Run analytics to investigate faster](datainvestigations/run-analytics-to-investigate-faster.md)
+### [Email threading](datainvestigations/email-threading.md)
+### [Near duplicate detection](datainvestigations/near-duplicates.md)
+### [Themes](datainvestigations/themes.md)
+### [Use the Relevance module](datainvestigations/use-relevance-module.md)
 
 ## [Manage people of interest in an investigation](datainvestigations/manage-people-of-interest.md)
 ### [Index the data of people in an investigation](datainvestigations/index-data-people-of-interest.md)
