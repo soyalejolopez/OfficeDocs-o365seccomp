@@ -3,7 +3,7 @@ title: "Turn Office 365 audit log search on or off"
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 10/18/2017
+ms.date: 
 ms.audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
